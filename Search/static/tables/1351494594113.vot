@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_AJ_119_1448_table2" name="J/AJ/119/1448/table2">
+   <DESCRIPTION>
+    Field star sample
+   </DESCRIPTION>
+   <FIELD ID="HR" datatype="short" name="HR" ucd="ID_ALTERNATIVE" width="4">
+    <DESCRIPTION>
+     HR number of star
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="13" datatype="char" name="SpType" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     MK Spectral type of star from SIMBAD
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Teff" datatype="short" name="Teff" ucd="PHYS_TEMP_EFFEC" unit="K" width="4">
+    <DESCRIPTION>
+     Effective temperature (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="log_g_" datatype="float" name="log_g_" precision="2" ucd="PHYS_GRAVITY_SURFACE" unit="[cm/s2]" width="5">
+    <DESCRIPTION>
+     Log of the surface gravity (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="f_log_g_" arraysize="1" datatype="char" name="f_log_g_" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [fhi] Estimated value of log(g) (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="__Fe_H_" datatype="float" name="__Fe_H_" precision="2" ucd="PHYS_ABUND_FE/H" unit="[Sun]" width="5">
+    <DESCRIPTION>
+     Log of the iron to hydrogen abundance relative to solar (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="f__Fe_H_" arraysize="1" datatype="char" name="f__Fe_H_" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [e] Indicates solar metallicity has been assumed
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="r_UBV" datatype="unsignedByte" name="r_UBV" ucd="REFER_CODE" width="1">
+    <DESCRIPTION>
+     ? The UBV reference code (3) [NULL integer written as an empty
+     string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="r_VRI" datatype="unsignedByte" name="r_VRI" ucd="REFER_CODE" width="1">
+    <DESCRIPTION>
+     ? The VRI reference code (3) [NULL integer written as an empty
+     string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="r_VJHK" datatype="unsignedByte" name="r_VJHK" ucd="REFER_CODE" width="1">
+    <DESCRIPTION>
+     ? The VJHK reference code (3) [NULL integer written as an empty
+     string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="f_VJHK" arraysize="1" datatype="char" name="f_VJHK" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [g] No H band photometry was given
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Notes" arraysize="10" datatype="char" name="Notes" ucd="NOTE">
+    <DESCRIPTION>
+     Further notes on the star (4)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right Ascension (J2000) from SIMBAD (not part of the original
+     data)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (J2000) from SIMBAD (not part of the original data)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>7615</TD>
+      <TD>K0 III</TD>
+      <TD>4887</TD>
+      <TD> 2.50</TD>
+      <TD/>
+      <TD> 0.11</TD>
+      <TD/>
+      <TD>1</TD>
+      <TD>4</TD>
+      <TD>4</TD>
+      <TD>g</TD>
+      <TD>D</TD>
+      <TD>Simbad</TD>
+      <TD>299.07655</TD>
+      <TD> 35.08342</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

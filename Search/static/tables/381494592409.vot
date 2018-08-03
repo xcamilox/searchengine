@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="V_70A_catalog" name="V/70A/catalog">
+   <DESCRIPTION>
+    The Catalogue
+   </DESCRIPTION>
+   <FIELD ID="Name" arraysize="8" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Identifier ; see remarks.
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAB1950" arraysize="8" datatype="char" name="RAB1950" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     ? Right Ascension B1950
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="DEB1950" arraysize="8" datatype="char" name="DEB1950" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     ? Declination B1950
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="pm" datatype="float" name="pm" precision="3" ucd="POS_PM_NON-EQ" unit="arcs.yr-1" width="6">
+    <DESCRIPTION>
+     ? Total proper motion
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="pmPA" datatype="float" name="pmPA" precision="1" ucd="POS_PM_PA" unit="deg" width="5">
+    <DESCRIPTION>
+     ? Direction angle of proper motion
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="RV" datatype="float" name="RV" precision="1" ucd="VELOC_HC" unit="km.s-1" width="6">
+    <DESCRIPTION>
+     ? Radial velocity
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Sp" arraysize="12" datatype="char" name="Sp" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     Spectral type or color class
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_JHN_V" unit="mag" width="6">
+    <DESCRIPTION>
+     Apparent magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="B-V" datatype="float" name="B-V" precision="2" ucd="PHOT_JHN_B-V" unit="mag" width="5">
+    <DESCRIPTION>
+     ? color
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="plx" datatype="float" name="plx" precision="1" ucd="POS_PARLX_TRIG" unit="mas" width="6">
+    <DESCRIPTION>
+     ? Resulting parallax
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="_RA.icrs" arraysize="10" datatype="char" name="_RA.icrs" ucd="POS_EQ_RA_OTHER">
+    <DESCRIPTION>
+     Right ascension (ICRS) at Epoch=J2000, proper motions taken into
+     account  (computed by VizieR, not part of the original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" arraysize="9" datatype="char" name="_DE.icrs" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (ICRS) at Epoch=J2000, proper motions taken into
+     account  (computed by VizieR, not part of the original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>NN 3840</TD>
+      <TD>14 15 26</TD>
+      <TD>-00 17.5</TD>
+      <TD> 0.382</TD>
+      <TD>226.0</TD>
+      <TD/>
+      <TD>k-m</TD>
+      <TD> 12.76</TD>
+      <TD> 1.59</TD>
+      <TD>  58.0</TD>
+      <TD>14 17 59.1</TD>
+      <TD>-00 31 32</TD>
+     </TR>
+     <TR>
+      <TD>NN 3843</TD>
+      <TD>14 18 40</TD>
+      <TD>-00 53.1</TD>
+      <TD> 0.625</TD>
+      <TD>163.6</TD>
+      <TD/>
+      <TD>M3</TD>
+      <TD> 13.15</TD>
+      <TD> 1.66</TD>
+      <TD>  59.0</TD>
+      <TD>14 21 15.0</TD>
+      <TD>-01 07 17</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

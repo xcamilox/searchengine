@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="V_86_ceddu2" name="V/86/ceddu2">
+   <DESCRIPTION>
+    Catalogue of Extinctions and Distances Derived from UBV data (1)
+   </DESCRIPTION>
+   <FIELD ID="Star" arraysize="12" datatype="char" name="Star" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Identifier, either HD or BD/CD/CPD
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="MK" arraysize="32" datatype="char" name="MK" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     The full MK spectral type including all spectrum peculiarities
+     written in a standard format
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="r_MK" arraysize="1" datatype="char" name="r_MK" ucd="REFER_CODE">
+    <DESCRIPTION>
+     [HJBSK] Source of MK (see table ceddu1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAB2000" arraysize="8" datatype="char" name="RAB2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension B2000
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_RAB2000" arraysize="1" datatype="char" name="n_RAB2000" ucd="NOTE">
+    <DESCRIPTION>
+     [*] An '*' exists if RA was originally expressed in tenths of
+     minutes
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEB2000" arraysize="8" datatype="char" name="DEB2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination B2000
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>HD    189148</TD>
+      <TD>F6.      V</TD>
+      <TD>J</TD>
+      <TD>19 57 13</TD>
+      <TD/>
+      <TD>+35 01.9</TD>
+     </TR>
+     <TR>
+      <TD>HD    189983</TD>
+      <TD>B8.      V</TD>
+      <TD>J</TD>
+      <TD>20 01 34</TD>
+      <TD/>
+      <TD>+34 35.0</TD>
+     </TR>
+     <TR>
+      <TD>HD    227228</TD>
+      <TD>B7.      IV</TD>
+      <TD>J</TD>
+      <TD>20 02 16</TD>
+      <TD/>
+      <TD>+34 42.4</TD>
+     </TR>
+     <TR>
+      <TD>HD    227073</TD>
+      <TD>G2.      V</TD>
+      <TD>B</TD>
+      <TD>20 00 03</TD>
+      <TD>*</TD>
+      <TD>+35 05.0</TD>
+     </TR>
+     <TR>
+      <TD>HD    227290</TD>
+      <TD>G0.      V</TD>
+      <TD>J</TD>
+      <TD>20 02 41</TD>
+      <TD/>
+      <TD>+34 50.1</TD>
+     </TR>
+     <TR>
+      <TD>HD    189688</TD>
+      <TD>K7.      III</TD>
+      <TD>B</TD>
+      <TD>19 59 56</TD>
+      <TD/>
+      <TD>+35 17.8</TD>
+     </TR>
+     <TR>
+      <TD>HD    227150</TD>
+      <TD>G8.      III</TD>
+      <TD>J</TD>
+      <TD>20 01 30</TD>
+      <TD/>
+      <TD>+35 08.4</TD>
+     </TR>
+     <TR>
+      <TD>HD    188969</TD>
+      <TD>G5.      III</TD>
+      <TD>B</TD>
+      <TD>19 56 25</TD>
+      <TD/>
+      <TD>+35 47.4</TD>
+     </TR>
+     <TR>
+      <TD>HD    190114</TD>
+      <TD>B8.      V</TD>
+      <TD>J</TD>
+      <TD>20 02 02</TD>
+      <TD/>
+      <TD>+35 20.0</TD>
+     </TR>
+     <TR>
+      <TD>HD    190113</TD>
+      <TD>G5.      I   B</TD>
+      <TD>S</TD>
+      <TD>20 02 03</TD>
+      <TD/>
+      <TD>+35 38.5</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

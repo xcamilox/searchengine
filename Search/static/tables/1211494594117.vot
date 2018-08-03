@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_A_A_516_A29_hevelius" name="J/A+A/516/A29/hevelius">
+   <DESCRIPTION>
+    Star catalogue of Hevelius (1690)
+   </DESCRIPTION>
+   <FIELD ID="H" datatype="short" name="H" ucd="ID_NUMBER" width="4">
+    <DESCRIPTION>
+     Sequence number in Hevelius 1690 Catalogue
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="K" datatype="short" name="K" ucd="ID_NUMBER" width="4">
+    <DESCRIPTION>
+     ? Sequence number in Brahe/Kepler Catalogue (1) [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="C" datatype="short" name="C" ucd="ID_NUMBER" width="2">
+    <DESCRIPTION>
+     Sequence number of constellation
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="cst" arraysize="3" datatype="char" name="cst" ucd="ID_CONSTEL">
+    <DESCRIPTION>
+     Abbreviation of constellation name
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="N" datatype="short" name="N" ucd="ID_NUMBER" width="2">
+    <DESCRIPTION>
+     Sequence number of star in constellation
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="OT" datatype="short" name="OT" ucd="ID_NUMBER" width="2">
+    <DESCRIPTION>
+     Ordo Tychonis (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="VH" datatype="unsignedByte" name="VH" ucd="PHOT_MAG_EYE" width="1">
+    <DESCRIPTION>
+     Magnitude as given by Hevelius (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="q_VH" arraysize="1" datatype="char" name="q_VH" ucd="CODE_QUALITY">
+    <DESCRIPTION>
+     Magnitude qualifier (4)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Elon" arraysize="8" datatype="char" name="Elon" ucd="POS_EC_LON" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     ? Zodiacal sign of ecliptic longitude (5)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="Elat" arraysize="6" datatype="char" name="Elat" ucd="POS_EC_LAT" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     ? Degrees of ecliptic latitude (6)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_IDENTIFIER" width="6">
+    <DESCRIPTION>
+     ? Hipparcos number of identification [NULL integer written as an
+     empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="I" datatype="unsignedByte" name="I" ucd="CODE_MISC" width="1">
+    <DESCRIPTION>
+     Flag indicating quality of identification (7)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="B" datatype="unsignedByte" name="B" ucd="CODE_MISC" width="1">
+    <DESCRIPTION>
+     Flag indicating comparison with Brahe (8)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="R" datatype="unsignedByte" name="R" ucd="CODE_MISC" width="1">
+    <DESCRIPTION>
+     Flag indicating comparison with Rybka (9)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="1" ucd="PHOT_JHN_V" unit="mag" width="4">
+    <DESCRIPTION>
+     ? Magnitude of Hipparcos identification
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Dlon" datatype="float" name="Dlon" precision="1" ucd="POS_OFFSET" unit="min" width="6">
+    <DESCRIPTION>
+     ? Difference in longitude: Hipparcos-Hevelius
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Dlat" datatype="float" name="Dlat" precision="1" ucd="POS_OFFSET" unit="arcm" width="6">
+    <DESCRIPTION>
+     ? Difference in latitude: Hipparcos-Hevelius
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Delta" datatype="float" name="Delta" precision="1" ucd="POS_OFFSET" unit="arcm" width="6">
+    <DESCRIPTION>
+     ? Offset between Hevelius star and identification
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA.icrs" arraysize="12" datatype="char" name="_RA.icrs" ucd="POS_EQ_RA_OTHER" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (ICRS) (computed by VizieR, not part of the
+     original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" arraysize="9" datatype="char" name="_DE.icrs" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (ICRS) (computed by VizieR, not part of the original
+     data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>600</TD>
+      <TD>197</TD>
+      <TD>22</TD>
+      <TD>Cyg</TD>
+      <TD>9</TD>
+      <TD>3</TD>
+      <TD>4</TD>
+      <TD/>
+      <TD>308:16.9</TD>
+      <TD>+54:22</TD>
+      <TD>98110</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD> 3.9</TD>
+      <TD>  -2.1</TD>
+      <TD>  -4.0</TD>
+      <TD>   4.2</TD>
+      <TD>Simbad</TD>
+      <TD>21 17 00.144</TD>
+      <TD>+42 39 56</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

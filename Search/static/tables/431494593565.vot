@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="V_135A_catalog" name="V/135A/catalog">
+   <DESCRIPTION>
+    The Catalogue (with fixes of July 2013)
+   </DESCRIPTION>
+   <FIELD ID="N" arraysize="1" datatype="char" name="N" ucd="DATA_LINK">
+    <DESCRIPTION>
+     {\bf*} indicates a note detailed in file
+     "\begin{tex}\vFile{V/135A/./notes.dat}{notes.dat}\end{tex}"
+     \ifnum\Vphase=4\else(\glutag{Cat.file,w V/135A/notes.htx|All
+     notes})\fi
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="G" datatype="short" name="G" ucd="ID_MAIN" width="3">
+    <DESCRIPTION>
+     [1/393]? Number in printed Uranometria Argentina (blank if not in
+     Gould Uranometria) [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="cst" arraysize="3" datatype="char" name="cst" ucd="ID_CONSTEL">
+    <DESCRIPTION>
+     Three letter abbreviation of the constellation name under which
+     the star appears in the Uranometria Argentina
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="F" datatype="short" name="F" ucd="ID_ALTERNATIVE" width="3">
+    <DESCRIPTION>
+     ? Star number in John Flamsteed's "Historia Coelestis Brittanica"
+     [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="f_F" arraysize="1" datatype="char" name="f_F" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [*] An asterisk indicates this star has a letter which appears in
+     some catalogues but not in the Uranometria Argentina, or therein
+     under a different letter.
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="let" arraysize="9" datatype="char" name="let" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Greek or Roman letter, in some cases with a following number,
+     commonly associated with the star
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_JHN_V" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Magnitude of the star in the V system
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Spec" arraysize="9" datatype="char" name="Spec" ucd="SPECT_SP-INDEX">
+    <DESCRIPTION>
+     MK spectral class (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="10" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     ? Right Ascension J2000
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="9" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     ? Declnation J2000
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="HD" datatype="int" name="HD" ucd="ID_ALTERNATIVE" width="6">
+    <DESCRIPTION>
+     ? Star number in the Henry Draper (HD) catalogue [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="RA1875" arraysize="8" datatype="char" name="RA1875" ucd="POS_EQ_RA_OTHER" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     ? Right Ascension epoch 1875 as printed in the Uranometria
+     Argentina.
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="DE1875" arraysize="8" datatype="char" name="DE1875" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     ? Declination epoch 1875 as printed in the Uranometria Argentina.
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="b" arraysize="1" datatype="char" name="b" ucd="REMARKS">
+    <DESCRIPTION>
+     [#] Pound signs (#) on two or more successive lines indicate that
+     in the Uranometria Argentina these stars are connected with curly
+     braces as appearing like a single star through a low power glass
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Amag" arraysize="5" datatype="char" name="Amag" ucd="PHOT_MAG_OPTICAL">
+    <DESCRIPTION>
+     Magnitude as printed in the Uranometria Argentina
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Comm" arraysize="24" datatype="char" name="Comm" ucd="REMARKS">
+    <DESCRIPTION>
+     Notes as printed in the Uranometria Argentina (5)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Name" arraysize="11" datatype="char" name="Name" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Name used to identify objects (G1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD/>
+      <TD>239</TD>
+      <TD>Vir</TD>
+      <TD>-32768</TD>
+      <TD/>
+      <TD/>
+      <TD> 6.19</TD>
+      <TD>A7V</TD>
+      <TD>14 19 41.0</TD>
+      <TD>+00 23 04</TD>
+      <TD>125489</TD>
+      <TD>14 13 18</TD>
+      <TD>+00 57.7</TD>
+      <TD/>
+      <TD>6.5</TD>
+      <TD>var?</TD>
+      <TD>239G Vir</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD/>
+      <TD>242</TD>
+      <TD>Vir</TD>
+      <TD>-32768</TD>
+      <TD/>
+      <TD/>
+      <TD> 6.70</TD>
+      <TD>A0</TD>
+      <TD>14 22 46.4</TD>
+      <TD>-00 38 14</TD>
+      <TD>125981</TD>
+      <TD>14 16 22</TD>
+      <TD>-00 03.9</TD>
+      <TD/>
+      <TD>6.8</TD>
+      <TD/>
+      <TD>242G Vir</TD>
+      <TD>Simbad</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

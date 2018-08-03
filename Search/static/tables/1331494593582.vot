@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_MNRAS_453_3474_table1" name="J/MNRAS/453/3474/table1">
+   <DESCRIPTION>
+    Binary properties from MECI, including 1558 LC from ASAS, 350 LC
+    from NSVS, and 230 LC from LINEAR
+   </DESCRIPTION>
+   <FIELD ID="Name" arraysize="20" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Source name (ASAS HHMMSS+DDMM.s, NSVS NNNNNNN or LINEAR NNNNNNNN)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="6" ucd="POS_EQ_RA_MAIN" unit="deg" width="10">
+    <DESCRIPTION>
+     Right ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="6" ucd="POS_EQ_DEC_MAIN" unit="deg" width="10">
+    <DESCRIPTION>
+     Declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Per" datatype="float" name="Per" precision="3" ucd="TIME_PERIOD" unit="d" width="7">
+    <DESCRIPTION>
+     Period
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="l_M1" datatype="short" name="l_M1" ucd="CODE_LIMIT" width="2">
+    <DESCRIPTION>
+     [-3/-1]? Limit flag on M1 (1) [NULL integer written as an empty
+     string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="M1" datatype="float" name="M1" precision="3" ucd="PHYS_MASS_MISC" unit="Msun" width="6">
+    <DESCRIPTION>
+     Mass of the primary
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_M1" datatype="float" name="e_M1" precision="3" ucd="ERROR" unit="Msun" width="6">
+    <DESCRIPTION>
+     ? Error on M1
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="l_M2" datatype="short" name="l_M2" ucd="CODE_LIMIT" width="2">
+    <DESCRIPTION>
+     [-3/-1]? Limit flag on M2 (1) [NULL integer written as an empty
+     string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="M2" datatype="float" name="M2" precision="3" ucd="PHYS_MASS_MISC" unit="Msun" width="6">
+    <DESCRIPTION>
+     Mass of the secondary
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_M2" datatype="float" name="e_M2" precision="3" ucd="ERROR" unit="Msun" width="6">
+    <DESCRIPTION>
+     ? Error on M2
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="l_Age" datatype="short" name="l_Age" ucd="CODE_LIMIT" width="2">
+    <DESCRIPTION>
+     [-3/-1]? Limit flag on Age (1) [NULL integer written as an empty
+     string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="Age" datatype="float" name="Age" precision="3" ucd="TIME_AGE" unit="Gyr" width="6">
+    <DESCRIPTION>
+     Age
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_Age" datatype="float" name="e_Age" precision="3" ucd="ERROR" unit="Gyr" width="6">
+    <DESCRIPTION>
+     ? Error on Age
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>LINEAR      11496529</TD>
+      <TD>214.878403</TD>
+      <TD> -1.103259</TD>
+      <TD>  0.717</TD>
+      <TD>-32768</TD>
+      <TD> 1.428</TD>
+      <TD> 0.188</TD>
+      <TD>-32768</TD>
+      <TD> 0.906</TD>
+      <TD> 0.483</TD>
+      <TD>-32768</TD>
+      <TD> 0.011</TD>
+      <TD> 0.015</TD>
+      <TD>Simbad</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

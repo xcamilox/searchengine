@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="III_252_table8" name="III/252/table8">
+   <DESCRIPTION>
+    Main catalogue data
+   </DESCRIPTION>
+   <FIELD ID="n_HIP" arraysize="1" datatype="char" name="n_HIP" ucd="DATA_LINK">
+    <DESCRIPTION>
+     indicates a velocity standard (either IAU standard or secondary
+     standard)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     Hipparcos number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HD" datatype="int" name="HD" ucd="ID_ALTERNATIVE" width="6">
+    <DESCRIPTION>
+     ? HD number [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="RV" datatype="float" name="RV" precision="1" ucd="VELOC_HC" unit="km.s-1" width="7">
+    <DESCRIPTION>
+     Mean radial velocity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_RV" datatype="float" name="e_RV" precision="1" ucd="ERROR" unit="km.s-1" width="4">
+    <DESCRIPTION>
+     Mean error of radial velocity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="o_RV" datatype="short" name="o_RV" ucd="NUMBER" width="2">
+    <DESCRIPTION>
+     Number of publications used
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="eRV" datatype="float" name="eRV" precision="1" ucd="FIT_STDEV" unit="km.s-1" width="4">
+    <DESCRIPTION>
+     ? Standard deviation of RV measurements (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_JHN_V" unit="mag" width="5">
+    <DESCRIPTION>
+     Johnson V magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HIPdata" arraysize="7" datatype="char" name="HIPdata" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the HIP data
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right Ascension (J2000) from SIMBAD (not part of the original
+     data)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (J2000) from SIMBAD (not part of the original data)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD/>
+      <TD>70022</TD>
+      <TD>125489</TD>
+      <TD>  -23.8</TD>
+      <TD> 3.3</TD>
+      <TD>2</TD>
+      <TD> 3.0</TD>
+      <TD> 6.18</TD>
+      <TD>HIPdata</TD>
+      <TD>Simbad</TD>
+      <TD>214.92063</TD>
+      <TD>  0.38433</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

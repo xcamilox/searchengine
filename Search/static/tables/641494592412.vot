@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJ_765_154_RRab" name="J/ApJ/765/154/RRab">
+   <DESCRIPTION>
+    RRab stars from Mount Lemmon Survey (MLS) and Catalina Schmidt
+    Survey (CSS)
+   </DESCRIPTION>
+   <FIELD ID="Srv" arraysize="3" datatype="char" name="Srv" ucd="ID_SURVEY">
+    <DESCRIPTION>
+     Name of survey: MLS = Mount Lemmon Survey, CSS = Catalina Schmidt
+     Survey
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Name" arraysize="16" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Identification of RRab star (JHHMMSS.s+DDMMSS) \dicS{[DCD2013]
+     MLS JHHMMSS.s+DDMMSS} or \dicS{[DCD2013] CSS JHHMMSS.s+DDMMSS} in
+     Simbad
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right Ascension in decimal degrees (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination in decimal degrees (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="__Vmag_" datatype="float" name="__Vmag_" precision="2" ucd="PHOT_MAG_V" unit="mag" width="5">
+    <DESCRIPTION>
+     [11.5/21.2] Average magnitude from Fourier light curve fit
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Per" datatype="double" name="Per" precision="6" ucd="TIME_PERIOD" unit="d" width="9">
+    <DESCRIPTION>
+     [0.26/0.95] Period of RRab star
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="f_Per" arraysize="1" datatype="char" name="f_Per" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [ab] Flag: a=uncertain period, b=candidate Blazkho RR Lyrae
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vamp" datatype="float" name="Vamp" precision="2" ucd="VAR_AMPLITUDE_VALUE" unit="mag" width="5">
+    <DESCRIPTION>
+     [0.2/1.9] Fourier fit amplitude to observed variation
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Nph" datatype="short" name="Nph" ucd="NUMBER" width="3">
+    <DESCRIPTION>
+     [42/464] Number of photometric observations
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dist" datatype="float" name="Dist" precision="2" ucd="POS_GAL_HC" unit="kpc" width="6">
+    <DESCRIPTION>
+     [1.4/123] Heliocentric distance of star
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Av" datatype="float" name="Av" precision="3" ucd="PHOT_EXTINCTION_ISM" unit="mag" width="6">
+    <DESCRIPTION>
+     [0.01/4.7] V band extinction (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="OName" arraysize="28" datatype="char" name="OName" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Alternative identifier if known
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>CSS</TD>
+      <TD>J142257.3-002922</TD>
+      <TD>215.73909</TD>
+      <TD> -0.48951</TD>
+      <TD>18.74</TD>
+      <TD> 0.525032</TD>
+      <TD/>
+      <TD> 0.69</TD>
+      <TD>245</TD>
+      <TD> 40.88</TD>
+      <TD> 0.082</TD>
+      <TD>V0550 Vir</TD>
+      <TD>Simbad</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

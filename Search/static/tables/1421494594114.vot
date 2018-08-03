@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_AJ_150_88_table1" name="J/AJ/150/88/table1">
+   <DESCRIPTION>
+    Program stars
+   </DESCRIPTION>
+   <FIELD ID="Name" arraysize="23" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Identifier from SIMBAD database
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="m_CCDM" arraysize="3" datatype="char" name="m_CCDM" ucd="CODE_MULT_INDEX">
+    <DESCRIPTION>
+     CCDM component (A, AB, ABC, AC, AP, B, or D)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sce" arraysize="3" datatype="char" name="Sce" ucd="CODE_MISC">
+    <DESCRIPTION>
+     Source of spectroscopic material (S=Sandiford, E=ELODIE, H=HARPS,
+     U=UVES) (G1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Key" arraysize="23" datatype="char" name="Key" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Key name(s) (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpT" arraysize="14" datatype="char" name="SpT" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     Simbad spectral type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Type" arraysize="14" datatype="char" name="Type" ucd="CLASS_OBJECT">
+    <DESCRIPTION>
+     Simbad object type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="3" ucd="PHOT_MAG_V" unit="mag" width="6">
+    <DESCRIPTION>
+     [-0.05/12.2]? Simbad V-band magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="B-V" datatype="float" name="B-V" precision="3" ucd="PHOT_CI_B-V" unit="mag" width="6">
+    <DESCRIPTION>
+     [0/2.1]? Simbad (B-V) color index
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="plx" datatype="float" name="plx" precision="2" ucd="POS_PARLX_MISC" unit="arcs" width="6">
+    <DESCRIPTION>
+     [-0.4/111]? Simbad parallax
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Dist" datatype="float" name="Dist" precision="1" ucd="POS_GAL_HC" unit="pc" width="6">
+    <DESCRIPTION>
+     [9/3125]? Simbad distance
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="RV" datatype="float" name="RV" precision="2" ucd="VELOC_HC" unit="km.s-1" width="7">
+    <DESCRIPTION>
+     [-184.4/183.4]? Simbad radial velocity
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Mass" arraysize="1" datatype="char" name="Mass" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display reddening, temperature, mass, and age in Table2, if any
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="L07" datatype="short" name="L07" ucd="NUMBER" width="3">
+    <DESCRIPTION>
+     Display the data from Luck et al. 2007 (cat. J/AJ/133/2464) [NULL
+     integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Position from SIMBAD database (right ascension part)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Position from SIMBAD database (declination part)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>* eta Cyg</TD>
+      <TD>A</TD>
+      <TD>E</TD>
+      <TD>hd188947</TD>
+      <TD>K0III</TD>
+      <TD>*in**</TD>
+      <TD> 3.880</TD>
+      <TD> 1.030</TD>
+      <TD> 24.17</TD>
+      <TD>  41.4</TD>
+      <TD> -25.87</TD>
+      <TD>*</TD>
+      <TD>0</TD>
+      <TD>299.07655</TD>
+      <TD> 35.08342</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

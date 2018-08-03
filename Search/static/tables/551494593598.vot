@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJ_582_1011_table2" name="J/ApJ/582/1011/table2">
+   <DESCRIPTION>
+    Revised NLTT Catalog (Dec&gt;-33{deg})
+   </DESCRIPTION>
+   <FIELD ID="NLTT" datatype="int" name="NLTT" ucd="ID_MAIN" width="5">
+    <DESCRIPTION>
+     [1/58847] The NLTT number (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="m_NLTT" arraysize="1" datatype="char" name="m_NLTT" ucd="CODE_MULT_INDEX">
+    <DESCRIPTION>
+     [ABC] The NLTT binary component
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="6" ucd="POS_EQ_RA_MAIN" unit="deg" width="10">
+    <DESCRIPTION>
+     Right ascension (decimal deg) (J2000) (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="6" ucd="POS_EQ_DEC_MAIN" unit="deg" width="10">
+    <DESCRIPTION>
+     Declination (decimal deg) (J2000) (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="float" name="pmRA" precision="4" ucd="POS_EQ_PMRA" unit="arcs.yr-1" width="7">
+    <DESCRIPTION>
+     Proper motion in right ascension
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="float" name="pmDE" precision="4" ucd="POS_EQ_PMDEC" unit="arcs.yr-1" width="7">
+    <DESCRIPTION>
+     Proper motion in declination
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_MAG_V" unit="mag" width="5">
+    <DESCRIPTION>
+     The V band magnitude (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="V-J" datatype="float" name="V-J" precision="2" ucd="PHOT_JHN_V-J" unit="mag" width="5">
+    <DESCRIPTION>
+     ? The (V-J) color (4)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="ICode" datatype="short" name="ICode" ucd="REFER_CODE" width="3">
+    <DESCRIPTION>
+     3-digits source-of-information code (5)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_CROSSID" width="6">
+    <DESCRIPTION>
+     The Hipparcos number (6)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="ID" arraysize="12" datatype="char" name="ID" ucd="ID_CROSSID">
+    <DESCRIPTION>
+     Identifier from TDSC, Tycho-2, or Starnet (7)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="BInd" datatype="unsignedByte" name="BInd" ucd="NOTE" width="1">
+    <DESCRIPTION>
+     The binarity indicator (11)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>36864</TD>
+      <TD/>
+      <TD>214.463870</TD>
+      <TD>  0.158730</TD>
+      <TD>-0.2110</TD>
+      <TD> 0.0960</TD>
+      <TD>12.62</TD>
+      <TD/>
+      <TD>444</TD>
+      <TD>0</TD>
+      <TD>317  652</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>36900</TD>
+      <TD/>
+      <TD>214.612120</TD>
+      <TD> -0.115444</TD>
+      <TD>-0.0996</TD>
+      <TD>-0.1594</TD>
+      <TD>10.56</TD>
+      <TD/>
+      <TD>121</TD>
+      <TD>69911</TD>
+      <TD/>
+      <TD>0</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

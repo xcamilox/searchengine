@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="I_122_bd" name="I/122/bd">
+   <DESCRIPTION>
+    The Bonner Durchmusterung catalog
+   </DESCRIPTION>
+   <FIELD ID="zonesign" arraysize="1" datatype="char" name="zonesign" ucd="ID_MAIN:1">
+    <DESCRIPTION>
+     [+-]The sign of the declination zone
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="zone" datatype="short" name="zone" ucd="ID_MAIN:2" unit="deg" width="2">
+    <DESCRIPTION>
+     The declination zone
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="num" datatype="short" name="num" ucd="ID_MAIN:3" width="5">
+    <DESCRIPTION>
+     The number of the star within the zone
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="suppl" arraysize="1" datatype="char" name="suppl" ucd="NOTE">
+    <DESCRIPTION>
+     [a-c D*?M] Note
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="mag" datatype="float" name="mag" precision="1" ucd="PHOT_MAG_EYE" unit="mag" width="4">
+    <DESCRIPTION>
+     Estimated visual magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RA1855" arraysize="10" datatype="char" name="RA1855" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension 1855
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DE1855" arraysize="8" datatype="char" name="DE1855" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination 1855
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA.icrs" arraysize="10" datatype="char" name="_RA.icrs" ucd="POS_EQ_RA_OTHER" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (ICRS) (computed by VizieR, not part of the
+     original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" arraysize="9" datatype="char" name="_DE.icrs" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (ICRS) (computed by VizieR, not part of the original
+     data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>-</TD>
+      <TD>0</TD>
+      <TD>2808</TD>
+      <TD/>
+      <TD> 9.5</TD>
+      <TD>14 11 52.4</TD>
+      <TD>-00 35.8</TD>
+      <TD>14 19 19.8</TD>
+      <TD>-01 16 01</TD>
+     </TR>
+     <TR>
+      <TD>-</TD>
+      <TD>0</TD>
+      <TD>2807</TD>
+      <TD/>
+      <TD> 9.5</TD>
+      <TD>14 11 36.2</TD>
+      <TD>-00 27.6</TD>
+      <TD>14 19 03.3</TD>
+      <TD>-01 07 51</TD>
+     </TR>
+     <TR>
+      <TD>-</TD>
+      <TD>0</TD>
+      <TD>2806</TD>
+      <TD/>
+      <TD> 9.5</TD>
+      <TD>14 10 48.6</TD>
+      <TD>-00 25.9</TD>
+      <TD>14 18 15.7</TD>
+      <TD>-01 06 14</TD>
+     </TR>
+     <TR>
+      <TD>-</TD>
+      <TD>0</TD>
+      <TD>2803</TD>
+      <TD/>
+      <TD> 9.5</TD>
+      <TD>14 10 21.9</TD>
+      <TD>-00 23.1</TD>
+      <TD>14 17 48.9</TD>
+      <TD>-01 03 29</TD>
+     </TR>
+     <TR>
+      <TD>-</TD>
+      <TD>0</TD>
+      <TD>2812</TD>
+      <TD/>
+      <TD> 9.5</TD>
+      <TD>14 13 09.0</TD>
+      <TD>-00 02.5</TD>
+      <TD>14 20 35.4</TD>
+      <TD>-00 42 34</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>0</TD>
+      <TD>3171</TD>
+      <TD/>
+      <TD> 7.0</TD>
+      <TD>14 15 21.3</TD>
+      <TD>+00 01.5</TD>
+      <TD>14 22 47.5</TD>
+      <TD>-00 38 18</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>0</TD>
+      <TD>3172</TD>
+      <TD/>
+      <TD> 9.5</TD>
+      <TD>14 15 38.7</TD>
+      <TD>+00 18.1</TD>
+      <TD>14 23 04.4</TD>
+      <TD>-00 21 40</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>0</TD>
+      <TD>3157</TD>
+      <TD/>
+      <TD> 9.5</TD>
+      <TD>14 08 44.7</TD>
+      <TD>+00 19.4</TD>
+      <TD>14 16 10.4</TD>
+      <TD>-00 21 11</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>0</TD>
+      <TD>3170</TD>
+      <TD/>
+      <TD> 9.3</TD>
+      <TD>14 15 06.2</TD>
+      <TD>+00 19.6</TD>
+      <TD>14 22 31.9</TD>
+      <TD>-00 20 14</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>0</TD>
+      <TD>3155</TD>
+      <TD/>
+      <TD> 9.4</TD>
+      <TD>14 08 38.7</TD>
+      <TD>+00 21.5</TD>
+      <TD>14 16 04.3</TD>
+      <TD>-00 19 06</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>0</TD>
+      <TD>3164</TD>
+      <TD/>
+      <TD> 9.4</TD>
+      <TD>14 13 02.2</TD>
+      <TD>+00 27.1</TD>
+      <TD>14 20 27.6</TD>
+      <TD>-00 12 59</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>0</TD>
+      <TD>3163</TD>
+      <TD/>
+      <TD> 9.5</TD>
+      <TD>14 12 38.7</TD>
+      <TD>+00 28.2</TD>
+      <TD>14 20 04.1</TD>
+      <TD>-00 11 55</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>0</TD>
+      <TD>3168</TD>
+      <TD/>
+      <TD> 9.5</TD>
+      <TD>14 14 07.0</TD>
+      <TD>+00 30.2</TD>
+      <TD>14 21 32.3</TD>
+      <TD>-00 09 45</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>0</TD>
+      <TD>3167</TD>
+      <TD/>
+      <TD> 9.4</TD>
+      <TD>14 13 42.2</TD>
+      <TD>+00 33.4</TD>
+      <TD>14 21 07.4</TD>
+      <TD>-00 06 36</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>0</TD>
+      <TD>3161</TD>
+      <TD/>
+      <TD> 9.5</TD>
+      <TD>14 11 01.2</TD>
+      <TD>+00 33.5</TD>
+      <TD>14 18 26.4</TD>
+      <TD>-00 06 49</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>0</TD>
+      <TD>3169</TD>
+      <TD/>
+      <TD> 9.5</TD>
+      <TD>14 14 29.6</TD>
+      <TD>+00 34.4</TD>
+      <TD>14 21 54.8</TD>
+      <TD>-00 05 30</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>0</TD>
+      <TD>3160</TD>
+      <TD/>
+      <TD> 9.5</TD>
+      <TD>14 10 40.6</TD>
+      <TD>+00 34.8</TD>
+      <TD>14 18 05.8</TD>
+      <TD>-00 05 33</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>0</TD>
+      <TD>3159</TD>
+      <TD/>
+      <TD> 9.4</TD>
+      <TD>14 10 15.7</TD>
+      <TD>+00 35.4</TD>
+      <TD>14 17 40.9</TD>
+      <TD>-00 05 00</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>0</TD>
+      <TD>3158</TD>
+      <TD/>
+      <TD> 8.8</TD>
+      <TD>14 09 35.6</TD>
+      <TD>+00 36.5</TD>
+      <TD>14 17 00.7</TD>
+      <TD>-00 03 59</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>0</TD>
+      <TD>3162</TD>
+      <TD/>
+      <TD> 8.4</TD>
+      <TD>14 12 03.6</TD>
+      <TD>+00 39.6</TD>
+      <TD>14 19 28.6</TD>
+      <TD>-00 00 36</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>0</TD>
+      <TD>3173</TD>
+      <TD/>
+      <TD> 9.0</TD>
+      <TD>14 16 10.4</TD>
+      <TD>+00 42.7</TD>
+      <TD>14 23 35.3</TD>
+      <TD>+00 03 00</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>0</TD>
+      <TD>3165</TD>
+      <TD/>
+      <TD> 7.0</TD>
+      <TD>14 13 07.0</TD>
+      <TD>+00 50.9</TD>
+      <TD>14 20 31.7</TD>
+      <TD>+00 10 50</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>0</TD>
+      <TD>3166</TD>
+      <TD/>
+      <TD> 9.2</TD>
+      <TD>14 13 12.2</TD>
+      <TD>+00 54.4</TD>
+      <TD>14 20 36.8</TD>
+      <TD>+00 14 20</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>1</TD>
+      <TD>2913</TD>
+      <TD/>
+      <TD> 6.3</TD>
+      <TD>14 12 18.8</TD>
+      <TD>+01 02.9</TD>
+      <TD>14 19 43.1</TD>
+      <TD>+00 22 44</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_AJ_148_119_stars" name="J/AJ/148/119/stars">
+   <DESCRIPTION>
+    Photometric distance estimates for new candidate nearby star
+    systems {\em(table5)}, and for systems recovered in the nearby
+    star search {\em(table6)}
+   </DESCRIPTION>
+   <FIELD ID="St" arraysize="1" datatype="char" name="St" ucd="CODE_MISC">
+    <DESCRIPTION>
+     Status of system: {\bf N}ew or {\bf R}ecovered
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Name" arraysize="25" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Object name
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="6" ucd="POS_EQ_RA_MAIN" unit="deg" width="10">
+    <DESCRIPTION>
+     Right ascension in decimal degrees (J2000) (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="6" ucd="POS_EQ_DEC_MAIN" unit="deg" width="10">
+    <DESCRIPTION>
+     Declination in decimal degrees (J2000) (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="float" name="pmRA" precision="1" ucd="POS_EQ_PMRA" unit="mas.yr-1" width="7">
+    <DESCRIPTION>
+     Proper motion in RA (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="float" name="pmDE" precision="1" ucd="POS_EQ_PMDEC" unit="mas.yr-1" width="7">
+    <DESCRIPTION>
+     Proper motion in Dec (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Bmag" datatype="float" name="Bmag" precision="3" ucd="PHOT_JHN_B" unit="mag" width="6">
+    <DESCRIPTION>
+     [9/19] Johnson B magnitude (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="3" ucd="PHOT_JHN_V" unit="mag" width="6">
+    <DESCRIPTION>
+     [8/17] Johnson V magnitude (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="rmag" datatype="float" name="rmag" precision="3" ucd="PHOT_SDSS_R" unit="mag" width="6">
+    <DESCRIPTION>
+     [8/16] SDSS r-band magnitude (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="imag" datatype="float" name="imag" precision="3" ucd="PHOT_SDSS_I" unit="mag" width="6">
+    <DESCRIPTION>
+     [7/15] SDSS i-band magnitude (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="3" ucd="PHOT_JHN_J" unit="mag" width="6">
+    <DESCRIPTION>
+     [5/12] 2MASS J magnitude (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Hmag" datatype="float" name="Hmag" precision="3" ucd="PHOT_JHN_H" unit="mag" width="6">
+    <DESCRIPTION>
+     [4/13] 2MASS H magnitude (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Kmag" datatype="float" name="Kmag" precision="3" ucd="PHOT_JHN_K" unit="mag" width="6">
+    <DESCRIPTION>
+     [4/11] 2MASS Ks magnitude (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_2M" arraysize="2" datatype="char" name="_2M" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the 2MASS data (Cutri et al. 2003, Cat. II/246)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="UCAC4" arraysize="5" datatype="char" name="UCAC4" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the data from the UCAC4 catalog (I/322) within 1.5''
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="D1" datatype="float" name="D1" precision="2" ucd="POS_GAL_HC" unit="pc" width="5">
+    <DESCRIPTION>
+     [2/25] Photometric distance estimate
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_D1" datatype="float" name="e_D1" precision="2" ucd="ERROR" unit="pc" width="5">
+    <DESCRIPTION>
+     [0.4/9.4] Error in D1
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SimbadName" arraysize="25" datatype="char" name="SimbadName" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Designation understandable by the {\bf\fg{FireBrick}Simbad} data-
+     base
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>R</TD>
+      <TD>LHS 2899</TD>
+      <TD>215.313384</TD>
+      <TD> -1.122893</TD>
+      <TD>  256.5</TD>
+      <TD> -704.8</TD>
+      <TD>14.834</TD>
+      <TD>13.171</TD>
+      <TD>12.528</TD>
+      <TD>11.008</TD>
+      <TD> 8.948</TD>
+      <TD> 8.391</TD>
+      <TD> 8.093</TD>
+      <TD>2M</TD>
+      <TD>UCAC4</TD>
+      <TD>15.26</TD>
+      <TD> 2.87</TD>
+      <TD>LHS 2899</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

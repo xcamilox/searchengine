@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="I_199A_npm1j" name="I/199A/npm1j">
+   <DESCRIPTION>
+    The J2000 Catalogue
+   </DESCRIPTION>
+   <FIELD ID="Name" arraysize="8" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     [0-9.+-]! NPM1 star "name" made of: Byte 1 : Sign of B1950
+     declination for this zone Bytes 2-3: B1950 Declination zone Bytes
+     4-8: Running number in this B1950 declination zone
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="12" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension J2000, Ep=J2000 (hours)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="12" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination J2000, Ep=J2000 (degrees)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="double" name="pmRA" precision="2" ucd="POS_EQ_PMRA" unit="10mas.yr-1" width="8">
+    <DESCRIPTION>
+     Absolute proper motion RA (in "/century)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="double" name="pmDE" precision="2" ucd="POS_EQ_PMDEC" unit="10mas.yr-1" width="8">
+    <DESCRIPTION>
+     Absolute proper motion Dec. (in "/century)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Bmag" datatype="float" name="Bmag" precision="2" ucd="PHOT_PHG_B" unit="mag" width="6">
+    <DESCRIPTION>
+     Photographic photometry (B magnitude)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="B-V" datatype="float" name="B-V" precision="2" ucd="PHOT_PHG_B-V" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Photographic photometry (B-V color)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Ep-1900" datatype="float" name="Ep-1900" precision="2" ucd="TIME_EPOCH" unit="yr" width="6">
+    <DESCRIPTION>
+     Original mean epoch of position (-1900)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="ips" datatype="unsignedByte" name="ips" ucd="CODE_ERROR" width="1">
+    <DESCRIPTION>
+     Discrepancy flag Position
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="ipm" datatype="unsignedByte" name="ipm" ucd="CODE_ERROR" width="1">
+    <DESCRIPTION>
+     Discrepancy flag Proper Motion
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="ibv" datatype="unsignedByte" name="ibv" ucd="CODE_ERROR" width="1">
+    <DESCRIPTION>
+     Discrepancy flag Photometry
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>-00.1204</TD>
+      <TD>14 19 32.882</TD>
+      <TD>-00 52 22.35</TD>
+      <TD>    2.47</TD>
+      <TD>   -3.07</TD>
+      <TD> 10.74</TD>
+      <TD>  0.69</TD>
+      <TD> 65.64</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>-00.1205</TD>
+      <TD>14 20 50.051</TD>
+      <TD>-00 46 03.77</TD>
+      <TD>   -0.84</TD>
+      <TD>    0.98</TD>
+      <TD> 15.69</TD>
+      <TD>  1.03</TD>
+      <TD> 65.64</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>-00.1206</TD>
+      <TD>14 20 57.335</TD>
+      <TD>-00 43 15.49</TD>
+      <TD>    1.86</TD>
+      <TD>   -1.35</TD>
+      <TD> 17.00</TD>
+      <TD/>
+      <TD> 61.27</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>-00.1203</TD>
+      <TD>14 16 47.010</TD>
+      <TD>-00 36 28.82</TD>
+      <TD>   -0.61</TD>
+      <TD>   -0.44</TD>
+      <TD> 15.73</TD>
+      <TD>  0.79</TD>
+      <TD> 65.64</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>-00.1202</TD>
+      <TD>14 16 41.950</TD>
+      <TD>-00 34 24.09</TD>
+      <TD>    0.33</TD>
+      <TD>   -0.06</TD>
+      <TD> 16.59</TD>
+      <TD>  0.67</TD>
+      <TD> 65.64</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>-00.1201</TD>
+      <TD>14 16 04.175</TD>
+      <TD>-00 18 55.68</TD>
+      <TD>   -2.08</TD>
+      <TD>   -0.18</TD>
+      <TD> 10.75</TD>
+      <TD>  0.89</TD>
+      <TD> 65.64</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+00.0942</TD>
+      <TD>14 21 57.275</TD>
+      <TD>-00 06 09.58</TD>
+      <TD>   -0.05</TD>
+      <TD>    0.18</TD>
+      <TD> 11.05</TD>
+      <TD>  1.03</TD>
+      <TD> 65.64</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+00.0944</TD>
+      <TD>14 23 33.917</TD>
+      <TD>+00 02 49.89</TD>
+      <TD>    2.79</TD>
+      <TD>    0.36</TD>
+      <TD>  9.54</TD>
+      <TD>  0.54</TD>
+      <TD> 65.64</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+00.0940</TD>
+      <TD>14 20 38.293</TD>
+      <TD>+00 13 38.44</TD>
+      <TD>   -2.71</TD>
+      <TD>    0.83</TD>
+      <TD> 10.39</TD>
+      <TD>  0.84</TD>
+      <TD> 65.64</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+00.0938</TD>
+      <TD>14 20 08.966</TD>
+      <TD>+00 14 40.12</TD>
+      <TD>   -1.34</TD>
+      <TD>   -0.22</TD>
+      <TD> 15.40</TD>
+      <TD>  0.20</TD>
+      <TD> 65.64</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+00.0939</TD>
+      <TD>14 20 19.766</TD>
+      <TD>+00 19 13.70</TD>
+      <TD>   -1.39</TD>
+      <TD>   -1.80</TD>
+      <TD> 16.32</TD>
+      <TD>  0.44</TD>
+      <TD> 65.64</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+00.0941</TD>
+      <TD>14 21 04.888</TD>
+      <TD>+00 31 07.04</TD>
+      <TD>   -8.55</TD>
+      <TD>   -0.33</TD>
+      <TD> 11.11</TD>
+      <TD>  0.81</TD>
+      <TD> 65.64</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

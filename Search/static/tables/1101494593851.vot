@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_AJ_149_171_table3" name="J/AJ/149/171/table3">
+   <DESCRIPTION>
+    Nest properties
+   </DESCRIPTION>
+   <FIELD ID="f_Nest" datatype="short" name="f_Nest" ucd="CODE_MISC" width="2">
+    <DESCRIPTION>
+     Hemisphere (1=in north galactic hemisphere, 2=in south, 12 or 22
+     if the group is a split from an adjacent larger group)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Nest" datatype="int" name="Nest" ucd="ID_GROUP" width="6">
+    <DESCRIPTION>
+     [100001/220041] Group (nest) identification number (G1)
+     \linkRole{properties for all members of this group (tables 3--5)}
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Nmb" datatype="short" name="Nmb" ucd="NUMBER" width="3">
+    <DESCRIPTION>
+     [1/197] Number of members from the 2MASS 11.75 catalog (Huchra et
+     al. 2012, cat. J/ApJS/199/26)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="PGC1" datatype="int" name="PGC1" ucd="ID_NUMBER" width="7">
+    <DESCRIPTION>
+     [5/5061293] Number in Principal Galaxies Catalog for brightest
+     member in group
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SGLON" datatype="double" name="SGLON" precision="4" ucd="POS_SG_LON" unit="deg" width="8">
+    <DESCRIPTION>
+     Group supergalactic longitude, luminosity weighted
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SGLAT" datatype="double" name="SGLAT" precision="4" ucd="POS_SG_LAT" unit="deg" width="8">
+    <DESCRIPTION>
+     Group supergalactic latitude, luminosity weighted
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="logLK" datatype="float" name="logLK" precision="2" ucd="PHYS_LUMINOSITY_IR_MISC" unit="[Lsun]" width="5">
+    <DESCRIPTION>
+     [4.5/14.32] Log Ks band luminosity (G2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="__Vcmba_" datatype="short" name="__Vcmba_" ucd="VELOC_CMB" unit="km.s-1" width="5">
+    <DESCRIPTION>
+     [7/23996] Unweighted average adjusted CMB reference frame group
+     velocity (G3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DM" datatype="float" name="DM" precision="2" ucd="PHOT_DIST-MOD" unit="mag" width="5">
+    <DESCRIPTION>
+     [19.23/36.9] Distance Modulus (G4)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="sigV" datatype="short" name="sigV" ucd="VELOC_DISP" unit="km.s-1" width="4">
+    <DESCRIPTION>
+     [0/3403] Line Of Sight (LOS) bi-weight velocity dispersion of
+     group members {sigma}_V_ (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="R2t" datatype="float" name="R2t" precision="3" ucd="PHYS_SIZE_RADIUS_GENERAL" unit="Mpc" width="6">
+    <DESCRIPTION>
+     [0/5.225] Projected radius of second turnaround R_2t_ (G5)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="sigP" datatype="short" name="sigP" ucd="VELOC_DISP" unit="km.s-1" width="4">
+    <DESCRIPTION>
+     [1/2566] Line Of Sight (LOS) velocity dispersion {sigma}_p_ (G6)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Mlum" datatype="float" name="Mlum" precision="E2" ucd="PHYS_MASS_MISC" unit="Msun" width="9">
+    <DESCRIPTION>
+     Group mass calculated from luminosity (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="CF" datatype="float" name="CF" precision="2" ucd="MODEL_CORRECTION" width="6">
+    <DESCRIPTION>
+     [1/173.24] Conversion factor (G7)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA.icrs" datatype="double" name="_RA.icrs" precision="4" ucd="POS_EQ_RA_OTHER" unit="deg" width="8">
+    <DESCRIPTION>
+     Right ascension (ICRS) (computed by VizieR, not part of the
+     original data)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" datatype="double" name="_DE.icrs" precision="4" ucd="POS_EQ_DEC_OTHER" unit="deg" width="8">
+    <DESCRIPTION>
+     Declination (ICRS) (computed by VizieR, not part of the original
+     data)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>1</TD>
+      <TD>104078</TD>
+      <TD>1</TD>
+      <TD>51280</TD>
+      <TD>122.9344</TD>
+      <TD> 20.5805</TD>
+      <TD>12.35</TD>
+      <TD>16858</TD>
+      <TD>36.13</TD>
+      <TD>0</TD>
+      <TD> 1.066</TD>
+      <TD>524</TD>
+      <TD>  2.2e+14</TD>
+      <TD> 13.05</TD>
+      <TD>215.2864</TD>
+      <TD> -0.3779</TD>
+     </TR>
+     <TR>
+      <TD>1</TD>
+      <TD>104387</TD>
+      <TD>1</TD>
+      <TD>51063</TD>
+      <TD>121.7722</TD>
+      <TD> 20.0432</TD>
+      <TD>12.17</TD>
+      <TD>16528</TD>
+      <TD>36.09</TD>
+      <TD>0</TD>
+      <TD> 0.909</TD>
+      <TD>446</TD>
+      <TD>  1.3e+14</TD>
+      <TD> 11.73</TD>
+      <TD>214.4576</TD>
+      <TD>  0.5108</TD>
+     </TR>
+     <TR>
+      <TD>1</TD>
+      <TD>112716</TD>
+      <TD>1</TD>
+      <TD>51344</TD>
+      <TD>123.0419</TD>
+      <TD> 20.8768</TD>
+      <TD> 9.90</TD>
+      <TD>1913</TD>
+      <TD>31.41</TD>
+      <TD>0</TD>
+      <TD> 0.125</TD>
+      <TD>61</TD>
+      <TD>  3.4e+11</TD>
+      <TD>  1.01</TD>
+      <TD>215.5991</TD>
+      <TD> -0.3876</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="IV_25_tyc2_hd" name="IV/25/tyc2_hd">
+   <DESCRIPTION>
+    Catalog
+   </DESCRIPTION>
+   <FIELD ID="TYC1" datatype="short" name="TYC1" ucd="ID_ALTERNATIVE" width="4">
+    <DESCRIPTION>
+     [1,9537]+= TYC1 from Tycho-2
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="TYC2" datatype="int" name="TYC2" ucd="ID_ALTERNATIVE" width="5">
+    <DESCRIPTION>
+     [1,12121] TYC2 from Tycho-2
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="TYC3" datatype="unsignedByte" name="TYC3" ucd="ID_ALTERNATIVE" width="1">
+    <DESCRIPTION>
+     [1,4] TYC3 from Tycho-2
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="f_TYC" arraysize="1" datatype="char" name="f_TYC" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [S] Set for stars in Tycho-2 Supplement#1
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HD" datatype="int" name="HD" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     HD (Cat. &lt;III/135&gt;) identifier
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="3" datatype="char" name="SpType" ucd="SPECT_TYPE_GENERAL">
+    <DESCRIPTION>
+     Spectral type from HD catalogue
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_HD" datatype="unsignedByte" name="n_HD" ucd="NOTE" width="1">
+    <DESCRIPTION>
+     [1,2] number of HD stars for this Tyc2 star
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_TYC" datatype="unsignedByte" name="n_TYC" ucd="NOTE" width="1">
+    <DESCRIPTION>
+     [1,2] number of Tyc2 stars for this HD star
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="TDSC" arraysize="1" datatype="char" name="TDSC" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [D] star in Tycho Double Star Catalogue
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Rem" arraysize="1" datatype="char" name="Rem" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [DEGMR*] Remarks flag from HD file
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Note" arraysize="1" datatype="char" name="Note" ucd="NOTE">
+    <DESCRIPTION>
+     {\bf N} indicates a note in the
+     "\begin{tex}\vFile{IV/25/./notes.dat}{notes.dat}\end{tex}" file,
+     and {\bf E} an erratum (in \vFile{IV/25/errata.htx})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Position from the Tycho-2 Catalog (I/259) or from TDSC (I/276)
+     (right ascension part)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Position from the Tycho-2 Catalog (I/259) or from TDSC (I/276)
+     (declination part)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>2677</TD>
+      <TD>19</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226438</TD>
+      <TD>A3</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>298.55385</TD>
+      <TD> 34.86669</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>43</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226679</TD>
+      <TD>A2</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>299.13235</TD>
+      <TD> 34.96844</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>66</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226581</TD>
+      <TD>K5</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>298.91013</TD>
+      <TD> 34.79054</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>109</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226625</TD>
+      <TD>K0</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>299.01646</TD>
+      <TD> 34.76762</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>194</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226593</TD>
+      <TD>A0</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>298.94463</TD>
+      <TD> 34.60890</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>351</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226643</TD>
+      <TD>A0</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>299.06112</TD>
+      <TD> 35.23824</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>389</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226709</TD>
+      <TD>K0</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>299.20783</TD>
+      <TD> 35.00316</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>421</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226613</TD>
+      <TD>K5</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>299.01194</TD>
+      <TD> 34.41765</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>451</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226688</TD>
+      <TD>K2</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>299.17886</TD>
+      <TD> 34.74324</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>477</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226513</TD>
+      <TD>K5</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>298.73565</TD>
+      <TD> 34.93349</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>480</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226466</TD>
+      <TD>G0</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>298.63762</TD>
+      <TD> 35.40566</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>499</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226523</TD>
+      <TD>A0</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>298.74878</TD>
+      <TD> 35.48477</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>500</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226502</TD>
+      <TD>F8</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>298.70435</TD>
+      <TD> 35.00557</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>503</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226580</TD>
+      <TD>A0</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>298.91140</TD>
+      <TD> 34.93852</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>518</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226493</TD>
+      <TD>F2</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>298.68061</TD>
+      <TD> 34.61962</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>534</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226678</TD>
+      <TD>G0</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>299.13193</TD>
+      <TD> 35.12283</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>546</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226476</TD>
+      <TD>F</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>298.66039</TD>
+      <TD> 34.87853</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>603</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226415</TD>
+      <TD>G0</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>298.49917</TD>
+      <TD> 35.11079</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>627</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226427</TD>
+      <TD>K</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>298.50960</TD>
+      <TD> 35.01012</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>633</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226492</TD>
+      <TD>A3</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>298.68609</TD>
+      <TD> 35.39391</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>683</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226642</TD>
+      <TD>A5</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>299.04298</TD>
+      <TD> 35.37597</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>723</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226512</TD>
+      <TD>G0</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>298.73919</TD>
+      <TD> 35.35255</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>801</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226677</TD>
+      <TD>A2</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>299.14549</TD>
+      <TD> 35.16743</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>819</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226722</TD>
+      <TD>F0</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>299.23332</TD>
+      <TD> 34.75181</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>851</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226582</TD>
+      <TD>A3</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD>D</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>298.91678</TD>
+      <TD> 34.70971</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>854</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226477</TD>
+      <TD>A5</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>298.66700</TD>
+      <TD> 34.78299</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>874</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226590</TD>
+      <TD>A</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>298.93714</TD>
+      <TD> 35.57120</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>891</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226524</TD>
+      <TD>A5</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>298.75535</TD>
+      <TD> 35.13339</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>898</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226416</TD>
+      <TD>K5</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>298.48616</TD>
+      <TD> 34.95826</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>919</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226664</TD>
+      <TD>F0</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>299.08099</TD>
+      <TD> 35.44179</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>942</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226687</TD>
+      <TD>A7</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>299.15808</TD>
+      <TD> 35.56744</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>980</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226543</TD>
+      <TD>F5</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD>D</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>298.81069</TD>
+      <TD> 34.57681</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>1090</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226408</TD>
+      <TD>G5</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>298.44902</TD>
+      <TD> 35.22385</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>1094</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226388</TD>
+      <TD>F5</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>298.39429</TD>
+      <TD> 35.17912</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>1095</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226592</TD>
+      <TD>G</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>298.94517</TD>
+      <TD> 34.64207</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>1118</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>188668</TD>
+      <TD>K0</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>298.75056</TD>
+      <TD> 34.90056</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>1189</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226591</TD>
+      <TD>A2</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>298.94539</TD>
+      <TD> 34.98858</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>1205</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226503</TD>
+      <TD>A0</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>298.71806</TD>
+      <TD> 34.75268</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>1209</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226551</TD>
+      <TD>A</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>298.81712</TD>
+      <TD> 35.55216</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>1230</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>189085</TD>
+      <TD>A0</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>299.22225</TD>
+      <TD> 35.53684</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>1235</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226680</TD>
+      <TD>F0</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>299.13496</TD>
+      <TD> 34.88124</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>1268</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226635</TD>
+      <TD>A7</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>299.01963</TD>
+      <TD> 35.53488</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>1271</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226511</TD>
+      <TD>A2</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>298.73398</TD>
+      <TD> 35.53077</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>1816</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>188947</TD>
+      <TD>K0</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD>D</TD>
+      <TD>R</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>299.07665</TD>
+      <TD> 35.08349</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226721</TD>
+      <TD>A3</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>299.25073</TD>
+      <TD> 34.93146</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>5</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226731</TD>
+      <TD>M0</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>299.26011</TD>
+      <TD> 34.99421</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>29</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>227247</TD>
+      <TD>B2</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD>D</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>300.59701</TD>
+      <TD> 35.31144</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>65</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>227045</TD>
+      <TD>A3</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>300.06391</TD>
+      <TD> 34.84660</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>68</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226938</TD>
+      <TD>A0</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>299.76658</TD>
+      <TD> 35.20944</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>77</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>226781</TD>
+      <TD>A5</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>299.39495</TD>
+      <TD> 34.90579</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

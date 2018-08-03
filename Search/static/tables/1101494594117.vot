@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_A_A_374_1085_tablea" name="J/A+A/374/1085/tablea">
+   <DESCRIPTION>
+    On the Wilson-Bappu relationship in the Mg II K line: the final
+    data base
+   </DESCRIPTION>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     Hipparcos (Cat. &lt;I/239&gt;) number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="12" datatype="char" name="SpType" ucd="SPECT_TYPE_GENERAL">
+    <DESCRIPTION>
+     Spectral type and luminosity class
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="VMAG" datatype="float" name="VMAG" precision="3" ucd="PHOT_ABS-MAG_BAND" unit="mag" width="6">
+    <DESCRIPTION>
+     Absolute V magnitude (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="IUE" arraysize="8" datatype="char" name="IUE" ucd="ID_IMAGE">
+    <DESCRIPTION>
+     IUE Image
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="logW0" datatype="float" name="logW0" precision="3" ucd="SPECT_LINE_FWHM" unit="[km/s]" width="6">
+    <DESCRIPTION>
+     logarithm of width half-maximum of the Mg II K line (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_logW0" datatype="float" name="e_logW0" precision="3" ucd="ERROR" unit="[km/s]" width="6">
+    <DESCRIPTION>
+     rms uncertainty on logW0
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="4" ucd="POS_EQ_RA_MAIN" unit="deg" width="8">
+    <DESCRIPTION>
+     Right Ascension (J2000) from SIMBAD (not part of the original
+     data)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="4" ucd="POS_EQ_DEC_MAIN" unit="deg" width="8">
+    <DESCRIPTION>
+     Declination (J2000) from SIMBAD (not part of the original data)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>98110</TD>
+      <TD>Simbad</TD>
+      <TD>K0IIIvar</TD>
+      <TD> 0.736</TD>
+      <TD>LWP20632</TD>
+      <TD> 1.991</TD>
+      <TD> 0.016</TD>
+      <TD>299.0765</TD>
+      <TD> 35.0834</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_A_A_468_163_catalog" name="J/A+A/468/163/catalog">
+   <DESCRIPTION>
+    All objects found with proper motion {mu}&gt;=0.1"/yr {\em(tables 7
+    and 8 of paper)}
+   </DESCRIPTION>
+   <FIELD ID="n_SIPS" arraysize="1" datatype="char" name="n_SIPS" ucd="ID_TABLE">
+    <DESCRIPTION>
+     {\bf7} for object from table 7 ({mu}&lt;=0.5"/yr), {\bf8} for object
+     from table 8 ({mu}&gt;0.5"/yr)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SIPS" arraysize="10" datatype="char" name="SIPS" ucd="ID_MAIN">
+    <DESCRIPTION>
+     SIPS designation (HHMM-DDMMa)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="11" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (J2000) (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="11" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (J2000) (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pm" datatype="float" name="pm" precision="3" ucd="POS_EQ_PM" unit="arcs.yr-1" width="6">
+    <DESCRIPTION>
+     Total proper motion
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmPA" datatype="float" name="pmPA" precision="3" ucd="POS_EQ_PM-PA" unit="deg" width="7">
+    <DESCRIPTION>
+     Position angle of the proper motion vector
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Imag" datatype="float" name="Imag" precision="3" ucd="PHOT_PHG_I" unit="mag" width="6">
+    <DESCRIPTION>
+     I_N_ magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="3" ucd="PHOT_JHN_J" unit="mag" width="6">
+    <DESCRIPTION>
+     J magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Hmag" datatype="float" name="Hmag" precision="3" ucd="PHOT_JHN_H" unit="mag" width="6">
+    <DESCRIPTION>
+     H magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Ksmag" datatype="float" name="Ksmag" precision="3" ucd="PHOT_JHN_K" unit="mag" width="6">
+    <DESCRIPTION>
+     Ks magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Link" arraysize="5" datatype="char" name="Link" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Details from the NOMAD catalog (I/297) about the nearby stars (in
+     a 15'' radius)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>7</TD>
+      <TD>1419-0046</TD>
+      <TD>14 19 19.48</TD>
+      <TD>-00 46 06.9</TD>
+      <TD> 0.147</TD>
+      <TD>268.800</TD>
+      <TD>17.041</TD>
+      <TD>15.537</TD>
+      <TD>15.103</TD>
+      <TD>14.690</TD>
+      <TD>NOMAD</TD>
+     </TR>
+     <TR>
+      <TD>7</TD>
+      <TD>1421-0039</TD>
+      <TD>14 21 32.71</TD>
+      <TD>-00 39 43.7</TD>
+      <TD> 0.160</TD>
+      <TD>255.434</TD>
+      <TD>13.226</TD>
+      <TD>11.997</TD>
+      <TD>11.477</TD>
+      <TD>11.175</TD>
+      <TD>NOMAD</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_A_A_531_A165_param" name="J/A+A/531/A165/param">
+   <DESCRIPTION>
+    Physical parameters adopted by this work (table 1 of the paper)
+    {\bf{See J/A+A/585/A64 for new parameters} }
+   </DESCRIPTION>
+   <FIELD ID="Name" arraysize="23" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Designation of the star
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Miles" datatype="short" name="Miles" ucd="ID_NUMBER" width="3">
+    <DESCRIPTION>
+     [1/985] Internal number in MILES
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_Miles" arraysize="1" datatype="char" name="n_Miles" ucd="DATA_LINK">
+    <DESCRIPTION>
+     {\bf *} indicates extinction corrections applied (in ebv_cor
+     file)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Teff" datatype="int" name="Teff" ucd="PHYS_TEMP_EFFEC" unit="K" width="5">
+    <DESCRIPTION>
+     Effective temperature
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_Teff" datatype="short" name="e_Teff" ucd="ERROR" unit="K" width="4">
+    <DESCRIPTION>
+     ? Error on Teff [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="logg" datatype="float" name="logg" precision="2" ucd="PHYS_GRAVITY_SURFACE" unit="[cm/s2]" width="5">
+    <DESCRIPTION>
+     ? Log of the surface gravity
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_logg" datatype="float" name="e_logg" precision="2" ucd="ERROR" unit="[cm/s2]" width="5">
+    <DESCRIPTION>
+     ? Error on logg
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="__Fe_H_" datatype="float" name="__Fe_H_" precision="2" ucd="PHYS_ABUND_FE/H" unit="[Sun]" width="5">
+    <DESCRIPTION>
+     ? Metallicity
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e__Fe_H_" datatype="float" name="e__Fe_H_" precision="2" ucd="ERROR" unit="[Sun]" width="5">
+    <DESCRIPTION>
+     ? Error on [Fe/H]
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="cz" datatype="short" name="cz" ucd="VELOC_HC" unit="km.s-1" width="3">
+    <DESCRIPTION>
+     ? Residual velocity shift (1) [NULL integer written as an empty
+     string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="sig" datatype="short" name="sig" ucd="ERROR" unit="km.s-1" width="3">
+    <DESCRIPTION>
+     ? Instrumental+physical broadening (2) [NULL integer written as
+     an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="Refs" arraysize="12" datatype="char" name="Refs" ucd="REFER_CODE">
+    <DESCRIPTION>
+     ? References for the adopted parameters, in refs.dat file (0=this
+     work)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SimbadName" arraysize="23" datatype="char" name="SimbadName" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Designation understandable by the {\bf\fg{FireBrick}Simbad} data-
+     base
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right Ascension (J2000) from SIMBAD (not part of the original
+     data)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (J2000) from SIMBAD (not part of the original data)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>HD 188947</TD>
+      <TD>745</TD>
+      <TD/>
+      <TD>4828</TD>
+      <TD>56</TD>
+      <TD> 2.62</TD>
+      <TD> 0.13</TD>
+      <TD> 0.06</TD>
+      <TD> 0.06</TD>
+      <TD>6</TD>
+      <TD>58</TD>
+      <TD>0</TD>
+      <TD>HD 188947</TD>
+      <TD>299.07655</TD>
+      <TD> 35.08342</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

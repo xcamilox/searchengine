@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="V_86_ceddu1" name="V/86/ceddu1">
+   <DESCRIPTION>
+    Catalogue of Extinctions and Distances Derived from UBV data
+    (parameters)
+   </DESCRIPTION>
+   <FIELD ID="Star" arraysize="12" datatype="char" name="Star" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Identifier, either HD or BD/CD/CPD
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="MK" arraysize="20" datatype="char" name="MK" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     The MK spectral type written in a standard format
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="r_MK" arraysize="1" datatype="char" name="r_MK" ucd="REFER_CODE">
+    <DESCRIPTION>
+     [HJBSK] Source of MK (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="3" ucd="PHOT_JHN_V" unit="mag" width="6">
+    <DESCRIPTION>
+     Apparent magnitude in UBV system (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="B-V" datatype="float" name="B-V" precision="3" ucd="PHOT_JHN_B-V" unit="mag" width="6">
+    <DESCRIPTION>
+     Colour index in UBV system (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="U-B" datatype="float" name="U-B" precision="3" ucd="PHOT_JHN_U-B" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Colour index in UBV system (3)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="absVmag" datatype="float" name="absVmag" precision="2" ucd="PHOT_ABS-MAG_BAND" unit="mag" width="5">
+    <DESCRIPTION>
+     Absolute magnitude (section 3.3.2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GLON" datatype="float" name="GLON" precision="2" ucd="POS_GAL_LON" unit="deg" width="6">
+    <DESCRIPTION>
+     [0/360[+= Galactic longitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GLAT" datatype="float" name="GLAT" precision="2" ucd="POS_GAL_LAT" unit="deg" width="6">
+    <DESCRIPTION>
+     Galactic latitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA.icrs" datatype="double" name="_RA.icrs" precision="4" ucd="POS_EQ_RA_OTHER" unit="deg" width="8">
+    <DESCRIPTION>
+     Right ascension (ICRS) (computed by VizieR, not part of the
+     original data)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" datatype="double" name="_DE.icrs" precision="4" ucd="POS_EQ_DEC_OTHER" unit="deg" width="8">
+    <DESCRIPTION>
+     Declination (ICRS) (computed by VizieR, not part of the original
+     data)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>HD    189148</TD>
+      <TD>F6.      V</TD>
+      <TD>J</TD>
+      <TD> 7.270</TD>
+      <TD> 0.463</TD>
+      <TD> 0.000</TD>
+      <TD> 3.70</TD>
+      <TD> 71.07</TD>
+      <TD>  3.18</TD>
+      <TD>299.3040</TD>
+      <TD> 35.0344</TD>
+     </TR>
+     <TR>
+      <TD>HD    189983</TD>
+      <TD>B8.      V</TD>
+      <TD>J</TD>
+      <TD> 8.540</TD>
+      <TD> 0.010</TD>
+      <TD/>
+      <TD>-0.50</TD>
+      <TD> 71.15</TD>
+      <TD>  2.18</TD>
+      <TD>300.3927</TD>
+      <TD> 34.5791</TD>
+     </TR>
+     <TR>
+      <TD>HD    227228</TD>
+      <TD>B7.      IV</TD>
+      <TD>J</TD>
+      <TD> 9.220</TD>
+      <TD> 0.000</TD>
+      <TD/>
+      <TD>-1.10</TD>
+      <TD> 71.34</TD>
+      <TD>  2.12</TD>
+      <TD>300.5766</TD>
+      <TD> 34.7085</TD>
+     </TR>
+     <TR>
+      <TD>HD    227073</TD>
+      <TD>G2.      V</TD>
+      <TD>B</TD>
+      <TD>10.280</TD>
+      <TD> 0.600</TD>
+      <TD> 0.015</TD>
+      <TD> 4.70</TD>
+      <TD> 71.48</TD>
+      <TD>  2.62</TD>
+      <TD>300.1487</TD>
+      <TD> 35.0912</TD>
+     </TR>
+     <TR>
+      <TD>HD    227290</TD>
+      <TD>G0.      V</TD>
+      <TD>J</TD>
+      <TD> 9.190</TD>
+      <TD> 0.600</TD>
+      <TD/>
+      <TD> 4.40</TD>
+      <TD> 71.49</TD>
+      <TD>  2.12</TD>
+      <TD>300.6733</TD>
+      <TD> 34.8357</TD>
+     </TR>
+     <TR>
+      <TD>HD    189688</TD>
+      <TD>K7.      III</TD>
+      <TD>B</TD>
+      <TD> 7.670</TD>
+      <TD> 1.750</TD>
+      <TD/>
+      <TD>-0.50</TD>
+      <TD> 71.58</TD>
+      <TD>  2.84</TD>
+      <TD>299.9837</TD>
+      <TD> 35.2917</TD>
+     </TR>
+     <TR>
+      <TD>HD    227150</TD>
+      <TD>G8.      III</TD>
+      <TD>J</TD>
+      <TD> 8.720</TD>
+      <TD> 0.950</TD>
+      <TD/>
+      <TD> 0.30</TD>
+      <TD> 71.62</TD>
+      <TD>  2.49</TD>
+      <TD>300.3738</TD>
+      <TD> 35.1416</TD>
+     </TR>
+     <TR>
+      <TD>HD    188969</TD>
+      <TD>G5.      III</TD>
+      <TD>B</TD>
+      <TD> 7.580</TD>
+      <TD> 0.830</TD>
+      <TD> 0.450</TD>
+      <TD> 0.40</TD>
+      <TD> 71.63</TD>
+      <TD>  3.71</TD>
+      <TD>299.1026</TD>
+      <TD> 35.7870</TD>
+     </TR>
+     <TR>
+      <TD>HD    190114</TD>
+      <TD>B8.      V</TD>
+      <TD>J</TD>
+      <TD> 7.430</TD>
+      <TD>-0.080</TD>
+      <TD>-0.490</TD>
+      <TD>-1.10</TD>
+      <TD> 71.84</TD>
+      <TD>  2.50</TD>
+      <TD>300.5055</TD>
+      <TD> 35.3335</TD>
+     </TR>
+     <TR>
+      <TD>HD    190113</TD>
+      <TD>G5.      I   B</TD>
+      <TD>S</TD>
+      <TD> 7.885</TD>
+      <TD> 1.485</TD>
+      <TD> 1.190</TD>
+      <TD>-3.90</TD>
+      <TD> 72.10</TD>
+      <TD>  2.66</TD>
+      <TD>300.5073</TD>
+      <TD> 35.6386</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

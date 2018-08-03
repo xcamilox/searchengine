@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_MNRAS_437_1216_vast" name="J/MNRAS/437/1216/vast">
+   <DESCRIPTION>
+    VAST sample (table1 and 2 of the paper)
+   </DESCRIPTION>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     HIP number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="C" datatype="short" name="C" ucd="DATA_LINK" width="2">
+    <DESCRIPTION>
+     Companions identified or found in the literature [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="13" datatype="char" name="SpType" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     MK spectral type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dist" datatype="float" name="Dist" precision="1" ucd="POS_GAL_HC" unit="pc" width="4">
+    <DESCRIPTION>
+     Distance
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="BTmag" datatype="float" name="BTmag" precision="2" ucd="PHOT_TYCHO_B" unit="mag" width="5">
+    <DESCRIPTION>
+     Tycho BT magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="VTmag" datatype="float" name="VTmag" precision="2" ucd="PHOT_TYCHO_V" unit="mag" width="5">
+    <DESCRIPTION>
+     Tycho VT magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="2" ucd="PHOT_JHN_J" unit="mag" width="5">
+    <DESCRIPTION>
+     ? 2MASS J magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Hmag" datatype="float" name="Hmag" precision="2" ucd="PHOT_JHN_H" unit="mag" width="5">
+    <DESCRIPTION>
+     ? 2MASS H magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Ksmag" datatype="float" name="Ksmag" precision="2" ucd="PHOT_JHN_K" unit="mag" width="5">
+    <DESCRIPTION>
+     2MASS Ks magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Age" datatype="short" name="Age" ucd="TIME_AGE" unit="Myr" width="4">
+    <DESCRIPTION>
+     Star estimated age
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Mass" datatype="float" name="Mass" precision="2" ucd="PHYS_MASS_MISC" unit="Msun" width="5">
+    <DESCRIPTION>
+     Star mass
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="bSCA" datatype="float" name="bSCA" precision="2" ucd="ORBIT_DISTANCE" unit="[AU]" width="5">
+    <DESCRIPTION>
+     ? Lower value of separation coverage from Adapative Optices (2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="BSCA" datatype="float" name="BSCA" precision="2" ucd="ORBIT_DISTANCE" unit="[AU]" width="5">
+    <DESCRIPTION>
+     ? Upper value of separation coverage from Adapative Optices (2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="bSCC" datatype="float" name="bSCC" precision="2" ucd="ORBIT_DISTANCE" unit="[AU]" width="5">
+    <DESCRIPTION>
+     ? Lower value of separation coverage from CPM search (2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="BSCC" datatype="float" name="BSCC" precision="2" ucd="ORBIT_DISTANCE" unit="[AU]" width="5">
+    <DESCRIPTION>
+     ? Upper value of separation coverage from CPM search (2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="HD" datatype="int" name="HD" ucd="ID_ALTERNATIVE" width="6">
+    <DESCRIPTION>
+     HD number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="ADS" arraysize="9" datatype="char" name="ADS" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     ADS designation
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="WDS" arraysize="11" datatype="char" name="WDS" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     WDS designation
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right Ascension (J2000) from SIMBAD (not part of the original
+     data)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (J2000) from SIMBAD (not part of the original data)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>70022</TD>
+      <TD>1</TD>
+      <TD>A7V</TD>
+      <TD>63.3</TD>
+      <TD> 6.42</TD>
+      <TD> 6.21</TD>
+      <TD> 5.82</TD>
+      <TD> 5.75</TD>
+      <TD> 5.71</TD>
+      <TD>320</TD>
+      <TD> 1.84</TD>
+      <TD> 1.50</TD>
+      <TD> 2.90</TD>
+      <TD/>
+      <TD/>
+      <TD>125489</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>214.92063</TD>
+      <TD>  0.38433</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

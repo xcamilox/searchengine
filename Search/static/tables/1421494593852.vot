@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_other_RAA_15_1182_dr1mcat" name="J/other/RAA/15.1182/dr1mcat">
+   <DESCRIPTION>
+    Spectroscopic M dwarf catalog from LAMOST DR1
+   </DESCRIPTION>
+   <FIELD ID="ObsID" datatype="int" name="ObsID" ucd="ID_NUMBER" width="9">
+    <DESCRIPTION>
+     Obs ID
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Obs.Date" arraysize="10" datatype="char" name="Obs.Date" ucd="TIME_DATE" unit="&quot;Y:M:D&quot;">
+    <DESCRIPTION>
+     Observation date
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="10" ucd="POS_EQ_RA_MAIN" unit="deg" width="14">
+    <DESCRIPTION>
+     Right Ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="10" ucd="POS_EQ_DEC_MAIN" unit="deg" width="14">
+    <DESCRIPTION>
+     Declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Name" arraysize="19" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Designation (JHHMMSS.ss+DDMMSS.s)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RV" datatype="double" name="RV" precision="6" ucd="VELOC_HC" unit="km.s-1" width="12">
+    <DESCRIPTION>
+     ? Heliocentric Radial Velocity
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="EWHa" datatype="double" name="EWHa" precision="6" ucd="SPECT_EQ-WIDTH" unit="0.1nm" width="12">
+    <DESCRIPTION>
+     H{alpha} equivalent width
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Zeta" datatype="double" name="Zeta" precision="6" ucd="SPECT_INDEX_MISC" width="12">
+    <DESCRIPTION>
+     ? Metal-sensitive parameter
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="CaH1" datatype="double" name="CaH1" precision="6" ucd="SPECT_INDEX_MISC" width="12">
+    <DESCRIPTION>
+     ? CaH1 index
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="CaH2" datatype="double" name="CaH2" precision="6" ucd="SPECT_INDEX_MISC" width="12">
+    <DESCRIPTION>
+     ? CaH2 index
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="CaH3" datatype="double" name="CaH3" precision="6" ucd="SPECT_INDEX_MISC" width="12">
+    <DESCRIPTION>
+     ? CaH3 index
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="TiO1" datatype="double" name="TiO1" precision="6" ucd="SPECT_INDEX_MISC" width="12">
+    <DESCRIPTION>
+     ? TiO1 index
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="TiO2" datatype="double" name="TiO2" precision="6" ucd="SPECT_INDEX_MISC" width="12">
+    <DESCRIPTION>
+     ? TiO2 index
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="TiO3" datatype="double" name="TiO3" precision="6" ucd="SPECT_INDEX_MISC" width="12">
+    <DESCRIPTION>
+     ? TiO3 index
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="TiO4" datatype="double" name="TiO4" precision="6" ucd="SPECT_INDEX_MISC" width="12">
+    <DESCRIPTION>
+     ? TiO4 index
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="TiO5" datatype="double" name="TiO5" precision="6" ucd="SPECT_INDEX_MISC" width="12">
+    <DESCRIPTION>
+     ? TiO5 index
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Uvel" datatype="double" name="Uvel" precision="4" ucd="VELOC_GAL_U" unit="km.s-1" width="9">
+    <DESCRIPTION>
+     ? U velocity
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Vvel" datatype="double" name="Vvel" precision="4" ucd="VELOC_GAL_V" unit="km.s-1" width="9">
+    <DESCRIPTION>
+     ? V velocity
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Wvel" datatype="double" name="Wvel" precision="4" ucd="VELOC_GAL_W" unit="km.s-1" width="9">
+    <DESCRIPTION>
+     ? W velocity
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Dist" datatype="double" name="Dist" precision="4" ucd="PHYS_DISTANCE_TRUE" unit="pc" width="8">
+    <DESCRIPTION>
+     ? Distance
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>131304022</TD>
+      <TD>2013-03-05</TD>
+      <TD>214.7157710000</TD>
+      <TD>  0.3874660000</TD>
+      <TD>J141851.78+002314.8</TD>
+      <TD>  -12.024000</TD>
+      <TD>    2.353490</TD>
+      <TD>    1.079531</TD>
+      <TD>    0.870475</TD>
+      <TD>    0.554234</TD>
+      <TD>    0.787998</TD>
+      <TD>    1.009498</TD>
+      <TD>    0.793605</TD>
+      <TD>    0.768560</TD>
+      <TD>    0.729971</TD>
+      <TD>    0.595330</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>131303014</TD>
+      <TD>2013-03-05</TD>
+      <TD>214.4440720000</TD>
+      <TD> -0.4331656000</TD>
+      <TD>J141746.57-002559.3</TD>
+      <TD>  -45.192001</TD>
+      <TD>    1.757110</TD>
+      <TD>    0.893528</TD>
+      <TD>    0.949220</TD>
+      <TD>    0.823310</TD>
+      <TD>    0.924055</TD>
+      <TD>    0.902447</TD>
+      <TD>    0.962956</TD>
+      <TD>    0.953280</TD>
+      <TD>    0.994582</TD>
+      <TD>    0.915325</TD>
+      <TD>  -2.6510</TD>
+      <TD>  -0.5890</TD>
+      <TD>  -3.9630</TD>
+      <TD>444.6300</TD>
+     </TR>
+     <TR>
+      <TD>131303187</TD>
+      <TD>2013-03-05</TD>
+      <TD>214.3154340000</TD>
+      <TD> -0.1393710000</TD>
+      <TD>J141715.70-000821.7</TD>
+      <TD>   -1.512000</TD>
+      <TD>   -0.321027</TD>
+      <TD>    1.283134</TD>
+      <TD>    0.873466</TD>
+      <TD>    0.617767</TD>
+      <TD>    0.836122</TD>
+      <TD>    0.870327</TD>
+      <TD>    0.796155</TD>
+      <TD>    0.867602</TD>
+      <TD>    0.812690</TD>
+      <TD>    0.637426</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>131303032</TD>
+      <TD>2013-03-05</TD>
+      <TD>214.0717420000</TD>
+      <TD> -0.1836040000</TD>
+      <TD>J141617.21-001100.9</TD>
+      <TD>   -7.683000</TD>
+      <TD>   -0.161665</TD>
+      <TD>    1.600140</TD>
+      <TD>    0.922341</TD>
+      <TD>    0.752605</TD>
+      <TD>    0.890593</TD>
+      <TD>    0.880050</TD>
+      <TD>    0.889244</TD>
+      <TD>    0.923676</TD>
+      <TD>    0.869426</TD>
+      <TD>    0.761814</TD>
+      <TD>  38.3540</TD>
+      <TD> -48.2500</TD>
+      <TD> -27.8440</TD>
+      <TD>119.9000</TD>
+     </TR>
+     <TR>
+      <TD>131305114</TD>
+      <TD>2013-03-05</TD>
+      <TD>215.1761530000</TD>
+      <TD> -0.3679130000</TD>
+      <TD>J142042.27-002204.4</TD>
+      <TD>   -7.575000</TD>
+      <TD>   -0.116640</TD>
+      <TD>    1.484344</TD>
+      <TD>    0.867111</TD>
+      <TD>    0.753398</TD>
+      <TD>    0.875189</TD>
+      <TD>    0.886813</TD>
+      <TD>    0.875441</TD>
+      <TD>    0.898994</TD>
+      <TD>    0.883538</TD>
+      <TD>    0.765884</TD>
+      <TD>  36.3390</TD>
+      <TD> -14.7400</TD>
+      <TD> -32.6450</TD>
+      <TD> 99.8160</TD>
+     </TR>
+     <TR>
+      <TD>131403014</TD>
+      <TD>2013-03-05</TD>
+      <TD>214.4440720000</TD>
+      <TD> -0.4331656000</TD>
+      <TD>J141746.57-002559.3</TD>
+      <TD>  -44.139000</TD>
+      <TD>    0.471400</TD>
+      <TD>    1.079310</TD>
+      <TD>    0.947752</TD>
+      <TD>    0.746562</TD>
+      <TD>    0.874487</TD>
+      <TD>    0.827156</TD>
+      <TD>    0.902003</TD>
+      <TD>    0.946686</TD>
+      <TD>    0.880827</TD>
+      <TD>    0.824707</TD>
+      <TD>  -2.6510</TD>
+      <TD>  -0.5890</TD>
+      <TD>  -3.9630</TD>
+      <TD>444.6300</TD>
+     </TR>
+     <TR>
+      <TD>131405074</TD>
+      <TD>2013-03-05</TD>
+      <TD>214.4811190000</TD>
+      <TD> -0.5611060000</TD>
+      <TD>J141755.46-003339.9</TD>
+      <TD>  -31.313999</TD>
+      <TD>   -0.211106</TD>
+      <TD>    1.356369</TD>
+      <TD>    0.823674</TD>
+      <TD>    0.677265</TD>
+      <TD>    0.852373</TD>
+      <TD>    0.837132</TD>
+      <TD>    0.823004</TD>
+      <TD>    0.882676</TD>
+      <TD>    0.840822</TD>
+      <TD>    0.695248</TD>
+      <TD>   8.0970</TD>
+      <TD>   0.3190</TD>
+      <TD> -10.8960</TD>
+      <TD>157.2500</TD>
+     </TR>
+     <TR>
+      <TD>131403025</TD>
+      <TD>2013-03-05</TD>
+      <TD>214.5984920000</TD>
+      <TD> -0.3510860000</TD>
+      <TD>J141823.63-002103.9</TD>
+      <TD>   -6.135000</TD>
+      <TD>   -0.269386</TD>
+      <TD>    1.534847</TD>
+      <TD>    0.889242</TD>
+      <TD>    0.796850</TD>
+      <TD>    0.909989</TD>
+      <TD>    0.890438</TD>
+      <TD>    0.920173</TD>
+      <TD>    0.944448</TD>
+      <TD>    0.876763</TD>
+      <TD>    0.825365</TD>
+      <TD>   1.5730</TD>
+      <TD>   0.9280</TD>
+      <TD>   0.8570</TD>
+      <TD>174.3400</TD>
+     </TR>
+     <TR>
+      <TD>131405089</TD>
+      <TD>2013-03-05</TD>
+      <TD>214.8191060000</TD>
+      <TD> -1.1033300000</TD>
+      <TD>J141916.58-010611.9</TD>
+      <TD>  -40.334999</TD>
+      <TD>    0.085764</TD>
+      <TD>    1.260529</TD>
+      <TD>    0.851435</TD>
+      <TD>    0.611790</TD>
+      <TD>    0.831545</TD>
+      <TD>    0.834070</TD>
+      <TD>    0.797047</TD>
+      <TD>    0.812228</TD>
+      <TD>    0.773249</TD>
+      <TD>    0.633197</TD>
+      <TD> -35.8010</TD>
+      <TD> -41.8530</TD>
+      <TD> -21.8440</TD>
+      <TD>134.9000</TD>
+     </TR>
+     <TR>
+      <TD>131405184</TD>
+      <TD>2013-03-05</TD>
+      <TD>214.2456720000</TD>
+      <TD> -0.7524090000</TD>
+      <TD>J141658.96-004508.6</TD>
+      <TD>    3.585000</TD>
+      <TD>    0.028130</TD>
+      <TD>    1.331551</TD>
+      <TD>    0.895137</TD>
+      <TD>    0.824324</TD>
+      <TD>    0.918510</TD>
+      <TD>    0.931655</TD>
+      <TD>    0.933119</TD>
+      <TD>    0.968376</TD>
+      <TD>    0.926124</TD>
+      <TD>    0.871168</TD>
+      <TD>  33.1230</TD>
+      <TD>   6.8850</TD>
+      <TD> -16.3930</TD>
+      <TD>205.4000</TD>
+     </TR>
+     <TR>
+      <TD>131405114</TD>
+      <TD>2013-03-05</TD>
+      <TD>215.1761530000</TD>
+      <TD> -0.3679130000</TD>
+      <TD>J142042.27-002204.4</TD>
+      <TD>  -12.129000</TD>
+      <TD>   -0.017843</TD>
+      <TD>    1.557411</TD>
+      <TD>    0.877561</TD>
+      <TD>    0.754376</TD>
+      <TD>    0.885999</TD>
+      <TD>    0.904157</TD>
+      <TD>    0.879373</TD>
+      <TD>    0.897931</TD>
+      <TD>    0.863580</TD>
+      <TD>    0.765541</TD>
+      <TD>  36.3390</TD>
+      <TD> -14.7400</TD>
+      <TD> -32.6450</TD>
+      <TD> 99.8160</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

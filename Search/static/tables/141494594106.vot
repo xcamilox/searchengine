@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="I_182_pacp4" name="I/182/pacp4">
+   <DESCRIPTION>
+    Fourth Preliminary Catalogue of Stars Data
+   </DESCRIPTION>
+   <FIELD ID="PACP4" datatype="int" name="PACP4" ucd="ID_MAIN" width="5">
+    <DESCRIPTION>
+     Serial Number of the PACP4
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="FK5" datatype="int" name="FK5" ucd="ID_ALTERNATIVE" width="6">
+    <DESCRIPTION>
+     ? Number in FK5 or FK4supp or GC [NULL integer written as an
+     empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="mag" datatype="float" name="mag" precision="2" ucd="PHOT_MAG_V" unit="mag" width="5">
+    <DESCRIPTION>
+     Visual magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sp" arraysize="3" datatype="char" name="Sp" ucd="SPECT_TYPE_GENERAL">
+    <DESCRIPTION>
+     Spectral type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="12" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     + Right Ascension (J2000.0) hours
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="12" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (J2000.0) degrees
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="corRA" datatype="float" name="corRA" precision="1" ucd="POS_EQ_RA_CORR" unit="ms" width="6">
+    <DESCRIPTION>
+     ? Position correction RA, mean epoch of obs.
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>27622</TD>
+      <TD>1521</TD>
+      <TD> 3.89</TD>
+      <TD>K0</TD>
+      <TD>19 56 18.376</TD>
+      <TD>+35 05 00.34</TD>
+      <TD>  -7.4</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

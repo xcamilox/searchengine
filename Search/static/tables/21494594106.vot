@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="I_78_catalog" name="I/78/catalog">
+   <DESCRIPTION>
+    The SPF3 Catalogue
+   </DESCRIPTION>
+   <FIELD ID="SPF3" datatype="short" name="SPF3" ucd="ID_MAIN" width="3">
+    <DESCRIPTION>
+     sequential number.
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="FK4" datatype="short" name="FK4" ucd="ID_ALTERNATIVE" width="4">
+    <DESCRIPTION>
+     [1/1987]? FK4 (Fricke et al., 1963) [NULL integer written as an
+     empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="N30_GC" datatype="int" name="N30_GC" ucd="ID_ALTERNATIVE" width="5">
+    <DESCRIPTION>
+     [1/33342]? N30 or GC number (see byte 13). [NULL integer written
+     as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="n_N30_GC" arraysize="1" datatype="char" name="n_N30_GC" ucd="NOTE">
+    <DESCRIPTION>
+     [*] Asterisk (*) if the N30/GC contains a GC identification;
+     otherwise blank.
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_MAG_V" unit="mag" width="4">
+    <DESCRIPTION>
+     Visual magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RA1950" arraysize="12" datatype="char" name="RA1950" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension 1950
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_RA1950" datatype="short" name="e_RA1950" ucd="ERROR" unit="ms" width="3">
+    <DESCRIPTION>
+     Mean error of RAms
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="o_RA1950" datatype="short" name="o_RA1950" ucd="NUMBER" width="2">
+    <DESCRIPTION>
+     Number of observations
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DE1950" arraysize="8" datatype="char" name="DE1950" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Approximate Declination 1950
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="EpRA" datatype="float" name="EpRA" precision="2" ucd="TIME_EPOCH" unit="yr" width="7">
+    <DESCRIPTION>
+     [196300/196500] Mean epoch for right ascension observations
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA.icrs" arraysize="12" datatype="char" name="_RA.icrs" ucd="POS_EQ_RA_OTHER" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (ICRS) (computed by VizieR, not part of the
+     original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" arraysize="9" datatype="char" name="_DE.icrs" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (ICRS) (computed by VizieR, not part of the original
+     data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>596</TD>
+      <TD>1521</TD>
+      <TD>4409</TD>
+      <TD/>
+      <TD>4.03</TD>
+      <TD>19 54 25.697</TD>
+      <TD>10</TD>
+      <TD>21</TD>
+      <TD>+34 57.0</TD>
+      <TD>1964.07</TD>
+      <TD>19 56 18.480</TD>
+      <TD>+35 05 03</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

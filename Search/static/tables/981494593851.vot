@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_AJ_132_714_table2" name="J/AJ/132/714/table2">
+   <DESCRIPTION>
+    Galactic coordinates and distances of the RRLS
+   </DESCRIPTION>
+   <FIELD ID="__VZA2004_" datatype="short" name="__VZA2004_" ucd="ID_MAIN" width="3">
+    <DESCRIPTION>
+     Identification number (same as Paper I, Vivas et al., Cat.
+     &lt;J/AJ/127/1158&gt;)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GLON" datatype="float" name="GLON" precision="2" ucd="POS_GAL_LON" unit="deg" width="6">
+    <DESCRIPTION>
+     Galactic longitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GLAT" datatype="float" name="GLAT" precision="2" ucd="POS_GAL_LAT" unit="deg" width="6">
+    <DESCRIPTION>
+     Galactic latitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag0" datatype="float" name="Vmag0" precision="2" ucd="PHOT_JHN_V" unit="mag" width="5">
+    <DESCRIPTION>
+     Extinction corrected V band magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="x" datatype="float" name="x" precision="1" ucd="POS_GAL_X" unit="kpc" width="5">
+    <DESCRIPTION>
+     Galactocentric X coordinate
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="y" datatype="float" name="y" precision="1" ucd="POS_GAL_Y" unit="kpc" width="5">
+    <DESCRIPTION>
+     Galactocentric Y coordinate
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="z" datatype="float" name="z" precision="1" ucd="POS_GAL_Z" unit="kpc" width="5">
+    <DESCRIPTION>
+     Galactocentric Z coordinate
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RHel" datatype="float" name="RHel" precision="1" ucd="POS_GAL_HC" unit="kpc" width="4">
+    <DESCRIPTION>
+     Heliocentric distance
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RGal" datatype="float" name="RGal" precision="1" ucd="POS_GAL_GC" unit="kpc" width="4">
+    <DESCRIPTION>
+     Galactocentric distance
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Position (as computed from Vivas et al., J/AJ/127/1158) (right
+     ascension part)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Position (as computed from Vivas et al., J/AJ/127/1158)
+     (declination part)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>325</TD>
+      <TD>343.83</TD>
+      <TD> 55.56</TD>
+      <TD>19.26</TD>
+      <TD>-22.0</TD>
+      <TD> -8.7</TD>
+      <TD> 45.6</TD>
+      <TD>55.3</TD>
+      <TD>51.4</TD>
+      <TD>Simbad</TD>
+      <TD>214.59296</TD>
+      <TD> -0.25156</TD>
+     </TR>
+     <TR>
+      <TD>326</TD>
+      <TD>343.90</TD>
+      <TD> 55.47</TD>
+      <TD>19.10</TD>
+      <TD>-19.9</TD>
+      <TD> -8.1</TD>
+      <TD> 42.3</TD>
+      <TD>51.3</TD>
+      <TD>47.4</TD>
+      <TD>Simbad</TD>
+      <TD>214.67287</TD>
+      <TD> -0.29881</TD>
+     </TR>
+     <TR>
+      <TD>327</TD>
+      <TD>343.85</TD>
+      <TD> 55.31</TD>
+      <TD>18.11</TD>
+      <TD> -9.8</TD>
+      <TD> -5.2</TD>
+      <TD> 26.7</TD>
+      <TD>32.5</TD>
+      <TD>28.9</TD>
+      <TD>Simbad</TD>
+      <TD>214.74204</TD>
+      <TD> -0.44522</TD>
+     </TR>
+     <TR>
+      <TD>328</TD>
+      <TD>343.95</TD>
+      <TD> 55.31</TD>
+      <TD>19.23</TD>
+      <TD>-21.7</TD>
+      <TD> -8.6</TD>
+      <TD> 44.7</TD>
+      <TD>54.3</TD>
+      <TD>50.4</TD>
+      <TD>Simbad</TD>
+      <TD>214.78962</TD>
+      <TD> -0.41178</TD>
+     </TR>
+     <TR>
+      <TD>329</TD>
+      <TD>343.58</TD>
+      <TD> 54.84</TD>
+      <TD>18.98</TD>
+      <TD>-18.9</TD>
+      <TD> -7.9</TD>
+      <TD> 39.8</TD>
+      <TD>48.6</TD>
+      <TD>44.7</TD>
+      <TD>Simbad</TD>
+      <TD>214.89229</TD>
+      <TD> -0.91917</TD>
+     </TR>
+     <TR>
+      <TD>330</TD>
+      <TD>343.67</TD>
+      <TD> 54.68</TD>
+      <TD>19.59</TD>
+      <TD>-27.7</TD>
+      <TD>-10.4</TD>
+      <TD> 52.5</TD>
+      <TD>64.3</TD>
+      <TD>60.2</TD>
+      <TD>Simbad</TD>
+      <TD>215.02675</TD>
+      <TD> -1.01778</TD>
+     </TR>
+     <TR>
+      <TD>331</TD>
+      <TD>344.33</TD>
+      <TD> 54.41</TD>
+      <TD>15.46</TD>
+      <TD>  2.6</TD>
+      <TD> -1.5</TD>
+      <TD>  7.8</TD>
+      <TD> 9.6</TD>
+      <TD> 8.4</TD>
+      <TD>Simbad</TD>
+      <TD>215.49996</TD>
+      <TD> -1.01864</TD>
+     </TR>
+     <TR>
+      <TD>332</TD>
+      <TD>345.20</TD>
+      <TD> 54.69</TD>
+      <TD>18.71</TD>
+      <TD>-15.9</TD>
+      <TD> -6.3</TD>
+      <TD> 35.0</TD>
+      <TD>42.9</TD>
+      <TD>39.0</TD>
+      <TD>Simbad</TD>
+      <TD>215.73937</TD>
+      <TD> -0.48950</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

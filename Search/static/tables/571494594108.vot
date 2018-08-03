@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="IV_24_table4" name="IV/24/table4">
+   <DESCRIPTION>
+    Accurate Coordinates of Planetary Nebulae
+   </DESCRIPTION>
+   <FIELD ID="PK" arraysize="9" datatype="char" name="PK" ucd="ID_MAIN">
+    <DESCRIPTION>
+     [0-9. +-] PK designation, as in CGPN
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="f_PK" arraysize="1" datatype="char" name="f_PK" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [*] Possible PN
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Name" arraysize="15" datatype="char" name="Name" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Other name of the PN
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RA.Eq" arraysize="12" datatype="char" name="RA.Eq" ucd="POS_EQ_RA_OTHER" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension for Equinox Eq
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DE.Eq" arraysize="12" datatype="char" name="DE.Eq" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination for Equinox Eq
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Eq" datatype="short" name="Eq" ucd="TIME_EQUINOX" unit="yr" width="4">
+    <DESCRIPTION>
+     Equinox (1900, 1950 or 2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Origin" arraysize="15" datatype="char" name="Origin" ucd="REFER_CODE">
+    <DESCRIPTION>
+     Origin of the position (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Note" arraysize="1" datatype="char" name="Note" ucd="NOTE">
+    <DESCRIPTION>
+     [*] Note flag
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="11" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_OTHER" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension for J2000 (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="11" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination for J2000 (2)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>070+03.1</TD>
+      <TD>*</TD>
+      <TD>TuWe 2-4</TD>
+      <TD>19 54 17.100</TD>
+      <TD>+35 07 08.00</TD>
+      <TD>2000</TD>
+      <TD>63.134.080</TD>
+      <TD/>
+      <TD>19 54 17.10</TD>
+      <TD>+35 07 08.0</TD>
+     </TR>
+     <TR>
+      <TD>070+03.1</TD>
+      <TD>*</TD>
+      <TD>TuWe 2-4</TD>
+      <TD>19 54 17.300</TD>
+      <TD>+35 07 08.00</TD>
+      <TD>2000</TD>
+      <TD>66.134.013</TD>
+      <TD/>
+      <TD>19 54 17.30</TD>
+      <TD>+35 07 08.0</TD>
+     </TR>
+     <TR>
+      <TD>070+03.1</TD>
+      <TD>*</TD>
+      <TD>TuWe 2-4</TD>
+      <TD>19 52 24.800</TD>
+      <TD>+34 59 07.00</TD>
+      <TD>1950</TD>
+      <TD>Ko,Ku (1999)</TD>
+      <TD/>
+      <TD>19 54 17.33</TD>
+      <TD>+35 07 02.7</TD>
+     </TR>
+     <TR>
+      <TD>070+02.1</TD>
+      <TD/>
+      <TD>KLW 6</TD>
+      <TD>19 59 55.800</TD>
+      <TD>+34 29 05.00</TD>
+      <TD>2000</TD>
+      <TD>66.134.013</TD>
+      <TD>*</TD>
+      <TD>19 59 55.80</TD>
+      <TD>+34 29 05.0</TD>
+     </TR>
+     <TR>
+      <TD>070+02.1</TD>
+      <TD/>
+      <TD>KLW 6</TD>
+      <TD>19 58 01.800</TD>
+      <TD>+34 20 47.00</TD>
+      <TD>1950</TD>
+      <TD>Ko,Ku (1999)</TD>
+      <TD/>
+      <TD>19 59 55.84</TD>
+      <TD>+34 29 04.2</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

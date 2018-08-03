@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_AJ_77_486_ugp" name="J/AJ/77/486/ugp">
+   <DESCRIPTION>
+    Dwarf K and M stars, with astrometric connection
+   </DESCRIPTION>
+   <FIELD ID="UGP" datatype="short" name="UGP" ucd="ID_TABLE" width="3">
+    <DESCRIPTION>
+     [1,624] Number in table1 of paper
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="s" arraysize="1" datatype="char" name="s" ucd="REFER_CODE">
+    <DESCRIPTION>
+     [MTU] Source of position (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HD" datatype="int" name="HD" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     ? HD identification of star [NULL integer written as an empty
+     string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="BDz" arraysize="3" datatype="char" name="BDz" ucd="ID_REGION">
+    <DESCRIPTION>
+     BD identification: zone
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="BDn" datatype="short" name="BDn" ucd="ID_ALTERNATIVE" width="4">
+    <DESCRIPTION>
+     ? BD identification; number in zone [NULL integer written as an
+     empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="CDz" datatype="short" name="CDz" ucd="ID_REGION" width="3">
+    <DESCRIPTION>
+     ? CD identification: zone [NULL integer written as an empty
+     string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="CDn" datatype="int" name="CDn" ucd="ID_ALTERNATIVE" width="5">
+    <DESCRIPTION>
+     ? CD identification; number in zone [NULL integer written as an
+     empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="CPz" datatype="short" name="CPz" ucd="ID_REGION" width="3">
+    <DESCRIPTION>
+     ? CPD identification: zone [NULL integer written as an empty
+     string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="CPn" datatype="int" name="CPn" ucd="ID_ALTERNATIVE" width="5">
+    <DESCRIPTION>
+     ? CPD identification; number in zone [NULL integer written as an
+     empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_MAG_V" unit="mag" width="5">
+    <DESCRIPTION>
+     Visual approximative magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpT" arraysize="6" datatype="char" name="SpT" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     MK spectral type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Comment" arraysize="72" datatype="char" name="Comment" ucd="REMARKS">
+    <DESCRIPTION>
+     Notes and comments (from B. Skiff)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="11" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension J2000
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="11" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination J2000
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>349</TD>
+      <TD>U</TD>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD>-32768</TD>
+      <TD>-32768</TD>
+      <TD>-2147483648</TD>
+      <TD>-32768</TD>
+      <TD>-2147483648</TD>
+      <TD>11.00</TD>
+      <TD>K7V</TD>
+      <TD>TYC 0318-0510-1 = HIP 70136, UGP -3' RA errror</TD>
+      <TD>Simbad</TD>
+      <TD>14 21 04.89</TD>
+      <TD>+00 31 07.0</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

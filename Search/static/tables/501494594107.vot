@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="III_231_catalog" name="III/231/catalog">
+   <DESCRIPTION>
+    Main Catalog
+   </DESCRIPTION>
+   <FIELD ID="TYC1" datatype="short" name="TYC1" ucd="ID_MAIN:1" width="4">
+    <DESCRIPTION>
+     First part of Tycho-2 identifier
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="TYC2" datatype="int" name="TYC2" ucd="ID_MAIN:2" width="5">
+    <DESCRIPTION>
+     Second part of Tycho-2 identifier
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="TYC3" datatype="unsignedByte" name="TYC3" ucd="ID_MAIN:3" width="1">
+    <DESCRIPTION>
+     Third part of Tycho-2 identifier
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="8" ucd="POS_EQ_RA_MAIN" unit="deg" width="12">
+    <DESCRIPTION>
+     Right Ascension, J2000, decimal deg.
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="8" ucd="POS_EQ_DEC_MAIN" unit="deg" width="12">
+    <DESCRIPTION>
+     Declination, J2000, decimal deg.
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="VTmag" datatype="float" name="VTmag" precision="3" ucd="PHOT_TYCHO_V" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Tycho-2 V_T_ magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="BTmag" datatype="float" name="BTmag" precision="3" ucd="PHOT_TYCHO_B" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Tycho-2 B_T_ magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="r_SpType" arraysize="3" datatype="char" name="r_SpType" ucd="REFER_CODE">
+    <DESCRIPTION>
+     Source of spectral type (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dist" datatype="float" name="Dist" precision="3" ucd="POS_ANG_DIST_GENERAL" unit="arcs" width="6">
+    <DESCRIPTION>
+     Distance between Tycho object and spectral type match (4)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Teff" datatype="int" name="Teff" ucd="PHYS_TEMP_EFFEC" unit="K" width="5">
+    <DESCRIPTION>
+     Effective temperature of the star, based on spectral type (G1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="20" datatype="char" name="SpType" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     Spectral Type (1)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>2677</TD>
+      <TD>477</TD>
+      <TD>1</TD>
+      <TD>298.73565187</TD>
+      <TD> 34.93343129</TD>
+      <TD> 9.027</TD>
+      <TD>10.533</TD>
+      <TD>ppN</TD>
+      <TD> 0.216</TD>
+      <TD>3950</TD>
+      <TD>K5</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>500</TD>
+      <TD>1</TD>
+      <TD>298.70436732</TD>
+      <TD> 35.00553485</TD>
+      <TD> 8.633</TD>
+      <TD> 9.403</TD>
+      <TD>ppN</TD>
+      <TD> 0.139</TD>
+      <TD>6200</TD>
+      <TD>F8</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>942</TD>
+      <TD>1</TD>
+      <TD>299.15808117</TD>
+      <TD> 35.56744676</TD>
+      <TD> 8.895</TD>
+      <TD> 9.186</TD>
+      <TD>ppN</TD>
+      <TD> 0.058</TD>
+      <TD>7850</TD>
+      <TD>A7</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>1118</TD>
+      <TD>1</TD>
+      <TD>298.75057086</TD>
+      <TD> 34.90060348</TD>
+      <TD> 7.331</TD>
+      <TD> 8.673</TD>
+      <TD>ppN</TD>
+      <TD> 0.168</TD>
+      <TD>4750</TD>
+      <TD>K0</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>1189</TD>
+      <TD>1</TD>
+      <TD>298.94539561</TD>
+      <TD> 34.98854526</TD>
+      <TD> 9.542</TD>
+      <TD> 9.776</TD>
+      <TD>ppN</TD>
+      <TD> 0.138</TD>
+      <TD>8970</TD>
+      <TD>A2</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>1230</TD>
+      <TD>1</TD>
+      <TD>299.22229331</TD>
+      <TD> 35.53692067</TD>
+      <TD> 8.236</TD>
+      <TD> 8.587</TD>
+      <TD>j64</TD>
+      <TD> 0.333</TD>
+      <TD>8200</TD>
+      <TD>AM</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>1268</TD>
+      <TD>1</TD>
+      <TD>299.01963877</TD>
+      <TD> 35.53486526</TD>
+      <TD> 8.950</TD>
+      <TD> 9.275</TD>
+      <TD>ppN</TD>
+      <TD> 0.051</TD>
+      <TD>7850</TD>
+      <TD>A7</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>1816</TD>
+      <TD>1</TD>
+      <TD>299.07655211</TD>
+      <TD> 35.08342314</TD>
+      <TD> 4.008</TD>
+      <TD> 5.189</TD>
+      <TD>j64</TD>
+      <TD> 0.370</TD>
+      <TD>4750</TD>
+      <TD>K0III</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>29</TD>
+      <TD>1</TD>
+      <TD>300.59700043</TD>
+      <TD> 35.31143032</TD>
+      <TD> 9.209</TD>
+      <TD> 9.529</TD>
+      <TD>j64</TD>
+      <TD> 0.061</TD>
+      <TD>20300</TD>
+      <TD>B2(II)</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>131</TD>
+      <TD>1</TD>
+      <TD>300.67397462</TD>
+      <TD> 34.83563394</TD>
+      <TD> 9.204</TD>
+      <TD> 9.844</TD>
+      <TD>j64</TD>
+      <TD> 0.441</TD>
+      <TD>6030</TD>
+      <TD>G0V</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>323</TD>
+      <TD>1</TD>
+      <TD>300.75846238</TD>
+      <TD> 35.06881420</TD>
+      <TD>10.212</TD>
+      <TD>10.389</TD>
+      <TD>j64</TD>
+      <TD> 0.064</TD>
+      <TD>11900</TD>
+      <TD>B8:V:</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>425</TD>
+      <TD>1</TD>
+      <TD>299.98376989</TD>
+      <TD> 34.77722886</TD>
+      <TD>10.378</TD>
+      <TD>10.808</TD>
+      <TD>ppN</TD>
+      <TD> 0.141</TD>
+      <TD>6890</TD>
+      <TD>F2</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>613</TD>
+      <TD>1</TD>
+      <TD>299.52622188</TD>
+      <TD> 35.37974213</TD>
+      <TD> 9.085</TD>
+      <TD> 9.095</TD>
+      <TD>ppN</TD>
+      <TD> 0.019</TD>
+      <TD>8970</TD>
+      <TD>A2</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>665</TD>
+      <TD>1</TD>
+      <TD>300.30263634</TD>
+      <TD> 34.78639072</TD>
+      <TD> 8.914</TD>
+      <TD>10.223</TD>
+      <TD>ppN</TD>
+      <TD> 0.277</TD>
+      <TD>4750</TD>
+      <TD>K0</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>740</TD>
+      <TD>1</TD>
+      <TD>299.30549743</TD>
+      <TD> 35.03140394</TD>
+      <TD> 7.316</TD>
+      <TD> 7.815</TD>
+      <TD>j64</TD>
+      <TD> 0.161</TD>
+      <TD>6440</TD>
+      <TD>F6V</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>788</TD>
+      <TD>1</TD>
+      <TD>299.63532934</TD>
+      <TD> 34.69040872</TD>
+      <TD>10.317</TD>
+      <TD>11.565</TD>
+      <TD>ppN</TD>
+      <TD> 0.035</TD>
+      <TD>4420</TD>
+      <TD>K2</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>791</TD>
+      <TD>1</TD>
+      <TD>299.59032397</TD>
+      <TD> 35.20161299</TD>
+      <TD> 8.982</TD>
+      <TD> 9.793</TD>
+      <TD>j64</TD>
+      <TD> 0.081</TD>
+      <TD>26000</TD>
+      <TD>B0IB</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>850</TD>
+      <TD>1</TD>
+      <TD>300.07929519</TD>
+      <TD> 35.35835596</TD>
+      <TD> 7.847</TD>
+      <TD> 9.837</TD>
+      <TD>ppN</TD>
+      <TD> 0.056</TD>
+      <TD>4420</TD>
+      <TD>K2</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>904</TD>
+      <TD>1</TD>
+      <TD>299.71517438</TD>
+      <TD> 35.49775991</TD>
+      <TD> 7.000</TD>
+      <TD> 7.025</TD>
+      <TD>ppN</TD>
+      <TD> 0.231</TD>
+      <TD>9520</TD>
+      <TD>A0</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>908</TD>
+      <TD>1</TD>
+      <TD>299.32731191</TD>
+      <TD> 34.58124720</TD>
+      <TD> 8.577</TD>
+      <TD> 9.780</TD>
+      <TD>ppN</TD>
+      <TD> 0.209</TD>
+      <TD>4750</TD>
+      <TD>K0</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>1084</TD>
+      <TD>1</TD>
+      <TD>300.50757607</TD>
+      <TD> 35.33247787</TD>
+      <TD> 7.400</TD>
+      <TD> 7.323</TD>
+      <TD>j64</TD>
+      <TD> 0.026</TD>
+      <TD>11900</TD>
+      <TD>B8V</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>1141</TD>
+      <TD>1</TD>
+      <TD>300.56902529</TD>
+      <TD> 34.70726671</TD>
+      <TD> 9.228</TD>
+      <TD> 9.231</TD>
+      <TD>j64</TD>
+      <TD> 0.016</TD>
+      <TD>13200</TD>
+      <TD>B7IV</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>1195</TD>
+      <TD>1</TD>
+      <TD>299.98249026</TD>
+      <TD> 35.29649359</TD>
+      <TD> 7.894</TD>
+      <TD> 9.930</TD>
+      <TD>ppN</TD>
+      <TD> 0.013</TD>
+      <TD>3950</TD>
+      <TD>K5</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>1231</TD>
+      <TD>1</TD>
+      <TD>299.95459746</TD>
+      <TD> 35.30931547</TD>
+      <TD> 9.039</TD>
+      <TD> 9.409</TD>
+      <TD>j64</TD>
+      <TD> 0.092</TD>
+      <TD>38000</TD>
+      <TD>O7</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>1265</TD>
+      <TD>1</TD>
+      <TD>299.55695432</TD>
+      <TD> 34.42275330</TD>
+      <TD> 7.674</TD>
+      <TD> 7.595</TD>
+      <TD>ppN</TD>
+      <TD> 0.042</TD>
+      <TD>10500</TD>
+      <TD>B9</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>1439</TD>
+      <TD>1</TD>
+      <TD>300.78619641</TD>
+      <TD> 35.23697526</TD>
+      <TD>10.186</TD>
+      <TD>10.292</TD>
+      <TD>j64</TD>
+      <TD> 0.026</TD>
+      <TD>11900</TD>
+      <TD>B8V</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>1481</TD>
+      <TD>1</TD>
+      <TD>300.39111388</TD>
+      <TD> 34.58309400</TD>
+      <TD> 8.538</TD>
+      <TD> 8.584</TD>
+      <TD>j64</TD>
+      <TD> 0.080</TD>
+      <TD>11900</TD>
+      <TD>B8V</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>1605</TD>
+      <TD>1</TD>
+      <TD>299.72789954</TD>
+      <TD> 34.66197202</TD>
+      <TD> 8.731</TD>
+      <TD>10.255</TD>
+      <TD>ppN</TD>
+      <TD> 0.034</TD>
+      <TD>4750</TD>
+      <TD>K0</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>1755</TD>
+      <TD>1</TD>
+      <TD>300.37448230</TD>
+      <TD> 35.13903276</TD>
+      <TD> 8.772</TD>
+      <TD> 9.904</TD>
+      <TD>j64</TD>
+      <TD> 0.237</TD>
+      <TD>4900</TD>
+      <TD>G8III</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>1786</TD>
+      <TD>1</TD>
+      <TD>300.48449403</TD>
+      <TD> 34.81068327</TD>
+      <TD> 9.689</TD>
+      <TD> 9.971</TD>
+      <TD>ppN</TD>
+      <TD> 0.066</TD>
+      <TD>8200</TD>
+      <TD>A5</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>1962</TD>
+      <TD>1</TD>
+      <TD>299.60909973</TD>
+      <TD> 34.51304384</TD>
+      <TD> 8.368</TD>
+      <TD> 8.278</TD>
+      <TD>j64</TD>
+      <TD> 0.057</TD>
+      <TD>10500</TD>
+      <TD>B9P</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>1968</TD>
+      <TD>1</TD>
+      <TD>300.10608201</TD>
+      <TD> 34.46433256</TD>
+      <TD> 8.235</TD>
+      <TD> 8.207</TD>
+      <TD>ppN</TD>
+      <TD> 0.013</TD>
+      <TD>9520</TD>
+      <TD>A0</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>2028</TD>
+      <TD>1</TD>
+      <TD>300.03547588</TD>
+      <TD> 34.38368360</TD>
+      <TD> 9.031</TD>
+      <TD> 9.098</TD>
+      <TD>ppN</TD>
+      <TD> 0.035</TD>
+      <TD>9520</TD>
+      <TD>A0</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>2160</TD>
+      <TD>1</TD>
+      <TD>299.45585348</TD>
+      <TD> 34.24666606</TD>
+      <TD> 7.896</TD>
+      <TD> 7.968</TD>
+      <TD>ppN</TD>
+      <TD> 0.087</TD>
+      <TD>9520</TD>
+      <TD>A0</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>2291</TD>
+      <TD>1</TD>
+      <TD>299.66150740</TD>
+      <TD> 35.06922747</TD>
+      <TD> 8.849</TD>
+      <TD> 8.809</TD>
+      <TD>ppN</TD>
+      <TD> 0.032</TD>
+      <TD>9520</TD>
+      <TD>A0</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>2301</TD>
+      <TD>1</TD>
+      <TD>299.56462333</TD>
+      <TD> 34.29700727</TD>
+      <TD>10.646</TD>
+      <TD>10.947</TD>
+      <TD>ppN</TD>
+      <TD> 0.019</TD>
+      <TD>8200</TD>
+      <TD>A</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>2394</TD>
+      <TD>1</TD>
+      <TD>299.54233852</TD>
+      <TD> 34.72137955</TD>
+      <TD> 9.128</TD>
+      <TD>11.280</TD>
+      <TD>ppN</TD>
+      <TD> 0.049</TD>
+      <TD>3850</TD>
+      <TD>K7</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>2440</TD>
+      <TD>1</TD>
+      <TD>299.87005550</TD>
+      <TD> 34.49210159</TD>
+      <TD> 8.506</TD>
+      <TD> 9.872</TD>
+      <TD>ppN</TD>
+      <TD> 0.135</TD>
+      <TD>4750</TD>
+      <TD>K0</TD>
+     </TR>
+     <TR>
+      <TD>2681</TD>
+      <TD>16</TD>
+      <TD>1</TD>
+      <TD>298.82203192</TD>
+      <TD> 35.88529626</TD>
+      <TD> 9.566</TD>
+      <TD>10.646</TD>
+      <TD>ppN</TD>
+      <TD> 0.092</TD>
+      <TD>5150</TD>
+      <TD>G5</TD>
+     </TR>
+     <TR>
+      <TD>2681</TD>
+      <TD>22</TD>
+      <TD>1</TD>
+      <TD>299.24094292</TD>
+      <TD> 35.91091513</TD>
+      <TD> 8.619</TD>
+      <TD> 9.848</TD>
+      <TD>ppN</TD>
+      <TD> 0.115</TD>
+      <TD>4750</TD>
+      <TD>K0</TD>
+     </TR>
+     <TR>
+      <TD>2681</TD>
+      <TD>50</TD>
+      <TD>1</TD>
+      <TD>298.76175833</TD>
+      <TD> 35.84436901</TD>
+      <TD> 9.543</TD>
+      <TD>10.948</TD>
+      <TD>ppN</TD>
+      <TD> 0.126</TD>
+      <TD>4750</TD>
+      <TD>K0</TD>
+     </TR>
+     <TR>
+      <TD>2681</TD>
+      <TD>276</TD>
+      <TD>1</TD>
+      <TD>298.71238031</TD>
+      <TD> 35.81734182</TD>
+      <TD> 8.922</TD>
+      <TD>10.051</TD>
+      <TD>ppN</TD>
+      <TD> 0.240</TD>
+      <TD>4750</TD>
+      <TD>K0</TD>
+     </TR>
+     <TR>
+      <TD>2681</TD>
+      <TD>300</TD>
+      <TD>1</TD>
+      <TD>299.16392137</TD>
+      <TD> 35.69831578</TD>
+      <TD> 9.313</TD>
+      <TD>10.808</TD>
+      <TD>ppN</TD>
+      <TD> 0.117</TD>
+      <TD>4420</TD>
+      <TD>K2</TD>
+     </TR>
+     <TR>
+      <TD>2681</TD>
+      <TD>472</TD>
+      <TD>1</TD>
+      <TD>299.10264692</TD>
+      <TD> 35.79008635</TD>
+      <TD> 7.670</TD>
+      <TD> 8.590</TD>
+      <TD>ppN</TD>
+      <TD> 0.075</TD>
+      <TD>5150</TD>
+      <TD>G5</TD>
+     </TR>
+     <TR>
+      <TD>2681</TD>
+      <TD>570</TD>
+      <TD>1</TD>
+      <TD>299.19562530</TD>
+      <TD> 35.70297773</TD>
+      <TD>10.055</TD>
+      <TD>11.261</TD>
+      <TD>ppN</TD>
+      <TD> 0.023</TD>
+      <TD>4750</TD>
+      <TD>K0</TD>
+     </TR>
+     <TR>
+      <TD>2681</TD>
+      <TD>1034</TD>
+      <TD>1</TD>
+      <TD>298.76462194</TD>
+      <TD> 35.87188637</TD>
+      <TD>10.415</TD>
+      <TD>11.093</TD>
+      <TD>ppN</TD>
+      <TD> 0.271</TD>
+      <TD>5150</TD>
+      <TD>G5</TD>
+     </TR>
+     <TR>
+      <TD>2681</TD>
+      <TD>1366</TD>
+      <TD>1</TD>
+      <TD>298.99427580</TD>
+      <TD> 35.82461742</TD>
+      <TD> 8.747</TD>
+      <TD> 8.751</TD>
+      <TD>ppN</TD>
+      <TD> 0.024</TD>
+      <TD>9520</TD>
+      <TD>A0</TD>
+     </TR>
+     <TR>
+      <TD>2682</TD>
+      <TD>18</TD>
+      <TD>1</TD>
+      <TD>299.25184021</TD>
+      <TD> 35.84986926</TD>
+      <TD> 9.338</TD>
+      <TD> 9.403</TD>
+      <TD>ppN</TD>
+      <TD> 0.024</TD>
+      <TD>10500</TD>
+      <TD>B9</TD>
+     </TR>
+     <TR>
+      <TD>2682</TD>
+      <TD>286</TD>
+      <TD>1</TD>
+      <TD>300.31179900</TD>
+      <TD> 35.95665674</TD>
+      <TD>10.200</TD>
+      <TD>10.476</TD>
+      <TD>j64</TD>
+      <TD> 0.091</TD>
+      <TD>20300</TD>
+      <TD>B2III</TD>
+     </TR>
+     <TR>
+      <TD>2682</TD>
+      <TD>361</TD>
+      <TD>1</TD>
+      <TD>299.86111482</TD>
+      <TD> 35.89725168</TD>
+      <TD> 8.179</TD>
+      <TD> 9.401</TD>
+      <TD>j64</TD>
+      <TD> 0.125</TD>
+      <TD>4750</TD>
+      <TD>K0III</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

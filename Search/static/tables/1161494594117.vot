@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_A_A_480_91_table2" name="J/A+A/480/91/table2">
+   <DESCRIPTION>
+    Stellar parameters
+   </DESCRIPTION>
+   <FIELD ID="n_Name" arraysize="1" datatype="char" name="n_Name" ucd="DATA_LINK">
+    <DESCRIPTION>
+     {\bf N} for stars in both tables
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Name" arraysize="11" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     HD or TYC number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="VMAG" datatype="float" name="VMAG" precision="3" ucd="PHOT_ABS-MAG_BAND" unit="mag" width="6">
+    <DESCRIPTION>
+     Absolute magnitude in V
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="B-V" datatype="float" name="B-V" precision="3" ucd="PHOT_JHN_B-V" unit="mag" width="6">
+    <DESCRIPTION>
+     Johnson B-V colour
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="__Fe_H_" datatype="float" name="__Fe_H_" precision="2" ucd="PHYS_ABUND_FE/H" unit="[Sun]" width="5">
+    <DESCRIPTION>
+     Metallicity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Rmin" datatype="float" name="Rmin" precision="2" ucd="ORBIT_DISTANCE" unit="kpc" width="5">
+    <DESCRIPTION>
+     Perigalactic distance of galactic orbit
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Rmax" datatype="float" name="Rmax" precision="2" ucd="ORBIT_DISTANCE" unit="kpc" width="5">
+    <DESCRIPTION>
+     Apogalactic distance of galactic orbit
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Zmax" datatype="float" name="Zmax" precision="2" ucd="ORBIT_DISTANCE" unit="kpc" width="5">
+    <DESCRIPTION>
+     Maximum distance from galactic plane
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="ecc" datatype="float" name="ecc" precision="2" ucd="ORBIT_ECCENTRICITY" width="5">
+    <DESCRIPTION>
+     Eccentricity of galactic orbit
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dist" datatype="short" name="Dist" ucd="POS_GAL_HC" unit="pc" width="4">
+    <DESCRIPTION>
+     Distance from the Sun
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Age" datatype="float" name="Age" precision="2" ucd="TIME_AGE" unit="Gyr" width="5">
+    <DESCRIPTION>
+     ? Age
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_Age" datatype="float" name="e_Age" precision="2" ucd="ERROR" unit="Gyr" width="5">
+    <DESCRIPTION>
+     ? Error on Age
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Pthin" datatype="float" name="Pthin" precision="2" ucd="CODE_MEMB" width="5">
+    <DESCRIPTION>
+     Thin disk membership probability
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Pthick" datatype="float" name="Pthick" precision="2" ucd="CODE_MEMB" width="5">
+    <DESCRIPTION>
+     Thick disk membership probability
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Pher" datatype="float" name="Pher" precision="2" ucd="CODE_MEMB" width="5">
+    <DESCRIPTION>
+     Hercules stream membership probability
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Phalo" datatype="float" name="Phalo" precision="2" ucd="CODE_MEMB" width="5">
+    <DESCRIPTION>
+     Halo membership probability
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SimbadName" arraysize="16" datatype="char" name="SimbadName" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Designation understandable by the {\bf\fg{FireBrick}Simbad} data-
+     base
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right Ascension (J2000) from SIMBAD (not part of the original
+     data)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (J2000) from SIMBAD (not part of the original data)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>N</TD>
+      <TD>HD188947</TD>
+      <TD> 0.749</TD>
+      <TD> 1.012</TD>
+      <TD>-0.02</TD>
+      <TD> 6.90</TD>
+      <TD> 8.52</TD>
+      <TD> 0.09</TD>
+      <TD> 0.11</TD>
+      <TD>43</TD>
+      <TD> 1.65</TD>
+      <TD> 0.58</TD>
+      <TD> 0.96</TD>
+      <TD> 0.03</TD>
+      <TD> 0.01</TD>
+      <TD> 0.00</TD>
+      <TD>HD188947</TD>
+      <TD>299.07655</TD>
+      <TD> 35.08342</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

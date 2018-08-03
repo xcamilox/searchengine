@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_A_A_598_A100_sample" name="J/A+A/598/A100/sample">
+   <DESCRIPTION>
+    Basic data, stellar parameters and abundances for observed giants
+   </DESCRIPTION>
+   <FIELD ID="Name" arraysize="14" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Name (HIP, KIC or TYC)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="AName" arraysize="23" datatype="char" name="AName" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Alternative name
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="14" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="14" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_MAG_V" width="5">
+    <DESCRIPTION>
+     V magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RV" datatype="float" name="RV" precision="2" ucd="VELOC_HC" unit="km.s-1" width="7">
+    <DESCRIPTION>
+     Radial velocity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="S_N" datatype="short" name="S_N" ucd="INST_S/N" width="3">
+    <DESCRIPTION>
+     Signal-to-noise ratio (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Source" arraysize="15" datatype="char" name="Source" ucd="CODE_MISC">
+    <DESCRIPTION>
+     Source of spectrum (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Teffr" datatype="short" name="Teffr" ucd="PHYS_TEMP_EFFEC" unit="K" width="4">
+    <DESCRIPTION>
+     ? Reference effective temperature (1) [NULL integer written as an
+     empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="e_Teffr" datatype="short" name="e_Teffr" ucd="ERROR" unit="K" width="2">
+    <DESCRIPTION>
+     ? Uncertaity in reference Teff (1) [NULL integer written as an
+     empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="Teff" datatype="short" name="Teff" ucd="PHYS_TEMP_EFFEC" unit="K" width="4">
+    <DESCRIPTION>
+     Effective temperature
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="loggr" datatype="float" name="loggr" precision="3" ucd="PHYS_GRAVITY_SURFACE" unit="[cm/s2]" width="6">
+    <DESCRIPTION>
+     ? Reference surface gravity (2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_loggr" datatype="float" name="e_loggr" precision="3" ucd="ERROR" unit="[cm/s2]" width="6">
+    <DESCRIPTION>
+     ? Uncertainty in reference logg (2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="logg" datatype="float" name="logg" precision="2" ucd="PHYS_GRAVITY_SURFACE" unit="[cm/s2]" width="5">
+    <DESCRIPTION>
+     Surface gravity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="__Fe_H_" datatype="float" name="__Fe_H_" precision="2" ucd="PHYS_ABUND_FE/H" unit="[-]" width="5">
+    <DESCRIPTION>
+     Relative iron abundance
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="vmic" datatype="float" name="vmic" precision="2" ucd="VELOC_MICRO-TURB" unit="km.s-1" width="5">
+    <DESCRIPTION>
+     Mictoturbulence velocity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="A_O_" datatype="float" name="A_O_" precision="2" ucd="PHYS_ABUND_MISC" width="5">
+    <DESCRIPTION>
+     ? Oxygen abundance
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="A_Mg_" datatype="float" name="A_Mg_" precision="2" ucd="PHYS_ABUND_MISC" width="5">
+    <DESCRIPTION>
+     Magnesium abundance
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="A_Ca_" datatype="float" name="A_Ca_" precision="2" ucd="PHYS_ABUND_MISC" width="5">
+    <DESCRIPTION>
+     Calcium abundance
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="A_Ti_" datatype="float" name="A_Ti_" precision="2" ucd="PHYS_ABUND_MISC" width="5">
+    <DESCRIPTION>
+     Titanium abundance
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SimbadName" arraysize="23" datatype="char" name="SimbadName" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Designation understandable by the {\bf\fg{FireBrick}Simbad} data-
+     base
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>HIP98110</TD>
+      <TD>eta Cyg</TD>
+      <TD>19 56 18.37222</TD>
+      <TD>+35 05 00.3228</TD>
+      <TD> 3.88</TD>
+      <TD> -26.14</TD>
+      <TD>126</TD>
+      <TD>FIES-prg:51-018</TD>
+      <TD>-32768</TD>
+      <TD>-32768</TD>
+      <TD>4788</TD>
+      <TD/>
+      <TD/>
+      <TD> 2.76</TD>
+      <TD> 0.01</TD>
+      <TD> 1.38</TD>
+      <TD> 8.69</TD>
+      <TD> 7.59</TD>
+      <TD> 6.42</TD>
+      <TD> 4.87</TD>
+      <TD>eta Cyg</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

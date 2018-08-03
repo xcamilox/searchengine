@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="I_40_catalog" name="I/40/catalog">
+   <DESCRIPTION>
+    The catalog of (9989 + 582) stars.
+   </DESCRIPTION>
+   <FIELD ID="Seq" datatype="int" name="Seq" ucd="ID_NUMBER" width="5">
+    <DESCRIPTION>
+     [1,10571] Running number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DM" arraysize="8" datatype="char" name="DM" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Durchmusterung (BD or CD) identification
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sp" arraysize="2" datatype="char" name="Sp" ucd="SPECT_TYPE_GENERAL">
+    <DESCRIPTION>
+     Spectral type, from HD
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_PHG_V" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Magnitudes (from Harvard Revised Photometry or corrected BD)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="RAB1920" arraysize="12" datatype="char" name="RAB1920" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension B1920 , at Epoch
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="float" name="pmRA" precision="4" ucd="POS_EQ_PMRA" unit="s.a-1" width="7">
+    <DESCRIPTION>
+     ? Annual proper motion in RA (in Boss system)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="DEB1920" arraysize="12" datatype="char" name="DEB1920" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination B1920
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="float" name="pmDE" precision="3" ucd="POS_EQ_PMDEC" unit="arcs.a-1" width="6">
+    <DESCRIPTION>
+     ? Annual proper motion in Dec (in Boss system)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Note" arraysize="1" datatype="char" name="Note" ucd="NOTE">
+    <DESCRIPTION>
+     [*] indicates a note in the catalog
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA.icrs" arraysize="12" datatype="char" name="_RA.icrs" ucd="POS_EQ_RA_OTHER" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (ICRS) at Epoch=J2000, proper motions taken into
+     account  (computed by VizieR, not part of the original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" arraysize="12" datatype="char" name="_DE.icrs" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (ICRS) at Epoch=J2000, proper motions taken into
+     account  (computed by VizieR, not part of the original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>8258</TD>
+      <TD>3403798</TD>
+      <TD>K0</TD>
+      <TD> 4.03</TD>
+      <TD>19 53 18.245</TD>
+      <TD>-0.0028</TD>
+      <TD>+34 52 12.40</TD>
+      <TD>-0.039</TD>
+      <TD>*</TD>
+      <TD>19 56 18.410</TD>
+      <TD>+35 04 59.14</TD>
+     </TR>
+     <TR>
+      <TD>8289</TD>
+      <TD>3403832</TD>
+      <TD>K2</TD>
+      <TD> 7.87</TD>
+      <TD>19 57 18.703</TD>
+      <TD> 0.0010</TD>
+      <TD>+35 08 16.15</TD>
+      <TD>-0.030</TD>
+      <TD/>
+      <TD>20 00 19.162</TD>
+      <TD>+35 21 28.14</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="V_50_catalog" name="V/50/catalog">
+   <DESCRIPTION>
+    The main part of the Catalogue
+   </DESCRIPTION>
+   <FIELD ID="HR" datatype="short" name="HR" ucd="ID_MAIN" width="4">
+    <DESCRIPTION>
+     [1/9110]+ Harvard Revised Number = Bright Star Number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Name" arraysize="10" datatype="char" name="Name" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Name, generally Bayer and/or Flamsteed name
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HD" datatype="int" name="HD" ucd="ID_ALTERNATIVE" width="6">
+    <DESCRIPTION>
+     [1/225300]? Henry Draper Catalog Number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="ADS" arraysize="5" datatype="char" name="ADS" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Aitken's Double Star Catalog (ADS) designation
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="VarID" arraysize="9" datatype="char" name="VarID" ucd="ID_VARIAB">
+    <DESCRIPTION>
+     Variable star identification
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="10" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     ?Hours RA, equinox J2000, epoch 2000.0 (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="9" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     ?Sign Dec, equinox J2000, epoch 2000.0 (1)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_JHN_V" unit="mag" width="5">
+    <DESCRIPTION>
+     ?Visual magnitude (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="B-V" datatype="float" name="B-V" precision="2" ucd="PHOT_JHN_B-V" unit="mag" width="5">
+    <DESCRIPTION>
+     ? B-V color in the UBV system
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="20" datatype="char" name="SpType" ucd="SPECT_TYPE_GENERAL">
+    <DESCRIPTION>
+     Spectral type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="NoteFlag" arraysize="1" datatype="char" name="NoteFlag" ucd="REMARKS">
+    <DESCRIPTION>
+     [*] a star indicates that there is a note (see file notes)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>7615</TD>
+      <TD>21Eta Cyg</TD>
+      <TD>188947</TD>
+      <TD>13149</TD>
+      <TD>12586</TD>
+      <TD>19 56 18.4</TD>
+      <TD>+35 05 00</TD>
+      <TD> 3.89</TD>
+      <TD> 1.02</TD>
+      <TD>K0III</TD>
+      <TD>*</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

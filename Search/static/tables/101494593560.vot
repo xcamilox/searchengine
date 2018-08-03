@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="I_239_solar_t" name="I/239/solar_t">
+   <DESCRIPTION>
+    Solar System Annex: Tycho astrometry/photometry
+   </DESCRIPTION>
+   <FIELD ID="ID" datatype="short" name="ID" ucd="ID_MAIN" width="3">
+    <DESCRIPTION>
+     Object number (ST1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Ep-2440000" datatype="double" name="Ep-2440000" precision="7" ucd="TIME_EPOCH" unit="d" width="13">
+    <DESCRIPTION>
+     *Measurement epoch (ST2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RA_ICRS_" datatype="double" name="RA_ICRS_" precision="7" ucd="POS_EQ_RA_MAIN" unit="deg" width="11">
+    <DESCRIPTION>
+     Right ascension (ICRS system) (ST3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DE_ICRS_" datatype="double" name="DE_ICRS_" precision="7" ucd="POS_EQ_DEC_MAIN" unit="deg" width="11">
+    <DESCRIPTION>
+     Declination (ICRS system) (ST4)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="BTmag" datatype="float" name="BTmag" precision="2" ucd="PHOT_TYCHO_B" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Mean BT magnitude (ST5)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="VTmag" datatype="float" name="VTmag" precision="2" ucd="PHOT_TYCHO_V" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Mean VT magnitude (ST6)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>1</TD>
+      <TD> 8298.8324509</TD>
+      <TD>214.8184974</TD>
+      <TD> -0.8958537</TD>
+      <TD> 8.91</TD>
+      <TD> 8.24</TD>
+     </TR>
+     <TR>
+      <TD>1</TD>
+      <TD> 8298.8467892</TD>
+      <TD>214.8204662</TD>
+      <TD> -0.8958533</TD>
+      <TD> 9.15</TD>
+      <TD> 8.30</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

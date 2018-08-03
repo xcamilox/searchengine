@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="V_125_obcat" name="V/125/obcat">
+   <DESCRIPTION>
+    Catalog of star names/identifiers, positions, and cross-
+    references, ordered by increasing RA
+   </DESCRIPTION>
+   <FIELD ID="ALS" datatype="int" name="ALS" ucd="ID_MAIN" width="5">
+    <DESCRIPTION>
+     Alma LS number (G1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Name" arraysize="25" datatype="char" name="Name" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Source name
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="mag" datatype="float" name="mag" precision="1" ucd="PHOT_PHG_MAG" unit="mag" width="5">
+    <DESCRIPTION>
+     ? magnitude, see n_mag
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="n_mag" arraysize="1" datatype="char" name="n_mag" ucd="NOTE">
+    <DESCRIPTION>
+     [PVN] Type of magnitude: V=pe, P=pg, N=none
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="10" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension J2000
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="9" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination J2000
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GLON" datatype="double" name="GLON" precision="2" ucd="POS_GAL_LON" unit="deg" width="8">
+    <DESCRIPTION>
+     Galactic longitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GLAT" datatype="double" name="GLAT" precision="2" ucd="POS_GAL_LAT" unit="deg" width="8">
+    <DESCRIPTION>
+     Galactic latitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>10678</TD>
+      <TD>LS  II +35   8</TD>
+      <TD>  8.9</TD>
+      <TD>V</TD>
+      <TD>19 58 21.6</TD>
+      <TD>+35 12 06</TD>
+      <TD>   71.33</TD>
+      <TD>    3.07</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>14628</TD>
+      <TD>Hilt 850</TD>
+      <TD>  9.1</TD>
+      <TD>V</TD>
+      <TD>19 59 11.6</TD>
+      <TD>+36 06 54</TD>
+      <TD>   72.20</TD>
+      <TD>    3.40</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>10694</TD>
+      <TD>LS  II +34   5</TD>
+      <TD> 11.8</TD>
+      <TD>V</TD>
+      <TD>19 59 42.4</TD>
+      <TD>+34 59 24</TD>
+      <TD>   71.30</TD>
+      <TD>    2.72</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>10695</TD>
+      <TD>LS  II +35   9</TD>
+      <TD>  9.0</TD>
+      <TD>V</TD>
+      <TD>19 59 49.0</TD>
+      <TD>+35 18 33</TD>
+      <TD>   71.58</TD>
+      <TD>    2.87</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>10721</TD>
+      <TD>LS  II +35  10</TD>
+      <TD> 11.2</TD>
+      <TD>V</TD>
+      <TD>20 01 10.3</TD>
+      <TD>+35 59 24</TD>
+      <TD>   72.31</TD>
+      <TD>    2.99</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>10723</TD>
+      <TD>LS  II +35  11</TD>
+      <TD> 10.2</TD>
+      <TD>V</TD>
+      <TD>20 01 14.8</TD>
+      <TD>+35 57 27</TD>
+      <TD>   72.29</TD>
+      <TD>    2.96</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>10726</TD>
+      <TD>LS  II +35  12</TD>
+      <TD> 11.7</TD>
+      <TD>P</TD>
+      <TD>20 01 17.3</TD>
+      <TD>+35 20 48</TD>
+      <TD>   71.77</TD>
+      <TD>    2.63</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>10735</TD>
+      <TD>LS  II +35  13</TD>
+      <TD> 10.9</TD>
+      <TD>V</TD>
+      <TD>20 01 44.8</TD>
+      <TD>+35 33 08</TD>
+      <TD>   72.00</TD>
+      <TD>    2.66</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>10744</TD>
+      <TD>LS  II +35  14</TD>
+      <TD>  9.7</TD>
+      <TD>V</TD>
+      <TD>20 02 21.7</TD>
+      <TD>+35 40 30</TD>
+      <TD>   72.17</TD>
+      <TD>    2.62</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>10745</TD>
+      <TD>LS  II +35  15</TD>
+      <TD>  9.2</TD>
+      <TD>V</TD>
+      <TD>20 02 23.2</TD>
+      <TD>+35 18 42</TD>
+      <TD>   71.86</TD>
+      <TD>    2.43</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>10746</TD>
+      <TD>LS  II +35  16</TD>
+      <TD> 10.9</TD>
+      <TD>P</TD>
+      <TD>20 02 24.6</TD>
+      <TD>+35 18 39</TD>
+      <TD>   71.86</TD>
+      <TD>    2.42</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>10748</TD>
+      <TD>LS  II +35  17</TD>
+      <TD> 10.6</TD>
+      <TD>V</TD>
+      <TD>20 02 25.5</TD>
+      <TD>+35 40 16</TD>
+      <TD>   72.17</TD>
+      <TD>    2.61</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>10752</TD>
+      <TD>LS  II +35  18</TD>
+      <TD> 11.5</TD>
+      <TD>P</TD>
+      <TD>20 02 36.3</TD>
+      <TD>+35 16 56</TD>
+      <TD>   71.86</TD>
+      <TD>    2.37</TD>
+      <TD>Simbad</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_MNRAS_374_664_tablea1" name="J/MNRAS/374/664/tablea1">
+   <DESCRIPTION>
+    Final atmospheric parameters of field stars
+   </DESCRIPTION>
+   <FIELD ID="Name" arraysize="13" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Name (HD/other)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="MILES" datatype="short" name="MILES" ucd="ID_ALTERNATIVE" width="4">
+    <DESCRIPTION>
+     MILES Number (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="CaT" datatype="short" name="CaT" ucd="ID_ALTERNATIVE" width="3">
+    <DESCRIPTION>
+     ? Near-IR, CaT stellar library Number (G1) [NULL integer written
+     as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="12" datatype="char" name="SpType" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     MK spectral type (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Teff" datatype="int" name="Teff" ucd="PHYS_TEMP_EFFEC" unit="K" width="5">
+    <DESCRIPTION>
+     ? Effective temperature [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="r_Teff" arraysize="1" datatype="char" name="r_Teff" ucd="REFER_CODE">
+    <DESCRIPTION>
+     Reference for Teff (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="logg" datatype="float" name="logg" precision="2" ucd="PHYS_GRAVITY_SURFACE" unit="[cm/s2]" width="5">
+    <DESCRIPTION>
+     ? Surface gravity
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="r_logg" arraysize="1" datatype="char" name="r_logg" ucd="REFER_CODE">
+    <DESCRIPTION>
+     Reference for logg (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="__Fe_H_" datatype="float" name="__Fe_H_" precision="2" ucd="PHYS_ABUND_FE/H" unit="[Sun]" width="5">
+    <DESCRIPTION>
+     ? Metallicity
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="r__Fe_H_" arraysize="1" datatype="char" name="r__Fe_H_" ucd="REFER_CODE">
+    <DESCRIPTION>
+     Reference for [Fe/H] (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Lib" arraysize="9" datatype="char" name="Lib" ucd="NOTE">
+    <DESCRIPTION>
+     [LJSIE ] Libraries (4)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SimbadName" arraysize="14" datatype="char" name="SimbadName" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Designation understandable by the {\bf\fg{FireBrick}Simbad} data-
+     base
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="E" arraysize="1" datatype="char" name="E" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Get the details from the {\bf ELODIE} library (Cat. III/251)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="S" arraysize="1" datatype="char" name="S" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Get the details from the {\bf STELIB} library (Cat. III/232)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Computed Right Ascension for Equinox: J2000
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Computed Declination for Equinox: J2000
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>HD188947</TD>
+      <TD>745</TD>
+      <TD>-32768</TD>
+      <TD>K0IIIvar</TD>
+      <TD>4829</TD>
+      <TD>S</TD>
+      <TD> 2.53</TD>
+      <TD>S</TD>
+      <TD> 0.01</TD>
+      <TD>S</TD>
+      <TD>J I E</TD>
+      <TD>HD 188947</TD>
+      <TD>E</TD>
+      <TD>S</TD>
+      <TD>299.07655</TD>
+      <TD> 35.08342</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

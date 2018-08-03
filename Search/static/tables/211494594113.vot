@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="I_283A_npm2" name="I/283A/npm2">
+   <DESCRIPTION>
+    The NPM2 Catalogue of Absolute Proper Motions
+   </DESCRIPTION>
+   <FIELD ID="Name" arraysize="8" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     [0-9.+-]! NPM2 star "name" made of: Byte 1 : Sign of J2000
+     declination Bytes 2-3: J2000 Declination zone Bytes 4-8: Running
+     number in this zone
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="12" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension J2000, Ep=J2000 (hours)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="12" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination J2000, Ep=J2000 (degrees)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="double" name="pmRA" precision="2" ucd="POS_EQ_PMRA" unit="10mas.yr-1" width="8">
+    <DESCRIPTION>
+     Absolute proper motion RA (in "/century)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="double" name="pmDE" precision="2" ucd="POS_EQ_PMDEC" unit="10mas.yr-1" width="8">
+    <DESCRIPTION>
+     Absolute proper motion Dec. (in "/century)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Bmag" datatype="float" name="Bmag" precision="2" ucd="PHOT_PHG_B" unit="mag" width="6">
+    <DESCRIPTION>
+     B magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="B-V" datatype="float" name="B-V" precision="2" ucd="PHOT_PHG_B-V" unit="mag" width="6">
+    <DESCRIPTION>
+     ? B-V color
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Class" datatype="unsignedByte" name="Class" ucd="CLASS_CODE" width="1">
+    <DESCRIPTION>
+     [1,7] Code for class of star
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="ips" datatype="unsignedByte" name="ips" ucd="CODE_ERROR" width="1">
+    <DESCRIPTION>
+     [0,3] Discrepancy flag Position
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="ipm" datatype="unsignedByte" name="ipm" ucd="CODE_ERROR" width="1">
+    <DESCRIPTION>
+     [0,3] Discrepancy flag Proper Motion
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="ibv" datatype="unsignedByte" name="ibv" ucd="CODE_ERROR" width="1">
+    <DESCRIPTION>
+     [0,3] Discrepancy flag Photometry
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>+34.1280</TD>
+      <TD>19 56 30.434</TD>
+      <TD>+34 22 01.04</TD>
+      <TD>    0.66</TD>
+      <TD>    0.67</TD>
+      <TD> 14.89</TD>
+      <TD>  0.24</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1293</TD>
+      <TD>19 59 29.178</TD>
+      <TD>+34 23 32.69</TD>
+      <TD>    0.28</TD>
+      <TD>   -1.34</TD>
+      <TD> 14.88</TD>
+      <TD>  1.06</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1277</TD>
+      <TD>19 56 13.946</TD>
+      <TD>+34 23 36.77</TD>
+      <TD>   -0.35</TD>
+      <TD>    0.45</TD>
+      <TD> 16.29</TD>
+      <TD>  0.96</TD>
+      <TD>4</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1303</TD>
+      <TD>20 01 00.513</TD>
+      <TD>+34 23 47.00</TD>
+      <TD>    0.55</TD>
+      <TD>    0.30</TD>
+      <TD> 16.43</TD>
+      <TD>  0.79</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1274</TD>
+      <TD>19 56 02.868</TD>
+      <TD>+34 25 03.59</TD>
+      <TD>   -0.23</TD>
+      <TD>    0.13</TD>
+      <TD> 11.52</TD>
+      <TD>  0.92</TD>
+      <TD>2</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1285</TD>
+      <TD>19 57 57.389</TD>
+      <TD>+34 25 03.96</TD>
+      <TD>    2.05</TD>
+      <TD>    1.30</TD>
+      <TD> 15.31</TD>
+      <TD>  0.55</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1278</TD>
+      <TD>19 56 18.204</TD>
+      <TD>+34 29 19.52</TD>
+      <TD>   -0.43</TD>
+      <TD>    0.75</TD>
+      <TD> 11.86</TD>
+      <TD>  0.50</TD>
+      <TD>2</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1299</TD>
+      <TD>20 00 18.479</TD>
+      <TD>+34 31 36.38</TD>
+      <TD>    1.01</TD>
+      <TD>   -0.11</TD>
+      <TD> 11.71</TD>
+      <TD>  0.56</TD>
+      <TD>4</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1284</TD>
+      <TD>19 57 29.422</TD>
+      <TD>+34 32 02.38</TD>
+      <TD>   -0.11</TD>
+      <TD>    0.50</TD>
+      <TD> 11.98</TD>
+      <TD>  0.45</TD>
+      <TD>4</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1276</TD>
+      <TD>19 56 05.641</TD>
+      <TD>+34 35 47.54</TD>
+      <TD>   -0.30</TD>
+      <TD>    0.31</TD>
+      <TD> 11.78</TD>
+      <TD>  0.21</TD>
+      <TD>4</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1273</TD>
+      <TD>19 55 52.179</TD>
+      <TD>+34 36 21.60</TD>
+      <TD>   -1.02</TD>
+      <TD>   -0.14</TD>
+      <TD> 17.42</TD>
+      <TD>  0.39</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1270</TD>
+      <TD>19 55 46.731</TD>
+      <TD>+34 36 31.99</TD>
+      <TD>    1.02</TD>
+      <TD>   -0.37</TD>
+      <TD> 11.43</TD>
+      <TD>  0.20</TD>
+      <TD>4</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1262</TD>
+      <TD>19 54 32.719</TD>
+      <TD>+34 36 40.28</TD>
+      <TD>   -0.59</TD>
+      <TD>    2.98</TD>
+      <TD> 15.36</TD>
+      <TD>  0.43</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1260</TD>
+      <TD>19 54 27.754</TD>
+      <TD>+34 37 07.96</TD>
+      <TD>    0.38</TD>
+      <TD>   -0.34</TD>
+      <TD> 16.76</TD>
+      <TD>  0.60</TD>
+      <TD>4</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1263</TD>
+      <TD>19 54 58.374</TD>
+      <TD>+34 38 01.45</TD>
+      <TD>   -1.05</TD>
+      <TD>    0.42</TD>
+      <TD> 15.00</TD>
+      <TD/>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1290</TD>
+      <TD>19 58 32.452</TD>
+      <TD>+34 41 25.41</TD>
+      <TD>   -0.60</TD>
+      <TD>    0.65</TD>
+      <TD> 11.25</TD>
+      <TD>  1.07</TD>
+      <TD>2</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1294</TD>
+      <TD>19 59 31.603</TD>
+      <TD>+34 41 36.48</TD>
+      <TD>   -0.32</TD>
+      <TD>    0.56</TD>
+      <TD> 16.72</TD>
+      <TD>  0.71</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1307</TD>
+      <TD>20 02 29.492</TD>
+      <TD>+34 41 56.21</TD>
+      <TD>   -2.20</TD>
+      <TD>    1.23</TD>
+      <TD> 16.37</TD>
+      <TD>  1.15</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1302</TD>
+      <TD>20 00 56.886</TD>
+      <TD>+34 43 26.03</TD>
+      <TD>    1.49</TD>
+      <TD>    0.00</TD>
+      <TD> 15.65</TD>
+      <TD>  0.74</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1281</TD>
+      <TD>19 56 30.640</TD>
+      <TD>+34 43 29.57</TD>
+      <TD>    0.42</TD>
+      <TD>    1.61</TD>
+      <TD> 15.54</TD>
+      <TD>  0.67</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1283</TD>
+      <TD>19 56 55.976</TD>
+      <TD>+34 45 06.19</TD>
+      <TD>   -0.38</TD>
+      <TD>   -1.35</TD>
+      <TD> 11.35</TD>
+      <TD>  0.44</TD>
+      <TD>4</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1275</TD>
+      <TD>19 56 03.423</TD>
+      <TD>+34 47 03.94</TD>
+      <TD>   -0.33</TD>
+      <TD>   -0.28</TD>
+      <TD> 12.41</TD>
+      <TD>  0.69</TD>
+      <TD>2</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1298</TD>
+      <TD>20 00 13.074</TD>
+      <TD>+34 48 32.88</TD>
+      <TD>    1.01</TD>
+      <TD>    1.55</TD>
+      <TD> 15.99</TD>
+      <TD>  0.79</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1252</TD>
+      <TD>19 53 53.360</TD>
+      <TD>+34 51 44.54</TD>
+      <TD>    1.06</TD>
+      <TD>    0.17</TD>
+      <TD> 12.89</TD>
+      <TD>  0.78</TD>
+      <TD>2</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1257</TD>
+      <TD>19 54 12.927</TD>
+      <TD>+34 52 00.19</TD>
+      <TD>    0.11</TD>
+      <TD>    0.97</TD>
+      <TD> 11.21</TD>
+      <TD>  0.20</TD>
+      <TD>2</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1279</TD>
+      <TD>19 56 29.845</TD>
+      <TD>+34 52 06.46</TD>
+      <TD>    0.44</TD>
+      <TD>    0.68</TD>
+      <TD> 12.00</TD>
+      <TD>  0.74</TD>
+      <TD>2</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1272</TD>
+      <TD>19 55 52.084</TD>
+      <TD>+34 52 22.27</TD>
+      <TD>    0.36</TD>
+      <TD>    0.05</TD>
+      <TD> 12.12</TD>
+      <TD>  0.23</TD>
+      <TD>4</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1309</TD>
+      <TD>20 02 37.789</TD>
+      <TD>+34 52 43.58</TD>
+      <TD>    0.54</TD>
+      <TD>    0.20</TD>
+      <TD> 11.76</TD>
+      <TD>  0.95</TD>
+      <TD>2</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1259</TD>
+      <TD>19 54 21.435</TD>
+      <TD>+34 53 08.42</TD>
+      <TD>   -0.56</TD>
+      <TD>    0.52</TD>
+      <TD> 16.93</TD>
+      <TD>  0.48</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1300</TD>
+      <TD>20 00 43.048</TD>
+      <TD>+34 54 54.57</TD>
+      <TD>   -0.50</TD>
+      <TD>    0.44</TD>
+      <TD> 12.46</TD>
+      <TD>  1.15</TD>
+      <TD>2</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1287</TD>
+      <TD>19 58 03.275</TD>
+      <TD>+34 55 26.50</TD>
+      <TD>    0.18</TD>
+      <TD>    0.69</TD>
+      <TD> 16.54</TD>
+      <TD>  1.21</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1308</TD>
+      <TD>20 02 37.517</TD>
+      <TD>+34 55 41.63</TD>
+      <TD>    0.36</TD>
+      <TD>    0.13</TD>
+      <TD> 15.20</TD>
+      <TD>  0.80</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1304</TD>
+      <TD>20 01 29.252</TD>
+      <TD>+34 56 17.10</TD>
+      <TD>   -1.19</TD>
+      <TD>   -0.16</TD>
+      <TD> 16.85</TD>
+      <TD>  0.95</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1291</TD>
+      <TD>19 58 36.853</TD>
+      <TD>+34 57 19.22</TD>
+      <TD>   -1.73</TD>
+      <TD>   -0.81</TD>
+      <TD> 11.47</TD>
+      <TD>  0.40</TD>
+      <TD>2</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1268</TD>
+      <TD>19 55 16.613</TD>
+      <TD>+34 57 21.26</TD>
+      <TD>    0.63</TD>
+      <TD>    0.43</TD>
+      <TD> 11.91</TD>
+      <TD>  0.44</TD>
+      <TD>4</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1253</TD>
+      <TD>19 53 56.676</TD>
+      <TD>+34 57 29.68</TD>
+      <TD>   -0.42</TD>
+      <TD>   -1.55</TD>
+      <TD> 11.42</TD>
+      <TD>  1.15</TD>
+      <TD>4</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1266</TD>
+      <TD>19 55 11.674</TD>
+      <TD>+34 58 46.62</TD>
+      <TD>   -0.22</TD>
+      <TD>    0.43</TD>
+      <TD> 14.43</TD>
+      <TD>  0.54</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1292</TD>
+      <TD>19 59 25.489</TD>
+      <TD>+34 59 22.76</TD>
+      <TD>    1.77</TD>
+      <TD>    0.17</TD>
+      <TD> 16.93</TD>
+      <TD>  1.17</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+34.1295</TD>
+      <TD>19 59 42.386</TD>
+      <TD>+34 59 26.35</TD>
+      <TD>   -0.55</TD>
+      <TD>    0.14</TD>
+      <TD> 12.04</TD>
+      <TD>  0.27</TD>
+      <TD>4</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+35.1272</TD>
+      <TD>19 53 57.163</TD>
+      <TD>+35 00 02.52</TD>
+      <TD>    0.31</TD>
+      <TD>   -0.03</TD>
+      <TD> 16.01</TD>
+      <TD>  0.67</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+35.1279</TD>
+      <TD>19 54 49.028</TD>
+      <TD>+35 00 20.08</TD>
+      <TD>    0.11</TD>
+      <TD>   -0.99</TD>
+      <TD>  9.22</TD>
+      <TD>  0.66</TD>
+      <TD>2</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+35.1290</TD>
+      <TD>19 56 32.108</TD>
+      <TD>+35 01 25.01</TD>
+      <TD>    1.84</TD>
+      <TD>    1.02</TD>
+      <TD> 14.52</TD>
+      <TD>  0.71</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+35.1294</TD>
+      <TD>19 57 23.298</TD>
+      <TD>+35 02 20.93</TD>
+      <TD>   -0.07</TD>
+      <TD>    0.86</TD>
+      <TD> 11.95</TD>
+      <TD>  0.34</TD>
+      <TD>4</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+35.1270</TD>
+      <TD>19 53 38.134</TD>
+      <TD>+35 07 32.59</TD>
+      <TD>   -0.52</TD>
+      <TD>   -1.31</TD>
+      <TD> 17.11</TD>
+      <TD>  0.47</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+35.1275</TD>
+      <TD>19 54 20.324</TD>
+      <TD>+35 07 55.39</TD>
+      <TD>   -0.27</TD>
+      <TD>   -0.42</TD>
+      <TD> 15.78</TD>
+      <TD>  0.60</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+35.1305</TD>
+      <TD>19 58 30.262</TD>
+      <TD>+35 09 54.83</TD>
+      <TD>    0.11</TD>
+      <TD>    0.93</TD>
+      <TD> 12.16</TD>
+      <TD>  0.79</TD>
+      <TD>4</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+35.1285</TD>
+      <TD>19 55 56.380</TD>
+      <TD>+35 10 23.03</TD>
+      <TD>   -0.64</TD>
+      <TD>    1.17</TD>
+      <TD> 15.58</TD>
+      <TD>  0.21</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+35.1302</TD>
+      <TD>19 58 21.630</TD>
+      <TD>+35 12 06.05</TD>
+      <TD>   -0.69</TD>
+      <TD>    0.14</TD>
+      <TD>  9.60</TD>
+      <TD>  0.70</TD>
+      <TD>2</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+35.1299</TD>
+      <TD>19 58 03.763</TD>
+      <TD>+35 12 13.74</TD>
+      <TD>   -0.92</TD>
+      <TD>   -1.03</TD>
+      <TD> 17.56</TD>
+      <TD>  1.07</TD>
+      <TD>4</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>+35.1313</TD>
+      <TD>20 00 41.851</TD>
+      <TD>+35 14 22.26</TD>
+      <TD>   -0.26</TD>
+      <TD>    0.05</TD>
+      <TD> 13.50</TD>
+      <TD>  0.57</TD>
+      <TD>4</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

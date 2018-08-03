@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_A_A_430_165_tablea1" name="J/A+A/430/165/tablea1">
+   <DESCRIPTION>
+    Catalogue
+   </DESCRIPTION>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     HIP number (&lt;I/239&gt;)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HD" datatype="int" name="HD" ucd="ID_ALTERNATIVE" width="6">
+    <DESCRIPTION>
+     HD number (&lt;III/135&gt;)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="8" ucd="POS_EQ_RA_MAIN" unit="deg" width="12">
+    <DESCRIPTION>
+     Right ascension J2000 (ICRS), Epoch 1991.25, identical to field
+     H8 of Hipparcos Catalogue
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="8" ucd="POS_EQ_DEC_MAIN" unit="deg" width="12">
+    <DESCRIPTION>
+     Declination J2000 (ICRS), Epoch 1991.25, identical to field H9 of
+     Hipparcos Catalogue
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Hpmag" datatype="float" name="Hpmag" precision="4" ucd="PHOT_HIPPAR" unit="mag" width="7">
+    <DESCRIPTION>
+     Hipparcos Hp magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_Hpmag" datatype="float" name="e_Hpmag" precision="4" ucd="ERROR" unit="mag" width="7">
+    <DESCRIPTION>
+     Standard error on Hp
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="V-Ic" datatype="float" name="V-Ic" precision="2" ucd="PHOT_COUS_V-I" unit="mag" width="5">
+    <DESCRIPTION>
+     Cousins V-I colour index, computed from Hp-VT with the colour
+     transformation of Platais et al. (2003, Cat. &lt;J/A+A/397/997&gt;)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="f_RV" arraysize="1" datatype="char" name="f_RV" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [*,0-9] Duplicity flag (4)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RV" datatype="float" name="RV" precision="2" ucd="VELOC_HC" unit="km.s-1" width="7">
+    <DESCRIPTION>
+     ? Average radial velocity, or center-of-mass (COM) velocity in
+     the case of a SB (4)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_RV" datatype="float" name="e_RV" precision="2" ucd="ERROR" unit="km.s-1" width="5">
+    <DESCRIPTION>
+     Standard error of RV
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dist" datatype="float" name="Dist" precision="1" ucd="POS_GAL_HC" unit="pc" width="6">
+    <DESCRIPTION>
+     Maximum-likelihood estimate of the distance
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_Dist" datatype="float" name="e_Dist" precision="1" ucd="ERROR" unit="pc" width="6">
+    <DESCRIPTION>
+     Standard error on Dist
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Av" datatype="float" name="Av" precision="2" ucd="PHOT_EXTINCTION_ISM" unit="mag" width="5">
+    <DESCRIPTION>
+     Interstellar absorption A_V, estimated for distance Dist with the
+     model of Arenou et al. (1992A&amp;A...258..104A)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="g" datatype="unsignedByte" name="g" ucd="ID_GROUP" width="1">
+    <DESCRIPTION>
+     [0-6] Kinematic group to which the star has the highest
+     probability to belong (5)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_HIP" arraysize="1" datatype="char" name="n_HIP" ucd="NOTE">
+    <DESCRIPTION>
+     [*] note detailed in "\begin{tex}\vFile{J/A+A/430/165/./notes.dat
+     }{notes.dat}\end{tex}" file
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>98004</TD>
+      <TD>188668</TD>
+      <TD>298.75056563</TD>
+      <TD> 34.90055680</TD>
+      <TD> 7.3893</TD>
+      <TD> 0.0008</TD>
+      <TD> 0.91</TD>
+      <TD>*</TD>
+      <TD> -26.81</TD>
+      <TD> 0.11</TD>
+      <TD> 341.4</TD>
+      <TD>  60.5</TD>
+      <TD> 0.70</TD>
+      <TD>3</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>98110</TD>
+      <TD>188947</TD>
+      <TD>299.07665069</TD>
+      <TD> 35.08349079</TD>
+      <TD> 4.0620</TD>
+      <TD> 0.0005</TD>
+      <TD> 0.94</TD>
+      <TD>*</TD>
+      <TD> -26.14</TD>
+      <TD> 0.31</TD>
+      <TD>  42.9</TD>
+      <TD>   1.1</TD>
+      <TD> 0.09</TD>
+      <TD>3</TD>
+      <TD/>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

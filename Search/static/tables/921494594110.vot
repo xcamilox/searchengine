@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJ_751_52_table5" name="J/ApJ/751/52/table5">
+   <DESCRIPTION>
+    The "W2" (WISE/2MASS) sample of moderate-likelihood AGN candidates
+   </DESCRIPTION>
+   <FIELD ID="Seq" datatype="int" name="Seq" ucd="ID_NUMBER" width="5">
+    <DESCRIPTION>
+     [1/55050] Running sequence number; sorted by increasing SI
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_Seq" datatype="unsignedByte" name="n_Seq" ucd="NOTE" width="1">
+    <DESCRIPTION>
+     [1/2]? New or non-AGN source (G2) [NULL integer written as an
+     empty string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="_2MASS" datatype="int" name="_2MASS" ucd="ID_NUMBER" width="10">
+    <DESCRIPTION>
+     2MASS identification number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="11" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Hour of Right Ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="11" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Degree of Declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="3" ucd="PHOT_JHN_J" unit="mag" width="6">
+    <DESCRIPTION>
+     [9.5/17] 2MASS J band magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SI" datatype="float" name="SI" precision="3" ucd="STAT_LIKELIHOOD" width="6">
+    <DESCRIPTION>
+     [0/1.8] Figure of merit parameterization (G1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="VCV" arraysize="17" datatype="char" name="VCV" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     The VCV catalog name (Veron VII/258)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Type" arraysize="4" datatype="char" name="Type" ucd="CLASS_OBJECT">
+    <DESCRIPTION>
+     Source type (Veron VII/258)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="z" datatype="float" name="z" precision="3" ucd="REDSHIFT_HC" width="6">
+    <DESCRIPTION>
+     [0.001/4]? Redshift
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="f_z" arraysize="1" datatype="char" name="f_z" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [N] Indicates redshift is not available
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="All" datatype="short" name="All" ucd="DATA_LINK" width="3">
+    <DESCRIPTION>
+     Presence of this source in the different tables {\em(search
+     radius=1'')} [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="WISE" arraysize="4" datatype="char" name="WISE" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the WISE data within 3" (Cutri et al. 2012, Cat. II/311)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>2751</TD>
+      <TD>1</TD>
+      <TD>317651894</TD>
+      <TD>20 00 13.27</TD>
+      <TD>+36 00 42.1</TD>
+      <TD>12.281</TD>
+      <TD> 0.133</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>1</TD>
+      <TD>WISE</TD>
+     </TR>
+     <TR>
+      <TD>4088</TD>
+      <TD>1</TD>
+      <TD>253858903</TD>
+      <TD>20 02 13.85</TD>
+      <TD>+35 33 10.5</TD>
+      <TD>13.967</TD>
+      <TD> 0.190</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>1</TD>
+      <TD>WISE</TD>
+     </TR>
+     <TR>
+      <TD>5325</TD>
+      <TD>1</TD>
+      <TD>253575247</TD>
+      <TD>19 59 47.21</TD>
+      <TD>+35 30 53.1</TD>
+      <TD>14.796</TD>
+      <TD> 0.241</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>1</TD>
+      <TD>WISE</TD>
+     </TR>
+     <TR>
+      <TD>11721</TD>
+      <TD>1</TD>
+      <TD>253725087</TD>
+      <TD>20 01 39.69</TD>
+      <TD>+35 37 24.7</TD>
+      <TD>14.087</TD>
+      <TD> 0.489</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>1</TD>
+      <TD>WISE</TD>
+     </TR>
+     <TR>
+      <TD>18347</TD>
+      <TD>1</TD>
+      <TD>253854708</TD>
+      <TD>20 01 53.21</TD>
+      <TD>+35 07 06.6</TD>
+      <TD>14.021</TD>
+      <TD> 0.758</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>1</TD>
+      <TD>WISE</TD>
+     </TR>
+     <TR>
+      <TD>21341</TD>
+      <TD>1</TD>
+      <TD>253570106</TD>
+      <TD>19 59 52.72</TD>
+      <TD>+34 59 53.6</TD>
+      <TD>14.375</TD>
+      <TD> 0.885</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>1</TD>
+      <TD>WISE</TD>
+     </TR>
+     <TR>
+      <TD>24374</TD>
+      <TD>1</TD>
+      <TD>253858865</TD>
+      <TD>20 02 15.94</TD>
+      <TD>+35 32 58.7</TD>
+      <TD>15.242</TD>
+      <TD> 1.006</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>1</TD>
+      <TD>WISE</TD>
+     </TR>
+     <TR>
+      <TD>28495</TD>
+      <TD>1</TD>
+      <TD>253858895</TD>
+      <TD>20 02 17.40</TD>
+      <TD>+35 33 08.5</TD>
+      <TD>14.049</TD>
+      <TD> 1.158</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>1</TD>
+      <TD>WISE</TD>
+     </TR>
+     <TR>
+      <TD>28520</TD>
+      <TD>1</TD>
+      <TD>253856333</TD>
+      <TD>20 02 21.73</TD>
+      <TD>+35 17 58.9</TD>
+      <TD>14.734</TD>
+      <TD> 1.158</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>1</TD>
+      <TD>WISE</TD>
+     </TR>
+     <TR>
+      <TD>30488</TD>
+      <TD>1</TD>
+      <TD>253866734</TD>
+      <TD>20 02 27.75</TD>
+      <TD>+35 42 56.9</TD>
+      <TD>12.694</TD>
+      <TD> 1.223</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>1</TD>
+      <TD>WISE</TD>
+     </TR>
+     <TR>
+      <TD>33129</TD>
+      <TD>1</TD>
+      <TD>253858935</TD>
+      <TD>20 02 13.11</TD>
+      <TD>+35 33 21.4</TD>
+      <TD>13.665</TD>
+      <TD> 1.303</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>1</TD>
+      <TD>WISE</TD>
+     </TR>
+     <TR>
+      <TD>33133</TD>
+      <TD>1</TD>
+      <TD>253858182</TD>
+      <TD>20 02 05.88</TD>
+      <TD>+35 28 51.2</TD>
+      <TD>14.625</TD>
+      <TD> 1.303</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>1</TD>
+      <TD>WISE</TD>
+     </TR>
+     <TR>
+      <TD>35257</TD>
+      <TD>1</TD>
+      <TD>253858223</TD>
+      <TD>20 02 06.40</TD>
+      <TD>+35 29 06.4</TD>
+      <TD>12.553</TD>
+      <TD> 1.365</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>1</TD>
+      <TD>WISE</TD>
+     </TR>
+     <TR>
+      <TD>35707</TD>
+      <TD>1</TD>
+      <TD>253858925</TD>
+      <TD>20 02 06.20</TD>
+      <TD>+35 33 18.1</TD>
+      <TD>12.709</TD>
+      <TD> 1.378</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>1</TD>
+      <TD>WISE</TD>
+     </TR>
+     <TR>
+      <TD>35860</TD>
+      <TD>1</TD>
+      <TD>253860869</TD>
+      <TD>20 02 18.38</TD>
+      <TD>+35 43 59.3</TD>
+      <TD>13.128</TD>
+      <TD> 1.382</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>1</TD>
+      <TD>WISE</TD>
+     </TR>
+     <TR>
+      <TD>35990</TD>
+      <TD>1</TD>
+      <TD>253860573</TD>
+      <TD>20 02 25.06</TD>
+      <TD>+35 42 17.5</TD>
+      <TD>12.547</TD>
+      <TD> 1.386</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>1</TD>
+      <TD>WISE</TD>
+     </TR>
+     <TR>
+      <TD>38348</TD>
+      <TD>1</TD>
+      <TD>253725108</TD>
+      <TD>20 01 38.85</TD>
+      <TD>+35 37 15.2</TD>
+      <TD>15.816</TD>
+      <TD> 1.444</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>1</TD>
+      <TD>WISE</TD>
+     </TR>
+     <TR>
+      <TD>42144</TD>
+      <TD>1</TD>
+      <TD>253727100</TD>
+      <TD>20 01 24.14</TD>
+      <TD>+35 26 12.8</TD>
+      <TD>15.564</TD>
+      <TD> 1.525</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>1</TD>
+      <TD>WISE</TD>
+     </TR>
+     <TR>
+      <TD>44255</TD>
+      <TD>1</TD>
+      <TD>253591420</TD>
+      <TD>20 00 15.24</TD>
+      <TD>+34 50 56.3</TD>
+      <TD>14.282</TD>
+      <TD> 1.566</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>1</TD>
+      <TD>WISE</TD>
+     </TR>
+     <TR>
+      <TD>45090</TD>
+      <TD>1</TD>
+      <TD>253858873</TD>
+      <TD>20 02 11.77</TD>
+      <TD>+35 33 03.1</TD>
+      <TD>12.404</TD>
+      <TD> 1.581</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>1</TD>
+      <TD>WISE</TD>
+     </TR>
+     <TR>
+      <TD>47420</TD>
+      <TD>1</TD>
+      <TD>253856009</TD>
+      <TD>20 02 00.43</TD>
+      <TD>+35 15 38.0</TD>
+      <TD>14.762</TD>
+      <TD> 1.621</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>1</TD>
+      <TD>WISE</TD>
+     </TR>
+     <TR>
+      <TD>47632</TD>
+      <TD>1</TD>
+      <TD>253724389</TD>
+      <TD>20 01 48.56</TD>
+      <TD>+35 42 00.4</TD>
+      <TD>14.333</TD>
+      <TD> 1.624</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>1</TD>
+      <TD>WISE</TD>
+     </TR>
+     <TR>
+      <TD>51964</TD>
+      <TD>1</TD>
+      <TD>1131256147</TD>
+      <TD>19 59 28.27</TD>
+      <TD>+34 37 45.1</TD>
+      <TD>13.636</TD>
+      <TD> 1.689</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>1</TD>
+      <TD>WISE</TD>
+     </TR>
+     <TR>
+      <TD>52439</TD>
+      <TD>1</TD>
+      <TD>253729073</TD>
+      <TD>20 01 48.68</TD>
+      <TD>+35 12 58.6</TD>
+      <TD>14.737</TD>
+      <TD> 1.696</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>1</TD>
+      <TD>WISE</TD>
+     </TR>
+     <TR>
+      <TD>52574</TD>
+      <TD>1</TD>
+      <TD>253724783</TD>
+      <TD>20 01 23.73</TD>
+      <TD>+35 39 27.6</TD>
+      <TD>14.359</TD>
+      <TD> 1.698</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>1</TD>
+      <TD>WISE</TD>
+     </TR>
+     <TR>
+      <TD>52768</TD>
+      <TD>1</TD>
+      <TD>253871936</TD>
+      <TD>20 02 41.25</TD>
+      <TD>+35 13 20.1</TD>
+      <TD>16.251</TD>
+      <TD> 1.700</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>1</TD>
+      <TD>WISE</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

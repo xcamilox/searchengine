@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJ_541_841_trap" name="J/ApJ/541/841/trap">
+   <DESCRIPTION>
+    *Accurate positions and remarks, by B. Skiff
+   </DESCRIPTION>
+   <FIELD ID="Trap" datatype="short" name="Trap" ucd="ID_MAIN" width="3">
+    <DESCRIPTION>
+     Trapezium system number ([AC2000b] Trap NNN)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="OName" arraysize="15" datatype="char" name="OName" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Other designation
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="11" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_OTHER" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension J2000
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="11" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination J2000
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="s" arraysize="1" datatype="char" name="s" ucd="REFER_CODE">
+    <DESCRIPTION>
+     [MTU] Source of position (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_MAG_V" unit="mag" width="5">
+    <DESCRIPTION>
+     Visual magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="15" datatype="char" name="SpType" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     MK Spectral classification
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Remarks" arraysize="43" datatype="char" name="Remarks" ucd="REMARKS">
+    <DESCRIPTION>
+     Remarks, from B. Skiff
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>748</TD>
+      <TD>HD 227247</TD>
+      <TD>20 02 23.28</TD>
+      <TD>+35 18 41.1</TD>
+      <TD>U</TD>
+      <TD> 9.19</TD>
+      <TD>B1Vn</TD>
+      <TD>brtst in ADS 13292 cluster</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

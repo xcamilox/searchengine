@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="IV_24_table2" name="IV/24/table2">
+   <DESCRIPTION>
+    List of Planetary Nebulae (according to right ascension)
+   </DESCRIPTION>
+   <FIELD ID="PK" arraysize="9" datatype="char" name="PK" ucd="ID_MAIN">
+    <DESCRIPTION>
+     [0-9. +-] PK designation, as in CGPN
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="f_PK" arraysize="1" datatype="char" name="f_PK" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [*] Possible PN
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Name" arraysize="14" datatype="char" name="Name" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Other name of the PN
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="FC" datatype="short" name="FC" ucd="ID_CHART" width="3">
+    <DESCRIPTION>
+     ? Finding chart number [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="7" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_OTHER" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension J2000
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="6" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination J2000
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="PNG" arraysize="11" datatype="char" name="PNG" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Designation in Strasbourg-ESO Catalog, or "possible" "rejected"
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Note" arraysize="1" datatype="char" name="Note" ucd="NOTE">
+    <DESCRIPTION>
+     [*] indicates a remark
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>070+03.1</TD>
+      <TD>*</TD>
+      <TD>TuWe 2-4</TD>
+      <TD>42</TD>
+      <TD>19 54.3</TD>
+      <TD>+35 07</TD>
+      <TD>070.8+03.7</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>070+02.1</TD>
+      <TD/>
+      <TD>KLW 6</TD>
+      <TD>42</TD>
+      <TD>19 59.9</TD>
+      <TD>+34 29</TD>
+      <TD>070.9+02.4</TD>
+      <TD>*</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

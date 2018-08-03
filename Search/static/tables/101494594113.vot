@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="I_122_bd" name="I/122/bd">
+   <DESCRIPTION>
+    The Bonner Durchmusterung catalog
+   </DESCRIPTION>
+   <FIELD ID="zonesign" arraysize="1" datatype="char" name="zonesign" ucd="ID_MAIN:1">
+    <DESCRIPTION>
+     [+-]The sign of the declination zone
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="zone" datatype="short" name="zone" ucd="ID_MAIN:2" unit="deg" width="2">
+    <DESCRIPTION>
+     The declination zone
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="num" datatype="short" name="num" ucd="ID_MAIN:3" width="5">
+    <DESCRIPTION>
+     The number of the star within the zone
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="suppl" arraysize="1" datatype="char" name="suppl" ucd="NOTE">
+    <DESCRIPTION>
+     [a-c D*?M] Note
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="mag" datatype="float" name="mag" precision="1" ucd="PHOT_MAG_EYE" unit="mag" width="4">
+    <DESCRIPTION>
+     Estimated visual magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RA1855" arraysize="10" datatype="char" name="RA1855" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension 1855
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DE1855" arraysize="8" datatype="char" name="DE1855" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination 1855
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA.icrs" arraysize="10" datatype="char" name="_RA.icrs" ucd="POS_EQ_RA_OTHER" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (ICRS) (computed by VizieR, not part of the
+     original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" arraysize="9" datatype="char" name="_DE.icrs" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (ICRS) (computed by VizieR, not part of the original
+     data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>+</TD>
+      <TD>33</TD>
+      <TD>3665</TD>
+      <TD/>
+      <TD> 7.9</TD>
+      <TD>19 52 18.1</TD>
+      <TD>+33 51.1</TD>
+      <TD>19 57 49.0</TD>
+      <TD>+34 14 25</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>33</TD>
+      <TD>3661</TD>
+      <TD/>
+      <TD> 9.5</TD>
+      <TD>19 51 59.4</TD>
+      <TD>+33 54.1</TD>
+      <TD>19 57 30.0</TD>
+      <TD>+34 17 21</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>33</TD>
+      <TD>3671</TD>
+      <TD/>
+      <TD> 9.5</TD>
+      <TD>19 52 44.6</TD>
+      <TD>+33 54.5</TD>
+      <TD>19 58 15.3</TD>
+      <TD>+34 17 54</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>33</TD>
+      <TD>3683</TD>
+      <TD/>
+      <TD> 8.7</TD>
+      <TD>19 54 35.7</TD>
+      <TD>+33 59.1</TD>
+      <TD>20 00 06.6</TD>
+      <TD>+34 22 50</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3813</TD>
+      <TD/>
+      <TD> 8.1</TD>
+      <TD>19 52 43.4</TD>
+      <TD>+34 01.7</TD>
+      <TD>19 58 13.6</TD>
+      <TD>+34 25 06</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3836</TD>
+      <TD/>
+      <TD> 9.5</TD>
+      <TD>19 55 38.5</TD>
+      <TD>+34 01.8</TD>
+      <TD>20 01 09.5</TD>
+      <TD>+34 25 44</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3838</TD>
+      <TD/>
+      <TD> 9.4</TD>
+      <TD>19 55 46.2</TD>
+      <TD>+34 02.3</TD>
+      <TD>20 01 17.2</TD>
+      <TD>+34 26 15</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3833</TD>
+      <TD/>
+      <TD> 8.4</TD>
+      <TD>19 54 53.8</TD>
+      <TD>+34 03.5</TD>
+      <TD>20 00 24.5</TD>
+      <TD>+34 27 18</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3820</TD>
+      <TD/>
+      <TD> 9.5</TD>
+      <TD>19 53 17.7</TD>
+      <TD>+34 03.8</TD>
+      <TD>19 58 47.9</TD>
+      <TD>+34 27 18</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3795</TD>
+      <TD/>
+      <TD> 9.5</TD>
+      <TD>19 50 32.4</TD>
+      <TD>+34 04.4</TD>
+      <TD>19 56 01.8</TD>
+      <TD>+34 27 23</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3825</TD>
+      <TD/>
+      <TD> 8.5</TD>
+      <TD>19 53 57.8</TD>
+      <TD>+34 05.7</TD>
+      <TD>19 59 28.1</TD>
+      <TD>+34 29 19</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3817</TD>
+      <TD/>
+      <TD> 8.2</TD>
+      <TD>19 52 57.6</TD>
+      <TD>+34 06.9</TD>
+      <TD>19 58 27.5</TD>
+      <TD>+34 30 20</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3831</TD>
+      <TD/>
+      <TD> 9.5</TD>
+      <TD>19 54 45.9</TD>
+      <TD>+34 10.2</TD>
+      <TD>20 00 16.1</TD>
+      <TD>+34 33 58</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3818</TD>
+      <TD/>
+      <TD> 9.5</TD>
+      <TD>19 53 07.9</TD>
+      <TD>+34 10.3</TD>
+      <TD>19 58 37.6</TD>
+      <TD>+34 33 46</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3840</TD>
+      <TD/>
+      <TD> 8.6</TD>
+      <TD>19 56 02.6</TD>
+      <TD>+34 10.7</TD>
+      <TD>20 01 33.1</TD>
+      <TD>+34 34 42</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3791</TD>
+      <TD/>
+      <TD> 9.5</TD>
+      <TD>19 49 45.7</TD>
+      <TD>+34 11.7</TD>
+      <TD>19 55 14.4</TD>
+      <TD>+34 34 32</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3807</TD>
+      <TD/>
+      <TD> 8.5</TD>
+      <TD>19 51 49.0</TD>
+      <TD>+34 11.7</TD>
+      <TD>19 57 18.2</TD>
+      <TD>+34 34 55</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3823</TD>
+      <TD/>
+      <TD> 8.8</TD>
+      <TD>19 53 25.3</TD>
+      <TD>+34 15.6</TD>
+      <TD>19 58 54.7</TD>
+      <TD>+34 39 07</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3835</TD>
+      <TD/>
+      <TD> 9.2</TD>
+      <TD>19 55 23.2</TD>
+      <TD>+34 16.6</TD>
+      <TD>20 00 53.1</TD>
+      <TD>+34 40 29</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3805</TD>
+      <TD/>
+      <TD> 9.5</TD>
+      <TD>19 51 43.2</TD>
+      <TD>+34 17.7</TD>
+      <TD>19 57 12.0</TD>
+      <TD>+34 40 54</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3848</TD>
+      <TD/>
+      <TD> 9.0</TD>
+      <TD>19 56 45.8</TD>
+      <TD>+34 17.8</TD>
+      <TD>20 02 16.0</TD>
+      <TD>+34 41 56</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3792</TD>
+      <TD/>
+      <TD> 9.5</TD>
+      <TD>19 50 11.0</TD>
+      <TD>+34 19.1</TD>
+      <TD>19 55 39.3</TD>
+      <TD>+34 42 01</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3817</TD>
+      <TD>a</TD>
+      <TD> 9.5</TD>
+      <TD>19 53 03.1</TD>
+      <TD>+34 19.5</TD>
+      <TD>19 58 32.1</TD>
+      <TD>+34 42 57</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3811</TD>
+      <TD/>
+      <TD> 9.0</TD>
+      <TD>19 52 39.9</TD>
+      <TD>+34 19.8</TD>
+      <TD>19 58 08.8</TD>
+      <TD>+34 43 11</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3810</TD>
+      <TD/>
+      <TD> 9.1</TD>
+      <TD>19 52 31.0</TD>
+      <TD>+34 20.2</TD>
+      <TD>19 57 59.8</TD>
+      <TD>+34 43 33</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3801</TD>
+      <TD/>
+      <TD> 9.5</TD>
+      <TD>19 51 13.3</TD>
+      <TD>+34 21.1</TD>
+      <TD>19 56 41.7</TD>
+      <TD>+34 44 13</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3829</TD>
+      <TD/>
+      <TD> 9.4</TD>
+      <TD>19 54 26.9</TD>
+      <TD>+34 22.9</TD>
+      <TD>19 59 56.1</TD>
+      <TD>+34 46 37</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3837</TD>
+      <TD/>
+      <TD> 9.0</TD>
+      <TD>19 55 42.8</TD>
+      <TD>+34 23.0</TD>
+      <TD>20 01 12.3</TD>
+      <TD>+34 46 57</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3843</TD>
+      <TD/>
+      <TD> 9.3</TD>
+      <TD>19 56 25.0</TD>
+      <TD>+34 24.0</TD>
+      <TD>20 01 54.6</TD>
+      <TD>+34 48 04</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3793</TD>
+      <TD/>
+      <TD> 9.5</TD>
+      <TD>19 50 11.1</TD>
+      <TD>+34 24.3</TD>
+      <TD>19 55 39.0</TD>
+      <TD>+34 47 13</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3851</TD>
+      <TD/>
+      <TD> 9.0</TD>
+      <TD>19 57 10.5</TD>
+      <TD>+34 25.5</TD>
+      <TD>20 02 40.2</TD>
+      <TD>+34 49 43</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3826</TD>
+      <TD/>
+      <TD> 9.5</TD>
+      <TD>19 53 59.9</TD>
+      <TD>+34 25.6</TD>
+      <TD>19 59 28.7</TD>
+      <TD>+34 49 14</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3827</TD>
+      <TD/>
+      <TD> 9.4</TD>
+      <TD>19 54 11.8</TD>
+      <TD>+34 25.9</TD>
+      <TD>19 59 40.7</TD>
+      <TD>+34 49 34</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3841</TD>
+      <TD/>
+      <TD> 9.3</TD>
+      <TD>19 56 04.7</TD>
+      <TD>+34 28.7</TD>
+      <TD>20 01 33.9</TD>
+      <TD>+34 52 43</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3800</TD>
+      <TD/>
+      <TD> 9.3</TD>
+      <TD>19 51 04.3</TD>
+      <TD>+34 29.7</TD>
+      <TD>19 56 32.0</TD>
+      <TD>+34 52 47</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3808</TD>
+      <TD/>
+      <TD> 9.4</TD>
+      <TD>19 52 06.1</TD>
+      <TD>+34 30.5</TD>
+      <TD>19 57 34.1</TD>
+      <TD>+34 53 46</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3790</TD>
+      <TD/>
+      <TD> 7.5</TD>
+      <TD>19 49 32.6</TD>
+      <TD>+34 31.2</TD>
+      <TD>19 54 59.8</TD>
+      <TD>+34 54 00</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3789</TD>
+      <TD/>
+      <TD> 8.7</TD>
+      <TD>19 49 29.5</TD>
+      <TD>+34 33.2</TD>
+      <TD>19 54 56.5</TD>
+      <TD>+34 55 59</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3780</TD>
+      <TD/>
+      <TD> 9.4</TD>
+      <TD>19 48 29.8</TD>
+      <TD>+34 33.7</TD>
+      <TD>19 53 56.5</TD>
+      <TD>+34 56 18</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3799</TD>
+      <TD/>
+      <TD> 9.2</TD>
+      <TD>19 51 03.1</TD>
+      <TD>+34 34.9</TD>
+      <TD>19 56 30.4</TD>
+      <TD>+34 57 59</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3802</TD>
+      <TD/>
+      <TD> 9.5</TD>
+      <TD>19 51 24.0</TD>
+      <TD>+34 36.2</TD>
+      <TD>19 56 51.3</TD>
+      <TD>+34 59 21</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3803</TD>
+      <TD/>
+      <TD> 9.5</TD>
+      <TD>19 51 34.8</TD>
+      <TD>+34 36.2</TD>
+      <TD>19 57 02.2</TD>
+      <TD>+34 59 23</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3794</TD>
+      <TD/>
+      <TD> 9.0</TD>
+      <TD>19 50 19.3</TD>
+      <TD>+34 36.3</TD>
+      <TD>19 55 46.3</TD>
+      <TD>+34 59 14</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3787</TD>
+      <TD/>
+      <TD> 8.6</TD>
+      <TD>19 49 21.8</TD>
+      <TD>+34 37.8</TD>
+      <TD>19 54 48.5</TD>
+      <TD>+35 00 34</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3809</TD>
+      <TD/>
+      <TD> 9.5</TD>
+      <TD>19 52 20.8</TD>
+      <TD>+34 38.2</TD>
+      <TD>19 57 48.3</TD>
+      <TD>+35 01 31</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3806</TD>
+      <TD/>
+      <TD> 8.2</TD>
+      <TD>19 51 46.8</TD>
+      <TD>+34 38.4</TD>
+      <TD>19 57 14.1</TD>
+      <TD>+35 01 37</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3852</TD>
+      <TD/>
+      <TD> 9.5</TD>
+      <TD>19 57 32.9</TD>
+      <TD>+34 39.7</TD>
+      <TD>20 03 01.7</TD>
+      <TD>+35 03 59</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3819</TD>
+      <TD/>
+      <TD> 8.8</TD>
+      <TD>19 53 11.5</TD>
+      <TD>+34 40.7</TD>
+      <TD>19 58 39.0</TD>
+      <TD>+35 04 10</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3849</TD>
+      <TD/>
+      <TD> 9.3</TD>
+      <TD>19 56 47.4</TD>
+      <TD>+34 41.3</TD>
+      <TD>20 02 15.9</TD>
+      <TD>+35 05 26</TD>
+     </TR>
+     <TR>
+      <TD>+</TD>
+      <TD>34</TD>
+      <TD>3798</TD>
+      <TD/>
+      <TD> 4.2</TD>
+      <TD>19 50 51.8</TD>
+      <TD>+34 41.9</TD>
+      <TD>19 56 18.6</TD>
+      <TD>+35 04 56</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

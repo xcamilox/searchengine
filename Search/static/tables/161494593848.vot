@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="I_298_lspm_n" name="I/298/lspm_n">
+   <DESCRIPTION>
+    The LSPM catalog (north)
+   </DESCRIPTION>
+   <FIELD ID="LSPM" arraysize="11" datatype="char" name="LSPM" ucd="ID_MAIN">
+    <DESCRIPTION>
+     LSPM star name (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="NLTT" datatype="int" name="NLTT" ucd="ID_ALTERNATIVE" width="5">
+    <DESCRIPTION>
+     ? NLTT catalogue (I/98) identification (2) [NULL integer written
+     as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="USNO-B1" arraysize="12" datatype="char" name="USNO-B1" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     USNO-B1.0 catalog (I/284) identification
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="6" ucd="POS_EQ_RA_MAIN" unit="deg" width="10">
+    <DESCRIPTION>
+     Right Ascension in degrees (J2000, Ep=J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="6" ucd="POS_EQ_DEC_MAIN" unit="deg" width="10">
+    <DESCRIPTION>
+     Declination in degrees (J2000, Ep=J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pm" datatype="float" name="pm" precision="3" ucd="POS_EQ_PM" unit="arcs.yr-1" width="7">
+    <DESCRIPTION>
+     Total Proper Motion (5)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Aflag" arraysize="2" datatype="char" name="Aflag" ucd="REFER_CODE">
+    <DESCRIPTION>
+     [ASTO ] Astrometric Flag (6)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vemag" datatype="float" name="Vemag" precision="2" ucd="PHOT_MAG_V" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Estimated V magnitude (10)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="V-J" datatype="float" name="V-J" precision="2" ucd="PHOT_JHN_V-J" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Estimated V-J color (10)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>J1417+0009</TD>
+      <TD>36864</TD>
+      <TD>0901-0231294</TD>
+      <TD>214.463943</TD>
+      <TD>  0.158726</TD>
+      <TD>  0.212</TD>
+      <TD>S</TD>
+      <TD> 11.84</TD>
+      <TD> 2.85</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_A_A_509_A3_eoc4" name="J/A+A/509/A3/eoc4">
+   <DESCRIPTION>
+    IV version of Earth Orientation Catalogue
+   </DESCRIPTION>
+   <FIELD ID="Seq" datatype="int" name="Seq" ucd="ID_NUMBER" width="6">
+    <DESCRIPTION>
+     Star number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAsec" datatype="double" name="RAsec" precision="8" ucd="POS_EQ_RA_MAIN" unit="deg" width="12">
+    <DESCRIPTION>
+     Right ascension (ICRS, Ep=J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEsec" datatype="double" name="DEsec" precision="8" ucd="POS_EQ_DEC_MAIN" unit="deg" width="12">
+    <DESCRIPTION>
+     Declination (ICRS, Ep=J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="double" name="pmRA" precision="5" ucd="POS_EQ_PMRA" unit="arcs.yr-1" width="8">
+    <DESCRIPTION>
+     Proper motion in right ascension multiplied by cos(declination)
+     (pmRA*cos(DE))
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_pmRA" datatype="float" name="e_pmRA" precision="2" ucd="ERROR" unit="mas.yr-1" width="5">
+    <DESCRIPTION>
+     rms uncertainty in pmRA
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="double" name="pmDE" precision="5" ucd="POS_EQ_PMDEC" unit="arcs.yr-1" width="8">
+    <DESCRIPTION>
+     Proper motion in declination
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_pmDE" datatype="float" name="e_pmDE" precision="2" ucd="ERROR" unit="mas.yr-1" width="5">
+    <DESCRIPTION>
+     rms uncertainty in pmDE
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="EpRA" datatype="float" name="EpRA" precision="2" ucd="TIME_EPOCH" unit="yr" width="7">
+    <DESCRIPTION>
+     Epoch of RA (offset 1900)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="EpDE" datatype="float" name="EpDE" precision="2" ucd="TIME_EPOCH" unit="yr" width="7">
+    <DESCRIPTION>
+     Epoch of DE (offset 1900)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="plx" datatype="float" name="plx" precision="4" ucd="POS_PARLX_TRIG" unit="arcs" width="7">
+    <DESCRIPTION>
+     Trigonometric parallax
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RV" datatype="float" name="RV" precision="1" ucd="VELOC_HC" unit="km.s-1" width="6">
+    <DESCRIPTION>
+     Radial velocity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="mag" datatype="float" name="mag" precision="2" ucd="PHOT_MAG_OPTICAL" unit="mag" width="5">
+    <DESCRIPTION>
+     Apparent magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="AE" datatype="unsignedByte" name="AE" ucd="CODE_QUALITY" width="1">
+    <DESCRIPTION>
+     [0/3] Astrometric excellency (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="CAT" arraysize="3" datatype="char" name="CAT" ucd="ID_CATALOG">
+    <DESCRIPTION>
+     Astrometric Catalogue (3)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>98110</TD>
+      <TD>299.07655133</TD>
+      <TD> 35.08342042</TD>
+      <TD>-0.03413</TD>
+      <TD> 0.23</TD>
+      <TD>-0.02892</TD>
+      <TD> 0.31</TD>
+      <TD>1985.44</TD>
+      <TD>1988.79</TD>
+      <TD> 0.0234</TD>
+      <TD> -26.5</TD>
+      <TD> 5.19</TD>
+      <TD>0</TD>
+      <TD>TYC</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

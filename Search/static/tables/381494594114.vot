@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="II_300_jsdc" name="II/300/jsdc">
+   <DESCRIPTION>
+    Stellar diameters catalogue
+   </DESCRIPTION>
+   <FIELD ID="Name" arraysize="16" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Name: "HIP" HIP number (Cat. I/311) or "TYC" TYCHO number (Cat.
+     I/259/tyc2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Bmag" datatype="float" name="Bmag" precision="3" ucd="PHOT_JHN_B" width="6">
+    <DESCRIPTION>
+     Johnson B magnitude (from ASCC-2.5, I/280)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="3" ucd="PHOT_JHN_V" width="6">
+    <DESCRIPTION>
+     Johnson V magnitude (from ASCC-2.5, I/280)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Rmag" datatype="float" name="Rmag" precision="3" ucd="PHOT_JHN_R" width="6">
+    <DESCRIPTION>
+     Johnson R magnitude (Cat. II/7A)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="3" ucd="PHOT_JHN_J" width="6">
+    <DESCRIPTION>
+     Johnson J magnitude (Cat. II/246, II/7)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Kmag" datatype="float" name="Kmag" precision="3" ucd="PHOT_JHN_K" width="6">
+    <DESCRIPTION>
+     Johnson K magnitude (Cat. II/246, II/7)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="LDD" datatype="float" name="LDD" precision="3" ucd="EXTENSION_DIAM" unit="mas" width="6">
+    <DESCRIPTION>
+     Limb-Darkened Diameter
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="UDDB" datatype="float" name="UDDB" precision="3" ucd="EXTENSION_DIAM" unit="mas" width="6">
+    <DESCRIPTION>
+     Uniform diameter at B band
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="UDDV" datatype="float" name="UDDV" precision="3" ucd="EXTENSION_DIAM" unit="mas" width="6">
+    <DESCRIPTION>
+     Uniform diameter at V band
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="UDDR" datatype="float" name="UDDR" precision="3" ucd="EXTENSION_DIAM" unit="mas" width="6">
+    <DESCRIPTION>
+     Uniform diameter at R band
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="UDDI" datatype="float" name="UDDI" precision="3" ucd="EXTENSION_DIAM" unit="mas" width="6">
+    <DESCRIPTION>
+     Uniform diameter at I band
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="UDDJ" datatype="float" name="UDDJ" precision="3" ucd="EXTENSION_DIAM" unit="mas" width="6">
+    <DESCRIPTION>
+     Uniform diameter at J band
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="UDDK" datatype="float" name="UDDK" precision="3" ucd="EXTENSION_DIAM" unit="mas" width="6">
+    <DESCRIPTION>
+     Uniform diameter at K band
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="16" datatype="char" name="SpType" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     MK Spectral type (from ASCC-2.5, I/280)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Teff" datatype="int" name="Teff" ucd="PHYS_TEMP_EFFEC" unit="K" width="5">
+    <DESCRIPTION>
+     Effective temperature adopted from SpType
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="logg" datatype="float" name="logg" precision="1" ucd="PHYS_GRAVITY_SURFACE" unit="[cm/s2]" width="4">
+    <DESCRIPTION>
+     Surface gravity adopted from SpType
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="ASCC" arraysize="4" datatype="char" name="ASCC" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Details from All-sky Compiled Catalogue of 2.5 million stars
+     (Kharchenko et al. 2009, Cat. I/280)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="12" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension J2000
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="12" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination J2000
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>HIP 98110</TD>
+      <TD> 4.918</TD>
+      <TD> 3.898</TD>
+      <TD> 3.190</TD>
+      <TD> 1.934</TD>
+      <TD> 1.371</TD>
+      <TD> 2.684</TD>
+      <TD> 2.433</TD>
+      <TD> 2.470</TD>
+      <TD> 2.511</TD>
+      <TD> 2.544</TD>
+      <TD> 2.580</TD>
+      <TD> 2.615</TD>
+      <TD>K0IIIvar</TD>
+      <TD>4660</TD>
+      <TD> 2.1</TD>
+      <TD>ASCC</TD>
+      <TD>Simbad</TD>
+      <TD>19 56 18.372</TD>
+      <TD>+35 05 00.33</TD>
+     </TR>
+     <TR>
+      <TD>HIP 98116</TD>
+      <TD> 8.397</TD>
+      <TD> 7.576</TD>
+      <TD> 6.966</TD>
+      <TD> 6.111</TD>
+      <TD> 5.695</TD>
+      <TD> 0.338</TD>
+      <TD> 0.308</TD>
+      <TD> 0.313</TD>
+      <TD> 0.317</TD>
+      <TD> 0.321</TD>
+      <TD> 0.326</TD>
+      <TD> 0.330</TD>
+      <TD>G5</TD>
+      <TD>4930</TD>
+      <TD> 1.1</TD>
+      <TD>ASCC</TD>
+      <TD>Simbad</TD>
+      <TD>19 56 24.636</TD>
+      <TD>+35 47 24.32</TD>
+     </TR>
+     <TR>
+      <TD>HIP 98289</TD>
+      <TD> 7.611</TD>
+      <TD> 7.679</TD>
+      <TD> 7.662</TD>
+      <TD> 7.817</TD>
+      <TD> 7.941</TD>
+      <TD> 0.060</TD>
+      <TD> 0.057</TD>
+      <TD> 0.057</TD>
+      <TD> 0.058</TD>
+      <TD> 0.058</TD>
+      <TD> 0.059</TD>
+      <TD> 0.059</TD>
+      <TD>B9</TD>
+      <TD>10500</TD>
+      <TD> 2.1</TD>
+      <TD>ASCC</TD>
+      <TD>Simbad</TD>
+      <TD>19 58 13.669</TD>
+      <TD>+34 25 21.92</TD>
+     </TR>
+     <TR>
+      <TD>HIP 98343</TD>
+      <TD> 7.026</TD>
+      <TD> 6.992</TD>
+      <TD> 6.945</TD>
+      <TD> 6.816</TD>
+      <TD> 6.818</TD>
+      <TD> 0.130</TD>
+      <TD> 0.123</TD>
+      <TD> 0.124</TD>
+      <TD> 0.125</TD>
+      <TD> 0.126</TD>
+      <TD> 0.127</TD>
+      <TD> 0.128</TD>
+      <TD>A0</TD>
+      <TD>9980</TD>
+      <TD> 2.1</TD>
+      <TD>ASCC</TD>
+      <TD>Simbad</TD>
+      <TD>19 58 51.642</TD>
+      <TD>+35 29 51.92</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

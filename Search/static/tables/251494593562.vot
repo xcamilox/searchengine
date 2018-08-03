@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="II_338_catalog" name="II/338/catalog">
+   <DESCRIPTION>
+    The IRAS PSC/FSC Combined Catalogue
+   </DESCRIPTION>
+   <FIELD ID="IRAS-PSC" arraysize="11" datatype="char" name="IRAS-PSC" ucd="ID_MAIN:1">
+    <DESCRIPTION>
+     IRAS Point Source Catalog source name (II/125)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="IRAS-FSC" arraysize="12" datatype="char" name="IRAS-FSC" ucd="ID_MAIN:1">
+    <DESCRIPTION>
+     IRAS Faint Source Catalog source name (II/156)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Fir12" datatype="float" name="Fir12" precision="E2" ucd="PHOT_FLUX_IR_12" unit="Jy" width="9">
+    <DESCRIPTION>
+     ? Average non-color corrected flux density at 12um
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Fir25" datatype="float" name="Fir25" precision="E2" ucd="PHOT_FLUX_IR_25" unit="Jy" width="9">
+    <DESCRIPTION>
+     ? Average non-color corrected flux density at 25um
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Fir60" datatype="float" name="Fir60" precision="E2" ucd="PHOT_FLUX_IR_60" unit="Jy" width="9">
+    <DESCRIPTION>
+     ? Average non-color corrected flux density at 60um
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Fir100" datatype="float" name="Fir100" precision="E2" ucd="PHOT_FLUX_IR_100" unit="Jy" width="9">
+    <DESCRIPTION>
+     ? Average non-color corrected flux density at 100um
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="f.ir" arraysize="3" datatype="char" name="f.ir" ucd="REFER_CODE">
+    <DESCRIPTION>
+     Flag for flux: {\bf1}=IRAS-PSC, {\bf2}=IRAS-FSC
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="cl" arraysize="1" datatype="char" name="cl" ucd="CLASS_STAR/GALAXY">
+    <DESCRIPTION>
+     Classification (type: "star" or "galaxy")
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="S09" datatype="float" name="S09" precision="E3" ucd="PHOT_FLUX_IR_9" unit="Jy" width="10">
+    <DESCRIPTION>
+     ? Flux density in AKARI/S9W filter ({\fg{gray50}unreliable values
+     in gray})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="S18" datatype="float" name="S18" precision="E3" ucd="PHOT_FLUX_IR_15" unit="Jy" width="10">
+    <DESCRIPTION>
+     ? Flux density in AKARI/L18W filter ({\fg{gray50}unreliable
+     values in gray})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="S65" datatype="float" name="S65" precision="E2" ucd="PHOT_FLUX_IR_60" unit="Jy" width="9">
+    <DESCRIPTION>
+     ? Flux density in N60 ({\fg{gray50}unreliable values in gray})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="S90" datatype="float" name="S90" precision="E2" ucd="PHOT_FLUX_IR_100" unit="Jy" width="9">
+    <DESCRIPTION>
+     ? Flux density in WIDE-S ({\fg{gray50}unreliable values in gray})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="3" ucd="PHOT_JHN_J" unit="mag" width="6">
+    <DESCRIPTION>
+     ? 2MASS J magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Hmag" datatype="float" name="Hmag" precision="3" ucd="PHOT_JHN_H" unit="mag" width="6">
+    <DESCRIPTION>
+     ? 2MASS H magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Kmag" datatype="float" name="Kmag" precision="3" ucd="PHOT_JHN_K" unit="mag" width="6">
+    <DESCRIPTION>
+     ? 2MASS Ks magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="W1mag" datatype="float" name="W1mag" precision="3" ucd="PHOT_IR_3.4" unit="mag" width="6">
+    <DESCRIPTION>
+     ? WISE W1 magnitude (3.35um)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="W2mag" datatype="float" name="W2mag" precision="3" ucd="PHOT_IR_4.2" unit="mag" width="6">
+    <DESCRIPTION>
+     ? WISE W2 magnitude (4.6um)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="W3mag" datatype="float" name="W3mag" precision="3" ucd="PHOT_FLUX_IR_12" unit="mag" width="6">
+    <DESCRIPTION>
+     ? WISE W3 magnitude (11.6um)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="W4mag" datatype="float" name="W4mag" precision="3" ucd="PHOT_FLUX_IR_25" unit="mag" width="6">
+    <DESCRIPTION>
+     ? WISE W4 magnitude (22.1um)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="6" ucd="POS_EQ_RA_OTHER" unit="deg" width="10">
+    <DESCRIPTION>
+     Best coordinate RA degrees (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="6" ucd="POS_EQ_DEC_OTHER" unit="deg" width="10">
+    <DESCRIPTION>
+     Best coordinate DEC degrees (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="flag" datatype="unsignedByte" name="flag" ucd="REFER_CODE" width="1">
+    <DESCRIPTION>
+     Flag for best coordinates: {\bf1}=IRAS-PSC, {\bf2}=IRAS-FSC,
+     {\bf3}=combined PSC/FSC, {\bf4}=AKARI-FIS, {\bf5}=AKARI-IRC,
+     {\bf6}=WISE [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="IR" arraysize="2" datatype="char" name="IR" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Sources from IR surveys within 30arcsec
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD/>
+      <TD>F14149-0011</TD>
+      <TD>     0.12</TD>
+      <TD>     0.13</TD>
+      <TD>     0.26</TD>
+      <TD>     0.96</TD>
+      <TD>2</TD>
+      <TD>g</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>15.653</TD>
+      <TD>15.020</TD>
+      <TD>11.630</TD>
+      <TD> 8.853</TD>
+      <TD>214.369854</TD>
+      <TD> -0.424318</TD>
+      <TD>6</TD>
+      <TD>IR</TD>
+     </TR>
+     <TR>
+      <TD/>
+      <TD>F14157-0030</TD>
+      <TD>    0.098</TD>
+      <TD>     0.22</TD>
+      <TD>     0.21</TD>
+      <TD>      0.8</TD>
+      <TD>2</TD>
+      <TD>g</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>15.657</TD>
+      <TD>15.505</TD>
+      <TD>15.044</TD>
+      <TD>15.285</TD>
+      <TD>15.136</TD>
+      <TD>12.461</TD>
+      <TD> 8.846</TD>
+      <TD>214.577031</TD>
+      <TD> -0.747054</TD>
+      <TD>6</TD>
+      <TD>IR</TD>
+     </TR>
+     <TR>
+      <TD>18545+0656</TD>
+      <TD/>
+      <TD>        2</TD>
+      <TD>      1.5</TD>
+      <TD>  1.2e+02</TD>
+      <TD>  5.3e+02</TD>
+      <TD>1</TD>
+      <TD>u</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>16.170</TD>
+      <TD>14.011</TD>
+      <TD>13.527</TD>
+      <TD>13.097</TD>
+      <TD>12.846</TD>
+      <TD> 8.923</TD>
+      <TD> 6.916</TD>
+      <TD>214.690700</TD>
+      <TD> -0.061200</TD>
+      <TD>5</TD>
+      <TD>IR</TD>
+     </TR>
+     <TR>
+      <TD/>
+      <TD>F14162+0009</TD>
+      <TD>    0.067</TD>
+      <TD>     0.15</TD>
+      <TD>     0.45</TD>
+      <TD>     0.97</TD>
+      <TD>2</TD>
+      <TD>g</TD>
+      <TD/>
+      <TD/>
+      <TD>     0.65</TD>
+      <TD>     0.62</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>13.002</TD>
+      <TD>12.704</TD>
+      <TD> 8.622</TD>
+      <TD> 6.341</TD>
+      <TD>214.692080</TD>
+      <TD> -0.064825</TD>
+      <TD>6</TD>
+      <TD>IR</TD>
+     </TR>
+     <TR>
+      <TD>14168+0012</TD>
+      <TD>F14168+0013</TD>
+      <TD>     0.65</TD>
+      <TD>     0.27</TD>
+      <TD>     0.15</TD>
+      <TD>     0.49</TD>
+      <TD>2</TD>
+      <TD>u</TD>
+      <TD>     0.957</TD>
+      <TD>     0.236</TD>
+      <TD/>
+      <TD/>
+      <TD> 5.442</TD>
+      <TD> 4.749</TD>
+      <TD> 4.493</TD>
+      <TD> 4.447</TD>
+      <TD> 4.165</TD>
+      <TD> 4.483</TD>
+      <TD> 4.402</TD>
+      <TD>214.862262</TD>
+      <TD> -0.013394</TD>
+      <TD>6</TD>
+      <TD>IR</TD>
+     </TR>
+     <TR>
+      <TD>14179+0024</TD>
+      <TD>F14179+0024</TD>
+      <TD>      1.1</TD>
+      <TD>      0.2</TD>
+      <TD>     0.16</TD>
+      <TD>      0.6</TD>
+      <TD>2</TD>
+      <TD>s</TD>
+      <TD>       1.4</TD>
+      <TD>     0.322</TD>
+      <TD/>
+      <TD/>
+      <TD> 4.777</TD>
+      <TD> 4.374</TD>
+      <TD> 4.071</TD>
+      <TD> 3.985</TD>
+      <TD> 3.599</TD>
+      <TD> 4.008</TD>
+      <TD> 3.938</TD>
+      <TD>215.120088</TD>
+      <TD>  0.181643</TD>
+      <TD>6</TD>
+      <TD>IR</TD>
+     </TR>
+     <TR>
+      <TD>14183+0009</TD>
+      <TD>F14183+0009</TD>
+      <TD>    0.079</TD>
+      <TD>     0.19</TD>
+      <TD>     0.63</TD>
+      <TD>        1</TD>
+      <TD>2</TD>
+      <TD>g</TD>
+      <TD/>
+      <TD/>
+      <TD>     0.69</TD>
+      <TD>     0.86</TD>
+      <TD>16.105</TD>
+      <TD>15.201</TD>
+      <TD>14.460</TD>
+      <TD>13.357</TD>
+      <TD>12.843</TD>
+      <TD> 8.523</TD>
+      <TD> 6.484</TD>
+      <TD>215.235490</TD>
+      <TD> -0.075396</TD>
+      <TD>6</TD>
+      <TD>IR</TD>
+     </TR>
+     <TR>
+      <TD/>
+      <TD>F14185-0053</TD>
+      <TD>      0.1</TD>
+      <TD>     0.14</TD>
+      <TD>     0.23</TD>
+      <TD>     0.81</TD>
+      <TD>2</TD>
+      <TD>g</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>15.943</TD>
+      <TD>14.979</TD>
+      <TD>14.219</TD>
+      <TD>13.603</TD>
+      <TD>13.022</TD>
+      <TD> 8.781</TD>
+      <TD> 6.497</TD>
+      <TD>215.280633</TD>
+      <TD> -1.123834</TD>
+      <TD>6</TD>
+      <TD>IR</TD>
+     </TR>
+     <TR>
+      <TD/>
+      <TD>F14189-0059</TD>
+      <TD>      0.1</TD>
+      <TD>     0.23</TD>
+      <TD>     0.24</TD>
+      <TD>     0.51</TD>
+      <TD>2</TD>
+      <TD>g</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>10.717</TD>
+      <TD>10.295</TD>
+      <TD>10.157</TD>
+      <TD> 9.875</TD>
+      <TD> 9.420</TD>
+      <TD> 7.839</TD>
+      <TD> 5.327</TD>
+      <TD>215.373901</TD>
+      <TD> -1.219505</TD>
+      <TD>6</TD>
+      <TD>IR</TD>
+     </TR>
+     <TR>
+      <TD/>
+      <TD>F14190-0025</TD>
+      <TD>    0.085</TD>
+      <TD>     0.14</TD>
+      <TD>     0.22</TD>
+      <TD>     0.56</TD>
+      <TD>2</TD>
+      <TD>g</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>16.387</TD>
+      <TD>15.696</TD>
+      <TD>14.890</TD>
+      <TD>14.281</TD>
+      <TD>13.866</TD>
+      <TD> 9.777</TD>
+      <TD> 6.919</TD>
+      <TD>215.394922</TD>
+      <TD> -0.651024</TD>
+      <TD>6</TD>
+      <TD>IR</TD>
+     </TR>
+     <TR>
+      <TD/>
+      <TD>F14193+0007</TD>
+      <TD>     0.16</TD>
+      <TD>     0.18</TD>
+      <TD>     0.15</TD>
+      <TD>     0.44</TD>
+      <TD>2</TD>
+      <TD>s</TD>
+      <TD>     0.251</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD> 7.108</TD>
+      <TD> 6.228</TD>
+      <TD> 5.993</TD>
+      <TD> 5.889</TD>
+      <TD> 5.974</TD>
+      <TD> 5.865</TD>
+      <TD> 5.713</TD>
+      <TD>215.488627</TD>
+      <TD> -0.102649</TD>
+      <TD>6</TD>
+      <TD>IR</TD>
+     </TR>
+     <TR>
+      <TD>14198-0009</TD>
+      <TD>F14198-0009</TD>
+      <TD>     0.18</TD>
+      <TD>     0.28</TD>
+      <TD>      2.1</TD>
+      <TD>      6.1</TD>
+      <TD>2</TD>
+      <TD>g</TD>
+      <TD/>
+      <TD/>
+      <TD>      1.1</TD>
+      <TD>      1.9</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>14.175</TD>
+      <TD>13.838</TD>
+      <TD> 9.607</TD>
+      <TD> 7.303</TD>
+      <TD>215.599807</TD>
+      <TD> -0.378842</TD>
+      <TD>6</TD>
+      <TD>IR</TD>
+     </TR>
+     <TR>
+      <TD>14198+0017</TD>
+      <TD>F14198+0017</TD>
+      <TD>     0.14</TD>
+      <TD>     0.17</TD>
+      <TD>        2</TD>
+      <TD>      3.8</TD>
+      <TD>2</TD>
+      <TD>g</TD>
+      <TD/>
+      <TD/>
+      <TD>      1.3</TD>
+      <TD>      2.7</TD>
+      <TD>14.242</TD>
+      <TD>13.404</TD>
+      <TD>12.736</TD>
+      <TD>11.296</TD>
+      <TD>10.938</TD>
+      <TD> 6.469</TD>
+      <TD> 4.259</TD>
+      <TD>215.614995</TD>
+      <TD>  0.059065</TD>
+      <TD>6</TD>
+      <TD>IR</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

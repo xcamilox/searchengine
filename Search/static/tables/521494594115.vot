@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="III_252_table8" name="III/252/table8">
+   <DESCRIPTION>
+    Main catalogue data
+   </DESCRIPTION>
+   <FIELD ID="n_HIP" arraysize="1" datatype="char" name="n_HIP" ucd="DATA_LINK">
+    <DESCRIPTION>
+     indicates a velocity standard (either IAU standard or secondary
+     standard)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     Hipparcos number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HD" datatype="int" name="HD" ucd="ID_ALTERNATIVE" width="6">
+    <DESCRIPTION>
+     ? HD number [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="RV" datatype="float" name="RV" precision="1" ucd="VELOC_HC" unit="km.s-1" width="7">
+    <DESCRIPTION>
+     Mean radial velocity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_RV" datatype="float" name="e_RV" precision="1" ucd="ERROR" unit="km.s-1" width="4">
+    <DESCRIPTION>
+     Mean error of radial velocity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="o_RV" datatype="short" name="o_RV" ucd="NUMBER" width="2">
+    <DESCRIPTION>
+     Number of publications used
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="eRV" datatype="float" name="eRV" precision="1" ucd="FIT_STDEV" unit="km.s-1" width="4">
+    <DESCRIPTION>
+     ? Standard deviation of RV measurements (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_JHN_V" unit="mag" width="5">
+    <DESCRIPTION>
+     Johnson V magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HIPdata" arraysize="7" datatype="char" name="HIPdata" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the HIP data
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right Ascension (J2000) from SIMBAD (not part of the original
+     data)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (J2000) from SIMBAD (not part of the original data)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD/>
+      <TD>97987</TD>
+      <TD>226502</TD>
+      <TD>   12.1</TD>
+      <TD> 3.8</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD> 8.57</TD>
+      <TD>HIPdata</TD>
+      <TD>Simbad</TD>
+      <TD>298.70436</TD>
+      <TD> 35.00553</TD>
+     </TR>
+     <TR>
+      <TD/>
+      <TD>98004</TD>
+      <TD>188668</TD>
+      <TD>  -27.0</TD>
+      <TD> 0.2</TD>
+      <TD>3</TD>
+      <TD> 5.6</TD>
+      <TD> 7.22</TD>
+      <TD>HIPdata</TD>
+      <TD>Simbad</TD>
+      <TD>298.75058</TD>
+      <TD> 34.90060</TD>
+     </TR>
+     <TR>
+      <TD>s</TD>
+      <TD>98110</TD>
+      <TD>188947</TD>
+      <TD>  -26.4</TD>
+      <TD> 0.4</TD>
+      <TD>3</TD>
+      <TD> 0.3</TD>
+      <TD> 3.89</TD>
+      <TD>HIPdata</TD>
+      <TD>Simbad</TD>
+      <TD>299.07655</TD>
+      <TD> 35.08342</TD>
+     </TR>
+     <TR>
+      <TD/>
+      <TD>98116</TD>
+      <TD>188969</TD>
+      <TD>  -28.9</TD>
+      <TD> 2.0</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD> 7.58</TD>
+      <TD>HIPdata</TD>
+      <TD>Simbad</TD>
+      <TD>299.10265</TD>
+      <TD> 35.79009</TD>
+     </TR>
+     <TR>
+      <TD/>
+      <TD>98157</TD>
+      <TD>189085</TD>
+      <TD>  -27.0</TD>
+      <TD> 2.8</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD> 8.21</TD>
+      <TD>HIPdata</TD>
+      <TD>Simbad</TD>
+      <TD>299.22230</TD>
+      <TD> 35.53693</TD>
+     </TR>
+     <TR>
+      <TD/>
+      <TD>98193</TD>
+      <TD>189148</TD>
+      <TD>    1.0</TD>
+      <TD> 0.9</TD>
+      <TD>3</TD>
+      <TD> 7.4</TD>
+      <TD> 7.26</TD>
+      <TD>HIPdata</TD>
+      <TD>Simbad</TD>
+      <TD>299.30549</TD>
+      <TD> 35.03140</TD>
+     </TR>
+     <TR>
+      <TD/>
+      <TD>98239</TD>
+      <TD>189257</TD>
+      <TD>   -0.9</TD>
+      <TD> 1.9</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD> 7.90</TD>
+      <TD>HIPdata</TD>
+      <TD>Simbad</TD>
+      <TD>299.45585</TD>
+      <TD> 34.24667</TD>
+     </TR>
+     <TR>
+      <TD/>
+      <TD>98289</TD>
+      <TD>189335</TD>
+      <TD>   -5.9</TD>
+      <TD> 1.8</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD> 7.71</TD>
+      <TD>HIPdata</TD>
+      <TD>Simbad</TD>
+      <TD>299.55696</TD>
+      <TD> 34.42276</TD>
+     </TR>
+     <TR>
+      <TD/>
+      <TD>98298</TD>
+      <TD>226868</TD>
+      <TD>   -2.7</TD>
+      <TD> 3.2</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD> 8.84</TD>
+      <TD>HIPdata</TD>
+      <TD>Simbad</TD>
+      <TD>299.59031</TD>
+      <TD> 35.20160</TD>
+     </TR>
+     <TR>
+      <TD/>
+      <TD>98343</TD>
+      <TD>189474</TD>
+      <TD>   -0.5</TD>
+      <TD> 1.4</TD>
+      <TD>2</TD>
+      <TD> 5.3</TD>
+      <TD> 6.99</TD>
+      <TD>HIPdata</TD>
+      <TD>Simbad</TD>
+      <TD>299.71517</TD>
+      <TD> 35.49776</TD>
+     </TR>
+     <TR>
+      <TD/>
+      <TD>98418</TD>
+      <TD>227018</TD>
+      <TD>   20.0</TD>
+      <TD> 4.4</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD> 9.02</TD>
+      <TD>HIPdata</TD>
+      <TD>Simbad</TD>
+      <TD>299.95459</TD>
+      <TD> 35.30931</TD>
+     </TR>
+     <TR>
+      <TD/>
+      <TD>98593</TD>
+      <TD>189983</TD>
+      <TD>    3.1</TD>
+      <TD> 3.1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD> 8.54</TD>
+      <TD>HIPdata</TD>
+      <TD>Simbad</TD>
+      <TD>300.39111</TD>
+      <TD> 34.58309</TD>
+     </TR>
+     <TR>
+      <TD/>
+      <TD>98638</TD>
+      <TD>190113</TD>
+      <TD>   11.0</TD>
+      <TD> 4.5</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD> 7.88</TD>
+      <TD>HIPdata</TD>
+      <TD>Simbad</TD>
+      <TD>300.51189</TD>
+      <TD> 35.64111</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

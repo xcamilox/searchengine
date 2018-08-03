@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_MNRAS_411_435_h2mqcat" name="J/MNRAS/411/435/h2mqcat">
+   <DESCRIPTION>
+    Stellar parameter estimates and uncertainties
+   </DESCRIPTION>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     Hipparcos (Cat. I/239) identifier (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="logT.p" datatype="float" name="logT.p" precision="4" ucd="PHYS_TEMP_EFFEC" unit="[K]" width="7">
+    <DESCRIPTION>
+     ? Mean estimate of log(Teff) from the p-model
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="A0.p" datatype="float" name="A0.p" precision="2" ucd="PHOT_EXTINCTION_ISM" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Mean estimate of extinction A0 from the p-model
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="b_logT.pq" datatype="float" name="b_logT.pq" precision="4" ucd="ERROR" unit="[K]" width="7">
+    <DESCRIPTION>
+     ? Lower bound of 90% CI to log(Teff), pq-model
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="logT.pq" datatype="float" name="logT.pq" precision="4" ucd="PHYS_TEMP_EFFEC" unit="[K]" width="7">
+    <DESCRIPTION>
+     ? Mean estimate of log(Teff) from the pq-model
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="B_logT.pq" datatype="float" name="B_logT.pq" precision="4" ucd="ERROR" unit="[K]" width="7">
+    <DESCRIPTION>
+     ? Upper bound of 90% CI to log(Teff), pq-model
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="b_A0.pq" datatype="float" name="b_A0.pq" precision="2" ucd="PHOT_EXTINCTION_ISM" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Lower bound of 90% CI to A0.pq, pq-model
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="A0.pq" datatype="float" name="A0.pq" precision="2" ucd="PHOT_EXTINCTION_ISM" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Mean estimate of A0 from the pq-model
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="B_A0.pq" datatype="float" name="B_A0.pq" precision="2" ucd="PHOT_EXTINCTION_ISM" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Upper bound of 90% CI to A0.pq, pq-model
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Bmag" datatype="float" name="Bmag" precision="2" ucd="PHOT_JHN_B" unit="mag" width="5">
+    <DESCRIPTION>
+     B-band magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_JHN_V" unit="mag" width="5">
+    <DESCRIPTION>
+     V-band magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="3" ucd="PHOT_JHN_J" unit="mag" width="6">
+    <DESCRIPTION>
+     J-band magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Hmag" datatype="float" name="Hmag" precision="3" ucd="PHOT_JHN_H" unit="mag" width="6">
+    <DESCRIPTION>
+     H-band magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Kmag" datatype="float" name="Kmag" precision="3" ucd="PHOT_JHN_K" unit="mag" width="6">
+    <DESCRIPTION>
+     K-band magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Positions from HIP catalog (van Leeuwen 2007, Cat. I/311) (right
+     ascension part)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Positions from HIP catalog (van Leeuwen 2007, Cat. I/311)
+     (declination part)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>98116</TD>
+      <TD> 3.7655</TD>
+      <TD> 0.47</TD>
+      <TD> 3.7407</TD>
+      <TD> 3.7779</TD>
+      <TD> 3.7853</TD>
+      <TD> 0.18</TD>
+      <TD> 0.61</TD>
+      <TD> 0.70</TD>
+      <TD> 8.39</TD>
+      <TD> 7.59</TD>
+      <TD> 6.111</TD>
+      <TD> 5.792</TD>
+      <TD> 5.695</TD>
+      <TD>Simbad</TD>
+      <TD>299.10265</TD>
+      <TD> 35.79009</TD>
+     </TR>
+     <TR>
+      <TD>98193</TD>
+      <TD/>
+      <TD/>
+      <TD> 3.8010</TD>
+      <TD> 3.8219</TD>
+      <TD> 3.8371</TD>
+      <TD> 0.01</TD>
+      <TD> 0.24</TD>
+      <TD> 0.40</TD>
+      <TD> 7.72</TD>
+      <TD> 7.26</TD>
+      <TD> 6.296</TD>
+      <TD> 6.128</TD>
+      <TD> 6.087</TD>
+      <TD>Simbad</TD>
+      <TD>299.30549</TD>
+      <TD> 35.03140</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

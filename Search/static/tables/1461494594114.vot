@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_AJ_153_16_table3" name="J/AJ/153/16/table3">
+   <DESCRIPTION>
+    Angular diameters for 1523 calibrator stars estimated from the
+    sedFit fitting routine
+   </DESCRIPTION>
+   <FIELD ID="Name" arraysize="8" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     HD catalog identifier
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_MAG_V" unit="mag" width="5">
+    <DESCRIPTION>
+     V band magnitude, SIMBAD/GCPD
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Fbol" datatype="double" name="Fbol" precision="3" ucd="PHOT_BOL_FLUX" unit="100000W.m-2" width="8">
+    <DESCRIPTION>
+     Bolometric flux, 10+8 erg/cm2/s
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_Fbol" datatype="float" name="e_Fbol" precision="3" ucd="ERROR" unit="100000W.m-2" width="7">
+    <DESCRIPTION>
+     Uncertainty in fbol
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="AV" datatype="float" name="AV" precision="3" ucd="PHOT_EXTINCTION_ISM" unit="mag" width="6">
+    <DESCRIPTION>
+     Derived Reddening
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_AV" datatype="float" name="e_AV" precision="3" ucd="ERROR" unit="mag" width="6">
+    <DESCRIPTION>
+     Uncertainty in Av
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Nphot" datatype="short" name="Nphot" ucd="NUMBER" width="2">
+    <DESCRIPTION>
+     Number of photometric points
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Ang" datatype="float" name="Ang" precision="3" ucd="EXTENSION_DIAM" unit="mas" width="6">
+    <DESCRIPTION>
+     Angular size from SED fitting
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_Ang" datatype="float" name="e_Ang" precision="3" ucd="ERROR" unit="mas" width="6">
+    <DESCRIPTION>
+     Uncertainty in Ang
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="chi2" datatype="float" name="chi2" precision="2" ucd="FIT_CHI2" width="5">
+    <DESCRIPTION>
+     Reduced {chi} square statistic
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="8" datatype="char" name="SpType" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     Spectral Type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right Ascension (J2000) from SIMBAD (not part of the original
+     data)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (J2000) from SIMBAD (not part of the original data)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>HD188947</TD>
+      <TD> 3.89</TD>
+      <TD>  97.360</TD>
+      <TD>  2.389</TD>
+      <TD> 0.104</TD>
+      <TD> 0.022</TD>
+      <TD>23</TD>
+      <TD> 2.300</TD>
+      <TD> 0.126</TD>
+      <TD> 0.78</TD>
+      <TD>K0III</TD>
+      <TD>Simbad</TD>
+      <TD>299.07655</TD>
+      <TD> 35.08342</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

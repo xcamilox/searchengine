@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="VII_9_catalog" name="VII/9/catalog">
+   <DESCRIPTION>
+    The LBN Catalogue
+   </DESCRIPTION>
+   <FIELD ID="Seq" datatype="short" name="Seq" ucd="ID_MAIN" width="4">
+    <DESCRIPTION>
+     [1/1125]+ Running number (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GLON" datatype="float" name="GLON" precision="2" ucd="POS_GAL_LON" unit="deg" width="6">
+    <DESCRIPTION>
+     [0/360[+= Galactic longitude of cloud center
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GLAT" datatype="float" name="GLAT" precision="2" ucd="POS_GAL_LAT" unit="deg" width="6">
+    <DESCRIPTION>
+     Galactic latitude of the cloud center
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RA1950" arraysize="5" datatype="char" name="RA1950" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Hours RA, 1950.0
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DE1950" arraysize="6" datatype="char" name="DE1950" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Degrees Dec, 1950.0
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Diam1" datatype="short" name="Diam1" ucd="EXTENSION_DIAM" unit="arcm" width="4">
+    <DESCRIPTION>
+     Largest dimension of nebula
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Diam2" datatype="short" name="Diam2" ucd="EXTENSION_MIN" unit="arcm" width="3">
+    <DESCRIPTION>
+     Smallest dimension of nebula
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Area" datatype="float" name="Area" precision="3" ucd="EXTENSION_AREA" unit="deg2" width="7">
+    <DESCRIPTION>
+     Area of nebulosity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Color" datatype="unsignedByte" name="Color" ucd="PHOT_CI_CODE" width="1">
+    <DESCRIPTION>
+     [1/4] Color index (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Bright" datatype="unsignedByte" name="Bright" ucd="PHOT_SB_RATIO" width="1">
+    <DESCRIPTION>
+     [1/6] Brightness scale (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="ID" datatype="short" name="ID" ucd="ID_NUMBER" width="3">
+    <DESCRIPTION>
+     Identification number (4)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Name" arraysize="8" datatype="char" name="Name" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Other name of nebulosity (5)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA.icrs" arraysize="10" datatype="char" name="_RA.icrs" ucd="POS_EQ_RA_OTHER" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (ICRS) (computed by VizieR, not part of the
+     original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" arraysize="9" datatype="char" name="_DE.icrs" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (ICRS) (computed by VizieR, not part of the original
+     data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>168</TD>
+      <TD> 71.58</TD>
+      <TD>  2.86</TD>
+      <TD>19 58</TD>
+      <TD>+35 10</TD>
+      <TD>20</TD>
+      <TD>15</TD>
+      <TD>  0.042</TD>
+      <TD>3</TD>
+      <TD>1</TD>
+      <TD>47</TD>
+      <TD>C 173</TD>
+      <TD>19 59 52.8</TD>
+      <TD>+35 18 17</TD>
+     </TR>
+     <TR>
+      <TD>171</TD>
+      <TD> 71.83</TD>
+      <TD>  2.77</TD>
+      <TD>19 59</TD>
+      <TD>+35 20</TD>
+      <TD>20</TD>
+      <TD>10</TD>
+      <TD>  0.033</TD>
+      <TD>3</TD>
+      <TD>4</TD>
+      <TD>47</TD>
+      <TD/>
+      <TD>20 00 52.7</TD>
+      <TD>+35 28 21</TD>
+     </TR>
+     <TR>
+      <TD>178</TD>
+      <TD> 72.18</TD>
+      <TD>  3.47</TD>
+      <TD>19 57</TD>
+      <TD>+36 00</TD>
+      <TD>100</TD>
+      <TD>40</TD>
+      <TD>  0.583</TD>
+      <TD>3</TD>
+      <TD>5</TD>
+      <TD>47</TD>
+      <TD/>
+      <TD>19 58 51.4</TD>
+      <TD>+36 08 13</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

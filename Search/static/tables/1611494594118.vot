@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_PAZh_34_868_table" name="J/PAZh/34/868/table">
+   <DESCRIPTION>
+    Clump red giants in Tycho-2 catalogue
+   </DESCRIPTION>
+   <FIELD ID="TYC1" datatype="short" name="TYC1" ucd="ID_MAIN:1" width="4">
+    <DESCRIPTION>
+     TYC1 from TYC (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="TYC2" datatype="short" name="TYC2" ucd="ID_MAIN:2" width="5">
+    <DESCRIPTION>
+     TYC2 from TYC (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="4" ucd="POS_EQ_RA_MAIN" unit="deg" width="8">
+    <DESCRIPTION>
+     Right ascension in decimal degrees (J2000.0)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="4" ucd="POS_EQ_DEC_MAIN" unit="deg" width="8">
+    <DESCRIPTION>
+     Declination in decimal degrees (J2000.0)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="float" name="pmRA" precision="1" ucd="POS_EQ_PMRA" unit="mas.a-1" width="6">
+    <DESCRIPTION>
+     [-611.8,760.3] Proper motion in RA*cos(dec)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="float" name="pmDE" precision="1" ucd="POS_EQ_PMDEC" unit="mas.a-1" width="6">
+    <DESCRIPTION>
+     [-648.0,330.3] Proper motion in Dec
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HRV" datatype="float" name="HRV" precision="1" ucd="VELOC_HC" unit="km.s-1" width="6">
+    <DESCRIPTION>
+     [-278.2,148.8]? Radial velocity (2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="2" ucd="PHOT_JHN_J" unit="mag" width="5">
+    <DESCRIPTION>
+     [0.40,9.92] 2MASS J magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Hmag" datatype="float" name="Hmag" precision="2" ucd="PHOT_JHN_H" unit="mag" width="5">
+    <DESCRIPTION>
+     [-0.25,9.54]? 2MASS H magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Kmag" datatype="float" name="Kmag" precision="2" ucd="PHOT_JHN_K" unit="mag" width="5">
+    <DESCRIPTION>
+     [-0.39,9.44] 2MASS Ks magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="TC" arraysize="1" datatype="char" name="TC" ucd="CLASS_CODE">
+    <DESCRIPTION>
+     ? Temperature class from TST
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SC" datatype="unsignedByte" name="SC" ucd="CLASS_CODE" width="1">
+    <DESCRIPTION>
+     [0,9]? Temperature Subclass from TST [NULL integer written as an
+     empty string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="LC" datatype="unsignedByte" name="LC" ucd="SPECT_LUM-CLASS" width="1">
+    <DESCRIPTION>
+     [1,5]? Luminosity class from TST [NULL integer written as an
+     empty string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="Teff" datatype="short" name="Teff" ucd="PHYS_TEMP_EFFEC" unit="K" width="5">
+    <DESCRIPTION>
+     [2600,22000]? Effective temperature from TST [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="Dist" datatype="short" name="Dist" ucd="POS_GAL_HC" unit="pc" width="4">
+    <DESCRIPTION>
+     [19,1568] Photometric distance (6)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="More" arraysize="4" datatype="char" name="More" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Results about this star from catalogues HIP (I/239), Tycho-2
+     (I/259), ASCC-2.5 (I/280), 2MASS (II/246), TST (III/231), PRVH
+     (III/252)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>2677</TD>
+      <TD>898</TD>
+      <TD>298.4861</TD>
+      <TD> 34.9582</TD>
+      <TD>  -5.8</TD>
+      <TD> -15.6</TD>
+      <TD/>
+      <TD> 8.34</TD>
+      <TD> 7.81</TD>
+      <TD> 7.70</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>-32768</TD>
+      <TD>697</TD>
+      <TD>More</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>480</TD>
+      <TD>298.6376</TD>
+      <TD> 35.4057</TD>
+      <TD>  -0.5</TD>
+      <TD>   2.6</TD>
+      <TD/>
+      <TD> 8.35</TD>
+      <TD> 7.86</TD>
+      <TD> 7.77</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>-32768</TD>
+      <TD>721</TD>
+      <TD>More</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>2681</TD>
+      <TD>276</TD>
+      <TD>298.7124</TD>
+      <TD> 35.8173</TD>
+      <TD>  -7.1</TD>
+      <TD> -26.1</TD>
+      <TD/>
+      <TD> 7.05</TD>
+      <TD> 6.55</TD>
+      <TD> 6.41</TD>
+      <TD>K</TD>
+      <TD>0</TD>
+      <TD>255</TD>
+      <TD>4750</TD>
+      <TD>380</TD>
+      <TD>More</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>477</TD>
+      <TD>298.7357</TD>
+      <TD> 34.9334</TD>
+      <TD>   2.0</TD>
+      <TD> -24.3</TD>
+      <TD/>
+      <TD> 6.62</TD>
+      <TD> 5.99</TD>
+      <TD> 5.82</TD>
+      <TD>K</TD>
+      <TD>5</TD>
+      <TD>255</TD>
+      <TD>3950</TD>
+      <TD>289</TD>
+      <TD>More</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>1118</TD>
+      <TD>298.7506</TD>
+      <TD> 34.9006</TD>
+      <TD>   3.3</TD>
+      <TD>  19.3</TD>
+      <TD> -27.0</TD>
+      <TD> 5.30</TD>
+      <TD> 4.84</TD>
+      <TD> 4.73</TD>
+      <TD>K</TD>
+      <TD>0</TD>
+      <TD>255</TD>
+      <TD>4750</TD>
+      <TD>178</TD>
+      <TD>More</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>2681</TD>
+      <TD>50</TD>
+      <TD>298.7618</TD>
+      <TD> 35.8444</TD>
+      <TD>  11.8</TD>
+      <TD>   7.5</TD>
+      <TD/>
+      <TD> 7.36</TD>
+      <TD> 6.84</TD>
+      <TD> 6.68</TD>
+      <TD>K</TD>
+      <TD>0</TD>
+      <TD>255</TD>
+      <TD>4750</TD>
+      <TD>434</TD>
+      <TD>More</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>2681</TD>
+      <TD>16</TD>
+      <TD>298.8220</TD>
+      <TD> 35.8853</TD>
+      <TD>  -1.1</TD>
+      <TD> -11.9</TD>
+      <TD/>
+      <TD> 7.84</TD>
+      <TD> 7.41</TD>
+      <TD> 7.29</TD>
+      <TD>G</TD>
+      <TD>5</TD>
+      <TD>255</TD>
+      <TD>5150</TD>
+      <TD>574</TD>
+      <TD>More</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>421</TD>
+      <TD>299.0120</TD>
+      <TD> 34.4176</TD>
+      <TD>   0.9</TD>
+      <TD>  -1.8</TD>
+      <TD/>
+      <TD> 8.96</TD>
+      <TD> 8.54</TD>
+      <TD> 8.41</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>-32768</TD>
+      <TD>965</TD>
+      <TD>More</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>109</TD>
+      <TD>299.0165</TD>
+      <TD> 34.7676</TD>
+      <TD>   2.0</TD>
+      <TD>  -5.1</TD>
+      <TD/>
+      <TD> 8.61</TD>
+      <TD> 8.16</TD>
+      <TD> 8.03</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>-32768</TD>
+      <TD>808</TD>
+      <TD>More</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>1816</TD>
+      <TD>299.0765</TD>
+      <TD> 35.0834</TD>
+      <TD> -34.0</TD>
+      <TD> -27.6</TD>
+      <TD> -26.4</TD>
+      <TD> 1.93</TD>
+      <TD> 1.44</TD>
+      <TD> 1.37</TD>
+      <TD>K</TD>
+      <TD>0</TD>
+      <TD>3</TD>
+      <TD>4750</TD>
+      <TD>43</TD>
+      <TD>More</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>2677</TD>
+      <TD>801</TD>
+      <TD>299.1455</TD>
+      <TD> 35.1674</TD>
+      <TD>   4.2</TD>
+      <TD>   6.8</TD>
+      <TD/>
+      <TD> 9.05</TD>
+      <TD> 8.52</TD>
+      <TD> 8.39</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>-32768</TD>
+      <TD>956</TD>
+      <TD>More</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>2681</TD>
+      <TD>300</TD>
+      <TD>299.1639</TD>
+      <TD> 35.6983</TD>
+      <TD>  -8.5</TD>
+      <TD>  -9.9</TD>
+      <TD/>
+      <TD> 6.87</TD>
+      <TD> 6.25</TD>
+      <TD> 6.10</TD>
+      <TD>K</TD>
+      <TD>2</TD>
+      <TD>255</TD>
+      <TD>4420</TD>
+      <TD>328</TD>
+      <TD>More</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>2681</TD>
+      <TD>22</TD>
+      <TD>299.2409</TD>
+      <TD> 35.9109</TD>
+      <TD>   0.0</TD>
+      <TD>  15.9</TD>
+      <TD/>
+      <TD> 6.71</TD>
+      <TD> 6.23</TD>
+      <TD> 6.12</TD>
+      <TD>K</TD>
+      <TD>0</TD>
+      <TD>255</TD>
+      <TD>4750</TD>
+      <TD>335</TD>
+      <TD>More</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>5</TD>
+      <TD>299.2601</TD>
+      <TD> 34.9942</TD>
+      <TD>  -2.9</TD>
+      <TD>  -7.9</TD>
+      <TD/>
+      <TD> 7.95</TD>
+      <TD> 7.30</TD>
+      <TD> 7.16</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>-32768</TD>
+      <TD>531</TD>
+      <TD>More</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>908</TD>
+      <TD>299.3273</TD>
+      <TD> 34.5812</TD>
+      <TD>   0.7</TD>
+      <TD> -25.7</TD>
+      <TD/>
+      <TD> 6.61</TD>
+      <TD> 6.15</TD>
+      <TD> 6.05</TD>
+      <TD>K</TD>
+      <TD>0</TD>
+      <TD>255</TD>
+      <TD>4750</TD>
+      <TD>325</TD>
+      <TD>More</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>788</TD>
+      <TD>299.6353</TD>
+      <TD> 34.6904</TD>
+      <TD>   6.2</TD>
+      <TD>   5.6</TD>
+      <TD/>
+      <TD> 8.10</TD>
+      <TD> 7.59</TD>
+      <TD> 7.45</TD>
+      <TD>K</TD>
+      <TD>2</TD>
+      <TD>255</TD>
+      <TD>4420</TD>
+      <TD>609</TD>
+      <TD>More</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>1287</TD>
+      <TD>299.7312</TD>
+      <TD> 34.7753</TD>
+      <TD>   0.6</TD>
+      <TD> -11.8</TD>
+      <TD/>
+      <TD> 8.26</TD>
+      <TD> 7.82</TD>
+      <TD> 7.65</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>-32768</TD>
+      <TD>680</TD>
+      <TD>More</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>2682</TD>
+      <TD>2418</TD>
+      <TD>299.8138</TD>
+      <TD> 36.1773</TD>
+      <TD>   2.3</TD>
+      <TD>  -9.4</TD>
+      <TD/>
+      <TD> 8.79</TD>
+      <TD> 8.34</TD>
+      <TD> 8.16</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>-32768</TD>
+      <TD>865</TD>
+      <TD>More</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>2682</TD>
+      <TD>361</TD>
+      <TD>299.8611</TD>
+      <TD> 35.8973</TD>
+      <TD>   7.4</TD>
+      <TD>  14.2</TD>
+      <TD/>
+      <TD> 6.22</TD>
+      <TD> 5.74</TD>
+      <TD> 5.65</TD>
+      <TD>K</TD>
+      <TD>0</TD>
+      <TD>3</TD>
+      <TD>4750</TD>
+      <TD>271</TD>
+      <TD>More</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>2183</TD>
+      <TD>300.0765</TD>
+      <TD> 34.4087</TD>
+      <TD>  -3.8</TD>
+      <TD> -16.6</TD>
+      <TD/>
+      <TD> 8.21</TD>
+      <TD> 7.67</TD>
+      <TD> 7.50</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>-32768</TD>
+      <TD>629</TD>
+      <TD>More</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>665</TD>
+      <TD>300.3026</TD>
+      <TD> 34.7864</TD>
+      <TD>   1.1</TD>
+      <TD> -35.0</TD>
+      <TD/>
+      <TD> 6.80</TD>
+      <TD> 6.28</TD>
+      <TD> 6.15</TD>
+      <TD>K</TD>
+      <TD>0</TD>
+      <TD>255</TD>
+      <TD>4750</TD>
+      <TD>339</TD>
+      <TD>More</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>1755</TD>
+      <TD>300.3745</TD>
+      <TD> 35.1390</TD>
+      <TD> -15.7</TD>
+      <TD> -21.6</TD>
+      <TD/>
+      <TD> 6.91</TD>
+      <TD> 6.44</TD>
+      <TD> 6.34</TD>
+      <TD>G</TD>
+      <TD>8</TD>
+      <TD>3</TD>
+      <TD>4900</TD>
+      <TD>369</TD>
+      <TD>More</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>2682</TD>
+      <TD>1837</TD>
+      <TD>300.4070</TD>
+      <TD> 35.7427</TD>
+      <TD>   5.2</TD>
+      <TD>  -0.4</TD>
+      <TD/>
+      <TD> 8.15</TD>
+      <TD> 7.62</TD>
+      <TD> 7.50</TD>
+      <TD>K</TD>
+      <TD>0</TD>
+      <TD>255</TD>
+      <TD>4750</TD>
+      <TD>621</TD>
+      <TD>More</TD>
+      <TD>Simbad</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

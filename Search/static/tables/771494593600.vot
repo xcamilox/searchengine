@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJS_221_12_table1" name="J/ApJS/221/12/table1">
+   <DESCRIPTION>
+    Mid-IR AGNs data
+   </DESCRIPTION>
+   <FIELD ID="WISEA" arraysize="19" datatype="char" name="WISEA" ucd="ID_MAIN">
+    <DESCRIPTION>
+     AllWISE IAU identifier (JHHMMSS.ss+DDMMSS.s)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="7" ucd="POS_EQ_RA_MAIN" unit="deg" width="11">
+    <DESCRIPTION>
+     AllWISE Right Ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="7" ucd="POS_EQ_DEC_MAIN" unit="deg" width="11">
+    <DESCRIPTION>
+     AllWISE Declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="W1-W2" datatype="float" name="W1-W2" precision="2" ucd="PHOT_CI_IR" unit="mag" width="5">
+    <DESCRIPTION>
+     [0.4/2.6] AllWISE W1-W2 (3.4-4.6um) color index
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="W2-W3" datatype="float" name="W2-W3" precision="2" ucd="PHOT_CI_IR" unit="mag" width="5">
+    <DESCRIPTION>
+     [1.9/7.8] AllWISE W2-W3 (4.6-12um) color index
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="W1mag" datatype="float" name="W1mag" precision="2" ucd="PHOT_IR_3.4" unit="mag" width="5">
+    <DESCRIPTION>
+     [4.5/19] AllWISE W1 (3.4um) magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="gmag" datatype="float" name="gmag" precision="2" ucd="PHOT_SDSS_G" unit="mag" width="5">
+    <DESCRIPTION>
+     [0/25.8]? Compiled g band magnitude; SDSS bandpass (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="z" datatype="double" name="z" precision="5" ucd="REDSHIFT_HC" width="8">
+    <DESCRIPTION>
+     [-0.002/7.02]? Compiled Redshift (2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="f_z" arraysize="1" datatype="char" name="f_z" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [ps] Flag on Redshift, s=spec; p=photo
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="LQAC2" arraysize="11" datatype="char" name="LQAC2" ucd="ID_CROSSID">
+    <DESCRIPTION>
+     LQAC2 identifier (Souchay+ 2012, J/A+A/537/A99)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DR12Q" arraysize="18" datatype="char" name="DR12Q" ucd="ID_CROSSID">
+    <DESCRIPTION>
+     DR12Q identifier
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HMQ" arraysize="25" datatype="char" name="HMQ" ucd="ID_CROSSID">
+    <DESCRIPTION>
+     MILLIQUAS identifier (Flesch+, 2015, VII/273)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sloan" arraysize="5" datatype="char" name="Sloan" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the SDSS data for the nearest object
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>J142011.44-005910.9</TD>
+      <TD>215.0476834</TD>
+      <TD> -0.9863701</TD>
+      <TD> 0.92</TD>
+      <TD> 2.61</TD>
+      <TD>14.89</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J142029.96-011546.6</TD>
+      <TD>215.1248480</TD>
+      <TD> -1.2629649</TD>
+      <TD> 1.21</TD>
+      <TD> 2.84</TD>
+      <TD>15.83</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J142159.81-010536.0</TD>
+      <TD>215.4992395</TD>
+      <TD> -1.0933486</TD>
+      <TD> 1.52</TD>
+      <TD> 4.80</TD>
+      <TD>17.43</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J141833.95-004633.9</TD>
+      <TD>214.6414795</TD>
+      <TD> -0.7761080</TD>
+      <TD> 1.25</TD>
+      <TD> 2.87</TD>
+      <TD>15.74</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J142133.33-005656.1</TD>
+      <TD>215.3889058</TD>
+      <TD> -0.9489284</TD>
+      <TD> 0.87</TD>
+      <TD> 2.87</TD>
+      <TD>14.68</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J142148.52-005117.8</TD>
+      <TD>215.4521824</TD>
+      <TD> -0.8549707</TD>
+      <TD> 1.18</TD>
+      <TD> 2.78</TD>
+      <TD>15.60</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J142035.54-005704.9</TD>
+      <TD>215.1481009</TD>
+      <TD> -0.9513885</TD>
+      <TD> 0.80</TD>
+      <TD> 3.11</TD>
+      <TD>14.55</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J141935.39-005420.7</TD>
+      <TD>214.8974825</TD>
+      <TD> -0.9057648</TD>
+      <TD> 0.95</TD>
+      <TD> 3.24</TD>
+      <TD>15.38</TD>
+      <TD>20.53</TD>
+      <TD> 2.24569</TD>
+      <TD>s</TD>
+      <TD/>
+      <TD>141935.41-005420.6</TD>
+      <TD>SDSS J141935.41-005420.6</TD>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J142207.39-010107.1</TD>
+      <TD>215.5308268</TD>
+      <TD> -1.0186455</TD>
+      <TD> 1.61</TD>
+      <TD> 3.31</TD>
+      <TD>16.32</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J142158.11-010756.3</TD>
+      <TD>215.4921637</TD>
+      <TD> -1.1323254</TD>
+      <TD> 0.71</TD>
+      <TD> 2.49</TD>
+      <TD>14.68</TD>
+      <TD>19.63</TD>
+      <TD> 0.19100</TD>
+      <TD>s</TD>
+      <TD>215-001_015</TD>
+      <TD/>
+      <TD>SDSS J142158.13-010756.6</TD>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J141820.31-005953.9</TD>
+      <TD>214.5846393</TD>
+      <TD> -0.9983149</TD>
+      <TD> 0.82</TD>
+      <TD> 3.14</TD>
+      <TD>14.23</TD>
+      <TD>19.65</TD>
+      <TD> 0.25400</TD>
+      <TD>s</TD>
+      <TD>214-000_019</TD>
+      <TD/>
+      <TD>SDSS J141820.32-005953.8</TD>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J142012.36-004535.7</TD>
+      <TD>215.0515403</TD>
+      <TD> -0.7599351</TD>
+      <TD> 1.35</TD>
+      <TD> 2.84</TD>
+      <TD>14.86</TD>
+      <TD>20.28</TD>
+      <TD> 1.30000</TD>
+      <TD>s</TD>
+      <TD>215-000_001</TD>
+      <TD/>
+      <TD>SDSS J142012.36-004535.7</TD>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J141656.74-005021.5</TD>
+      <TD>214.2364458</TD>
+      <TD> -0.8393068</TD>
+      <TD> 1.13</TD>
+      <TD> 2.70</TD>
+      <TD>14.88</TD>
+      <TD>19.41</TD>
+      <TD> 0.66700</TD>
+      <TD>s</TD>
+      <TD>214-000_009</TD>
+      <TD/>
+      <TD>SDSS J141656.74-005021.5</TD>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J141817.88-004833.1</TD>
+      <TD>214.5745126</TD>
+      <TD> -0.8092166</TD>
+      <TD> 1.47</TD>
+      <TD> 3.20</TD>
+      <TD>15.37</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J142030.64-010543.3</TD>
+      <TD>215.1276825</TD>
+      <TD> -1.0953837</TD>
+      <TD> 0.91</TD>
+      <TD> 3.27</TD>
+      <TD>15.28</TD>
+      <TD>21.32</TD>
+      <TD> 0.72949</TD>
+      <TD>s</TD>
+      <TD/>
+      <TD>142030.62-010543.4</TD>
+      <TD>SDSS J142030.62-010543.4</TD>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J141824.80-005030.5</TD>
+      <TD>214.6033418</TD>
+      <TD> -0.8418092</TD>
+      <TD> 1.39</TD>
+      <TD> 3.22</TD>
+      <TD>15.70</TD>
+      <TD>19.33</TD>
+      <TD> 1.61000</TD>
+      <TD>s</TD>
+      <TD>214-000_021</TD>
+      <TD/>
+      <TD>2QZ J141824.7-005031</TD>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J142050.45-005425.2</TD>
+      <TD>215.2102298</TD>
+      <TD> -0.9070265</TD>
+      <TD> 1.21</TD>
+      <TD> 2.78</TD>
+      <TD>15.03</TD>
+      <TD>18.95</TD>
+      <TD> 1.45500</TD>
+      <TD>s</TD>
+      <TD>215-000_009</TD>
+      <TD/>
+      <TD>2QZ J142050.4-005426</TD>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J141744.41-004901.7</TD>
+      <TD>214.4350716</TD>
+      <TD> -0.8171526</TD>
+      <TD> 1.12</TD>
+      <TD> 2.92</TD>
+      <TD>15.50</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J141819.40-010854.2</TD>
+      <TD>214.5808419</TD>
+      <TD> -1.1484112</TD>
+      <TD> 1.29</TD>
+      <TD> 2.95</TD>
+      <TD>15.51</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J141842.98-005654.4</TD>
+      <TD>214.6791180</TD>
+      <TD> -0.9484580</TD>
+      <TD> 1.27</TD>
+      <TD> 3.07</TD>
+      <TD>15.72</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J142020.55-010148.4</TD>
+      <TD>215.0856600</TD>
+      <TD> -1.0301165</TD>
+      <TD> 1.11</TD>
+      <TD> 3.71</TD>
+      <TD>16.64</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J141922.76-005622.5</TD>
+      <TD>214.8448631</TD>
+      <TD> -0.9395985</TD>
+      <TD> 1.20</TD>
+      <TD> 3.38</TD>
+      <TD>16.09</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J141951.62-004606.0</TD>
+      <TD>214.9651206</TD>
+      <TD> -0.7683346</TD>
+      <TD> 1.23</TD>
+      <TD> 3.38</TD>
+      <TD>15.91</TD>
+      <TD>19.02</TD>
+      <TD> 1.93800</TD>
+      <TD>s</TD>
+      <TD>214-000_031</TD>
+      <TD/>
+      <TD>2QZ J141951.5-004606</TD>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J141742.44-005556.2</TD>
+      <TD>214.4268445</TD>
+      <TD> -0.9323024</TD>
+      <TD> 1.42</TD>
+      <TD> 3.96</TD>
+      <TD>16.48</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J141830.49-004927.2</TD>
+      <TD>214.6270564</TD>
+      <TD> -0.8242339</TD>
+      <TD> 1.59</TD>
+      <TD> 3.52</TD>
+      <TD>16.68</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J142037.72-005657.5</TD>
+      <TD>215.1571667</TD>
+      <TD> -0.9493215</TD>
+      <TD> 0.96</TD>
+      <TD> 3.08</TD>
+      <TD>15.52</TD>
+      <TD/>
+      <TD> 2.20000</TD>
+      <TD>p</TD>
+      <TD/>
+      <TD/>
+      <TD>BOSS J142037.71-005657.5</TD>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J142020.31-010955.1</TD>
+      <TD>215.0846536</TD>
+      <TD> -1.1653222</TD>
+      <TD> 1.25</TD>
+      <TD> 2.88</TD>
+      <TD>15.43</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J142234.18-005419.2</TD>
+      <TD>215.6424429</TD>
+      <TD> -0.9053475</TD>
+      <TD> 1.27</TD>
+      <TD> 4.01</TD>
+      <TD>16.77</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J142306.13-005134.7</TD>
+      <TD>215.7755503</TD>
+      <TD> -0.8596494</TD>
+      <TD> 1.26</TD>
+      <TD> 3.31</TD>
+      <TD>15.13</TD>
+      <TD>18.36</TD>
+      <TD> 2.06900</TD>
+      <TD>s</TD>
+      <TD>215-000_030</TD>
+      <TD/>
+      <TD>2QZ J142306.1-005135</TD>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J142313.27-003042.2</TD>
+      <TD>215.8053245</TD>
+      <TD> -0.5117310</TD>
+      <TD> 1.28</TD>
+      <TD> 3.40</TD>
+      <TD>16.35</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J142228.85-001721.5</TD>
+      <TD>215.6202372</TD>
+      <TD> -0.2893179</TD>
+      <TD> 0.83</TD>
+      <TD> 3.16</TD>
+      <TD>15.54</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J142232.60-001635.2</TD>
+      <TD>215.6358571</TD>
+      <TD> -0.2764514</TD>
+      <TD> 1.46</TD>
+      <TD> 3.09</TD>
+      <TD>16.02</TD>
+      <TD/>
+      <TD> 1.24200</TD>
+      <TD>s</TD>
+      <TD>215-000_025</TD>
+      <TD/>
+      <TD>2QZ J142232.6-001636</TD>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J142244.26-002654.4</TD>
+      <TD>215.6844167</TD>
+      <TD> -0.4484540</TD>
+      <TD> 1.61</TD>
+      <TD> 3.65</TD>
+      <TD>15.20</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J142338.64-002548.7</TD>
+      <TD>215.9110129</TD>
+      <TD> -0.4302187</TD>
+      <TD> 1.24</TD>
+      <TD> 2.94</TD>
+      <TD>15.92</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J142353.33-001629.0</TD>
+      <TD>215.9722318</TD>
+      <TD> -0.2747496</TD>
+      <TD> 1.26</TD>
+      <TD> 2.72</TD>
+      <TD>14.96</TD>
+      <TD>18.93</TD>
+      <TD> 0.91000</TD>
+      <TD>s</TD>
+      <TD>215-000_039</TD>
+      <TD/>
+      <TD>2QZ J142353.3-001629</TD>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J142244.98-003507.0</TD>
+      <TD>215.6874283</TD>
+      <TD> -0.5852905</TD>
+      <TD> 1.67</TD>
+      <TD> 3.76</TD>
+      <TD>15.38</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J142352.00-000705.2</TD>
+      <TD>215.9667066</TD>
+      <TD> -0.1181184</TD>
+      <TD> 1.15</TD>
+      <TD> 2.60</TD>
+      <TD>14.93</TD>
+      <TD>18.73</TD>
+      <TD> 0.68000</TD>
+      <TD>s</TD>
+      <TD>215-000_038</TD>
+      <TD/>
+      <TD>2QZ J142352.0-000705</TD>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J142214.56-002915.2</TD>
+      <TD>215.5606685</TD>
+      <TD> -0.4875827</TD>
+      <TD> 1.20</TD>
+      <TD> 3.05</TD>
+      <TD>15.92</TD>
+      <TD>19.11</TD>
+      <TD> 1.56200</TD>
+      <TD>s</TD>
+      <TD>215-000_022</TD>
+      <TD/>
+      <TD>2QZ J142214.5-002916</TD>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J142248.60-004441.1</TD>
+      <TD>215.7025002</TD>
+      <TD> -0.7447677</TD>
+      <TD> 1.10</TD>
+      <TD> 3.57</TD>
+      <TD>15.94</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J142253.32-000149.1</TD>
+      <TD>215.7221688</TD>
+      <TD> -0.0303264</TD>
+      <TD> 1.23</TD>
+      <TD> 3.10</TD>
+      <TD>15.67</TD>
+      <TD>19.45</TD>
+      <TD> 1.08100</TD>
+      <TD>s</TD>
+      <TD>215-000_027</TD>
+      <TD/>
+      <TD>2QZ J142253.3-000149</TD>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J142310.35-003244.2</TD>
+      <TD>215.7931563</TD>
+      <TD> -0.5456149</TD>
+      <TD> 0.85</TD>
+      <TD> 2.42</TD>
+      <TD>14.66</TD>
+      <TD>19.47</TD>
+      <TD> 0.36500</TD>
+      <TD>s</TD>
+      <TD>215-000_031</TD>
+      <TD/>
+      <TD>SDSS J142310.36-003244.2</TD>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J142347.13-000114.3</TD>
+      <TD>215.9463958</TD>
+      <TD> -0.0206449</TD>
+      <TD> 0.95</TD>
+      <TD> 3.31</TD>
+      <TD>16.11</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J142314.78-002436.4</TD>
+      <TD>215.8115845</TD>
+      <TD> -0.4101182</TD>
+      <TD> 1.20</TD>
+      <TD> 3.03</TD>
+      <TD>16.08</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J142318.12-002834.2</TD>
+      <TD>215.8255297</TD>
+      <TD> -0.4761710</TD>
+      <TD> 0.76</TD>
+      <TD> 2.89</TD>
+      <TD>15.29</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J142241.34-004516.9</TD>
+      <TD>215.6722808</TD>
+      <TD> -0.7547035</TD>
+      <TD> 1.17</TD>
+      <TD> 3.45</TD>
+      <TD>16.47</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J142232.37-003043.8</TD>
+      <TD>215.6349165</TD>
+      <TD> -0.5121728</TD>
+      <TD> 0.94</TD>
+      <TD> 3.51</TD>
+      <TD>15.83</TD>
+      <TD>19.96</TD>
+      <TD> 2.70400</TD>
+      <TD>s</TD>
+      <TD>215-000_024</TD>
+      <TD>142232.38-003043.9</TD>
+      <TD>SDSS J142232.38-003043.9</TD>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J141730.40-002018.1</TD>
+      <TD>214.3766677</TD>
+      <TD> -0.3383820</TD>
+      <TD> 0.89</TD>
+      <TD> 3.25</TD>
+      <TD>15.82</TD>
+      <TD/>
+      <TD> 2.10000</TD>
+      <TD>p</TD>
+      <TD/>
+      <TD/>
+      <TD>NBCK J141730.42-002018.2</TD>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J142208.04-004219.1</TD>
+      <TD>215.5335131</TD>
+      <TD> -0.7053209</TD>
+      <TD> 0.85</TD>
+      <TD> 2.96</TD>
+      <TD>15.63</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J141753.36-002759.8</TD>
+      <TD>214.4723418</TD>
+      <TD> -0.4666139</TD>
+      <TD> 1.08</TD>
+      <TD> 2.95</TD>
+      <TD>15.56</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J141949.83-000643.6</TD>
+      <TD>214.9576325</TD>
+      <TD> -0.1121383</TD>
+      <TD> 1.21</TD>
+      <TD> 2.27</TD>
+      <TD>14.04</TD>
+      <TD>18.79</TD>
+      <TD> 0.51300</TD>
+      <TD>s</TD>
+      <TD>214-000_030</TD>
+      <TD/>
+      <TD>2QZ J141949.8-000644</TD>
+      <TD>Sloan</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

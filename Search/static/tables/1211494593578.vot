@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_MNRAS_385_1270_metage" name="J/MNRAS/385/1270/metage">
+   <DESCRIPTION>
+    Basic information and stellar metallicities and ages of galaxies
+   </DESCRIPTION>
+   <FIELD ID="objID" arraysize="18" datatype="char" name="objID" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Unique SDSS identifier of galaxies
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="z" datatype="float" name="z" precision="3" ucd="REDSHIFT_HC" width="6">
+    <DESCRIPTION>
+     Redshift
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_z" datatype="float" name="e_z" precision="3" ucd="ERROR" width="6">
+    <DESCRIPTION>
+     Uncertainty of redshift
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Zbest" datatype="float" name="Zbest" precision="4" ucd="PHYS_ABUND_Z" width="7">
+    <DESCRIPTION>
+     Best-fit stellar metallicity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Zlow" datatype="float" name="Zlow" precision="4" ucd="PHYS_ABUND_Z" width="7">
+    <DESCRIPTION>
+     Lower limit for possible stellar metallicity (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Zup" datatype="float" name="Zup" precision="4" ucd="PHYS_ABUND_Z" width="7">
+    <DESCRIPTION>
+     Upper limit for possible stellar metallicity (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="tbest" datatype="float" name="tbest" precision="1" ucd="TIME_AGE" unit="Gyr" width="4">
+    <DESCRIPTION>
+     Best-fit stellar age
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="tlow" datatype="float" name="tlow" precision="1" ucd="TIME_AGE" unit="Gyr" width="4">
+    <DESCRIPTION>
+     Lower limit for possible stellar age (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="tup" datatype="float" name="tup" precision="1" ucd="TIME_AGE" unit="Gyr" width="4">
+    <DESCRIPTION>
+     Upper limit for possible stellar age (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DR6" arraysize="3" datatype="char" name="DR6" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the SDSS-DR6 photometric data
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="7" ucd="POS_EQ_RA_MAIN" unit="deg" width="11">
+    <DESCRIPTION>
+     J2000 right ascension in decimal degrees
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="7" ucd="POS_EQ_DEC_MAIN" unit="deg" width="11">
+    <DESCRIPTION>
+     J2000 declination in decimal degrees
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>588848899927703778</TD>
+      <TD> 0.119</TD>
+      <TD> 0.003</TD>
+      <TD> 0.0137</TD>
+      <TD> 0.0106</TD>
+      <TD> 0.0257</TD>
+      <TD>14.1</TD>
+      <TD> 7.0</TD>
+      <TD>20.0</TD>
+      <TD>DR6</TD>
+      <TD>214.2821198</TD>
+      <TD> -0.0152458</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

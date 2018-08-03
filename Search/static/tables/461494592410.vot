@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="V_137D_XHIP" name="V/137D/XHIP">
+   <DESCRIPTION>
+    XHIP catalog: astrometry, spectrography, space motions,
+    exoplanets, photometry, and references
+   </DESCRIPTION>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     Hipparcos identifier \linkRole{details from HIP catalogs}
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Comp" arraysize="6" datatype="char" name="Comp" ucd="CODE_MULT_INDEX">
+    <DESCRIPTION>
+     Component(s) (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Gr" datatype="unsignedByte" name="Gr" ucd="CODE_MEMB" width="1">
+    <DESCRIPTION>
+     ? Cluster or Association membership(s) (3) [NULL integer written
+     as an empty string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="8" ucd="POS_EQ_RA_MAIN" unit="deg" width="12">
+    <DESCRIPTION>
+     Right ascension (ICRS, Epoch=J1991.25)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="8" ucd="POS_EQ_DEC_MAIN" unit="deg" width="12">
+    <DESCRIPTION>
+     Declination (ICRS, Epoch=J1991.25)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dist" datatype="float" name="Dist" precision="2" ucd="POS_GAL_HC" unit="pc" width="7">
+    <DESCRIPTION>
+     ? Heliocentric distance (7)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="X" datatype="float" name="X" precision="1" ucd="POS_GAL_X" unit="pc" width="6">
+    <DESCRIPTION>
+     ? Heliocentric distance towards Gal. center
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Y" datatype="float" name="Y" precision="1" ucd="POS_GAL_Y" unit="pc" width="7">
+    <DESCRIPTION>
+     ? Heliocentric distance towards Gal. rotation
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Z" datatype="float" name="Z" precision="1" ucd="POS_GAL_Z" unit="pc" width="6">
+    <DESCRIPTION>
+     ? Heliocentric distance towards N. Gal. Pole
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="26" datatype="char" name="SpType" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     Spectral type (MK, HD, or other)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="__Fe_H_" datatype="float" name="__Fe_H_" precision="2" ucd="PHYS_ABUND_FE/H" unit="[Sun]" width="5">
+    <DESCRIPTION>
+     ? Iron abundance
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Hpmag" datatype="float" name="Hpmag" precision="3" ucd="PHOT_HIPPAR" unit="mag" width="6">
+    <DESCRIPTION>
+     Median magnitude in Hipparcos system
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Lum" datatype="double" name="Lum" precision="2" ucd="PHYS_LUMINOSITY_GENERAL" unit="Lsun" width="9">
+    <DESCRIPTION>
+     ? Stellar luminosity (23)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Cst" arraysize="3" datatype="char" name="Cst" ucd="ID_CONSTEL">
+    <DESCRIPTION>
+     Constellation membership
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>69785</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>214.25620752</TD>
+      <TD> -0.07898169</TD>
+      <TD>  89.41</TD>
+      <TD>  48.1</TD>
+      <TD>  -14.2</TD>
+      <TD>  74.0</TD>
+      <TD>F7 V</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD> 9.154</TD>
+      <TD>     1.65</TD>
+      <TD>Vir</TD>
+     </TR>
+     <TR>
+      <TD>69866</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>214.45957854</TD>
+      <TD> -1.07905907</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>F8</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>10.572</TD>
+      <TD/>
+      <TD>Vir</TD>
+     </TR>
+     <TR>
+      <TD>69911</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>214.61236247</TD>
+      <TD> -0.11505625</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>G0</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>10.708</TD>
+      <TD/>
+      <TD>Vir</TD>
+     </TR>
+     <TR>
+      <TD>70002</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>214.86232183</TD>
+      <TD> -0.01334256</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>K2/3 III</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD> 7.943</TD>
+      <TD/>
+      <TD>Vir</TD>
+     </TR>
+     <TR>
+      <TD>70022</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>214.92071963</TD>
+      <TD>  0.38436358</TD>
+      <TD>  63.20</TD>
+      <TD>  34.2</TD>
+      <TD>   -9.2</TD>
+      <TD>  52.3</TD>
+      <TD>A7Vn</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD> 6.248</TD>
+      <TD>    11.44</TD>
+      <TD>Vir</TD>
+     </TR>
+     <TR>
+      <TD>70081</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>215.12059176</TD>
+      <TD>  0.18204239</TD>
+      <TD> 215.90</TD>
+      <TD> 117.8</TD>
+      <TD>  -31.5</TD>
+      <TD> 178.1</TD>
+      <TD>K1 IV</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD> 6.955</TD>
+      <TD>   136.43</TD>
+      <TD>Vir</TD>
+     </TR>
+     <TR>
+      <TD>70136</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>215.27056674</TD>
+      <TD>  0.51862716</TD>
+      <TD>  54.47</TD>
+      <TD>  29.7</TD>
+      <TD>   -7.6</TD>
+      <TD>  45.0</TD>
+      <TD>K7V</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>11.132</TD>
+      <TD/>
+      <TD>Vir</TD>
+     </TR>
+     <TR>
+      <TD>70282</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>215.69343431</TD>
+      <TD> -0.63709955</TD>
+      <TD> 122.30</TD>
+      <TD>  68.4</TD>
+      <TD>  -18.4</TD>
+      <TD>  99.7</TD>
+      <TD>A0 IV</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD> 6.758</TD>
+      <TD>    26.97</TD>
+      <TD>Vir</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_A_A_551_L8_sindices" name="J/A+A/551/L8/sindices">
+   <DESCRIPTION>
+    All S-index ranges collected in the literature
+   </DESCRIPTION>
+   <FIELD ID="Name" arraysize="20" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Name of the star
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="14" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension J2000
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="14" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination J2000
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Smin" datatype="float" name="Smin" precision="3" ucd="SPECT_INDEX_MISC" unit="0.1nm" width="6">
+    <DESCRIPTION>
+     Lowest measured S-index value.
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Smax" datatype="float" name="Smax" precision="3" ucd="SPECT_INDEX_MISC" unit="0.1nm" width="6">
+    <DESCRIPTION>
+     Highest measured S-index value.
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="S1" datatype="float" name="S1" precision="3" ucd="SPECT_INDEX_MISC" unit="0.1nm" width="6">
+    <DESCRIPTION>
+     ? S-index mean value for a full cycle from Baliunas et al.
+     (1995ApJ...438..269B)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="S2" datatype="float" name="S2" precision="3" ucd="SPECT_INDEX_MISC" unit="0.1nm" width="6">
+    <DESCRIPTION>
+     ? S-index mean value for a full cycle from Lockwood et al.
+     (2007ApJS..171..260L)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Ref" arraysize="19" datatype="char" name="Ref" ucd="REFER_CODE">
+    <DESCRIPTION>
+     References for the S-index measurements (G1)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>HD 188947</TD>
+      <TD>19 56 18.00000</TD>
+      <TD>+35 05 01.0000</TD>
+      <TD> 0.103</TD>
+      <TD> 0.103</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>5</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

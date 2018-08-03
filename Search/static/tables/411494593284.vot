@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="V_98_msx" name="V/98/msx">
+   <DESCRIPTION>
+    MSX Infrared Astrometric Catalog
+   </DESCRIPTION>
+   <FIELD ID="AsID" arraysize="1" datatype="char" name="AsID" ucd="ID_MAIN:1">
+    <DESCRIPTION>
+     [FfANS] Original astrometric catalog ID
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="AsName" datatype="int" name="AsName" ucd="ID_MAIN:2" width="6">
+    <DESCRIPTION>
+     Astrometric catalog number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="IrID" arraysize="1" datatype="char" name="IrID" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     [PFSBZC] IR catalog ID
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="IrName" arraysize="13" datatype="char" name="IrName" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Name of star in IR catalog
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="12" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension, J2000
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="12" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination, J2000
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="double" name="pmRA" precision="3" ucd="POS_EQ_PMRA" unit="%" width="9">
+    <DESCRIPTION>
+     Proper motion in right ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="double" name="pmDE" precision="2" ucd="POS_EQ_PMDEC" unit="0.01arcs.yr-1" width="9">
+    <DESCRIPTION>
+     Proper motion in declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sp" arraysize="3" datatype="char" name="Sp" ucd="SPECT_TYPE_GENERAL">
+    <DESCRIPTION>
+     Spectral type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_MAG_V" unit="mag" width="5">
+    <DESCRIPTION>
+     V visual magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="F12umEst" datatype="float" name="F12umEst" precision="E2" ucd="PHOT_FLUX_IR_12" unit="Jy" width="9">
+    <DESCRIPTION>
+     Estimated IRAS 12 micron flux
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>A</TD>
+      <TD>144481</TD>
+      <TD/>
+      <TD/>
+      <TD>14 17 01.517</TD>
+      <TD>-00 04 45.74</TD>
+      <TD>    0.340</TD>
+      <TD>   -13.91</TD>
+      <TD>F8</TD>
+      <TD> 8.76</TD>
+      <TD>    0.051</TD>
+     </TR>
+     <TR>
+      <TD>A</TD>
+      <TD>144860</TD>
+      <TD>B</TD>
+      <TD>14168+0012</TD>
+      <TD>14 19 26.950</TD>
+      <TD>-00 00 48.18</TD>
+      <TD>   -0.150</TD>
+      <TD>     0.03</TD>
+      <TD>K2</TD>
+      <TD> 8.05</TD>
+      <TD>     0.65</TD>
+     </TR>
+     <TR>
+      <TD>A</TD>
+      <TD>144894</TD>
+      <TD>Z</TD>
+      <TD>14171+0036</TD>
+      <TD>14 19 40.967</TD>
+      <TD>+00 23 03.59</TD>
+      <TD>   -0.234</TD>
+      <TD>    -1.04</TD>
+      <TD>A65</TD>
+      <TD> 6.44</TD>
+      <TD>     0.22</TD>
+     </TR>
+     <TR>
+      <TD>A</TD>
+      <TD>144990</TD>
+      <TD>B</TD>
+      <TD>14179+0024</TD>
+      <TD>14 20 28.889</TD>
+      <TD>+00 10 54.58</TD>
+      <TD>   -0.674</TD>
+      <TD>    -7.44</TD>
+      <TD>K0</TD>
+      <TD> 6.90</TD>
+      <TD>      1.1</TD>
+     </TR>
+     <TR>
+      <TD>A</TD>
+      <TD>145009</TD>
+      <TD/>
+      <TD/>
+      <TD>14 20 36.222</TD>
+      <TD>-00 42 45.60</TD>
+      <TD>   -0.495</TD>
+      <TD>    -1.27</TD>
+      <TD>K0</TD>
+      <TD> 9.70</TD>
+      <TD>    0.058</TD>
+     </TR>
+     <TR>
+      <TD>A</TD>
+      <TD>145016</TD>
+      <TD/>
+      <TD/>
+      <TD>14 20 38.307</TD>
+      <TD>+00 13 38.49</TD>
+      <TD>   -0.143</TD>
+      <TD>     1.25</TD>
+      <TD>K2</TD>
+      <TD> 9.55</TD>
+      <TD>    0.092</TD>
+     </TR>
+     <TR>
+      <TD>A</TD>
+      <TD>145301</TD>
+      <TD/>
+      <TD/>
+      <TD>14 22 32.789</TD>
+      <TD>-00 20 30.33</TD>
+      <TD>    0.053</TD>
+      <TD>     0.80</TD>
+      <TD>K2</TD>
+      <TD> 8.52</TD>
+      <TD>     0.24</TD>
+     </TR>
+     <TR>
+      <TD>f</TD>
+      <TD>5270</TD>
+      <TD>Z</TD>
+      <TD>14202-0024</TD>
+      <TD>14 22 46.378</TD>
+      <TD>-00 38 13.72</TD>
+      <TD>   -0.438</TD>
+      <TD>    -1.19</TD>
+      <TD>A0</TD>
+      <TD> 6.73</TD>
+      <TD>      0.1</TD>
+     </TR>
+     <TR>
+      <TD>A</TD>
+      <TD>145450</TD>
+      <TD/>
+      <TD/>
+      <TD>14 23 33.913</TD>
+      <TD>+00 02 49.57</TD>
+      <TD>    0.193</TD>
+      <TD>    -0.22</TD>
+      <TD>G5</TD>
+      <TD> 8.59</TD>
+      <TD>     0.13</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

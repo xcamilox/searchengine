@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_MNRAS_455_3413_table6" name="J/MNRAS/455/3413/table6">
+   <DESCRIPTION>
+    New white dwarf stars
+   </DESCRIPTION>
+   <FIELD ID="PMF" arraysize="15" datatype="char" name="PMF" ucd="ID_MAIN">
+    <DESCRIPTION>
+     SDSS Plate-MJD-Fiber
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SDSS" arraysize="19" datatype="char" name="SDSS" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     SDSS object name (HHMMSS.ss+DDMMSS.s)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="S_N" datatype="short" name="S_N" ucd="INST_S/N" width="2">
+    <DESCRIPTION>
+     SDSS g-band signal-to-noise ratio
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="umag" datatype="float" name="umag" precision="3" ucd="PHOT_SDSS_U" unit="mag" width="6">
+    <DESCRIPTION>
+     SDSS u-band PSF magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="gmag" datatype="float" name="gmag" precision="3" ucd="PHOT_SDSS_G" unit="mag" width="6">
+    <DESCRIPTION>
+     SDSS g-band PSF magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="rmag" datatype="float" name="rmag" precision="3" ucd="PHOT_SDSS_R" unit="mag" width="6">
+    <DESCRIPTION>
+     SDSS r-band PSF magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="imag" datatype="float" name="imag" precision="3" ucd="PHOT_SDSS_I" unit="mag" width="6">
+    <DESCRIPTION>
+     SDSS i-band PSF magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="zmag" datatype="float" name="zmag" precision="3" ucd="PHOT_SDSS_Z" unit="mag" width="6">
+    <DESCRIPTION>
+     SDSS z-band PSF magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="E_B-V_" datatype="float" name="E_B-V_" precision="3" ucd="PHOT_COLOR_EXCESS" unit="mag" width="6">
+    <DESCRIPTION>
+     Colour excess
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pm" datatype="float" name="pm" precision="3" ucd="POS_EQ_PM" unit="mas.yr-1" width="7">
+    <DESCRIPTION>
+     USNO proper motion
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GLON" datatype="float" name="GLON" precision="1" ucd="POS_GAL_LON" unit="deg" width="5">
+    <DESCRIPTION>
+     Galactic longitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GLAT" datatype="float" name="GLAT" precision="1" ucd="POS_GAL_LAT" unit="deg" width="5">
+    <DESCRIPTION>
+     Galactic latitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="9" datatype="char" name="SpType" ucd="SPECT_TYPE_GENERAL">
+    <DESCRIPTION>
+     Human classification (: for uncertain classification)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Teff" datatype="int" name="Teff" ucd="PHYS_TEMP_EFFEC" unit="K" width="6">
+    <DESCRIPTION>
+     ? Effective temperature [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="logg" datatype="float" name="logg" precision="3" ucd="PHYS_GRAVITY_SURFACE" unit="[cm/s2]" width="6">
+    <DESCRIPTION>
+     ? Surface gravity
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Teff_3D_" datatype="int" name="Teff_3D_" ucd="PHYS_TEMP_EFFEC" unit="K" width="5">
+    <DESCRIPTION>
+     ? Teff for pure DAs and DBs [NULL integer written as an empty
+     string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="logg_3D_" datatype="float" name="logg_3D_" precision="3" ucd="PHYS_GRAVITY_SURFACE" unit="[cm/s2]" width="6">
+    <DESCRIPTION>
+     ? Surface gravity for pure DAs and DBs (2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Mass" datatype="double" name="Mass" precision="5" ucd="PHYS_MASS_MISC" unit="Msun" width="8">
+    <DESCRIPTION>
+     ? Calculated mass, corrected to 3D convection
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Com" arraysize="18" datatype="char" name="Com" ucd="REMARKS">
+    <DESCRIPTION>
+     Comments (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sp" arraysize="2" datatype="char" name="Sp" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Interactive spectrum from SDSS
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA.icrs" datatype="double" name="_RA.icrs" precision="4" ucd="POS_EQ_RA_OTHER" unit="deg" width="8">
+    <DESCRIPTION>
+     Right ascension (ICRS) (computed by VizieR, not part of the
+     original data)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" datatype="double" name="_DE.icrs" precision="4" ucd="POS_EQ_DEC_OTHER" unit="deg" width="8">
+    <DESCRIPTION>
+     Declination (ICRS) (computed by VizieR, not part of the original
+     data)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>4031-55604-0234</TD>
+      <TD>142050.15-002351.05</TD>
+      <TD>12</TD>
+      <TD>21.390</TD>
+      <TD>19.890</TD>
+      <TD>19.730</TD>
+      <TD>19.590</TD>
+      <TD>19.630</TD>
+      <TD> 0.042</TD>
+      <TD>  0.000</TD>
+      <TD>344.6</TD>
+      <TD> 55.1</TD>
+      <TD>sdA</TD>
+      <TD>7696</TD>
+      <TD> 5.688</TD>
+      <TD>7704</TD>
+      <TD> 5.500</TD>
+      <TD> 0.15077</TD>
+      <TD/>
+      <TD>Sp</TD>
+      <TD>215.2166</TD>
+      <TD> -0.3669</TD>
+     </TR>
+     <TR>
+      <TD>4031-55604-0358</TD>
+      <TD>141825.83-002141.21</TD>
+      <TD>11</TD>
+      <TD>20.748</TD>
+      <TD>19.650</TD>
+      <TD>19.399</TD>
+      <TD>19.297</TD>
+      <TD>19.207</TD>
+      <TD> 0.046</TD>
+      <TD>  9.200</TD>
+      <TD>343.7</TD>
+      <TD> 55.5</TD>
+      <TD>sdA</TD>
+      <TD>6924</TD>
+      <TD> 5.687</TD>
+      <TD>6951</TD>
+      <TD> 5.560</TD>
+      <TD> 0.14537</TD>
+      <TD/>
+      <TD>Sp</TD>
+      <TD>214.5670</TD>
+      <TD> -0.3433</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

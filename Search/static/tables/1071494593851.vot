@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_AJ_148_81_table1" name="J/AJ/148/81/table1">
+   <DESCRIPTION>
+    APASS photometric and astrometric data of RAVE DR4 stars and their
+    Teff and E_B-V_ derived under different options via {chi}^2^
+    fitting to an extensive synthetic photometric library
+   </DESCRIPTION>
+   <FIELD ID="RAVE" arraysize="16" datatype="char" name="RAVE" ucd="ID_MAIN">
+    <DESCRIPTION>
+     RAVE name (JHHMMSS.d+DDMMSS; see III/272)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="6" ucd="POS_EQ_RA_MAIN" unit="deg" width="10">
+    <DESCRIPTION>
+     APASS Right Ascension in decimal degrees (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="6" ucd="POS_EQ_DEC_MAIN" unit="deg" width="10">
+    <DESCRIPTION>
+     APASS Declination in decimal degrees (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="N" datatype="short" name="N" ucd="NUMBER" width="3">
+    <DESCRIPTION>
+     [2/260] Number of independent photometric nights the star was
+     measured by APASS
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Bmag" datatype="float" name="Bmag" precision="3" ucd="PHOT_JHN_B" unit="mag" width="6">
+    <DESCRIPTION>
+     [6.4/17.8]? Landolt B magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_Bmag" datatype="float" name="e_Bmag" precision="3" ucd="ERROR" unit="mag" width="6">
+    <DESCRIPTION>
+     [-0.2/4.3]? Error in Bmag (2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="3" ucd="PHOT_JHN_V" unit="mag" width="6">
+    <DESCRIPTION>
+     [6.4/16.7] Landolt V band magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_Vmag" datatype="float" name="e_Vmag" precision="3" ucd="ERROR" unit="mag" width="6">
+    <DESCRIPTION>
+     [-0.1/4.8] Error in Vmag (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="g_mag" datatype="float" name="g_mag" precision="3" ucd="PHOT_SDSS_G" unit="mag" width="6">
+    <DESCRIPTION>
+     [6.8/19.8]? Sloan g' magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_g_mag" datatype="float" name="e_g_mag" precision="3" ucd="ERROR" unit="mag" width="6">
+    <DESCRIPTION>
+     [-0.1/8.0]? Error in g'mag (2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="r_mag" datatype="float" name="r_mag" precision="3" ucd="PHOT_SDSS_R" unit="mag" width="6">
+    <DESCRIPTION>
+     [6.2/16.6]? Sloan r' magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_r_mag" datatype="float" name="e_r_mag" precision="3" ucd="ERROR" unit="mag" width="6">
+    <DESCRIPTION>
+     [-0.1/5.5]? Error in r'mag (2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="i_mag" datatype="float" name="i_mag" precision="3" ucd="PHOT_SDSS_I" unit="mag" width="6">
+    <DESCRIPTION>
+     [5.3/14.4]? Sloan i' magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_i_mag" datatype="float" name="e_i_mag" precision="3" ucd="ERROR" unit="mag" width="6">
+    <DESCRIPTION>
+     [-0.1/3.8]? Error in i'mag (2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Teff0" datatype="int" name="Teff0" ucd="PHYS_TEMP_EFFEC" unit="K" width="5">
+    <DESCRIPTION>
+     ? Effective temperature (no reddening)(8) [NULL integer written
+     as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="Teff" datatype="int" name="Teff" ucd="PHYS_TEMP_EFFEC" unit="K" width="5">
+    <DESCRIPTION>
+     ? Computed effective temperature (9) [NULL integer written as an
+     empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="E_B-V_" datatype="float" name="E_B-V_" precision="3" ucd="PHOT_COLOR_EXCESS" unit="mag" width="8">
+    <DESCRIPTION>
+     ? E(B-V) reddening (9)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>J141817.0-001600</TD>
+      <TD>214.570666</TD>
+      <TD> -0.266765</TD>
+      <TD>5</TD>
+      <TD>13.416</TD>
+      <TD> 0.019</TD>
+      <TD>12.312</TD>
+      <TD> 0.038</TD>
+      <TD>12.810</TD>
+      <TD> 0.026</TD>
+      <TD>11.971</TD>
+      <TD> 0.032</TD>
+      <TD>11.572</TD>
+      <TD> 0.086</TD>
+      <TD>4400</TD>
+      <TD>4450</TD>
+      <TD>   0.014</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J142227.0-005744</TD>
+      <TD>215.612421</TD>
+      <TD> -0.962433</TD>
+      <TD>5</TD>
+      <TD>13.010</TD>
+      <TD> 0.012</TD>
+      <TD>11.888</TD>
+      <TD> 0.014</TD>
+      <TD>12.410</TD>
+      <TD> 0.033</TD>
+      <TD>11.560</TD>
+      <TD> 0.031</TD>
+      <TD>11.253</TD>
+      <TD> 0.051</TD>
+      <TD>4660</TD>
+      <TD>4770</TD>
+      <TD>   0.044</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J142341.0-003115</TD>
+      <TD>215.920709</TD>
+      <TD> -0.520823</TD>
+      <TD>7</TD>
+      <TD>12.222</TD>
+      <TD> 0.029</TD>
+      <TD>11.660</TD>
+      <TD> 0.019</TD>
+      <TD>11.894</TD>
+      <TD> 0.044</TD>
+      <TD>11.548</TD>
+      <TD> 0.030</TD>
+      <TD>11.566</TD>
+      <TD> 0.149</TD>
+      <TD>5850</TD>
+      <TD>6030</TD>
+      <TD>   0.052</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J141818.2-010656</TD>
+      <TD>214.575683</TD>
+      <TD> -1.115543</TD>
+      <TD>5</TD>
+      <TD>11.606</TD>
+      <TD> 0.014</TD>
+      <TD>11.127</TD>
+      <TD> 0.024</TD>
+      <TD>11.321</TD>
+      <TD> 0.041</TD>
+      <TD>11.030</TD>
+      <TD> 0.020</TD>
+      <TD>10.909</TD>
+      <TD> 0.052</TD>
+      <TD>6350</TD>
+      <TD>7360</TD>
+      <TD>   0.174</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J141822.1-005102</TD>
+      <TD>214.592236</TD>
+      <TD> -0.850489</TD>
+      <TD>5</TD>
+      <TD>11.904</TD>
+      <TD> 0.019</TD>
+      <TD>11.378</TD>
+      <TD> 0.025</TD>
+      <TD>11.580</TD>
+      <TD> 0.037</TD>
+      <TD>11.232</TD>
+      <TD> 0.034</TD>
+      <TD>11.096</TD>
+      <TD> 0.077</TD>
+      <TD>6000</TD>
+      <TD>6400</TD>
+      <TD>   0.093</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J141927.1-010351</TD>
+      <TD>214.862821</TD>
+      <TD> -1.064250</TD>
+      <TD>5</TD>
+      <TD>12.611</TD>
+      <TD> 0.016</TD>
+      <TD>11.644</TD>
+      <TD> 0.029</TD>
+      <TD>12.064</TD>
+      <TD> 0.035</TD>
+      <TD>11.319</TD>
+      <TD> 0.030</TD>
+      <TD>11.002</TD>
+      <TD> 0.068</TD>
+      <TD>4730</TD>
+      <TD>4890</TD>
+      <TD>   0.054</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J141902.1-004920</TD>
+      <TD>214.758580</TD>
+      <TD> -0.822158</TD>
+      <TD>5</TD>
+      <TD>12.549</TD>
+      <TD> 0.022</TD>
+      <TD>11.564</TD>
+      <TD> 0.025</TD>
+      <TD>12.007</TD>
+      <TD> 0.033</TD>
+      <TD>11.265</TD>
+      <TD> 0.034</TD>
+      <TD>10.929</TD>
+      <TD> 0.069</TD>
+      <TD>4650</TD>
+      <TD>4760</TD>
+      <TD>   0.031</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J141932.9-005222</TD>
+      <TD>214.887006</TD>
+      <TD> -0.872988</TD>
+      <TD>5</TD>
+      <TD>11.308</TD>
+      <TD> 0.026</TD>
+      <TD>10.823</TD>
+      <TD> 0.024</TD>
+      <TD>11.015</TD>
+      <TD> 0.046</TD>
+      <TD>10.690</TD>
+      <TD> 0.033</TD>
+      <TD>10.549</TD>
+      <TD> 0.049</TD>
+      <TD>6150</TD>
+      <TD>6840</TD>
+      <TD>   0.132</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J142159.6-010138</TD>
+      <TD>215.498071</TD>
+      <TD> -1.027223</TD>
+      <TD>5</TD>
+      <TD>12.378</TD>
+      <TD> 0.009</TD>
+      <TD>11.335</TD>
+      <TD> 0.022</TD>
+      <TD>11.819</TD>
+      <TD> 0.033</TD>
+      <TD>11.030</TD>
+      <TD> 0.037</TD>
+      <TD>10.740</TD>
+      <TD> 0.042</TD>
+      <TD>4800</TD>
+      <TD>4870</TD>
+      <TD>   0.034</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J141932.0+000135</TD>
+      <TD>214.883427</TD>
+      <TD>  0.026328</TD>
+      <TD>6</TD>
+      <TD>12.500</TD>
+      <TD> 0.014</TD>
+      <TD>11.493</TD>
+      <TD> 0.021</TD>
+      <TD>11.952</TD>
+      <TD> 0.018</TD>
+      <TD>11.186</TD>
+      <TD> 0.039</TD>
+      <TD>10.859</TD>
+      <TD> 0.032</TD>
+      <TD>4680</TD>
+      <TD>4690</TD>
+      <TD>   0.009</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J142055.8-002729</TD>
+      <TD>215.232485</TD>
+      <TD> -0.458215</TD>
+      <TD>5</TD>
+      <TD>11.971</TD>
+      <TD> 0.009</TD>
+      <TD>11.302</TD>
+      <TD> 0.023</TD>
+      <TD>11.597</TD>
+      <TD> 0.034</TD>
+      <TD>11.128</TD>
+      <TD> 0.037</TD>
+      <TD>10.919</TD>
+      <TD> 0.033</TD>
+      <TD>5500</TD>
+      <TD>6120</TD>
+      <TD>   0.138</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J142048.1+000524</TD>
+      <TD>215.200587</TD>
+      <TD>  0.090093</TD>
+      <TD>6</TD>
+      <TD>12.327</TD>
+      <TD> 0.031</TD>
+      <TD>11.306</TD>
+      <TD> 0.017</TD>
+      <TD>11.773</TD>
+      <TD> 0.017</TD>
+      <TD>10.974</TD>
+      <TD> 0.047</TD>
+      <TD>10.643</TD>
+      <TD> 0.037</TD>
+      <TD>4630</TD>
+      <TD>4650</TD>
+      <TD>   0.006</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J141750.3-010445</TD>
+      <TD>214.459437</TD>
+      <TD> -1.079257</TD>
+      <TD>5</TD>
+      <TD>10.929</TD>
+      <TD> 0.036</TD>
+      <TD>10.447</TD>
+      <TD> 0.015</TD>
+      <TD>10.732</TD>
+      <TD> 0.031</TD>
+      <TD>10.322</TD>
+      <TD> 0.018</TD>
+      <TD>10.187</TD>
+      <TD> 0.060</TD>
+      <TD>6200</TD>
+      <TD>7260</TD>
+      <TD>   0.192</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J142226.6-005030</TD>
+      <TD>215.610869</TD>
+      <TD> -0.841723</TD>
+      <TD>5</TD>
+      <TD>11.876</TD>
+      <TD> 0.027</TD>
+      <TD>10.741</TD>
+      <TD> 0.028</TD>
+      <TD>11.302</TD>
+      <TD> 0.072</TD>
+      <TD>10.373</TD>
+      <TD> 0.039</TD>
+      <TD>10.055</TD>
+      <TD> 0.061</TD>
+      <TD>4550</TD>
+      <TD>4720</TD>
+      <TD>   0.079</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J142232.8-002031</TD>
+      <TD>215.636590</TD>
+      <TD> -0.341864</TD>
+      <TD>5</TD>
+      <TD>10.869</TD>
+      <TD> 0.022</TD>
+      <TD> 9.869</TD>
+      <TD> 0.135</TD>
+      <TD>10.508</TD>
+      <TD> 0.218</TD>
+      <TD> 9.631</TD>
+      <TD> 0.284</TD>
+      <TD> 8.978</TD>
+      <TD> 0.070</TD>
+      <TD>4360</TD>
+      <TD>4650</TD>
+      <TD>   0.170</TD>
+      <TD>Simbad</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

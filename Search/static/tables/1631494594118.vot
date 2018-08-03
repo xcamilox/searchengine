@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_PAZh_38_860_thin" name="J/PAZh/38/860/thin">
+   <DESCRIPTION>
+    Thin disk stars with homogeneous XYZUVW
+   </DESCRIPTION>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_NUMBER" width="6">
+    <DESCRIPTION>
+     [20,120082] HIP (Cat. I/239) number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GLON" datatype="double" name="GLON" precision="5" ucd="POS_GAL_LON" unit="deg" width="9">
+    <DESCRIPTION>
+     [0.02838,359.99687] Galactic longitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GLAT" datatype="double" name="GLAT" precision="5" ucd="POS_GAL_LAT" unit="deg" width="9">
+    <DESCRIPTION>
+     [-88.50369,89.58349] Galactic latitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dist" datatype="float" name="Dist" precision="1" ucd="POS_GAL_HC" unit="pc" width="5">
+    <DESCRIPTION>
+     [4.6,333.3] Hipparcos distance
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="AVe" datatype="float" name="AVe" precision="2" ucd="PHOT_EXTINCTION_INT" unit="mag" width="5">
+    <DESCRIPTION>
+     [0.01,0.47] Extinction in the equatorial layer (5)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="AVg" datatype="float" name="AVg" precision="2" ucd="PHOT_EXTINCTION_INT" unit="mag" width="5">
+    <DESCRIPTION>
+     [0.00,0.71] Extinction in the Gould belt (5)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="AV" datatype="float" name="AV" precision="2" ucd="PHOT_EXTINCTION_TOTAL" unit="mag" width="5">
+    <DESCRIPTION>
+     [0.01,0.89] Total interstellar extinction AV (5)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="AVT" datatype="float" name="AVT" precision="2" ucd="PHOT_EXTINCTION_TOTAL" unit="mag" width="5">
+    <DESCRIPTION>
+     [0.01,0.95] Total Interstellar extinction AVT (6)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="VTMAG" datatype="float" name="VTMAG" precision="2" ucd="PHOT_ABS-MAG_BAND" unit="mag" width="5">
+    <DESCRIPTION>
+     [-4.88,10.47] Absolute magnitude VT (7)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="__BT-VT_0" datatype="float" name="__BT-VT_0" precision="2" ucd="PHOT_CI_B-V" unit="mag" width="5">
+    <DESCRIPTION>
+     [-0.47,0.70] Dereddened (BT-VT) (8)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="VGLON" datatype="float" name="VGLON" precision="1" ucd="VELOC_GAL_MISC" unit="km.s-1" width="6">
+    <DESCRIPTION>
+     [-157.8,148.5] Velocity on GLON (10)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="VGLAT" datatype="float" name="VGLAT" precision="1" ucd="VELOC_GAL_MISC" unit="km.s-1" width="6">
+    <DESCRIPTION>
+     [-123.8,124.4] Velocity on GLAT (10)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Age" datatype="float" name="Age" precision="3" ucd="TIME_AGE" unit="Gyr" width="6">
+    <DESCRIPTION>
+     [0.068,6.357] Age in Gyr (12)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="__Fe_H_" datatype="float" name="__Fe_H_" precision="2" ucd="PHYS_ABUND_FE/H" width="5">
+    <DESCRIPTION>
+     [-0.21,0.01] Metallicity (13)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA.icrs" datatype="double" name="_RA.icrs" precision="5" ucd="POS_EQ_RA_OTHER" unit="deg" width="9">
+    <DESCRIPTION>
+     Right ascension (ICRS) at Epoch=J2000, proper motions taken into
+     account  (computed by VizieR, not part of the original data)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" datatype="double" name="_DE.icrs" precision="5" ucd="POS_EQ_DEC_OTHER" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (ICRS) at Epoch=J2000, proper motions taken into
+     account  (computed by VizieR, not part of the original data)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>98289</TD>
+      <TD> 70.65514</TD>
+      <TD>  2.68431</TD>
+      <TD>254.5</TD>
+      <TD> 0.32</TD>
+      <TD> 0.05</TD>
+      <TD> 0.37</TD>
+      <TD> 0.39</TD>
+      <TD> 0.25</TD>
+      <TD>-0.21</TD>
+      <TD>   3.1</TD>
+      <TD>  -5.3</TD>
+      <TD> 0.190</TD>
+      <TD> 0.00</TD>
+      <TD>299.55696</TD>
+      <TD> 34.42276</TD>
+     </TR>
+     <TR>
+      <TD>98593</TD>
+      <TD> 71.15272</TD>
+      <TD>  2.18319</TD>
+      <TD>289.9</TD>
+      <TD> 0.36</TD>
+      <TD> 0.05</TD>
+      <TD> 0.42</TD>
+      <TD> 0.44</TD>
+      <TD> 0.78</TD>
+      <TD>-0.10</TD>
+      <TD>   2.5</TD>
+      <TD> -10.9</TD>
+      <TD> 0.288</TD>
+      <TD> 0.00</TD>
+      <TD>300.39112</TD>
+      <TD> 34.58309</TD>
+     </TR>
+     <TR>
+      <TD>98343</TD>
+      <TD> 71.64124</TD>
+      <TD>  3.13436</TD>
+      <TD>213.7</TD>
+      <TD> 0.26</TD>
+      <TD> 0.04</TD>
+      <TD> 0.31</TD>
+      <TD> 0.33</TD>
+      <TD> 0.02</TD>
+      <TD>-0.08</TD>
+      <TD>  21.1</TD>
+      <TD> -18.5</TD>
+      <TD> 0.307</TD>
+      <TD> 0.00</TD>
+      <TD>299.71518</TD>
+      <TD> 35.49775</TD>
+     </TR>
+     <TR>
+      <TD>98157</TD>
+      <TD> 71.46588</TD>
+      <TD>  3.49744</TD>
+      <TD>142.0</TD>
+      <TD> 0.18</TD>
+      <TD> 0.03</TD>
+      <TD> 0.21</TD>
+      <TD> 0.22</TD>
+      <TD> 2.25</TD>
+      <TD> 0.28</TD>
+      <TD>  26.7</TD>
+      <TD>   4.2</TD>
+      <TD> 1.231</TD>
+      <TD>-0.03</TD>
+      <TD>299.22230</TD>
+      <TD> 35.53693</TD>
+     </TR>
+     <TR>
+      <TD>98193</TD>
+      <TD> 71.06807</TD>
+      <TD>  3.17736</TD>
+      <TD>103.4</TD>
+      <TD> 0.13</TD>
+      <TD> 0.02</TD>
+      <TD> 0.16</TD>
+      <TD> 0.17</TD>
+      <TD> 2.08</TD>
+      <TD> 0.45</TD>
+      <TD>  -9.5</TD>
+      <TD>   1.2</TD>
+      <TD> 2.341</TD>
+      <TD>-0.07</TD>
+      <TD>299.30549</TD>
+      <TD> 35.03140</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="II_5A_data" name="II/5A/data">
+   <DESCRIPTION>
+    Data (table 9 of paper)
+   </DESCRIPTION>
+   <FIELD ID="LID" datatype="double" name="LID" precision="8" ucd="ID_NUMBER" width="11">
+    <DESCRIPTION>
+     Lausanne Identifier (Coded number)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="rem" arraysize="1" datatype="char" name="rem" ucd="REMARKS">
+    <DESCRIPTION>
+     Remark
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_JHN_V" unit="mag" width="5">
+    <DESCRIPTION>
+     Johnson V magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="o_Vmag" datatype="unsignedByte" name="o_Vmag" ucd="NUMBER" width="1">
+    <DESCRIPTION>
+     Number of measurements
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_Vmag" arraysize="1" datatype="char" name="n_Vmag" ucd="NOTE">
+    <DESCRIPTION>
+     [ /*] Remark on o_Vmag
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="B-V" datatype="float" name="B-V" precision="2" ucd="PHOT_JHN_B-V" unit="mag" width="5">
+    <DESCRIPTION>
+     Johnson (B-V) Color index
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="U-B" datatype="float" name="U-B" precision="2" ucd="PHOT_JHN_U-B" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Johnson (U-B) Color index
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="SimbadName" arraysize="17" datatype="char" name="SimbadName" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Designation understandable by the {\bf\fg{FireBrick}Simbad} data-
+     base
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right Ascension (J2000) from SIMBAD (not part of the original
+     data)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (J2000) from SIMBAD (not part of the original data)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD> 1.00188947</TD>
+      <TD/>
+      <TD> 3.93</TD>
+      <TD>4</TD>
+      <TD/>
+      <TD> 1.03</TD>
+      <TD> 0.89</TD>
+      <TD>HD 188947</TD>
+      <TD>299.07655</TD>
+      <TD> 35.08342</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

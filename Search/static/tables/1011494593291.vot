@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_AJ_141_97_catalog" name="J/AJ/141/97/catalog">
+   <DESCRIPTION>
+    The catalog of spectroscopic M dwarfs \originalcolumnnames
+   </DESCRIPTION>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     J2000 Right Ascension of SDSS photometric object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     J2000 Declination of SDSS photometric object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="umag" datatype="float" name="umag" precision="3" ucd="PHOT_SDSS_U" unit="mag" width="7">
+    <DESCRIPTION>
+     ? SDSS u-band magnitude (\original{PSFMAG}) (6)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="gmag" datatype="float" name="gmag" precision="3" ucd="PHOT_SDSS_G" unit="mag" width="7">
+    <DESCRIPTION>
+     ? SDSS g-band magnitude (\original{PSFMAG}) (6)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="rmag" datatype="float" name="rmag" precision="3" ucd="PHOT_SDSS_R" unit="mag" width="7">
+    <DESCRIPTION>
+     ? SDSS r-band magnitude (\original{PSFMAG}) (6)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="imag" datatype="float" name="imag" precision="3" ucd="PHOT_SDSS_I" unit="mag" width="7">
+    <DESCRIPTION>
+     ? SDSS i-band magnitude (\original{PSFMAG}) (6)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="zmag" datatype="float" name="zmag" precision="3" ucd="PHOT_SDSS_Z" unit="mag" width="7">
+    <DESCRIPTION>
+     ? SDSS z-band magnitude (\original{PSFMAG}) (6)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="RV" datatype="short" name="RV" ucd="VELOC_HC" unit="km.s-1" width="4">
+    <DESCRIPTION>
+     ? Radial velocity [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="SpT" datatype="unsignedByte" name="SpT" ucd="SPECT_TYPE_GENERAL" width="1">
+    <DESCRIPTION>
+     [0/9] M-type spectral subtype
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="W_Ha_" datatype="double" name="W_Ha_" precision="3" ucd="SPECT_EQ-WIDTH" unit="0.1nm" width="9">
+    <DESCRIPTION>
+     Equivalent width of H-{alpha} ({AA}) (\original{EWHA})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="W_Hb_" datatype="double" name="W_Hb_" precision="3" ucd="SPECT_EQ-WIDTH" unit="0.1nm" width="9">
+    <DESCRIPTION>
+     Equivalent width of H-{beta} ({AA}) (\original{EWHB})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="W_Hg_" datatype="double" name="W_Hg_" precision="3" ucd="SPECT_EQ-WIDTH" unit="0.1nm" width="9">
+    <DESCRIPTION>
+     Equivalent width of H-{gamma} ({AA}) (\original{EWHG})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="W_Ca_" datatype="double" name="W_Ca_" precision="3" ucd="SPECT_EQ-WIDTH" unit="0.1nm" width="9">
+    <DESCRIPTION>
+     Equivalent width of CaII-K ({AA})(\original{EWCAK})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="TiO5" datatype="float" name="TiO5" precision="3" ucd="SPECT_INDEX_MISC" unit="0.1nm" width="7">
+    <DESCRIPTION>
+     ? TiO band strength from Hammer (Covey et al.
+     2007AJ....134.2398C)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="TiO2" datatype="float" name="TiO2" precision="3" ucd="SPECT_INDEX_MISC" unit="0.1nm" width="7">
+    <DESCRIPTION>
+     ? TiO2 band strength (2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="TiO5R" datatype="float" name="TiO5R" precision="3" ucd="SPECT_INDEX_MISC" unit="0.1nm" width="7">
+    <DESCRIPTION>
+     Reid et al. TiO5 index (\original{TIO5_2}) (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="double" name="pmRA" precision="2" ucd="POS_EQ_PMRA" unit="mas.yr-1" width="8">
+    <DESCRIPTION>
+     ? Proper Motion in Right Ascension (5)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="double" name="pmDE" precision="2" ucd="POS_EQ_PMDEC" unit="mas.yr-1" width="8">
+    <DESCRIPTION>
+     ? Proper Motion in Declination (5)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="r22" datatype="float" name="r22" precision="2" ucd="POS_ANG_DIST_GENERAL" unit="arcs" width="6">
+    <DESCRIPTION>
+     Distance to nearest g&lt;22mag neighbor (\original{DIST22})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Nd" datatype="unsignedByte" name="Nd" ucd="NUMBER" width="1">
+    <DESCRIPTION>
+     Number of detections (plates on which the object was detected in
+     USNO-B +1) (\original{NFIT})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="3" ucd="PHOT_JHN_J" unit="mag" width="6">
+    <DESCRIPTION>
+     ? 2MASS J-band magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Hmag" datatype="float" name="Hmag" precision="3" ucd="PHOT_JHN_H" unit="mag" width="6">
+    <DESCRIPTION>
+     ? 2MASS H-band magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Kmag" datatype="float" name="Kmag" precision="3" ucd="PHOT_JHN_K" unit="mag" width="6">
+    <DESCRIPTION>
+     ? 2MASS Ks-band magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Dist" datatype="double" name="Dist" precision="1" ucd="POS_GAL_HC" unit="pc" width="8">
+    <DESCRIPTION>
+     [12/] Photometric distance to object, see Bochanski et al.
+     2010AJ....139.2679B
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Rg" datatype="double" name="Rg" precision="1" ucd="PHYS_DISTANCE_TRUE" unit="pc" width="8">
+    <DESCRIPTION>
+     ? Galactocentric cylindrical coordinate (Rg=sqrt(X^2^+Y^2^) (4)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="q" datatype="unsignedByte" name="q" ucd="CODE_QUALITY" width="1">
+    <DESCRIPTION>
+     [0/1] Combination of SDSS quality flags (0=bad; 1=good)
+     (\original{GOODPHOT})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="zeta" datatype="float" name="zeta" precision="3" ucd="SPECT_INDEX_MISC" width="7">
+    <DESCRIPTION>
+     Metallicity proxy {zeta} (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SDSS7" arraysize="5" datatype="char" name="SDSS7" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Details from the SDSS-DR7 (II/294)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sloan" arraysize="5" datatype="char" name="Sloan" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the SDSS data for this star
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SimbadName" arraysize="31" datatype="char" name="SimbadName" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Designation understandable by the {\bf\fg{FireBrick}Simbad} data-
+     base
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>214.44121</TD>
+      <TD>  0.44540</TD>
+      <TD> 23.397</TD>
+      <TD> 20.672</TD>
+      <TD> 18.998</TD>
+      <TD> 17.957</TD>
+      <TD> 17.408</TD>
+      <TD>-6</TD>
+      <TD>4</TD>
+      <TD>    0.225</TD>
+      <TD>   -0.841</TD>
+      <TD>    9.310</TD>
+      <TD>   -3.784</TD>
+      <TD>  0.548</TD>
+      <TD>  0.696</TD>
+      <TD>  0.541</TD>
+      <TD>   19.41</TD>
+      <TD>   -0.35</TD>
+      <TD> 16.39</TD>
+      <TD>5</TD>
+      <TD>16.178</TD>
+      <TD>15.556</TD>
+      <TD>14.900</TD>
+      <TD>   668.3</TD>
+      <TD>  8142.8</TD>
+      <TD>1</TD>
+      <TD>  0.927</TD>
+      <TD>SDSS7</TD>
+      <TD>Sloan</TD>
+      <TD>2MASS J14174589+0026434</TD>
+     </TR>
+     <TR>
+      <TD>214.62680</TD>
+      <TD> -1.20148</TD>
+      <TD> 24.081</TD>
+      <TD> 21.194</TD>
+      <TD> 19.737</TD>
+      <TD> 17.836</TD>
+      <TD> 16.777</TD>
+      <TD>22</TD>
+      <TD>6</TD>
+      <TD>    0.476</TD>
+      <TD>   -1.064</TD>
+      <TD>   -9.846</TD>
+      <TD>   -2.002</TD>
+      <TD>  0.311</TD>
+      <TD>  0.473</TD>
+      <TD>  0.316</TD>
+      <TD/>
+      <TD/>
+      <TD> 33.81</TD>
+      <TD>0</TD>
+      <TD>15.117</TD>
+      <TD>14.477</TD>
+      <TD>14.098</TD>
+      <TD>   135.6</TD>
+      <TD>  8425.2</TD>
+      <TD>1</TD>
+      <TD>  1.182</TD>
+      <TD>SDSS7</TD>
+      <TD>Sloan</TD>
+      <TD>2MASS J14183043-0112053</TD>
+     </TR>
+     <TR>
+      <TD>214.94505</TD>
+      <TD>  0.54534</TD>
+      <TD> 23.855</TD>
+      <TD> 21.546</TD>
+      <TD> 20.311</TD>
+      <TD> 19.557</TD>
+      <TD> 19.231</TD>
+      <TD>-500</TD>
+      <TD>2</TD>
+      <TD>   -0.273</TD>
+      <TD>    0.360</TD>
+      <TD>   -5.249</TD>
+      <TD>   -7.107</TD>
+      <TD>  1.011</TD>
+      <TD>  1.131</TD>
+      <TD>  1.063</TD>
+      <TD>  -18.84</TD>
+      <TD> -104.54</TD>
+      <TD>  3.77</TD>
+      <TD>4</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>  2570.1</TD>
+      <TD>  7120.0</TD>
+      <TD>1</TD>
+      <TD> -0.047</TD>
+      <TD>SDSS7</TD>
+      <TD>Sloan</TD>
+      <TD>SDSS J141946.81+003243.1</TD>
+     </TR>
+     <TR>
+      <TD>215.08325</TD>
+      <TD> -1.18725</TD>
+      <TD> 23.116</TD>
+      <TD> 22.050</TD>
+      <TD> 20.637</TD>
+      <TD> 18.815</TD>
+      <TD> 17.851</TD>
+      <TD>22</TD>
+      <TD>6</TD>
+      <TD>    3.633</TD>
+      <TD>    8.405</TD>
+      <TD>  -47.580</TD>
+      <TD>   -0.545</TD>
+      <TD>  0.318</TD>
+      <TD>  0.529</TD>
+      <TD>  0.379</TD>
+      <TD/>
+      <TD/>
+      <TD> 21.40</TD>
+      <TD>0</TD>
+      <TD>16.217</TD>
+      <TD>15.638</TD>
+      <TD>15.397</TD>
+      <TD>   257.3</TD>
+      <TD>  8356.8</TD>
+      <TD>1</TD>
+      <TD>  1.032</TD>
+      <TD>SDSS7</TD>
+      <TD>Sloan</TD>
+      <TD>2MASS J14201995-0111138</TD>
+     </TR>
+     <TR>
+      <TD>215.13880</TD>
+      <TD> -0.90282</TD>
+      <TD> 24.343</TD>
+      <TD> 21.725</TD>
+      <TD> 20.626</TD>
+      <TD> 19.564</TD>
+      <TD> 18.930</TD>
+      <TD>96</TD>
+      <TD>3</TD>
+      <TD>    0.345</TD>
+      <TD>    3.065</TD>
+      <TD>   -3.340</TD>
+      <TD>   -0.744</TD>
+      <TD>  0.396</TD>
+      <TD>  0.668</TD>
+      <TD>  0.466</TD>
+      <TD/>
+      <TD/>
+      <TD>  6.50</TD>
+      <TD>0</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>  1209.6</TD>
+      <TD>  7830.9</TD>
+      <TD>1</TD>
+      <TD>  1.317</TD>
+      <TD>SDSS7</TD>
+      <TD>Sloan</TD>
+      <TD>SDSS J142033.31-005410.1</TD>
+     </TR>
+     <TR>
+      <TD>215.31884</TD>
+      <TD>  0.42617</TD>
+      <TD> 21.258</TD>
+      <TD> 18.492</TD>
+      <TD> 17.144</TD>
+      <TD> 16.504</TD>
+      <TD> 15.919</TD>
+      <TD>-47</TD>
+      <TD>1</TD>
+      <TD>   -0.035</TD>
+      <TD>    0.063</TD>
+      <TD>    0.167</TD>
+      <TD>    0.187</TD>
+      <TD>  0.705</TD>
+      <TD>  0.834</TD>
+      <TD>  0.713</TD>
+      <TD>  -13.07</TD>
+      <TD>    2.80</TD>
+      <TD> 18.69</TD>
+      <TD>6</TD>
+      <TD>14.805</TD>
+      <TD>14.031</TD>
+      <TD>13.874</TD>
+      <TD>   485.1</TD>
+      <TD>  8235.3</TD>
+      <TD>1</TD>
+      <TD>  1.169</TD>
+      <TD>SDSS7</TD>
+      <TD>Sloan</TD>
+      <TD>SDSS J142116.52+002534.2</TD>
+     </TR>
+     <TR>
+      <TD>215.59833</TD>
+      <TD> -1.07745</TD>
+      <TD> 21.092</TD>
+      <TD> 18.736</TD>
+      <TD> 17.346</TD>
+      <TD> 16.400</TD>
+      <TD> 15.897</TD>
+      <TD>2</TD>
+      <TD>2</TD>
+      <TD>   -0.173</TD>
+      <TD>   -0.028</TD>
+      <TD>    0.207</TD>
+      <TD>   -2.141</TD>
+      <TD>  0.615</TD>
+      <TD>  0.810</TD>
+      <TD>  0.601</TD>
+      <TD>    6.85</TD>
+      <TD>   -7.33</TD>
+      <TD> 11.27</TD>
+      <TD>6</TD>
+      <TD>14.662</TD>
+      <TD>14.082</TD>
+      <TD>13.823</TD>
+      <TD>   383.8</TD>
+      <TD>  8284.5</TD>
+      <TD>1</TD>
+      <TD>  1.040</TD>
+      <TD>SDSS7</TD>
+      <TD>Sloan</TD>
+      <TD>SDSS J142223.60-010438.8</TD>
+     </TR>
+     <TR>
+      <TD>215.61270</TD>
+      <TD>  0.45636</TD>
+      <TD> 21.290</TD>
+      <TD> 18.895</TD>
+      <TD> 17.559</TD>
+      <TD> 16.440</TD>
+      <TD> 15.930</TD>
+      <TD>29</TD>
+      <TD>3</TD>
+      <TD>   -0.044</TD>
+      <TD>   -0.164</TD>
+      <TD>    0.950</TD>
+      <TD>   -2.713</TD>
+      <TD>  0.589</TD>
+      <TD>  0.747</TD>
+      <TD>  0.581</TD>
+      <TD>    4.75</TD>
+      <TD>    4.66</TD>
+      <TD> 23.22</TD>
+      <TD>6</TD>
+      <TD>14.651</TD>
+      <TD>14.084</TD>
+      <TD>13.849</TD>
+      <TD>   325.0</TD>
+      <TD>  8321.6</TD>
+      <TD>1</TD>
+      <TD>  0.970</TD>
+      <TD>SDSS7</TD>
+      <TD>Sloan</TD>
+      <TD>SDSS J142227.04+002722.8</TD>
+     </TR>
+     <TR>
+      <TD>215.68946</TD>
+      <TD> -0.36599</TD>
+      <TD> 21.606</TD>
+      <TD> 18.842</TD>
+      <TD> 17.593</TD>
+      <TD> 16.902</TD>
+      <TD> 16.579</TD>
+      <TD>-12</TD>
+      <TD>0</TD>
+      <TD>   -0.279</TD>
+      <TD>    0.600</TD>
+      <TD>   -1.083</TD>
+      <TD>    4.653</TD>
+      <TD>  0.797</TD>
+      <TD>  0.959</TD>
+      <TD>  0.805</TD>
+      <TD>    6.59</TD>
+      <TD>    2.43</TD>
+      <TD> 28.33</TD>
+      <TD>6</TD>
+      <TD>15.394</TD>
+      <TD>14.801</TD>
+      <TD>14.590</TD>
+      <TD>   809.1</TD>
+      <TD>  8050.0</TD>
+      <TD>1</TD>
+      <TD>  1.352</TD>
+      <TD>SDSS7</TD>
+      <TD>Sloan</TD>
+      <TD>SDSS J142245.47-002157.5</TD>
+     </TR>
+     <TR>
+      <TD>215.71069</TD>
+      <TD> -0.81749</TD>
+      <TD> 21.339</TD>
+      <TD> 18.620</TD>
+      <TD> 17.329</TD>
+      <TD> 16.560</TD>
+      <TD> 16.191</TD>
+      <TD>-20</TD>
+      <TD>1</TD>
+      <TD>   -0.236</TD>
+      <TD>    0.418</TD>
+      <TD>   -1.209</TD>
+      <TD>   16.730</TD>
+      <TD>  0.788</TD>
+      <TD>  0.872</TD>
+      <TD>  0.786</TD>
+      <TD>   -4.75</TD>
+      <TD>  -30.42</TD>
+      <TD> 20.26</TD>
+      <TD>6</TD>
+      <TD>15.067</TD>
+      <TD>14.344</TD>
+      <TD>14.225</TD>
+      <TD>   599.7</TD>
+      <TD>  8163.9</TD>
+      <TD>1</TD>
+      <TD>  1.184</TD>
+      <TD>SDSS7</TD>
+      <TD>Sloan</TD>
+      <TD>SDSS J142250.56-004902.9</TD>
+     </TR>
+     <TR>
+      <TD>215.72707</TD>
+      <TD>  0.07669</TD>
+      <TD> 21.293</TD>
+      <TD> 18.775</TD>
+      <TD> 18.064</TD>
+      <TD> 17.102</TD>
+      <TD> 16.815</TD>
+      <TD>-19</TD>
+      <TD>0</TD>
+      <TD>   -0.553</TD>
+      <TD>   -0.138</TD>
+      <TD>    0.731</TD>
+      <TD>   -3.567</TD>
+      <TD>  0.915</TD>
+      <TD>  0.969</TD>
+      <TD>  0.912</TD>
+      <TD>   -3.61</TD>
+      <TD>   -1.99</TD>
+      <TD> 15.83</TD>
+      <TD>6</TD>
+      <TD>15.707</TD>
+      <TD>15.042</TD>
+      <TD>15.007</TD>
+      <TD>   717.0</TD>
+      <TD>  8103.5</TD>
+      <TD>1</TD>
+      <TD>  4.008</TD>
+      <TD>SDSS7</TD>
+      <TD>Sloan</TD>
+      <TD>2MASS J14225450+0004360</TD>
+     </TR>
+     <TR>
+      <TD>215.73225</TD>
+      <TD>  0.08827</TD>
+      <TD> 21.655</TD>
+      <TD> 19.148</TD>
+      <TD> 18.071</TD>
+      <TD> 16.809</TD>
+      <TD> 16.416</TD>
+      <TD>-37</TD>
+      <TD>1</TD>
+      <TD>   -0.121</TD>
+      <TD>    0.009</TD>
+      <TD>   -0.234</TD>
+      <TD>   -1.269</TD>
+      <TD>  0.767</TD>
+      <TD>  0.862</TD>
+      <TD>  0.758</TD>
+      <TD>    8.35</TD>
+      <TD>    3.77</TD>
+      <TD> 10.83</TD>
+      <TD>6</TD>
+      <TD>15.249</TD>
+      <TD>14.573</TD>
+      <TD>14.315</TD>
+      <TD>   396.2</TD>
+      <TD>  8280.8</TD>
+      <TD>1</TD>
+      <TD>  1.108</TD>
+      <TD>SDSS7</TD>
+      <TD>Sloan</TD>
+      <TD>SDSS J142255.74+000517.7</TD>
+     </TR>
+     <TR>
+      <TD>215.74298</TD>
+      <TD>  0.05693</TD>
+      <TD> 21.284</TD>
+      <TD> 18.740</TD>
+      <TD> 18.136</TD>
+      <TD> 17.192</TD>
+      <TD> 16.938</TD>
+      <TD>47</TD>
+      <TD>0</TD>
+      <TD>   -0.356</TD>
+      <TD>   -0.132</TD>
+      <TD>   -0.192</TD>
+      <TD>   -3.609</TD>
+      <TD>  0.891</TD>
+      <TD>  0.924</TD>
+      <TD>  0.895</TD>
+      <TD>  -11.52</TD>
+      <TD>    0.68</TD>
+      <TD> 18.54</TD>
+      <TD>6</TD>
+      <TD>15.847</TD>
+      <TD>15.065</TD>
+      <TD>15.284</TD>
+      <TD>   797.4</TD>
+      <TD>  8058.8</TD>
+      <TD>1</TD>
+      <TD>  2.169</TD>
+      <TD>SDSS7</TD>
+      <TD>Sloan</TD>
+      <TD>SDSS J142258.31+000324.9</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

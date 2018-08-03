@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_AJ_150_57_table3" name="J/AJ/150/57/table3">
+   <DESCRIPTION>
+    Properties of SLoWPoKES-II pairs (dM+MS)
+   </DESCRIPTION>
+   <FIELD ID="SLW" arraysize="9" datatype="char" name="SLW" ucd="ID_MAIN">
+    <DESCRIPTION>
+     SLoWPoKES identifier (HHMM+DDMM, J2000) (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="6" ucd="POS_EQ_RA_MAIN" unit="deg" width="10">
+    <DESCRIPTION>
+     [0/360] Primary Right Ascension in decimal degrees (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="6" ucd="POS_EQ_DEC_MAIN" unit="deg" width="10">
+    <DESCRIPTION>
+     [-25/85] Primary Declination in decimal degrees (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dist1" datatype="short" name="Dist1" ucd="POS_GAL_HC" unit="pc" width="4">
+    <DESCRIPTION>
+     [25/2499] Primary photometric distance
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dist2" datatype="short" name="Dist2" ucd="POS_GAL_HC" unit="pc" width="4">
+    <DESCRIPTION>
+     [25/2598] Secondary photometric distance
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sep" datatype="float" name="Sep" precision="2" ucd="POS_ANG_DIST_GENERAL" unit="arcs" width="5">
+    <DESCRIPTION>
+     [1/20] Angular separation of the CPM pair {theta}
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="PA" datatype="short" name="PA" ucd="POS_POS-ANG" unit="deg" width="4">
+    <DESCRIPTION>
+     [-179/179] Position Angle of the binary
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="gmag1" datatype="float" name="gmag1" precision="2" ucd="PHOT_SDSS_G" unit="mag" width="5">
+    <DESCRIPTION>
+     [14.6/25.6] Primary SDSS psfmag in g-band (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="rmag1" datatype="float" name="rmag1" precision="2" ucd="PHOT_SDSS_R" unit="mag" width="5">
+    <DESCRIPTION>
+     [13.6/24] Primary SDSS psfmag in r-band (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="imag1" datatype="float" name="imag1" precision="2" ucd="PHOT_SDSS_I" unit="mag" width="5">
+    <DESCRIPTION>
+     [13.1/21.4] Primary SDSS psfmag in i-band (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="zmag1" datatype="float" name="zmag1" precision="2" ucd="PHOT_SDSS_Z" unit="mag" width="5">
+    <DESCRIPTION>
+     [12.5/20.6] Primary SDSS psfmag in z-band (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="gmag2" datatype="float" name="gmag2" precision="2" ucd="PHOT_SDSS_G" unit="mag" width="5">
+    <DESCRIPTION>
+     [13.6/26.5] Secondary SDSS psfmag in g-band (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="rmag2" datatype="float" name="rmag2" precision="2" ucd="PHOT_SDSS_R" unit="mag" width="5">
+    <DESCRIPTION>
+     [13.3/24.5] Secondary SDSS psfmag in r-band (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="imag2" datatype="float" name="imag2" precision="2" ucd="PHOT_SDSS_I" unit="mag" width="5">
+    <DESCRIPTION>
+     [13.2/21.9] Secondary SDSS psfmag in i-band (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="zmag2" datatype="float" name="zmag2" precision="2" ucd="PHOT_SDSS_Z" unit="mag" width="5">
+    <DESCRIPTION>
+     [12.8/20.7] Secondary SDSS psfmag in z-band (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpT1" arraysize="2" datatype="char" name="SpT1" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     Primary photometric spectral type (ND=No Data)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpT2" arraysize="2" datatype="char" name="SpT2" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     Secondary photometric spectral type (ND=No Data)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Prob" datatype="float" name="Prob" precision="4" ucd="STAT_PROBABILITY" unit="%" width="7">
+    <DESCRIPTION>
+     [0/0.05] Probability of chance alignment P_f_ (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SDSS" arraysize="3" datatype="char" name="SDSS" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the photometric data from SDSS-DR9 (cat. V/139) within
+     20''
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>1416-0018</TD>
+      <TD>214.202428</TD>
+      <TD> -0.306757</TD>
+      <TD>1953</TD>
+      <TD>2009</TD>
+      <TD>13.60</TD>
+      <TD>-56</TD>
+      <TD>22.35</TD>
+      <TD>21.04</TD>
+      <TD>20.13</TD>
+      <TD>19.53</TD>
+      <TD>21.82</TD>
+      <TD>20.47</TD>
+      <TD>19.59</TD>
+      <TD>19.15</TD>
+      <TD>M1</TD>
+      <TD>M1</TD>
+      <TD> 0.0210</TD>
+      <TD>DR9</TD>
+     </TR>
+     <TR>
+      <TD>1417-0020</TD>
+      <TD>214.285917</TD>
+      <TD> -0.340917</TD>
+      <TD>1811</TD>
+      <TD>1718</TD>
+      <TD>14.68</TD>
+      <TD>-164</TD>
+      <TD>22.84</TD>
+      <TD>21.67</TD>
+      <TD>20.47</TD>
+      <TD>19.91</TD>
+      <TD>15.79</TD>
+      <TD>15.39</TD>
+      <TD>15.21</TD>
+      <TD>15.21</TD>
+      <TD>M2</TD>
+      <TD>G0</TD>
+      <TD> 0.0180</TD>
+      <TD>DR9</TD>
+     </TR>
+     <TR>
+      <TD>1417-0037</TD>
+      <TD>214.374079</TD>
+      <TD> -0.628055</TD>
+      <TD>545</TD>
+      <TD>602</TD>
+      <TD> 4.63</TD>
+      <TD>-103</TD>
+      <TD>22.25</TD>
+      <TD>20.55</TD>
+      <TD>19.06</TD>
+      <TD>18.32</TD>
+      <TD>23.03</TD>
+      <TD>21.30</TD>
+      <TD>19.69</TD>
+      <TD>18.89</TD>
+      <TD>M3</TD>
+      <TD>M4</TD>
+      <TD> 0.0400</TD>
+      <TD>DR9</TD>
+     </TR>
+     <TR>
+      <TD>1417+0001</TD>
+      <TD>214.387095</TD>
+      <TD>  0.031762</TD>
+      <TD>1297</TD>
+      <TD>1259</TD>
+      <TD>14.53</TD>
+      <TD>-153</TD>
+      <TD>21.12</TD>
+      <TD>19.46</TD>
+      <TD>18.64</TD>
+      <TD>18.16</TD>
+      <TD>18.16</TD>
+      <TD>17.12</TD>
+      <TD>16.82</TD>
+      <TD>16.63</TD>
+      <TD>M1</TD>
+      <TD>K3</TD>
+      <TD> 0.0500</TD>
+      <TD>DR9</TD>
+     </TR>
+     <TR>
+      <TD>1418-0054</TD>
+      <TD>214.523042</TD>
+      <TD> -0.902642</TD>
+      <TD>2467</TD>
+      <TD>2471</TD>
+      <TD>11.06</TD>
+      <TD>117</TD>
+      <TD>22.44</TD>
+      <TD>20.98</TD>
+      <TD>20.13</TD>
+      <TD>19.64</TD>
+      <TD>22.56</TD>
+      <TD>21.04</TD>
+      <TD>19.99</TD>
+      <TD>19.68</TD>
+      <TD>M1</TD>
+      <TD>M1</TD>
+      <TD> 0.0020</TD>
+      <TD>DR9</TD>
+     </TR>
+     <TR>
+      <TD>1418-0011</TD>
+      <TD>214.594338</TD>
+      <TD> -0.193865</TD>
+      <TD>1628</TD>
+      <TD>1580</TD>
+      <TD> 2.77</TD>
+      <TD>-39</TD>
+      <TD>22.23</TD>
+      <TD>20.69</TD>
+      <TD>19.68</TD>
+      <TD>19.16</TD>
+      <TD>22.04</TD>
+      <TD>20.48</TD>
+      <TD>19.54</TD>
+      <TD>19.00</TD>
+      <TD>M1</TD>
+      <TD>M1</TD>
+      <TD> 0.0000</TD>
+      <TD>DR9</TD>
+     </TR>
+     <TR>
+      <TD>1419-0110</TD>
+      <TD>214.764363</TD>
+      <TD> -1.171163</TD>
+      <TD>1740</TD>
+      <TD>1719</TD>
+      <TD> 9.75</TD>
+      <TD>153</TD>
+      <TD>21.87</TD>
+      <TD>20.38</TD>
+      <TD>19.45</TD>
+      <TD>18.99</TD>
+      <TD>22.28</TD>
+      <TD>21.03</TD>
+      <TD>20.05</TD>
+      <TD>19.42</TD>
+      <TD>M1</TD>
+      <TD>M1</TD>
+      <TD> 0.0180</TD>
+      <TD>DR9</TD>
+     </TR>
+     <TR>
+      <TD>1419-0113</TD>
+      <TD>214.923587</TD>
+      <TD> -1.217728</TD>
+      <TD>2450</TD>
+      <TD>2369</TD>
+      <TD>15.80</TD>
+      <TD>117</TD>
+      <TD>20.07</TD>
+      <TD>19.03</TD>
+      <TD>18.62</TD>
+      <TD>18.32</TD>
+      <TD>21.19</TD>
+      <TD>19.87</TD>
+      <TD>19.27</TD>
+      <TD>18.86</TD>
+      <TD>K5</TD>
+      <TD>K7</TD>
+      <TD> 0.0250</TD>
+      <TD>DR9</TD>
+     </TR>
+     <TR>
+      <TD>1420-0010</TD>
+      <TD>215.042559</TD>
+      <TD> -0.173486</TD>
+      <TD>1836</TD>
+      <TD>1887</TD>
+      <TD> 9.42</TD>
+      <TD>-95</TD>
+      <TD>21.04</TD>
+      <TD>19.70</TD>
+      <TD>19.00</TD>
+      <TD>18.57</TD>
+      <TD>18.90</TD>
+      <TD>17.96</TD>
+      <TD>17.61</TD>
+      <TD>17.47</TD>
+      <TD>M0</TD>
+      <TD>K3</TD>
+      <TD> 0.0120</TD>
+      <TD>DR9</TD>
+     </TR>
+     <TR>
+      <TD>1420-0005</TD>
+      <TD>215.052486</TD>
+      <TD> -0.083684</TD>
+      <TD>1207</TD>
+      <TD>1149</TD>
+      <TD>10.98</TD>
+      <TD>139</TD>
+      <TD>21.11</TD>
+      <TD>19.84</TD>
+      <TD>18.93</TD>
+      <TD>18.37</TD>
+      <TD>16.82</TD>
+      <TD>16.11</TD>
+      <TD>15.80</TD>
+      <TD>15.66</TD>
+      <TD>M1</TD>
+      <TD>K2</TD>
+      <TD> 0.0240</TD>
+      <TD>DR9</TD>
+     </TR>
+     <TR>
+      <TD>1420-0029</TD>
+      <TD>215.245625</TD>
+      <TD> -0.496065</TD>
+      <TD>2079</TD>
+      <TD>2054</TD>
+      <TD>10.68</TD>
+      <TD>75</TD>
+      <TD>19.94</TD>
+      <TD>18.75</TD>
+      <TD>18.31</TD>
+      <TD>18.02</TD>
+      <TD>22.31</TD>
+      <TD>20.86</TD>
+      <TD>19.99</TD>
+      <TD>19.43</TD>
+      <TD>K5</TD>
+      <TD>M1</TD>
+      <TD> 0.0090</TD>
+      <TD>DR9</TD>
+     </TR>
+     <TR>
+      <TD>1421-0021</TD>
+      <TD>215.336674</TD>
+      <TD> -0.365995</TD>
+      <TD>1979</TD>
+      <TD>1905</TD>
+      <TD> 5.65</TD>
+      <TD>94</TD>
+      <TD>21.38</TD>
+      <TD>20.10</TD>
+      <TD>19.58</TD>
+      <TD>18.89</TD>
+      <TD>22.00</TD>
+      <TD>20.67</TD>
+      <TD>20.05</TD>
+      <TD>19.25</TD>
+      <TD>M0</TD>
+      <TD>M1</TD>
+      <TD> 0.0070</TD>
+      <TD>DR9</TD>
+     </TR>
+     <TR>
+      <TD>1421-0054</TD>
+      <TD>215.363480</TD>
+      <TD> -0.904071</TD>
+      <TD>751</TD>
+      <TD>654</TD>
+      <TD> 4.13</TD>
+      <TD>-39</TD>
+      <TD>18.33</TD>
+      <TD>17.00</TD>
+      <TD>16.43</TD>
+      <TD>16.11</TD>
+      <TD>23.18</TD>
+      <TD>22.00</TD>
+      <TD>20.44</TD>
+      <TD>19.42</TD>
+      <TD>K7</TD>
+      <TD>M4</TD>
+      <TD> 0.0090</TD>
+      <TD>DR9</TD>
+     </TR>
+     <TR>
+      <TD>1421-0025</TD>
+      <TD>215.406651</TD>
+      <TD> -0.419912</TD>
+      <TD>2493</TD>
+      <TD>2548</TD>
+      <TD>17.79</TD>
+      <TD>35</TD>
+      <TD>19.89</TD>
+      <TD>18.98</TD>
+      <TD>18.57</TD>
+      <TD>18.30</TD>
+      <TD>20.25</TD>
+      <TD>19.25</TD>
+      <TD>18.81</TD>
+      <TD>18.50</TD>
+      <TD>K5</TD>
+      <TD>K5</TD>
+      <TD> 0.0040</TD>
+      <TD>DR9</TD>
+     </TR>
+     <TR>
+      <TD>1421-0007</TD>
+      <TD>215.444423</TD>
+      <TD> -0.131723</TD>
+      <TD>750</TD>
+      <TD>715</TD>
+      <TD> 3.30</TD>
+      <TD>120</TD>
+      <TD>20.36</TD>
+      <TD>18.88</TD>
+      <TD>17.89</TD>
+      <TD>17.39</TD>
+      <TD>20.61</TD>
+      <TD>19.12</TD>
+      <TD>18.09</TD>
+      <TD>17.52</TD>
+      <TD>M1</TD>
+      <TD>M2</TD>
+      <TD> 0.0070</TD>
+      <TD>DR9</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="V_109_sky2kv4" name="V/109/sky2kv4">
+   <DESCRIPTION>
+    The Sky2000 Version 4 Catalogue
+   </DESCRIPTION>
+   <FIELD ID="SKY2000" arraysize="19" datatype="char" name="SKY2000" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Identifier based on J2000 position
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HD" datatype="int" name="HD" ucd="ID_ALTERNATIVE" width="6">
+    <DESCRIPTION>
+     ?Henry Draper &lt;III/135&gt; number [NULL integer written as an empty
+     string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="13" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (J2000) hours
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="13" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination degrees (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="3" ucd="PHOT_MAG_V" unit="mag" width="6">
+    <DESCRIPTION>
+     ?Observed visual magnitude (V or v)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="B-V" datatype="float" name="B-V" precision="3" ucd="PHOT_JHN_B-V" unit="mag" width="6">
+    <DESCRIPTION>
+     ?B-V color (observed)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="U-B" datatype="float" name="U-B" precision="3" ucd="PHOT_JHN_U-B" unit="mag" width="6">
+    <DESCRIPTION>
+     ?U-B color (observed)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Sp" arraysize="3" datatype="char" name="Sp" ucd="SPECT_TYPE_GENERAL">
+    <DESCRIPTION>
+     One-dimensional spectral class
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>J141604.17-001855.6</TD>
+      <TD>-2147483648</TD>
+      <TD>14 16 04.1733</TD>
+      <TD>-00 18 55.635</TD>
+      <TD>10.110</TD>
+      <TD> 0.819</TD>
+      <TD/>
+      <TD>G5</TD>
+     </TR>
+     <TR>
+      <TD>J141701.52-000445.5</TD>
+      <TD>125041</TD>
+      <TD>14 17 01.5201</TD>
+      <TD>-00 04 45.563</TD>
+      <TD> 9.060</TD>
+      <TD> 0.484</TD>
+      <TD/>
+      <TD>F8</TD>
+     </TR>
+     <TR>
+      <TD>J141750.28-010444.8</TD>
+      <TD>-2147483648</TD>
+      <TD>14 17 50.2842</TD>
+      <TD>-01 04 44.871</TD>
+      <TD>10.220</TD>
+      <TD> 0.694</TD>
+      <TD/>
+      <TD>F8</TD>
+     </TR>
+     <TR>
+      <TD>J141826.90-000655.6</TD>
+      <TD>-2147483648</TD>
+      <TD>14 18 26.9093</TD>
+      <TD>-00 06 55.603</TD>
+      <TD>10.500</TD>
+      <TD> 0.685</TD>
+      <TD/>
+      <TD>G0</TD>
+     </TR>
+     <TR>
+      <TD>J141926.94-000048.0</TD>
+      <TD>125453</TD>
+      <TD>14 19 26.9462</TD>
+      <TD>-00 00 48.094</TD>
+      <TD> 7.790</TD>
+      <TD> 1.313</TD>
+      <TD/>
+      <TD>K2</TD>
+     </TR>
+     <TR>
+      <TD>J141940.95+002303.6</TD>
+      <TD>125489</TD>
+      <TD>14 19 40.9509</TD>
+      <TD>+00 23 03.601</TD>
+      <TD> 6.190</TD>
+      <TD> 0.203</TD>
+      <TD/>
+      <TD>A3</TD>
+     </TR>
+     <TR>
+      <TD>J142028.88+001054.6</TD>
+      <TD>125609</TD>
+      <TD>14 20 28.8836</TD>
+      <TD>+00 10 54.662</TD>
+      <TD> 6.795</TD>
+      <TD> 1.245</TD>
+      <TD/>
+      <TD>K0</TD>
+     </TR>
+     <TR>
+      <TD>J142036.14-004245.7</TD>
+      <TD>-2147483648</TD>
+      <TD>14 20 36.1480</TD>
+      <TD>-00 42 45.732</TD>
+      <TD>10.650</TD>
+      <TD> 0.572</TD>
+      <TD/>
+      <TD>K0</TD>
+     </TR>
+     <TR>
+      <TD>J142038.29+001338.2</TD>
+      <TD>-2147483648</TD>
+      <TD>14 20 38.2977</TD>
+      <TD>+00 13 38.227</TD>
+      <TD> 9.690</TD>
+      <TD> 1.269</TD>
+      <TD/>
+      <TD>K2</TD>
+     </TR>
+     <TR>
+      <TD>J142108.64-000612.4</TD>
+      <TD>-2147483648</TD>
+      <TD>14 21 08.6413</TD>
+      <TD>-00 06 12.495</TD>
+      <TD>10.370</TD>
+      <TD> 0.785</TD>
+      <TD/>
+      <TD>G5</TD>
+     </TR>
+     <TR>
+      <TD>J142232.77-002030.6</TD>
+      <TD>-2147483648</TD>
+      <TD>14 22 32.7793</TD>
+      <TD>-00 20 30.675</TD>
+      <TD> 9.690</TD>
+      <TD> 1.146</TD>
+      <TD/>
+      <TD>K2</TD>
+     </TR>
+     <TR>
+      <TD>J142246.39-003813.6</TD>
+      <TD>125981</TD>
+      <TD>14 22 46.3903</TD>
+      <TD>-00 38 13.675</TD>
+      <TD> 6.737</TD>
+      <TD> 0.065</TD>
+      <TD/>
+      <TD>A0</TD>
+     </TR>
+     <TR>
+      <TD>J142306.47-002142.1</TD>
+      <TD>-2147483648</TD>
+      <TD>14 23 06.4707</TD>
+      <TD>-00 21 42.108</TD>
+      <TD>10.650</TD>
+      <TD> 0.485</TD>
+      <TD/>
+      <TD>F8</TD>
+     </TR>
+     <TR>
+      <TD>J142333.90+000249.4</TD>
+      <TD>126130</TD>
+      <TD>14 23 33.9040</TD>
+      <TD>+00 02 49.486</TD>
+      <TD> 9.210</TD>
+      <TD> 0.728</TD>
+      <TD/>
+      <TD>G5</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

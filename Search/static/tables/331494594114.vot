@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="II_24_data" name="II/24/data">
+   <DESCRIPTION>
+    Photometric Results
+   </DESCRIPTION>
+   <FIELD ID="HD" datatype="int" name="HD" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     HD (Cat. &lt;III/135&gt;) number of the star
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="4" datatype="char" name="SpType" ucd="SPECT_TYPE_GENERAL">
+    <DESCRIPTION>
+     Spectral classification
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="lum" datatype="short" name="lum" ucd="SPECT_LUM-CLASS" width="2">
+    <DESCRIPTION>
+     [10/50]? Luminosity class indication (1) [NULL integer written as
+     an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="HV" arraysize="2" datatype="char" name="HV" ucd="NOTE">
+    <DESCRIPTION>
+     [ HVP] High Velocity (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="B-V" datatype="float" name="B-V" precision="2" ucd="PHOT_JHN_B-V" unit="mag" width="5">
+    <DESCRIPTION>
+     ? (B-V) color index (3)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Mgb" datatype="float" name="Mgb" precision="2" ucd="SPECT_INDEX_MISC" width="5">
+    <DESCRIPTION>
+     ? Mg b ratio from Deeming (1960MNRAS.121...52D)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="NaD" datatype="float" name="NaD" precision="3" ucd="SPECT_INDEX_MISC" width="6">
+    <DESCRIPTION>
+     ? Sodium D line ratioA from Griffin (1961MNRAS.122..181G)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Ha" datatype="float" name="Ha" precision="3" ucd="SPECT_INDEX_HALPHA" width="6">
+    <DESCRIPTION>
+     [0.96/1.2] H{alpha} ratio (R{alpha}) (4)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="ID" datatype="short" name="ID" ucd="ID_NUMBER" width="3">
+    <DESCRIPTION>
+     [1/594]+ Star number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right Ascension (J2000) from SIMBAD (not part of the original
+     data)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (J2000) from SIMBAD (not part of the original data)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>188947</TD>
+      <TD>K0</TD>
+      <TD>30</TD>
+      <TD/>
+      <TD> 1.04</TD>
+      <TD> 2.25</TD>
+      <TD/>
+      <TD> 1.037</TD>
+      <TD>468</TD>
+      <TD>Simbad</TD>
+      <TD>299.07655</TD>
+      <TD> 35.08342</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJS_217_2_table4" name="J/ApJS/217/2/table4">
+   <DESCRIPTION>
+    Refined associations of the Fermi catalogs
+   </DESCRIPTION>
+   <FIELD ID="_1FGL" arraysize="13" datatype="char" name="_1FGL" ucd="ID_MAIN">
+    <DESCRIPTION>
+     1FGL name (JHHMM.m+DDMM) \linkRole{1FGL data for this source from
+     1FGL (Abdo+, 2010, J/ApJS/188/405), Fermi-AT20G (Mahony+, 2010,
+     J/ApJ/718/587) and 1LAC (Abdo+, 2010, J/ApJ/715/429)}
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_2FGL" arraysize="13" datatype="char" name="_2FGL" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     2FGL name (JHHMM.m+DDMM)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="gcl" arraysize="1" datatype="char" name="gcl" ucd="CODE_MISC">
+    <DESCRIPTION>
+     gamma-ray source category (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="C1" arraysize="44" datatype="char" name="C1" ucd="ID_ASSOCIATED">
+    <DESCRIPTION>
+     The first low-energy counterpart
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="z" datatype="double" name="z" precision="5" ucd="REDSHIFT_HC" width="8">
+    <DESCRIPTION>
+     [0/3.2]? Redshift estimate
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="f_z" arraysize="2" datatype="char" name="f_z" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [ ?/el] Flag for z
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="classC1" arraysize="12" datatype="char" name="classC1" ucd="CLASS_CODE">
+    <DESCRIPTION>
+     Source class for the C1 (5)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="B2magC1" datatype="float" name="B2magC1" precision="2" ucd="PHOT_PHG_B" unit="mag" width="5">
+    <DESCRIPTION>
+     [0/23]? USNO-B1 B magnitude for C1 (6)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="R2magC1" datatype="float" name="R2magC1" precision="2" ucd="PHOT_PHG_R" unit="mag" width="5">
+    <DESCRIPTION>
+     [0/25]? USNO-B1 R magnitude for C1 (6)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Pbzb" datatype="float" name="Pbzb" precision="1" ucd="STAT_PROBABILITY" unit="%" width="5">
+    <DESCRIPTION>
+     ? Probability of C1 as BL Lac (BZB) (7)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Pbzq" datatype="float" name="Pbzq" precision="1" ucd="STAT_PROBABILITY" unit="%" width="4">
+    <DESCRIPTION>
+     ? Probability of C1 as BZQ (8)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="SimbadName" arraysize="18" datatype="char" name="SimbadName" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Designation understandable by the {\bf\fg{FireBrick}Simbad} data-
+     base
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="NED" arraysize="3" datatype="char" name="NED" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}NED} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="4" ucd="POS_EQ_RA_MAIN" unit="deg" width="8">
+    <DESCRIPTION>
+     Positions from 1FGL or 2FGL source in SIMBAD (right ascension
+     part)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="4" ucd="POS_EQ_DEC_MAIN" unit="deg" width="8">
+    <DESCRIPTION>
+     Positions from 1FGL or 2FGL source in SIMBAD (declination part)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>J1958.9+3459</TD>
+      <TD/>
+      <TD>C</TD>
+      <TD>Cygnus X-1</TD>
+      <TD/>
+      <TD/>
+      <TD>hmb in sfr</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>1FGL J1958.9+3459</TD>
+      <TD>NED</TD>
+      <TD>299.5903</TD>
+      <TD> 35.2016</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

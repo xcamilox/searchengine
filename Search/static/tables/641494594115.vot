@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="V_36B_bsc4s" name="V/36B/bsc4s">
+   <DESCRIPTION>
+    The Supplement to the Bright Star Catalogue
+   </DESCRIPTION>
+   <FIELD ID="HD" datatype="int" name="HD" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     [1/252421]? Number in the Henry Draper Catalogue &lt;III/135&gt; [NULL
+     integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="m_HD" arraysize="2" datatype="char" name="m_HD" ucd="CODE_MULT_INDEX">
+    <DESCRIPTION>
+     HD suffix. May be component identifications
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DM" arraysize="10" datatype="char" name="DM" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Durchmusterung (BD, CD, CPD) designation
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SAO" datatype="int" name="SAO" ucd="ID_ALTERNATIVE" width="6">
+    <DESCRIPTION>
+     [1/258997]? Catalog number in SAO &lt;I/131&gt; [NULL integer written
+     as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="ADS" arraysize="8" datatype="char" name="ADS" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Double or multiple star identifications
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vname" arraysize="11" datatype="char" name="Vname" ucd="ID_VARIAB">
+    <DESCRIPTION>
+     Variable-star designations
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RA1900" arraysize="10" datatype="char" name="RA1900" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension 1900
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DE1900" arraysize="9" datatype="char" name="DE1900" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination 1900
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_JHN_V" unit="mag" width="5">
+    <DESCRIPTION>
+     V magnitude on UBV system.
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="B-V" datatype="float" name="B-V" precision="2" ucd="PHOT_CI_B-V" unit="mag" width="5">
+    <DESCRIPTION>
+     ? B-V colour index
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="20" datatype="char" name="SpType" ucd="SPECT_TYPE_GENERAL">
+    <DESCRIPTION>
+     Spectral type.
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sep" datatype="float" name="Sep" precision="1" ucd="POS_ANG_DIST_GENERAL" unit="arcs" width="5">
+    <DESCRIPTION>
+     ? Separation of the components "Comp"
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Comp" arraysize="5" datatype="char" name="Comp" ucd="ID_ASSOCIATED">
+    <DESCRIPTION>
+     Identification of components.
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Ncomp" datatype="short" name="Ncomp" ucd="NUMBER" width="2">
+    <DESCRIPTION>
+     ? Number of components assigned to multiple systems. [NULL
+     integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="_RA.icrs" arraysize="10" datatype="char" name="_RA.icrs" ucd="POS_EQ_RA_OTHER" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (ICRS) at Epoch=J2000, proper motions taken into
+     account  (computed by VizieR, not part of the original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" arraysize="9" datatype="char" name="_DE.icrs" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (ICRS) at Epoch=J2000, proper motions taken into
+     account  (computed by VizieR, not part of the original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>189474</TD>
+      <TD/>
+      <TD>BD+35 3895</TD>
+      <TD>69199</TD>
+      <TD>13204AB</TD>
+      <TD/>
+      <TD>19 55 06.7</TD>
+      <TD>+35 13 32</TD>
+      <TD> 7.00</TD>
+      <TD> 0.02</TD>
+      <TD>A1V</TD>
+      <TD>  4.2</TD>
+      <TD>AB</TD>
+      <TD>4</TD>
+      <TD>19 58 51.5</TD>
+      <TD>+35 29 51</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

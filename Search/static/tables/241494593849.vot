@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="II_327_ysoc" name="II/327/ysoc">
+   <DESCRIPTION>
+    Parameters of sources classified as YSO candidate
+   </DESCRIPTION>
+   <FIELD ID="AKARI" arraysize="14" datatype="char" name="AKARI" ucd="ID_MAIN">
+    <DESCRIPTION>
+     ID number from the AKARI FIS BSC (Cat. II/298) (objName,
+     HHMMSSs+DDMMSS)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right ascension (J2000.0)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (J2000.0)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="W1" datatype="float" name="W1" precision="3" ucd="PHOT_IR_3.4" unit="mag" width="6">
+    <DESCRIPTION>
+     WISE W1 magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="W2" datatype="float" name="W2" precision="3" ucd="PHOT_IR_4.2" unit="mag" width="6">
+    <DESCRIPTION>
+     WISE W2 magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="W3" datatype="float" name="W3" precision="3" ucd="PHOT_FLUX_IR_12" unit="mag" width="6">
+    <DESCRIPTION>
+     WISE W3 magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="W4" datatype="float" name="W4" precision="3" ucd="PHOT_FLUX_IR_25" unit="mag" width="6">
+    <DESCRIPTION>
+     WISE W4 magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="F65" datatype="double" name="F65" precision="4" ucd="PHOT_FLUX_IR_60" unit="Jy" width="9">
+    <DESCRIPTION>
+     AKARI N60 flux density (65um)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="F90" datatype="double" name="F90" precision="4" ucd="PHOT_FLUX_IR_100" unit="Jy" width="9">
+    <DESCRIPTION>
+     AKARI WIDE-S flux density (90um)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="F140" datatype="double" name="F140" precision="4" ucd="PHOT_FLUX_IR_170" unit="Jy" width="9">
+    <DESCRIPTION>
+     AKARI WIDE-L flux density (140um)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="F160" datatype="double" name="F160" precision="4" ucd="PHOT_FLUX_IR_170" unit="Jy" width="10">
+    <DESCRIPTION>
+     AKARI N160 flux density (160um)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Prob" datatype="float" name="Prob" precision="3" ucd="STAT_PROBABILITY" width="6">
+    <DESCRIPTION>
+     [0.5/1] Probability of being a YSO candidate
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Type" arraysize="3" datatype="char" name="Type" ucd="CLASS_OBJECT">
+    <DESCRIPTION>
+     Main Type of the source as listed in SIMBAD (1) \iflay\else(see
+     the \glutag{OTypeList|list of Simbad object types})\fi
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dist" datatype="float" name="Dist" precision="2" ucd="POS_ANG_DIST_GENERAL" unit="arcs" width="5">
+    <DESCRIPTION>
+     [0.1/30]? Angular distance between the FIS source and the
+     matching SIMBAD object
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="SIMBAD" arraysize="35" datatype="char" name="SIMBAD" ucd="ID_ASSOCIATED">
+    <DESCRIPTION>
+     SIMBAD ID of the matching SIMBAD object
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>1422234-002242</TD>
+      <TD>215.59765</TD>
+      <TD> -0.37822</TD>
+      <TD>14.175</TD>
+      <TD>13.838</TD>
+      <TD> 9.607</TD>
+      <TD> 7.303</TD>
+      <TD>   1.0989</TD>
+      <TD>   1.9176</TD>
+      <TD>   4.7752</TD>
+      <TD>    1.6580</TD>
+      <TD> 0.841</TD>
+      <TD>GrG</TD>
+      <TD>20.03</TD>
+      <TD>[TSK2008] 671</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

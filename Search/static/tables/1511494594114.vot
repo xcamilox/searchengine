@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_MNRAS_414_1227_table4" name="J/MNRAS/414/1227/table4">
+   <DESCRIPTION>
+    The MILES [Mg/Fe] catalogue for field stars
+   </DESCRIPTION>
+   <FIELD ID="Miles" arraysize="5" datatype="char" name="Miles" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Miles identification
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="CaT" datatype="short" name="CaT" ucd="ID_NUMBER" width="3">
+    <DESCRIPTION>
+     ? Identification number in the CaT library (Cenarro et al.
+     2002MNRAS.329..863C) [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="Name" arraysize="13" datatype="char" name="Name" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Star name
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Teff" datatype="int" name="Teff" ucd="PHYS_TEMP_EFFEC" unit="K" width="5">
+    <DESCRIPTION>
+     Effective temperature
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="logg" datatype="float" name="logg" precision="2" ucd="PHYS_GRAVITY_SURFACE" unit="[cm/s2]" width="5">
+    <DESCRIPTION>
+     Surface gravity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="__Fe_H_" datatype="float" name="__Fe_H_" precision="2" ucd="PHYS_ABUND_FE/H" unit="[Sun]" width="5">
+    <DESCRIPTION>
+     Metallicity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="__Mg_Fe_" datatype="float" name="__Mg_Fe_" precision="2" ucd="PHYS_ABUND_MISC" unit="[Sun]" width="5">
+    <DESCRIPTION>
+     Abundance [Mg/Fe]
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e__Mg_Fe_" datatype="float" name="e__Mg_Fe_" precision="2" ucd="ERROR" unit="[Sun]" width="5">
+    <DESCRIPTION>
+     rms uncertainty on [Mg/Fe]
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="src" arraysize="2" datatype="char" name="src" ucd="REFER_CODE">
+    <DESCRIPTION>
+     [HR mr] high/mid-resolution origin (G2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Ref" arraysize="9" datatype="char" name="Ref" ucd="REFER_CODE">
+    <DESCRIPTION>
+     Reference (G1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right Ascension (J2000) from SIMBAD (not part of the original
+     data)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (J2000) from SIMBAD (not part of the original data)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>0745F</TD>
+      <TD>-32768</TD>
+      <TD>HD188947</TD>
+      <TD>4829</TD>
+      <TD> 2.53</TD>
+      <TD> 0.01</TD>
+      <TD> 0.11</TD>
+      <TD> 0.10</TD>
+      <TD>mr</TD>
+      <TD>BothMg</TD>
+      <TD>Simbad</TD>
+      <TD>299.07655</TD>
+      <TD> 35.08342</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

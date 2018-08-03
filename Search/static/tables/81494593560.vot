@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="I_239_hip_main" name="I/239/hip_main">
+   <DESCRIPTION>
+    The Hipparcos Main Catalogue\vizContent{timeSerie}
+   </DESCRIPTION>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     Identifier (HIP number) (H1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAhms" arraysize="11" datatype="char" name="RAhms" ucd="POS_EQ_RA_MAIN">
+    <DESCRIPTION>
+     Right ascension in h m s, ICRS (J1991.25) (H3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEdms" arraysize="11" datatype="char" name="DEdms" ucd="POS_EQ_DEC_MAIN">
+    <DESCRIPTION>
+     Declination in deg ' ", ICRS (J1991.25) (H4)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_JHN_V" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Magnitude in Johnson V (H5)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="RA_ICRS_" datatype="double" name="RA_ICRS_" precision="8" ucd="POS_EQ_RA" unit="deg" width="12">
+    <DESCRIPTION>
+     *? alpha, degrees (ICRS, Epoch=J1991.25) (H8)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="DE_ICRS_" datatype="double" name="DE_ICRS_" precision="8" ucd="POS_EQ_DEC" unit="deg" width="12">
+    <DESCRIPTION>
+     *? delta, degrees (ICRS, Epoch=J1991.25) (H9)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Plx" datatype="float" name="Plx" precision="2" ucd="POS_PARLX_TRIG" unit="mas" width="7">
+    <DESCRIPTION>
+     ? Trigonometric parallax (H11)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="double" name="pmRA" precision="2" ucd="POS_EQ_PMRA" unit="mas.yr-1" width="8">
+    <DESCRIPTION>
+     Proper motion mu_alpha.cos(delta), ICRS(H12) {\em(for J1991.25
+     epoch)}
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="double" name="pmDE" precision="2" ucd="POS_EQ_PMDEC" unit="mas.yr-1" width="8">
+    <DESCRIPTION>
+     ? Proper motion mu_delta, ICRS (H13) {\em(for J1991.25 epoch)}
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_Plx" datatype="float" name="e_Plx" precision="2" ucd="ERROR" unit="mas" width="6">
+    <DESCRIPTION>
+     ? Standard error in Plx (H16)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="B-V" datatype="float" name="B-V" precision="3" ucd="PHOT_JHN_B-V" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Johnson B-V colour (H37)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Notes" arraysize="1" datatype="char" name="Notes" ucd="NOTE">
+    <DESCRIPTION>
+     *[DGPWXYZ] Existence of notes (H70)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>69785</TD>
+      <TD>14 17 01.49</TD>
+      <TD>-00 04 44.3</TD>
+      <TD> 9.05</TD>
+      <TD>214.25620782</TD>
+      <TD> -0.07898196</TD>
+      <TD>  10.18</TD>
+      <TD>   51.75</TD>
+      <TD> -140.37</TD>
+      <TD>  1.26</TD>
+      <TD> 0.486</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>69866</TD>
+      <TD>14 17 50.30</TD>
+      <TD>-01 04 44.6</TD>
+      <TD>10.45</TD>
+      <TD>214.45957852</TD>
+      <TD> -1.07905916</TD>
+      <TD>   6.21</TD>
+      <TD>  -25.08</TD>
+      <TD>  -29.53</TD>
+      <TD>  2.10</TD>
+      <TD> 0.710</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>69911</TD>
+      <TD>14 18 26.97</TD>
+      <TD>-00 06 54.2</TD>
+      <TD>10.56</TD>
+      <TD>214.61236222</TD>
+      <TD> -0.11505627</TD>
+      <TD>   5.29</TD>
+      <TD>  -98.88</TD>
+      <TD> -160.00</TD>
+      <TD>  2.01</TD>
+      <TD> 0.702</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>70002</TD>
+      <TD>14 19 26.96</TD>
+      <TD>-00 00 48.0</TD>
+      <TD> 7.79</TD>
+      <TD>214.86232165</TD>
+      <TD> -0.01334261</TD>
+      <TD>   0.47</TD>
+      <TD>  -18.92</TD>
+      <TD>   -6.96</TD>
+      <TD>  0.99</TD>
+      <TD> 1.314</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>70022</TD>
+      <TD>14 19 40.97</TD>
+      <TD>+00 23 03.7</TD>
+      <TD> 6.18</TD>
+      <TD>214.92071957</TD>
+      <TD>  0.38436366</TD>
+      <TD>  14.29</TD>
+      <TD>  -37.38</TD>
+      <TD>  -12.41</TD>
+      <TD>  0.78</TD>
+      <TD> 0.201</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>70081</TD>
+      <TD>14 20 28.94</TD>
+      <TD>+00 10 55.4</TD>
+      <TD> 6.79</TD>
+      <TD>215.12059179</TD>
+      <TD>  0.18204238</TD>
+      <TD>   3.96</TD>
+      <TD> -100.15</TD>
+      <TD>  -78.89</TD>
+      <TD>  0.84</TD>
+      <TD> 1.219</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>70136</TD>
+      <TD>14 21 04.94</TD>
+      <TD>+00 31 07.1</TD>
+      <TD>11.00</TD>
+      <TD>215.27056664</TD>
+      <TD>  0.51862653</TD>
+      <TD>  16.90</TD>
+      <TD>  -80.49</TD>
+      <TD>   -3.99</TD>
+      <TD>  5.89</TD>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>70282</TD>
+      <TD>14 22 46.42</TD>
+      <TD>-00 38 13.6</TD>
+      <TD> 6.74</TD>
+      <TD>215.69343451</TD>
+      <TD> -0.63709953</TD>
+      <TD>   7.58</TD>
+      <TD>  -58.19</TD>
+      <TD>  -13.31</TD>
+      <TD>  0.98</TD>
+      <TD> 0.058</TD>
+      <TD/>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

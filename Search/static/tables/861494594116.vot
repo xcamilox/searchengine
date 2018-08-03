@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="B_pastel_pastel" name="B/pastel/pastel">
+   <DESCRIPTION>
+    The catalogue of stellar atmospheric parameters (Version
+    2016-05-02)
+   </DESCRIPTION>
+   <FIELD ID="ID" arraysize="29" datatype="char" name="ID" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Designation \linkRole{Simbad}
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="13" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension J2000
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="13" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination J2000
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="o_coo" arraysize="1" datatype="char" name="o_coo" ucd="NUMBER">
+    <DESCRIPTION>
+     [ST] Origin of coordinates (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Bmag" datatype="float" name="Bmag" precision="3" ucd="PHOT_JHN_B" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Johnson B magnitude from Simbad
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="3" ucd="PHOT_JHN_V" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Johnson V magnitude from Simbad
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="3" ucd="PHOT_JHN_J" unit="mag" width="6">
+    <DESCRIPTION>
+     ? 2MASS J apparent magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Ksmag" datatype="float" name="Ksmag" precision="3" ucd="PHOT_JHN_K" unit="mag" width="6">
+    <DESCRIPTION>
+     ? 2MASS Ks apparent magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Teff" datatype="int" name="Teff" ucd="PHYS_TEMP_EFFEC" unit="K" width="6">
+    <DESCRIPTION>
+     ? Effective temperature [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="logg" datatype="float" name="logg" precision="3" ucd="PHYS_GRAVITY_SURFACE" unit="[cm/s2]" width="6">
+    <DESCRIPTION>
+     ? Logarithm of gravity
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="__Fe_H_" datatype="float" name="__Fe_H_" precision="3" ucd="PHYS_ABUND_FE/H" unit="[Sun]" width="6">
+    <DESCRIPTION>
+     ? Iron abundance relative to the Sun
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e__Fe_H_" datatype="float" name="e__Fe_H_" precision="3" ucd="ERROR" unit="[Sun]" width="6">
+    <DESCRIPTION>
+     ? Standard error on iron abundance
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="n__Fe_H_" arraysize="1" datatype="char" name="n__Fe_H_" ucd="NOTE">
+    <DESCRIPTION>
+     ? [2MN] Metal abundance, NLTE analysis, Fe2 (2)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>HD188947</TD>
+      <TD>19 56 18.3722</TD>
+      <TD>+35 05 00.323</TD>
+      <TD>S</TD>
+      <TD> 4.910</TD>
+      <TD> 3.880</TD>
+      <TD> 2.170</TD>
+      <TD> 1.620</TD>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD> 0.000</TD>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>HD188947</TD>
+      <TD>19 56 18.3722</TD>
+      <TD>+35 05 00.323</TD>
+      <TD>S</TD>
+      <TD> 4.910</TD>
+      <TD> 3.880</TD>
+      <TD> 2.170</TD>
+      <TD> 1.620</TD>
+      <TD>4571</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>HD188947</TD>
+      <TD>19 56 18.3722</TD>
+      <TD>+35 05 00.323</TD>
+      <TD>S</TD>
+      <TD> 4.910</TD>
+      <TD> 3.880</TD>
+      <TD> 2.170</TD>
+      <TD> 1.620</TD>
+      <TD>4796</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>HD188947</TD>
+      <TD>19 56 18.3722</TD>
+      <TD>+35 05 00.323</TD>
+      <TD>S</TD>
+      <TD> 4.910</TD>
+      <TD> 3.880</TD>
+      <TD> 2.170</TD>
+      <TD> 1.620</TD>
+      <TD>4800</TD>
+      <TD> 2.760</TD>
+      <TD>-0.090</TD>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>HD188947</TD>
+      <TD>19 56 18.3722</TD>
+      <TD>+35 05 00.323</TD>
+      <TD>S</TD>
+      <TD> 4.910</TD>
+      <TD> 3.880</TD>
+      <TD> 2.170</TD>
+      <TD> 1.620</TD>
+      <TD>4817</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>HD188947</TD>
+      <TD>19 56 18.3722</TD>
+      <TD>+35 05 00.323</TD>
+      <TD>S</TD>
+      <TD> 4.910</TD>
+      <TD> 3.880</TD>
+      <TD> 2.170</TD>
+      <TD> 1.620</TD>
+      <TD>4860</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>HD188947</TD>
+      <TD>19 56 18.3722</TD>
+      <TD>+35 05 00.323</TD>
+      <TD>S</TD>
+      <TD> 4.910</TD>
+      <TD> 3.880</TD>
+      <TD> 2.170</TD>
+      <TD> 1.620</TD>
+      <TD>4893</TD>
+      <TD> 2.200</TD>
+      <TD> 0.150</TD>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>HD189148</TD>
+      <TD>19 57 13.3187</TD>
+      <TD>+35 01 53.054</TD>
+      <TD>S</TD>
+      <TD> 7.720</TD>
+      <TD> 7.260</TD>
+      <TD> 6.296</TD>
+      <TD> 6.087</TD>
+      <TD>6444</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>HD190113</TD>
+      <TD>20 02 02.8535</TD>
+      <TD>+35 38 28.012</TD>
+      <TD>S</TD>
+      <TD> 9.280</TD>
+      <TD> 7.860</TD>
+      <TD> 5.301</TD>
+      <TD> 4.557</TD>
+      <TD>4784</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>HD190113</TD>
+      <TD>20 02 02.8535</TD>
+      <TD>+35 38 28.012</TD>
+      <TD>S</TD>
+      <TD> 9.280</TD>
+      <TD> 7.860</TD>
+      <TD> 5.301</TD>
+      <TD> 4.557</TD>
+      <TD>4790</TD>
+      <TD> 1.480</TD>
+      <TD> 0.090</TD>
+      <TD/>
+      <TD/>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

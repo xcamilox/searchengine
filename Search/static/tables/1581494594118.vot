@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_MNRAS_444_290_tablea1" name="J/MNRAS/444/290/tablea1">
+   <DESCRIPTION>
+    Summary table of the FSR cluster properties determined with our
+    isochrone-fitting pipeline
+   </DESCRIPTION>
+   <FIELD ID="p" datatype="unsignedByte" name="p" ucd="DATA_LINK" width="1">
+    <DESCRIPTION>
+     Details from previous papers about this cluster [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="FSR" datatype="short" name="FSR" ucd="ID_MAIN" width="4">
+    <DESCRIPTION>
+     [32/1738] FSR number, \dicS{[FSR2007] NNNN} in Simbad
+     \linkRole{FSR catalog}
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Type" arraysize="5" datatype="char" name="Type" ucd="CODE_MISC">
+    <DESCRIPTION>
+     Known open cluster or New cluster
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Class" arraysize="3" datatype="char" name="Class" ucd="CLASS_CODE">
+    <DESCRIPTION>
+     [OC PMS] Cluster class: OC (open cluster) or PMS (contains pre-
+     Main-Sequence stars)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GLON" datatype="float" name="GLON" precision="2" ucd="POS_GAL_LON" unit="deg" width="6">
+    <DESCRIPTION>
+     Galactic longitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GLAT" datatype="float" name="GLAT" precision="2" ucd="POS_GAL_LAT" unit="deg" width="6">
+    <DESCRIPTION>
+     Galactic latitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DP1" datatype="float" name="DP1" precision="1" ucd="POS_GAL_HC" unit="kpc" width="4">
+    <DESCRIPTION>
+     [1.1/11] Distance determined using our photometric method in
+     Paper I (J/MNRAS/436/1465)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DP2" datatype="float" name="DP2" precision="2" ucd="POS_GAL_HC" unit="kpc" width="5">
+    <DESCRIPTION>
+     [0.4/12] Distance determined using our pipeline
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_DP2" datatype="float" name="e_DP2" precision="2" ucd="ERROR" unit="kpc" width="5">
+    <DESCRIPTION>
+     [0/1] rms uncertainty on DP2
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="AP1H" datatype="float" name="AP1H" precision="2" ucd="PHOT_EXTINCTION_ISM" unit="mag" width="5">
+    <DESCRIPTION>
+     H-band extinction values calculated from H-K excess using our
+     photometric method in Paper I (Buckner &amp; Froebrich 2013,
+     J/MNRAS/436/1465)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="AP2H" datatype="float" name="AP2H" precision="2" ucd="PHOT_EXTINCTION_ISM" unit="mag" width="5">
+    <DESCRIPTION>
+     H-band extinction values calculated from H-K excess using our
+     pipeline
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_AP2H" datatype="float" name="e_AP2H" precision="2" ucd="ERROR" unit="mag" width="5">
+    <DESCRIPTION>
+     rms uncertainty on AP2H (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="logAge" datatype="float" name="logAge" precision="2" ucd="TIME_AGE" unit="[yr]" width="5">
+    <DESCRIPTION>
+     [6.7/10] Age
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_logAge" datatype="float" name="e_logAge" precision="2" ucd="ERROR" unit="[yr]" width="5">
+    <DESCRIPTION>
+     [0/0.4] rms uncertainty on logAge (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA.icrs" datatype="double" name="_RA.icrs" precision="4" ucd="POS_EQ_RA_OTHER" unit="deg" width="8">
+    <DESCRIPTION>
+     Right ascension (ICRS) (computed by VizieR, not part of the
+     original data)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" datatype="double" name="_DE.icrs" precision="4" ucd="POS_EQ_DEC_OTHER" unit="deg" width="8">
+    <DESCRIPTION>
+     Declination (ICRS) (computed by VizieR, not part of the original
+     data)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>0</TD>
+      <TD>191</TD>
+      <TD>New</TD>
+      <TD>OC</TD>
+      <TD> 70.99</TD>
+      <TD>  2.58</TD>
+      <TD> 3.8</TD>
+      <TD> 2.40</TD>
+      <TD> 0.37</TD>
+      <TD> 0.56</TD>
+      <TD> 0.59</TD>
+      <TD> 0.04</TD>
+      <TD> 8.50</TD>
+      <TD> 0.18</TD>
+      <TD>Simbad</TD>
+      <TD>299.8771</TD>
+      <TD> 34.6535</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

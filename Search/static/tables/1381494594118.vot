@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_AJ_128_2965_table4" name="J/AJ/128/2965/table4">
+   <DESCRIPTION>
+    Catalog of red variables in NSVS
+   </DESCRIPTION>
+   <FIELD ID="NSVS" arraysize="14" datatype="char" name="NSVS" ucd="ID_MAIN">
+    <DESCRIPTION>
+     NSVS source identification
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right ascension in decimal degrees (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination in decimal degrees (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Rmag" datatype="float" name="Rmag" precision="3" ucd="PHOT_COUS_R" unit="mag" width="6">
+    <DESCRIPTION>
+     NSVS R-band magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Per" datatype="short" name="Per" ucd="TIME_PERIOD" unit="d" width="3">
+    <DESCRIPTION>
+     NSVS period
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Amp" datatype="float" name="Amp" precision="3" ucd="VAR_AMPLITUDE_VALUE" unit="mag" width="6">
+    <DESCRIPTION>
+     NSVS magnitude amplitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_2Type" arraysize="4" datatype="char" name="_2Type" ucd="VAR_CLASS">
+    <DESCRIPTION>
+     NSVS two-class problem (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GCVS" arraysize="9" datatype="char" name="GCVS" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     GCVS name (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="G-Type" arraysize="5" datatype="char" name="G-Type" ucd="VAR_CLASS">
+    <DESCRIPTION>
+     GCVS type (2)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>2000432+351437</TD>
+      <TD>300.18003</TD>
+      <TD> 35.24366</TD>
+      <TD>11.012</TD>
+      <TD>610</TD>
+      <TD> 1.834</TD>
+      <TD>M</TD>
+      <TD>V1360 Cyg</TD>
+      <TD>M</TD>
+     </TR>
+     <TR>
+      <TD>2000546+351221</TD>
+      <TD>300.22767</TD>
+      <TD> 35.20580</TD>
+      <TD>12.611</TD>
+      <TD>315</TD>
+      <TD> 1.097</TD>
+      <TD>M</TD>
+      <TD/>
+      <TD/>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="III_135A_catalog" name="III/135A/catalog">
+   <DESCRIPTION>
+    The catalogue
+   </DESCRIPTION>
+   <FIELD ID="HD" datatype="int" name="HD" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     [1/272150]+ Henry Draper Catalog (HD) number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DM" arraysize="12" datatype="char" name="DM" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Durchmusterung identification (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAB1900" arraysize="7" datatype="char" name="RAB1900" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Hours RA, equinox B1900, epoch 1900.0
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEB1900" arraysize="6" datatype="char" name="DEB1900" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Degrees Dec, equinox B1900, epoch 1900.0
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="q_Ptm" datatype="unsignedByte" name="q_Ptm" ucd="CODE_QUALITY" width="1">
+    <DESCRIPTION>
+     [0/1]? Code for Ptm: 0 = measured, 1 = value inferred from Ptg
+     and spectral type [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="Ptm" datatype="float" name="Ptm" precision="2" ucd="PHOT_PHG_V" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Photovisual magnitude (2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="n_Ptm" arraysize="1" datatype="char" name="n_Ptm" ucd="NOTE">
+    <DESCRIPTION>
+     [C] 'C' if Ptm is combined value with Ptg
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="q_Ptg" datatype="unsignedByte" name="q_Ptg" ucd="CODE_QUALITY" width="1">
+    <DESCRIPTION>
+     [0/1]? Code for Ptg: 0 = measured, 1 = value inferred from Ptm
+     and spectral type [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="Ptg" datatype="float" name="Ptg" precision="2" ucd="PHOT_PHG_MAG" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Photographic magnitude (2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="n_Ptg" arraysize="1" datatype="char" name="n_Ptg" ucd="NOTE">
+    <DESCRIPTION>
+     [C] 'C' if Ptg is combined value for this entry and the following
+     or preceding entry
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpT" arraysize="3" datatype="char" name="SpT" ucd="SPECT_TYPE_GENERAL">
+    <DESCRIPTION>
+     Spectral type {\em(spectral types {\bf P} are generally nebulae)}
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Int" arraysize="2" datatype="char" name="Int" ucd="PHOT_INTENSITY_ESTIMATED">
+    <DESCRIPTION>
+     [ 0-9B] Photographic intensity of spectrum (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Rem" arraysize="1" datatype="char" name="Rem" ucd="REMARKS">
+    <DESCRIPTION>
+     [DEGMR*] Remarks, see note (4)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA.icrs" arraysize="10" datatype="char" name="_RA.icrs" ucd="POS_EQ_RA_OTHER" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (ICRS) at Epoch=J1900. (computed by VizieR, not
+     part of the original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" arraysize="9" datatype="char" name="_DE.icrs" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (ICRS) at Epoch=J1900. (computed by VizieR, not part
+     of the original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="Tycho" arraysize="5" datatype="char" name="Tycho" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Cross-identification with Tycho-2 (Cat. IV/25)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>125041</TD>
+      <TD>BD+00 3158</TD>
+      <TD>14 11.9</TD>
+      <TD>+00 23</TD>
+      <TD>0</TD>
+      <TD> 8.90</TD>
+      <TD/>
+      <TD>1</TD>
+      <TD> 9.40</TD>
+      <TD/>
+      <TD>F8</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>14 17 01.2</TD>
+      <TD>-00 04 49</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>125453</TD>
+      <TD>BD+00 3162</TD>
+      <TD>14 14.4</TD>
+      <TD>+00 27</TD>
+      <TD>0</TD>
+      <TD> 8.40</TD>
+      <TD/>
+      <TD>1</TD>
+      <TD> 9.50</TD>
+      <TD/>
+      <TD>K2</TD>
+      <TD>3</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>14 19 31.1</TD>
+      <TD>-00 00 37</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>125489</TD>
+      <TD>BD+01 2913</TD>
+      <TD>14 14.6</TD>
+      <TD>+00 51</TD>
+      <TD>0</TD>
+      <TD> 6.17</TD>
+      <TD/>
+      <TD>1</TD>
+      <TD> 6.25</TD>
+      <TD/>
+      <TD>A3</TD>
+      <TD>9</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>14 19 42.6</TD>
+      <TD>+00 23 24</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>125609</TD>
+      <TD>BD+00 3165</TD>
+      <TD>14 15.4</TD>
+      <TD>+00 39</TD>
+      <TD>0</TD>
+      <TD> 6.98</TD>
+      <TD/>
+      <TD>1</TD>
+      <TD> 7.98</TD>
+      <TD/>
+      <TD>K0</TD>
+      <TD>6</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>14 20 30.9</TD>
+      <TD>+00 11 28</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>125981</TD>
+      <TD>BD+00 3171</TD>
+      <TD>14 17.7</TD>
+      <TD>-00 11</TD>
+      <TD>0</TD>
+      <TD> 6.64</TD>
+      <TD/>
+      <TD>1</TD>
+      <TD> 6.64</TD>
+      <TD/>
+      <TD>A0</TD>
+      <TD>8</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>14 22 50.0</TD>
+      <TD>-00 38 21</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>126130</TD>
+      <TD>BD+00 3173</TD>
+      <TD>14 18.5</TD>
+      <TD>+00 31</TD>
+      <TD>0</TD>
+      <TD> 9.20</TD>
+      <TD/>
+      <TD>1</TD>
+      <TD>10.00</TD>
+      <TD/>
+      <TD>G5</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>14 23 37.0</TD>
+      <TD>+00 03 43</TD>
+      <TD>Tycho</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

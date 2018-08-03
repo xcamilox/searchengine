@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_A_A_514_A2_table4" name="J/A+A/514/A2/table4">
+   <DESCRIPTION>
+    *AKARI-2MASS samples with known object types, with sources sorted
+    by increasing order of RA for each object type
+   </DESCRIPTION>
+   <FIELD ID="S9W" datatype="float" name="S9W" precision="3" ucd="PHOT_FLUX_IR_9" unit="mag" width="6">
+    <DESCRIPTION>
+     ? S9W magnitude in AKARI-vega system
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_S9W" datatype="float" name="e_S9W" precision="3" ucd="ERROR" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Error in S9W magnitude in AKARI-vega system
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="L18W" datatype="float" name="L18W" precision="3" ucd="PHOT_FLUX_IR_15" unit="mag" width="6">
+    <DESCRIPTION>
+     ? L18W magnitude in AKARI-vega system
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_L18W" datatype="float" name="e_L18W" precision="3" ucd="ERROR" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Error in L18W magnitude in AKARI-vega system
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="IRC" arraysize="3" datatype="char" name="IRC" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the AKARI/IRC data (Ishihara et al., 2010, Cat. II/297)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_2M" arraysize="2" datatype="char" name="_2M" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the 2MASS data (Cutri et al., 2003, Cat. II/246)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="3" ucd="PHOT_JHN_J" unit="mag" width="6">
+    <DESCRIPTION>
+     ? 2MASS (II/246) J magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_Jmag" datatype="float" name="e_Jmag" precision="3" ucd="ERROR" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Error in 2MASS J magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Hmag" datatype="float" name="Hmag" precision="3" ucd="PHOT_JHN_H" unit="mag" width="6">
+    <DESCRIPTION>
+     ? 2MASS (II/246) H magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_Hmag" datatype="float" name="e_Hmag" precision="3" ucd="ERROR" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Error in 2MASS H magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Ksmag" datatype="float" name="Ksmag" precision="3" ucd="PHOT_JHN_K" unit="mag" width="6">
+    <DESCRIPTION>
+     ? 2MASS (II/246) Ks magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_Ksmag" datatype="float" name="e_Ksmag" precision="3" ucd="ERROR" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Error in 2MASS Ks magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Type" arraysize="6" datatype="char" name="Type" ucd="CLASS_OBJECT">
+    <DESCRIPTION>
+     Known object type (G1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right ascension in AKARI catalog (J2000.0)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Seclination in AKARI catalog (J2000.0)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD> 6.098</TD>
+      <TD> 0.023</TD>
+      <TD/>
+      <TD/>
+      <TD>IRC</TD>
+      <TD>2M</TD>
+      <TD> 8.986</TD>
+      <TD> 0.019</TD>
+      <TD> 7.706</TD>
+      <TD> 0.018</TD>
+      <TD> 7.125</TD>
+      <TD> 0.023</TD>
+      <TD>Carbon</TD>
+      <TD>299.11567</TD>
+      <TD> 34.72020</TD>
+     </TR>
+     <TR>
+      <TD> 6.113</TD>
+      <TD> 0.038</TD>
+      <TD/>
+      <TD/>
+      <TD>IRC</TD>
+      <TD>2M</TD>
+      <TD> 9.286</TD>
+      <TD> 0.022</TD>
+      <TD> 7.929</TD>
+      <TD> 0.016</TD>
+      <TD> 7.252</TD>
+      <TD> 0.018</TD>
+      <TD>Carbon</TD>
+      <TD>299.27925</TD>
+      <TD> 35.65367</TD>
+     </TR>
+     <TR>
+      <TD> 6.177</TD>
+      <TD> 0.060</TD>
+      <TD/>
+      <TD/>
+      <TD>IRC</TD>
+      <TD>2M</TD>
+      <TD> 8.978</TD>
+      <TD> 0.026</TD>
+      <TD> 7.917</TD>
+      <TD> 0.023</TD>
+      <TD> 7.370</TD>
+      <TD> 0.020</TD>
+      <TD>Carbon</TD>
+      <TD>299.38215</TD>
+      <TD> 35.76994</TD>
+     </TR>
+     <TR>
+      <TD> 4.484</TD>
+      <TD> 0.027</TD>
+      <TD> 3.970</TD>
+      <TD> 0.070</TD>
+      <TD>IRC</TD>
+      <TD>2M</TD>
+      <TD> 7.601</TD>
+      <TD> 0.023</TD>
+      <TD> 6.097</TD>
+      <TD> 0.021</TD>
+      <TD> 5.330</TD>
+      <TD> 0.018</TD>
+      <TD>Carbon</TD>
+      <TD>299.44888</TD>
+      <TD> 34.85740</TD>
+     </TR>
+     <TR>
+      <TD> 5.927</TD>
+      <TD> 0.059</TD>
+      <TD/>
+      <TD/>
+      <TD>IRC</TD>
+      <TD>2M</TD>
+      <TD> 9.254</TD>
+      <TD> 0.021</TD>
+      <TD> 7.872</TD>
+      <TD> 0.020</TD>
+      <TD> 7.149</TD>
+      <TD> 0.020</TD>
+      <TD>Carbon</TD>
+      <TD>299.72888</TD>
+      <TD> 36.00056</TD>
+     </TR>
+     <TR>
+      <TD> 4.668</TD>
+      <TD> 0.031</TD>
+      <TD> 4.253</TD>
+      <TD> 0.110</TD>
+      <TD>IRC</TD>
+      <TD>2M</TD>
+      <TD> 8.499</TD>
+      <TD> 0.019</TD>
+      <TD> 6.969</TD>
+      <TD> 0.020</TD>
+      <TD> 6.068</TD>
+      <TD> 0.016</TD>
+      <TD>Carbon</TD>
+      <TD>300.49171</TD>
+      <TD> 34.54462</TD>
+     </TR>
+     <TR>
+      <TD> 6.787</TD>
+      <TD> 0.117</TD>
+      <TD/>
+      <TD/>
+      <TD>IRC</TD>
+      <TD>2M</TD>
+      <TD> 9.848</TD>
+      <TD> 0.021</TD>
+      <TD> 8.342</TD>
+      <TD> 0.026</TD>
+      <TD> 7.688</TD>
+      <TD> 0.021</TD>
+      <TD>Carbon</TD>
+      <TD>300.63726</TD>
+      <TD> 34.75829</TD>
+     </TR>
+     <TR>
+      <TD> 1.302</TD>
+      <TD> 0.029</TD>
+      <TD>-2.154</TD>
+      <TD> 0.017</TD>
+      <TD>IRC</TD>
+      <TD>2M</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>14.321</TD>
+      <TD> 0.077</TD>
+      <TD>OH/IR</TD>
+      <TD>299.63452</TD>
+      <TD> 34.52595</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

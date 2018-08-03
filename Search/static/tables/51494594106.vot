@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="I_97_perth75" name="I/97/perth75">
+   <DESCRIPTION>
+    The catalogue Perth 75
+   </DESCRIPTION>
+   <FIELD ID="FK4" datatype="short" name="FK4" ucd="ID_MAIN" width="4">
+    <DESCRIPTION>
+     Star number in FK4 (&lt; 2000) or FK4S (&gt; 2000).
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_MAG_V" unit="mag" width="5">
+    <DESCRIPTION>
+     Observed or FK4 visual magnitude (see n_Vmag)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_Vmag" arraysize="1" datatype="char" name="n_Vmag" ucd="NOTE">
+    <DESCRIPTION>
+     [s] An "s" (lower case) if Vmag has been taken from the FK4.
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sp" arraysize="2" datatype="char" name="Sp" ucd="SPECT_TYPE_GENERAL">
+    <DESCRIPTION>
+     The HD spectral type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAB1950" arraysize="12" datatype="char" name="RAB1950" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension B1950
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEB1950" arraysize="12" datatype="char" name="DEB1950" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination B1950
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="double" name="pmRA" precision="5" ucd="POS_EQ_PMRA" unit="s.yr-1" width="8">
+    <DESCRIPTION>
+     Annual proper motion in R.A.
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="float" name="pmDE" precision="4" ucd="POS_EQ_PMDEC" unit="arcs.yr-1" width="7">
+    <DESCRIPTION>
+     Annual proper motion in Dec.
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="O-C_RA_" datatype="float" name="O-C_RA_" precision="2" ucd="POS_EQ_RA_OFF" unit="10mas" width="5">
+    <DESCRIPTION>
+     Observed residual in apparent RA cos(Dec), in the sense Observed
+     minus FK4 or FK4S.
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA.icrs" arraysize="12" datatype="char" name="_RA.icrs" ucd="POS_EQ_RA_OTHER" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (ICRS) at Epoch=J2000, proper motions taken into
+     account  (computed by VizieR, not part of the original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" arraysize="12" datatype="char" name="_DE.icrs" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (ICRS) at Epoch=J2000, proper motions taken into
+     account  (computed by VizieR, not part of the original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>1521</TD>
+      <TD> 4.33</TD>
+      <TD/>
+      <TD>K0</TD>
+      <TD>19 54 25.726</TD>
+      <TD>+34 56 58.31</TD>
+      <TD>-0.00275</TD>
+      <TD>-0.0263</TD>
+      <TD> 0.00</TD>
+      <TD>19 56 18.452</TD>
+      <TD>+35 05 00.99</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

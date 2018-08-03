@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="IX_31_wgacat" name="IX/31/wgacat">
+   <DESCRIPTION>
+    The full catalogue
+   </DESCRIPTION>
+   <FIELD ID="_1WGA" arraysize="12" datatype="char" name="_1WGA" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Source name (based on J2000 position) (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="f_1WGA" arraysize="1" datatype="char" name="f_1WGA" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [*] '*' indicates multiple entries with the same 1WGA name (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="4" ucd="POS_EQ_RA_MAIN" unit="deg" width="8">
+    <DESCRIPTION>
+     Right ascension of source (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="4" ucd="POS_EQ_DEC_MAIN" unit="deg" width="8">
+    <DESCRIPTION>
+     Declination of source (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Count" datatype="double" name="Count" precision="5" ucd="PHOT_COUNT-RATE_X" unit="ct.s-1" width="10">
+    <DESCRIPTION>
+     Background subtracted count rate accumulated in PHA bins 24 to
+     224 (0.24-2.0keV)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_Count" datatype="double" name="e_Count" precision="5" ucd="ERROR" unit="ct.s-1" width="8">
+    <DESCRIPTION>
+     Mean error on Count
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="ErrorRad" datatype="short" name="ErrorRad" ucd="ERROR" unit="arcs" width="3">
+    <DESCRIPTION>
+     90% confidence source error radius.
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Qflag" datatype="short" name="Qflag" ucd="CODE_QUALITY" width="2">
+    <DESCRIPTION>
+     [5,12] Quality flag from bad to good (6)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="ExpTime" datatype="int" name="ExpTime" ucd="TIME_EXPTIME" unit="s" width="6">
+    <DESCRIPTION>
+     Exposure time of the field
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HR1" datatype="double" name="HR1" precision="4" ucd="SPECT_HARDNESS-RATIO" width="8">
+    <DESCRIPTION>
+     Hardness ratio 86-200/40-85 (7)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HR2" datatype="double" name="HR2" precision="4" ucd="SPECT_HARDNESS-RATIO" width="8">
+    <DESCRIPTION>
+     Hard hardness ratio 130-240/87-129 (7)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="MPEname" arraysize="14" datatype="char" name="MPEname" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Name in MPE catalog &lt;IX/11&gt;
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>J1959.0+3427</TD>
+      <TD/>
+      <TD>299.7513</TD>
+      <TD> 34.4649</TD>
+      <TD>   0.04240</TD>
+      <TD> 0.00570</TD>
+      <TD>50</TD>
+      <TD>7</TD>
+      <TD>5085</TD>
+      <TD>  0.7500</TD>
+      <TD>  0.4186</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>J1956.5+3507</TD>
+      <TD/>
+      <TD>299.1283</TD>
+      <TD> 35.1247</TD>
+      <TD>   0.01720</TD>
+      <TD> 0.00260</TD>
+      <TD>50</TD>
+      <TD>7</TD>
+      <TD>5085</TD>
+      <TD>  1.0340</TD>
+      <TD>  0.7222</TD>
+      <TD/>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

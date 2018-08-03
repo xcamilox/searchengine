@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="V_145_sky2kv5" name="V/145/sky2kv5">
+   <DESCRIPTION>
+    The Sky2000 Version 5 Catalogue
+   </DESCRIPTION>
+   <FIELD ID="SKY2000" arraysize="19" datatype="char" name="SKY2000" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Identifier based on J2000 position
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HD" datatype="int" name="HD" ucd="ID_ALTERNATIVE" width="6">
+    <DESCRIPTION>
+     ? Henry Draper &lt;III/135&gt; number [NULL integer written as an empty
+     string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="13" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (J2000) hours
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="13" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination degrees (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="double" name="pmRA" precision="5" ucd="POS_EQ_PMRA" unit="s.a-1" width="8">
+    <DESCRIPTION>
+     ? Proper motion in RA (J2000)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="double" name="pmDE" precision="4" ucd="POS_EQ_PMDEC" unit="arcs.a-1" width="8">
+    <DESCRIPTION>
+     ? Proper motion in Dec (J2000)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="RV" datatype="float" name="RV" precision="1" ucd="VELOC_HC" unit="km.s-1" width="6">
+    <DESCRIPTION>
+     [-409/380]? Radial velocity
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Plx" datatype="double" name="Plx" precision="5" ucd="POS_PARLX_TRIG" unit="arcs" width="8">
+    <DESCRIPTION>
+     ? Trigonometric parallax
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="3" ucd="PHOT_MAG_V" unit="mag" width="6">
+    <DESCRIPTION>
+     [-1.5/13]? Observed visual magnitude (V or v)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="B-V" datatype="float" name="B-V" precision="3" ucd="PHOT_JHN_B-V" unit="mag" width="6">
+    <DESCRIPTION>
+     ? B-V color (observed)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="U-B" datatype="float" name="U-B" precision="3" ucd="PHOT_JHN_U-B" unit="mag" width="6">
+    <DESCRIPTION>
+     ? U-B color (observed)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="SpMK" arraysize="30" datatype="char" name="SpMK" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     Morgan-Keenan (MK) spectral type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Get details from the SIMBAD data-base
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>J195449.04+350019.9</TD>
+      <TD>226502</TD>
+      <TD>19 54 49.0475</TD>
+      <TD>+35 00 19.901</TD>
+      <TD> 0.00025</TD>
+      <TD> -0.0168</TD>
+      <TD/>
+      <TD> 0.00245</TD>
+      <TD> 8.570</TD>
+      <TD> 0.700</TD>
+      <TD> 0.260</TD>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195450.96+354902.4</TD>
+      <TD>226510</TD>
+      <TD>19 54 50.9698</TD>
+      <TD>+35 49 02.411</TD>
+      <TD>-0.00070</TD>
+      <TD> -0.0310</TD>
+      <TD/>
+      <TD>-0.00740</TD>
+      <TD> 8.820</TD>
+      <TD> 0.982</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195456.15+353150.6</TD>
+      <TD>226511</TD>
+      <TD>19 54 56.1564</TD>
+      <TD>+35 31 50.689</TD>
+      <TD> 0.00020</TD>
+      <TD> -0.0091</TD>
+      <TD/>
+      <TD>-0.00030</TD>
+      <TD> 9.770</TD>
+      <TD> 0.073</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195456.55+345600.3</TD>
+      <TD>226513</TD>
+      <TD>19 54 56.5574</TD>
+      <TD>+34 56 00.319</TD>
+      <TD> 0.00017</TD>
+      <TD> -0.0281</TD>
+      <TD/>
+      <TD> 0.01490</TD>
+      <TD> 8.940</TD>
+      <TD> 1.314</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195500.13+345402.1</TD>
+      <TD>188668</TD>
+      <TD>19 55 00.1381</TD>
+      <TD>+34 54 02.173</TD>
+      <TD> 0.00027</TD>
+      <TD>  0.0193</TD>
+      <TD> -26.8</TD>
+      <TD> 0.00273</TD>
+      <TD> 7.226</TD>
+      <TD> 1.179</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195502.82+355039.7</TD>
+      <TD>226535</TD>
+      <TD>19 55 02.8224</TD>
+      <TD>+35 50 39.751</TD>
+      <TD> 0.00085</TD>
+      <TD>  0.0087</TD>
+      <TD/>
+      <TD> 0.00140</TD>
+      <TD> 9.450</TD>
+      <TD> 1.124</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195503.41+355218.5</TD>
+      <TD>226534</TD>
+      <TD>19 55 03.4186</TD>
+      <TD>+35 52 18.506</TD>
+      <TD> 0.00390</TD>
+      <TD>  0.0180</TD>
+      <TD/>
+      <TD> 0.02690</TD>
+      <TD>10.420</TD>
+      <TD> 0.865</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195517.28+355307.0</TD>
+      <TD>226550</TD>
+      <TD>19 55 17.2880</TD>
+      <TD>+35 53 07.059</TD>
+      <TD>-0.00009</TD>
+      <TD> -0.0117</TD>
+      <TD/>
+      <TD> 0.01950</TD>
+      <TD> 9.530</TD>
+      <TD> 0.904</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195546.89+345918.7</TD>
+      <TD>226591</TD>
+      <TD>19 55 46.8948</TD>
+      <TD>+34 59 18.749</TD>
+      <TD> 0.00022</TD>
+      <TD> -0.0153</TD>
+      <TD/>
+      <TD> 0.02750</TD>
+      <TD> 9.490</TD>
+      <TD> 0.250</TD>
+      <TD> 0.070</TD>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195558.62+354928.6</TD>
+      <TD>188893</TD>
+      <TD>19 55 58.6261</TD>
+      <TD>+35 49 28.639</TD>
+      <TD> 0.00009</TD>
+      <TD>  0.0029</TD>
+      <TD/>
+      <TD> 0.01000</TD>
+      <TD> 8.730</TD>
+      <TD> 0.007</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195604.71+353205.5</TD>
+      <TD>226635</TD>
+      <TD>19 56 04.7139</TD>
+      <TD>+35 32 05.508</TD>
+      <TD> 0.00036</TD>
+      <TD> -0.0059</TD>
+      <TD/>
+      <TD>-0.00230</TD>
+      <TD> 8.910</TD>
+      <TD> 0.311</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195618.37+350500.3</TD>
+      <TD>188947</TD>
+      <TD>19 56 18.3719</TD>
+      <TD>+35 05 00.325</TD>
+      <TD>-0.00277</TD>
+      <TD> -0.0276</TD>
+      <TD> -26.5</TD>
+      <TD> 0.02340</TD>
+      <TD> 3.900</TD>
+      <TD> 1.017</TD>
+      <TD/>
+      <TD>K0III</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195624.63+354724.3</TD>
+      <TD>188969</TD>
+      <TD>19 56 24.6362</TD>
+      <TD>+35 47 24.318</TD>
+      <TD> 0.00060</TD>
+      <TD>  0.0040</TD>
+      <TD/>
+      <TD> 0.00290</TD>
+      <TD> 7.580</TD>
+      <TD> 0.830</TD>
+      <TD> 0.450</TD>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195637.93+353402.8</TD>
+      <TD>226687</TD>
+      <TD>19 56 37.9396</TD>
+      <TD>+35 34 02.831</TD>
+      <TD> 0.00010</TD>
+      <TD>  0.0053</TD>
+      <TD/>
+      <TD> 0.00450</TD>
+      <TD> 8.890</TD>
+      <TD> 0.290</TD>
+      <TD> 0.140</TD>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195639.34+354153.9</TD>
+      <TD>226692</TD>
+      <TD>19 56 39.3435</TD>
+      <TD>+35 41 53.946</TD>
+      <TD>-0.00090</TD>
+      <TD> -0.0230</TD>
+      <TD/>
+      <TD> 0.01690</TD>
+      <TD> 9.210</TD>
+      <TD> 1.300</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195646.00+360215.5</TD>
+      <TD>226707</TD>
+      <TD>19 56 46.0054</TD>
+      <TD>+36 02 15.580</TD>
+      <TD>-0.00037</TD>
+      <TD> -0.0043</TD>
+      <TD/>
+      <TD>-0.01190</TD>
+      <TD> 9.400</TD>
+      <TD>-0.003</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195646.95+354210.7</TD>
+      <TD>226708</TD>
+      <TD>19 56 46.9519</TD>
+      <TD>+35 42 10.715</TD>
+      <TD> 0.00020</TD>
+      <TD> -0.0010</TD>
+      <TD/>
+      <TD>-0.03630</TD>
+      <TD> 9.970</TD>
+      <TD> 1.064</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195653.35+353212.9</TD>
+      <TD>189085</TD>
+      <TD>19 56 53.3515</TD>
+      <TD>+35 32 12.939</TD>
+      <TD> 0.00124</TD>
+      <TD>  0.0372</TD>
+      <TD/>
+      <TD> 0.00676</TD>
+      <TD> 8.200</TD>
+      <TD> 0.340</TD>
+      <TD> 0.120</TD>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195657.82+355439.3</TD>
+      <TD>226729</TD>
+      <TD>19 56 57.8280</TD>
+      <TD>+35 54 39.305</TD>
+      <TD> 0.00015</TD>
+      <TD>  0.0181</TD>
+      <TD/>
+      <TD>-0.00210</TD>
+      <TD> 8.520</TD>
+      <TD> 1.033</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195700.44+355059.5</TD>
+      <TD>226730</TD>
+      <TD>19 57 00.4444</TD>
+      <TD>+35 50 59.564</TD>
+      <TD> 0.00010</TD>
+      <TD>  0.0026</TD>
+      <TD/>
+      <TD> 0.00260</TD>
+      <TD> 9.370</TD>
+      <TD> 0.034</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195713.31+350153.0</TD>
+      <TD>189148</TD>
+      <TD>19 57 13.3181</TD>
+      <TD>+35 01 53.050</TD>
+      <TD>-0.00098</TD>
+      <TD> -0.0152</TD>
+      <TD>  -9.2</TD>
+      <TD> 0.00895</TD>
+      <TD> 7.270</TD>
+      <TD> 0.460</TD>
+      <TD> 0.000</TD>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195718.55+343452.4</TD>
+      <TD>226753</TD>
+      <TD>19 57 18.5540</TD>
+      <TD>+34 34 52.461</TD>
+      <TD> 0.00009</TD>
+      <TD> -0.0287</TD>
+      <TD/>
+      <TD> 0.00080</TD>
+      <TD> 8.490</TD>
+      <TD> 1.026</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195728.12+360346.7</TD>
+      <TD>226780</TD>
+      <TD>19 57 28.1224</TD>
+      <TD>+36 03 46.766</TD>
+      <TD> 0.00124</TD>
+      <TD>  0.0110</TD>
+      <TD/>
+      <TD>-0.01690</TD>
+      <TD> 9.680</TD>
+      <TD> 0.335</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195749.40+341448.0</TD>
+      <TD>189257</TD>
+      <TD>19 57 49.4043</TD>
+      <TD>+34 14 48.003</TD>
+      <TD> 0.00084</TD>
+      <TD>  0.0041</TD>
+      <TD/>
+      <TD> 0.00168</TD>
+      <TD> 7.890</TD>
+      <TD> 0.067</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195800.69+353332.6</TD>
+      <TD>226836</TD>
+      <TD>19 58 00.6980</TD>
+      <TD>+35 33 32.650</TD>
+      <TD>-0.00130</TD>
+      <TD> -0.0220</TD>
+      <TD/>
+      <TD/>
+      <TD>10.960</TD>
+      <TD> 0.840</TD>
+      <TD> 0.450</TD>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195806.29+352247.0</TD>
+      <TD>189334</TD>
+      <TD>19 58 06.2947</TD>
+      <TD>+35 22 47.051</TD>
+      <TD> 0.00011</TD>
+      <TD> -0.0029</TD>
+      <TD/>
+      <TD> 0.00050</TD>
+      <TD> 9.080</TD>
+      <TD> 0.020</TD>
+      <TD>-0.080</TD>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195811.72+360950.6</TD>
+      <TD>226857</TD>
+      <TD>19 58 11.7260</TD>
+      <TD>+36 09 50.697</TD>
+      <TD>-0.00007</TD>
+      <TD> -0.0012</TD>
+      <TD/>
+      <TD>-0.03490</TD>
+      <TD> 9.840</TD>
+      <TD>-0.055</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195813.66+342521.9</TD>
+      <TD>189335</TD>
+      <TD>19 58 13.6696</TD>
+      <TD>+34 25 21.923</TD>
+      <TD> 0.00042</TD>
+      <TD> -0.0001</TD>
+      <TD/>
+      <TD> 0.00364</TD>
+      <TD> 7.720</TD>
+      <TD>-0.110</TD>
+      <TD>-0.440</TD>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195815.50+341749.2</TD>
+      <TD>226848</TD>
+      <TD>19 58 15.5097</TD>
+      <TD>+34 17 49.247</TD>
+      <TD> 0.00012</TD>
+      <TD> -0.0035</TD>
+      <TD/>
+      <TD> 0.03500</TD>
+      <TD>10.470</TD>
+      <TD> 0.398</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195821.67+351205.7</TD>
+      <TD>226868</TD>
+      <TD>19 58 21.6756</TD>
+      <TD>+35 12 05.775</TD>
+      <TD>-0.00031</TD>
+      <TD> -0.0076</TD>
+      <TD> -13.0</TD>
+      <TD> 0.00058</TD>
+      <TD> 8.940</TD>
+      <TD> 0.714</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195826.18+343046.9</TD>
+      <TD>189394</TD>
+      <TD>19 58 26.1847</TD>
+      <TD>+34 30 46.954</TD>
+      <TD> 0.00066</TD>
+      <TD>  0.0003</TD>
+      <TD/>
+      <TD> 0.00600</TD>
+      <TD> 8.450</TD>
+      <TD>-0.080</TD>
+      <TD>-0.410</TD>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195827.01+355258.5</TD>
+      <TD>226879</TD>
+      <TD>19 58 27.0147</TD>
+      <TD>+35 52 58.506</TD>
+      <TD> 0.00040</TD>
+      <TD> -0.3850</TD>
+      <TD/>
+      <TD>-0.02340</TD>
+      <TD> 9.800</TD>
+      <TD> 0.039</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195838.76+350409.2</TD>
+      <TD>189434</TD>
+      <TD>19 58 38.7646</TD>
+      <TD>+35 04 09.223</TD>
+      <TD> 0.00000</TD>
+      <TD>  0.0030</TD>
+      <TD/>
+      <TD> 0.00280</TD>
+      <TD> 8.800</TD>
+      <TD> 0.030</TD>
+      <TD>-0.190</TD>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195851.64+352951.9</TD>
+      <TD>189474</TD>
+      <TD>19 58 51.6419</TD>
+      <TD>+35 29 51.923</TD>
+      <TD> 0.00217</TD>
+      <TD>  0.0082</TD>
+      <TD>   4.6</TD>
+      <TD> 0.00380</TD>
+      <TD> 7.000</TD>
+      <TD> 0.022</TD>
+      <TD/>
+      <TD>A1V</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195854.69+343943.0</TD>
+      <TD>226922</TD>
+      <TD>19 58 54.6942</TD>
+      <TD>+34 39 43.076</TD>
+      <TD> 0.00001</TD>
+      <TD> -0.0037</TD>
+      <TD/>
+      <TD> 0.02960</TD>
+      <TD> 8.590</TD>
+      <TD> 1.269</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195907.46+353210.1</TD>
+      <TD>189528</TD>
+      <TD>19 59 07.4657</TD>
+      <TD>+35 32 10.104</TD>
+      <TD> 0.00001</TD>
+      <TD> -0.0051</TD>
+      <TD>  -9.0</TD>
+      <TD> 0.00253</TD>
+      <TD> 8.530</TD>
+      <TD> 0.028</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195911.56+360655.1</TD>
+      <TD>226951</TD>
+      <TD>19 59 11.5649</TD>
+      <TD>+36 06 55.162</TD>
+      <TD>-0.00031</TD>
+      <TD> -0.0111</TD>
+      <TD/>
+      <TD> 0.00550</TD>
+      <TD> 9.120</TD>
+      <TD> 0.160</TD>
+      <TD>-0.740</TD>
+      <TD>B0.5III</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195917.36+355143.3</TD>
+      <TD>226958</TD>
+      <TD>19 59 17.3626</TD>
+      <TD>+35 51 43.360</TD>
+      <TD>-0.00010</TD>
+      <TD> -0.0080</TD>
+      <TD/>
+      <TD> 0.01630</TD>
+      <TD> 9.530</TD>
+      <TD> 0.324</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195925.81+354510.9</TD>
+      <TD>226966</TD>
+      <TD>19 59 25.8184</TD>
+      <TD>+35 45 10.981</TD>
+      <TD> 0.00181</TD>
+      <TD> -0.0062</TD>
+      <TD/>
+      <TD>-0.00550</TD>
+      <TD> 9.410</TD>
+      <TD> 0.166</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195926.66+355350.0</TD>
+      <TD>189594</TD>
+      <TD>19 59 26.6637</TD>
+      <TD>+35 53 50.068</TD>
+      <TD> 0.00120</TD>
+      <TD>  0.0040</TD>
+      <TD/>
+      <TD> 0.00610</TD>
+      <TD> 8.060</TD>
+      <TD> 1.041</TD>
+      <TD/>
+      <TD>K0III</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195928.81+342931.5</TD>
+      <TD>189595</TD>
+      <TD>19 59 28.8142</TD>
+      <TD>+34 29 31.564</TD>
+      <TD> 0.00076</TD>
+      <TD> -0.0107</TD>
+      <TD/>
+      <TD> 0.00610</TD>
+      <TD> 8.380</TD>
+      <TD> 1.155</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195930.02+354732.2</TD>
+      <TD>-2147483648</TD>
+      <TD>19 59 30.0284</TD>
+      <TD>+35 47 32.264</TD>
+      <TD> 0.00136</TD>
+      <TD>  0.0158</TD>
+      <TD/>
+      <TD> 0.00580</TD>
+      <TD>10.310</TD>
+      <TD> 0.444</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195940.35+354858.6</TD>
+      <TD>227004</TD>
+      <TD>19 59 40.3579</TD>
+      <TD>+35 48 58.640</TD>
+      <TD> 0.00056</TD>
+      <TD>  0.0011</TD>
+      <TD/>
+      <TD> 0.01540</TD>
+      <TD> 9.480</TD>
+      <TD> 0.205</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195949.10+351833.5</TD>
+      <TD>227018</TD>
+      <TD>19 59 49.1027</TD>
+      <TD>+35 18 33.531</TD>
+      <TD>-0.00049</TD>
+      <TD> -0.0108</TD>
+      <TD>  20.0</TD>
+      <TD> 0.00140</TD>
+      <TD> 9.060</TD>
+      <TD> 0.370</TD>
+      <TD>-0.630</TD>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195955.79+351747.3</TD>
+      <TD>189688</TD>
+      <TD>19 59 55.7967</TD>
+      <TD>+35 17 47.381</TD>
+      <TD> 0.00000</TD>
+      <TD> -0.0002</TD>
+      <TD/>
+      <TD>-0.00280</TD>
+      <TD> 7.670</TD>
+      <TD> 1.750</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J195956.14+344638.6</TD>
+      <TD>227019</TD>
+      <TD>19 59 56.1472</TD>
+      <TD>+34 46 38.646</TD>
+      <TD> 0.00020</TD>
+      <TD> -0.0140</TD>
+      <TD/>
+      <TD>-0.05240</TD>
+      <TD>10.260</TD>
+      <TD> 0.520</TD>
+      <TD> 0.030</TD>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J200008.51+342301.4</TD>
+      <TD>189705</TD>
+      <TD>20 00 08.5126</TD>
+      <TD>+34 23 01.442</TD>
+      <TD> 0.00030</TD>
+      <TD>  0.0110</TD>
+      <TD/>
+      <TD>-0.00990</TD>
+      <TD> 9.030</TD>
+      <TD> 0.030</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J200018.61+354647.3</TD>
+      <TD>227053</TD>
+      <TD>20 00 18.6113</TD>
+      <TD>+35 46 47.389</TD>
+      <TD> 0.00025</TD>
+      <TD>  0.0006</TD>
+      <TD/>
+      <TD>-0.02420</TD>
+      <TD>10.350</TD>
+      <TD> 0.186</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J200019.03+352130.1</TD>
+      <TD>189777</TD>
+      <TD>20 00 19.0317</TD>
+      <TD>+35 21 30.122</TD>
+      <TD>-0.00009</TD>
+      <TD> -0.0078</TD>
+      <TD/>
+      <TD> 0.00041</TD>
+      <TD> 7.660</TD>
+      <TD> 1.700</TD>
+      <TD> 1.740</TD>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J200025.45+342751.6</TD>
+      <TD>189778</TD>
+      <TD>20 00 25.4596</TD>
+      <TD>+34 27 51.613</TD>
+      <TD> 0.00017</TD>
+      <TD> -0.0021</TD>
+      <TD/>
+      <TD> 0.00360</TD>
+      <TD> 8.200</TD>
+      <TD>-0.030</TD>
+      <TD>-0.420</TD>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

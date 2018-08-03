@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_MNRAS_435_2161_table3" name="J/MNRAS/435/2161/table3">
+   <DESCRIPTION>
+    The final bright M dwarf catalogue
+   </DESCRIPTION>
+   <FIELD ID="Seq" datatype="short" name="Seq" ucd="ID_MAIN" width="4">
+    <DESCRIPTION>
+     [1/8479] Star index
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="6" ucd="POS_EQ_RA_MAIN" unit="deg" width="10">
+    <DESCRIPTION>
+     Right ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="6" ucd="POS_EQ_DEC_MAIN" unit="deg" width="10">
+    <DESCRIPTION>
+     Declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="float" name="pmRA" precision="1" ucd="POS_EQ_PMRA" unit="mas.yr-1" width="7">
+    <DESCRIPTION>
+     Proper motion along RA
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_pmRA" datatype="float" name="e_pmRA" precision="1" ucd="ERROR" unit="mas.yr-1" width="4">
+    <DESCRIPTION>
+     ? rms uncertainty on RA
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="float" name="pmDE" precision="1" ucd="POS_EQ_PMDEC" unit="mas.yr-1" width="7">
+    <DESCRIPTION>
+     Proper motion along DE
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_pmDE" datatype="float" name="e_pmDE" precision="1" ucd="ERROR" unit="mas.yr-1" width="4">
+    <DESCRIPTION>
+     ? rms uncertainty on DE
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="3" ucd="PHOT_JHN_J" unit="mag" width="6">
+    <DESCRIPTION>
+     2MASS J magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Hmag" datatype="float" name="Hmag" precision="3" ucd="PHOT_JHN_H" unit="mag" width="6">
+    <DESCRIPTION>
+     2MASS H magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Kmag" datatype="float" name="Kmag" precision="3" ucd="PHOT_JHN_K" unit="mag" width="6">
+    <DESCRIPTION>
+     2MASS Ks magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="B1mag" datatype="float" name="B1mag" precision="2" ucd="PHOT_PHG_B" unit="mag" width="5">
+    <DESCRIPTION>
+     ? USNO-B1 B1 magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="B2mag" datatype="float" name="B2mag" precision="2" ucd="PHOT_PHG_B" unit="mag" width="5">
+    <DESCRIPTION>
+     ? USNO-B1 B2 magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="R1mag" datatype="float" name="R1mag" precision="2" ucd="PHOT_PHG_R" unit="mag" width="5">
+    <DESCRIPTION>
+     ? USNO-B1 R1 magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="R2mag" datatype="float" name="R2mag" precision="2" ucd="PHOT_PHG_R" unit="mag" width="5">
+    <DESCRIPTION>
+     ? USNO-B1 R2 magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Imag" datatype="float" name="Imag" precision="2" ucd="PHOT_PHG_I" unit="mag" width="5">
+    <DESCRIPTION>
+     ? USNO-B1 I magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="fl" datatype="short" name="fl" ucd="NOTE" width="2">
+    <DESCRIPTION>
+     [0/10] PPMXL flag (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmv" datatype="float" name="pmv" precision="1" ucd="POS_EQ_PM" unit="mas.yr-1" width="6">
+    <DESCRIPTION>
+     ? Proper motion vector
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="J-K" datatype="float" name="J-K" precision="3" ucd="PHOT_JHN_J-K" unit="mag" width="6">
+    <DESCRIPTION>
+     J-K colour index
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="r_pm" datatype="unsignedByte" name="r_pm" ucd="REFER_CODE" width="1">
+    <DESCRIPTION>
+     [1/3] origin of proper motion information (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="M" arraysize="1" datatype="char" name="M" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Details from PPMXL, Tycho-2, USNO-B1 and 2MASS catalogs for this
+     star
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="All" arraysize="3" datatype="char" name="All" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Results from all VizieR at this position (within 3'')
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SimbadName" arraysize="27" datatype="char" name="SimbadName" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Designation understandable by the {\bf\fg{FireBrick}Simbad} data-
+     base
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>6924</TD>
+      <TD>299.855900</TD>
+      <TD> 34.907090</TD>
+      <TD>   91.0</TD>
+      <TD/>
+      <TD>   19.0</TD>
+      <TD/>
+      <TD> 9.040</TD>
+      <TD> 8.560</TD>
+      <TD> 8.250</TD>
+      <TD/>
+      <TD/>
+      <TD>11.40</TD>
+      <TD/>
+      <TD>12.70</TD>
+      <TD>2</TD>
+      <TD>  93.0</TD>
+      <TD> 0.790</TD>
+      <TD>2</TD>
+      <TD>M</TD>
+      <TD>All</TD>
+      <TD>2MASS J19592541+3454255</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

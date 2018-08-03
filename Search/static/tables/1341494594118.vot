@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_AJ_114_850_table" name="J/AJ/114/850/table">
+   <DESCRIPTION>
+    FK5 star positions determined in the extragalactic reference frame
+    with the FASTT CCD meridian telescope
+   </DESCRIPTION>
+   <FIELD ID="FK5" datatype="int" name="FK5" ucd="ID_MAIN" width="5">
+    <DESCRIPTION>
+     FK5 star number (Cat. &lt;I/149&gt;, &lt;I/175&gt;)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HD" datatype="int" name="HD" ucd="ID_ALTERNATIVE" width="6">
+    <DESCRIPTION>
+     HD designation
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="1" ucd="PHOT_MAG_V" unit="mag" width="4">
+    <DESCRIPTION>
+     V magnitude taken from FK5 catalog
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="13" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension, J2000
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="double" name="pmRA" precision="3" ucd="POS_EQ_PMRA" unit="%" width="7">
+    <DESCRIPTION>
+     Proper motion in RA taken from FK5
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="13" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination sign
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="double" name="pmDE" precision="2" ucd="POS_EQ_PMDEC" unit="10mas.yr-1" width="7">
+    <DESCRIPTION>
+     Proper motion in DE taken from FK5
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>1521</TD>
+      <TD>188947</TD>
+      <TD> 3.9</TD>
+      <TD>19 56 18.3843</TD>
+      <TD> -0.257</TD>
+      <TD>+35 05 00.530</TD>
+      <TD>  -2.74</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

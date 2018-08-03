@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="I_311_hip2" name="I/311/hip2">
+   <DESCRIPTION>
+    The Astrometric Catalogue
+   </DESCRIPTION>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     Hipparcos identifier
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_HIP" arraysize="1" datatype="char" name="n_HIP" ucd="NOTE">
+    <DESCRIPTION>
+     Existence of a note in the first version of Hipparcos catalog on
+     {\bf D}uplicity, {\bf P}hotometry or a {\bf General} note;
+     letters W, X, Y, Z indicate notes on several topics (field H70 of
+     the 1997 edition, Cat. I/239)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sn" datatype="short" name="Sn" ucd="FIT_TYPE" width="3">
+    <DESCRIPTION>
+     [0,159] Solution type new reduction (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="So" datatype="unsignedByte" name="So" ucd="FIT_TYPE" width="1">
+    <DESCRIPTION>
+     [0,5] Solution type old reduction (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RArad" datatype="double" name="RArad" precision="8" ucd="POS_EQ_RA_MAIN" unit="deg" width="12">
+    <DESCRIPTION>
+     Right Ascension in ICRS, Ep=1991.25
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DErad" datatype="double" name="DErad" precision="8" ucd="POS_EQ_DEC_MAIN" unit="deg" width="12">
+    <DESCRIPTION>
+     Declination in ICRS, Ep=1991.25
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Plx" datatype="float" name="Plx" precision="2" ucd="POS_PARLX_TRIG" unit="mas" width="7">
+    <DESCRIPTION>
+     Parallax
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_Plx" datatype="float" name="e_Plx" precision="2" ucd="ERROR" unit="mas" width="6">
+    <DESCRIPTION>
+     Formal error on Plx
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="double" name="pmRA" precision="2" ucd="POS_EQ_PMRA" unit="mas.yr-1" width="8">
+    <DESCRIPTION>
+     Proper motion in Right Ascension
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="double" name="pmDE" precision="2" ucd="POS_EQ_PMDEC" unit="mas.yr-1" width="8">
+    <DESCRIPTION>
+     Proper motion in Declination
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Hpmag" datatype="float" name="Hpmag" precision="4" ucd="PHOT_HIPPAR" unit="mag" width="7">
+    <DESCRIPTION>
+     Hipparcos magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="B-V" datatype="float" name="B-V" precision="3" ucd="PHOT_CI_B-V" unit="mag" width="6">
+    <DESCRIPTION>
+     Colour index
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HIP1" arraysize="4" datatype="char" name="HIP1" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Data from the first edition of the Hipparcos Catalog (1997, Cat.
+     I/239)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>97987</TD>
+      <TD/>
+      <TD>5</TD>
+      <TD>0</TD>
+      <TD>298.70435521</TD>
+      <TD> 35.00556880</TD>
+      <TD>   2.68</TD>
+      <TD>  0.69</TD>
+      <TD>    3.97</TD>
+      <TD>  -16.97</TD>
+      <TD> 8.6867</TD>
+      <TD> 0.700</TD>
+      <TD>HIP1</TD>
+     </TR>
+     <TR>
+      <TD>98004</TD>
+      <TD/>
+      <TD>5</TD>
+      <TD>0</TD>
+      <TD>298.75056544</TD>
+      <TD> 34.90055681</TD>
+      <TD>   3.50</TD>
+      <TD>  0.48</TD>
+      <TD>    3.89</TD>
+      <TD>   19.80</TD>
+      <TD> 7.3893</TD>
+      <TD> 1.140</TD>
+      <TD>HIP1</TD>
+     </TR>
+     <TR>
+      <TD>98110</TD>
+      <TD/>
+      <TD>5</TD>
+      <TD>0</TD>
+      <TD>299.07665075</TD>
+      <TD> 35.08349073</TD>
+      <TD>  24.17</TD>
+      <TD>  0.15</TD>
+      <TD>  -33.61</TD>
+      <TD>  -27.87</TD>
+      <TD> 4.0619</TD>
+      <TD> 1.019</TD>
+      <TD>HIP1</TD>
+     </TR>
+     <TR>
+      <TD>98116</TD>
+      <TD/>
+      <TD>5</TD>
+      <TD>0</TD>
+      <TD>299.10262911</TD>
+      <TD> 35.79007878</TD>
+      <TD>   3.04</TD>
+      <TD>  0.56</TD>
+      <TD>    7.64</TD>
+      <TD>    3.93</TD>
+      <TD> 7.7331</TD>
+      <TD> 0.830</TD>
+      <TD>HIP1</TD>
+     </TR>
+     <TR>
+      <TD>98157</TD>
+      <TD/>
+      <TD>5</TD>
+      <TD>0</TD>
+      <TD>299.22225291</TD>
+      <TD> 35.53683691</TD>
+      <TD>   7.04</TD>
+      <TD>  0.69</TD>
+      <TD>   15.44</TD>
+      <TD>   37.56</TD>
+      <TD> 8.2915</TD>
+      <TD> 0.326</TD>
+      <TD>HIP1</TD>
+     </TR>
+     <TR>
+      <TD>98193</TD>
+      <TD/>
+      <TD>15</TD>
+      <TD>3</TD>
+      <TD>299.30552728</TD>
+      <TD> 35.03143920</TD>
+      <TD>   9.67</TD>
+      <TD>  0.58</TD>
+      <TD>  -11.10</TD>
+      <TD>  -14.57</TD>
+      <TD> 7.3666</TD>
+      <TD> 0.470</TD>
+      <TD>HIP1</TD>
+     </TR>
+     <TR>
+      <TD>98239</TD>
+      <TD/>
+      <TD>5</TD>
+      <TD>0</TD>
+      <TD>299.45582066</TD>
+      <TD> 34.24665751</TD>
+      <TD>   2.28</TD>
+      <TD>  0.59</TD>
+      <TD>   10.80</TD>
+      <TD>    3.99</TD>
+      <TD> 7.9305</TD>
+      <TD> 0.078</TD>
+      <TD>HIP1</TD>
+     </TR>
+     <TR>
+      <TD>98289</TD>
+      <TD/>
+      <TD>5</TD>
+      <TD>0</TD>
+      <TD>299.55694111</TD>
+      <TD> 34.42275637</TD>
+      <TD>   3.93</TD>
+      <TD>  0.51</TD>
+      <TD>    5.58</TD>
+      <TD>   -0.29</TD>
+      <TD> 7.6902</TD>
+      <TD>-0.070</TD>
+      <TD>HIP1</TD>
+     </TR>
+     <TR>
+      <TD>98298</TD>
+      <TD>P</TD>
+      <TD>5</TD>
+      <TD>0</TD>
+      <TD>299.59032647</TD>
+      <TD> 35.20162247</TD>
+      <TD>   1.68</TD>
+      <TD>  0.91</TD>
+      <TD>   -3.37</TD>
+      <TD>   -7.15</TD>
+      <TD> 8.9879</TD>
+      <TD> 0.730</TD>
+      <TD>HIP1</TD>
+     </TR>
+     <TR>
+      <TD>98343</TD>
+      <TD/>
+      <TD>5</TD>
+      <TD>0</TD>
+      <TD>299.71509532</TD>
+      <TD> 35.49773641</TD>
+      <TD>   4.68</TD>
+      <TD>  0.40</TD>
+      <TD>   27.03</TD>
+      <TD>    8.88</TD>
+      <TD> 7.0121</TD>
+      <TD> 0.031</TD>
+      <TD>HIP1</TD>
+     </TR>
+     <TR>
+      <TD>98369</TD>
+      <TD>G</TD>
+      <TD>15</TD>
+      <TD>3</TD>
+      <TD>299.78110721</TD>
+      <TD> 35.53615255</TD>
+      <TD>   2.79</TD>
+      <TD>  1.21</TD>
+      <TD>   -0.35</TD>
+      <TD>   -1.73</TD>
+      <TD> 8.1215</TD>
+      <TD> 0.000</TD>
+      <TD>HIP1</TD>
+     </TR>
+     <TR>
+      <TD>98418</TD>
+      <TD/>
+      <TD>5</TD>
+      <TD>0</TD>
+      <TD>299.95461221</TD>
+      <TD> 35.30933984</TD>
+      <TD>   1.89</TD>
+      <TD>  0.98</TD>
+      <TD>   -5.56</TD>
+      <TD>   -9.59</TD>
+      <TD> 9.0969</TD>
+      <TD> 0.338</TD>
+      <TD>HIP1</TD>
+     </TR>
+     <TR>
+      <TD>98465</TD>
+      <TD/>
+      <TD>55</TD>
+      <TD>3</TD>
+      <TD>300.07929770</TD>
+      <TD> 35.35837774</TD>
+      <TD>   1.86</TD>
+      <TD>  0.67</TD>
+      <TD>   -0.95</TD>
+      <TD>   -7.22</TD>
+      <TD> 7.7713</TD>
+      <TD> 1.700</TD>
+      <TD>HIP1</TD>
+     </TR>
+     <TR>
+      <TD>98593</TD>
+      <TD/>
+      <TD>55</TD>
+      <TD>3</TD>
+      <TD>300.39109111</TD>
+      <TD> 34.58309563</TD>
+      <TD>   3.45</TD>
+      <TD>  0.83</TD>
+      <TD>    7.31</TD>
+      <TD>   -3.73</TD>
+      <TD> 8.5452</TD>
+      <TD> 0.010</TD>
+      <TD>HIP1</TD>
+     </TR>
+     <TR>
+      <TD>98637</TD>
+      <TD/>
+      <TD>5</TD>
+      <TD>0</TD>
+      <TD>300.50756734</TD>
+      <TD> 35.33247825</TD>
+      <TD>   2.85</TD>
+      <TD>  0.44</TD>
+      <TD>    1.60</TD>
+      <TD>   -1.62</TD>
+      <TD> 7.3997</TD>
+      <TD>-0.075</TD>
+      <TD>HIP1</TD>
+     </TR>
+     <TR>
+      <TD>98638</TD>
+      <TD/>
+      <TD>5</TD>
+      <TD>0</TD>
+      <TD>300.51190014</TD>
+      <TD> 35.64113274</TD>
+      <TD>   2.11</TD>
+      <TD>  0.58</TD>
+      <TD>   -3.46</TD>
+      <TD>   -7.58</TD>
+      <TD> 7.9972</TD>
+      <TD> 1.401</TD>
+      <TD>HIP1</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

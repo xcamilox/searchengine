@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_MNRAS_411_2770_gr5-mis" name="J/MNRAS/411/2770/gr5-mis">
+   <DESCRIPTION>
+    *Catalog of hot star candidates, from Medium-depth Imaging Survey,
+    GALEX-MIS-SDSS
+   </DESCRIPTION>
+   <FIELD ID="IAU" arraysize="19" datatype="char" name="IAU" ucd="ID_MAIN">
+    <DESCRIPTION>
+     GALEX ID following the IAU convention, JHHMMSS.ss+DDMMSS.s
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_IAU" datatype="unsignedByte" name="n_IAU" ucd="NOTE" width="1">
+    <DESCRIPTION>
+     [0/1] Flag set to 1 for sources with (NUV-r)&lt;0.1 (single star
+     candidates)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sp" datatype="unsignedByte" name="Sp" ucd="NOTE" width="1">
+    <DESCRIPTION>
+     {\bf1} if a spectrum exists in the SDSS [NULL integer written as
+     an empty string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="Dist" datatype="float" name="Dist" precision="1" ucd="POS_ANG_DIST_GENERAL" unit="arcs" width="4">
+    <DESCRIPTION>
+     Distance between the GALEX and SDSS source
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="FUV" datatype="float" name="FUV" precision="2" ucd="PHOT_UV_1500" unit="mag" width="5">
+    <DESCRIPTION>
+     GALEX FUV magnitude (AB mag)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="NUV" datatype="float" name="NUV" precision="2" ucd="PHOT_MAG_UV" unit="mag" width="5">
+    <DESCRIPTION>
+     GALEX NUV magnitude (AB mag)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="f_NUV" datatype="short" name="f_NUV" ucd="CODE_MISC" width="3">
+    <DESCRIPTION>
+     NUV artifact flag from GALEX pipeline
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="umag" datatype="float" name="umag" precision="2" ucd="PHOT_SDSS_U" unit="mag" width="5">
+    <DESCRIPTION>
+     SDSS u magnitude (AB mag)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="gmag" datatype="float" name="gmag" precision="2" ucd="PHOT_SDSS_G" unit="mag" width="5">
+    <DESCRIPTION>
+     SDSS g magnitude (AB mag)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="rmag" datatype="float" name="rmag" precision="2" ucd="PHOT_SDSS_R" unit="mag" width="5">
+    <DESCRIPTION>
+     SDSS r magnitude (AB mag)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="imag" datatype="float" name="imag" precision="2" ucd="PHOT_SDSS_I" unit="mag" width="5">
+    <DESCRIPTION>
+     SDSS i magnitude (AB mag)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="zmag" datatype="float" name="zmag" precision="2" ucd="PHOT_SDSS_Z" unit="mag" width="5">
+    <DESCRIPTION>
+     SDSS z magnitude (AB mag)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="E_B-V_" datatype="float" name="E_B-V_" precision="2" ucd="PHOT_COLOR_EXCESS" unit="mag" width="5">
+    <DESCRIPTION>
+     E(B-V) from Schlegel maps at the source position
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DR7" arraysize="3" datatype="char" name="DR7" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Detailed photometry from SDSS-DR7, Cat. II/294
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="6" ucd="POS_EQ_RA_MAIN" unit="deg" width="10">
+    <DESCRIPTION>
+     Right ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="6" ucd="POS_EQ_DEC_MAIN" unit="deg" width="10">
+    <DESCRIPTION>
+     Declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>J141625.92-004428.6</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD> 0.0</TD>
+      <TD>18.46</TD>
+      <TD>18.79</TD>
+      <TD>136</TD>
+      <TD>18.86</TD>
+      <TD>17.47</TD>
+      <TD>16.40</TD>
+      <TD>15.94</TD>
+      <TD>15.66</TD>
+      <TD> 0.05</TD>
+      <TD>DR7</TD>
+      <TD>214.107985</TD>
+      <TD> -0.741267</TD>
+     </TR>
+     <TR>
+      <TD>J141657.84-004232.7</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD> 0.0</TD>
+      <TD>20.09</TD>
+      <TD>20.27</TD>
+      <TD>0</TD>
+      <TD>20.30</TD>
+      <TD>20.04</TD>
+      <TD>20.32</TD>
+      <TD>20.58</TD>
+      <TD>20.60</TD>
+      <TD> 0.05</TD>
+      <TD>DR7</TD>
+      <TD>214.240980</TD>
+      <TD> -0.709074</TD>
+     </TR>
+     <TR>
+      <TD>J141702.30-003518.0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD> 0.0</TD>
+      <TD>21.03</TD>
+      <TD>21.45</TD>
+      <TD>0</TD>
+      <TD>21.17</TD>
+      <TD>20.90</TD>
+      <TD>20.35</TD>
+      <TD>19.68</TD>
+      <TD>19.03</TD>
+      <TD> 0.04</TD>
+      <TD>DR7</TD>
+      <TD>214.259563</TD>
+      <TD> -0.588330</TD>
+     </TR>
+     <TR>
+      <TD>J141754.65+000613.4</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD> 0.0</TD>
+      <TD>19.03</TD>
+      <TD>19.37</TD>
+      <TD>0</TD>
+      <TD>19.97</TD>
+      <TD>20.58</TD>
+      <TD>20.87</TD>
+      <TD>21.18</TD>
+      <TD>21.43</TD>
+      <TD> 0.04</TD>
+      <TD>DR7</TD>
+      <TD>214.477717</TD>
+      <TD>  0.103729</TD>
+     </TR>
+     <TR>
+      <TD>J141810.61-005129.0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD> 0.0</TD>
+      <TD>22.50</TD>
+      <TD>22.95</TD>
+      <TD>0</TD>
+      <TD>22.01</TD>
+      <TD>22.05</TD>
+      <TD>21.35</TD>
+      <TD>21.64</TD>
+      <TD>20.83</TD>
+      <TD> 0.05</TD>
+      <TD>DR7</TD>
+      <TD>214.544189</TD>
+      <TD> -0.858042</TD>
+     </TR>
+     <TR>
+      <TD>J141835.44-010622.9</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD> 0.0</TD>
+      <TD>20.24</TD>
+      <TD>20.44</TD>
+      <TD>0</TD>
+      <TD>20.84</TD>
+      <TD>20.59</TD>
+      <TD>21.03</TD>
+      <TD>21.49</TD>
+      <TD>22.16</TD>
+      <TD> 0.05</TD>
+      <TD>DR7</TD>
+      <TD>214.647668</TD>
+      <TD> -1.106358</TD>
+     </TR>
+     <TR>
+      <TD>J141850.01+001328.8</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD> 0.0</TD>
+      <TD>21.10</TD>
+      <TD>21.25</TD>
+      <TD>0</TD>
+      <TD>21.48</TD>
+      <TD>21.43</TD>
+      <TD>21.65</TD>
+      <TD>21.75</TD>
+      <TD>22.70</TD>
+      <TD> 0.04</TD>
+      <TD>DR7</TD>
+      <TD>214.708362</TD>
+      <TD>  0.224663</TD>
+     </TR>
+     <TR>
+      <TD>J141856.87-011550.6</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD> 0.0</TD>
+      <TD>22.08</TD>
+      <TD>22.52</TD>
+      <TD>0</TD>
+      <TD>21.37</TD>
+      <TD>19.72</TD>
+      <TD>18.81</TD>
+      <TD>18.46</TD>
+      <TD>18.19</TD>
+      <TD> 0.06</TD>
+      <TD>DR7</TD>
+      <TD>214.736971</TD>
+      <TD> -1.264051</TD>
+     </TR>
+     <TR>
+      <TD>J141901.47+000052.9</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD> 0.0</TD>
+      <TD>22.06</TD>
+      <TD>22.89</TD>
+      <TD>0</TD>
+      <TD>22.89</TD>
+      <TD>22.45</TD>
+      <TD>21.97</TD>
+      <TD>21.57</TD>
+      <TD>22.90</TD>
+      <TD> 0.04</TD>
+      <TD>DR7</TD>
+      <TD>214.756137</TD>
+      <TD>  0.014682</TD>
+     </TR>
+     <TR>
+      <TD>J141902.23+000736.1</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD> 0.0</TD>
+      <TD>22.80</TD>
+      <TD>23.18</TD>
+      <TD>0</TD>
+      <TD>20.86</TD>
+      <TD>19.41</TD>
+      <TD>18.73</TD>
+      <TD>18.49</TD>
+      <TD>18.57</TD>
+      <TD> 0.04</TD>
+      <TD>DR7</TD>
+      <TD>214.759307</TD>
+      <TD>  0.126684</TD>
+     </TR>
+     <TR>
+      <TD>J142008.53-001832.4</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD> 0.0</TD>
+      <TD>20.40</TD>
+      <TD>20.83</TD>
+      <TD>0</TD>
+      <TD>21.79</TD>
+      <TD>22.80</TD>
+      <TD>24.08</TD>
+      <TD>26.57</TD>
+      <TD>23.18</TD>
+      <TD> 0.04</TD>
+      <TD>DR7</TD>
+      <TD>215.035529</TD>
+      <TD> -0.309004</TD>
+     </TR>
+     <TR>
+      <TD>J142014.97+001130.4</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD> 0.0</TD>
+      <TD>21.46</TD>
+      <TD>21.71</TD>
+      <TD>0</TD>
+      <TD>22.40</TD>
+      <TD>22.39</TD>
+      <TD>22.65</TD>
+      <TD>26.41</TD>
+      <TD>22.92</TD>
+      <TD> 0.04</TD>
+      <TD>DR7</TD>
+      <TD>215.062389</TD>
+      <TD>  0.191781</TD>
+     </TR>
+     <TR>
+      <TD>J142022.36-002240.6</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD> 0.0</TD>
+      <TD>21.46</TD>
+      <TD>21.72</TD>
+      <TD>0</TD>
+      <TD>22.97</TD>
+      <TD>26.24</TD>
+      <TD>22.52</TD>
+      <TD>25.59</TD>
+      <TD>21.70</TD>
+      <TD> 0.04</TD>
+      <TD>DR7</TD>
+      <TD>215.093166</TD>
+      <TD> -0.377950</TD>
+     </TR>
+     <TR>
+      <TD>J142034.99-001206.6</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD> 0.0</TD>
+      <TD>21.89</TD>
+      <TD>22.07</TD>
+      <TD>256</TD>
+      <TD>22.59</TD>
+      <TD>22.01</TD>
+      <TD>21.75</TD>
+      <TD>21.99</TD>
+      <TD>21.84</TD>
+      <TD> 0.04</TD>
+      <TD>DR7</TD>
+      <TD>215.145807</TD>
+      <TD> -0.201828</TD>
+     </TR>
+     <TR>
+      <TD>J142120.93-010052.8</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD> 0.0</TD>
+      <TD>15.26</TD>
+      <TD>15.74</TD>
+      <TD>0</TD>
+      <TD>16.49</TD>
+      <TD>16.84</TD>
+      <TD>17.34</TD>
+      <TD>17.69</TD>
+      <TD>18.07</TD>
+      <TD> 0.05</TD>
+      <TD>DR7</TD>
+      <TD>215.337216</TD>
+      <TD> -1.014655</TD>
+     </TR>
+     <TR>
+      <TD>J142121.39-002824.8</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD> 0.0</TD>
+      <TD>22.17</TD>
+      <TD>22.35</TD>
+      <TD>0</TD>
+      <TD>23.22</TD>
+      <TD>22.75</TD>
+      <TD>23.32</TD>
+      <TD>23.04</TD>
+      <TD>22.81</TD>
+      <TD> 0.05</TD>
+      <TD>DR7</TD>
+      <TD>215.339113</TD>
+      <TD> -0.473568</TD>
+     </TR>
+     <TR>
+      <TD>J142129.39-011203.0</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD> 0.0</TD>
+      <TD>18.63</TD>
+      <TD>18.84</TD>
+      <TD>0</TD>
+      <TD>19.11</TD>
+      <TD>18.90</TD>
+      <TD>19.24</TD>
+      <TD>19.56</TD>
+      <TD>19.77</TD>
+      <TD> 0.05</TD>
+      <TD>DR7</TD>
+      <TD>215.372457</TD>
+      <TD> -1.200820</TD>
+     </TR>
+     <TR>
+      <TD>J142131.93-005132.8</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD> 0.0</TD>
+      <TD>21.03</TD>
+      <TD>21.25</TD>
+      <TD>17</TD>
+      <TD>20.93</TD>
+      <TD>20.92</TD>
+      <TD>21.34</TD>
+      <TD>21.67</TD>
+      <TD>21.31</TD>
+      <TD> 0.05</TD>
+      <TD>DR7</TD>
+      <TD>215.383055</TD>
+      <TD> -0.859117</TD>
+     </TR>
+     <TR>
+      <TD>J142149.23-005409.6</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD> 0.0</TD>
+      <TD>22.59</TD>
+      <TD>23.08</TD>
+      <TD>0</TD>
+      <TD>23.39</TD>
+      <TD>21.94</TD>
+      <TD>21.82</TD>
+      <TD>21.49</TD>
+      <TD>20.85</TD>
+      <TD> 0.05</TD>
+      <TD>DR7</TD>
+      <TD>215.455120</TD>
+      <TD> -0.902670</TD>
+     </TR>
+     <TR>
+      <TD>J142150.35-010656.4</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD> 0.0</TD>
+      <TD>22.55</TD>
+      <TD>22.94</TD>
+      <TD>136</TD>
+      <TD>20.61</TD>
+      <TD>19.11</TD>
+      <TD>18.49</TD>
+      <TD>18.29</TD>
+      <TD>18.09</TD>
+      <TD> 0.05</TD>
+      <TD>DR7</TD>
+      <TD>215.459780</TD>
+      <TD> -1.115680</TD>
+     </TR>
+     <TR>
+      <TD>J142201.47+000459.8</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD> 0.0</TD>
+      <TD>22.62</TD>
+      <TD>22.91</TD>
+      <TD>0</TD>
+      <TD>22.30</TD>
+      <TD>23.29</TD>
+      <TD>22.56</TD>
+      <TD>26.08</TD>
+      <TD>21.27</TD>
+      <TD> 0.03</TD>
+      <TD>DR7</TD>
+      <TD>215.506142</TD>
+      <TD>  0.083288</TD>
+     </TR>
+     <TR>
+      <TD>J142230.02-004305.7</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD> 0.0</TD>
+      <TD>22.39</TD>
+      <TD>22.96</TD>
+      <TD>1</TD>
+      <TD>25.07</TD>
+      <TD>22.50</TD>
+      <TD>22.49</TD>
+      <TD>21.44</TD>
+      <TD>21.82</TD>
+      <TD> 0.05</TD>
+      <TD>DR7</TD>
+      <TD>215.625076</TD>
+      <TD> -0.718262</TD>
+     </TR>
+     <TR>
+      <TD>J142256.14-004547.4</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD> 0.0</TD>
+      <TD>21.14</TD>
+      <TD>21.37</TD>
+      <TD>0</TD>
+      <TD>21.94</TD>
+      <TD>21.95</TD>
+      <TD>24.99</TD>
+      <TD>24.75</TD>
+      <TD>24.20</TD>
+      <TD> 0.05</TD>
+      <TD>DR7</TD>
+      <TD>215.733906</TD>
+      <TD> -0.763158</TD>
+     </TR>
+     <TR>
+      <TD>J142314.73-003916.2</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD> 0.0</TD>
+      <TD>22.14</TD>
+      <TD>22.69</TD>
+      <TD>256</TD>
+      <TD>22.63</TD>
+      <TD>22.23</TD>
+      <TD>22.36</TD>
+      <TD>21.26</TD>
+      <TD>21.31</TD>
+      <TD> 0.05</TD>
+      <TD>DR7</TD>
+      <TD>215.811355</TD>
+      <TD> -0.654507</TD>
+     </TR>
+     <TR>
+      <TD>J142316.22-000522.6</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD> 0.0</TD>
+      <TD>23.07</TD>
+      <TD>23.21</TD>
+      <TD>0</TD>
+      <TD>22.23</TD>
+      <TD>22.30</TD>
+      <TD>21.81</TD>
+      <TD>22.24</TD>
+      <TD>21.03</TD>
+      <TD> 0.03</TD>
+      <TD>DR7</TD>
+      <TD>215.817592</TD>
+      <TD> -0.089610</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

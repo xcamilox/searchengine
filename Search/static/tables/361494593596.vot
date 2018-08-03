@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="V_14_catalog" name="V/14/catalog">
+   <DESCRIPTION>
+    Estimated astrophysical parameter data
+   </DESCRIPTION>
+   <FIELD ID="LID" arraysize="10" datatype="char" name="LID" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Designation of the star (see
+     "\begin{tex}\vFile{V/14/./codes.txt}{codes.txt}\end{tex}" file)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="m_LID" arraysize="1" datatype="char" name="m_LID" ucd="CODE_MULT_INDEX">
+    <DESCRIPTION>
+     [1234DV] Multiplicity, variability or duplicity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="__b-y_0" datatype="float" name="__b-y_0" precision="3" ucd="PHOT_STR_B-Y" unit="mag" width="6">
+    <DESCRIPTION>
+     Dereddened Stroemgren index (b-y)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="__c1_0" datatype="float" name="__c1_0" precision="3" ucd="PHOT_RF_STR_C0" unit="mag" width="6">
+    <DESCRIPTION>
+     Dereddened Stroemgren index c1 = (u-v)-(v-b)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="__m1_0" datatype="float" name="__m1_0" precision="3" ucd="PHOT_RF_STR_M0" unit="mag" width="6">
+    <DESCRIPTION>
+     Dereddened Stroemgren index m1 = (v-b)-(b-y)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Hbeta" datatype="float" name="Hbeta" precision="3" ucd="SPECT_INDEX_HBETA" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Dereddened Stroemgren H{beta} index
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="E_b-y_" datatype="float" name="E_b-y_" precision="3" ucd="PHOT_COLOR_EXCESS" unit="mag" width="6">
+    <DESCRIPTION>
+     Derived color excess in (b-y)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="dm1" datatype="float" name="dm1" precision="3" ucd="PHOT_DIFF_MAG" unit="mag" width="6">
+    <DESCRIPTION>
+     Deviation of dereddened m1 index from ZAMS
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="dc1" datatype="float" name="dc1" precision="3" ucd="PHOT_DIFF_MAG" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Deviation of dereddened c1 index from ZAMS
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="SpG" arraysize="3" datatype="char" name="SpG" ucd="ID_GROUP">
+    <DESCRIPTION>
+     Spectral group: B, A*, A, F, AM, AP
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Mv" datatype="float" name="Mv" precision="2" ucd="PHOT_ABS-MAG_BAND" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Estimated visual absolute magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="theta" datatype="float" name="theta" precision="2" ucd="PHYS_TEMP_THETA" width="5">
+    <DESCRIPTION>
+     ? Estimated effective temperature (5040/T)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="log.g" datatype="float" name="log.g" precision="2" ucd="PHYS_GRAVITY_SURFACE" unit="[cm/s2]" width="5">
+    <DESCRIPTION>
+     ? Estimated gravity
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="__Fe_H_" datatype="float" name="__Fe_H_" precision="2" ucd="PHYS_ABUND_FE/H" unit="[Sun]" width="5">
+    <DESCRIPTION>
+     ? Estimated metallicity (relative to solar)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Position from Simbad {\em(missing in the case the LID number
+     could not be interpreted)} (right ascension part)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Position from Simbad {\em(missing in the case the LID number
+     could not be interpreted)} (declination part)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>1.00125489</TD>
+      <TD/>
+      <TD> 0.101</TD>
+      <TD> 0.889</TD>
+      <TD> 0.201</TD>
+      <TD> 2.838</TD>
+      <TD> 0.008</TD>
+      <TD> 0.007</TD>
+      <TD> 0.043</TD>
+      <TD>A /</TD>
+      <TD> 2.12</TD>
+      <TD> 0.61</TD>
+      <TD> 4.21</TD>
+      <TD/>
+      <TD>214.92063</TD>
+      <TD>  0.38433</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

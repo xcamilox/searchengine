@@ -1,0 +1,1458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_AJ_151_41_movers" name="J/AJ/151/41/movers">
+   <DESCRIPTION>
+    Astrometry for 8735004 low-mass stars (\originalcolumnnames);
+    {\fg{red4}a subset of the columns is available here; the full
+    table is available in the {\aFile{J/AJ/151/41/MoVeRS.fits}{FITS
+    file} (1.7Gb, gzipped)}}
+   </DESCRIPTION>
+   <FIELD ID="full" arraysize="4" datatype="char" name="full" ucd="DATA_LINK">
+    <DESCRIPTION>
+     All parameters for this source
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="6" ucd="POS_EQ_RA_MAIN" unit="deg" width="10">
+    <DESCRIPTION>
+     SDSS Right ascension (J2000.0) (\original{SDSS_RA})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="6" ucd="POS_EQ_DEC_MAIN" unit="deg" width="10">
+    <DESCRIPTION>
+     SDSS Declination (J2000.0) (\original{SDSS_DEC})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="umag" datatype="float" name="umag" precision="3" ucd="PHOT_SDSS_U" unit="mag" width="6">
+    <DESCRIPTION>
+     ? SDSS u-band PSF magnitude (\original{UMAG})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="gmag" datatype="float" name="gmag" precision="3" ucd="PHOT_SDSS_G" unit="mag" width="6">
+    <DESCRIPTION>
+     ? SDSS g-band PSF magnitude (\original{GMAG})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="rmag" datatype="float" name="rmag" precision="3" ucd="PHOT_SDSS_R" unit="mag" width="6">
+    <DESCRIPTION>
+     SDSS r-band PSF magnitude (\original{RMAG})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="imag" datatype="float" name="imag" precision="3" ucd="PHOT_SDSS_I" unit="mag" width="6">
+    <DESCRIPTION>
+     SDSS i-band PSF magnitude (\original{IMAG})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Q2" arraysize="3" datatype="char" name="Q2" ucd="CODE_QUALITY">
+    <DESCRIPTION>
+     2MASS photometric quality flag (\original{2MASS_PH_QUAL})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="3" ucd="PHOT_JHN_J" unit="mag" width="6">
+    <DESCRIPTION>
+     ? 2MASS J-band PSF magnitude (\original{JMAG})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Kmag" datatype="float" name="Kmag" precision="3" ucd="PHOT_JHN_K" unit="mag" width="6">
+    <DESCRIPTION>
+     ? 2MASS K-band PSF magnitude (\original{KMAG})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="W1mag" datatype="float" name="W1mag" precision="3" ucd="PHOT_IR_3.4" unit="mag" width="6">
+    <DESCRIPTION>
+     ? WISE W1-band PSF magnitude (\original{W1MPRO})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="float" name="pmRA" precision="1" ucd="POS_EQ_PMRA" unit="mas.yr-1" width="7">
+    <DESCRIPTION>
+     Proper motion in right ascension (proper units, i.e.
+     {mu}_{alpha}_cos{delta}) (\original{PMRA})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_pmRA" datatype="float" name="e_pmRA" precision="1" ucd="ERROR" unit="mas.yr-1" width="6">
+    <DESCRIPTION>
+     Combined error in pmRA (\original{PMRA_TOTERR})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="float" name="pmDE" precision="1" ucd="POS_EQ_PMDEC" unit="mas.yr-1" width="7">
+    <DESCRIPTION>
+     Proper motion in declination (\original{PMDEC})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_pmDE" datatype="float" name="e_pmDE" precision="1" ucd="ERROR" unit="mas.yr-1" width="6">
+    <DESCRIPTION>
+     Combined error in pmDE (\original{PMDEC_TOTERR})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dt" datatype="float" name="Dt" precision="3" ucd="TIME_INTERVAL" unit="yr" width="6">
+    <DESCRIPTION>
+     [1/13.5]? Time baseline used to compute proper motion
+     (\original{BASELINE})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="fp" datatype="short" name="fp" ucd="CODE_MISC" width="3">
+    <DESCRIPTION>
+     [0/111] Proper motion detection flag (\original{DBIT}) (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA4" datatype="float" name="pmRA4" precision="1" ucd="POS_EQ_PMRA" unit="mas.yr-1" width="7">
+    <DESCRIPTION>
+     ? Munn et al. proper motion in right ascension
+     (\original{PMRA_M04}) (4)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_pmRA4" datatype="float" name="e_pmRA4" precision="1" ucd="ERROR" unit="mas.yr-1" width="5">
+    <DESCRIPTION>
+     ? Error in M04 pmRA (\original{PMRAERR_M04}) (4)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="pmDE4" datatype="float" name="pmDE4" precision="1" ucd="POS_EQ_PMDEC" unit="mas.yr-1" width="7">
+    <DESCRIPTION>
+     ? Munn et al. proper motion in declination (\original{PMDEC_M04})
+     (4)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_pmDE4" datatype="float" name="e_pmDE4" precision="1" ucd="ERROR" unit="mas.yr-1" width="5">
+    <DESCRIPTION>
+     ? Error in M04 pmDE (\original{PMDECERR_M04}) (4)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="RAfit" datatype="float" name="RAfit" precision="1" ucd="FIT_RESIDUAL" unit="mas" width="6">
+    <DESCRIPTION>
+     [0/525]? M04 RMS residual for the proper motion fit in right
+     ascension (\original{SIGRA_M04}) (4)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="DEfit" datatype="float" name="DEfit" precision="1" ucd="FIT_RESIDUAL" unit="mas" width="6">
+    <DESCRIPTION>
+     [0/525]? M04 RMS residual for the proper motion fit in
+     declination (\original{SIGDEC_M04}) (4)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="src" arraysize="3" datatype="char" name="src" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Details of sources in SDSS-DR9, WISE, 2MASS and USNO-B1 within
+     10arcsec
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>full</TD>
+      <TD>215.056077</TD>
+      <TD> -1.078499</TD>
+      <TD>22.329</TD>
+      <TD>19.034</TD>
+      <TD>17.667</TD>
+      <TD>16.504</TD>
+      <TD>AAA</TD>
+      <TD>14.603</TD>
+      <TD>13.752</TD>
+      <TD>13.703</TD>
+      <TD>  -47.9</TD>
+      <TD>  10.4</TD>
+      <TD> -129.0</TD>
+      <TD>   9.7</TD>
+      <TD>11.385</TD>
+      <TD>111</TD>
+      <TD>  -35.4</TD>
+      <TD>  3.4</TD>
+      <TD> -119.8</TD>
+      <TD>  3.4</TD>
+      <TD> 223.6</TD>
+      <TD> 134.0</TD>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>215.073934</TD>
+      <TD> -1.088322</TD>
+      <TD>23.141</TD>
+      <TD>20.106</TD>
+      <TD>18.946</TD>
+      <TD>18.467</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>16.254</TD>
+      <TD>  -30.7</TD>
+      <TD>  17.4</TD>
+      <TD>   42.5</TD>
+      <TD>  19.0</TD>
+      <TD>11.371</TD>
+      <TD>11</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>215.202975</TD>
+      <TD> -1.056157</TD>
+      <TD>24.242</TD>
+      <TD>20.221</TD>
+      <TD>18.866</TD>
+      <TD>17.732</TD>
+      <TD>AAB</TD>
+      <TD>15.817</TD>
+      <TD>15.056</TD>
+      <TD>14.898</TD>
+      <TD>  -36.6</TD>
+      <TD>   7.9</TD>
+      <TD>   -2.6</TD>
+      <TD>  12.7</TD>
+      <TD>11.384</TD>
+      <TD>111</TD>
+      <TD>  -19.2</TD>
+      <TD>  4.8</TD>
+      <TD>    6.0</TD>
+      <TD>  4.8</TD>
+      <TD> 269.7</TD>
+      <TD> 184.6</TD>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>215.220072</TD>
+      <TD> -1.084174</TD>
+      <TD>25.263</TD>
+      <TD>20.867</TD>
+      <TD>19.496</TD>
+      <TD>18.613</TD>
+      <TD>CDD</TD>
+      <TD>16.776</TD>
+      <TD>15.904</TD>
+      <TD>15.878</TD>
+      <TD>  -13.7</TD>
+      <TD>   4.1</TD>
+      <TD>    4.2</TD>
+      <TD>   4.1</TD>
+      <TD/>
+      <TD>0</TD>
+      <TD>  -13.7</TD>
+      <TD>  4.1</TD>
+      <TD>    4.2</TD>
+      <TD>  4.1</TD>
+      <TD> 374.1</TD>
+      <TD>  76.8</TD>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>215.247752</TD>
+      <TD> -1.105430</TD>
+      <TD>24.560</TD>
+      <TD>23.137</TD>
+      <TD>21.565</TD>
+      <TD>20.294</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>16.838</TD>
+      <TD>    6.5</TD>
+      <TD>  23.8</TD>
+      <TD> -102.7</TD>
+      <TD>  27.0</TD>
+      <TD>11.341</TD>
+      <TD>11</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>214.128153</TD>
+      <TD> -0.727264</TD>
+      <TD>21.224</TD>
+      <TD>18.843</TD>
+      <TD>17.775</TD>
+      <TD>17.298</TD>
+      <TD>AAC</TD>
+      <TD>15.928</TD>
+      <TD>15.289</TD>
+      <TD>15.140</TD>
+      <TD>   -9.6</TD>
+      <TD>   3.4</TD>
+      <TD>  -11.1</TD>
+      <TD>   3.4</TD>
+      <TD/>
+      <TD>0</TD>
+      <TD>   -9.6</TD>
+      <TD>  3.4</TD>
+      <TD>  -11.1</TD>
+      <TD>  3.4</TD>
+      <TD> 189.6</TD>
+      <TD> 123.7</TD>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>214.097014</TD>
+      <TD> -0.727166</TD>
+      <TD>23.663</TD>
+      <TD>21.020</TD>
+      <TD>19.590</TD>
+      <TD>18.363</TD>
+      <TD>BCC</TD>
+      <TD>16.421</TD>
+      <TD>15.422</TD>
+      <TD>15.441</TD>
+      <TD>  -24.2</TD>
+      <TD>   4.9</TD>
+      <TD>  -17.1</TD>
+      <TD>   4.9</TD>
+      <TD/>
+      <TD>0</TD>
+      <TD>  -24.2</TD>
+      <TD>  4.9</TD>
+      <TD>  -17.1</TD>
+      <TD>  4.9</TD>
+      <TD> 194.5</TD>
+      <TD> 491.3</TD>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>214.142851</TD>
+      <TD> -0.743229</TD>
+      <TD>22.954</TD>
+      <TD>21.817</TD>
+      <TD>20.348</TD>
+      <TD>18.836</TD>
+      <TD>CCU</TD>
+      <TD>16.719</TD>
+      <TD>15.633</TD>
+      <TD>15.774</TD>
+      <TD>   15.5</TD>
+      <TD>   8.2</TD>
+      <TD>  -29.7</TD>
+      <TD>  11.4</TD>
+      <TD>11.338</TD>
+      <TD>111</TD>
+      <TD>   10.0</TD>
+      <TD>  5.4</TD>
+      <TD>  -19.0</TD>
+      <TD>  5.4</TD>
+      <TD> 162.5</TD>
+      <TD> 173.5</TD>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>214.165653</TD>
+      <TD> -0.789730</TD>
+      <TD>22.153</TD>
+      <TD>19.489</TD>
+      <TD>18.076</TD>
+      <TD>16.830</TD>
+      <TD>AAA</TD>
+      <TD>14.820</TD>
+      <TD>13.833</TD>
+      <TD>13.737</TD>
+      <TD>  -41.4</TD>
+      <TD>   7.7</TD>
+      <TD>  -30.1</TD>
+      <TD>  10.9</TD>
+      <TD>11.352</TD>
+      <TD>111</TD>
+      <TD>  -32.1</TD>
+      <TD>  3.6</TD>
+      <TD>  -28.9</TD>
+      <TD>  3.6</TD>
+      <TD> 177.2</TD>
+      <TD> 176.3</TD>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>214.184637</TD>
+      <TD> -0.803752</TD>
+      <TD>22.034</TD>
+      <TD>19.743</TD>
+      <TD>18.272</TD>
+      <TD>17.432</TD>
+      <TD>AAA</TD>
+      <TD>15.658</TD>
+      <TD>14.645</TD>
+      <TD>14.698</TD>
+      <TD>   -2.7</TD>
+      <TD>   3.7</TD>
+      <TD>  -17.7</TD>
+      <TD>   3.7</TD>
+      <TD/>
+      <TD>0</TD>
+      <TD>   -2.7</TD>
+      <TD>  3.7</TD>
+      <TD>  -17.7</TD>
+      <TD>  3.7</TD>
+      <TD> 222.1</TD>
+      <TD>  87.4</TD>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>214.169607</TD>
+      <TD> -0.794903</TD>
+      <TD>23.624</TD>
+      <TD>23.110</TD>
+      <TD>21.593</TD>
+      <TD>19.816</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>15.865</TD>
+      <TD>  -35.7</TD>
+      <TD>  14.7</TD>
+      <TD>   83.3</TD>
+      <TD>  15.9</TD>
+      <TD>11.338</TD>
+      <TD>11</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>214.450081</TD>
+      <TD> -0.667867</TD>
+      <TD>21.231</TD>
+      <TD>19.567</TD>
+      <TD>17.983</TD>
+      <TD>17.569</TD>
+      <TD>AAU</TD>
+      <TD>16.112</TD>
+      <TD>15.038</TD>
+      <TD>15.435</TD>
+      <TD>  -15.2</TD>
+      <TD>   3.5</TD>
+      <TD>   -0.6</TD>
+      <TD>   3.5</TD>
+      <TD/>
+      <TD>0</TD>
+      <TD>  -15.2</TD>
+      <TD>  3.5</TD>
+      <TD>   -0.6</TD>
+      <TD>  3.5</TD>
+      <TD> 180.5</TD>
+      <TD>  95.7</TD>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>214.400503</TD>
+      <TD> -0.636325</TD>
+      <TD>22.543</TD>
+      <TD>22.077</TD>
+      <TD>20.160</TD>
+      <TD>18.442</TD>
+      <TD>AAC</TD>
+      <TD>15.817</TD>
+      <TD>15.426</TD>
+      <TD>14.795</TD>
+      <TD>  -10.9</TD>
+      <TD>  17.1</TD>
+      <TD>  -38.9</TD>
+      <TD>   9.1</TD>
+      <TD>11.324</TD>
+      <TD>111</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>214.475892</TD>
+      <TD> -0.668968</TD>
+      <TD>21.039</TD>
+      <TD>18.863</TD>
+      <TD>16.975</TD>
+      <TD>16.145</TD>
+      <TD>AAA</TD>
+      <TD>14.424</TD>
+      <TD>13.650</TD>
+      <TD>13.535</TD>
+      <TD>  -18.6</TD>
+      <TD>   3.2</TD>
+      <TD>    9.3</TD>
+      <TD>   3.2</TD>
+      <TD/>
+      <TD>0</TD>
+      <TD>  -18.6</TD>
+      <TD>  3.2</TD>
+      <TD>    9.3</TD>
+      <TD>  3.2</TD>
+      <TD>  82.6</TD>
+      <TD> 133.1</TD>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>214.579975</TD>
+      <TD> -0.671959</TD>
+      <TD>21.916</TD>
+      <TD>19.629</TD>
+      <TD>17.555</TD>
+      <TD>16.439</TD>
+      <TD>AAA</TD>
+      <TD>14.495</TD>
+      <TD>13.647</TD>
+      <TD>13.558</TD>
+      <TD>  -17.0</TD>
+      <TD>   3.4</TD>
+      <TD>  -33.4</TD>
+      <TD>   3.4</TD>
+      <TD/>
+      <TD>0</TD>
+      <TD>  -17.0</TD>
+      <TD>  3.4</TD>
+      <TD>  -33.4</TD>
+      <TD>  3.4</TD>
+      <TD>  82.9</TD>
+      <TD> 150.6</TD>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>214.588640</TD>
+      <TD> -0.740773</TD>
+      <TD>20.011</TD>
+      <TD>18.100</TD>
+      <TD>16.340</TD>
+      <TD>15.882</TD>
+      <TD>AAA</TD>
+      <TD>14.515</TD>
+      <TD>13.741</TD>
+      <TD>13.653</TD>
+      <TD>  -28.0</TD>
+      <TD>   7.7</TD>
+      <TD>    9.0</TD>
+      <TD>   9.0</TD>
+      <TD>11.340</TD>
+      <TD>111</TD>
+      <TD>  -34.4</TD>
+      <TD>  3.0</TD>
+      <TD>   12.7</TD>
+      <TD>  3.0</TD>
+      <TD>  83.2</TD>
+      <TD> 105.3</TD>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>214.491100</TD>
+      <TD> -0.716024</TD>
+      <TD>22.925</TD>
+      <TD>21.635</TD>
+      <TD>19.706</TD>
+      <TD>19.002</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>16.361</TD>
+      <TD>  107.5</TD>
+      <TD>  18.1</TD>
+      <TD>   97.2</TD>
+      <TD>  19.2</TD>
+      <TD>11.382</TD>
+      <TD>11</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>214.507220</TD>
+      <TD> -0.681287</TD>
+      <TD>22.990</TD>
+      <TD>21.028</TD>
+      <TD>19.038</TD>
+      <TD>17.832</TD>
+      <TD>ABB</TD>
+      <TD>15.890</TD>
+      <TD>15.016</TD>
+      <TD>15.024</TD>
+      <TD>  -17.6</TD>
+      <TD>   8.5</TD>
+      <TD>  -25.5</TD>
+      <TD>  12.1</TD>
+      <TD>11.340</TD>
+      <TD>111</TD>
+      <TD>  -16.5</TD>
+      <TD>  5.1</TD>
+      <TD>  -20.8</TD>
+      <TD>  5.1</TD>
+      <TD> 226.8</TD>
+      <TD> 133.1</TD>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>214.514646</TD>
+      <TD> -0.643422</TD>
+      <TD>22.454</TD>
+      <TD>20.371</TD>
+      <TD>18.646</TD>
+      <TD>18.207</TD>
+      <TD>CUD</TD>
+      <TD>16.738</TD>
+      <TD>15.651</TD>
+      <TD>16.053</TD>
+      <TD>   35.3</TD>
+      <TD>  22.6</TD>
+      <TD>  -37.2</TD>
+      <TD>   9.8</TD>
+      <TD>11.354</TD>
+      <TD>111</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>214.503091</TD>
+      <TD> -0.658519</TD>
+      <TD>25.731</TD>
+      <TD>22.474</TD>
+      <TD>20.461</TD>
+      <TD>18.933</TD>
+      <TD>BUC</TD>
+      <TD>16.645</TD>
+      <TD>15.229</TD>
+      <TD>15.644</TD>
+      <TD>  -39.5</TD>
+      <TD>  20.1</TD>
+      <TD>   61.7</TD>
+      <TD>  21.5</TD>
+      <TD>11.371</TD>
+      <TD>111</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>214.617357</TD>
+      <TD> -0.669890</TD>
+      <TD>21.680</TD>
+      <TD>19.555</TD>
+      <TD>17.748</TD>
+      <TD>16.817</TD>
+      <TD>AAA</TD>
+      <TD>15.069</TD>
+      <TD>14.130</TD>
+      <TD>14.124</TD>
+      <TD>   16.5</TD>
+      <TD>   7.5</TD>
+      <TD>  -19.8</TD>
+      <TD>   9.8</TD>
+      <TD>11.325</TD>
+      <TD>111</TD>
+      <TD>   19.1</TD>
+      <TD>  3.6</TD>
+      <TD>   -4.6</TD>
+      <TD>  3.6</TD>
+      <TD>  95.4</TD>
+      <TD> 139.5</TD>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>214.637541</TD>
+      <TD> -0.745791</TD>
+      <TD>21.935</TD>
+      <TD>19.441</TD>
+      <TD>17.831</TD>
+      <TD>17.230</TD>
+      <TD>AAA</TD>
+      <TD>15.853</TD>
+      <TD>14.612</TD>
+      <TD>14.846</TD>
+      <TD>   -2.4</TD>
+      <TD>   3.5</TD>
+      <TD>  -17.5</TD>
+      <TD>   3.5</TD>
+      <TD/>
+      <TD>0</TD>
+      <TD>   -2.4</TD>
+      <TD>  3.5</TD>
+      <TD>  -17.5</TD>
+      <TD>  3.5</TD>
+      <TD> 168.4</TD>
+      <TD> 123.7</TD>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>214.603898</TD>
+      <TD> -0.712930</TD>
+      <TD>23.140</TD>
+      <TD>21.546</TD>
+      <TD>19.801</TD>
+      <TD>18.991</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>16.091</TD>
+      <TD>   -0.3</TD>
+      <TD>  15.7</TD>
+      <TD>   65.8</TD>
+      <TD>  17.2</TD>
+      <TD>11.311</TD>
+      <TD>11</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>214.629912</TD>
+      <TD> -0.663255</TD>
+      <TD>24.147</TD>
+      <TD>21.779</TD>
+      <TD>19.960</TD>
+      <TD>18.974</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>16.382</TD>
+      <TD>  -47.1</TD>
+      <TD>   5.9</TD>
+      <TD>  -26.7</TD>
+      <TD>   5.9</TD>
+      <TD/>
+      <TD>0</TD>
+      <TD>  -47.1</TD>
+      <TD>  5.9</TD>
+      <TD>  -26.7</TD>
+      <TD>  5.9</TD>
+      <TD> 294.9</TD>
+      <TD> 242.3</TD>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>214.651563</TD>
+      <TD> -0.822405</TD>
+      <TD>24.113</TD>
+      <TD>21.590</TD>
+      <TD>19.887</TD>
+      <TD>18.225</TD>
+      <TD>AAB</TD>
+      <TD>15.828</TD>
+      <TD>15.118</TD>
+      <TD>14.677</TD>
+      <TD>  -39.7</TD>
+      <TD>  14.2</TD>
+      <TD>    2.5</TD>
+      <TD>   8.7</TD>
+      <TD>11.353</TD>
+      <TD>111</TD>
+      <TD>  -27.0</TD>
+      <TD>  5.6</TD>
+      <TD>    3.0</TD>
+      <TD>  5.6</TD>
+      <TD> 161.9</TD>
+      <TD> 166.5</TD>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>214.658483</TD>
+      <TD> -0.787505</TD>
+      <TD>25.085</TD>
+      <TD>21.968</TD>
+      <TD>20.276</TD>
+      <TD>19.479</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>16.885</TD>
+      <TD>   21.9</TD>
+      <TD>   5.9</TD>
+      <TD>  -25.0</TD>
+      <TD>   5.9</TD>
+      <TD/>
+      <TD>0</TD>
+      <TD>   21.9</TD>
+      <TD>  5.9</TD>
+      <TD>  -25.0</TD>
+      <TD>  5.9</TD>
+      <TD> 467.1</TD>
+      <TD> 309.0</TD>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>214.642295</TD>
+      <TD> -0.819737</TD>
+      <TD>24.902</TD>
+      <TD>22.825</TD>
+      <TD>21.406</TD>
+      <TD>20.233</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>17.498</TD>
+      <TD>  -26.3</TD>
+      <TD>  39.8</TD>
+      <TD> -218.5</TD>
+      <TD>  44.9</TD>
+      <TD>11.367</TD>
+      <TD>11</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>214.994900</TD>
+      <TD> -0.820545</TD>
+      <TD>23.058</TD>
+      <TD>19.859</TD>
+      <TD>18.561</TD>
+      <TD>17.917</TD>
+      <TD>ABU</TD>
+      <TD>16.318</TD>
+      <TD>14.878</TD>
+      <TD>15.451</TD>
+      <TD>  -51.9</TD>
+      <TD>  23.4</TD>
+      <TD>    5.3</TD>
+      <TD>   8.9</TD>
+      <TD>11.355</TD>
+      <TD>111</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>215.183296</TD>
+      <TD> -0.645446</TD>
+      <TD>23.891</TD>
+      <TD>21.302</TD>
+      <TD>19.893</TD>
+      <TD>18.949</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>15.826</TD>
+      <TD>  -45.9</TD>
+      <TD>  14.1</TD>
+      <TD>  -34.5</TD>
+      <TD>  15.0</TD>
+      <TD>11.358</TD>
+      <TD>11</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>215.154221</TD>
+      <TD> -0.668631</TD>
+      <TD>24.344</TD>
+      <TD>22.035</TD>
+      <TD>20.497</TD>
+      <TD>19.436</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>16.450</TD>
+      <TD>  -48.3</TD>
+      <TD>  19.8</TD>
+      <TD>   47.4</TD>
+      <TD>  21.4</TD>
+      <TD>11.357</TD>
+      <TD>11</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>215.214192</TD>
+      <TD> -0.706059</TD>
+      <TD>20.864</TD>
+      <TD>17.781</TD>
+      <TD>16.394</TD>
+      <TD>15.717</TD>
+      <TD>AAA</TD>
+      <TD>14.164</TD>
+      <TD>13.332</TD>
+      <TD>13.229</TD>
+      <TD>    1.8</TD>
+      <TD>   3.0</TD>
+      <TD>   12.4</TD>
+      <TD>   3.0</TD>
+      <TD/>
+      <TD>0</TD>
+      <TD>    1.8</TD>
+      <TD>  3.0</TD>
+      <TD>   12.4</TD>
+      <TD>  3.0</TD>
+      <TD> 150.6</TD>
+      <TD>  64.0</TD>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>215.228415</TD>
+      <TD> -0.713088</TD>
+      <TD>23.184</TD>
+      <TD>20.614</TD>
+      <TD>19.228</TD>
+      <TD>17.954</TD>
+      <TD>AAB</TD>
+      <TD>15.722</TD>
+      <TD>15.192</TD>
+      <TD>14.948</TD>
+      <TD>    5.9</TD>
+      <TD>   7.6</TD>
+      <TD>  -28.1</TD>
+      <TD>   9.2</TD>
+      <TD>11.326</TD>
+      <TD>111</TD>
+      <TD>   23.7</TD>
+      <TD>  5.2</TD>
+      <TD>  -27.3</TD>
+      <TD>  5.2</TD>
+      <TD>  61.7</TD>
+      <TD> 343.3</TD>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>215.263552</TD>
+      <TD> -0.700366</TD>
+      <TD>22.625</TD>
+      <TD>20.230</TD>
+      <TD>18.790</TD>
+      <TD>17.547</TD>
+      <TD>AAA</TD>
+      <TD>15.363</TD>
+      <TD>14.475</TD>
+      <TD>14.240</TD>
+      <TD>  -60.4</TD>
+      <TD>   8.2</TD>
+      <TD>  -23.3</TD>
+      <TD>   8.8</TD>
+      <TD>11.341</TD>
+      <TD>111</TD>
+      <TD>  -52.5</TD>
+      <TD>  4.7</TD>
+      <TD>  -32.8</TD>
+      <TD>  4.7</TD>
+      <TD>  89.1</TD>
+      <TD> 139.6</TD>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>215.618123</TD>
+      <TD> -0.750937</TD>
+      <TD>21.563</TD>
+      <TD>18.824</TD>
+      <TD>17.833</TD>
+      <TD>16.246</TD>
+      <TD>AAA</TD>
+      <TD>14.023</TD>
+      <TD>13.087</TD>
+      <TD>13.002</TD>
+      <TD>    9.9</TD>
+      <TD>   3.4</TD>
+      <TD>   -3.1</TD>
+      <TD>   3.4</TD>
+      <TD/>
+      <TD>0</TD>
+      <TD>    9.9</TD>
+      <TD>  3.4</TD>
+      <TD>   -3.1</TD>
+      <TD>  3.4</TD>
+      <TD> 105.8</TD>
+      <TD>  92.6</TD>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>215.627466</TD>
+      <TD> -0.744705</TD>
+      <TD>22.509</TD>
+      <TD>19.934</TD>
+      <TD>18.866</TD>
+      <TD>17.686</TD>
+      <TD>AAB</TD>
+      <TD>15.867</TD>
+      <TD>15.073</TD>
+      <TD>14.832</TD>
+      <TD>   -5.1</TD>
+      <TD>   3.9</TD>
+      <TD>   12.8</TD>
+      <TD>   3.9</TD>
+      <TD/>
+      <TD>0</TD>
+      <TD>   -5.1</TD>
+      <TD>  3.9</TD>
+      <TD>   12.8</TD>
+      <TD>  3.9</TD>
+      <TD>  91.5</TD>
+      <TD> 181.0</TD>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>215.590311</TD>
+      <TD> -0.702175</TD>
+      <TD>23.816</TD>
+      <TD>20.733</TD>
+      <TD>19.494</TD>
+      <TD>17.982</TD>
+      <TD>AAA</TD>
+      <TD>15.580</TD>
+      <TD>14.769</TD>
+      <TD>14.601</TD>
+      <TD>  -35.4</TD>
+      <TD>  11.5</TD>
+      <TD>  -21.2</TD>
+      <TD>   9.0</TD>
+      <TD>11.357</TD>
+      <TD>111</TD>
+      <TD>  -32.9</TD>
+      <TD>  5.4</TD>
+      <TD>  -14.6</TD>
+      <TD>  5.4</TD>
+      <TD> 325.2</TD>
+      <TD> 206.8</TD>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>215.617383</TD>
+      <TD> -0.693398</TD>
+      <TD>22.909</TD>
+      <TD>20.579</TD>
+      <TD>19.388</TD>
+      <TD>18.107</TD>
+      <TD>ABC</TD>
+      <TD>16.147</TD>
+      <TD>15.266</TD>
+      <TD>15.187</TD>
+      <TD>    4.4</TD>
+      <TD>   9.2</TD>
+      <TD>  -37.3</TD>
+      <TD>  15.8</TD>
+      <TD>11.342</TD>
+      <TD>111</TD>
+      <TD>    3.3</TD>
+      <TD>  4.0</TD>
+      <TD>  -13.4</TD>
+      <TD>  4.0</TD>
+      <TD> 332.2</TD>
+      <TD> 430.4</TD>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>215.640127</TD>
+      <TD> -0.768548</TD>
+      <TD>23.229</TD>
+      <TD>21.243</TD>
+      <TD>20.264</TD>
+      <TD>18.429</TD>
+      <TD>ABB</TD>
+      <TD>16.160</TD>
+      <TD>15.129</TD>
+      <TD>15.068</TD>
+      <TD>  -32.5</TD>
+      <TD>   7.6</TD>
+      <TD>   -8.1</TD>
+      <TD>   9.8</TD>
+      <TD>11.384</TD>
+      <TD>111</TD>
+      <TD>  -17.5</TD>
+      <TD>  5.6</TD>
+      <TD>    3.9</TD>
+      <TD>  5.6</TD>
+      <TD> 169.6</TD>
+      <TD> 254.3</TD>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>215.611813</TD>
+      <TD> -0.789861</TD>
+      <TD>22.540</TD>
+      <TD>20.869</TD>
+      <TD>19.955</TD>
+      <TD>19.283</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>16.629</TD>
+      <TD>  131.4</TD>
+      <TD>  21.2</TD>
+      <TD>  -66.7</TD>
+      <TD>  22.0</TD>
+      <TD>11.382</TD>
+      <TD>11</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>215.911769</TD>
+      <TD> -0.663155</TD>
+      <TD>22.981</TD>
+      <TD>20.663</TD>
+      <TD>19.389</TD>
+      <TD>18.527</TD>
+      <TD>CDD</TD>
+      <TD>16.768</TD>
+      <TD>16.019</TD>
+      <TD>16.079</TD>
+      <TD>  -23.1</TD>
+      <TD>   4.1</TD>
+      <TD>   -8.2</TD>
+      <TD>   4.1</TD>
+      <TD/>
+      <TD>0</TD>
+      <TD>  -23.1</TD>
+      <TD>  4.1</TD>
+      <TD>   -8.2</TD>
+      <TD>  4.1</TD>
+      <TD> 242.3</TD>
+      <TD> 200.2</TD>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>215.877431</TD>
+      <TD> -0.698882</TD>
+      <TD>24.785</TD>
+      <TD>22.509</TD>
+      <TD>21.457</TD>
+      <TD>19.945</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>16.713</TD>
+      <TD>  -64.5</TD>
+      <TD>  25.6</TD>
+      <TD> -179.8</TD>
+      <TD>  28.1</TD>
+      <TD>11.358</TD>
+      <TD>11</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>215.884199</TD>
+      <TD> -0.743748</TD>
+      <TD>23.866</TD>
+      <TD>22.151</TD>
+      <TD>21.036</TD>
+      <TD>19.400</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>16.297</TD>
+      <TD>  -38.0</TD>
+      <TD>  19.5</TD>
+      <TD>  -56.8</TD>
+      <TD>  20.4</TD>
+      <TD>11.343</TD>
+      <TD>11</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>214.022483</TD>
+      <TD> -0.306782</TD>
+      <TD>22.943</TD>
+      <TD>20.065</TD>
+      <TD>18.675</TD>
+      <TD>17.874</TD>
+      <TD>ABC</TD>
+      <TD>16.202</TD>
+      <TD>15.360</TD>
+      <TD>15.122</TD>
+      <TD>  -26.7</TD>
+      <TD>   7.3</TD>
+      <TD>  -32.7</TD>
+      <TD>   8.4</TD>
+      <TD>11.361</TD>
+      <TD>111</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>214.024148</TD>
+      <TD> -0.302930</TD>
+      <TD>20.699</TD>
+      <TD>18.100</TD>
+      <TD>16.818</TD>
+      <TD>16.299</TD>
+      <TD>AAA</TD>
+      <TD>14.759</TD>
+      <TD>13.950</TD>
+      <TD>13.909</TD>
+      <TD>  -12.2</TD>
+      <TD>   3.2</TD>
+      <TD>   11.4</TD>
+      <TD>   3.2</TD>
+      <TD/>
+      <TD>0</TD>
+      <TD>  -12.2</TD>
+      <TD>  3.2</TD>
+      <TD>   11.4</TD>
+      <TD>  3.2</TD>
+      <TD> 239.0</TD>
+      <TD> 122.1</TD>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>214.036793</TD>
+      <TD> -0.331972</TD>
+      <TD>20.089</TD>
+      <TD>17.431</TD>
+      <TD>16.068</TD>
+      <TD>15.315</TD>
+      <TD>AAA</TD>
+      <TD>13.648</TD>
+      <TD>12.820</TD>
+      <TD>12.733</TD>
+      <TD>  -34.4</TD>
+      <TD>   9.2</TD>
+      <TD>  -11.3</TD>
+      <TD>   8.5</TD>
+      <TD>11.350</TD>
+      <TD>111</TD>
+      <TD>  -40.1</TD>
+      <TD>  3.0</TD>
+      <TD>  -15.4</TD>
+      <TD>  3.0</TD>
+      <TD>  93.8</TD>
+      <TD> 145.1</TD>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>214.107248</TD>
+      <TD> -0.281187</TD>
+      <TD>22.470</TD>
+      <TD>19.541</TD>
+      <TD>18.153</TD>
+      <TD>16.989</TD>
+      <TD>AAA</TD>
+      <TD>15.046</TD>
+      <TD>14.431</TD>
+      <TD>14.130</TD>
+      <TD>   12.6</TD>
+      <TD>   3.7</TD>
+      <TD>   -4.7</TD>
+      <TD>   3.7</TD>
+      <TD/>
+      <TD>0</TD>
+      <TD>   12.6</TD>
+      <TD>  3.7</TD>
+      <TD>   -4.7</TD>
+      <TD>  3.7</TD>
+      <TD> 208.1</TD>
+      <TD> 347.8</TD>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>214.016501</TD>
+      <TD> -0.243022</TD>
+      <TD>24.338</TD>
+      <TD>20.753</TD>
+      <TD>19.250</TD>
+      <TD>17.684</TD>
+      <TD>AAA</TD>
+      <TD>15.309</TD>
+      <TD>14.541</TD>
+      <TD>14.336</TD>
+      <TD>  -65.4</TD>
+      <TD>   8.4</TD>
+      <TD>   -9.9</TD>
+      <TD>  11.4</TD>
+      <TD>11.362</TD>
+      <TD>111</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>214.039535</TD>
+      <TD> -0.295430</TD>
+      <TD>24.553</TD>
+      <TD>21.029</TD>
+      <TD>19.526</TD>
+      <TD>17.929</TD>
+      <TD>AAA</TD>
+      <TD>15.512</TD>
+      <TD>14.726</TD>
+      <TD>14.471</TD>
+      <TD>   23.5</TD>
+      <TD>  12.0</TD>
+      <TD>  -38.8</TD>
+      <TD>   8.4</TD>
+      <TD>11.373</TD>
+      <TD>111</TD>
+      <TD>    9.6</TD>
+      <TD>  5.3</TD>
+      <TD>  -39.3</TD>
+      <TD>  5.3</TD>
+      <TD> 215.2</TD>
+      <TD>  47.6</TD>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>214.099901</TD>
+      <TD> -0.339305</TD>
+      <TD>23.143</TD>
+      <TD>20.425</TD>
+      <TD>19.046</TD>
+      <TD>18.027</TD>
+      <TD>ABD</TD>
+      <TD>16.239</TD>
+      <TD>15.684</TD>
+      <TD>15.326</TD>
+      <TD>  -13.3</TD>
+      <TD>   5.2</TD>
+      <TD>  -27.4</TD>
+      <TD>   5.2</TD>
+      <TD/>
+      <TD>0</TD>
+      <TD>  -13.3</TD>
+      <TD>  5.2</TD>
+      <TD>  -27.4</TD>
+      <TD>  5.2</TD>
+      <TD> 180.8</TD>
+      <TD> 202.1</TD>
+      <TD>src</TD>
+     </TR>
+     <TR>
+      <TD>full</TD>
+      <TD>214.107449</TD>
+      <TD> -0.254189</TD>
+      <TD>22.608</TD>
+      <TD>19.972</TD>
+      <TD>18.511</TD>
+      <TD>17.314</TD>
+      <TD>AAA</TD>
+      <TD>15.308</TD>
+      <TD>14.549</TD>
+      <TD>14.402</TD>
+      <TD>  -10.3</TD>
+      <TD>   3.7</TD>
+      <TD>    7.0</TD>
+      <TD>   3.7</TD>
+      <TD/>
+      <TD>0</TD>
+      <TD>  -10.3</TD>
+      <TD>  3.7</TD>
+      <TD>    7.0</TD>
+      <TD>  3.7</TD>
+      <TD>  86.2</TD>
+      <TD> 232.8</TD>
+      <TD>src</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

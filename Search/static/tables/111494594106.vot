@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="I_143_fk4_1950" name="I/143/fk4_1950">
+   <DESCRIPTION>
+    FK4 full catalog for Equinox and Epoch B1950.0
+   </DESCRIPTION>
+   <FIELD ID="FK4" datatype="short" name="FK4" ucd="ID_MAIN" width="4">
+    <DESCRIPTION>
+     FK4 star number.
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="mpv" datatype="float" name="mpv" precision="2" ucd="PHOT_PHG_V" unit="mag" width="5">
+    <DESCRIPTION>
+     Photovisual magnitude.
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="3" datatype="char" name="SpType" ucd="SPECT_TYPE_GENERAL">
+    <DESCRIPTION>
+     HD spectral type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAB1950" arraysize="12" datatype="char" name="RAB1950" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     RA B1950
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="double" name="pmRA" precision="3" ucd="POS_EQ_PMRA" unit="s.ha-1" width="8">
+    <DESCRIPTION>
+     Proper motion in RA
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="EpRA-1900" datatype="float" name="EpRA-1900" precision="2" ucd="TIME_EPOCH" unit="a" width="5">
+    <DESCRIPTION>
+     Epoch (RA) (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_RAB1950" datatype="float" name="e_RAB1950" precision="4" ucd="ERROR" unit="s" width="7">
+    <DESCRIPTION>
+     Std dev in RA at mean epoch
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_pmRA" datatype="float" name="e_pmRA" precision="3" ucd="ERROR" unit="s.ha-1" width="6">
+    <DESCRIPTION>
+     Std dev in pm in RA, time sec per trop cy.
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEB1950" arraysize="12" datatype="char" name="DEB1950" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination B1950
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="float" name="pmDE" precision="2" ucd="POS_EQ_PMDEC" unit="arcs.ha-1" width="7">
+    <DESCRIPTION>
+     Proper motion in Dec
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="EpDE-1900" datatype="float" name="EpDE-1900" precision="2" ucd="TIME_EPOCH" unit="a" width="5">
+    <DESCRIPTION>
+     Epoch (Dec) (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_DEB1950" datatype="float" name="e_DEB1950" precision="3" ucd="ERROR" unit="arcs" width="6">
+    <DESCRIPTION>
+     Std dev in Dec at mean epoch
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_pmDE" datatype="float" name="e_pmDE" precision="2" ucd="ERROR" unit="arcs.ha-1" width="5">
+    <DESCRIPTION>
+     Std dev in pm in Dec, arc sec per trop cy.
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA.icrs" arraysize="12" datatype="char" name="_RA.icrs" ucd="POS_EQ_RA_OTHER" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (ICRS) at Epoch=J2000, proper motions taken into
+     account  (computed by VizieR, not part of the original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" arraysize="12" datatype="char" name="_DE.icrs" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (ICRS) at Epoch=J2000, proper motions taken into
+     account  (computed by VizieR, not part of the original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>1521</TD>
+      <TD> 4.03</TD>
+      <TD>K0</TD>
+      <TD>19 54 25.726</TD>
+      <TD>  -0.275</TD>
+      <TD>27.34</TD>
+      <TD> 0.0024</TD>
+      <TD> 0.011</TD>
+      <TD>+34 56 58.24</TD>
+      <TD>  -2.63</TD>
+      <TD>20.49</TD>
+      <TD> 0.031</TD>
+      <TD> 0.15</TD>
+      <TD>19 56 18.384</TD>
+      <TD>+35 05 00.26</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

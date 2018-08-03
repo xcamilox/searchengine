@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJ_765_156_table1" name="J/ApJ/765/156/table1">
+   <DESCRIPTION>
+    Stars in the selected RGB sample
+   </DESCRIPTION>
+   <FIELD ID="Plate" datatype="short" name="Plate" ucd="ID_PLATE" width="4">
+    <DESCRIPTION>
+     Plate identifier
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="MJD" datatype="int" name="MJD" ucd="TIME_DATE" width="5">
+    <DESCRIPTION>
+     Modified Julian Date identifier
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Fiber" datatype="short" name="Fiber" ucd="ID_FIBER" width="3">
+    <DESCRIPTION>
+     Fiber identifier
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="__Fe_H_" datatype="float" name="__Fe_H_" precision="2" ucd="PHYS_ABUND_FE/H" unit="[Sun]" width="5">
+    <DESCRIPTION>
+     [-3.9/-0] Metallicity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="__g-r_0" datatype="float" name="__g-r_0" precision="3" ucd="PHOT_SDSS_G-R" unit="mag" width="6">
+    <DESCRIPTION>
+     [0.4/1] Dereddened (g-r) color index
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="CH_G_" datatype="float" name="CH_G_" precision="3" ucd="PHOT_CI_UNDEF" unit="mag" width="6">
+    <DESCRIPTION>
+     [-0.6/-0.2] The CH(G) index (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SDSS" arraysize="19" datatype="char" name="SDSS" ucd="ID_MAIN">
+    <DESCRIPTION>
+     IAU name from SDSS-DR9 (V/139)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sp" arraysize="2" datatype="char" name="Sp" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Interactive spectrum from SDSS
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Positions from SDSS-DR9 photometric catalog (V/139) (right
+     ascension part)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Positions from SDSS-DR9 photometric catalog (V/139) (declination
+     part)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>305</TD>
+      <TD>51613</TD>
+      <TD>299</TD>
+      <TD>-0.45</TD>
+      <TD> 0.460</TD>
+      <TD>-0.381</TD>
+      <TD>J142258.31+000324.9</TD>
+      <TD>Sp</TD>
+      <TD>215.74296</TD>
+      <TD>  0.05692</TD>
+     </TR>
+     <TR>
+      <TD>304</TD>
+      <TD>51609</TD>
+      <TD>168</TD>
+      <TD>-2.46</TD>
+      <TD> 0.465</TD>
+      <TD>-0.477</TD>
+      <TD>J141931.24-000637.9</TD>
+      <TD>Sp</TD>
+      <TD>214.88017</TD>
+      <TD> -0.11053</TD>
+     </TR>
+     <TR>
+      <TD>304</TD>
+      <TD>51957</TD>
+      <TD>200</TD>
+      <TD>-2.45</TD>
+      <TD> 0.465</TD>
+      <TD>-0.495</TD>
+      <TD>J141931.24-000637.9</TD>
+      <TD>Sp</TD>
+      <TD>214.88017</TD>
+      <TD> -0.11053</TD>
+     </TR>
+     <TR>
+      <TD>304</TD>
+      <TD>51609</TD>
+      <TD>55</TD>
+      <TD>-2.22</TD>
+      <TD> 0.448</TD>
+      <TD>-0.485</TD>
+      <TD>J142255.60-001012.9</TD>
+      <TD>Sp</TD>
+      <TD>215.73167</TD>
+      <TD> -0.17025</TD>
+     </TR>
+     <TR>
+      <TD>305</TD>
+      <TD>51613</TD>
+      <TD>285</TD>
+      <TD>-2.08</TD>
+      <TD> 0.448</TD>
+      <TD>-0.470</TD>
+      <TD>J142255.60-001012.9</TD>
+      <TD>Sp</TD>
+      <TD>215.73167</TD>
+      <TD> -0.17025</TD>
+     </TR>
+     <TR>
+      <TD>304</TD>
+      <TD>51957</TD>
+      <TD>79</TD>
+      <TD>-2.18</TD>
+      <TD> 0.448</TD>
+      <TD>-0.470</TD>
+      <TD>J142255.60-001012.9</TD>
+      <TD>Sp</TD>
+      <TD>215.73167</TD>
+      <TD> -0.17025</TD>
+     </TR>
+     <TR>
+      <TD>304</TD>
+      <TD>51609</TD>
+      <TD>222</TD>
+      <TD>-1.89</TD>
+      <TD> 0.498</TD>
+      <TD>-0.409</TD>
+      <TD>J141903.84-010140.5</TD>
+      <TD>Sp</TD>
+      <TD>214.76600</TD>
+      <TD> -1.02792</TD>
+     </TR>
+     <TR>
+      <TD>304</TD>
+      <TD>51957</TD>
+      <TD>202</TD>
+      <TD>-1.98</TD>
+      <TD> 0.498</TD>
+      <TD>-0.408</TD>
+      <TD>J141903.84-010140.5</TD>
+      <TD>Sp</TD>
+      <TD>214.76600</TD>
+      <TD> -1.02792</TD>
+     </TR>
+     <TR>
+      <TD>303</TD>
+      <TD>51615</TD>
+      <TD>635</TD>
+      <TD>-1.73</TD>
+      <TD> 0.697</TD>
+      <TD>-0.336</TD>
+      <TD>J141920.28+000745.5</TD>
+      <TD>Sp</TD>
+      <TD>214.83450</TD>
+      <TD>  0.12931</TD>
+     </TR>
+     <TR>
+      <TD>304</TD>
+      <TD>51609</TD>
+      <TD>189</TD>
+      <TD>-1.40</TD>
+      <TD> 0.758</TD>
+      <TD>-0.381</TD>
+      <TD>J141923.12-010406.7</TD>
+      <TD>Sp</TD>
+      <TD>214.84633</TD>
+      <TD> -1.06853</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_AJ_149_5_Mdwarfs" name="J/AJ/149/5/Mdwarfs">
+   <DESCRIPTION>
+    Observed and derived data for southern red dwarf systems
+    {\em(tables 1 and 2)}
+   </DESCRIPTION>
+   <FIELD ID="Name" arraysize="14" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Name of the M dwarf primary (G1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Nc" datatype="unsignedByte" name="Nc" ucd="NUMBER" width="1">
+    <DESCRIPTION>
+     Number of known components in the system
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Np" datatype="unsignedByte" name="Np" ucd="NUMBER" width="1">
+    <DESCRIPTION>
+     ? Indicates how many of the components are included in the
+     photometry [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="10" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Hour of Right Ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="9" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Degree of Declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pm" datatype="float" name="pm" precision="3" ucd="POS_EQ_PM" unit="arcs.yr-1" width="6">
+    <DESCRIPTION>
+     Total proper motion magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmPA" datatype="float" name="pmPA" precision="1" ucd="POS_EQ_PM-PA" unit="deg" width="5">
+    <DESCRIPTION>
+     Proper motion position angle
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="plx" datatype="float" name="plx" precision="2" ucd="POS_PARLX_TRIG" unit="mas" width="7">
+    <DESCRIPTION>
+     ? Weighted mean of published trigonometric parallaxes (see
+     Section 3.4)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Bmag" datatype="float" name="Bmag" precision="2" ucd="PHOT_PHG_BJ" unit="mag" width="5">
+    <DESCRIPTION>
+     ? SuperCOSMOS B_J_ plate magnitude (3)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Fmag" datatype="float" name="Fmag" precision="2" ucd="PHOT_PHG_R" unit="mag" width="5">
+    <DESCRIPTION>
+     ? SuperCOSMOS R_59F_ plate magnitude (3)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Nmag" datatype="float" name="Nmag" precision="2" ucd="PHOT_PHG_I" unit="mag" width="5">
+    <DESCRIPTION>
+     ? SuperCOSMOS I_IVN_ plate magnitude (3)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_JHN_V" unit="mag" width="5">
+    <DESCRIPTION>
+     ? The Johnson V band magnitude (4)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Rmag" datatype="float" name="Rmag" precision="2" ucd="PHOT_COUS_R" unit="mag" width="5">
+    <DESCRIPTION>
+     ? The Kron-Cousins R band magnitude (4)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Imag" datatype="float" name="Imag" precision="2" ucd="PHOT_COUS_I" unit="mag" width="5">
+    <DESCRIPTION>
+     ? The Kron-Cousins I band magnitude (4)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="2" ucd="PHOT_JHN_J" unit="mag" width="5">
+    <DESCRIPTION>
+     2MASS J band magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Hmag" datatype="float" name="Hmag" precision="2" ucd="PHOT_JHN_H" unit="mag" width="5">
+    <DESCRIPTION>
+     2MASS H band magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Kmag" datatype="float" name="Kmag" precision="2" ucd="PHOT_JHN_K" unit="mag" width="5">
+    <DESCRIPTION>
+     2MASS Ks band magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_2M" arraysize="2" datatype="char" name="_2M" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the 2MASS data (Cutri et al. 2003, Cat. II/246)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="dbest" datatype="float" name="dbest" precision="1" ucd="POS_GAL_HC" unit="pc" width="5">
+    <DESCRIPTION>
+     [2.7/214] Most reliable distance
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="f_dbest" arraysize="1" datatype="char" name="f_dbest" ucd="CODE_MISC">
+    <DESCRIPTION>
+     Distance closer or further than estimated (8)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_dbest" arraysize="3" datatype="char" name="n_dbest" ucd="NOTE">
+    <DESCRIPTION>
+     Most reliable distance type (ccd, plt, trg)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SimbadName" arraysize="25" datatype="char" name="SimbadName" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Designation understandable by the {\bf\fg{FireBrick}Simbad} data-
+     base
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>LP619-064</TD>
+      <TD>1</TD>
+      <TD>255</TD>
+      <TD>14 17 59.1</TD>
+      <TD>-00 31 29</TD>
+      <TD> 0.382</TD>
+      <TD>226.0</TD>
+      <TD/>
+      <TD>13.86</TD>
+      <TD>11.99</TD>
+      <TD>10.23</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD> 9.04</TD>
+      <TD> 8.50</TD>
+      <TD> 8.28</TD>
+      <TD>2M</TD>
+      <TD> 18.8</TD>
+      <TD/>
+      <TD>plt</TD>
+      <TD>LP  619-64</TD>
+     </TR>
+     <TR>
+      <TD>LHS2899</TD>
+      <TD>1</TD>
+      <TD>255</TD>
+      <TD>14 21 15.1</TD>
+      <TD>-01 07 20</TD>
+      <TD> 0.670</TD>
+      <TD>162.5</TD>
+      <TD>  74.66</TD>
+      <TD>14.30</TD>
+      <TD>12.20</TD>
+      <TD>10.20</TD>
+      <TD>13.12</TD>
+      <TD>11.92</TD>
+      <TD>10.39</TD>
+      <TD> 8.95</TD>
+      <TD> 8.39</TD>
+      <TD> 8.09</TD>
+      <TD>2M</TD>
+      <TD> 13.4</TD>
+      <TD/>
+      <TD>trg</TD>
+      <TD>LHS  2899</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

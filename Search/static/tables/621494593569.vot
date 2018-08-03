@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJ_763_32_table1" name="J/ApJ/763/32/table1">
+   <DESCRIPTION>
+    Parameters of RRab stars
+   </DESCRIPTION>
+   <FIELD ID="ID" arraysize="16" datatype="char" name="ID" ucd="ID_MAIN">
+    <DESCRIPTION>
+     CSS identifier; \dicS{[DCD2013] CSS JHHMMSS.s+DDMMSS} in Simbad
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right Ascension in decimal degrees (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination in decimal degrees (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="__Vmag_" datatype="float" name="__Vmag_" precision="2" ucd="PHOT_MAG_V" unit="mag" width="5">
+    <DESCRIPTION>
+     [11.1/20] Average V band magnitude (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Per" datatype="double" name="Per" precision="7" ucd="TIME_PERIOD" unit="d" width="10">
+    <DESCRIPTION>
+     [0.43/0.95] Period
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Amp" datatype="float" name="Amp" precision="2" ucd="VAR_AMPLITUDE_VALUE" unit="mag" width="5">
+    <DESCRIPTION>
+     [0.1/1.8] Amplitude of variation
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Num" datatype="short" name="Num" ucd="NUMBER" width="3">
+    <DESCRIPTION>
+     [60/416] Number of photometric observations
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dist" datatype="float" name="Dist" precision="2" ucd="POS_GAL_HC" unit="kpc" width="5">
+    <DESCRIPTION>
+     [0.1/72.1] Heliocentric distance
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Av" datatype="float" name="Av" precision="3" ucd="PHOT_EXTINCTION_ISM" unit="mag" width="6">
+    <DESCRIPTION>
+     [0.006/6.6] V band extinction (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="T0" datatype="double" name="T0" precision="5" ucd="TIME_EPOCH" unit="d" width="11">
+    <DESCRIPTION>
+     Ephemeris MJD ({eta})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="AID" arraysize="28" datatype="char" name="AID" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Alternative stellar identifier (for sources that were perviously
+     known) \linkRole{SIMBAD object}
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SDSS" arraysize="1" datatype="char" name="SDSS" ucd="DATA_LINK">
+    <DESCRIPTION>
+     {\bf S} indicates a source in SDSS data (extinction-corrected
+     magnitudes and velocity given in table 2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>J141724.6-000057</TD>
+      <TD>214.35268</TD>
+      <TD> -0.01606</TD>
+      <TD>19.14</TD>
+      <TD> 0.5675044</TD>
+      <TD> 1.01</TD>
+      <TD>177</TD>
+      <TD>48.57</TD>
+      <TD> 0.069</TD>
+      <TD>53464.60217</TD>
+      <TD>MGC 59435</TD>
+      <TD>S</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J141807.3+002302</TD>
+      <TD>214.53059</TD>
+      <TD>  0.38415</TD>
+      <TD>15.07</TD>
+      <TD> 0.6184472</TD>
+      <TD> 0.49</TD>
+      <TD>254</TD>
+      <TD> 7.50</TD>
+      <TD> 0.072</TD>
+      <TD>53464.37899</TD>
+      <TD>[IGF2000] 82</TD>
+      <TD>S</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J141822.3-001506</TD>
+      <TD>214.59295</TD>
+      <TD> -0.25170</TD>
+      <TD>19.37</TD>
+      <TD> 0.6307087</TD>
+      <TD> 1.00</TD>
+      <TD>233</TD>
+      <TD>53.55</TD>
+      <TD> 0.086</TD>
+      <TD>53464.50106</TD>
+      <TD>V0541 Vir</TD>
+      <TD>S</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J141858.0-002643</TD>
+      <TD>214.74186</TD>
+      <TD> -0.44535</TD>
+      <TD>18.17</TD>
+      <TD> 0.5585000</TD>
+      <TD> 1.04</TD>
+      <TD>246</TD>
+      <TD>30.88</TD>
+      <TD> 0.081</TD>
+      <TD>53464.55151</TD>
+      <TD>V0543 Vir</TD>
+      <TD>S</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J141934.1-005508</TD>
+      <TD>214.89223</TD>
+      <TD> -0.91913</TD>
+      <TD>19.17</TD>
+      <TD> 0.5517232</TD>
+      <TD> 0.97</TD>
+      <TD>241</TD>
+      <TD>48.55</TD>
+      <TD> 0.101</TD>
+      <TD>53464.55809</TD>
+      <TD>V0545 Vir</TD>
+      <TD>S</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J141948.5-001418</TD>
+      <TD>214.95249</TD>
+      <TD> -0.23851</TD>
+      <TD>19.70</TD>
+      <TD> 0.5491214</TD>
+      <TD> 1.02</TD>
+      <TD>205</TD>
+      <TD>62.16</TD>
+      <TD> 0.087</TD>
+      <TD>53464.74938</TD>
+      <TD/>
+      <TD>S</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J142159.9-010107</TD>
+      <TD>215.49985</TD>
+      <TD> -1.01864</TD>
+      <TD>15.55</TD>
+      <TD> 0.5911948</TD>
+      <TD> 0.84</TD>
+      <TD>252</TD>
+      <TD> 9.24</TD>
+      <TD> 0.087</TD>
+      <TD>53464.88398</TD>
+      <TD>V0549 Vir</TD>
+      <TD>S</TD>
+      <TD>Simbad</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

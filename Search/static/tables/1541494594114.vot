@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_MNRAS_434_2238_clusters" name="J/MNRAS/434/2238/clusters">
+   <DESCRIPTION>
+    Cross-matched open clusters
+   </DESCRIPTION>
+   <FIELD ID="Cluster" arraysize="17" datatype="char" name="Cluster" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Cluster name
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Nc" datatype="short" name="Nc" ucd="NUMBER" width="3">
+    <DESCRIPTION>
+     Number of Cepheids possibly associated to this cluster [NULL
+     integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="8" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (J2000.0)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="9" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (J2000.0)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="rcore" datatype="float" name="rcore" precision="2" ucd="EXTENSION_RAD" unit="arcm" width="6">
+    <DESCRIPTION>
+     Core radius
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="rlim" datatype="float" name="rlim" precision="2" ucd="EXTENSION_RAD" unit="arcm" width="7">
+    <DESCRIPTION>
+     Limiting radius
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Note" arraysize="1" datatype="char" name="Note" ucd="NOTE">
+    <DESCRIPTION>
+     [*] Asterisk indicates radius estimated from apparent diameter
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SimbadName" arraysize="24" datatype="char" name="SimbadName" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Designation understandable by the {\bf\fg{FireBrick}Simbad} data-
+     base
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>FSR 0198</TD>
+      <TD>4</TD>
+      <TD>20 02 24</TD>
+      <TD>+35 41 34</TD>
+      <TD>  1.20</TD>
+      <TD>  22.40</TD>
+      <TD>*</TD>
+      <TD>[FSR2007] 0198</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

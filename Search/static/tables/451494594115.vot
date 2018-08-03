@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="III_135A_catalog" name="III/135A/catalog">
+   <DESCRIPTION>
+    The catalogue
+   </DESCRIPTION>
+   <FIELD ID="HD" datatype="int" name="HD" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     [1/272150]+ Henry Draper Catalog (HD) number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DM" arraysize="12" datatype="char" name="DM" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Durchmusterung identification (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAB1900" arraysize="7" datatype="char" name="RAB1900" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Hours RA, equinox B1900, epoch 1900.0
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEB1900" arraysize="6" datatype="char" name="DEB1900" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Degrees Dec, equinox B1900, epoch 1900.0
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="q_Ptm" datatype="unsignedByte" name="q_Ptm" ucd="CODE_QUALITY" width="1">
+    <DESCRIPTION>
+     [0/1]? Code for Ptm: 0 = measured, 1 = value inferred from Ptg
+     and spectral type [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="Ptm" datatype="float" name="Ptm" precision="2" ucd="PHOT_PHG_V" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Photovisual magnitude (2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="n_Ptm" arraysize="1" datatype="char" name="n_Ptm" ucd="NOTE">
+    <DESCRIPTION>
+     [C] 'C' if Ptm is combined value with Ptg
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="q_Ptg" datatype="unsignedByte" name="q_Ptg" ucd="CODE_QUALITY" width="1">
+    <DESCRIPTION>
+     [0/1]? Code for Ptg: 0 = measured, 1 = value inferred from Ptm
+     and spectral type [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="Ptg" datatype="float" name="Ptg" precision="2" ucd="PHOT_PHG_MAG" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Photographic magnitude (2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="n_Ptg" arraysize="1" datatype="char" name="n_Ptg" ucd="NOTE">
+    <DESCRIPTION>
+     [C] 'C' if Ptg is combined value for this entry and the following
+     or preceding entry
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpT" arraysize="3" datatype="char" name="SpT" ucd="SPECT_TYPE_GENERAL">
+    <DESCRIPTION>
+     Spectral type {\em(spectral types {\bf P} are generally nebulae)}
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Int" arraysize="2" datatype="char" name="Int" ucd="PHOT_INTENSITY_ESTIMATED">
+    <DESCRIPTION>
+     [ 0-9B] Photographic intensity of spectrum (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Rem" arraysize="1" datatype="char" name="Rem" ucd="REMARKS">
+    <DESCRIPTION>
+     [DEGMR*] Remarks, see note (4)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA.icrs" arraysize="10" datatype="char" name="_RA.icrs" ucd="POS_EQ_RA_OTHER" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (ICRS) at Epoch=J1900. (computed by VizieR, not
+     part of the original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" arraysize="9" datatype="char" name="_DE.icrs" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (ICRS) at Epoch=J1900. (computed by VizieR, not part
+     of the original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="Tycho" arraysize="5" datatype="char" name="Tycho" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Cross-identification with Tycho-2 (Cat. IV/25)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>188668</TD>
+      <TD>BD+34 3790</TD>
+      <TD>19 51.2</TD>
+      <TD>+34 38</TD>
+      <TD>0</TD>
+      <TD> 7.17</TD>
+      <TD/>
+      <TD>1</TD>
+      <TD> 8.17</TD>
+      <TD/>
+      <TD>K0</TD>
+      <TD>3</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 54 57.7</TD>
+      <TD>+34 53 49</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>188893</TD>
+      <TD>BD+35 3867</TD>
+      <TD>19 52.3</TD>
+      <TD>+35 33</TD>
+      <TD>0</TD>
+      <TD> 8.60</TD>
+      <TD/>
+      <TD>1</TD>
+      <TD> 8.60</TD>
+      <TD/>
+      <TD>A0</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 56 01.1</TD>
+      <TD>+35 48 58</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>188947</TD>
+      <TD>BD+34 3798</TD>
+      <TD>19 52.6</TD>
+      <TD>+34 49</TD>
+      <TD>0</TD>
+      <TD> 4.03</TD>
+      <TD/>
+      <TD>1</TD>
+      <TD> 5.03</TD>
+      <TD/>
+      <TD>K0</TD>
+      <TD/>
+      <TD>R</TD>
+      <TD>Simbad</TD>
+      <TD>19 56 21.4</TD>
+      <TD>+35 05 00</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>188969</TD>
+      <TD>BD+35 3872</TD>
+      <TD>19 52.7</TD>
+      <TD>+35 31</TD>
+      <TD>0</TD>
+      <TD> 8.00</TD>
+      <TD/>
+      <TD>1</TD>
+      <TD> 8.80</TD>
+      <TD/>
+      <TD>G5</TD>
+      <TD>3</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 56 25.3</TD>
+      <TD>+35 47 01</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>189085</TD>
+      <TD>BD+35 3881</TD>
+      <TD>19 53.2</TD>
+      <TD>+35 16</TD>
+      <TD>0</TD>
+      <TD> 8.17</TD>
+      <TD/>
+      <TD>1</TD>
+      <TD> 8.17</TD>
+      <TD/>
+      <TD>A0</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 56 56.2</TD>
+      <TD>+35 32 05</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>189148</TD>
+      <TD>BD+34 3806</TD>
+      <TD>19 53.5</TD>
+      <TD>+34 45</TD>
+      <TD>0</TD>
+      <TD> 8.20</TD>
+      <TD/>
+      <TD>1</TD>
+      <TD> 8.60</TD>
+      <TD/>
+      <TD>F5</TD>
+      <TD>5</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 57 15.8</TD>
+      <TD>+35 01 07</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>189257</TD>
+      <TD>BD+33 3665</TD>
+      <TD>19 54.0</TD>
+      <TD>+33 58</TD>
+      <TD>0</TD>
+      <TD> 7.90</TD>
+      <TD/>
+      <TD>1</TD>
+      <TD> 7.90</TD>
+      <TD/>
+      <TD>A0</TD>
+      <TD>3</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 57 48.3</TD>
+      <TD>+34 14 11</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>189334</TD>
+      <TD>BD+34 3812</TD>
+      <TD>19 54.4</TD>
+      <TD>+35 07</TD>
+      <TD>0</TD>
+      <TD> 8.77</TD>
+      <TD/>
+      <TD>1</TD>
+      <TD> 8.83</TD>
+      <TD/>
+      <TD>A2</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 58 08.9</TD>
+      <TD>+35 23 14</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>189335</TD>
+      <TD>BD+34 3813</TD>
+      <TD>19 54.4</TD>
+      <TD>+34 09</TD>
+      <TD>0</TD>
+      <TD> 8.10</TD>
+      <TD/>
+      <TD>1</TD>
+      <TD> 8.10</TD>
+      <TD/>
+      <TD>B9</TD>
+      <TD>4</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 58 11.8</TD>
+      <TD>+34 25 14</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>189394</TD>
+      <TD>BD+34 3817</TD>
+      <TD>19 54.7</TD>
+      <TD>+34 14</TD>
+      <TD>0</TD>
+      <TD> 8.20</TD>
+      <TD/>
+      <TD>1</TD>
+      <TD> 8.20</TD>
+      <TD/>
+      <TD>A0</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 58 29.6</TD>
+      <TD>+34 30 16</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>189434</TD>
+      <TD>BD+34 3819</TD>
+      <TD>19 54.9</TD>
+      <TD>+34 48</TD>
+      <TD>0</TD>
+      <TD> 9.00</TD>
+      <TD/>
+      <TD>1</TD>
+      <TD> 9.00</TD>
+      <TD/>
+      <TD>A0</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 58 39.9</TD>
+      <TD>+35 04 18</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>189474</TD>
+      <TD>BD+35 3895</TD>
+      <TD>19 55.1</TD>
+      <TD>+35 13</TD>
+      <TD>0</TD>
+      <TD> 6.78</TD>
+      <TD/>
+      <TD>1</TD>
+      <TD> 6.78</TD>
+      <TD/>
+      <TD>A0</TD>
+      <TD>8</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 58 50.7</TD>
+      <TD>+35 29 19</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>189528</TD>
+      <TD>BD+35 3898</TD>
+      <TD>19 55.4</TD>
+      <TD>+35 16</TD>
+      <TD>0</TD>
+      <TD> 7.92</TD>
+      <TD/>
+      <TD>1</TD>
+      <TD> 7.90</TD>
+      <TD/>
+      <TD>B9</TD>
+      <TD>3</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 59 08.6</TD>
+      <TD>+35 32 22</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>189594</TD>
+      <TD>BD+35 3902</TD>
+      <TD>19 55.7</TD>
+      <TD>+35 37</TD>
+      <TD>0</TD>
+      <TD> 8.40</TD>
+      <TD/>
+      <TD>1</TD>
+      <TD> 9.50</TD>
+      <TD/>
+      <TD>K2</TD>
+      <TD>3</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 59 25.6</TD>
+      <TD>+35 53 24</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>189595</TD>
+      <TD>BD+34 3825</TD>
+      <TD>19 55.7</TD>
+      <TD>+34 13</TD>
+      <TD>0</TD>
+      <TD> 8.60</TD>
+      <TD/>
+      <TD>1</TD>
+      <TD> 9.60</TD>
+      <TD/>
+      <TD>K</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 59 29.8</TD>
+      <TD>+34 29 24</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>189688</TD>
+      <TD>BD+34 3830</TD>
+      <TD>19 56.2</TD>
+      <TD>+35 00</TD>
+      <TD>0</TD>
+      <TD> 7.87</TD>
+      <TD/>
+      <TD>1</TD>
+      <TD> 9.05</TD>
+      <TD/>
+      <TD>K5</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 59 57.6</TD>
+      <TD>+35 16 28</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>189705</TD>
+      <TD>BD+33 3683</TD>
+      <TD>19 56.3</TD>
+      <TD>+34 06</TD>
+      <TD>0</TD>
+      <TD> 8.80</TD>
+      <TD/>
+      <TD>1</TD>
+      <TD> 8.80</TD>
+      <TD/>
+      <TD>A</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>20 00 06.3</TD>
+      <TD>+34 22 29</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>189777</TD>
+      <TD>BD+34 3832</TD>
+      <TD>19 56.6</TD>
+      <TD>+35 04</TD>
+      <TD>0</TD>
+      <TD> 7.87</TD>
+      <TD/>
+      <TD>1</TD>
+      <TD> 8.94</TD>
+      <TD/>
+      <TD>K2</TD>
+      <TD>2</TD>
+      <TD>M</TD>
+      <TD>Simbad</TD>
+      <TD>20 00 21.5</TD>
+      <TD>+35 20 31</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>189778</TD>
+      <TD>BD+34 3833</TD>
+      <TD>19 56.6</TD>
+      <TD>+34 11</TD>
+      <TD>0</TD>
+      <TD> 8.50</TD>
+      <TD/>
+      <TD>1</TD>
+      <TD> 8.50</TD>
+      <TD/>
+      <TD>A0</TD>
+      <TD>3</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>20 00 24.1</TD>
+      <TD>+34 27 31</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>189983</TD>
+      <TD>BD+34 3840</TD>
+      <TD>19 57.7</TD>
+      <TD>+34 18</TD>
+      <TD>0</TD>
+      <TD> 8.70</TD>
+      <TD/>
+      <TD>1</TD>
+      <TD> 8.70</TD>
+      <TD/>
+      <TD>A0</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>20 01 30.0</TD>
+      <TD>+34 34 39</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>190113</TD>
+      <TD>BD+35 3920</TD>
+      <TD>19 58.3</TD>
+      <TD>+35 21</TD>
+      <TD>0</TD>
+      <TD> 8.00</TD>
+      <TD/>
+      <TD>1</TD>
+      <TD> 9.20</TD>
+      <TD/>
+      <TD>K5p</TD>
+      <TD>2</TD>
+      <TD>R</TD>
+      <TD>Simbad</TD>
+      <TD>20 02 02.9</TD>
+      <TD>+35 37 44</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>190114</TD>
+      <TD>BD+34 3847</TD>
+      <TD>19 58.3</TD>
+      <TD>+35 03</TD>
+      <TD>0</TD>
+      <TD> 7.22</TD>
+      <TD/>
+      <TD>1</TD>
+      <TD> 7.22</TD>
+      <TD/>
+      <TD>A0</TD>
+      <TD>5</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>20 02 03.8</TD>
+      <TD>+35 19 44</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>226388</TD>
+      <TD>BD+34 3776</TD>
+      <TD>19 49.8</TD>
+      <TD>+34 55</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>10.60</TD>
+      <TD/>
+      <TD>F5</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 53 32.6</TD>
+      <TD>+35 10 39</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>226408</TD>
+      <TD>BD+34 3779</TD>
+      <TD>19 50.1</TD>
+      <TD>+34 58</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>10.70</TD>
+      <TD/>
+      <TD>G5</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 53 50.5</TD>
+      <TD>+35 13 41</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>226415</TD>
+      <TD/>
+      <TD>19 50.2</TD>
+      <TD>+34 51</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>10.30</TD>
+      <TD/>
+      <TD>G0</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 53 56.9</TD>
+      <TD>+35 06 42</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>226416</TD>
+      <TD>BD+34 3780</TD>
+      <TD>19 50.2</TD>
+      <TD>+34 41</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>11.20</TD>
+      <TD/>
+      <TD>K5</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 53 57.4</TD>
+      <TD>+34 56 42</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>226427</TD>
+      <TD/>
+      <TD>19 50.3</TD>
+      <TD>+34 45</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>11.20</TD>
+      <TD/>
+      <TD>K</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 54 03.2</TD>
+      <TD>+35 00 42</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>226438</TD>
+      <TD/>
+      <TD>19 50.4</TD>
+      <TD>+34 36</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>10.80</TD>
+      <TD/>
+      <TD>A3</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 54 09.7</TD>
+      <TD>+34 51 43</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>226466</TD>
+      <TD>BD+35 3855</TD>
+      <TD>19 50.8</TD>
+      <TD>+35 09</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>10.80</TD>
+      <TD/>
+      <TD>G0</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 54 32.1</TD>
+      <TD>+35 24 46</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>226476</TD>
+      <TD/>
+      <TD>19 50.9</TD>
+      <TD>+34 37</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>11.10</TD>
+      <TD/>
+      <TD>F</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 54 39.7</TD>
+      <TD>+34 52 47</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>226477</TD>
+      <TD/>
+      <TD>19 50.9</TD>
+      <TD>+34 31</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>11.20</TD>
+      <TD/>
+      <TD>A5</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 54 40.0</TD>
+      <TD>+34 46 47</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>226491</TD>
+      <TD/>
+      <TD>19 51.0</TD>
+      <TD>+35 24</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>10.90</TD>
+      <TD/>
+      <TD>F0</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 54 43.3</TD>
+      <TD>+35 39 48</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>226492</TD>
+      <TD/>
+      <TD>19 51.0</TD>
+      <TD>+35 08</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>11.00</TD>
+      <TD/>
+      <TD>A3</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 54 44.1</TD>
+      <TD>+35 23 48</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>226493</TD>
+      <TD/>
+      <TD>19 51.0</TD>
+      <TD>+34 22</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>11.70</TD>
+      <TD/>
+      <TD>F2</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 54 46.5</TD>
+      <TD>+34 37 48</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>226502</TD>
+      <TD>BD+34 3787</TD>
+      <TD>19 51.1</TD>
+      <TD>+34 45</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD> 9.70</TD>
+      <TD/>
+      <TD>F8</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 54 51.3</TD>
+      <TD>+35 00 49</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>226503</TD>
+      <TD/>
+      <TD>19 51.1</TD>
+      <TD>+34 30</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>11.10</TD>
+      <TD/>
+      <TD>A0</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 54 52.1</TD>
+      <TD>+34 45 49</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>226510</TD>
+      <TD>BD+35 3857</TD>
+      <TD>19 51.2</TD>
+      <TD>+35 33</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>10.00</TD>
+      <TD/>
+      <TD>K0</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 54 54.9</TD>
+      <TD>+35 48 49</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>226511</TD>
+      <TD>BD+35 3858</TD>
+      <TD>19 51.2</TD>
+      <TD>+35 16</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD> 9.60</TD>
+      <TD/>
+      <TD>A2</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 54 55.8</TD>
+      <TD>+35 31 49</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>226512</TD>
+      <TD/>
+      <TD>19 51.2</TD>
+      <TD>+35 06</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>10.90</TD>
+      <TD/>
+      <TD>G0</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 54 56.3</TD>
+      <TD>+35 21 49</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>226513</TD>
+      <TD>BD+34 3789</TD>
+      <TD>19 51.2</TD>
+      <TD>+34 40</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>10.50</TD>
+      <TD/>
+      <TD>K5</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 54 57.6</TD>
+      <TD>+34 55 49</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>226514</TD>
+      <TD>BD+34 3788</TD>
+      <TD>19 51.2</TD>
+      <TD>+34 13</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>11.00</TD>
+      <TD/>
+      <TD>K2</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 54 59.0</TD>
+      <TD>+34 28 50</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>226522</TD>
+      <TD/>
+      <TD>19 51.3</TD>
+      <TD>+35 34</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>11.40</TD>
+      <TD/>
+      <TD>A2</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 55 00.9</TD>
+      <TD>+35 49 50</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>226523</TD>
+      <TD/>
+      <TD>19 51.3</TD>
+      <TD>+35 13</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>10.80</TD>
+      <TD/>
+      <TD>A0</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 55 01.9</TD>
+      <TD>+35 28 50</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>226524</TD>
+      <TD/>
+      <TD>19 51.3</TD>
+      <TD>+34 52</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>11.70</TD>
+      <TD/>
+      <TD>A5</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 55 03.0</TD>
+      <TD>+35 07 50</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>226534</TD>
+      <TD>BD+35 3860</TD>
+      <TD>19 51.4</TD>
+      <TD>+35 36</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>10.40</TD>
+      <TD/>
+      <TD>G</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 55 06.8</TD>
+      <TD>+35 51 51</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>226535</TD>
+      <TD>BD+35 3859</TD>
+      <TD>19 51.4</TD>
+      <TD>+35 35</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>10.30</TD>
+      <TD/>
+      <TD>K</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 55 06.8</TD>
+      <TD>+35 50 51</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>226536</TD>
+      <TD/>
+      <TD>19 51.4</TD>
+      <TD>+35 21</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>11.90</TD>
+      <TD/>
+      <TD>A</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 55 07.6</TD>
+      <TD>+35 36 51</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>226543</TD>
+      <TD>BD+34 3791</TD>
+      <TD>19 51.5</TD>
+      <TD>+34 19</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>10.70</TD>
+      <TD/>
+      <TD>F5</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 55 16.7</TD>
+      <TD>+34 34 52</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>226550</TD>
+      <TD>BD+35 3862</TD>
+      <TD>19 51.6</TD>
+      <TD>+35 37</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>10.30</TD>
+      <TD/>
+      <TD>G5</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 55 18.8</TD>
+      <TD>+35 52 52</TD>
+      <TD>Tycho</TD>
+     </TR>
+     <TR>
+      <TD>226551</TD>
+      <TD/>
+      <TD>19 51.6</TD>
+      <TD>+35 17</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>11.60</TD>
+      <TD/>
+      <TD>A</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 55 19.8</TD>
+      <TD>+35 32 52</TD>
+      <TD>Tycho</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

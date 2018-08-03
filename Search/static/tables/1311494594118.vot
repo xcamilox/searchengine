@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_A_A_553_A95_table5" name="J/A+A/553/A95/table5">
+   <DESCRIPTION>
+    Effective temperatures for stars in the Elodie archive, derived by
+    averaging multiple entries for each star
+   </DESCRIPTION>
+   <FIELD ID="ID" arraysize="31" datatype="char" name="ID" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Star identifier \linkRole{individual effective temperatures }
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Teff" datatype="short" name="Teff" ucd="PHYS_TEMP_EFFEC" unit="K" width="4">
+    <DESCRIPTION>
+     Effective temperature from paper's PCA analysis
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_Teff" datatype="short" name="e_Teff" ucd="ERROR" unit="K" width="4">
+    <DESCRIPTION>
+     Standard deviation among spectra of the same target
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Nspec" datatype="short" name="Nspec" ucd="NUMBER" width="3">
+    <DESCRIPTION>
+     Number of spectra available for this target
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SimbadName" arraysize="21" datatype="char" name="SimbadName" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Designation understandable by the {\bf\fg{FireBrick}Simbad} data-
+     base
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Explain (right ascension part)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Explain (declination part)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>HD188947</TD>
+      <TD>5121</TD>
+      <TD>13</TD>
+      <TD>3</TD>
+      <TD>HD188947</TD>
+      <TD>299.07655</TD>
+      <TD> 35.08342</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

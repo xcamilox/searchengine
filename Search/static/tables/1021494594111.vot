@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJS_208_11_table1" name="J/ApJS/208/11/table1">
+   <DESCRIPTION>
+    The full RMS (Red MSX Source Survey) catalog
+   </DESCRIPTION>
+   <FIELD ID="Name" arraysize="18" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Full RMS catalog name of the source (GLLL.llll+BB.bbbbA)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="M" arraysize="1" datatype="char" name="M" ucd="DATA_LINK">
+    <DESCRIPTION>
+     {\bf } indicates a Massive protostar (more in table 2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="11" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Hour of Right Ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="11" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Degree of Declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Type" arraysize="14" datatype="char" name="Type" ucd="CLASS_OBJECT">
+    <DESCRIPTION>
+     Object type as defined in the paper (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="fcc" arraysize="1" datatype="char" name="fcc" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [N/Y] Failing near infrared color cuts? (4)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="vLSR" datatype="float" name="vLSR" precision="1" ucd="VELOC_LSR" unit="km.s-1" width="6">
+    <DESCRIPTION>
+     ? Local Standard of Rest velocity
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Near" datatype="float" name="Near" precision="1" ucd="POS_GAL_HC" unit="kpc" width="4">
+    <DESCRIPTION>
+     [0/30.5]? Near distance for source (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Far" datatype="float" name="Far" precision="1" ucd="POS_GAL_HC" unit="kpc" width="4">
+    <DESCRIPTION>
+     [0/30.5]? Far distance for source (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Dist" datatype="float" name="Dist" precision="1" ucd="POS_GAL_HC" unit="kpc" width="4">
+    <DESCRIPTION>
+     [-1/17.2]? Adopted Distance (2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Rgc" datatype="float" name="Rgc" precision="1" ucd="POS_GAL_GC" unit="kpc" width="4">
+    <DESCRIPTION>
+     [2.9/15.1]? Distance from Galactic center
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Lbol" datatype="int" name="Lbol" ucd="PHOT_BOL_LUMINOSITY" unit="Lsun" width="7">
+    <DESCRIPTION>
+     [0/2612430]? Bolometric luminosity [NULL integer written as an
+     empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="IRAS" arraysize="11" datatype="char" name="IRAS" ucd="ID_CROSSID">
+    <DESCRIPTION>
+     IRAS counterpart within MSX beam; "NULL" if none
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="MSX6C" arraysize="5" datatype="char" name="MSX6C" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Details from MSX6C (V/114)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>G070.7766+02.6836</TD>
+      <TD/>
+      <TD>19 58 32.28</TD>
+      <TD>+34 31 33.7</TD>
+      <TD>OH/IR star</TD>
+      <TD>Y</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>-2147483648</TD>
+      <TD>19566+3423</TD>
+      <TD>MSX6C</TD>
+     </TR>
+     <TR>
+      <TD>G070.9846+02.2447</TD>
+      <TD/>
+      <TD>20 00 52.92</TD>
+      <TD>+34 28 22.2</TD>
+      <TD>Evolved star</TD>
+      <TD>N</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>-2147483648</TD>
+      <TD>19589+3419</TD>
+      <TD>MSX6C</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

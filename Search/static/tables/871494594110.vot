@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJ_348_253_giants" name="J/ApJ/348/253/giants">
+   <DESCRIPTION>
+    EO Survey of Late-type Giant and Supergiant Stars
+   </DESCRIPTION>
+   <FIELD ID="HD" datatype="int" name="HD" ucd="ID_ALTERNATIVE" width="6">
+    <DESCRIPTION>
+     HD (Henry Draper Catalog) number (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sp" arraysize="17" datatype="char" name="Sp" ucd="SPECT_TYPE_GENERAL">
+    <DESCRIPTION>
+     Spectral Type (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_MAG_V" unit="mag" width="5">
+    <DESCRIPTION>
+     Visual magnitude (apparent) (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="fx" datatype="float" name="fx" precision="1" ucd="PHOT_FLUX_X" unit="10-16W.m-2" width="6">
+    <DESCRIPTION>
+     X-ray Flux in the 0.16-4.0 keV band (10)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_fx" datatype="float" name="e_fx" precision="1" ucd="ERROR" unit="10-16W.m-2" width="4">
+    <DESCRIPTION>
+     Error on X-ray Flux (10)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="fx_fv" datatype="float" name="fx_fv" precision="1" ucd="PHOT_FLUX_RATIO" width="4">
+    <DESCRIPTION>
+     log of X-ray to visual flux ratio (11)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAB1950" arraysize="8" datatype="char" name="RAB1950" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension (B1950)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEB1950" arraysize="9" datatype="char" name="DEB1950" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (B1950)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA.icrs" arraysize="10" datatype="char" name="_RA.icrs" ucd="POS_EQ_RA_OTHER">
+    <DESCRIPTION>
+     Right ascension (ICRS) (computed by VizieR, not part of the
+     original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" arraysize="9" datatype="char" name="_DE.icrs" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (ICRS) (computed by VizieR, not part of the original
+     data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>188947</TD>
+      <TD>K0III</TD>
+      <TD> 3.89</TD>
+      <TD>   2.5</TD>
+      <TD> 0.0</TD>
+      <TD>-5.5</TD>
+      <TD>19 54 26</TD>
+      <TD>+34 56 57</TD>
+      <TD>19 56 18.8</TD>
+      <TD>+35 05 00</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

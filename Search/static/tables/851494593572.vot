@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_A_A_588_A14_table1" name="J/A+A/588/A14/table1">
+   <DESCRIPTION>
+    Catalog of 2mrs galaxies
+   </DESCRIPTION>
+   <FIELD ID="PGC" datatype="int" name="PGC" ucd="ID_NUMBER" width="7">
+    <DESCRIPTION>
+     Identification number in PGC
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Group" datatype="int" name="Group" ucd="ID_PARENT" width="5">
+    <DESCRIPTION>
+     Group id given galaxy belongs to
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Ngal" datatype="short" name="Ngal" ucd="NUMBER" width="3">
+    <DESCRIPTION>
+     Richness of the group galaxy belongs to
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DistG" datatype="double" name="DistG" precision="4" ucd="PHYS_DISTANCE_TRUE" unit="Mpc" width="8">
+    <DESCRIPTION>
+     Comoving distance to the group centre
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="zobs" datatype="double" name="zobs" precision="6" ucd="REDSHIFT_HC" width="9">
+    <DESCRIPTION>
+     Observed redshift
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="zcmb" datatype="double" name="zcmb" precision="6" ucd="VELOC_CMB" width="9">
+    <DESCRIPTION>
+     Redshift, corrected to the CMB restframe
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_zobs" datatype="double" name="e_zobs" precision="6" ucd="ERROR" width="9">
+    <DESCRIPTION>
+     Error of the observed redshift
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dist" datatype="double" name="Dist" precision="4" ucd="PHYS_DISTANCE_TRUE" unit="Mpc" width="8">
+    <DESCRIPTION>
+     Comoving distance
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Distc" datatype="double" name="Distc" precision="4" ucd="PHYS_DISTANCE_TRUE" unit="Mpc" width="8">
+    <DESCRIPTION>
+     Comoving distance, finger-of-god corrected
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right ascension of the galaxy (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination of the galaxy (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GLON" datatype="double" name="GLON" precision="5" ucd="POS_GAL_LON" unit="deg" width="9">
+    <DESCRIPTION>
+     Galactic longitude of the galaxy
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GLAT" datatype="double" name="GLAT" precision="5" ucd="POS_GAL_LAT" unit="deg" width="9">
+    <DESCRIPTION>
+     Galactic latitude of the galaxy
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SGLON" datatype="double" name="SGLON" precision="5" ucd="POS_SG_LON" unit="deg" width="9">
+    <DESCRIPTION>
+     Supergalactic longitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SGLAT" datatype="double" name="SGLAT" precision="5" ucd="POS_SG_LAT" unit="deg" width="9">
+    <DESCRIPTION>
+     Supergalactic latitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="XSG" datatype="double" name="XSG" precision="4" ucd="POS_SG_X" unit="Mpc" width="9">
+    <DESCRIPTION>
+     Supergalactic cartesian coordinate
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="YSG" datatype="double" name="YSG" precision="4" ucd="POS_SG_Y" unit="Mpc" width="9">
+    <DESCRIPTION>
+     Supergalactic cartesian coordinate
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="ZSG" datatype="double" name="ZSG" precision="4" ucd="POS_SG_Z" unit="Mpc" width="9">
+    <DESCRIPTION>
+     Supergalactic cartesian coordinate
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Ext" datatype="float" name="Ext" precision="4" ucd="PHOT_EXTINCTION_ISM" unit="mag" width="7">
+    <DESCRIPTION>
+     Galactic extinction corrected Ks magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Source" datatype="unsignedByte" name="Source" ucd="ID_MAIN" width="1">
+    <DESCRIPTION>
+     [1/3] Source of the galaxy (1)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>51344</TD>
+      <TD>0</TD>
+      <TD>1</TD>
+      <TD> 27.7062</TD>
+      <TD> 0.005460</TD>
+      <TD> 0.006275</TD>
+      <TD> 0.000007</TD>
+      <TD> 27.7062</TD>
+      <TD> 27.7062</TD>
+      <TD>215.59917</TD>
+      <TD> -0.38749</TD>
+      <TD>345.11438</TD>
+      <TD> 54.85593</TD>
+      <TD>123.04189</TD>
+      <TD> 20.87678</TD>
+      <TD> -14.1151</TD>
+      <TD>  21.7006</TD>
+      <TD>   9.8734</TD>
+      <TD> 9.9540</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>51063</TD>
+      <TD>0</TD>
+      <TD>1</TD>
+      <TD>231.1062</TD>
+      <TD> 0.052089</TD>
+      <TD> 0.052920</TD>
+      <TD> 0.000010</TD>
+      <TD>231.1062</TD>
+      <TD>231.1062</TD>
+      <TD>214.45775</TD>
+      <TD>  0.51088</TD>
+      <TD>344.43347</TD>
+      <TD> 56.25651</TD>
+      <TD>121.77219</TD>
+      <TD> 20.04323</TD>
+      <TD>-114.3173</TD>
+      <TD> 184.5749</TD>
+      <TD>  79.2068</TD>
+      <TD>11.7510</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>51280</TD>
+      <TD>0</TD>
+      <TD>1</TD>
+      <TD>235.4890</TD>
+      <TD> 0.053117</TD>
+      <TD> 0.053936</TD>
+      <TD> 0.000120</TD>
+      <TD>235.4890</TD>
+      <TD>235.4890</TD>
+      <TD>215.28639</TD>
+      <TD> -0.37791</TD>
+      <TD>344.68665</TD>
+      <TD> 55.04978</TD>
+      <TD>122.93443</TD>
+      <TD> 20.58046</TD>
+      <TD>-119.8594</TD>
+      <TD> 185.0306</TD>
+      <TD>  82.7797</TD>
+      <TD>11.5920</TD>
+      <TD>1</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

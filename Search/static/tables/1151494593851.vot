@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_AJ_150_187_table1" name="J/AJ/150/187/table1">
+   <DESCRIPTION>
+    List of LAMOST stars used to validate LAMOST/SEGUE Stellar
+    Parameter Pipeline (LSSPP) parameters
+   </DESCRIPTION>
+   <FIELD ID="LAMOST" arraysize="19" datatype="char" name="LAMOST" ucd="ID_MAIN">
+    <DESCRIPTION>
+     LAMOST identifier (JHHMMSS.ss+DDMMSS.s)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="V_146" arraysize="3" datatype="char" name="V_146" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the data from LAMOST-DR1 (Luo et al. 2015, cat. V/146)
+     within 1.5''
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RTeff" datatype="short" name="RTeff" ucd="PHYS_TEMP_EFFEC" unit="K" width="4">
+    <DESCRIPTION>
+     Reference effective temperature (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Rlogg" datatype="float" name="Rlogg" precision="3" ucd="PHYS_GRAVITY_SURFACE" unit="[cm/s2]" width="6">
+    <DESCRIPTION>
+     Log reference surface gravity (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="R_Fe_H_" datatype="float" name="R_Fe_H_" precision="3" ucd="PHYS_ABUND_FE/H" unit="[Sun]" width="7">
+    <DESCRIPTION>
+     Log reference Fe/H abundance ratio (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="R_a_Fe_" datatype="float" name="R_a_Fe_" precision="3" ucd="PHYS_ABUND_MISC" unit="[Sun]" width="7">
+    <DESCRIPTION>
+     ? Log reference {alpha}/Fe abundance ratio (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="R_C_Fe_" datatype="float" name="R_C_Fe_" precision="3" ucd="PHYS_ABUND_MISC" unit="[Sun]" width="7">
+    <DESCRIPTION>
+     ? Log reference C/Fe abundance ratio (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="RS_N" datatype="float" name="RS_N" precision="1" ucd="INST_S/N" width="6">
+    <DESCRIPTION>
+     Reference Signal-to-Noise (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="LTeff" datatype="short" name="LTeff" ucd="PHYS_TEMP_EFFEC" unit="K" width="4">
+    <DESCRIPTION>
+     LSSPP effective temperature (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Llogg" datatype="float" name="Llogg" precision="3" ucd="PHYS_GRAVITY_SURFACE" unit="[cm/s2]" width="6">
+    <DESCRIPTION>
+     Log LSSPP surface gravity (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="L_Fe_H_" datatype="float" name="L_Fe_H_" precision="3" ucd="PHYS_ABUND_FE/H" unit="[Sun]" width="7">
+    <DESCRIPTION>
+     Log LSSPP Fe/H abundance ratio (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="L_a_Fe_" datatype="float" name="L_a_Fe_" precision="3" ucd="PHYS_ABUND_MISC" unit="[Sun]" width="7">
+    <DESCRIPTION>
+     ? Log LSSPP {alpha}/Fe abundance ratio (2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="L_C_Fe_" datatype="float" name="L_C_Fe_" precision="3" ucd="PHYS_ABUND_MISC" unit="[Sun]" width="7">
+    <DESCRIPTION>
+     ? Log LSSPP C/Fe abundance ratio (2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="LS_N" datatype="float" name="LS_N" precision="1" ucd="INST_S/N" width="5">
+    <DESCRIPTION>
+     LSSPP Signal-to-Noise (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SDSS" arraysize="3" datatype="char" name="SDSS" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the photometric data from SDSS-DR9 (cat. V/139) within
+     1.5''
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sloan" arraysize="5" datatype="char" name="Sloan" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the SDSS data within 1.5''
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Position from LAMOST name (right ascension part)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Position from LAMOST name (declination part)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>J141913.53-005052.2</TD>
+      <TD>DR1</TD>
+      <TD>5564</TD>
+      <TD> 4.000</TD>
+      <TD>  0.042</TD>
+      <TD/>
+      <TD/>
+      <TD>  60.0</TD>
+      <TD>5802</TD>
+      <TD> 4.506</TD>
+      <TD>  0.002</TD>
+      <TD/>
+      <TD/>
+      <TD> 67.4</TD>
+      <TD>DR9</TD>
+      <TD>Sloan</TD>
+      <TD>214.80637</TD>
+      <TD> -0.84783</TD>
+     </TR>
+     <TR>
+      <TD>J142052.85-011544.1</TD>
+      <TD>DR1</TD>
+      <TD>4798</TD>
+      <TD> 3.670</TD>
+      <TD> -0.160</TD>
+      <TD/>
+      <TD/>
+      <TD>  53.0</TD>
+      <TD>4945</TD>
+      <TD> 3.803</TD>
+      <TD> -0.136</TD>
+      <TD/>
+      <TD/>
+      <TD> 57.6</TD>
+      <TD>DR9</TD>
+      <TD>Sloan</TD>
+      <TD>215.22021</TD>
+      <TD> -1.26225</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

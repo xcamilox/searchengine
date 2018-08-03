@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_A_A_352_555_table1" name="J/A+A/352/555/table1">
+   <DESCRIPTION>
+    Stellar parameters for the stars in the Hipparcos catalog within
+    100pc from the Sun included in the ranges for the radius, mass,
+    effective temperature and gravity described in Section 4 of the
+    paper.
+   </DESCRIPTION>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     Hipparcos (Cat. &lt;I/239&gt;) number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_JHN_V" unit="mag" width="5">
+    <DESCRIPTION>
+     Johnson V magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="VMAG" datatype="float" name="VMAG" precision="2" ucd="PHOT_ABS-MAG_BAND" unit="mag" width="5">
+    <DESCRIPTION>
+     Absolute V magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="B-V" datatype="float" name="B-V" precision="3" ucd="PHOT_JHN_B-V" unit="mag" width="7">
+    <DESCRIPTION>
+     B-V colour index
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="logg" datatype="float" name="logg" precision="2" ucd="PHYS_GRAVITY_SURFACE" unit="[cm/s2]" width="5">
+    <DESCRIPTION>
+     Logarithm of the gravity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Mass" datatype="float" name="Mass" precision="2" ucd="PHYS_MASS_MISC" unit="Msun" width="5">
+    <DESCRIPTION>
+     Mass
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="logRad" datatype="float" name="logRad" precision="2" ucd="PHYS_SIZE_RADIUS_GENERAL" unit="[solRad]" width="5">
+    <DESCRIPTION>
+     Logarithm of the radius
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="BC" datatype="float" name="BC" precision="2" ucd="PHOT_BOL_CORR" unit="mag" width="5">
+    <DESCRIPTION>
+     Bolometric correction
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="logTeff" datatype="float" name="logTeff" precision="2" ucd="PHYS_TEMP_EFFEC" unit="[K]" width="5">
+    <DESCRIPTION>
+     Logarithm of the effective temperature
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="4" ucd="POS_EQ_RA_MAIN" unit="deg" width="8">
+    <DESCRIPTION>
+     Right Ascension (J2000) from SIMBAD (not part of the original
+     data)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="4" ucd="POS_EQ_DEC_MAIN" unit="deg" width="8">
+    <DESCRIPTION>
+     Declination (J2000) from SIMBAD (not part of the original data)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>98110</TD>
+      <TD> 3.89</TD>
+      <TD> 0.74</TD>
+      <TD>  1.019</TD>
+      <TD> 2.64</TD>
+      <TD> 1.82</TD>
+      <TD> 1.03</TD>
+      <TD> 0.35</TD>
+      <TD> 3.68</TD>
+      <TD>Simbad</TD>
+      <TD>299.0765</TD>
+      <TD> 35.0834</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

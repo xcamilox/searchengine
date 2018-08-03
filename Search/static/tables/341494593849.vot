@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="III_279_rave_on" name="III/279/rave_on">
+   <DESCRIPTION>
+    Stellar parameters from Cannon (\originalcolumnnames)
+   </DESCRIPTION>
+   <FIELD ID="Name" arraysize="21" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     ! Target designation (\original{RAVE_OBS_ID})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAVE" arraysize="16" datatype="char" name="RAVE" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     ! RAVE designation(JHHMMSS.S+DDMMSS) (\original{RAVEID})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HRV" datatype="double" name="HRV" precision="3" ucd="VELOC_HC" unit="km.s-1" width="9">
+    <DESCRIPTION>
+     Heliocentric radial velocity (\original{HRV})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="s_HRV" datatype="double" name="s_HRV" precision="3" ucd="ERROR" unit="km.s-1" width="4">
+    <DESCRIPTION>
+     ? Standard deviation in HRV from 10 resampled spectra
+     (\original{StdDev_HRV})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="S_HRV" datatype="double" name="S_HRV" precision="3" ucd="FIT_STDEV" unit="km.s-1" width="4">
+    <DESCRIPTION>
+     ? Median absolute deviation in HRV from 10 resampled spectra
+     (\original{MAD_HRV})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="R" datatype="float" name="R" precision="2" ucd="STAT_CORRELATION" width="6">
+    <DESCRIPTION>
+     Tonry-Davis R correlation coefficient
+     (\original{CorrelationCoeff})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="hcp" datatype="float" name="hcp" precision="3" ucd="STAT_CORRELATION" width="6">
+    <DESCRIPTION>
+     Height of correlation peak (\original{PeakHeight})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="wcp" datatype="double" name="wcp" precision="3" ucd="STAT_CORRELATION" unit="km.s-1" width="8">
+    <DESCRIPTION>
+     Width of correlation peak (\original{PeakWidth})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HRVsky" datatype="double" name="HRVsky" precision="3" ucd="INST_SKY_LEVEL" unit="km.s-1" width="8">
+    <DESCRIPTION>
+     Measured HRV of sky (\original{SkyRV})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Rsky" datatype="float" name="Rsky" precision="2" ucd="STAT_CORRELATION" width="5">
+    <DESCRIPTION>
+     Correlation Coefficient R of sky (\original{SkyCorrelationCoeff})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="VrotS" datatype="short" name="VrotS" ucd="VELOC_ROTAT" unit="km.s-1" width="4">
+    <DESCRIPTION>
+     ? Rotational Velocity from SPARV pipeline (\original{Vrot_SPARV})
+     [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="ZPFLAG" arraysize="4" datatype="char" name="ZPFLAG" ucd="CODE_QUALITY">
+    <DESCRIPTION>
+     Quality Flag for ZeroPoint correction (\original{ZeroPointFLAG})
+     (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Teff" datatype="double" name="Teff" precision="2" ucd="PHYS_TEMP_EFFEC" unit="K" width="8">
+    <DESCRIPTION>
+     ? Effective temperature (\original{TEFF}) (3)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="logg" datatype="float" name="logg" precision="2" ucd="PHYS_GRAVITY_SURFACE" unit="[cm/s2]" width="5">
+    <DESCRIPTION>
+     ? Log gravity (\original{LOGG}) (3)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="__Fe_H_" datatype="float" name="__Fe_H_" precision="2" ucd="PHYS_ABUND_MISC" unit="[-]" width="5">
+    <DESCRIPTION>
+     ? Abundance of Fe (\original{FE_H}) (3)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="__O_H_" datatype="float" name="__O_H_" precision="2" ucd="PHYS_ABUND_MISC" unit="[-]" width="5">
+    <DESCRIPTION>
+     ? Abundance of O (\original{O_H}) (3)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="__Mg_H_" datatype="float" name="__Mg_H_" precision="2" ucd="PHYS_ABUND_MISC" unit="[-]" width="5">
+    <DESCRIPTION>
+     ? Abundance of Mg (\original{MG_H}) (3)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="__Al_H_" datatype="float" name="__Al_H_" precision="2" ucd="PHYS_ABUND_MISC" unit="[-]" width="5">
+    <DESCRIPTION>
+     ? Abundance of Al (\original{AL_H}) (3)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="__Si_H_" datatype="float" name="__Si_H_" precision="2" ucd="PHYS_ABUND_MISC" unit="[-]" width="5">
+    <DESCRIPTION>
+     ? Abundance of Si (\original{SI_H}) (3)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="__Ca_H_" datatype="float" name="__Ca_H_" precision="2" ucd="PHYS_ABUND_MISC" unit="[-]" width="5">
+    <DESCRIPTION>
+     ? Abundance of Ca (\original{CA_H}) (3)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="__Ni_H_" datatype="float" name="__Ni_H_" precision="2" ucd="PHYS_ABUND_MISC" unit="[-]" width="5">
+    <DESCRIPTION>
+     ? Abundance of Ni (\original{NI_H}) (3)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="SNR" datatype="float" name="SNR" precision="2" ucd="INST_S/N" width="6">
+    <DESCRIPTION>
+     ? Signal to noise ratio (\original{SNR}) (3)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="RCHISQ" datatype="double" name="RCHISQ" precision="2" ucd="FIT_CHI2" width="16">
+    <DESCRIPTION>
+     ? Chi-square (\original{R_CHI_SQ}) (3)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="QC" datatype="unsignedByte" name="QC" ucd="CODE_QUALITY" width="1">
+    <DESCRIPTION>
+     Quality flag (\original{QC}) (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right ascension (J2000.0, Ep=J2000) (\original{RAdeg})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (J2000.0, Ep=J2000) (\original{DEdeg})
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>20060614_1423m02_067</TD>
+      <TD>J141913.5-005052</TD>
+      <TD>   16.264</TD>
+      <TD>0.730</TD>
+      <TD>0.590</TD>
+      <TD> 65.62</TD>
+      <TD> 0.958</TD>
+      <TD>  67.866</TD>
+      <TD>   1.429</TD>
+      <TD> 5.63</TD>
+      <TD>29</TD>
+      <TD>BCS</TD>
+      <TD> 5677.63</TD>
+      <TD> 4.24</TD>
+      <TD>-0.02</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD> 35.93</TD>
+      <TD>            0.42</TD>
+      <TD>1</TD>
+      <TD>214.80637</TD>
+      <TD> -0.84769</TD>
+     </TR>
+     <TR>
+      <TD>20060614_1423m02_068</TD>
+      <TD>J141817.0-001600</TD>
+      <TD>    9.031</TD>
+      <TD>0.650</TD>
+      <TD>0.520</TD>
+      <TD> 77.23</TD>
+      <TD> 0.965</TD>
+      <TD>  60.130</TD>
+      <TD>   2.656</TD>
+      <TD> 4.52</TD>
+      <TD>27</TD>
+      <TD>BCS</TD>
+      <TD> 4526.95</TD>
+      <TD> 2.37</TD>
+      <TD>-0.27</TD>
+      <TD>-0.01</TD>
+      <TD>-0.12</TD>
+      <TD> 0.03</TD>
+      <TD> 0.03</TD>
+      <TD>-0.22</TD>
+      <TD>-0.27</TD>
+      <TD> 35.69</TD>
+      <TD>            0.51</TD>
+      <TD>1</TD>
+      <TD>214.57075</TD>
+      <TD> -0.26672</TD>
+     </TR>
+     <TR>
+      <TD>20060614_1423m02_072</TD>
+      <TD>J141943.9-005648</TD>
+      <TD>   -5.721</TD>
+      <TD>0.790</TD>
+      <TD>0.600</TD>
+      <TD> 59.88</TD>
+      <TD> 0.945</TD>
+      <TD>  68.322</TD>
+      <TD>   0.129</TD>
+      <TD> 6.26</TD>
+      <TD>35</TD>
+      <TD>BCS</TD>
+      <TD> 4728.14</TD>
+      <TD> 4.47</TD>
+      <TD> 0.17</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD> 33.84</TD>
+      <TD>            0.75</TD>
+      <TD>1</TD>
+      <TD>214.93292</TD>
+      <TD> -0.94667</TD>
+     </TR>
+     <TR>
+      <TD>20060614_1423m02_073</TD>
+      <TD>J142227.0-005744</TD>
+      <TD>   15.053</TD>
+      <TD>0.670</TD>
+      <TD>0.560</TD>
+      <TD> 56.19</TD>
+      <TD> 0.950</TD>
+      <TD>  58.993</TD>
+      <TD>   1.527</TD>
+      <TD> 5.34</TD>
+      <TD>28</TD>
+      <TD>BCS</TD>
+      <TD> 4780.72</TD>
+      <TD> 2.85</TD>
+      <TD> 0.12</TD>
+      <TD> 0.13</TD>
+      <TD> 0.13</TD>
+      <TD> 0.19</TD>
+      <TD> 0.29</TD>
+      <TD> 0.06</TD>
+      <TD> 0.05</TD>
+      <TD> 32.46</TD>
+      <TD>            0.53</TD>
+      <TD>1</TD>
+      <TD>215.61254</TD>
+      <TD> -0.96231</TD>
+     </TR>
+     <TR>
+      <TD>20060614_1423m02_074</TD>
+      <TD>J142303.5-004812</TD>
+      <TD>    3.979</TD>
+      <TD>0.930</TD>
+      <TD>0.750</TD>
+      <TD> 61.42</TD>
+      <TD> 0.962</TD>
+      <TD>  68.927</TD>
+      <TD>  -0.690</TD>
+      <TD> 5.26</TD>
+      <TD>37</TD>
+      <TD>BCS</TD>
+      <TD> 4817.79</TD>
+      <TD> 4.59</TD>
+      <TD> 0.08</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD> 36.15</TD>
+      <TD>            0.44</TD>
+      <TD>1</TD>
+      <TD>215.76471</TD>
+      <TD> -0.80319</TD>
+     </TR>
+     <TR>
+      <TD>20060614_1423m02_075</TD>
+      <TD>J142052.8-011544</TD>
+      <TD>  -17.855</TD>
+      <TD>0.540</TD>
+      <TD>0.420</TD>
+      <TD> 57.29</TD>
+      <TD> 0.948</TD>
+      <TD>  61.119</TD>
+      <TD>  -0.103</TD>
+      <TD> 4.83</TD>
+      <TD>29</TD>
+      <TD>BCS</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD> 37.44</TD>
+      <TD>            0.70</TD>
+      <TD>1</TD>
+      <TD>215.22017</TD>
+      <TD> -1.26217</TD>
+     </TR>
+     <TR>
+      <TD>20060614_1423m02_078</TD>
+      <TD>J142341.0-003115</TD>
+      <TD>    2.290</TD>
+      <TD>0.550</TD>
+      <TD>0.370</TD>
+      <TD> 60.44</TD>
+      <TD> 0.953</TD>
+      <TD>  67.449</TD>
+      <TD>  -0.905</TD>
+      <TD> 4.76</TD>
+      <TD>29</TD>
+      <TD>BCS</TD>
+      <TD> 5748.62</TD>
+      <TD> 3.62</TD>
+      <TD>-0.25</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD> 38.51</TD>
+      <TD>            0.54</TD>
+      <TD>1</TD>
+      <TD>215.92071</TD>
+      <TD> -0.52075</TD>
+     </TR>
+     <TR>
+      <TD>20070414_1423m02_061</TD>
+      <TD>J141818.2-010656</TD>
+      <TD>   -7.844</TD>
+      <TD>1.400</TD>
+      <TD>1.170</TD>
+      <TD> 17.17</TD>
+      <TD> 0.733</TD>
+      <TD>  73.151</TD>
+      <TD>   1.237</TD>
+      <TD> 9.08</TD>
+      <TD>47</TD>
+      <TD>BBC</TD>
+      <TD> 5783.22</TD>
+      <TD> 3.57</TD>
+      <TD>-0.12</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD> 25.46</TD>
+      <TD>            1.46</TD>
+      <TD>1</TD>
+      <TD>214.57571</TD>
+      <TD> -1.11553</TD>
+     </TR>
+     <TR>
+      <TD>20070414_1423m02_062</TD>
+      <TD>J141822.1-005102</TD>
+      <TD>  -21.738</TD>
+      <TD>1.170</TD>
+      <TD>0.980</TD>
+      <TD> 52.43</TD>
+      <TD> 0.903</TD>
+      <TD>  70.528</TD>
+      <TD>  -2.431</TD>
+      <TD>10.22</TD>
+      <TD>33</TD>
+      <TD>BBC</TD>
+      <TD> 5882.11</TD>
+      <TD> 3.63</TD>
+      <TD>-0.15</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD> 25.29</TD>
+      <TD>            0.57</TD>
+      <TD>1</TD>
+      <TD>214.59221</TD>
+      <TD> -0.85047</TD>
+     </TR>
+     <TR>
+      <TD>20070414_1423m02_064</TD>
+      <TD>J141927.1-010351</TD>
+      <TD>   23.161</TD>
+      <TD>0.860</TD>
+      <TD>0.660</TD>
+      <TD> 58.55</TD>
+      <TD> 0.940</TD>
+      <TD>  63.096</TD>
+      <TD>  -0.167</TD>
+      <TD> 5.00</TD>
+      <TD>30</TD>
+      <TD>BBC</TD>
+      <TD> 4856.06</TD>
+      <TD> 2.89</TD>
+      <TD> 0.05</TD>
+      <TD> 0.13</TD>
+      <TD> 0.06</TD>
+      <TD> 0.12</TD>
+      <TD> 0.29</TD>
+      <TD> 0.01</TD>
+      <TD>-0.05</TD>
+      <TD> 31.79</TD>
+      <TD>            0.66</TD>
+      <TD>1</TD>
+      <TD>214.86287</TD>
+      <TD> -1.06425</TD>
+     </TR>
+     <TR>
+      <TD>20070414_1423m02_065</TD>
+      <TD>J141902.1-004920</TD>
+      <TD>  -42.141</TD>
+      <TD>0.870</TD>
+      <TD>0.650</TD>
+      <TD> 56.34</TD>
+      <TD> 0.931</TD>
+      <TD>  62.892</TD>
+      <TD>  -3.489</TD>
+      <TD> 4.80</TD>
+      <TD>26</TD>
+      <TD>BBC</TD>
+      <TD> 4711.39</TD>
+      <TD> 2.28</TD>
+      <TD>-0.36</TD>
+      <TD>-0.10</TD>
+      <TD>-0.12</TD>
+      <TD>-0.08</TD>
+      <TD> 0.09</TD>
+      <TD>-0.30</TD>
+      <TD>-0.37</TD>
+      <TD> 29.96</TD>
+      <TD>            0.89</TD>
+      <TD>1</TD>
+      <TD>214.75862</TD>
+      <TD> -0.82208</TD>
+     </TR>
+     <TR>
+      <TD>20070414_1423m02_066</TD>
+      <TD>J141932.9-005222</TD>
+      <TD>   32.631</TD>
+      <TD>0.780</TD>
+      <TD>0.530</TD>
+      <TD> 50.30</TD>
+      <TD> 0.935</TD>
+      <TD>  72.495</TD>
+      <TD>   1.527</TD>
+      <TD> 5.65</TD>
+      <TD>43</TD>
+      <TD>BBC</TD>
+      <TD> 6027.42</TD>
+      <TD> 4.01</TD>
+      <TD>-0.27</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD> 36.24</TD>
+      <TD>            0.48</TD>
+      <TD>1</TD>
+      <TD>214.88696</TD>
+      <TD> -0.87283</TD>
+     </TR>
+     <TR>
+      <TD>20070414_1423m02_067</TD>
+      <TD>J142159.6-010138</TD>
+      <TD>  -22.598</TD>
+      <TD>0.300</TD>
+      <TD>0.230</TD>
+      <TD> 57.46</TD>
+      <TD> 0.964</TD>
+      <TD>  57.675</TD>
+      <TD>  -0.670</TD>
+      <TD> 4.83</TD>
+      <TD>23</TD>
+      <TD>BBC</TD>
+      <TD> 4800.27</TD>
+      <TD> 2.62</TD>
+      <TD> 0.05</TD>
+      <TD> 0.14</TD>
+      <TD> 0.09</TD>
+      <TD> 0.28</TD>
+      <TD> 0.30</TD>
+      <TD>-0.05</TD>
+      <TD> 0.01</TD>
+      <TD> 36.56</TD>
+      <TD>            0.61</TD>
+      <TD>1</TD>
+      <TD>215.49812</TD>
+      <TD> -1.02719</TD>
+     </TR>
+     <TR>
+      <TD>20070414_1423m02_071</TD>
+      <TD>J141932.0+000135</TD>
+      <TD>   -9.099</TD>
+      <TD>1.050</TD>
+      <TD>0.720</TD>
+      <TD> 33.27</TD>
+      <TD> 0.859</TD>
+      <TD>  58.266</TD>
+      <TD>  -2.165</TD>
+      <TD>12.88</TD>
+      <TD>31</TD>
+      <TD>BBC</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD> 20.07</TD>
+      <TD>            0.68</TD>
+      <TD>1</TD>
+      <TD>214.88337</TD>
+      <TD>  0.02639</TD>
+     </TR>
+     <TR>
+      <TD>20070414_1423m02_072</TD>
+      <TD>J142055.8-002729</TD>
+      <TD>  -65.549</TD>
+      <TD>0.930</TD>
+      <TD>0.670</TD>
+      <TD> 21.40</TD>
+      <TD> 0.851</TD>
+      <TD>  68.030</TD>
+      <TD>  -1.192</TD>
+      <TD> 8.45</TD>
+      <TD>28</TD>
+      <TD>BBC</TD>
+      <TD> 5839.34</TD>
+      <TD> 3.87</TD>
+      <TD>-0.13</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD> 29.58</TD>
+      <TD>            1.32</TD>
+      <TD>1</TD>
+      <TD>215.23262</TD>
+      <TD> -0.45794</TD>
+     </TR>
+     <TR>
+      <TD>20070414_1423m02_073</TD>
+      <TD>J142048.1+000524</TD>
+      <TD>  -26.361</TD>
+      <TD>0.490</TD>
+      <TD>0.440</TD>
+      <TD> 43.25</TD>
+      <TD> 0.934</TD>
+      <TD>  61.457</TD>
+      <TD>  -1.657</TD>
+      <TD> 7.74</TD>
+      <TD>26</TD>
+      <TD>BBC</TD>
+      <TD> 4667.47</TD>
+      <TD> 2.46</TD>
+      <TD>-0.49</TD>
+      <TD>-0.28</TD>
+      <TD>-0.29</TD>
+      <TD>-0.22</TD>
+      <TD>-0.16</TD>
+      <TD>-0.36</TD>
+      <TD>-0.55</TD>
+      <TD> 30.83</TD>
+      <TD>            0.65</TD>
+      <TD>1</TD>
+      <TD>215.20058</TD>
+      <TD>  0.09006</TD>
+     </TR>
+     <TR>
+      <TD>20080507_1423m02_060</TD>
+      <TD>J141750.3-010445</TD>
+      <TD>   -7.877</TD>
+      <TD>0.830</TD>
+      <TD>0.710</TD>
+      <TD> 54.93</TD>
+      <TD> 0.959</TD>
+      <TD>  68.082</TD>
+      <TD>  -3.533</TD>
+      <TD> 2.17</TD>
+      <TD>31</TD>
+      <TD>EAC*</TD>
+      <TD> 6046.63</TD>
+      <TD> 4.11</TD>
+      <TD>-0.21</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD> 46.76</TD>
+      <TD>            0.63</TD>
+      <TD>1</TD>
+      <TD>214.45950</TD>
+      <TD> -1.07917</TD>
+     </TR>
+     <TR>
+      <TD>20080507_1423m02_064</TD>
+      <TD>J141904.7-010847</TD>
+      <TD>  -11.901</TD>
+      <TD>0.360</TD>
+      <TD>0.300</TD>
+      <TD> 64.75</TD>
+      <TD> 0.965</TD>
+      <TD>  68.365</TD>
+      <TD>  -4.727</TD>
+      <TD> 1.89</TD>
+      <TD>30</TD>
+      <TD>EAC*</TD>
+      <TD> 5530.37</TD>
+      <TD> 4.20</TD>
+      <TD>-0.22</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD> 43.38</TD>
+      <TD>            0.47</TD>
+      <TD>1</TD>
+      <TD>214.76950</TD>
+      <TD> -1.14644</TD>
+     </TR>
+     <TR>
+      <TD>20080507_1423m02_071</TD>
+      <TD>J142029.2-001314</TD>
+      <TD>    0.720</TD>
+      <TD>0.550</TD>
+      <TD>0.390</TD>
+      <TD> 13.97</TD>
+      <TD> 0.785</TD>
+      <TD>  58.979</TD>
+      <TD>  -0.709</TD>
+      <TD> 2.70</TD>
+      <TD>24</TD>
+      <TD>EAC*</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD> 32.17</TD>
+      <TD>            3.86</TD>
+      <TD>0</TD>
+      <TD>215.12179</TD>
+      <TD> -0.22056</TD>
+     </TR>
+     <TR>
+      <TD>20080507_1423m02_072</TD>
+      <TD>J142226.6-005030</TD>
+      <TD>  -54.717</TD>
+      <TD>0.340</TD>
+      <TD>0.300</TD>
+      <TD> 59.80</TD>
+      <TD> 0.953</TD>
+      <TD>  55.974</TD>
+      <TD>  -7.279</TD>
+      <TD> 0.90</TD>
+      <TD>27</TD>
+      <TD>EAC*</TD>
+      <TD> 4729.43</TD>
+      <TD> 2.97</TD>
+      <TD> 0.20</TD>
+      <TD> 0.22</TD>
+      <TD> 0.19</TD>
+      <TD> 0.32</TD>
+      <TD> 0.30</TD>
+      <TD> 0.06</TD>
+      <TD> 0.14</TD>
+      <TD> 52.79</TD>
+      <TD>            1.42</TD>
+      <TD>1</TD>
+      <TD>215.61100</TD>
+      <TD> -0.84172</TD>
+     </TR>
+     <TR>
+      <TD>20080507_1423m02_074</TD>
+      <TD>J142232.8-002031</TD>
+      <TD>   20.924</TD>
+      <TD>0.190</TD>
+      <TD>0.160</TD>
+      <TD> 96.77</TD>
+      <TD> 0.985</TD>
+      <TD>  61.431</TD>
+      <TD>   8.336</TD>
+      <TD> 0.77</TD>
+      <TD>29</TD>
+      <TD>EAC*</TD>
+      <TD> 4544.97</TD>
+      <TD> 2.22</TD>
+      <TD>-0.41</TD>
+      <TD>-0.29</TD>
+      <TD>-0.40</TD>
+      <TD>-0.30</TD>
+      <TD>-0.14</TD>
+      <TD>-0.50</TD>
+      <TD>-0.42</TD>
+      <TD> 67.97</TD>
+      <TD>            0.66</TD>
+      <TD>1</TD>
+      <TD>215.63658</TD>
+      <TD> -0.34183</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_AJ_150_6_table1" name="J/AJ/150/6/table1">
+   <DESCRIPTION>
+    Red dwarfs studied for long-term variability
+   </DESCRIPTION>
+   <FIELD ID="Name" arraysize="16" datatype="char" name="Name" ucd="NUMBER">
+    <DESCRIPTION>
+     Name of the red dwarf (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_Name" arraysize="1" datatype="char" name="n_Name" ucd="NOTE">
+    <DESCRIPTION>
+     'Y' indicates star confirmed to be young in Riedel et al. 2014
+     (cat. J/AJ/147/85)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="8" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Hour of Right Ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="9" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Degree of Declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_JHN_V" unit="mag" width="5">
+    <DESCRIPTION>
+     [9.6/21.4] Johnson V-band magnitude (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Rmag" datatype="float" name="Rmag" precision="2" ucd="PHOT_COUS_R" unit="mag" width="5">
+    <DESCRIPTION>
+     [8.7/18.9] Kron-Cousins R-band magnitude (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Imag" datatype="float" name="Imag" precision="2" ucd="PHOT_COUS_I" unit="mag" width="5">
+    <DESCRIPTION>
+     [7.3/16.5] Kron-Cousins I-band magnitude (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Cat" datatype="short" name="Cat" ucd="DATA_LINK" width="3">
+    <DESCRIPTION>
+     Sources in the VRI reference catalogs within 16'' [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="Kmag" datatype="float" name="Kmag" precision="2" ucd="PHOT_JHN_K" unit="mag" width="5">
+    <DESCRIPTION>
+     [4.3/12.3] The 2MASS Ks band magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_2M" arraysize="2" datatype="char" name="_2M" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the 2MASS data (Cutri et al. 2003, Cat. II/246) within
+     10''
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Flt" arraysize="1" datatype="char" name="Flt" ucd="INST_FILTER_CODE">
+    <DESCRIPTION>
+     [VRI] Filter used in long-term photometry (V_J_, R_KC_, or I_KC_)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Amp" datatype="float" name="Amp" precision="1" ucd="VAR_AMPLITUDE_VALUE" unit="mmag" width="5">
+    <DESCRIPTION>
+     [6/197] Photometric variability in Flt (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Ny" datatype="float" name="Ny" precision="2" ucd="NUMBER" unit="yr" width="5">
+    <DESCRIPTION>
+     [3.8/14.1] Number of years (from the first to last epoch)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Nn" datatype="short" name="Nn" ucd="NUMBER" width="2">
+    <DESCRIPTION>
+     [7/63] Number of observational nights
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Nf" datatype="short" name="Nf" ucd="NUMBER" width="3">
+    <DESCRIPTION>
+     [29/374] Total number of frames (typically ~5 frames per night)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="plx" datatype="float" name="plx" precision="2" ucd="POS_PARLX_TRIG" unit="mas" width="6">
+    <DESCRIPTION>
+     [20/769]? Trigonometric parallax {pi}_trig_ (4)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_plx" datatype="float" name="e_plx" precision="2" ucd="ERROR" unit="mas" width="5">
+    <DESCRIPTION>
+     [0.4/4.1]? 1{sigma} uncertainty in plx
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="SimbadName" arraysize="24" datatype="char" name="SimbadName" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Designation understandable by the {\bf\fg{FireBrick}Simbad} data-
+     base
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>LHS 2899</TD>
+      <TD/>
+      <TD>14 21 15</TD>
+      <TD>-01 07 19</TD>
+      <TD>13.12</TD>
+      <TD>11.92</TD>
+      <TD>10.39</TD>
+      <TD>1</TD>
+      <TD> 8.09</TD>
+      <TD>2M</TD>
+      <TD>V</TD>
+      <TD> 15.5</TD>
+      <TD> 4.99</TD>
+      <TD>12</TD>
+      <TD>45</TD>
+      <TD> 74.66</TD>
+      <TD> 2.15</TD>
+      <TD>LHS 2899</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

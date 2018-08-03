@@ -1,0 +1,1246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="I_306A_stars" name="I/306A/stars">
+   <DESCRIPTION>
+    Stars with FONAK1, AC2000, UCAC2, GSC numbers
+   </DESCRIPTION>
+   <FIELD ID="Seq" datatype="int" name="Seq" ucd="ID_NUMBER" width="6">
+    <DESCRIPTION>
+     [1/556767] Sequential number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="m_Seq" datatype="unsignedByte" name="m_Seq" ucd="CODE_MULT_INDEX" width="1">
+    <DESCRIPTION>
+     [1/9]? - flag of multiple line for star [NULL integer written as
+     an empty string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="ci" datatype="unsignedByte" name="ci" ucd="CODE_MISC" width="1">
+    <DESCRIPTION>
+     [3]? 3 if colours instead of magnitude, in Bmag, Vmag, Umag, Rmag
+     and Imag columns [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="12" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_OTHER" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     [0/24] Right ascension (J2000.0, Ep=J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="float" name="pmRA" precision="1" ucd="POS_EQ_PMRA" unit="mas.yr-1" width="7">
+    <DESCRIPTION>
+     ? Annual proper motion in RA, multiplied by cos(delta), written
+     as an integer number
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="13" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     [0/90] Declination (J2000.0, Ep=J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="float" name="pmDE" precision="1" ucd="POS_EQ_PMDEC" unit="mas.yr-1" width="7">
+    <DESCRIPTION>
+     ? Annual proper motion in Declination, written as an integer
+     number
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="f_Bmag" datatype="unsignedByte" name="f_Bmag" ucd="CODE_MISC" width="1">
+    <DESCRIPTION>
+     [0-9]? Unreliable Bmag (5) [NULL integer written as an empty
+     string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="Bmag" datatype="float" name="Bmag" precision="3" ucd="PHOT_MAG_B" unit="mag" width="6">
+    <DESCRIPTION>
+     ? B or (B-V) magnitude, written as an integer number
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="n_Bmag" datatype="unsignedByte" name="n_Bmag" ucd="NOTE" width="1">
+    <DESCRIPTION>
+     [1-3]? photometric system for magnitude B (4) [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="f_Vmag" datatype="unsignedByte" name="f_Vmag" ucd="CODE_MISC" width="1">
+    <DESCRIPTION>
+     [1-9]? Unreliable Vmag (5) [NULL integer written as an empty
+     string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="3" ucd="PHOT_MAG_V" unit="mag" width="6">
+    <DESCRIPTION>
+     ? V magnitude, written as an integer number
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="n_Vmag" datatype="unsignedByte" name="n_Vmag" ucd="NOTE" width="1">
+    <DESCRIPTION>
+     [0-4]? photometric system for magnitude V (4) [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="f_Rmag" datatype="unsignedByte" name="f_Rmag" ucd="CODE_MISC" width="1">
+    <DESCRIPTION>
+     [0-9]? Unreliable Rmag (5) [NULL integer written as an empty
+     string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="Rmag" datatype="float" name="Rmag" precision="3" ucd="PHOT_MAG_R" unit="mag" width="6">
+    <DESCRIPTION>
+     ? R or (V-R) magnitude, written as an integer number
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="n_Rmag" datatype="unsignedByte" name="n_Rmag" ucd="NOTE" width="1">
+    <DESCRIPTION>
+     [0-7]? photometric system for magnitude R (4) [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="RV" datatype="float" name="RV" precision="1" ucd="VELOC_HC" unit="km.s-1" width="7">
+    <DESCRIPTION>
+     ? Radial velocity written as an integer number
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="var" datatype="unsignedByte" name="var" ucd="NOTE" width="1">
+    <DESCRIPTION>
+     [0-9]? Variability flag (10) [NULL integer written as an empty
+     string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="mul" datatype="unsignedByte" name="mul" ucd="NOTE" width="1">
+    <DESCRIPTION>
+     [0-9]? Type of multiple system (11) [NULL integer written as an
+     empty string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="Ids" arraysize="1" datatype="char" name="Ids" ucd="DATA_LINK">
+    <DESCRIPTION>
+     {\bf x} indicates that other designations for this star are
+     contained in the file
+     "\begin{tex}\vFile{I/306A/./ids.dat}{ids.dat}\end{tex}"
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>445904</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 53 30.605</TD>
+      <TD>    2.4</TD>
+      <TD>+35 16 51.870</TD>
+      <TD>  -41.8</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>15.730</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>446200</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 53 47.014</TD>
+      <TD>   41.6</TD>
+      <TD>+34 58 57.120</TD>
+      <TD>   -9.7</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>15.250</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>446211</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 53 47.774</TD>
+      <TD>   41.9</TD>
+      <TD>+35 15 04.460</TD>
+      <TD>   -7.4</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>13.280</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>446237</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 53 48.516</TD>
+      <TD>  -33.5</TD>
+      <TD>+35 01 05.960</TD>
+      <TD>  -27.7</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>15.800</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>446284</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 53 50.769</TD>
+      <TD>   40.3</TD>
+      <TD>+35 34 04.130</TD>
+      <TD>   40.6</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>15.970</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>446344</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 53 53.670</TD>
+      <TD>   -8.6</TD>
+      <TD>+35 14 00.140</TD>
+      <TD>  -37.7</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>14.280</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>446528</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 54 04.320</TD>
+      <TD>   33.2</TD>
+      <TD>+35 26 27.680</TD>
+      <TD>   51.6</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>15.260</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>446544</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 54 05.267</TD>
+      <TD>   27.5</TD>
+      <TD>+34 58 56.430</TD>
+      <TD>  -31.6</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>15.150</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>446626</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 54 08.996</TD>
+      <TD>  -20.9</TD>
+      <TD>+35 32 10.690</TD>
+      <TD>   34.0</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>12.940</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>446719</TD>
+      <TD>255</TD>
+      <TD>3</TD>
+      <TD>19 54 13.702</TD>
+      <TD>   27.0</TD>
+      <TD>+35 13 15.600</TD>
+      <TD>   60.1</TD>
+      <TD>255</TD>
+      <TD> 0.510</TD>
+      <TD>3</TD>
+      <TD>255</TD>
+      <TD>11.700</TD>
+      <TD>3</TD>
+      <TD>255</TD>
+      <TD>11.120</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>446741</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 54 14.876</TD>
+      <TD>  -37.6</TD>
+      <TD>+34 44 33.920</TD>
+      <TD>  -22.8</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>13.540</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>446808</TD>
+      <TD>255</TD>
+      <TD>3</TD>
+      <TD>19 54 18.364</TD>
+      <TD>   23.8</TD>
+      <TD>+35 28 10.680</TD>
+      <TD>   37.7</TD>
+      <TD>255</TD>
+      <TD> 0.790</TD>
+      <TD>3</TD>
+      <TD>255</TD>
+      <TD>11.400</TD>
+      <TD>3</TD>
+      <TD>255</TD>
+      <TD>11.020</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>446847</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 54 20.183</TD>
+      <TD>  -49.3</TD>
+      <TD>+34 57 57.560</TD>
+      <TD>   14.2</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>13.950</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>446939</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 54 24.552</TD>
+      <TD>  -63.2</TD>
+      <TD>+35 09 51.020</TD>
+      <TD>   18.6</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>15.950</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>446949</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 54 25.158</TD>
+      <TD>   49.3</TD>
+      <TD>+35 32 34.780</TD>
+      <TD>  -38.4</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>15.020</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>446967</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 54 26.353</TD>
+      <TD>  -32.5</TD>
+      <TD>+34 38 55.380</TD>
+      <TD>  -30.0</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>14.260</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>447075</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 54 33.086</TD>
+      <TD> -170.1</TD>
+      <TD>+35 19 38.200</TD>
+      <TD> -138.2</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>14.080</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>447080</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 54 33.376</TD>
+      <TD>  -35.0</TD>
+      <TD>+35 18 18.200</TD>
+      <TD>  -29.6</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>13.940</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>447147</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 54 36.030</TD>
+      <TD>  -40.9</TD>
+      <TD>+35 31 21.290</TD>
+      <TD>  -26.2</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>14.040</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>447191</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 54 39.341</TD>
+      <TD>   15.6</TD>
+      <TD>+35 25 46.320</TD>
+      <TD>  -48.8</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>14.130</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>447202</TD>
+      <TD>255</TD>
+      <TD>3</TD>
+      <TD>19 54 40.456</TD>
+      <TD>  -61.5</TD>
+      <TD>+34 52 49.970</TD>
+      <TD>  -43.4</TD>
+      <TD>255</TD>
+      <TD> 0.640</TD>
+      <TD>3</TD>
+      <TD>255</TD>
+      <TD>11.090</TD>
+      <TD>3</TD>
+      <TD>255</TD>
+      <TD>10.680</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>447211</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 54 41.013</TD>
+      <TD>  -13.7</TD>
+      <TD>+35 27 21.820</TD>
+      <TD>   52.4</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>15.510</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>447269</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 54 43.855</TD>
+      <TD>  -36.3</TD>
+      <TD>+35 43 13.440</TD>
+      <TD>  -43.0</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>14.410</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>447305</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 54 46.176</TD>
+      <TD>  -24.1</TD>
+      <TD>+35 23 16.400</TD>
+      <TD>  -38.6</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>14.790</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>447318</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 54 46.893</TD>
+      <TD>   54.0</TD>
+      <TD>+35 06 16.520</TD>
+      <TD>  -58.0</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>14.910</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>447323</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 54 47.260</TD>
+      <TD>  -27.9</TD>
+      <TD>+34 57 38.290</TD>
+      <TD>  -41.2</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>12.360</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>447338</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 54 48.000</TD>
+      <TD>  -41.0</TD>
+      <TD>+34 39 30.000</TD>
+      <TD>  -80.0</TD>
+      <TD>255</TD>
+      <TD>12.900</TD>
+      <TD>2</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>447340</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 54 48.403</TD>
+      <TD>  -41.2</TD>
+      <TD>+35 42 33.180</TD>
+      <TD>  -28.6</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>13.060</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>447354</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 54 49.060</TD>
+      <TD>   28.0</TD>
+      <TD>+35 34 41.500</TD>
+      <TD>   28.0</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>12.990</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>447370</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 54 49.956</TD>
+      <TD>   40.2</TD>
+      <TD>+35 14 13.510</TD>
+      <TD>    2.2</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>15.570</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>447431</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 54 52.917</TD>
+      <TD>   23.3</TD>
+      <TD>+34 54 55.470</TD>
+      <TD>  -31.5</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>14.230</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>447444</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 54 53.975</TD>
+      <TD>   10.7</TD>
+      <TD>+34 54 57.820</TD>
+      <TD>  -37.2</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>14.480</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>447460</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 54 55.008</TD>
+      <TD>   51.5</TD>
+      <TD>+35 21 28.400</TD>
+      <TD>   33.8</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>15.230</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>447485</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 54 55.989</TD>
+      <TD>   38.7</TD>
+      <TD>+35 50 23.440</TD>
+      <TD>   32.9</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>15.160</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>447511</TD>
+      <TD>255</TD>
+      <TD>3</TD>
+      <TD>19 54 57.383</TD>
+      <TD>  -27.3</TD>
+      <TD>+35 21 08.790</TD>
+      <TD>  -52.8</TD>
+      <TD>255</TD>
+      <TD> 0.430</TD>
+      <TD>3</TD>
+      <TD>255</TD>
+      <TD>10.670</TD>
+      <TD>3</TD>
+      <TD>255</TD>
+      <TD>10.360</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>447532</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 54 58.327</TD>
+      <TD>  -23.4</TD>
+      <TD>+35 24 10.120</TD>
+      <TD>   32.0</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>14.790</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>447554</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 54 59.428</TD>
+      <TD>   23.6</TD>
+      <TD>+35 07 52.300</TD>
+      <TD>  -32.4</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>11.290</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>447607</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 55 02.108</TD>
+      <TD>   37.0</TD>
+      <TD>+35 40 52.120</TD>
+      <TD>   25.6</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>13.510</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>447608</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 55 02.227</TD>
+      <TD>   19.0</TD>
+      <TD>+35 28 58.030</TD>
+      <TD>   37.6</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>14.250</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>447620</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 55 03.294</TD>
+      <TD>   39.8</TD>
+      <TD>+35 55 40.480</TD>
+      <TD>   42.1</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>15.450</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>447628</TD>
+      <TD>255</TD>
+      <TD>3</TD>
+      <TD>19 55 03.500</TD>
+      <TD>   49.0</TD>
+      <TD>+35 52 19.000</TD>
+      <TD>   22.4</TD>
+      <TD>255</TD>
+      <TD> 0.790</TD>
+      <TD>3</TD>
+      <TD>255</TD>
+      <TD>10.660</TD>
+      <TD>3</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>1</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>447629</TD>
+      <TD>1</TD>
+      <TD>3</TD>
+      <TD>19 55 03.507</TD>
+      <TD>   49.0</TD>
+      <TD>+35 52 18.790</TD>
+      <TD>   22.4</TD>
+      <TD>255</TD>
+      <TD> 0.610</TD>
+      <TD>3</TD>
+      <TD>255</TD>
+      <TD>10.350</TD>
+      <TD>3</TD>
+      <TD>255</TD>
+      <TD> 9.420</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>x</TD>
+     </TR>
+     <TR>
+      <TD>447631</TD>
+      <TD>2</TD>
+      <TD>3</TD>
+      <TD>19 55 03.533</TD>
+      <TD>   52.4</TD>
+      <TD>+35 52 17.730</TD>
+      <TD>    0.6</TD>
+      <TD>255</TD>
+      <TD> 0.990</TD>
+      <TD>2</TD>
+      <TD>255</TD>
+      <TD> 9.720</TD>
+      <TD>2</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>447641</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 55 04.079</TD>
+      <TD>  -43.6</TD>
+      <TD>+35 37 57.610</TD>
+      <TD>    6.3</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>15.390</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>447660</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 55 05.376</TD>
+      <TD>   19.5</TD>
+      <TD>+34 39 16.080</TD>
+      <TD>   44.3</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>13.200</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>447687</TD>
+      <TD>255</TD>
+      <TD>3</TD>
+      <TD>19 55 06.606</TD>
+      <TD>  -37.6</TD>
+      <TD>+35 44 29.820</TD>
+      <TD>  -30.1</TD>
+      <TD>255</TD>
+      <TD> 0.730</TD>
+      <TD>3</TD>
+      <TD>255</TD>
+      <TD>11.560</TD>
+      <TD>3</TD>
+      <TD>255</TD>
+      <TD>11.130</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>447701</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 55 07.680</TD>
+      <TD>  -41.0</TD>
+      <TD>+35 36 22.420</TD>
+      <TD>  -28.5</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>13.890</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>447832</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 55 16.444</TD>
+      <TD>  -60.1</TD>
+      <TD>+35 49 00.390</TD>
+      <TD>    8.6</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>15.260</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>447847</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 55 16.811</TD>
+      <TD>  -33.6</TD>
+      <TD>+35 30 31.200</TD>
+      <TD>  -42.8</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>15.910</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>447926</TD>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>19 55 20.779</TD>
+      <TD>   -1.5</TD>
+      <TD>+35 50 47.080</TD>
+      <TD>   38.4</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD>14.670</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>255</TD>
+      <TD/>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

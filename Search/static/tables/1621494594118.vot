@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_PAZh_38_776_ob2012" name="J/PAZh/38/776/ob2012">
+   <DESCRIPTION>
+    OB stars from Tycho-2 catalogue
+   </DESCRIPTION>
+   <FIELD ID="TYC1" datatype="short" name="TYC1" ucd="ID_MAIN:1" width="4">
+    <DESCRIPTION>
+     TYC1 from TYC (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="TYC2" datatype="int" name="TYC2" ucd="ID_MAIN:2" width="5">
+    <DESCRIPTION>
+     TYC2 from TYC (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="VTMAG" datatype="float" name="VTMAG" precision="2" ucd="PHOT_ABS-MAG_BAND" unit="mag" width="5">
+    <DESCRIPTION>
+     [-4.99,1.32] Absolute magnitude VT (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dist" datatype="short" name="Dist" ucd="POS_GAL_HC" unit="pc" width="4">
+    <DESCRIPTION>
+     [17,7486] Photometric distance (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="X" datatype="int" name="X" ucd="POS_GAL_X" unit="pc" width="5">
+    <DESCRIPTION>
+     X rectangular galactic coordinate (4)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Y" datatype="int" name="Y" ucd="POS_GAL_Y" unit="pc" width="5">
+    <DESCRIPTION>
+     Y rectangular galactic coordinate (4)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Z" datatype="int" name="Z" ucd="POS_GAL_Z" unit="pc" width="5">
+    <DESCRIPTION>
+     Z rectangular galactic coordinate (4)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="AVe" datatype="float" name="AVe" precision="2" ucd="PHOT_EXTINCTION_ISM" unit="mag" width="5">
+    <DESCRIPTION>
+     [0.02,1.53] Extinction in the equatorial layer (5)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="AVg" datatype="float" name="AVg" precision="2" ucd="PHOT_EXTINCTION_ISM" unit="mag" width="5">
+    <DESCRIPTION>
+     [0.00,1.37] Extinction in the Gould belt (5)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="AV" datatype="float" name="AV" precision="2" ucd="PHOT_EXTINCTION_ISM" unit="mag" width="5">
+    <DESCRIPTION>
+     [0.03,1.74] Total interstellar extinction (5)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="4" ucd="POS_EQ_RA_MAIN" unit="deg" width="8">
+    <DESCRIPTION>
+     Right ascension in decimal degrees (J2000.0)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="4" ucd="POS_EQ_DEC_MAIN" unit="deg" width="8">
+    <DESCRIPTION>
+     Declination in decimal degrees (J2000.0)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>2682</TD>
+      <TD>18</TD>
+      <TD> 0.09</TD>
+      <TD>508</TD>
+      <TD>159</TD>
+      <TD>482</TD>
+      <TD>32</TD>
+      <TD> 0.55</TD>
+      <TD> 0.09</TD>
+      <TD> 0.64</TD>
+      <TD>299.2518</TD>
+      <TD> 35.8499</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>2028</TD>
+      <TD> 0.41</TD>
+      <TD>398</TD>
+      <TD>131</TD>
+      <TD>376</TD>
+      <TD>16</TD>
+      <TD> 0.48</TD>
+      <TD> 0.07</TD>
+      <TD> 0.55</TD>
+      <TD>300.0355</TD>
+      <TD> 34.3837</TD>
+     </TR>
+     <TR>
+      <TD>2682</TD>
+      <TD>1000</TD>
+      <TD> 0.55</TD>
+      <TD>625</TD>
+      <TD>193</TD>
+      <TD>594</TD>
+      <TD>33</TD>
+      <TD> 0.67</TD>
+      <TD> 0.10</TD>
+      <TD> 0.77</TD>
+      <TD>300.0775</TD>
+      <TD> 35.7798</TD>
+     </TR>
+     <TR>
+      <TD>2682</TD>
+      <TD>1249</TD>
+      <TD> 0.61</TD>
+      <TD>506</TD>
+      <TD>157</TD>
+      <TD>481</TD>
+      <TD>30</TD>
+      <TD> 0.56</TD>
+      <TD> 0.09</TD>
+      <TD> 0.65</TD>
+      <TD>299.6125</TD>
+      <TD> 35.8829</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>323</TD>
+      <TD> 0.99</TD>
+      <TD>495</TD>
+      <TD>155</TD>
+      <TD>470</TD>
+      <TD>19</TD>
+      <TD> 0.58</TD>
+      <TD> 0.08</TD>
+      <TD> 0.66</TD>
+      <TD>300.7585</TD>
+      <TD> 35.0688</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>904</TD>
+      <TD> 1.01</TD>
+      <TD>142</TD>
+      <TD>45</TD>
+      <TD>134</TD>
+      <TD>8</TD>
+      <TD> 0.18</TD>
+      <TD> 0.03</TD>
+      <TD> 0.21</TD>
+      <TD>299.7152</TD>
+      <TD> 35.4978</TD>
+     </TR>
+     <TR>
+      <TD>2682</TD>
+      <TD>3387</TD>
+      <TD> 1.15</TD>
+      <TD>320</TD>
+      <TD>98</TD>
+      <TD>304</TD>
+      <TD>19</TD>
+      <TD> 0.38</TD>
+      <TD> 0.06</TD>
+      <TD> 0.44</TD>
+      <TD>299.7982</TD>
+      <TD> 36.1153</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>2160</TD>
+      <TD> 1.16</TD>
+      <TD>192</TD>
+      <TD>64</TD>
+      <TD>181</TD>
+      <TD>9</TD>
+      <TD> 0.24</TD>
+      <TD> 0.04</TD>
+      <TD> 0.28</TD>
+      <TD>299.4559</TD>
+      <TD> 34.2467</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="III_22_data" name="III/22/data">
+   <DESCRIPTION>
+    Rotational Velocities and Photometric Data
+   </DESCRIPTION>
+   <FIELD ID="HR" datatype="short" name="HR" ucd="ID_ALTERNATIVE" width="4">
+    <DESCRIPTION>
+     Number in the Yale Catalogue of Bright Stars
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="vsin_i_" datatype="short" name="vsin_i_" ucd="VELOC_ROTAT" unit="km.s-1" width="3">
+    <DESCRIPTION>
+     ? Rotational Velocity [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="b-y" datatype="float" name="b-y" precision="3" ucd="PHOT_STR_B-Y" unit="mag" width="6">
+    <DESCRIPTION>
+     ? (b-y) index
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="m1" datatype="float" name="m1" precision="3" ucd="PHOT_STR_M1" unit="mag" width="6">
+    <DESCRIPTION>
+     ? m1 = (v-b) - (b-y)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="c1" datatype="float" name="c1" precision="3" ucd="PHOT_STR_C1" unit="mag" width="6">
+    <DESCRIPTION>
+     ? c1 = (u-v) - (v-b)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="ref" datatype="unsignedByte" name="ref" ucd="REFER_CODE" width="1">
+    <DESCRIPTION>
+     ? Source of photometric data [NULL integer written as an empty
+     string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="group" arraysize="1" datatype="char" name="group" ucd="ID_GROUP">
+    <DESCRIPTION>
+     [A-N] Group
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right Ascension (J2000) from SIMBAD (not part of the original
+     data)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (J2000) from SIMBAD (not part of the original data)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>5368</TD>
+      <TD>150</TD>
+      <TD> 0.106</TD>
+      <TD> 0.206</TD>
+      <TD> 0.887</TD>
+      <TD>1</TD>
+      <TD>A</TD>
+      <TD>Simbad</TD>
+      <TD>214.92063</TD>
+      <TD>  0.38433</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

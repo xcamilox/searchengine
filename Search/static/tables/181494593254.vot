@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="I_311_hip2" name="I/311/hip2">
+   <DESCRIPTION>
+    The Astrometric Catalogue
+   </DESCRIPTION>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     Hipparcos identifier
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_HIP" arraysize="1" datatype="char" name="n_HIP" ucd="NOTE">
+    <DESCRIPTION>
+     Existence of a note in the first version of Hipparcos catalog on
+     {\bf D}uplicity, {\bf P}hotometry or a {\bf General} note;
+     letters W, X, Y, Z indicate notes on several topics (field H70 of
+     the 1997 edition, Cat. I/239)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sn" datatype="short" name="Sn" ucd="FIT_TYPE" width="3">
+    <DESCRIPTION>
+     [0,159] Solution type new reduction (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="So" datatype="unsignedByte" name="So" ucd="FIT_TYPE" width="1">
+    <DESCRIPTION>
+     [0,5] Solution type old reduction (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RArad" datatype="double" name="RArad" precision="8" ucd="POS_EQ_RA_MAIN" unit="deg" width="12">
+    <DESCRIPTION>
+     Right Ascension in ICRS, Ep=1991.25
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DErad" datatype="double" name="DErad" precision="8" ucd="POS_EQ_DEC_MAIN" unit="deg" width="12">
+    <DESCRIPTION>
+     Declination in ICRS, Ep=1991.25
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Plx" datatype="float" name="Plx" precision="2" ucd="POS_PARLX_TRIG" unit="mas" width="7">
+    <DESCRIPTION>
+     Parallax
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_Plx" datatype="float" name="e_Plx" precision="2" ucd="ERROR" unit="mas" width="6">
+    <DESCRIPTION>
+     Formal error on Plx
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="double" name="pmRA" precision="2" ucd="POS_EQ_PMRA" unit="mas.yr-1" width="8">
+    <DESCRIPTION>
+     Proper motion in Right Ascension
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="double" name="pmDE" precision="2" ucd="POS_EQ_PMDEC" unit="mas.yr-1" width="8">
+    <DESCRIPTION>
+     Proper motion in Declination
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Hpmag" datatype="float" name="Hpmag" precision="4" ucd="PHOT_HIPPAR" unit="mag" width="7">
+    <DESCRIPTION>
+     Hipparcos magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="B-V" datatype="float" name="B-V" precision="3" ucd="PHOT_CI_B-V" unit="mag" width="6">
+    <DESCRIPTION>
+     Colour index
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HIP1" arraysize="4" datatype="char" name="HIP1" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Data from the first edition of the Hipparcos Catalog (1997, Cat.
+     I/239)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>69785</TD>
+      <TD/>
+      <TD>5</TD>
+      <TD>0</TD>
+      <TD>214.25620752</TD>
+      <TD> -0.07898169</TD>
+      <TD>  11.03</TD>
+      <TD>  1.19</TD>
+      <TD>   51.38</TD>
+      <TD> -140.19</TD>
+      <TD> 9.1538</TD>
+      <TD> 0.486</TD>
+      <TD>HIP1</TD>
+     </TR>
+     <TR>
+      <TD>69866</TD>
+      <TD/>
+      <TD>5</TD>
+      <TD>0</TD>
+      <TD>214.45957854</TD>
+      <TD> -1.07905907</TD>
+      <TD>   6.59</TD>
+      <TD>  2.12</TD>
+      <TD>  -24.32</TD>
+      <TD>  -30.96</TD>
+      <TD>10.5725</TD>
+      <TD> 0.710</TD>
+      <TD>HIP1</TD>
+     </TR>
+     <TR>
+      <TD>69911</TD>
+      <TD/>
+      <TD>5</TD>
+      <TD>0</TD>
+      <TD>214.61236247</TD>
+      <TD> -0.11505625</TD>
+      <TD>   5.55</TD>
+      <TD>  2.10</TD>
+      <TD> -100.22</TD>
+      <TD> -159.29</TD>
+      <TD>10.7077</TD>
+      <TD> 0.702</TD>
+      <TD>HIP1</TD>
+     </TR>
+     <TR>
+      <TD>70002</TD>
+      <TD/>
+      <TD>5</TD>
+      <TD>0</TD>
+      <TD>214.86232183</TD>
+      <TD> -0.01334256</TD>
+      <TD>   1.77</TD>
+      <TD>  0.82</TD>
+      <TD>  -20.30</TD>
+      <TD>   -6.57</TD>
+      <TD> 7.9430</TD>
+      <TD> 1.314</TD>
+      <TD>HIP1</TD>
+     </TR>
+     <TR>
+      <TD>70022</TD>
+      <TD/>
+      <TD>5</TD>
+      <TD>0</TD>
+      <TD>214.92071963</TD>
+      <TD>  0.38436358</TD>
+      <TD>  15.81</TD>
+      <TD>  0.40</TD>
+      <TD>  -38.47</TD>
+      <TD>  -11.92</TD>
+      <TD> 6.2480</TD>
+      <TD> 0.201</TD>
+      <TD>HIP1</TD>
+     </TR>
+     <TR>
+      <TD>70081</TD>
+      <TD/>
+      <TD>7</TD>
+      <TD>0</TD>
+      <TD>215.12059176</TD>
+      <TD>  0.18204239</TD>
+      <TD>   4.53</TD>
+      <TD>  0.62</TD>
+      <TD> -101.83</TD>
+      <TD>  -77.93</TD>
+      <TD> 6.9552</TD>
+      <TD> 1.219</TD>
+      <TD>HIP1</TD>
+     </TR>
+     <TR>
+      <TD>70136</TD>
+      <TD/>
+      <TD>5</TD>
+      <TD>2</TD>
+      <TD>215.27056674</TD>
+      <TD>  0.51862716</TD>
+      <TD>  17.86</TD>
+      <TD>  2.72</TD>
+      <TD>  -86.22</TD>
+      <TD>   -1.81</TD>
+      <TD>11.1318</TD>
+      <TD> 0.000</TD>
+      <TD>HIP1</TD>
+     </TR>
+     <TR>
+      <TD>70282</TD>
+      <TD/>
+      <TD>5</TD>
+      <TD>0</TD>
+      <TD>215.69343431</TD>
+      <TD> -0.63709955</TD>
+      <TD>   8.13</TD>
+      <TD>  0.56</TD>
+      <TD>  -59.33</TD>
+      <TD>  -13.06</TD>
+      <TD> 6.7575</TD>
+      <TD> 0.058</TD>
+      <TD>HIP1</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

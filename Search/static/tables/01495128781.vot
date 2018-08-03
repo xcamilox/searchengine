@@ -1,0 +1,1167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="I_297_out" name="I/297/out">
+   <DESCRIPTION>
+    The NOMAD-1 Catalog
+   </DESCRIPTION>
+   <FIELD ID="NOMAD1" arraysize="12" datatype="char" name="NOMAD1" ucd="ID_MAIN">
+    <DESCRIPTION>
+     NOMAD-identifier (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="YM" arraysize="2" datatype="char" name="YM" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [YM.] Existence in YB6 or 2MASS (Cat. II/246)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="7" ucd="POS_EQ_RA_MAIN" unit="deg" width="11">
+    <DESCRIPTION>
+     Right ascension in ICRS, Ep=J2000
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="7" ucd="POS_EQ_DEC_MAIN" unit="deg" width="11">
+    <DESCRIPTION>
+     Declination in ICRS, Ep=J2000
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="r" arraysize="1" datatype="char" name="r" ucd="REFER_CODE">
+    <DESCRIPTION>
+     [BCMYTH] Source of position (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="double" name="pmRA" precision="1" ucd="POS_EQ_PMRA" unit="mas.yr-1" width="8">
+    <DESCRIPTION>
+     Proper motion in RA (*cos(Dec))
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_pmRA" datatype="float" name="e_pmRA" precision="1" ucd="ERROR" unit="mas.yr-1" width="5">
+    <DESCRIPTION>
+     Mean error on pmRA
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="double" name="pmDE" precision="1" ucd="POS_EQ_PMDEC" unit="mas.yr-1" width="8">
+    <DESCRIPTION>
+     Proper motion in Declination
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_pmDE" datatype="float" name="e_pmDE" precision="1" ucd="ERROR" unit="mas.yr-1" width="5">
+    <DESCRIPTION>
+     Mean error on pmDE
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Bmag" datatype="float" name="Bmag" precision="3" ucd="PHOT_PHG_B" unit="mag" width="6">
+    <DESCRIPTION>
+     ?Blue magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="r_Bmag" arraysize="1" datatype="char" name="r_Bmag" ucd="REFER_CODE">
+    <DESCRIPTION>
+     [BCMYTHo] Origin of Bmag (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="3" ucd="PHOT_PHG_V" unit="mag" width="6">
+    <DESCRIPTION>
+     ?Visual magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="r_Vmag" arraysize="1" datatype="char" name="r_Vmag" ucd="REFER_CODE">
+    <DESCRIPTION>
+     [BCMYTH] Origin of Vmag (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Rmag" datatype="float" name="Rmag" precision="3" ucd="PHOT_PHG_R" unit="mag" width="6">
+    <DESCRIPTION>
+     ?Red magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="r_Rmag" arraysize="1" datatype="char" name="r_Rmag" ucd="REFER_CODE">
+    <DESCRIPTION>
+     [BCMYTHe] Origin of Rmag (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="3" ucd="PHOT_JHN_J" unit="mag" width="6">
+    <DESCRIPTION>
+     ?Infrared J magnitude (from 2MASS)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Hmag" datatype="float" name="Hmag" precision="3" ucd="PHOT_JHN_H" unit="mag" width="6">
+    <DESCRIPTION>
+     ?Infrared H magnitude (from 2MASS)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Kmag" datatype="float" name="Kmag" precision="3" ucd="PHOT_JHN_K" unit="mag" width="6">
+    <DESCRIPTION>
+     ?Infrared K magnitude (from 2MASS)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="R" arraysize="1" datatype="char" name="R" ucd="NOTE">
+    <DESCRIPTION>
+     [R*] Recommended (R) or Problematic (*) (4)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>1048-0001122</TD>
+      <TD>..</TD>
+      <TD>  1.7657722</TD>
+      <TD> 14.8855194</TD>
+      <TD>B</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>21.490</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD>20.240</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001123</TD>
+      <TD>YM</TD>
+      <TD>  1.7657944</TD>
+      <TD> 14.8065278</TD>
+      <TD>B</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>18.350</TD>
+      <TD>Y</TD>
+      <TD/>
+      <TD/>
+      <TD>17.430</TD>
+      <TD>B</TD>
+      <TD>15.769</TD>
+      <TD>15.115</TD>
+      <TD>14.797</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001124</TD>
+      <TD>YM</TD>
+      <TD>  1.7679361</TD>
+      <TD> 14.8648250</TD>
+      <TD>B</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>17.280</TD>
+      <TD>Y</TD>
+      <TD>16.360</TD>
+      <TD>Y</TD>
+      <TD>16.320</TD>
+      <TD>B</TD>
+      <TD>15.240</TD>
+      <TD>14.662</TD>
+      <TD>14.685</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001125</TD>
+      <TD>..</TD>
+      <TD>  1.7715361</TD>
+      <TD> 14.8522778</TD>
+      <TD>B</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>20.130</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001126</TD>
+      <TD>..</TD>
+      <TD>  1.7726639</TD>
+      <TD> 14.8323639</TD>
+      <TD>B</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>21.240</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD>20.880</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001127</TD>
+      <TD>.M</TD>
+      <TD>  1.7740639</TD>
+      <TD> 14.8662222</TD>
+      <TD>B</TD>
+      <TD>    52.0</TD>
+      <TD>  4.0</TD>
+      <TD>    -8.0</TD>
+      <TD>  5.0</TD>
+      <TD>20.860</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD>18.820</TD>
+      <TD>B</TD>
+      <TD>15.532</TD>
+      <TD>14.961</TD>
+      <TD>14.628</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001128</TD>
+      <TD>..</TD>
+      <TD>  1.7746222</TD>
+      <TD> 14.8241361</TD>
+      <TD>B</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>20.250</TD>
+      <TD>o</TD>
+      <TD/>
+      <TD/>
+      <TD>20.020</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001129</TD>
+      <TD>..</TD>
+      <TD>  1.7763194</TD>
+      <TD> 14.8239000</TD>
+      <TD>B</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>20.540</TD>
+      <TD>o</TD>
+      <TD/>
+      <TD/>
+      <TD>19.960</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001130</TD>
+      <TD>..</TD>
+      <TD>  1.7768167</TD>
+      <TD> 14.8607194</TD>
+      <TD>B</TD>
+      <TD>   -72.0</TD>
+      <TD>  0.0</TD>
+      <TD>     4.0</TD>
+      <TD>  1.0</TD>
+      <TD>18.660</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD>19.450</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001131</TD>
+      <TD>..</TD>
+      <TD>  1.7770806</TD>
+      <TD> 14.8239528</TD>
+      <TD>B</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>20.000</TD>
+      <TD>o</TD>
+      <TD/>
+      <TD/>
+      <TD>19.750</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001132</TD>
+      <TD>..</TD>
+      <TD>  1.7778222</TD>
+      <TD> 14.8238639</TD>
+      <TD>B</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>18.530</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD>18.130</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001133</TD>
+      <TD>..</TD>
+      <TD>  1.7781972</TD>
+      <TD> 14.8238083</TD>
+      <TD>B</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>19.150</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001134</TD>
+      <TD>..</TD>
+      <TD>  1.7797028</TD>
+      <TD> 14.8238806</TD>
+      <TD>B</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>17.130</TD>
+      <TD>o</TD>
+      <TD/>
+      <TD/>
+      <TD>17.940</TD>
+      <TD>e</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001135</TD>
+      <TD>..</TD>
+      <TD>  1.7833333</TD>
+      <TD> 14.8056278</TD>
+      <TD>B</TD>
+      <TD>   254.0</TD>
+      <TD> 14.0</TD>
+      <TD>   238.0</TD>
+      <TD>  8.0</TD>
+      <TD>20.970</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD>20.050</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001136</TD>
+      <TD>..</TD>
+      <TD>  1.7842722</TD>
+      <TD> 14.8972139</TD>
+      <TD>B</TD>
+      <TD>    88.0</TD>
+      <TD>  7.0</TD>
+      <TD>   -26.0</TD>
+      <TD>  5.0</TD>
+      <TD>21.110</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD>20.540</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001137</TD>
+      <TD>..</TD>
+      <TD>  1.7845444</TD>
+      <TD> 14.8185528</TD>
+      <TD>B</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>20.140</TD>
+      <TD>o</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001138</TD>
+      <TD>..</TD>
+      <TD>  1.7846139</TD>
+      <TD> 14.8182778</TD>
+      <TD>B</TD>
+      <TD>     6.0</TD>
+      <TD>  3.0</TD>
+      <TD>   -30.0</TD>
+      <TD>  7.0</TD>
+      <TD>19.680</TD>
+      <TD>o</TD>
+      <TD/>
+      <TD/>
+      <TD>19.010</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001139</TD>
+      <TD>..</TD>
+      <TD>  1.7846139</TD>
+      <TD> 14.8357556</TD>
+      <TD>B</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>20.820</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD>20.510</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001140</TD>
+      <TD>..</TD>
+      <TD>  1.7846167</TD>
+      <TD> 14.8131639</TD>
+      <TD>B</TD>
+      <TD>     4.0</TD>
+      <TD>  5.0</TD>
+      <TD>  -334.0</TD>
+      <TD> 56.0</TD>
+      <TD>20.850</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD>20.170</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001141</TD>
+      <TD>..</TD>
+      <TD>  1.7846361</TD>
+      <TD> 14.8170806</TD>
+      <TD>B</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>20.580</TD>
+      <TD>o</TD>
+      <TD/>
+      <TD/>
+      <TD>19.490</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001142</TD>
+      <TD>..</TD>
+      <TD>  1.7846667</TD>
+      <TD> 14.8108028</TD>
+      <TD>B</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>21.520</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD>20.530</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001143</TD>
+      <TD>YM</TD>
+      <TD>  1.7847011</TD>
+      <TD> 14.8237275</TD>
+      <TD>H</TD>
+      <TD>    12.0</TD>
+      <TD>  1.1</TD>
+      <TD>    -9.0</TD>
+      <TD>  0.8</TD>
+      <TD> 9.490</TD>
+      <TD>T</TD>
+      <TD> 9.191</TD>
+      <TD>T</TD>
+      <TD> 9.000</TD>
+      <TD>B</TD>
+      <TD> 8.480</TD>
+      <TD> 8.322</TD>
+      <TD> 8.294</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001144</TD>
+      <TD>..</TD>
+      <TD>  1.7847167</TD>
+      <TD> 14.8349639</TD>
+      <TD>B</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>20.620</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001145</TD>
+      <TD>..</TD>
+      <TD>  1.7847472</TD>
+      <TD> 14.8160639</TD>
+      <TD>B</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>20.760</TD>
+      <TD>o</TD>
+      <TD/>
+      <TD/>
+      <TD>19.890</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001146</TD>
+      <TD>..</TD>
+      <TD>  1.7847639</TD>
+      <TD> 14.8094222</TD>
+      <TD>B</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>20.770</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD>20.630</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001147</TD>
+      <TD>..</TD>
+      <TD>  1.7847806</TD>
+      <TD> 14.8307528</TD>
+      <TD>B</TD>
+      <TD>    38.0</TD>
+      <TD> 13.0</TD>
+      <TD>  -108.0</TD>
+      <TD> 58.0</TD>
+      <TD>17.190</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD>17.180</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001148</TD>
+      <TD>..</TD>
+      <TD>  1.7847833</TD>
+      <TD> 14.8311972</TD>
+      <TD>B</TD>
+      <TD>    40.0</TD>
+      <TD>  4.0</TD>
+      <TD>    74.0</TD>
+      <TD>  0.0</TD>
+      <TD>19.850</TD>
+      <TD>o</TD>
+      <TD/>
+      <TD/>
+      <TD>17.850</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001149</TD>
+      <TD>..</TD>
+      <TD>  1.7848139</TD>
+      <TD> 14.8326139</TD>
+      <TD>B</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>17.130</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD>19.770</TD>
+      <TD>e</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001150</TD>
+      <TD>..</TD>
+      <TD>  1.7848278</TD>
+      <TD> 14.8293083</TD>
+      <TD>B</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>15.850</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001151</TD>
+      <TD>..</TD>
+      <TD>  1.7849528</TD>
+      <TD> 14.8329889</TD>
+      <TD>B</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>16.960</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD>18.380</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001152</TD>
+      <TD>..</TD>
+      <TD>  1.7888028</TD>
+      <TD> 14.8127306</TD>
+      <TD>B</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>20.090</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD>20.150</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001153</TD>
+      <TD>..</TD>
+      <TD>  1.7897583</TD>
+      <TD> 14.8239306</TD>
+      <TD>B</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>18.270</TD>
+      <TD>o</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001154</TD>
+      <TD>YM</TD>
+      <TD>  1.7903600</TD>
+      <TD> 14.8538431</TD>
+      <TD>C</TD>
+      <TD>    -0.2</TD>
+      <TD>  5.8</TD>
+      <TD>    -2.1</TD>
+      <TD>  5.8</TD>
+      <TD>15.170</TD>
+      <TD>Y</TD>
+      <TD>14.230</TD>
+      <TD>Y</TD>
+      <TD>14.350</TD>
+      <TD>B</TD>
+      <TD>13.337</TD>
+      <TD>13.065</TD>
+      <TD>13.034</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001155</TD>
+      <TD>YM</TD>
+      <TD>  1.7906389</TD>
+      <TD> 14.8670389</TD>
+      <TD>B</TD>
+      <TD>   -14.0</TD>
+      <TD>  2.0</TD>
+      <TD>     0.0</TD>
+      <TD>  8.0</TD>
+      <TD>19.360</TD>
+      <TD>B</TD>
+      <TD>17.790</TD>
+      <TD>Y</TD>
+      <TD>17.670</TD>
+      <TD>B</TD>
+      <TD>16.079</TD>
+      <TD>15.483</TD>
+      <TD>15.289</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001156</TD>
+      <TD>..</TD>
+      <TD>  1.7910333</TD>
+      <TD> 14.8834833</TD>
+      <TD>B</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>20.220</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD>18.610</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001157</TD>
+      <TD>..</TD>
+      <TD>  1.7915500</TD>
+      <TD> 14.8123417</TD>
+      <TD>B</TD>
+      <TD>  -224.0</TD>
+      <TD>  3.0</TD>
+      <TD>    -2.0</TD>
+      <TD>  3.0</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>20.480</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001158</TD>
+      <TD>..</TD>
+      <TD>  1.7919944</TD>
+      <TD> 14.8234500</TD>
+      <TD>B</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>20.290</TD>
+      <TD>o</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001159</TD>
+      <TD>YM</TD>
+      <TD>  1.7923472</TD>
+      <TD> 14.8286472</TD>
+      <TD>B</TD>
+      <TD>    14.0</TD>
+      <TD>  7.0</TD>
+      <TD>   -50.0</TD>
+      <TD>  5.0</TD>
+      <TD>15.020</TD>
+      <TD>Y</TD>
+      <TD>16.490</TD>
+      <TD>Y</TD>
+      <TD>15.880</TD>
+      <TD>B</TD>
+      <TD>14.710</TD>
+      <TD>14.016</TD>
+      <TD>13.968</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001160</TD>
+      <TD>YM</TD>
+      <TD>  1.7932919</TD>
+      <TD> 14.8227042</TD>
+      <TD>C</TD>
+      <TD>    -3.3</TD>
+      <TD>  6.3</TD>
+      <TD>   -12.6</TD>
+      <TD>  5.8</TD>
+      <TD>14.440</TD>
+      <TD>Y</TD>
+      <TD>15.360</TD>
+      <TD>Y</TD>
+      <TD>14.860</TD>
+      <TD>B</TD>
+      <TD>14.740</TD>
+      <TD>14.427</TD>
+      <TD>14.392</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001161</TD>
+      <TD>YM</TD>
+      <TD>  1.7959306</TD>
+      <TD> 14.8510972</TD>
+      <TD>B</TD>
+      <TD>    10.0</TD>
+      <TD>  3.0</TD>
+      <TD>   -10.0</TD>
+      <TD>  2.0</TD>
+      <TD>18.350</TD>
+      <TD>Y</TD>
+      <TD>17.430</TD>
+      <TD>Y</TD>
+      <TD>17.110</TD>
+      <TD>B</TD>
+      <TD>15.333</TD>
+      <TD>14.599</TD>
+      <TD>14.689</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001162</TD>
+      <TD>..</TD>
+      <TD>  1.7966306</TD>
+      <TD> 14.8763722</TD>
+      <TD>B</TD>
+      <TD>  -108.0</TD>
+      <TD>  3.0</TD>
+      <TD>   266.0</TD>
+      <TD> 18.0</TD>
+      <TD>21.020</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD>20.360</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001163</TD>
+      <TD>..</TD>
+      <TD>  1.8011861</TD>
+      <TD> 14.8238694</TD>
+      <TD>B</TD>
+      <TD>    60.0</TD>
+      <TD> 49.0</TD>
+      <TD>   256.0</TD>
+      <TD> 75.0</TD>
+      <TD>20.540</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD>20.730</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001164</TD>
+      <TD>..</TD>
+      <TD>  1.8065000</TD>
+      <TD> 14.8536611</TD>
+      <TD>B</TD>
+      <TD>   -18.0</TD>
+      <TD> 10.0</TD>
+      <TD>    20.0</TD>
+      <TD>  6.0</TD>
+      <TD>19.880</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD>19.230</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001165</TD>
+      <TD>..</TD>
+      <TD>  1.8066667</TD>
+      <TD> 14.8533833</TD>
+      <TD>B</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>20.880</TD>
+      <TD>o</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001166</TD>
+      <TD>..</TD>
+      <TD>  1.8067500</TD>
+      <TD> 14.8049806</TD>
+      <TD>B</TD>
+      <TD>     4.0</TD>
+      <TD> 15.0</TD>
+      <TD>   -28.0</TD>
+      <TD>  6.0</TD>
+      <TD>18.550</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD>18.670</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001167</TD>
+      <TD>YM</TD>
+      <TD>  1.8093975</TD>
+      <TD> 14.8892272</TD>
+      <TD>C</TD>
+      <TD>    15.0</TD>
+      <TD>  5.8</TD>
+      <TD>   -21.3</TD>
+      <TD>  5.8</TD>
+      <TD>14.170</TD>
+      <TD>Y</TD>
+      <TD>13.550</TD>
+      <TD>Y</TD>
+      <TD>13.630</TD>
+      <TD>B</TD>
+      <TD>12.582</TD>
+      <TD>12.252</TD>
+      <TD>12.214</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001168</TD>
+      <TD>.M</TD>
+      <TD>  1.8097528</TD>
+      <TD> 14.8170750</TD>
+      <TD>B</TD>
+      <TD>   -16.0</TD>
+      <TD>  3.0</TD>
+      <TD>    10.0</TD>
+      <TD>  5.0</TD>
+      <TD>20.570</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD>19.090</TD>
+      <TD>B</TD>
+      <TD>16.913</TD>
+      <TD>16.321</TD>
+      <TD>15.523</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001169</TD>
+      <TD>..</TD>
+      <TD>  1.8116194</TD>
+      <TD> 14.8600667</TD>
+      <TD>B</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>21.360</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD>20.560</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001170</TD>
+      <TD>YM</TD>
+      <TD>  1.8118417</TD>
+      <TD> 14.8489222</TD>
+      <TD>B</TD>
+      <TD>    12.0</TD>
+      <TD>  3.0</TD>
+      <TD>     6.0</TD>
+      <TD>  2.0</TD>
+      <TD>17.900</TD>
+      <TD>Y</TD>
+      <TD>17.740</TD>
+      <TD>Y</TD>
+      <TD>16.850</TD>
+      <TD>B</TD>
+      <TD>15.253</TD>
+      <TD>14.545</TD>
+      <TD>14.554</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>1048-0001171</TD>
+      <TD>..</TD>
+      <TD>  1.8132667</TD>
+      <TD> 14.8695194</TD>
+      <TD>B</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>     0.0</TD>
+      <TD>  0.0</TD>
+      <TD>21.420</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD>19.880</TD>
+      <TD>B</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

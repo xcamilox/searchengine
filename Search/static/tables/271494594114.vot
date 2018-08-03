@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="I_326_pgrsdat" name="I/326/pgrsdat">
+   <DESCRIPTION>
+    PulGRS, the Pulkovo Galactic Radio Sources Catalogue
+   </DESCRIPTION>
+   <FIELD ID="GRS" datatype="short" name="GRS" ucd="ID_NUMBER" width="2">
+    <DESCRIPTION>
+     [1/78] GRS sequential number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_ALTERNATIVE" width="6">
+    <DESCRIPTION>
+     HIPPARCOS catalogue sequential number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Var" arraysize="6" datatype="char" name="Var" ucd="VAR_CLASS">
+    <DESCRIPTION>
+     Type of variability, optical structure of star (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Char" arraysize="4" datatype="char" name="Char" ucd="CODE_MISC">
+    <DESCRIPTION>
+     Character of star (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Bmag" datatype="float" name="Bmag" precision="2" ucd="PHOT_TYCHO_B" unit="mag" width="5">
+    <DESCRIPTION>
+     Tycho-2 blue (B) magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="11" datatype="char" name="SpType" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     MK spectral type and luminosity class
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Ep-1990" datatype="float" name="Ep-1990" precision="3" ucd="TIME_EPOCH" unit="yr" width="6">
+    <DESCRIPTION>
+     Mean epoch of observation for the right ascension and declination
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="8" ucd="POS_EQ_RA_MAIN" unit="deg" width="12">
+    <DESCRIPTION>
+     Right ascension (degrees), Eq=J2000.0, on mean epoch (Ep-1990) of
+     observation
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_RAJ2000" datatype="short" name="e_RAJ2000" ucd="ERROR" unit="10mas" width="2">
+    <DESCRIPTION>
+     Mean error of RA
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="8" ucd="POS_EQ_DEC_MAIN" unit="deg" width="12">
+    <DESCRIPTION>
+     Declination (degrees), Eq=J2000.0, on mean epoch (Ep-1990) of
+     observation
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_DEJ2000" datatype="short" name="e_DEJ2000" ucd="ERROR" unit="10mas" width="2">
+    <DESCRIPTION>
+     Mean error of DE
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="N" datatype="unsignedByte" name="N" ucd="NUMBER" width="1">
+    <DESCRIPTION>
+     Number of used observations
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="O-CRA" datatype="short" name="O-CRA" ucd="POS_EQ_RA_OFF" unit="mas" width="4">
+    <DESCRIPTION>
+     Deviation to right ascension of PulGRS from the right ascension
+     of Hipparcos
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="O-CDE" datatype="short" name="O-CDE" ucd="POS_EQ_DEC_OFF" unit="mas" width="4">
+    <DESCRIPTION>
+     Deviation to declination of PulGRS from the declination of
+     Hipparcos
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>63</TD>
+      <TD>98298</TD>
+      <TD>HXB,El</TD>
+      <TD>RVXG</TD>
+      <TD> 9.79</TD>
+      <TD>O9Iabp</TD>
+      <TD> 6.181</TD>
+      <TD>299.59034100</TD>
+      <TD>2</TD>
+      <TD> 35.20160041</TD>
+      <TD>2</TD>
+      <TD>8</TD>
+      <TD>50</TD>
+      <TD>-40</TD>
+      <TD>Simbad</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

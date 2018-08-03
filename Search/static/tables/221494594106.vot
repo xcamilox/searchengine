@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="I_293_npm2cros" name="I/293/npm2cros">
+   <DESCRIPTION>
+    NPM2 Catalog Cross-Identifications file
+   </DESCRIPTION>
+   <FIELD ID="NPM2" arraysize="8" datatype="char" name="NPM2" ucd="ID_MAIN">
+    <DESCRIPTION>
+     [0-9.+-]! NPM2 star "name" made of Byte 1 : Sign of J2000
+     declination zone Bytes 2-3: J2000 Declination zone Bytes 4-8:
+     Running number in this zone
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="KLA" arraysize="3" datatype="char" name="KLA" ucd="CLASS_OBJECT">
+    <DESCRIPTION>
+     Code for class of object, defined in files npm2code.dat and
+     npm2code.txt
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="10" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension J2000, Ep=J2000 (hours)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="9" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination J2000, Ep=J2000 (degrees)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="ID" datatype="unsignedByte" name="ID" ucd="CODE_ERROR" width="1">
+    <DESCRIPTION>
+     [0,3] Code for identification reliability
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="IQ" datatype="unsignedByte" name="IQ" ucd="CODE_ERROR" width="1">
+    <DESCRIPTION>
+     [0,3] Code for image quality
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="IN" datatype="unsignedByte" name="IN" ucd="CODE_MISC" width="1">
+    <DESCRIPTION>
+     [0,1] Code for footnote in npm2foot.dat (see ID and IQ) 0=no
+     footnote, 1=has footnote
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="r_Star" datatype="short" name="r_Star" ucd="REFER_CODE" width="4">
+    <DESCRIPTION>
+     Four-digit code for publication reference (see npm2ref1.dat)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="mag" datatype="float" name="mag" precision="2" ucd="PHOT_MAG_UNDEF" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Magnitude quoted from publication reference (rarely other
+     source); zero if none
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="tyc" arraysize="1" datatype="char" name="tyc" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [T] Code for star in Tycho-2 catalog ' '=no, 'T'=yes
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>+34.1277</TD>
+      <TD>EA</TD>
+      <TD>19 56 13.9</TD>
+      <TD>+34 23 36</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>1</TD>
+      <TD>15.00</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>+34.1299</TD>
+      <TD>UBV</TD>
+      <TD>20 00 18.4</TD>
+      <TD>+34 31 36</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>512</TD>
+      <TD>11.54</TD>
+      <TD>T</TD>
+     </TR>
+     <TR>
+      <TD>+34.1284</TD>
+      <TD>UBV</TD>
+      <TD>19 57 29.4</TD>
+      <TD>+34 32 02</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>512</TD>
+      <TD>11.78</TD>
+      <TD>T</TD>
+     </TR>
+     <TR>
+      <TD>+34.1276</TD>
+      <TD>UBV</TD>
+      <TD>19 56 05.6</TD>
+      <TD>+34 35 47</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>512</TD>
+      <TD>11.36</TD>
+      <TD>T</TD>
+     </TR>
+     <TR>
+      <TD>+34.1270</TD>
+      <TD>UBV</TD>
+      <TD>19 55 46.7</TD>
+      <TD>+34 36 31</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>512</TD>
+      <TD>11.17</TD>
+      <TD>T</TD>
+     </TR>
+     <TR>
+      <TD>+34.1260</TD>
+      <TD>EA</TD>
+      <TD>19 54 27.7</TD>
+      <TD>+34 37 07</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>1</TD>
+      <TD>16.20</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>+34.1283</TD>
+      <TD>CMC</TD>
+      <TD>19 56 55.9</TD>
+      <TD>+34 45 06</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>817</TD>
+      <TD>11.02</TD>
+      <TD>T</TD>
+     </TR>
+     <TR>
+      <TD>+34.1283</TD>
+      <TD>UBV</TD>
+      <TD>19 56 55.9</TD>
+      <TD>+34 45 06</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>512</TD>
+      <TD>11.03</TD>
+      <TD>T</TD>
+     </TR>
+     <TR>
+      <TD>+34.1272</TD>
+      <TD>UBV</TD>
+      <TD>19 55 52.0</TD>
+      <TD>+34 52 22</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>512</TD>
+      <TD>11.85</TD>
+      <TD>T</TD>
+     </TR>
+     <TR>
+      <TD>+34.1268</TD>
+      <TD>UBV</TD>
+      <TD>19 55 16.6</TD>
+      <TD>+34 57 21</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>512</TD>
+      <TD>11.57</TD>
+      <TD>T</TD>
+     </TR>
+     <TR>
+      <TD>+34.1253</TD>
+      <TD>SRB</TD>
+      <TD>19 53 56.6</TD>
+      <TD>+34 57 29</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>1</TD>
+      <TD>10.70</TD>
+      <TD>T</TD>
+     </TR>
+     <TR>
+      <TD>+34.1253</TD>
+      <TD>VAR</TD>
+      <TD>19 53 56.6</TD>
+      <TD>+34 57 29</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>843</TD>
+      <TD/>
+      <TD>T</TD>
+     </TR>
+     <TR>
+      <TD>+34.1295</TD>
+      <TD>UBV</TD>
+      <TD>19 59 42.3</TD>
+      <TD>+34 59 26</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>512</TD>
+      <TD>11.75</TD>
+      <TD>T</TD>
+     </TR>
+     <TR>
+      <TD>+34.1295</TD>
+      <TD>OB</TD>
+      <TD>19 59 42.3</TD>
+      <TD>+34 59 26</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>401</TD>
+      <TD>12.00</TD>
+      <TD>T</TD>
+     </TR>
+     <TR>
+      <TD>+35.1294</TD>
+      <TD>UBV</TD>
+      <TD>19 57 23.2</TD>
+      <TD>+35 02 20</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>512</TD>
+      <TD>12.12</TD>
+      <TD>T</TD>
+     </TR>
+     <TR>
+      <TD>+35.1305</TD>
+      <TD>UBV</TD>
+      <TD>19 58 30.2</TD>
+      <TD>+35 09 54</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>512</TD>
+      <TD>11.69</TD>
+      <TD>T</TD>
+     </TR>
+     <TR>
+      <TD>+35.1299</TD>
+      <TD>UNK</TD>
+      <TD>19 58 03.7</TD>
+      <TD>+35 12 13</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>816</TD>
+      <TD>17.20</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>+35.1299</TD>
+      <TD>UNK</TD>
+      <TD>19 58 03.7</TD>
+      <TD>+35 12 13</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>816</TD>
+      <TD>17.20</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>+35.1313</TD>
+      <TD>EA</TD>
+      <TD>20 00 41.8</TD>
+      <TD>+35 14 22</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>1</TD>
+      <TD>13.50</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>+35.1291</TD>
+      <TD>UBV</TD>
+      <TD>19 56 33.9</TD>
+      <TD>+35 16 41</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>512</TD>
+      <TD>11.20</TD>
+      <TD>T</TD>
+     </TR>
+     <TR>
+      <TD>+35.1326</TD>
+      <TD>OB</TD>
+      <TD>20 02 36.3</TD>
+      <TD>+35 16 57</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>401</TD>
+      <TD>11.50</TD>
+      <TD>T</TD>
+     </TR>
+     <TR>
+      <TD>+35.1319</TD>
+      <TD>OB</TD>
+      <TD>20 01 17.4</TD>
+      <TD>+35 20 35</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>401</TD>
+      <TD>11.70</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>+35.1322</TD>
+      <TD>OB</TD>
+      <TD>20 01 44.8</TD>
+      <TD>+35 33 06</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>401</TD>
+      <TD>11.20</TD>
+      <TD>T</TD>
+     </TR>
+     <TR>
+      <TD>+35.1295</TD>
+      <TD>CD</TD>
+      <TD>19 57 46.0</TD>
+      <TD>+35 38 10</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>1</TD>
+      <TD>14.50</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>+35.1301</TD>
+      <TD>SRB</TD>
+      <TD>19 58 14.8</TD>
+      <TD>+35 43 22</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>1</TD>
+      <TD>15.30</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>+35.1306</TD>
+      <TD>MSC</TD>
+      <TD>19 58 51.3</TD>
+      <TD>+35 49 20</TD>
+      <TD>3</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>+35.1300</TD>
+      <TD>RRA</TD>
+      <TD>19 58 07.2</TD>
+      <TD>+35 52 04</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>1</TD>
+      <TD>16.40</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>+35.1317</TD>
+      <TD>OB</TD>
+      <TD>20 01 14.8</TD>
+      <TD>+35 57 23</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>401</TD>
+      <TD>10.40</TD>
+      <TD>T</TD>
+     </TR>
+     <TR>
+      <TD>+35.1316</TD>
+      <TD>OB</TD>
+      <TD>20 01 10.2</TD>
+      <TD>+35 59 19</TD>
+      <TD>0</TD>
+      <TD>2</TD>
+      <TD>0</TD>
+      <TD>401</TD>
+      <TD>11.50</TD>
+      <TD>T</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

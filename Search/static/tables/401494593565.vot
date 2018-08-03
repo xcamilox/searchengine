@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="V_86_ceddu2" name="V/86/ceddu2">
+   <DESCRIPTION>
+    Catalogue of Extinctions and Distances Derived from UBV data (1)
+   </DESCRIPTION>
+   <FIELD ID="Star" arraysize="12" datatype="char" name="Star" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Identifier, either HD or BD/CD/CPD
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="MK" arraysize="32" datatype="char" name="MK" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     The full MK spectral type including all spectrum peculiarities
+     written in a standard format
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="r_MK" arraysize="1" datatype="char" name="r_MK" ucd="REFER_CODE">
+    <DESCRIPTION>
+     [HJBSK] Source of MK (see table ceddu1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAB2000" arraysize="8" datatype="char" name="RAB2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension B2000
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_RAB2000" arraysize="1" datatype="char" name="n_RAB2000" ucd="NOTE">
+    <DESCRIPTION>
+     [*] An '*' exists if RA was originally expressed in tenths of
+     minutes
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEB2000" arraysize="8" datatype="char" name="DEB2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination B2000
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>HD    125489</TD>
+      <TD>A7.      V</TD>
+      <TD>J</TD>
+      <TD>14 19 41</TD>
+      <TD/>
+      <TD>+00 23.1</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

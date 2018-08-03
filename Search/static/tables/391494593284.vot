@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="V_86_ceddu1" name="V/86/ceddu1">
+   <DESCRIPTION>
+    Catalogue of Extinctions and Distances Derived from UBV data
+    (parameters)
+   </DESCRIPTION>
+   <FIELD ID="Star" arraysize="12" datatype="char" name="Star" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Identifier, either HD or BD/CD/CPD
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="MK" arraysize="20" datatype="char" name="MK" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     The MK spectral type written in a standard format
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="r_MK" arraysize="1" datatype="char" name="r_MK" ucd="REFER_CODE">
+    <DESCRIPTION>
+     [HJBSK] Source of MK (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="3" ucd="PHOT_JHN_V" unit="mag" width="6">
+    <DESCRIPTION>
+     Apparent magnitude in UBV system (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="B-V" datatype="float" name="B-V" precision="3" ucd="PHOT_JHN_B-V" unit="mag" width="6">
+    <DESCRIPTION>
+     Colour index in UBV system (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="U-B" datatype="float" name="U-B" precision="3" ucd="PHOT_JHN_U-B" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Colour index in UBV system (3)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="absVmag" datatype="float" name="absVmag" precision="2" ucd="PHOT_ABS-MAG_BAND" unit="mag" width="5">
+    <DESCRIPTION>
+     Absolute magnitude (section 3.3.2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GLON" datatype="float" name="GLON" precision="2" ucd="POS_GAL_LON" unit="deg" width="6">
+    <DESCRIPTION>
+     [0/360[+= Galactic longitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GLAT" datatype="float" name="GLAT" precision="2" ucd="POS_GAL_LAT" unit="deg" width="6">
+    <DESCRIPTION>
+     Galactic latitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA.icrs" datatype="double" name="_RA.icrs" precision="4" ucd="POS_EQ_RA_OTHER" unit="deg" width="8">
+    <DESCRIPTION>
+     Right ascension (ICRS) (computed by VizieR, not part of the
+     original data)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" datatype="double" name="_DE.icrs" precision="4" ucd="POS_EQ_DEC_OTHER" unit="deg" width="8">
+    <DESCRIPTION>
+     Declination (ICRS) (computed by VizieR, not part of the original
+     data)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>HD    125489</TD>
+      <TD>A7.      V</TD>
+      <TD>J</TD>
+      <TD> 6.185</TD>
+      <TD> 0.200</TD>
+      <TD> 0.080</TD>
+      <TD> 1.70</TD>
+      <TD>344.97</TD>
+      <TD> 55.88</TD>
+      <TD>214.9221</TD>
+      <TD>  0.3852</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

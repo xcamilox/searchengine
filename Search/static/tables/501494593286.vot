@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="VII_239A_icpos" name="VII/239A/icpos">
+   <DESCRIPTION>
+    NGC/IC positions (mean values)
+   </DESCRIPTION>
+   <FIELD ID="Note" arraysize="1" datatype="char" name="Note" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [*] indicates a note in the file "\begin{tex}\vFile{VII/239A/./ng
+     cnotes.txt}{ngcnotes.txt}\end{tex}" or
+     "\begin{tex}\vFile{VII/239A/./icnotes.txt}{icnotes.txt}\end{tex}"
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Cat" arraysize="1" datatype="char" name="Cat" ucd="ID_CATALOG">
+    <DESCRIPTION>
+     [IN] Catalog: N=NGC, I=IC
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="NGC_IC" datatype="short" name="NGC_IC" ucd="ID_MAIN" width="4">
+    <DESCRIPTION>
+     Number in the NGC or IC catalog
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_NGC_IC" arraysize="14" datatype="char" name="n_NGC_IC" ucd="NOTE">
+    <DESCRIPTION>
+     Component or remarks (G1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="13" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension J2000
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="13" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination J2000
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="qPos" arraysize="1" datatype="char" name="qPos" ucd="CODE_QUALITY">
+    <DESCRIPTION>
+     [a-g] Precision on position (G2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="N" datatype="short" name="N" ucd="NUMBER" width="2">
+    <DESCRIPTION>
+     Number of positions used
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_RAJ2000" datatype="float" name="e_RAJ2000" precision="2" ucd="ERROR" unit="arcs" width="6">
+    <DESCRIPTION>
+     ? Standard deviation in RA
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_DEJ2000" datatype="float" name="e_DEJ2000" precision="2" ucd="ERROR" unit="arcs" width="6">
+    <DESCRIPTION>
+     ? Standard deviation in DE
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD/>
+      <TD>N</TD>
+      <TD>5584</TD>
+      <TD/>
+      <TD>14 22 23.7100</TD>
+      <TD>-00 23 15.100</TD>
+      <TD>c</TD>
+      <TD>6</TD>
+      <TD>  2.16</TD>
+      <TD>  3.73</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

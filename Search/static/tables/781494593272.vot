@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJS_224_36_motionobj" name="J/ApJS/224/36/motionobj">
+   <DESCRIPTION>
+    AllWISE motion objects from AllWISE1 and AllWISE2 {\em (tables 2
+    and 3)}
+   </DESCRIPTION>
+   <FIELD ID="S" arraysize="1" datatype="char" name="S" ucd="CODE_MISC">
+    <DESCRIPTION>
+     Motion objects identified by AllWISE2 ({\bf 2}) or AllWISE1 ({\bf
+     1})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="WISEA" arraysize="19" datatype="char" name="WISEA" ucd="ID_MAIN">
+    <DESCRIPTION>
+     WISEA identifier (JHHMMSS.ss+DDMMSS.s)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="3" ucd="PHOT_JHN_J" unit="mag" width="6">
+    <DESCRIPTION>
+     [0.6/17.9] 2MASS J band magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Hmag" datatype="float" name="Hmag" precision="3" ucd="PHOT_JHN_H" unit="mag" width="6">
+    <DESCRIPTION>
+     [0.1/18.2] 2MASS H band magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Ksmag" datatype="float" name="Ksmag" precision="3" ucd="PHOT_JHN_K" unit="mag" width="7">
+    <DESCRIPTION>
+     [-0.007/16.8]? 2MASS K_s_ band magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="W1mag" datatype="float" name="W1mag" precision="3" ucd="PHOT_IR_3.4" unit="mag" width="6">
+    <DESCRIPTION>
+     [-1.8/16.6] WISE 3.4um band magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="W2mag" datatype="float" name="W2mag" precision="3" ucd="PHOT_IR_4.2" unit="mag" width="6">
+    <DESCRIPTION>
+     [-1/15.4] WISE 4.6um band magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="motRA" datatype="short" name="motRA" ucd="POS_PM_NON-EQ" unit="mas.yr-1" width="5">
+    <DESCRIPTION>
+     [-3749/3205]? Motion along RA from AllWISE [NULL integer written
+     as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="motDE" datatype="short" name="motDE" ucd="POS_PM_NON-EQ" unit="mas.yr-1" width="5">
+    <DESCRIPTION>
+     [-5285/3281]? Motion along DE from AllWISE [NULL integer written
+     as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="float" name="pmRA" precision="1" ucd="POS_EQ_PMRA" unit="mas.yr-1" width="7">
+    <DESCRIPTION>
+     [-3731/2535]? Proper motion along RA (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="float" name="pmDE" precision="1" ucd="POS_EQ_PMDEC" unit="mas.yr-1" width="7">
+    <DESCRIPTION>
+     [-3527/3316]? Proper motion along DE (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Flag" datatype="unsignedByte" name="Flag" ucd="CODE_MISC" width="1">
+    <DESCRIPTION>
+     [0/2]? Flag(0=motion discovery unique to AllWISE; 1=previous
+     discovery)(not for table 3) [NULL integer written as an empty
+     string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="K14" datatype="short" name="K14" ucd="DATA_LINK" width="3">
+    <DESCRIPTION>
+     Motion object already given in AllWISE1 (Kirkpatrick+, 2014,
+     J/ApJ/783/122) [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="_2M" arraysize="2" datatype="char" name="_2M" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the 2MASS data (Cutri+ 2003, II/246) within 5"
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Positions from WISEA names (right ascension part)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Positions from WISEA names (declination part)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>2</TD>
+      <TD>J141614.37-000025.5</TD>
+      <TD>13.795</TD>
+      <TD>13.236</TD>
+      <TD> 13.097</TD>
+      <TD>12.868</TD>
+      <TD>12.652</TD>
+      <TD>-125</TD>
+      <TD>-214</TD>
+      <TD> -165.8</TD>
+      <TD> -248.4</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>2M</TD>
+      <TD>214.05987</TD>
+      <TD> -0.00708</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>J141728.87-001459.3</TD>
+      <TD>14.121</TD>
+      <TD>13.609</TD>
+      <TD> 13.411</TD>
+      <TD>13.306</TD>
+      <TD>13.161</TD>
+      <TD>9</TD>
+      <TD>-275</TD>
+      <TD>  -78.1</TD>
+      <TD> -321.7</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>2M</TD>
+      <TD>214.37029</TD>
+      <TD> -0.24981</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>J142132.45-003944.6</TD>
+      <TD>11.997</TD>
+      <TD>11.477</TD>
+      <TD> 11.175</TD>
+      <TD>11.049</TD>
+      <TD>10.845</TD>
+      <TD>-164</TD>
+      <TD>24</TD>
+      <TD> -144.7</TD>
+      <TD>  -39.3</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>2M</TD>
+      <TD>215.38521</TD>
+      <TD> -0.66239</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>J142223.79-001839.7</TD>
+      <TD>11.125</TD>
+      <TD>10.416</TD>
+      <TD> 10.264</TD>
+      <TD>10.157</TD>
+      <TD>10.221</TD>
+      <TD>-35</TD>
+      <TD>-162</TD>
+      <TD>  -39.5</TD>
+      <TD> -131.2</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>2M</TD>
+      <TD>215.59912</TD>
+      <TD> -0.31103</TD>
+     </TR>
+     <TR>
+      <TD>1</TD>
+      <TD>J141701.55-000446.9</TD>
+      <TD> 8.019</TD>
+      <TD> 7.729</TD>
+      <TD>  7.645</TD>
+      <TD> 7.603</TD>
+      <TD> 7.648</TD>
+      <TD>76</TD>
+      <TD>-147</TD>
+      <TD>   52.3</TD>
+      <TD> -139.2</TD>
+      <TD>255</TD>
+      <TD>0</TD>
+      <TD>2M</TD>
+      <TD>214.25646</TD>
+      <TD> -0.07969</TD>
+     </TR>
+     <TR>
+      <TD>1</TD>
+      <TD>J141751.20+000932.5</TD>
+      <TD> 8.986</TD>
+      <TD> 8.366</TD>
+      <TD>  8.131</TD>
+      <TD> 8.006</TD>
+      <TD> 7.993</TD>
+      <TD>-184</TD>
+      <TD>92</TD>
+      <TD> -201.4</TD>
+      <TD>  112.0</TD>
+      <TD>255</TD>
+      <TD>0</TD>
+      <TD>2M</TD>
+      <TD>214.46333</TD>
+      <TD>  0.15903</TD>
+     </TR>
+     <TR>
+      <TD>1</TD>
+      <TD>J141758.85-003132.3</TD>
+      <TD> 9.040</TD>
+      <TD> 8.498</TD>
+      <TD>  8.281</TD>
+      <TD> 8.098</TD>
+      <TD> 7.959</TD>
+      <TD>-287</TD>
+      <TD>-298</TD>
+      <TD> -284.0</TD>
+      <TD> -280.3</TD>
+      <TD>255</TD>
+      <TD>0</TD>
+      <TD>2M</TD>
+      <TD>214.49521</TD>
+      <TD> -0.52564</TD>
+     </TR>
+     <TR>
+      <TD>1</TD>
+      <TD>J141826.83-000657.2</TD>
+      <TD> 9.199</TD>
+      <TD> 8.702</TD>
+      <TD>  8.612</TD>
+      <TD> 8.562</TD>
+      <TD> 8.598</TD>
+      <TD>-141</TD>
+      <TD>-170</TD>
+      <TD>  -90.7</TD>
+      <TD> -153.4</TD>
+      <TD>255</TD>
+      <TD>0</TD>
+      <TD>2M</TD>
+      <TD>214.61179</TD>
+      <TD> -0.11589</TD>
+     </TR>
+     <TR>
+      <TD>1</TD>
+      <TD>J142028.82+001053.5</TD>
+      <TD> 4.777</TD>
+      <TD> 4.374</TD>
+      <TD>  4.071</TD>
+      <TD> 3.948</TD>
+      <TD> 3.828</TD>
+      <TD>206</TD>
+      <TD>-540</TD>
+      <TD>  -83.5</TD>
+      <TD>  -95.5</TD>
+      <TD>255</TD>
+      <TD>0</TD>
+      <TD>2M</TD>
+      <TD>215.12008</TD>
+      <TD>  0.18153</TD>
+     </TR>
+     <TR>
+      <TD>1</TD>
+      <TD>J142115.24-010726.4</TD>
+      <TD> 8.948</TD>
+      <TD> 8.391</TD>
+      <TD>  8.093</TD>
+      <TD> 7.911</TD>
+      <TD> 7.745</TD>
+      <TD>142</TD>
+      <TD>-659</TD>
+      <TD>  177.4</TD>
+      <TD> -652.4</TD>
+      <TD>255</TD>
+      <TD>0</TD>
+      <TD>2M</TD>
+      <TD>215.31350</TD>
+      <TD> -1.12400</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

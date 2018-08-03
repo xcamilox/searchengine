@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJ_817_1_table3" name="J/ApJ/817/1/table3">
+   <DESCRIPTION>
+    Palomar/MSU M dwarfs found in GALEX
+   </DESCRIPTION>
+   <FIELD ID="objidG" arraysize="19" datatype="char" name="objidG" ucd="ID_MAIN">
+    <DESCRIPTION>
+     GALEX source identifier \linkRole{MAST GALEX data
+     (http://galex.stsci.edu/GR6)}
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Name" arraysize="9" datatype="char" name="Name" ucd="ID_CROSSID">
+    <DESCRIPTION>
+     PMSU source identifier (Hawley+, 1997, III/198; \dicS{[RHG95]
+     NNNN} in Simbad)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpT" datatype="float" name="SpT" precision="1" ucd="SPECT_TYPE_GENERAL" width="4">
+    <DESCRIPTION>
+     Numeric M-type spectral subtype
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAGdeg" datatype="double" name="RAGdeg" precision="7" ucd="POS_EQ_RA_OTHER" unit="deg" width="11">
+    <DESCRIPTION>
+     GALEX NUV Right Ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEGdeg" datatype="double" name="DEGdeg" precision="7" ucd="POS_EQ_DEC_OTHER" unit="deg" width="11">
+    <DESCRIPTION>
+     GALEX NUV Declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="7" ucd="POS_EQ_RA_MAIN" unit="deg" width="11">
+    <DESCRIPTION>
+     PMSU Right Ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="7" ucd="POS_EQ_DEC_MAIN" unit="deg" width="11">
+    <DESCRIPTION>
+     PMSU Declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sep" datatype="float" name="Sep" precision="1" ucd="POS_ANG_DIST_GENERAL" unit="arcs" width="4">
+    <DESCRIPTION>
+     [0/2] PMSU-GALEX NUV positional separation
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="PosErr" datatype="float" name="PosErr" precision="1" ucd="ERROR" unit="arcs" width="4">
+    <DESCRIPTION>
+     [0.5/1.7] GALEX NUV positional error
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="NUVmag" datatype="float" name="NUVmag" precision="3" ucd="PHOT_MAG_UV" unit="mag" width="6">
+    <DESCRIPTION>
+     [15.2/23.6] GALEX NUV band magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="FUVmag" datatype="float" name="FUVmag" precision="3" ucd="PHOT_MAG_UV" unit="mag" width="7">
+    <DESCRIPTION>
+     [16.8/23.8]? GALEX FUV band magnitude (G1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="NUV3sig" datatype="float" name="NUV3sig" precision="1" ucd="INST_DET_LIMIT" unit="uJy" width="7">
+    <DESCRIPTION>
+     [48/51725] NUV 3{sigma} detection threshold
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="FUV3sig" datatype="float" name="FUV3sig" precision="1" ucd="INST_DET_LIMIT" unit="uJy" width="7">
+    <DESCRIPTION>
+     [0/51725] NUV 3{sigma} detection threshold
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GName" arraysize="3" datatype="char" name="GName" ucd="ID_SURVEY">
+    <DESCRIPTION>
+     GALEX survey identifier
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="ActHa" datatype="short" name="ActHa" ucd="CODE_MISC" width="3">
+    <DESCRIPTION>
+     [-99/1]? H{alpha} activity (G2) [NULL integer written as an empty
+     string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="EWHa" datatype="float" name="EWHa" precision="3" ucd="SPECT_EQ-WIDTH" unit="0.1nm" width="7">
+    <DESCRIPTION>
+     [-0.3/6]? H{alpha} equivalent width ({AA})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="LHa" datatype="float" name="LHa" precision="E2" ucd="PHYS_LUMINOSITY_HALPHA" width="9">
+    <DESCRIPTION>
+     [-0.0001/0.0004]? H{alpha} luminosity (G3)(1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="LNUV" datatype="float" name="LNUV" precision="E2" ucd="PHYS_LUMINOSITY_UV_MISC" width="9">
+    <DESCRIPTION>
+     [0/0.002] GALEX NUV luminosity (G3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="LFUV" datatype="float" name="LFUV" precision="E2" ucd="PHYS_LUMINOSITY_UV_MISC" width="9">
+    <DESCRIPTION>
+     [0/0.0003]? GALEX FUV luminosity (G3)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Dist" datatype="float" name="Dist" precision="1" ucd="POS_GAL_HC" unit="pc" width="4">
+    <DESCRIPTION>
+     [1/58] Trigonometric/photometric parallax distance (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="double" name="pmRA" precision="2" ucd="POS_EQ_PMRA" unit="mas.yr-1" width="8">
+    <DESCRIPTION>
+     [-3776/2314] Proper motion in RA (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="double" name="pmDE" precision="2" ucd="POS_EQ_PMDEC" unit="mas.yr-1" width="8">
+    <DESCRIPTION>
+     [-1773/2295] Proper motion in DE (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Good" datatype="unsignedByte" name="Good" ucd="CODE_QUALITY" width="1">
+    <DESCRIPTION>
+     [0/1]? Good FUV flag (0=FUV does not pass quality cuts) (G4)
+     [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="L11" datatype="short" name="L11" ucd="DATA_LINK" width="3">
+    <DESCRIPTION>
+     Display data from Lepine+, 2011, J/AJ/142/138, within 2" [NULL
+     integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="GR5" datatype="short" name="GR5" ucd="DATA_LINK" width="3">
+    <DESCRIPTION>
+     Display data from GALEX-DR5 (II/312) within 2" [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="PMSU" arraysize="4" datatype="char" name="PMSU" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display data from Hawley+, 1997, III/198, within 8"
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SimbadName" arraysize="16" datatype="char" name="SimbadName" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Designation understandable by the {\bf\fg{FireBrick}Simbad} data-
+     base
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>2936314109199653576</TD>
+      <TD>LHS2899</TD>
+      <TD> 3.5</TD>
+      <TD>215.3134571</TD>
+      <TD> -1.1235372</TD>
+      <TD>215.3130333</TD>
+      <TD> -1.1222028</TD>
+      <TD> 0.2</TD>
+      <TD> 0.9</TD>
+      <TD>22.639</TD>
+      <TD/>
+      <TD> 1613.2</TD>
+      <TD> 1613.2</TD>
+      <TD>MIS</TD>
+      <TD>0</TD>
+      <TD> -0.039</TD>
+      <TD> -1.9e-06</TD>
+      <TD>  2.1e-05</TD>
+      <TD/>
+      <TD>18.4</TD>
+      <TD>  181.00</TD>
+      <TD> -627.00</TD>
+      <TD>0</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD>PMSU</TD>
+      <TD>LHS2899</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

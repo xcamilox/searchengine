@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="II_50_ubv" name="II/50/ubv">
+   <DESCRIPTION>
+    Photometric standard stars {\em(tables II and IV of paper)}
+   </DESCRIPTION>
+   <FIELD ID="HD" datatype="int" name="HD" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     HD identifier of the star (Cat. III/135)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="m_HD" arraysize="1" datatype="char" name="m_HD" ucd="CODE_MULT_INDEX">
+    <DESCRIPTION>
+     [/] '/' indicates a blend with next HD number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="3" ucd="PHOT_JHN_V" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Magnitude in Johnson V filter
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="u_Vmag" arraysize="1" datatype="char" name="u_Vmag" ucd="CODE_ERROR">
+    <DESCRIPTION>
+     [:)] doubtful value (:), variable value ())
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_Vmag" datatype="float" name="e_Vmag" precision="3" ucd="ERROR" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Dispersion on Vmag
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="w_Vmag" datatype="float" name="w_Vmag" precision="2" ucd="WEIGHT" width="5">
+    <DESCRIPTION>
+     ? Weight on Vmag
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="B-V" datatype="float" name="B-V" precision="3" ucd="PHOT_JHN_B-V" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Mean Johnson B-V colour index
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="u_B-V" arraysize="1" datatype="char" name="u_B-V" ucd="CODE_ERROR">
+    <DESCRIPTION>
+     [:)] doubtful value (:), variable value ())
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_B-V" datatype="float" name="e_B-V" precision="3" ucd="ERROR" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Dispersion on B-V
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="w_B-V" datatype="float" name="w_B-V" precision="2" ucd="WEIGHT" width="5">
+    <DESCRIPTION>
+     ? Weight on B-V
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="U-B" datatype="float" name="U-B" precision="2" ucd="PHOT_JHN_U-B" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Mean Johnson U-B colour index
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="u_U-B" arraysize="1" datatype="char" name="u_U-B" ucd="CODE_ERROR">
+    <DESCRIPTION>
+     [:)] doubtful value (:), variable value ())
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="w_U-B" datatype="float" name="w_U-B" precision="2" ucd="WEIGHT" width="5">
+    <DESCRIPTION>
+     ? Weight on U-B (quarters assigned)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="S" arraysize="1" datatype="char" name="S" ucd="MODEL_RESULT">
+    <DESCRIPTION>
+     [CA*] Source of U-B value: C=Cape only, A=Catalina station
+     (Arizona), *=discordant values.
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Notes" arraysize="23" datatype="char" name="Notes" ucd="NOTE">
+    <DESCRIPTION>
+     Remarks (variable star name, binarity)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right Ascension (J2000) from SIMBAD (not part of the original
+     data)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (J2000) from SIMBAD (not part of the original data)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>125489</TD>
+      <TD/>
+      <TD> 6.200</TD>
+      <TD/>
+      <TD/>
+      <TD> 1.00</TD>
+      <TD> 0.200</TD>
+      <TD/>
+      <TD/>
+      <TD> 1.00</TD>
+      <TD> 0.09</TD>
+      <TD/>
+      <TD> 1.00</TD>
+      <TD>C</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>214.92063</TD>
+      <TD>  0.38433</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

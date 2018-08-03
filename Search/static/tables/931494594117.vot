@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJ_823_59_table4" name="J/ApJ/823/59/table4">
+   <DESCRIPTION>
+    *Positions, magnitudes and reddening for a sample of halo M-giants
+   </DESCRIPTION>
+   <FIELD ID="WISEA" arraysize="19" datatype="char" name="WISEA" ucd="ID_MAIN">
+    <DESCRIPTION>
+     AllWISE designation (Cutri+, 2013, II/328)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="7" ucd="POS_EQ_RA_MAIN" unit="deg" width="11">
+    <DESCRIPTION>
+     Right Ascension, decimal degrees (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="7" ucd="POS_EQ_DEC_MAIN" unit="deg" width="11">
+    <DESCRIPTION>
+     Declination, decimal degrees (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="3" ucd="PHOT_JHN_J" unit="mag" width="6">
+    <DESCRIPTION>
+     [12/16] 2MASS J magnitude (1.25um)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_Jmag" datatype="float" name="e_Jmag" precision="3" ucd="ERROR" unit="mag" width="6">
+    <DESCRIPTION>
+     [0.01/0.1] Uncertainty in Jmag
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Ksmag" datatype="float" name="Ksmag" precision="3" ucd="PHOT_JHN_K" unit="mag" width="6">
+    <DESCRIPTION>
+     [10.7/14.6] 2MASS Ks magnitude (2.17um)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_Ksmag" datatype="float" name="e_Ksmag" precision="3" ucd="ERROR" unit="mag" width="6">
+    <DESCRIPTION>
+     [0.01/0.1] Uncertainty in Ksmag
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="W1mag" datatype="float" name="W1mag" precision="3" ucd="PHOT_IR_3.4" unit="mag" width="6">
+    <DESCRIPTION>
+     [10.5/13.8] W1 magnitude (3.35um)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_W1mag" datatype="float" name="e_W1mag" precision="3" ucd="ERROR" unit="mag" width="6">
+    <DESCRIPTION>
+     [0.02/0.06] Uncertainty in W1mag
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="W2mag" datatype="float" name="W2mag" precision="3" ucd="PHOT_IR_4.2" unit="mag" width="6">
+    <DESCRIPTION>
+     [10.5/13.9] W2 magnitude (4.6um)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_W2mag" datatype="float" name="e_W2mag" precision="3" ucd="ERROR" unit="mag" width="6">
+    <DESCRIPTION>
+     [0.01/0.06] Uncertainty in W2mag
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="E_B-V_" datatype="float" name="E_B-V_" precision="4" ucd="PHOT_COLOR_EXCESS" unit="mag" width="7">
+    <DESCRIPTION>
+     [0.005/2.1] Reddening (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_2M" arraysize="2" datatype="char" name="_2M" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the 2MASS data (Cutri+ 2003, Cat. II/246) within 3"
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>J195352.51+350635.6</TD>
+      <TD>298.4688043</TD>
+      <TD> 35.1099003</TD>
+      <TD>14.932</TD>
+      <TD> 0.039</TD>
+      <TD>13.548</TD>
+      <TD> 0.040</TD>
+      <TD>13.341</TD>
+      <TD> 0.031</TD>
+      <TD>13.549</TD>
+      <TD> 0.033</TD>
+      <TD> 1.0823</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195356.86+350853.8</TD>
+      <TD>298.4869529</TD>
+      <TD> 35.1482783</TD>
+      <TD>13.894</TD>
+      <TD> 0.026</TD>
+      <TD>12.271</TD>
+      <TD> 0.023</TD>
+      <TD>12.004</TD>
+      <TD> 0.024</TD>
+      <TD>12.080</TD>
+      <TD> 0.023</TD>
+      <TD> 1.0851</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195357.31+350923.9</TD>
+      <TD>298.4888025</TD>
+      <TD> 35.1566551</TD>
+      <TD>14.958</TD>
+      <TD> 0.036</TD>
+      <TD>13.442</TD>
+      <TD> 0.033</TD>
+      <TD>13.344</TD>
+      <TD> 0.026</TD>
+      <TD>13.422</TD>
+      <TD> 0.031</TD>
+      <TD> 1.0782</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195358.03+350847.2</TD>
+      <TD>298.4918218</TD>
+      <TD> 35.1464486</TD>
+      <TD>14.498</TD>
+      <TD> 0.028</TD>
+      <TD>12.822</TD>
+      <TD> 0.028</TD>
+      <TD>12.608</TD>
+      <TD> 0.024</TD>
+      <TD>12.630</TD>
+      <TD> 0.025</TD>
+      <TD> 1.0947</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195405.22+350807.8</TD>
+      <TD>298.5217719</TD>
+      <TD> 35.1355110</TD>
+      <TD>13.452</TD>
+      <TD> 0.025</TD>
+      <TD>11.817</TD>
+      <TD> 0.020</TD>
+      <TD>11.512</TD>
+      <TD> 0.023</TD>
+      <TD>11.523</TD>
+      <TD> 0.022</TD>
+      <TD> 1.1506</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195407.71+350817.9</TD>
+      <TD>298.5321309</TD>
+      <TD> 35.1383126</TD>
+      <TD>14.940</TD>
+      <TD> 0.042</TD>
+      <TD>13.194</TD>
+      <TD> 0.038</TD>
+      <TD>13.005</TD>
+      <TD> 0.024</TD>
+      <TD>13.056</TD>
+      <TD> 0.028</TD>
+      <TD> 1.1514</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195408.84+350814.6</TD>
+      <TD>298.5368416</TD>
+      <TD> 35.1373904</TD>
+      <TD>13.925</TD>
+      <TD> 0.026</TD>
+      <TD>12.361</TD>
+      <TD> 0.022</TD>
+      <TD>12.045</TD>
+      <TD> 0.023</TD>
+      <TD>12.071</TD>
+      <TD> 0.023</TD>
+      <TD> 1.1538</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195419.97+351347.0</TD>
+      <TD>298.5832424</TD>
+      <TD> 35.2297481</TD>
+      <TD>14.669</TD>
+      <TD> 0.040</TD>
+      <TD>13.249</TD>
+      <TD> 0.035</TD>
+      <TD>13.057</TD>
+      <TD> 0.029</TD>
+      <TD>13.229</TD>
+      <TD> 0.029</TD>
+      <TD> 1.0442</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195426.01+344558.7</TD>
+      <TD>298.6083855</TD>
+      <TD> 34.7663122</TD>
+      <TD>13.067</TD>
+      <TD> 0.026</TD>
+      <TD>11.658</TD>
+      <TD> 0.020</TD>
+      <TD>11.565</TD>
+      <TD> 0.031</TD>
+      <TD>11.665</TD>
+      <TD> 0.031</TD>
+      <TD> 1.0480</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195428.13+350507.7</TD>
+      <TD>298.6172228</TD>
+      <TD> 35.0854833</TD>
+      <TD>13.100</TD>
+      <TD> 0.022</TD>
+      <TD>11.613</TD>
+      <TD> 0.020</TD>
+      <TD>11.372</TD>
+      <TD> 0.024</TD>
+      <TD>11.467</TD>
+      <TD> 0.022</TD>
+      <TD> 1.1649</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195430.71+345532.8</TD>
+      <TD>298.6279651</TD>
+      <TD> 34.9257967</TD>
+      <TD>13.661</TD>
+      <TD> 0.021</TD>
+      <TD>12.330</TD>
+      <TD> 0.021</TD>
+      <TD>12.204</TD>
+      <TD> 0.026</TD>
+      <TD>12.376</TD>
+      <TD> 0.026</TD>
+      <TD> 0.9935</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195456.67+354314.0</TD>
+      <TD>298.7361593</TD>
+      <TD> 35.7205730</TD>
+      <TD>12.544</TD>
+      <TD> 0.023</TD>
+      <TD>11.298</TD>
+      <TD> 0.019</TD>
+      <TD>11.036</TD>
+      <TD> 0.023</TD>
+      <TD>11.195</TD>
+      <TD> 0.022</TD>
+      <TD> 0.6590</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195507.36+350430.3</TD>
+      <TD>298.7807072</TD>
+      <TD> 35.0751099</TD>
+      <TD>12.657</TD>
+      <TD> 0.021</TD>
+      <TD>11.131</TD>
+      <TD> 0.018</TD>
+      <TD>10.927</TD>
+      <TD> 0.024</TD>
+      <TD>11.028</TD>
+      <TD> 0.021</TD>
+      <TD> 1.1783</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195509.27+353346.2</TD>
+      <TD>298.7886577</TD>
+      <TD> 35.5628556</TD>
+      <TD>13.480</TD>
+      <TD> 0.024</TD>
+      <TD>12.329</TD>
+      <TD> 0.022</TD>
+      <TD>12.121</TD>
+      <TD> 0.024</TD>
+      <TD>12.257</TD>
+      <TD> 0.025</TD>
+      <TD> 0.5667</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195519.58+353804.5</TD>
+      <TD>298.8316045</TD>
+      <TD> 35.6345903</TD>
+      <TD>12.543</TD>
+      <TD> 0.022</TD>
+      <TD>11.369</TD>
+      <TD> 0.020</TD>
+      <TD>11.211</TD>
+      <TD> 0.023</TD>
+      <TD>11.370</TD>
+      <TD> 0.022</TD>
+      <TD> 0.6049</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195519.65+352224.5</TD>
+      <TD>298.8318922</TD>
+      <TD> 35.3734968</TD>
+      <TD>13.627</TD>
+      <TD> 0.027</TD>
+      <TD>12.435</TD>
+      <TD> 0.026</TD>
+      <TD>12.248</TD>
+      <TD> 0.034</TD>
+      <TD>12.390</TD>
+      <TD> 0.035</TD>
+      <TD> 0.6905</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195522.95+351210.3</TD>
+      <TD>298.8456635</TD>
+      <TD> 35.2028792</TD>
+      <TD>12.835</TD>
+      <TD> 0.022</TD>
+      <TD>11.373</TD>
+      <TD> 0.019</TD>
+      <TD>11.164</TD>
+      <TD> 0.024</TD>
+      <TD>11.277</TD>
+      <TD> 0.022</TD>
+      <TD> 1.1500</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195523.63+344244.9</TD>
+      <TD>298.8484936</TD>
+      <TD> 34.7124981</TD>
+      <TD>13.614</TD>
+      <TD> 0.026</TD>
+      <TD>12.124</TD>
+      <TD> 0.023</TD>
+      <TD>11.851</TD>
+      <TD> 0.024</TD>
+      <TD>11.970</TD>
+      <TD> 0.023</TD>
+      <TD> 1.2538</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195524.49+353727.5</TD>
+      <TD>298.8520653</TD>
+      <TD> 35.6243161</TD>
+      <TD>12.316</TD>
+      <TD> 0.022</TD>
+      <TD>11.135</TD>
+      <TD> 0.020</TD>
+      <TD>10.946</TD>
+      <TD> 0.023</TD>
+      <TD>11.084</TD>
+      <TD> 0.021</TD>
+      <TD> 0.5992</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195527.86+350713.7</TD>
+      <TD>298.8661236</TD>
+      <TD> 35.1204906</TD>
+      <TD>13.020</TD>
+      <TD> 0.023</TD>
+      <TD>11.375</TD>
+      <TD> 0.020</TD>
+      <TD>11.054</TD>
+      <TD> 0.023</TD>
+      <TD>11.156</TD>
+      <TD> 0.021</TD>
+      <TD> 1.2688</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195531.63+350331.2</TD>
+      <TD>298.8818261</TD>
+      <TD> 35.0586772</TD>
+      <TD>12.739</TD>
+      <TD> 0.021</TD>
+      <TD>11.253</TD>
+      <TD> 0.019</TD>
+      <TD>11.033</TD>
+      <TD> 0.051</TD>
+      <TD>11.145</TD>
+      <TD> 0.048</TD>
+      <TD> 1.2443</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195533.63+351123.9</TD>
+      <TD>298.8901254</TD>
+      <TD> 35.1899730</TD>
+      <TD>14.902</TD>
+      <TD> 0.035</TD>
+      <TD>13.430</TD>
+      <TD> 0.040</TD>
+      <TD>13.208</TD>
+      <TD> 0.030</TD>
+      <TD>13.406</TD>
+      <TD> 0.034</TD>
+      <TD> 1.1970</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195538.88+345537.8</TD>
+      <TD>298.9120011</TD>
+      <TD> 34.9271765</TD>
+      <TD>13.349</TD>
+      <TD> 0.024</TD>
+      <TD>11.904</TD>
+      <TD> 0.020</TD>
+      <TD>11.688</TD>
+      <TD> 0.023</TD>
+      <TD>11.838</TD>
+      <TD> 0.023</TD>
+      <TD> 1.2161</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195545.30+351922.9</TD>
+      <TD>298.9387672</TD>
+      <TD> 35.3230462</TD>
+      <TD>13.300</TD>
+      <TD> 0.024</TD>
+      <TD>11.997</TD>
+      <TD> 0.021</TD>
+      <TD>11.794</TD>
+      <TD> 0.023</TD>
+      <TD>11.918</TD>
+      <TD> 0.023</TD>
+      <TD> 0.8562</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195545.96+351857.9</TD>
+      <TD>298.9415083</TD>
+      <TD> 35.3160936</TD>
+      <TD>12.511</TD>
+      <TD> 0.022</TD>
+      <TD>11.194</TD>
+      <TD> 0.020</TD>
+      <TD>10.967</TD>
+      <TD> 0.023</TD>
+      <TD>11.076</TD>
+      <TD> 0.021</TD>
+      <TD> 0.8749</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195600.07+342719.8</TD>
+      <TD>299.0002989</TD>
+      <TD> 34.4555196</TD>
+      <TD>13.837</TD>
+      <TD> 0.023</TD>
+      <TD>12.259</TD>
+      <TD> 0.025</TD>
+      <TD>12.023</TD>
+      <TD> 0.025</TD>
+      <TD>12.151</TD>
+      <TD> 0.024</TD>
+      <TD> 1.4023</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195613.83+353941.1</TD>
+      <TD>299.0576629</TD>
+      <TD> 35.6614382</TD>
+      <TD>12.888</TD>
+      <TD> 0.022</TD>
+      <TD>11.674</TD>
+      <TD> 0.021</TD>
+      <TD>11.479</TD>
+      <TD> 0.027</TD>
+      <TD>11.625</TD>
+      <TD> 0.026</TD>
+      <TD> 0.7410</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195614.72+343841.2</TD>
+      <TD>299.0613456</TD>
+      <TD> 34.6448021</TD>
+      <TD>12.719</TD>
+      <TD> 0.021</TD>
+      <TD>11.229</TD>
+      <TD> 0.020</TD>
+      <TD>10.991</TD>
+      <TD> 0.023</TD>
+      <TD>11.093</TD>
+      <TD> 0.022</TD>
+      <TD> 1.2052</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195623.29+352533.1</TD>
+      <TD>299.0970827</TD>
+      <TD> 35.4258783</TD>
+      <TD>13.175</TD>
+      <TD> 0.021</TD>
+      <TD>11.797</TD>
+      <TD> 0.020</TD>
+      <TD>11.552</TD>
+      <TD> 0.023</TD>
+      <TD>11.686</TD>
+      <TD> 0.022</TD>
+      <TD> 0.9033</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195638.27+342101.6</TD>
+      <TD>299.1594810</TD>
+      <TD> 34.3504486</TD>
+      <TD>13.224</TD>
+      <TD> 0.020</TD>
+      <TD>11.572</TD>
+      <TD> 0.022</TD>
+      <TD>11.302</TD>
+      <TD> 0.023</TD>
+      <TD>11.408</TD>
+      <TD> 0.023</TD>
+      <TD> 1.5243</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195640.66+354513.5</TD>
+      <TD>299.1694295</TD>
+      <TD> 35.7537517</TD>
+      <TD>12.788</TD>
+      <TD> 0.022</TD>
+      <TD>11.592</TD>
+      <TD> 0.021</TD>
+      <TD>11.415</TD>
+      <TD> 0.024</TD>
+      <TD>11.560</TD>
+      <TD> 0.021</TD>
+      <TD> 0.6979</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195641.08+342014.1</TD>
+      <TD>299.1711719</TD>
+      <TD> 34.3372743</TD>
+      <TD>12.930</TD>
+      <TD> 0.024</TD>
+      <TD>11.228</TD>
+      <TD> 0.019</TD>
+      <TD>10.949</TD>
+      <TD> 0.023</TD>
+      <TD>11.038</TD>
+      <TD> 0.021</TD>
+      <TD> 1.4776</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195644.85+343055.0</TD>
+      <TD>299.1868947</TD>
+      <TD> 34.5152845</TD>
+      <TD>12.819</TD>
+      <TD> 0.022</TD>
+      <TD>11.115</TD>
+      <TD> 0.020</TD>
+      <TD>10.812</TD>
+      <TD> 0.023</TD>
+      <TD>10.909</TD>
+      <TD> 0.020</TD>
+      <TD> 1.5433</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195649.25+351621.4</TD>
+      <TD>299.2052486</TD>
+      <TD> 35.2726139</TD>
+      <TD>12.752</TD>
+      <TD> 0.019</TD>
+      <TD>11.304</TD>
+      <TD> 0.019</TD>
+      <TD>11.065</TD>
+      <TD> 0.024</TD>
+      <TD>11.246</TD>
+      <TD> 0.023</TD>
+      <TD> 1.2179</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195715.92+342839.7</TD>
+      <TD>299.3163400</TD>
+      <TD> 34.4777213</TD>
+      <TD>14.777</TD>
+      <TD> 0.032</TD>
+      <TD>13.107</TD>
+      <TD> 0.027</TD>
+      <TD>12.825</TD>
+      <TD> 0.033</TD>
+      <TD>12.973</TD>
+      <TD> 0.035</TD>
+      <TD> 1.7261</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195715.98+353358.7</TD>
+      <TD>299.3166086</TD>
+      <TD> 35.5663245</TD>
+      <TD>12.612</TD>
+      <TD> 0.023</TD>
+      <TD>11.147</TD>
+      <TD> 0.019</TD>
+      <TD>10.917</TD>
+      <TD> 0.023</TD>
+      <TD>11.043</TD>
+      <TD> 0.021</TD>
+      <TD> 1.0186</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195720.74+352724.6</TD>
+      <TD>299.3364341</TD>
+      <TD> 35.4568453</TD>
+      <TD>12.790</TD>
+      <TD> 0.021</TD>
+      <TD>11.331</TD>
+      <TD> 0.018</TD>
+      <TD>11.130</TD>
+      <TD> 0.023</TD>
+      <TD>11.251</TD>
+      <TD> 0.022</TD>
+      <TD> 1.1859</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195737.46+343458.0</TD>
+      <TD>299.4061067</TD>
+      <TD> 34.5828012</TD>
+      <TD>13.532</TD>
+      <TD> 0.024</TD>
+      <TD>11.871</TD>
+      <TD> 0.017</TD>
+      <TD>11.533</TD>
+      <TD> 0.023</TD>
+      <TD>11.623</TD>
+      <TD> 0.023</TD>
+      <TD> 1.5406</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195745.06+344230.9</TD>
+      <TD>299.4377646</TD>
+      <TD> 34.7085860</TD>
+      <TD>12.945</TD>
+      <TD> 0.023</TD>
+      <TD>11.304</TD>
+      <TD> 0.019</TD>
+      <TD>11.059</TD>
+      <TD> 0.024</TD>
+      <TD>11.181</TD>
+      <TD> 0.023</TD>
+      <TD> 1.5956</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195751.62+341829.1</TD>
+      <TD>299.4651013</TD>
+      <TD> 34.3080990</TD>
+      <TD>13.579</TD>
+      <TD> 0.024</TD>
+      <TD>11.973</TD>
+      <TD> 0.021</TD>
+      <TD>11.710</TD>
+      <TD> 0.024</TD>
+      <TD>11.787</TD>
+      <TD> 0.023</TD>
+      <TD> 1.3224</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195807.84+353802.5</TD>
+      <TD>299.5327059</TD>
+      <TD> 35.6340449</TD>
+      <TD>13.569</TD>
+      <TD> 0.024</TD>
+      <TD>12.146</TD>
+      <TD> 0.021</TD>
+      <TD>11.900</TD>
+      <TD> 0.032</TD>
+      <TD>12.040</TD>
+      <TD> 0.027</TD>
+      <TD> 1.1070</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195824.06+344420.8</TD>
+      <TD>299.6002638</TD>
+      <TD> 34.7391185</TD>
+      <TD>13.363</TD>
+      <TD> 0.028</TD>
+      <TD>11.589</TD>
+      <TD> 0.023</TD>
+      <TD>11.303</TD>
+      <TD> 0.029</TD>
+      <TD>11.401</TD>
+      <TD> 0.030</TD>
+      <TD> 1.8368</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195829.67+361034.1</TD>
+      <TD>299.6236386</TD>
+      <TD> 36.1761648</TD>
+      <TD>14.242</TD>
+      <TD> 0.044</TD>
+      <TD>12.968</TD>
+      <TD> 0.034</TD>
+      <TD>12.746</TD>
+      <TD> 0.045</TD>
+      <TD>12.898</TD>
+      <TD> 0.041</TD>
+      <TD> 0.8673</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195832.27+354747.7</TD>
+      <TD>299.6344600</TD>
+      <TD> 35.7966057</TD>
+      <TD>13.100</TD>
+      <TD> 0.022</TD>
+      <TD>11.712</TD>
+      <TD> 0.021</TD>
+      <TD>11.480</TD>
+      <TD> 0.024</TD>
+      <TD>11.612</TD>
+      <TD> 0.024</TD>
+      <TD> 1.0664</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195838.65+341817.7</TD>
+      <TD>299.6610812</TD>
+      <TD> 34.3049280</TD>
+      <TD>13.940</TD>
+      <TD> 0.022</TD>
+      <TD>12.481</TD>
+      <TD> 0.023</TD>
+      <TD>12.225</TD>
+      <TD> 0.026</TD>
+      <TD>12.374</TD>
+      <TD> 0.027</TD>
+      <TD> 1.2923</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195849.43+361037.6</TD>
+      <TD>299.7059783</TD>
+      <TD> 36.1771151</TD>
+      <TD>12.870</TD>
+      <TD> 0.019</TD>
+      <TD>11.535</TD>
+      <TD> 0.020</TD>
+      <TD>11.360</TD>
+      <TD> 0.023</TD>
+      <TD>11.490</TD>
+      <TD> 0.022</TD>
+      <TD> 0.8668</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195852.59+355413.2</TD>
+      <TD>299.7191290</TD>
+      <TD> 35.9036714</TD>
+      <TD>12.453</TD>
+      <TD> 0.021</TD>
+      <TD>11.163</TD>
+      <TD> 0.019</TD>
+      <TD>10.946</TD>
+      <TD> 0.024</TD>
+      <TD>11.056</TD>
+      <TD> 0.024</TD>
+      <TD> 0.8002</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195857.75+352549.4</TD>
+      <TD>299.7406310</TD>
+      <TD> 35.4303896</TD>
+      <TD>13.489</TD>
+      <TD> 0.022</TD>
+      <TD>11.937</TD>
+      <TD> 0.020</TD>
+      <TD>11.730</TD>
+      <TD> 0.022</TD>
+      <TD>11.912</TD>
+      <TD> 0.024</TD>
+      <TD> 1.3940</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195903.06+355825.9</TD>
+      <TD>299.7627876</TD>
+      <TD> 35.9738641</TD>
+      <TD>14.565</TD>
+      <TD> 0.038</TD>
+      <TD>13.286</TD>
+      <TD> 0.034</TD>
+      <TD>13.245</TD>
+      <TD> 0.027</TD>
+      <TD>13.404</TD>
+      <TD> 0.033</TD>
+      <TD> 0.7915</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J195907.47+360347.2</TD>
+      <TD>299.7811429</TD>
+      <TD> 36.0631175</TD>
+      <TD>13.409</TD>
+      <TD> 0.028</TD>
+      <TD>12.100</TD>
+      <TD> 0.021</TD>
+      <TD>11.893</TD>
+      <TD> 0.024</TD>
+      <TD>12.007</TD>
+      <TD> 0.022</TD>
+      <TD> 0.8696</TD>
+      <TD>2M</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJS_187_149_starcat" name="J/ApJS/187/149/starcat">
+   <DESCRIPTION>
+    Merged StarCAT sample: names and
+    properties\vizContent{spectrum/jpeg}
+   </DESCRIPTION>
+   <FIELD ID="StarCAT" arraysize="14" datatype="char" name="StarCAT" ucd="ID_MAIN">
+    <DESCRIPTION>
+     StarCat name
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="m_StarCAT" arraysize="8" datatype="char" name="m_StarCAT" ucd="CODE_MULT_INDEX">
+    <DESCRIPTION>
+     Sub-division (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAdeg" datatype="double" name="RAdeg" precision="3" ucd="POS_EQ_RA_OTHER" unit="deg" width="8">
+    <DESCRIPTION>
+     Right Ascension in decimal degrees (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEdeg" datatype="float" name="DEdeg" precision="3" ucd="POS_EQ_DEC_OTHER" unit="deg" width="7">
+    <DESCRIPTION>
+     Declination in decimal degrees (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="OType" arraysize="3" datatype="char" name="OType" ucd="CLASS_OBJECT">
+    <DESCRIPTION>
+     Simbad object type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="8" datatype="char" name="SpType" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     Simbad spectral type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_MAG_V" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Simbad V band magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="B-V" datatype="float" name="B-V" precision="2" ucd="PHOT_CI_B-V" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Simbad (B-V) color index
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="sp" arraysize="2" datatype="char" name="sp" ucd="DATA_LINK">
+    <DESCRIPTION>
+     \vizContent{spectrum/jpeg}link to spectrum
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Position from Simbad (more accurate than the position given in
+     the table) (right ascension part)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Position from Simbad (more accurate than the position given in
+     the table) (declination part)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SIMBAD" arraysize="27" datatype="char" name="SIMBAD" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Simbad name
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>HD226868</TD>
+      <TD/>
+      <TD> 299.590</TD>
+      <TD> 35.202</TD>
+      <TD>HXB</TD>
+      <TD>O9.7Iab</TD>
+      <TD>  8.95</TD>
+      <TD>  0.68</TD>
+      <TD>sp</TD>
+      <TD>Simbad</TD>
+      <TD>299.59032</TD>
+      <TD> 35.20160</TD>
+      <TD>HD 226868</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

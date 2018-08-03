@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_A_A_537_A120_table1" name="J/A+A/537/A120/table1">
+   <DESCRIPTION>
+    Fundamental parameters for 2014 B6 to F2-type stars
+   </DESCRIPTION>
+   <FIELD ID="HD" datatype="int" name="HD" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     Star HD number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="15" datatype="char" name="SpType" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     MK spectral type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="logT" datatype="float" name="logT" precision="3" ucd="PHYS_TEMP_EFFEC" unit="[K]" width="6">
+    <DESCRIPTION>
+     Logarithmic effective temperature
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_logT" datatype="float" name="e_logT" precision="3" ucd="ERROR" unit="[K]" width="6">
+    <DESCRIPTION>
+     Error on logT
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="logL" datatype="float" name="logL" precision="4" ucd="PHYS_LUMINOSITY_GENERAL" unit="[Lsun]" width="7">
+    <DESCRIPTION>
+     Logarithmic luminosity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_logL" datatype="float" name="e_logL" precision="4" ucd="ERROR" unit="[Lsun]" width="7">
+    <DESCRIPTION>
+     Error on logL
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Mass" datatype="float" name="Mass" precision="2" ucd="PHYS_MASS_MISC" unit="Msun" width="5">
+    <DESCRIPTION>
+     Stellar mass
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_Mass" datatype="float" name="e_Mass" precision="2" ucd="ERROR" unit="Msun" width="5">
+    <DESCRIPTION>
+     Error on the stellar mass
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Age" datatype="float" name="Age" precision="3" ucd="TIME_AGE" width="6">
+    <DESCRIPTION>
+     Fractional age on the main sequence
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_Age" datatype="float" name="e_Age" precision="3" ucd="ERROR" width="6">
+    <DESCRIPTION>
+     Error on the fractional age
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="vsini" datatype="short" name="vsini" ucd="VELOC_ROTAT" unit="km.s-1" width="3">
+    <DESCRIPTION>
+     Projected rotational velocity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="r_vsini" datatype="short" name="r_vsini" ucd="REFER_CODE" width="2">
+    <DESCRIPTION>
+     Source of vsini (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Class" arraysize="5" datatype="char" name="Class" ucd="CLASS_CODE">
+    <DESCRIPTION>
+     Classification of the star: blank=normal, CB=Close binary,
+     CP=chemically peculiar
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right Ascension (J2000) from SIMBAD (not part of the original
+     data)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (J2000) from SIMBAD (not part of the original data)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>125489</TD>
+      <TD>A7V</TD>
+      <TD> 3.896</TD>
+      <TD> 0.003</TD>
+      <TD> 1.0796</TD>
+      <TD> 0.0251</TD>
+      <TD> 1.78</TD>
+      <TD> 0.02</TD>
+      <TD> 0.432</TD>
+      <TD> 0.049</TD>
+      <TD>159</TD>
+      <TD>4</TD>
+      <TD>CP</TD>
+      <TD>Simbad</TD>
+      <TD>214.92063</TD>
+      <TD>  0.38433</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

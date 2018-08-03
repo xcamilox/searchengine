@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_AJ_121_2148_table1" name="J/AJ/121/2148/table1">
+   <DESCRIPTION>
+    MK classifications of late A-, F-, and early G-Type stars
+   </DESCRIPTION>
+   <FIELD ID="Name" arraysize="11" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     The HD (Cat. &lt;III/135&gt;) or other name (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the SIMBAD data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="PaperII" arraysize="7" datatype="char" name="PaperII" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the values from PaperII (J/AJ/121/2159)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Std" arraysize="1" datatype="char" name="Std" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [*] Indicates an MK standard star
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_JHN_V" unit="mag" width="5">
+    <DESCRIPTION>
+     The V-band magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="uvby" arraysize="1" datatype="char" name="uvby" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [ync] Indicates the status of Stromgren uvby photometry in the
+     literature (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="beta" arraysize="1" datatype="char" name="beta" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [ync] Indicates the status of Stromgren {beta} photometry in the
+     literature (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="E_b-y_" datatype="float" name="E_b-y_" precision="2" ucd="PHOT_COLOR_EXCESS" unit="mag" width="5">
+    <DESCRIPTION>
+     ? The E(b-y) reddening (3)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="27" datatype="char" name="SpType" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     Spectral type (4)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Notes" arraysize="3" datatype="char" name="Notes" ucd="NOTE">
+    <DESCRIPTION>
+     Further notes (5)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="4" ucd="POS_EQ_RA_MAIN" unit="deg" width="8">
+    <DESCRIPTION>
+     Right Ascension (J2000) from SIMBAD (not part of the original
+     data)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="4" ucd="POS_EQ_DEC_MAIN" unit="deg" width="8">
+    <DESCRIPTION>
+     Declination (J2000) from SIMBAD (not part of the original data)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>HD 125489</TD>
+      <TD>Simbad</TD>
+      <TD>PaperII</TD>
+      <TD/>
+      <TD> 6.19</TD>
+      <TD>y</TD>
+      <TD>y</TD>
+      <TD> 0.00</TD>
+      <TD>A7 Vn</TD>
+      <TD/>
+      <TD>214.9206</TD>
+      <TD>  0.3843</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

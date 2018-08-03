@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="V_125_obmk" name="V/125/obmk">
+   <DESCRIPTION>
+    Collation of MK classifications
+   </DESCRIPTION>
+   <FIELD ID="ALS" datatype="int" name="ALS" ucd="ID_MAIN" width="5">
+    <DESCRIPTION>
+     Alma LS number (G1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="TC" arraysize="8" datatype="char" name="TC" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     Temperature Class
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="LC" arraysize="8" datatype="char" name="LC" ucd="SPECT_LUM-CLASS">
+    <DESCRIPTION>
+     Luminosity Class
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Pec" arraysize="8" datatype="char" name="Pec" ucd="SPECT_PECUL">
+    <DESCRIPTION>
+     Spectral-luminosity qualifier (pecularities)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Disp" arraysize="20" datatype="char" name="Disp" ucd="INST_DISPERSION">
+    <DESCRIPTION>
+     Dispersion description
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="8" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (J2000.0)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="9" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (J2000.0)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="BibCode" arraysize="19" datatype="char" name="BibCode" ucd="REFER_BIBCODE">
+    <DESCRIPTION>
+     BibCode of reference
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Rem" arraysize="10" datatype="char" name="Rem" ucd="NOTE">
+    <DESCRIPTION>
+     Remarks and other identifications
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>10678</TD>
+      <TD>B0</TD>
+      <TD>Ib</TD>
+      <TD/>
+      <TD>2P 86</TD>
+      <TD>19 58 22</TD>
+      <TD>+35 12 06</TD>
+      <TD>1956ApJS....2..389H</TD>
+      <TD>CYG X-1</TD>
+     </TR>
+     <TR>
+      <TD>10678</TD>
+      <TD>O9.7</TD>
+      <TD>Iab</TD>
+      <TD>(p-var)</TD>
+      <TD>62 to 78</TD>
+      <TD>19 58 22</TD>
+      <TD>+35 12 06</TD>
+      <TD>1973AJ.....78.1067W</TD>
+      <TD>CYG X-1</TD>
+     </TR>
+     <TR>
+      <TD>10678</TD>
+      <TD>B0</TD>
+      <TD>Ib</TD>
+      <TD/>
+      <TD>Approx. 100d</TD>
+      <TD>19 58 22</TD>
+      <TD>+35 12 06</TD>
+      <TD>1955ApJS....2...41M</TD>
+      <TD>CYG X-1</TD>
+     </TR>
+     <TR>
+      <TD>10678</TD>
+      <TD>ON9</TD>
+      <TD>Ifa+</TD>
+      <TD/>
+      <TD>CCD; Resolution 2 A</TD>
+      <TD>19 58 22</TD>
+      <TD>+35 12 06</TD>
+      <TD>1995ApJ...454..151M</TD>
+      <TD>CYG X-1</TD>
+     </TR>
+     <TR>
+      <TD>10678</TD>
+      <TD>B0</TD>
+      <TD/>
+      <TD/>
+      <TD>76 A/mm @ Hgamma</TD>
+      <TD>19 58 22</TD>
+      <TD>+35 12 06</TD>
+      <TD>1950ApJ...111..495P</TD>
+      <TD>CYG X-1</TD>
+     </TR>
+     <TR>
+      <TD>10678</TD>
+      <TD>O9.7</TD>
+      <TD>Ia/b</TD>
+      <TD/>
+      <TD>0.6-0.8 A FWHM</TD>
+      <TD>19 58 22</TD>
+      <TD>+35 12 06</TD>
+      <TD>1995A&amp;A...297..556H</TD>
+      <TD>CYG X-1</TD>
+     </TR>
+     <TR>
+      <TD>10694</TD>
+      <TD>B9</TD>
+      <TD>II</TD>
+      <TD/>
+      <TD>OP 580g</TD>
+      <TD>19 59 42</TD>
+      <TD>+34 59 25</TD>
+      <TD>&lt;III/76&gt;</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>10695</TD>
+      <TD>O7</TD>
+      <TD/>
+      <TD/>
+      <TD>No dispersion given</TD>
+      <TD>19 59 49</TD>
+      <TD>+35 18 34</TD>
+      <TD>1956ApJ...124..367H</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>10695</TD>
+      <TD>O7</TD>
+      <TD/>
+      <TD/>
+      <TD>2P 86</TD>
+      <TD>19 59 49</TD>
+      <TD>+35 18 34</TD>
+      <TD>1956ApJS....2..389H</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>10695</TD>
+      <TD>O6.5</TD>
+      <TD>III</TD>
+      <TD/>
+      <TD>G 16</TD>
+      <TD>19 59 49</TD>
+      <TD>+35 18 34</TD>
+      <TD>1973ApJ...179..161C</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>10695</TD>
+      <TD>O6.5</TD>
+      <TD>III</TD>
+      <TD/>
+      <TD>G 16</TD>
+      <TD>19 59 49</TD>
+      <TD>+35 18 34</TD>
+      <TD>1974ApJ...193..113C</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>10695</TD>
+      <TD>O7</TD>
+      <TD/>
+      <TD/>
+      <TD>Approx. 100d</TD>
+      <TD>19 59 49</TD>
+      <TD>+35 18 34</TD>
+      <TD>1955ApJS....2...41M</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>10695</TD>
+      <TD>O7</TD>
+      <TD>V</TD>
+      <TD>((f))</TD>
+      <TD>CCD; Resolution 2 A</TD>
+      <TD>19 59 49</TD>
+      <TD>+35 18 34</TD>
+      <TD>1995ApJ...454..151M</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>10695</TD>
+      <TD>O6</TD>
+      <TD/>
+      <TD/>
+      <TD>76 A/mm @ Hgamma</TD>
+      <TD>19 59 49</TD>
+      <TD>+35 18 34</TD>
+      <TD>1950ApJ...111..495P</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>10695</TD>
+      <TD>O6</TD>
+      <TD>V</TD>
+      <TD/>
+      <TD>2.8 A/channel</TD>
+      <TD>19 59 49</TD>
+      <TD>+35 18 34</TD>
+      <TD>1982A&amp;A...107..252B</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>10735</TD>
+      <TD>B4</TD>
+      <TD/>
+      <TD>n</TD>
+      <TD>76 A/mm @ Hgamma</TD>
+      <TD>20 01 45</TD>
+      <TD>+35 33 09</TD>
+      <TD>1950ApJ...111..495P</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>10744</TD>
+      <TD>O7</TD>
+      <TD/>
+      <TD/>
+      <TD>No dispersion given</TD>
+      <TD>20 02 22</TD>
+      <TD>+35 40 31</TD>
+      <TD>1956ApJ...124..367H</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>10744</TD>
+      <TD>O7</TD>
+      <TD/>
+      <TD/>
+      <TD>2P 86</TD>
+      <TD>20 02 22</TD>
+      <TD>+35 40 31</TD>
+      <TD>1956ApJS....2..389H</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>10744</TD>
+      <TD>O7</TD>
+      <TD/>
+      <TD/>
+      <TD>Approx. 100d</TD>
+      <TD>20 02 22</TD>
+      <TD>+35 40 31</TD>
+      <TD>1955ApJS....2...41M</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>10744</TD>
+      <TD>O8</TD>
+      <TD/>
+      <TD/>
+      <TD>S 125g</TD>
+      <TD>20 02 22</TD>
+      <TD>+35 40 31</TD>
+      <TD>1951ApJ...114..492R</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>10744</TD>
+      <TD>O8</TD>
+      <TD/>
+      <TD/>
+      <TD>76 A/mm @ Hgamma</TD>
+      <TD>20 02 22</TD>
+      <TD>+35 40 31</TD>
+      <TD>1950ApJ...111..495P</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>14628</TD>
+      <TD>B0.5</TD>
+      <TD>III</TD>
+      <TD/>
+      <TD>2P 86</TD>
+      <TD>19 59 12</TD>
+      <TD>+36 06 55</TD>
+      <TD>1956ApJS....2..389H</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>14628</TD>
+      <TD>B0</TD>
+      <TD>III</TD>
+      <TD/>
+      <TD>31, 62, or 78g</TD>
+      <TD>19 59 12</TD>
+      <TD>+36 06 55</TD>
+      <TD>1976MNRAS.176..683C</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>14628</TD>
+      <TD>B0.5</TD>
+      <TD/>
+      <TD/>
+      <TD>76 A/mm @ Hgamma</TD>
+      <TD>19 59 12</TD>
+      <TD>+36 06 55</TD>
+      <TD>1950ApJ...111..495P</TD>
+      <TD/>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

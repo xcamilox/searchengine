@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_other_RAA_15_1154_mdwarfs" name="J/other/RAA/15.1154/mdwarfs">
+   <DESCRIPTION>
+    M dwarf catalog in LAMOST DR1
+   </DESCRIPTION>
+   <FIELD ID="Name" arraysize="19" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Designation in LAMOST DR1, JHHMMSS.ss+DDMMSS.s
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="6" ucd="POS_EQ_RA_MAIN" unit="deg" width="10">
+    <DESCRIPTION>
+     Right ascension J2000
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="6" ucd="POS_EQ_DEC_MAIN" unit="deg" width="10">
+    <DESCRIPTION>
+     Declination J2000
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="float" name="pmRA" precision="1" ucd="POS_EQ_PMRA" unit="mas.yr-1" width="6">
+    <DESCRIPTION>
+     ? Proper motion in RA*cos(DE) from the PPMXL catalog
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_pmRA" datatype="float" name="e_pmRA" precision="1" ucd="ERROR" unit="mas.yr-1" width="6">
+    <DESCRIPTION>
+     ? Mean error in pmRA from the PPMXL catalog
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="float" name="pmDE" precision="1" ucd="POS_EQ_PMDEC" unit="mas.yr-1" width="6">
+    <DESCRIPTION>
+     ? Proper motion in DE from the PPMXL catalog
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_pmDE" datatype="float" name="e_pmDE" precision="1" ucd="ERROR" unit="mas.yr-1" width="6">
+    <DESCRIPTION>
+     ? Mean error in pmDE from the PPMXL catalog
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="3" ucd="PHOT_JHN_J" unit="mag" width="6">
+    <DESCRIPTION>
+     ? J magnitude from the 2MASS catalog
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Hmag" datatype="float" name="Hmag" precision="3" ucd="PHOT_JHN_H" unit="mag" width="6">
+    <DESCRIPTION>
+     ? H magnitude from the 2MASS catalog
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Ksmag" datatype="float" name="Ksmag" precision="3" ucd="PHOT_JHN_K" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Ks magnitude from the 2MASS catalog
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="W1mag" datatype="float" name="W1mag" precision="3" ucd="PHOT_IR_3.4" unit="mag" width="6">
+    <DESCRIPTION>
+     ? W1 magnitude from the WISE catalog
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="W2mag" datatype="float" name="W2mag" precision="3" ucd="PHOT_IR_4.2" unit="mag" width="6">
+    <DESCRIPTION>
+     ? W2 magnitude from the WISE catalog
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="RV" datatype="float" name="RV" precision="1" ucd="VELOC_HC" unit="km.s-1" width="6">
+    <DESCRIPTION>
+     ? Radial velocity
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Dist" datatype="float" name="Dist" precision="2" ucd="POS_GAL_HC" unit="kpc" width="6">
+    <DESCRIPTION>
+     ? Spectroscopic distance base on the absolute magnitude(MJ)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="8" datatype="char" name="SpType" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     Spectral subtype classified by the template fit pipeline
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>J141851.78+002314.8</TD>
+      <TD>214.715770</TD>
+      <TD>  0.387466</TD>
+      <TD>-110.8</TD>
+      <TD>   5.0</TD>
+      <TD>   4.3</TD>
+      <TD>   5.0</TD>
+      <TD>10.536</TD>
+      <TD> 9.962</TD>
+      <TD> 9.705</TD>
+      <TD> 9.562</TD>
+      <TD> 9.392</TD>
+      <TD>   4.3</TD>
+      <TD>  0.06</TD>
+      <TD>dMr1.5</TD>
+     </TR>
+     <TR>
+      <TD>J141715.70-000821.7</TD>
+      <TD>214.315430</TD>
+      <TD> -0.139371</TD>
+      <TD> -95.4</TD>
+      <TD>  24.4</TD>
+      <TD>-145.0</TD>
+      <TD>  24.4</TD>
+      <TD>12.036</TD>
+      <TD>11.427</TD>
+      <TD>11.209</TD>
+      <TD>11.068</TD>
+      <TD>10.987</TD>
+      <TD> -19.6</TD>
+      <TD>  0.12</TD>
+      <TD>dMs1.0</TD>
+     </TR>
+     <TR>
+      <TD>J141617.21-001100.9</TD>
+      <TD>214.071740</TD>
+      <TD> -0.183604</TD>
+      <TD>  -3.9</TD>
+      <TD>   5.3</TD>
+      <TD>-119.8</TD>
+      <TD>   5.3</TD>
+      <TD>12.114</TD>
+      <TD>11.470</TD>
+      <TD>11.364</TD>
+      <TD>11.204</TD>
+      <TD>11.216</TD>
+      <TD>   3.3</TD>
+      <TD>  0.17</TD>
+      <TD>sdKr7.5</TD>
+     </TR>
+     <TR>
+      <TD>J141826.62+001428.4</TD>
+      <TD>214.610930</TD>
+      <TD>  0.241230</TD>
+      <TD> -43.0</TD>
+      <TD>   4.0</TD>
+      <TD>   7.0</TD>
+      <TD>   4.0</TD>
+      <TD>11.608</TD>
+      <TD>10.974</TD>
+      <TD>10.817</TD>
+      <TD>10.727</TD>
+      <TD>10.704</TD>
+      <TD> -15.2</TD>
+      <TD>  0.16</TD>
+      <TD>dKp7.0</TD>
+     </TR>
+     <TR>
+      <TD>J141755.46-003339.9</TD>
+      <TD>214.481120</TD>
+      <TD> -0.561106</TD>
+      <TD>   4.3</TD>
+      <TD>   4.0</TD>
+      <TD> -12.3</TD>
+      <TD>   4.0</TD>
+      <TD>12.703</TD>
+      <TD>12.048</TD>
+      <TD>11.905</TD>
+      <TD>11.743</TD>
+      <TD>11.757</TD>
+      <TD> -15.9</TD>
+      <TD>  0.20</TD>
+      <TD>dMs0.0</TD>
+     </TR>
+     <TR>
+      <TD>J141823.63-002103.9</TD>
+      <TD>214.598490</TD>
+      <TD> -0.351086</TD>
+      <TD>  -5.5</TD>
+      <TD>   4.0</TD>
+      <TD>   0.1</TD>
+      <TD>   4.0</TD>
+      <TD>12.667</TD>
+      <TD>12.031</TD>
+      <TD>11.860</TD>
+      <TD>11.780</TD>
+      <TD>11.795</TD>
+      <TD>  -1.7</TD>
+      <TD>  0.26</TD>
+      <TD>sdKr7.0</TD>
+     </TR>
+     <TR>
+      <TD>J141916.58-010611.9</TD>
+      <TD>214.819110</TD>
+      <TD> -1.103330</TD>
+      <TD> -79.3</TD>
+      <TD>   4.0</TD>
+      <TD> -39.6</TD>
+      <TD>   4.0</TD>
+      <TD>12.630</TD>
+      <TD>12.085</TD>
+      <TD>11.885</TD>
+      <TD>11.763</TD>
+      <TD>11.605</TD>
+      <TD> -35.1</TD>
+      <TD>  0.16</TD>
+      <TD>dMp1.5</TD>
+     </TR>
+     <TR>
+      <TD>J141749.26-002947.3</TD>
+      <TD>214.455270</TD>
+      <TD> -0.496479</TD>
+      <TD> -34.5</TD>
+      <TD>   4.0</TD>
+      <TD>  34.9</TD>
+      <TD>   4.0</TD>
+      <TD>12.808</TD>
+      <TD>12.149</TD>
+      <TD>12.003</TD>
+      <TD>11.907</TD>
+      <TD>11.901</TD>
+      <TD> -59.6</TD>
+      <TD>  0.28</TD>
+      <TD>dKp7.0</TD>
+     </TR>
+     <TR>
+      <TD>J141658.96-004508.6</TD>
+      <TD>214.245670</TD>
+      <TD> -0.752409</TD>
+      <TD>  27.7</TD>
+      <TD>   4.0</TD>
+      <TD> -18.8</TD>
+      <TD>   4.0</TD>
+      <TD>13.023</TD>
+      <TD>12.382</TD>
+      <TD>12.216</TD>
+      <TD>12.071</TD>
+      <TD>12.033</TD>
+      <TD>   2.7</TD>
+      <TD>  0.25</TD>
+      <TD>dKs7.5</TD>
+     </TR>
+     <TR>
+      <TD>J141746.57-002559.3</TD>
+      <TD>214.444070</TD>
+      <TD> -0.433166</TD>
+      <TD>  -1.9</TD>
+      <TD>   4.0</TD>
+      <TD>   0.8</TD>
+      <TD>   4.0</TD>
+      <TD>14.700</TD>
+      <TD>13.997</TD>
+      <TD>13.808</TD>
+      <TD>13.780</TD>
+      <TD>13.818</TD>
+      <TD> -11.5</TD>
+      <TD>  0.66</TD>
+      <TD>dMr0.0</TD>
+     </TR>
+     <TR>
+      <TD>J142042.27-002204.4</TD>
+      <TD>215.176150</TD>
+      <TD> -0.367913</TD>
+      <TD>  41.5</TD>
+      <TD>   4.0</TD>
+      <TD> -94.2</TD>
+      <TD>   4.0</TD>
+      <TD>11.456</TD>
+      <TD>10.792</TD>
+      <TD>10.597</TD>
+      <TD>10.514</TD>
+      <TD>10.522</TD>
+      <TD>  -7.6</TD>
+      <TD>  0.12</TD>
+      <TD>dKr7.5</TD>
+     </TR>
+     <TR>
+      <TD>J142123.08-005707.9</TD>
+      <TD>215.346200</TD>
+      <TD> -0.952212</TD>
+      <TD>  52.4</TD>
+      <TD>   4.0</TD>
+      <TD> -42.2</TD>
+      <TD>   4.0</TD>
+      <TD>11.571</TD>
+      <TD>10.911</TD>
+      <TD>10.763</TD>
+      <TD>10.674</TD>
+      <TD>10.677</TD>
+      <TD>   8.5</TD>
+      <TD>  0.16</TD>
+      <TD>sdKs7.0</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

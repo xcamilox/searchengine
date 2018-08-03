@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_AJ_145_102_Mdwarfs" name="J/AJ/145/102/Mdwarfs">
+   <DESCRIPTION>
+    Positions and photometry {\em(table1)}, spectroscopic data
+    {\em(table3)}, and distances, kinematics, and activity
+    {\em(table7)} of our survey stars
+   </DESCRIPTION>
+   <FIELD ID="PM" arraysize="13" datatype="char" name="PM" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Source name (IHHMMm+DDMMWW) (G1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="CNS3" arraysize="13" datatype="char" name="CNS3" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Name in Third Catalog of Nearby Stars (CNS3; Gliese &amp; Jahreiss,
+     1991, cat. V/70) (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="6" ucd="POS_EQ_RA_MAIN" unit="deg" width="10">
+    <DESCRIPTION>
+     Right Ascension in decimal degrees (ICRS)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="6" ucd="POS_EQ_DEC_MAIN" unit="deg" width="10">
+    <DESCRIPTION>
+     Declination in decimal degrees (ICRS)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="float" name="pmRA" precision="3" ucd="POS_EQ_PMRA" unit="arcs.yr-1" width="6">
+    <DESCRIPTION>
+     Proper motion in Right Ascension
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="float" name="pmDE" precision="3" ucd="POS_EQ_PMDEC" unit="arcs.yr-1" width="6">
+    <DESCRIPTION>
+     Proper motion in Declination
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_MAG_V" unit="mag" width="5">
+    <DESCRIPTION>
+     Estimated visual magnitude (G1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="2" ucd="PHOT_JHN_J" unit="mag" width="5">
+    <DESCRIPTION>
+     2MASS J magnitude (from cat. II/246)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Hmag" datatype="float" name="Hmag" precision="2" ucd="PHOT_JHN_H" unit="mag" width="5">
+    <DESCRIPTION>
+     2MASS H magnitude (from cat. II/246)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Kmag" datatype="float" name="Kmag" precision="2" ucd="PHOT_JHN_K" unit="mag" width="5">
+    <DESCRIPTION>
+     2MASS Ks magnitude (from cat. II/246)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpT" arraysize="4" datatype="char" name="SpT" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     Adopted MK spectral subtype
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="zeta" datatype="float" name="zeta" precision="2" ucd="SPECT_INDEX_MISC" width="5">
+    <DESCRIPTION>
+     ? {zeta} metallicity index (7)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="logg" datatype="float" name="logg" precision="1" ucd="PHYS_GRAVITY_SURFACE" unit="[cm/s2]" width="4">
+    <DESCRIPTION>
+     ? Gravity from PHOENIX model fits
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Teff" datatype="short" name="Teff" ucd="PHYS_TEMP_EFFEC" unit="K" width="4">
+    <DESCRIPTION>
+     ? Effective temperature from PHOENIX model fits [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="plx2" datatype="float" name="plx2" precision="3" ucd="POS_PARLX_SPEC" unit="arcs" width="6">
+    <DESCRIPTION>
+     ? Spectroscopic parallax
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="EWHa" datatype="float" name="EWHa" precision="2" ucd="SPECT_EQ-WIDTH" unit="0.1nm" width="5">
+    <DESCRIPTION>
+     ? H{alpha} equivalent width index; in {AA}
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="LSPM" datatype="short" name="LSPM" ucd="DATA_LINK" width="3">
+    <DESCRIPTION>
+     Cross-match with the SUPERBLINK catalog (Lepine \&amp; Shara, 2005,
+     cat. I/298) within 5" [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="_2M" arraysize="2" datatype="char" name="_2M" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the 2MASS data (Cutri et al. 2003, Cat. II/246)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SimbadName" arraysize="16" datatype="char" name="SimbadName" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Designation understandable by the {\bf\fg{FireBrick}Simbad} data-
+     base
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>I14178+0009</TD>
+      <TD/>
+      <TD>214.463882</TD>
+      <TD>  0.158748</TD>
+      <TD>-0.183</TD>
+      <TD> 0.101</TD>
+      <TD>11.84</TD>
+      <TD> 8.99</TD>
+      <TD> 8.37</TD>
+      <TD> 8.13</TD>
+      <TD>M0.0</TD>
+      <TD> 1.07</TD>
+      <TD> 4.5</TD>
+      <TD>3800</TD>
+      <TD> 0.021</TD>
+      <TD> 0.59</TD>
+      <TD>1</TD>
+      <TD>2M</TD>
+      <TD>PM J14178+0009</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

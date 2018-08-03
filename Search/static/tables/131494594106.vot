@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="I_180_gcpa" name="I/180/gcpa">
+   <DESCRIPTION>
+    Catalog Data
+   </DESCRIPTION>
+   <FIELD ID="ID" datatype="short" name="ID" ucd="ID_MAIN" width="4">
+    <DESCRIPTION>
+     Serial Number of GCPA
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GC" datatype="int" name="GC" ucd="ID_ALTERNATIVE" width="5">
+    <DESCRIPTION>
+     Number in GC (Boss' General Catalog)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="FK4" datatype="short" name="FK4" ucd="ID_NUMBER" width="4">
+    <DESCRIPTION>
+     Number in FK4
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="mag" datatype="float" name="mag" precision="2" ucd="PHOT_MAG_V" unit="mag" width="5">
+    <DESCRIPTION>
+     Visual magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sp" arraysize="3" datatype="char" name="Sp" ucd="SPECT_TYPE_GENERAL">
+    <DESCRIPTION>
+     Spectral type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="EpRA-1900" datatype="float" name="EpRA-1900" precision="2" ucd="TIME_EPOCH" unit="a" width="7">
+    <DESCRIPTION>
+     Mean Epoch of individual observed RA (-1900)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAB1975" arraysize="12" datatype="char" name="RAB1975" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     += Right Ascension For B1975.0 hours
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="corRA" datatype="float" name="corRA" precision="1" ucd="POS_EQ_RA_CORR" unit="ms" width="7">
+    <DESCRIPTION>
+     Position correction RA at mean epoch of obs.
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEB1975" arraysize="12" datatype="char" name="DEB1975" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination for B1975.0 degrees
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA.icrs" arraysize="12" datatype="char" name="_RA.icrs" ucd="POS_EQ_RA_OTHER" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (ICRS) (computed by VizieR, not part of the
+     original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" arraysize="12" datatype="char" name="_DE.icrs" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (ICRS) (computed by VizieR, not part of the original
+     data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>540</TD>
+      <TD>27622</TD>
+      <TD>1521</TD>
+      <TD> 4.00</TD>
+      <TD>K0</TD>
+      <TD>  76.15</TD>
+      <TD>19 55 21.997</TD>
+      <TD>   -4.2</TD>
+      <TD>+35 00 58.38</TD>
+      <TD>19 56 18.443</TD>
+      <TD>+35 05 00.97</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

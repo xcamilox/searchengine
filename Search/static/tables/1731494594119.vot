@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_other_JAVSO_37_169_nsvs" name="J/other/JAVSO/37.169/nsvs">
+   <DESCRIPTION>
+    New NSVS variable stars
+   </DESCRIPTION>
+   <FIELD ID="MPN" datatype="short" name="MPN" ucd="ID_NUMBER" width="4">
+    <DESCRIPTION>
+     Running number in the catalogue
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="11" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="11" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Bmag" datatype="float" name="Bmag" precision="3" ucd="PHOT_PHG_B" unit="mag" width="6">
+    <DESCRIPTION>
+     ? NOMAD B magnitude (Cat. I/297)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="3" ucd="PHOT_PHG_V" unit="mag" width="6">
+    <DESCRIPTION>
+     ? NOMAD V magnitude (Cat. I/297)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Rmag" datatype="float" name="Rmag" precision="2" ucd="PHOT_PHG_R" unit="mag" width="5">
+    <DESCRIPTION>
+     ? NOMAD R magnitude (Cat. I/297)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="3" ucd="PHOT_JHN_J" unit="mag" width="6">
+    <DESCRIPTION>
+     ? 2MASS J magnitude (Cat. II/246)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Hmag" datatype="float" name="Hmag" precision="3" ucd="PHOT_JHN_H" unit="mag" width="6">
+    <DESCRIPTION>
+     ? 2MASS H magnitude (Cat. II/246)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Kmag" datatype="float" name="Kmag" precision="3" ucd="PHOT_JHN_K" unit="mag" width="6">
+    <DESCRIPTION>
+     ? 2MASS K magnitude (Cat. II/246)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="SpT" arraysize="8" datatype="char" name="SpT" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     MK spectral type (Cat. B/mk)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Type" arraysize="3" datatype="char" name="Type" ucd="VAR_CLASS">
+    <DESCRIPTION>
+     Provisional variability type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Per" datatype="float" name="Per" precision="1" ucd="TIME_PERIOD" unit="d" width="5">
+    <DESCRIPTION>
+     ? Period of variable star (days)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="mag1" datatype="float" name="mag1" precision="2" ucd="PHOT_MAG_OPTICAL" unit="mag" width="5">
+    <DESCRIPTION>
+     Magnitude at maximum brightness
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="mag0" datatype="float" name="mag0" precision="2" ucd="PHOT_MAG_OPTICAL" unit="mag" width="5">
+    <DESCRIPTION>
+     Magnitude at minimum brightness
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>901</TD>
+      <TD>20 00 49.79</TD>
+      <TD>+35 37 09.3</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD> 6.958</TD>
+      <TD> 5.536</TD>
+      <TD> 4.856</TD>
+      <TD/>
+      <TD>L:</TD>
+      <TD/>
+      <TD>12.10</TD>
+      <TD>12.35</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

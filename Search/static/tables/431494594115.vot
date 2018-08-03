@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="III_25A_stars" name="III/25A/stars">
+   <DESCRIPTION>
+    Observed stars: Mg, Ca and Na photometric ratios (table1) and
+    derived abundances (table2); the star \object{HD 117976} was
+    removed
+   </DESCRIPTION>
+   <FIELD ID="HD" datatype="int" name="HD" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     HD identification of the star
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="f_HD" arraysize="1" datatype="char" name="f_HD" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [*?] indicates an error in the original table (see the
+     "\Acat{III/25A\#sRM88.1}{History}" section below)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="NaD" datatype="float" name="NaD" precision="3" ucd="SPECT_INDEX_MISC" width="6">
+    <DESCRIPTION>
+     [1.04/1.61]? Na(D) index (5890-5896{AA})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Mgb" datatype="float" name="Mgb" precision="3" ucd="SPECT_INDEX_MISC" width="6">
+    <DESCRIPTION>
+     [2.10/2.92]? Mg(b) index (5167-5184{AA})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="CaT" datatype="float" name="CaT" precision="3" ucd="SPECT_INDEX_MISC" width="6">
+    <DESCRIPTION>
+     [1.04/1.16]? Ca triplet index (8500-8662{AA})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="U-B" datatype="float" name="U-B" precision="2" ucd="PHOT_JHN_U-B" unit="mag" width="5">
+    <DESCRIPTION>
+     [0.19/1.96]? (U-B) Johnson index
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="B-V" datatype="float" name="B-V" precision="2" ucd="PHOT_JHN_B-V" unit="mag" width="5">
+    <DESCRIPTION>
+     [0.67/1.63]? (B-V) Johnson index
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="r-i" datatype="float" name="r-i" precision="3" ucd="PHOT_CI_R-I" unit="mag" width="6">
+    <DESCRIPTION>
+     [0.35/0.93]? (r-i) color index in Argue's photometric system
+     (1967MNRAS.135...23A, II/38))
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Seq" datatype="short" name="Seq" ucd="ID_NUMBER" width="3">
+    <DESCRIPTION>
+     [1/311] Sequential star number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="__Na_H_5" datatype="float" name="__Na_H_5" precision="2" ucd="PHYS_ABUND_MISC" unit="[Sun]" width="5">
+    <DESCRIPTION>
+     [-1.5/0.3]? Na abundance for g=5m/s^2^(logg=2.7)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="__Mg_H_5" datatype="float" name="__Mg_H_5" precision="2" ucd="PHYS_ABUND_MISC" unit="[Sun]" width="5">
+    <DESCRIPTION>
+     [-1.2/0.3]? Mg abundance for g=5m/s^2^(logg=2.7)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="__Ca_H_5" datatype="float" name="__Ca_H_5" precision="2" ucd="PHYS_ABUND_MISC" unit="[Sun]" width="5">
+    <DESCRIPTION>
+     [-1.2/0.1]? Ca abundance for g=5m/s^2^(logg=2.7)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="__Mg_Ca_5" datatype="float" name="__Mg_Ca_5" precision="2" ucd="PHYS_ABUND_MISC" unit="[Sun]" width="5">
+    <DESCRIPTION>
+     [-0.5/1.0]? log(Mg/Ca) abundance ratio for g=5m/s^2^ (logg=2.7)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="__Na_H_2" datatype="float" name="__Na_H_2" precision="2" ucd="PHYS_ABUND_MISC" unit="[Sun]" width="5">
+    <DESCRIPTION>
+     [-1.3/0.3]? Na abundance for g=2m/s^2^(logg=2.3)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="__Mg_H_2" datatype="float" name="__Mg_H_2" precision="2" ucd="PHYS_ABUND_MISC" unit="[Sun]" width="5">
+    <DESCRIPTION>
+     [-0.9/0.4]? Mg abundance for g=2m/s^2^(logg=2.3)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="__Ca_H_2" datatype="float" name="__Ca_H_2" precision="2" ucd="PHYS_ABUND_MISC" unit="[Sun]" width="5">
+    <DESCRIPTION>
+     [-1.0/0.3]? Ca abundance for g=2m/s^2^(logg=2.3)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="__Mg_Ca_2" datatype="float" name="__Mg_Ca_2" precision="2" ucd="PHYS_ABUND_MISC" unit="[Sun]" width="5">
+    <DESCRIPTION>
+     [-0.5/1.0]? log(Mg/Ca) abundance ratio for g=2m/s^2^(logg=2.3)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right Ascension (J2000) from SIMBAD (not part of the original
+     data)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (J2000) from SIMBAD (not part of the original data)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>188947</TD>
+      <TD/>
+      <TD> 1.172</TD>
+      <TD> 2.250</TD>
+      <TD/>
+      <TD/>
+      <TD> 1.04</TD>
+      <TD> 0.520</TD>
+      <TD>272</TD>
+      <TD>Simbad</TD>
+      <TD>-0.10</TD>
+      <TD>-0.38</TD>
+      <TD/>
+      <TD/>
+      <TD>-0.02</TD>
+      <TD>-0.12</TD>
+      <TD/>
+      <TD/>
+      <TD>299.07655</TD>
+      <TD> 35.08342</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

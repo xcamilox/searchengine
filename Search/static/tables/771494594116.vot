@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="V_130_gcs3" name="V/130/gcs3">
+   <DESCRIPTION>
+    Geneva-Copenhagen catalogue III {\em(includes uvby data from Olsen
+    1984A\&amp;AS...57..443O)}
+   </DESCRIPTION>
+   <FIELD ID="Name" arraysize="11" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Object name (HD, BD, CD or CP) (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="m_Name" arraysize="4" datatype="char" name="m_Name" ucd="CODE_MULT_INDEX">
+    <DESCRIPTION>
+     Components included in photometry (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="10" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (ICRF)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="9" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (ICRF)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="logTe" datatype="float" name="logTe" precision="3" ucd="PHYS_TEMP_EFFEC" unit="[K]" width="6">
+    <DESCRIPTION>
+     ? Effective temperature
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="__Fe_H_" datatype="float" name="__Fe_H_" precision="2" ucd="PHYS_ABUND_FE/H" unit="[Sun]" width="5">
+    <DESCRIPTION>
+     ? Metallicity
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Dist" datatype="short" name="Dist" ucd="POS_GAL_HC" unit="pc" width="4">
+    <DESCRIPTION>
+     ? Distance [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="VMag" datatype="float" name="VMag" precision="2" ucd="PHOT_ABS-MAG_BAND" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Absolute magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="age" datatype="float" name="age" precision="1" ucd="TIME_AGE" unit="Gyr" width="4">
+    <DESCRIPTION>
+     ? Age, in Gigayears
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="3" ucd="PHOT_JHN_V" unit="mag" width="6">
+    <DESCRIPTION>
+     Visual magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="b-y" datatype="float" name="b-y" precision="3" ucd="PHOT_STR_B-Y" unit="mag" width="6">
+    <DESCRIPTION>
+     Stroemgren (b-y) index
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="m1" datatype="float" name="m1" precision="3" ucd="PHOT_STR_M1" unit="mag" width="6">
+    <DESCRIPTION>
+     Stroemgren m_1_ index ((v-b) - (b-y))
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="c1" datatype="float" name="c1" precision="3" ucd="PHOT_STR_C1" unit="mag" width="6">
+    <DESCRIPTION>
+     Stroemgren c_1_ index ((u-v) - (v-b))
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>HD 189148</TD>
+      <TD/>
+      <TD>19 57 13.3</TD>
+      <TD>+35 01 53</TD>
+      <TD> 3.799</TD>
+      <TD>-0.21</TD>
+      <TD>103</TD>
+      <TD> 2.20</TD>
+      <TD> 1.9</TD>
+      <TD> 7.270</TD>
+      <TD> 0.312</TD>
+      <TD> 0.145</TD>
+      <TD> 0.483</TD>
+      <TD>Simbad</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

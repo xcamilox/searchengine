@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="IV_24_table8" name="IV/24/table8">
+   <DESCRIPTION>
+    List of Finding Charts
+   </DESCRIPTION>
+   <FIELD ID="PK" arraysize="9" datatype="char" name="PK" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Designation
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="f_PK" arraysize="1" datatype="char" name="f_PK" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [*] for Possible PN
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Name" arraysize="15" datatype="char" name="Name" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Name of the PN
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAB1950" arraysize="7" datatype="char" name="RAB1950" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension B1950
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEB1950" arraysize="6" datatype="char" name="DEB1950" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination B1950
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Disc" arraysize="5" datatype="char" name="Disc" ucd="CODE_MISC">
+    <DESCRIPTION>
+     Catalogue with discovery
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="FC" datatype="short" name="FC" ucd="ID_CHART" width="3">
+    <DESCRIPTION>
+     Number of Finding Chart
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Date" arraysize="10" datatype="char" name="Date" ucd="TIME_DATE" unit="&quot;Y:M:D&quot;">
+    <DESCRIPTION>
+     Date of observation
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="pLabel" arraysize="7" datatype="char" name="pLabel" ucd="ID_PLATE">
+    <DESCRIPTION>
+     VizieR added column, not part of original data
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Note" arraysize="1" datatype="char" name="Note" ucd="NOTE">
+    <DESCRIPTION>
+     [*] indicates a note
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA.icrs" arraysize="10" datatype="char" name="_RA.icrs" ucd="POS_EQ_RA_OTHER" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (ICRS) (computed by VizieR, not part of the
+     original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" arraysize="9" datatype="char" name="_DE.icrs" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (ICRS) (computed by VizieR, not part of the original
+     data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>070+03.1</TD>
+      <TD>*</TD>
+      <TD>TuWe 2-4</TD>
+      <TD>19 52.4</TD>
+      <TD>+34 59</TD>
+      <TD>S6</TD>
+      <TD>42</TD>
+      <TD>1991-08-05</TD>
+      <TD>SF04123</TD>
+      <TD/>
+      <TD>19 54 16.5</TD>
+      <TD>+35 06 56</TD>
+     </TR>
+     <TR>
+      <TD>070+02.1</TD>
+      <TD/>
+      <TD>KLW 6</TD>
+      <TD>19 58.0</TD>
+      <TD>+34 21</TD>
+      <TD>S6</TD>
+      <TD>42</TD>
+      <TD>1991-08-05</TD>
+      <TD>SF04123</TD>
+      <TD/>
+      <TD>19 59 54.0</TD>
+      <TD>+34 29 17</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE>
+   <FIELD ID="ra" datatype="double" name="ra"/>
+   <FIELD ID="dec" datatype="double" name="dec"/>
+   <FIELD ID="objid" datatype="long" name="objid"/>
+   <FIELD ID="run" datatype="long" name="run"/>
+   <FIELD ID="rerun" datatype="long" name="rerun"/>
+   <FIELD ID="camcol" datatype="long" name="camcol"/>
+   <FIELD ID="field" datatype="long" name="field"/>
+   <FIELD ID="z" datatype="double" name="z"/>
+   <FIELD ID="plate" datatype="long" name="plate"/>
+   <FIELD ID="mjd" datatype="long" name="mjd"/>
+   <FIELD ID="fiberID" datatype="long" name="fiberID"/>
+   <FIELD ID="specobjid" datatype="long" name="specobjid"/>
+   <FIELD ID="run2d" arraysize="6" datatype="char" name="run2d"/>
+   <FIELD ID="instrument" arraysize="4" datatype="char" name="instrument"/>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>217.44575620619599</TD>
+      <TD>32.710219483112297</TD>
+      <TD>1237664853108130223</TD>
+      <TD>4512</TD>
+      <TD>301</TD>
+      <TD>3</TD>
+      <TD>127</TD>
+      <TD>2.7882950000000002</TD>
+      <TD>3864</TD>
+      <TD>55649</TD>
+      <TD>184</TD>
+      <TD>4350527912349986816</TD>
+      <TD>v5_7_0</TD>
+      <TD>BOSS</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

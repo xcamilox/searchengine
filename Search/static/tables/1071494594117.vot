@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_A_A_281_161_radiostars" name="J/A+A/281/161/radiostars">
+   <DESCRIPTION>
+    Radio emission from stars at 250GHz {\em(tables 4, 5, 6, 7, 8, 10
+    of paper)}
+   </DESCRIPTION>
+   <FIELD ID="St" arraysize="3" datatype="char" name="St" ucd="CLASS_OBJECT">
+    <DESCRIPTION>
+     Type of star as {\bf OB} (table4), {\bf WR} (table5), {\bf sh}
+     for early-type stars with shells (table6), {\bf pMS} for pre-
+     main-sequence stars (table7), {\bf dsk} for stellar disks
+     (table8), {\bf var} for variable stars (table10).
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Name" arraysize="15" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Star name
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="11" datatype="char" name="SpType" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     MK spectral type (table8 only)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="l_S_250_" arraysize="1" datatype="char" name="l_S_250_" ucd="CODE_LIMIT">
+    <DESCRIPTION>
+     Limit flag on S(250)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="S_250_" datatype="float" name="S_250_" precision="1" ucd="PHOT_FLUX_RADIO_250G" unit="mJy" width="6">
+    <DESCRIPTION>
+     ? Flux in continuum at 250GHz
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_S_250_" datatype="float" name="e_S_250_" precision="1" ucd="ERROR" unit="mJy" width="5">
+    <DESCRIPTION>
+     ? rms uncertainty on S(250)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="l_alf" arraysize="1" datatype="char" name="l_alf" ucd="CODE_LIMIT">
+    <DESCRIPTION>
+     [&gt;&lt;~] Limit flag on spectral index
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="alf" datatype="float" name="alf" precision="2" ucd="SPECT_SP-INDEX" width="5">
+    <DESCRIPTION>
+     ? Spectral index (S({nu}){prop.to}{nu}^-{alf}^)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_alf" datatype="float" name="e_alf" precision="2" ucd="ERROR" width="5">
+    <DESCRIPTION>
+     ? rms uncertainty on spectral index
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="u_alf" arraysize="1" datatype="char" name="u_alf" ucd="CODE_ERROR">
+    <DESCRIPTION>
+     [?] Uncertainty flag on alf
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Rem" arraysize="33" datatype="char" name="Rem" ucd="REMARKS">
+    <DESCRIPTION>
+     Remarks
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SimbadName" arraysize="20" datatype="char" name="SimbadName" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Designation understandable by the {\bf\fg{FireBrick}Simbad} data-
+     base
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Computed Right Ascension for Equinox: J2000
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Computed Declination for Equinox: J2000
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>var</TD>
+      <TD>Cyg X-1</TD>
+      <TD/>
+      <TD/>
+      <TD>  10.0</TD>
+      <TD>  3.0</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Cyg X-1</TD>
+      <TD>299.59031</TD>
+      <TD> 35.20160</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

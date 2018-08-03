@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_AJ_151_59_table1" name="J/AJ/151/59/table1">
+   <DESCRIPTION>
+    The stellar parameter catalog
+   </DESCRIPTION>
+   <FIELD ID="C" arraysize="1" datatype="char" name="C" ucd="DATA_LINK">
+    <DESCRIPTION>
+     indicates a star in CELESTA (table 2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     [1/113542] Hipparcos number (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Teff" datatype="int" name="Teff" ucd="PHYS_TEMP_EFFEC" unit="K" width="5">
+    <DESCRIPTION>
+     [1995/70127] Stellar effective temperature (T_eff_) (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Lum" datatype="double" name="Lum" precision="E5" ucd="PHYS_LUMINOSITY_GENERAL" unit="Lsun" width="12">
+    <DESCRIPTION>
+     [0.001/8.54e+09] Stellar luminosity (L_*_)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="lamB" datatype="short" name="lamB" ucd="SPECT_WAVELENGTH_MISC" unit="nm" width="3">
+    <DESCRIPTION>
+     [354/527] The bluest wavelength (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="lamR" datatype="short" name="lamR" ucd="SPECT_WAVELENGTH_MISC" unit="nm" width="5">
+    <DESCRIPTION>
+     [532/25000]? The reddest wavelength (3) [NULL integer written as
+     an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="8" ucd="POS_EQ_RA_MAIN" unit="deg" width="12">
+    <DESCRIPTION>
+     Right Ascension in decimal degrees (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="8" ucd="POS_EQ_DEC_MAIN" unit="deg" width="12">
+    <DESCRIPTION>
+     Declination in decimal degrees (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dist" datatype="double" name="Dist" precision="5" ucd="POS_GAL_HC" unit="pc" width="12">
+    <DESCRIPTION>
+     [6.7/100000]? Distance (d)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_Dist" datatype="double" name="e_Dist" precision="8" ucd="ERROR" width="12">
+    <DESCRIPTION>
+     [0.001/344]? Fractional error in Dist ({delta}d/d)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>C</TD>
+      <TD>69785</TD>
+      <TD>6083</TD>
+      <TD>        1.68</TD>
+      <TD>354</TD>
+      <TD>22088</TD>
+      <TD>214.25620750</TD>
+      <TD> -0.07898169</TD>
+      <TD>    90.66180</TD>
+      <TD>  0.10788800</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>C</TD>
+      <TD>69866</TD>
+      <TD>6072</TD>
+      <TD>      1.1666</TD>
+      <TD>420</TD>
+      <TD>22088</TD>
+      <TD>214.45957850</TD>
+      <TD> -1.07905907</TD>
+      <TD>   151.74500</TD>
+      <TD>  0.32170000</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>C</TD>
+      <TD>69911</TD>
+      <TD>5265</TD>
+      <TD>      1.7802</TD>
+      <TD>354</TD>
+      <TD>2200</TD>
+      <TD>214.61236250</TD>
+      <TD> -0.11505625</TD>
+      <TD>   180.18000</TD>
+      <TD>  0.37837800</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD/>
+      <TD>70002</TD>
+      <TD>4254</TD>
+      <TD>      429.12</TD>
+      <TD>354</TD>
+      <TD>22088</TD>
+      <TD>214.86232180</TD>
+      <TD> -0.01334256</TD>
+      <TD>   564.97200</TD>
+      <TD>  0.46327700</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD/>
+      <TD>70022</TD>
+      <TD>7526</TD>
+      <TD>      9.8751</TD>
+      <TD>354</TD>
+      <TD>22088</TD>
+      <TD>214.92071960</TD>
+      <TD>  0.38436358</TD>
+      <TD>    63.25110</TD>
+      <TD>  0.02530040</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD/>
+      <TD>70081</TD>
+      <TD>4500</TD>
+      <TD>      109.08</TD>
+      <TD>420</TD>
+      <TD>22088</TD>
+      <TD>215.12059180</TD>
+      <TD>  0.18204239</TD>
+      <TD>   220.75100</TD>
+      <TD>  0.13686500</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>C</TD>
+      <TD>70136</TD>
+      <TD>4844</TD>
+      <TD>     0.22836</TD>
+      <TD>420</TD>
+      <TD>22088</TD>
+      <TD>215.27056670</TD>
+      <TD>  0.51862716</TD>
+      <TD>    55.99100</TD>
+      <TD>  0.15229600</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD/>
+      <TD>70282</TD>
+      <TD>8556</TD>
+      <TD>      24.375</TD>
+      <TD>354</TD>
+      <TD>22088</TD>
+      <TD>215.69343430</TD>
+      <TD> -0.63709955</TD>
+      <TD>   123.00100</TD>
+      <TD>  0.06888070</TD>
+      <TD>Simbad</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

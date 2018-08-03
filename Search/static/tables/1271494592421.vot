@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_MNRAS_427_343_table2" name="J/MNRAS/427/343/table2">
+   <DESCRIPTION>
+    Fundamental parameters and IR excess for Hipparcos stars
+   </DESCRIPTION>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     Hipparcos identifier for the object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAdeg" datatype="double" name="RAdeg" precision="8" ucd="POS_EQ_RA_OTHER" unit="deg" width="12">
+    <DESCRIPTION>
+     Right ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEdeg" datatype="double" name="DEdeg" precision="8" ucd="POS_EQ_DEC_OTHER" unit="deg" width="12">
+    <DESCRIPTION>
+     Declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dist" datatype="double" name="Dist" precision="3" ucd="PHYS_DISTANCE_TRUE" unit="pc" width="11">
+    <DESCRIPTION>
+     ? Parallax distance to the object
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Teff" datatype="int" name="Teff" ucd="PHYS_TEMP_EFFEC" unit="K" width="5">
+    <DESCRIPTION>
+     Modelled effective temperature of the object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Lum" datatype="double" name="Lum" precision="2" ucd="PHYS_LUMINOSITY_GENERAL" unit="Lsun" width="15">
+    <DESCRIPTION>
+     Modelled luminosity of the object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="lambdaS" datatype="float" name="lambdaS" precision="2" ucd="SPECT_WAVELENGTH_MISC" unit="nm" width="6">
+    <DESCRIPTION>
+     Shortest wavelength for which we have data
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="lambdaL" datatype="int" name="lambdaL" ucd="SPECT_WAVELENGTH_MISC" unit="nm" width="5">
+    <DESCRIPTION>
+     ? Longest wavelength for which we have data [NULL integer written
+     as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="EIR" datatype="float" name="EIR" precision="3" ucd="PHOT_FLUX_EXCESS" width="7">
+    <DESCRIPTION>
+     Average excess at those wavelengths
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="LIR" datatype="float" name="LIR" precision="E3" ucd="PHYS_LUMINOSITY_IR_MISC" unit="Lsun" width="10">
+    <DESCRIPTION>
+     Fraction of the object's luminosity reprocessed into the IR
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="lambdaP" datatype="float" name="lambdaP" precision="1" ucd="SPECT_WAVELENGTH_MISC" unit="nm" width="4">
+    <DESCRIPTION>
+     ? Wavelength at which the IR excess reaches a peak
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right Ascension (J2000) from SIMBAD (not part of the original
+     data)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (J2000) from SIMBAD (not part of the original data)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>69785</TD>
+      <TD>214.25620752</TD>
+      <TD> -0.07898169</TD>
+      <TD>     90.660</TD>
+      <TD>6083</TD>
+      <TD>           1.68</TD>
+      <TD>354.00</TD>
+      <TD>22088</TD>
+      <TD>  1.023</TD>
+      <TD>  0.000137</TD>
+      <TD> 4.6</TD>
+      <TD>214.25633</TD>
+      <TD> -0.07931</TD>
+     </TR>
+     <TR>
+      <TD>69866</TD>
+      <TD>214.45957854</TD>
+      <TD> -1.07905907</TD>
+      <TD>    151.750</TD>
+      <TD>6072</TD>
+      <TD>           1.17</TD>
+      <TD>420.00</TD>
+      <TD>22088</TD>
+      <TD>  1.261</TD>
+      <TD>  0.000606</TD>
+      <TD> 4.6</TD>
+      <TD>214.45952</TD>
+      <TD> -1.07913</TD>
+     </TR>
+     <TR>
+      <TD>69911</TD>
+      <TD>214.61236247</TD>
+      <TD> -0.11505625</TD>
+      <TD>    180.180</TD>
+      <TD>5300</TD>
+      <TD>           1.78</TD>
+      <TD>354.00</TD>
+      <TD>2200</TD>
+      <TD>  0.000</TD>
+      <TD>  3.88e-14</TD>
+      <TD> 2.1</TD>
+      <TD>214.61210</TD>
+      <TD> -0.11545</TD>
+     </TR>
+     <TR>
+      <TD>70002</TD>
+      <TD>214.86232183</TD>
+      <TD> -0.01334256</TD>
+      <TD>    564.970</TD>
+      <TD>4254</TD>
+      <TD>         429.12</TD>
+      <TD>354.00</TD>
+      <TD>22088</TD>
+      <TD>  1.083</TD>
+      <TD>    0.0169</TD>
+      <TD> 4.6</TD>
+      <TD>214.86226</TD>
+      <TD> -0.01335</TD>
+     </TR>
+     <TR>
+      <TD>70022</TD>
+      <TD>214.92071963</TD>
+      <TD>  0.38436358</TD>
+      <TD>     63.250</TD>
+      <TD>7400</TD>
+      <TD>           9.75</TD>
+      <TD>354.00</TD>
+      <TD>22088</TD>
+      <TD>  0.988</TD>
+      <TD>  0.000222</TD>
+      <TD> 4.6</TD>
+      <TD>214.92063</TD>
+      <TD>  0.38433</TD>
+     </TR>
+     <TR>
+      <TD>70081</TD>
+      <TD>215.12059176</TD>
+      <TD>  0.18204239</TD>
+      <TD>    220.750</TD>
+      <TD>4501</TD>
+      <TD>         109.07</TD>
+      <TD>420.00</TD>
+      <TD>22088</TD>
+      <TD>  1.260</TD>
+      <TD>    0.0215</TD>
+      <TD> 4.6</TD>
+      <TD>215.12034</TD>
+      <TD>  0.18185</TD>
+     </TR>
+     <TR>
+      <TD>70136</TD>
+      <TD>215.27056674</TD>
+      <TD>  0.51862716</TD>
+      <TD>     55.990</TD>
+      <TD>4800</TD>
+      <TD>           0.23</TD>
+      <TD>420.00</TD>
+      <TD>22088</TD>
+      <TD>  1.183</TD>
+      <TD>   0.00213</TD>
+      <TD> 4.6</TD>
+      <TD>215.27036</TD>
+      <TD>  0.51862</TD>
+     </TR>
+     <TR>
+      <TD>70282</TD>
+      <TD>215.69343431</TD>
+      <TD> -0.63709955</TD>
+      <TD>    123.000</TD>
+      <TD>8555</TD>
+      <TD>          24.37</TD>
+      <TD>354.00</TD>
+      <TD>22088</TD>
+      <TD>  0.979</TD>
+      <TD>  6.46e-06</TD>
+      <TD>22.0</TD>
+      <TD>215.69329</TD>
+      <TD> -0.63713</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

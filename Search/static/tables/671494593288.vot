@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJ_805_189_table2" name="J/ApJ/805/189/table2">
+   <DESCRIPTION>
+    The selected 106 likely Sagittarius Stream members with modified
+    RAVE pipeline metallicity, surface gravity, and effective
+    temperature values
+   </DESCRIPTION>
+   <FIELD ID="Seq" datatype="short" name="Seq" ucd="ID_NUMBER" width="3">
+    <DESCRIPTION>
+     [1/106] Running sequence number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="m" datatype="short" name="m" ucd="CODE_MULT_INDEX" width="3">
+    <DESCRIPTION>
+     {\bf 2}: sources with same coordinates [NULL integer written as
+     an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="11" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Hour of right ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="11" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Degree of declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="lambda" datatype="float" name="lambda" precision="2" ucd="MODEL_RESULT" unit="deg" width="6">
+    <DESCRIPTION>
+     [13.5/332.4] Sgr coordinate system {Lambda} (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="B" datatype="float" name="B" precision="2" ucd="MODEL_RESULT" unit="deg" width="5">
+    <DESCRIPTION>
+     [-8.5/28] Sgr coordinate system B (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="logg" datatype="float" name="logg" precision="2" ucd="PHYS_GRAVITY_SURFACE" unit="[cm/s2]" width="5">
+    <DESCRIPTION>
+     [0.2/2.3] Log gravity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Teff" datatype="float" name="Teff" precision="1" ucd="PHYS_TEMP_EFFEC" unit="K" width="6">
+    <DESCRIPTION>
+     [3509/4891] Effective temperature
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="__M_H_" datatype="float" name="__M_H_" precision="2" ucd="PHYS_ABUND_Z" unit="[Sun]" width="5">
+    <DESCRIPTION>
+     [-1.8/0.5] Metallicity [m/H]
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Rcoef" datatype="float" name="Rcoef" precision="2" ucd="FIT_GOODNESS" width="5">
+    <DESCRIPTION>
+     [15.3/52.7] RAVE correlation coefficient (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="PPMXL" datatype="short" name="PPMXL" ucd="DATA_LINK" width="3">
+    <DESCRIPTION>
+     Sources within 0.5" from the PPMXL catalog (I/317) [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="_2M" datatype="short" name="_2M" ucd="DATA_LINK" width="3">
+    <DESCRIPTION>
+     Sources within 0.5" from the 2MASS catalog (II/246) [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>76</TD>
+      <TD>1</TD>
+      <TD>14 16 34.99</TD>
+      <TD>-00 21 00.4</TD>
+      <TD>287.68</TD>
+      <TD> 0.05</TD>
+      <TD> 1.98</TD>
+      <TD>3640.0</TD>
+      <TD> 0.43</TD>
+      <TD>24.90</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>77</TD>
+      <TD>1</TD>
+      <TD>14 16 36.60</TD>
+      <TD>-00 10 30.4</TD>
+      <TD>287.59</TD>
+      <TD>-0.11</TD>
+      <TD> 2.03</TD>
+      <TD>4592.0</TD>
+      <TD>-0.01</TD>
+      <TD>20.38</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

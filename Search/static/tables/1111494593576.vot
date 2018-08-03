@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_AJ_149_171_table4" name="J/AJ/149/171/table4">
+   <DESCRIPTION>
+    Nest members
+   </DESCRIPTION>
+   <FIELD ID="f_Nest" datatype="short" name="f_Nest" ucd="CODE_MISC" width="2">
+    <DESCRIPTION>
+     Hemisphere (1=in north galactic hemisphere, 2=in south, 12 or 22
+     if the group is a split from an adjacent larger group)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Nest" datatype="int" name="Nest" ucd="ID_GROUP" width="6">
+    <DESCRIPTION>
+     [100001/220041] Group (nest) identification number (G1)
+     \linkRole{properties for all members of this group (tables 3--5)}
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="PGC" datatype="int" name="PGC" ucd="ID_NUMBER" width="7">
+    <DESCRIPTION>
+     [2/5061296] Number in Principal Galaxies Catalog for group member
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="LEDA" arraysize="4" datatype="char" name="LEDA" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}LEDA} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SGLON" datatype="double" name="SGLON" precision="4" ucd="POS_SG_LON" unit="deg" width="8">
+    <DESCRIPTION>
+     Supergalactic longitude of galaxy
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SGLAT" datatype="double" name="SGLAT" precision="4" ucd="POS_SG_LAT" unit="deg" width="8">
+    <DESCRIPTION>
+     Supergalactic latitude of galaxy
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Mt" datatype="float" name="Mt" precision="1" ucd="MORPH_CODE" width="4">
+    <DESCRIPTION>
+     [-5/10]? Morphological type in the numeric code of de Vaucouleurs
+     et al. 1991 (cat. VII/155)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Kmag" datatype="float" name="Kmag" precision="2" ucd="PHOT_JHN_K" unit="mag" width="5">
+    <DESCRIPTION>
+     [3.8/11.8] 2MASS Ks-band total magnitude, extinction corrected
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="J-H" datatype="float" name="J-H" precision="2" ucd="PHOT_JHN_J-H" unit="mag" width="5">
+    <DESCRIPTION>
+     2MASS (J-H) total extinction corrected color index
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="J-K" datatype="float" name="J-K" precision="2" ucd="PHOT_JHN_J-K" unit="mag" width="5">
+    <DESCRIPTION>
+     2MASS (J-K) total extinction corrected color index
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="logLKi" datatype="float" name="logLKi" precision="2" ucd="PHYS_LUMINOSITY_IR_K" unit="[Lsun]" width="5">
+    <DESCRIPTION>
+     [4.48/12.03] Log intrinsic Ks-band luminosity (G8)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vcmba" datatype="short" name="Vcmba" ucd="VELOC_CMB" unit="km.s-1" width="5">
+    <DESCRIPTION>
+     [7/23996] Adjusted CMB reference frame velocity of galaxy (G3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA.icrs" datatype="double" name="_RA.icrs" precision="4" ucd="POS_EQ_RA_OTHER" unit="deg" width="8">
+    <DESCRIPTION>
+     Right ascension (ICRS) (computed by VizieR, not part of the
+     original data)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" datatype="double" name="_DE.icrs" precision="4" ucd="POS_EQ_DEC_OTHER" unit="deg" width="8">
+    <DESCRIPTION>
+     Declination (ICRS) (computed by VizieR, not part of the original
+     data)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>1</TD>
+      <TD>104078</TD>
+      <TD>51280</TD>
+      <TD>LEDA</TD>
+      <TD>122.9344</TD>
+      <TD> 20.5805</TD>
+      <TD>-2.0</TD>
+      <TD>11.33</TD>
+      <TD> 0.58</TD>
+      <TD> 1.08</TD>
+      <TD>11.23</TD>
+      <TD>16858</TD>
+      <TD>Simbad</TD>
+      <TD>215.2864</TD>
+      <TD> -0.3779</TD>
+     </TR>
+     <TR>
+      <TD>1</TD>
+      <TD>104387</TD>
+      <TD>51063</TD>
+      <TD>LEDA</TD>
+      <TD>121.7722</TD>
+      <TD> 20.0432</TD>
+      <TD>-5.0</TD>
+      <TD>11.63</TD>
+      <TD> 0.72</TD>
+      <TD> 0.82</TD>
+      <TD>11.10</TD>
+      <TD>16528</TD>
+      <TD>Simbad</TD>
+      <TD>214.4576</TD>
+      <TD>  0.5108</TD>
+     </TR>
+     <TR>
+      <TD>1</TD>
+      <TD>112716</TD>
+      <TD>51344</TD>
+      <TD>LEDA</TD>
+      <TD>123.0419</TD>
+      <TD> 20.8768</TD>
+      <TD> 6.0</TD>
+      <TD> 9.94</TD>
+      <TD> 0.78</TD>
+      <TD> 0.87</TD>
+      <TD> 9.90</TD>
+      <TD>1913</TD>
+      <TD>Simbad</TD>
+      <TD>215.5991</TD>
+      <TD> -0.3876</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

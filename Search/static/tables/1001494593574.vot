@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_AJ_135_785_stars" name="J/AJ/135/785/stars">
+   <DESCRIPTION>
+    Spectroscopic and Photometric parameters for 44084 M and L dwarfs
+    in SDSS DR5
+   </DESCRIPTION>
+   <FIELD ID="SpT" datatype="short" name="SpT" ucd="SPECT_TYPE_GENERAL" width="2">
+    <DESCRIPTION>
+     [0/10] Spectral M-type code (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="float" name="pmRA" ucd="POS_EQ_PMRA" unit="mas.yr-1" width="6">
+    <DESCRIPTION>
+     ? Proper motion along right ascension (2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="float" name="pmDE" ucd="POS_EQ_PMDEC" unit="mas.yr-1" width="6">
+    <DESCRIPTION>
+     ? Proper motion along declination (2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="RV" datatype="double" name="RV" precision="1" ucd="VELOC_HC" unit="km.s-1" width="8">
+    <DESCRIPTION>
+     Radial velocity (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dist" datatype="float" name="Dist" ucd="POS_GAL_HC" unit="pc" width="6">
+    <DESCRIPTION>
+     Photometric distance (4)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="umag" datatype="float" name="umag" precision="2" ucd="PHOT_SDSS_U" unit="mag" width="5">
+    <DESCRIPTION>
+     SDSS u-band psf magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="gmag" datatype="float" name="gmag" precision="2" ucd="PHOT_SDSS_G" unit="mag" width="5">
+    <DESCRIPTION>
+     SDSS g-band psf magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="rmag" datatype="float" name="rmag" precision="2" ucd="PHOT_SDSS_R" unit="mag" width="5">
+    <DESCRIPTION>
+     SDSS r-band psf magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="imag" datatype="float" name="imag" precision="2" ucd="PHOT_SDSS_I" unit="mag" width="5">
+    <DESCRIPTION>
+     SDSS i-band psf magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="zmag" datatype="float" name="zmag" precision="2" ucd="PHOT_SDSS_Z" unit="mag" width="5">
+    <DESCRIPTION>
+     SDSS z-band psf magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="2" ucd="PHOT_JHN_J" unit="mag" width="5">
+    <DESCRIPTION>
+     ? 2MASS J-band psf magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Hmag" datatype="float" name="Hmag" precision="2" ucd="PHOT_JHN_H" unit="mag" width="5">
+    <DESCRIPTION>
+     ? 2MASS H-band psf magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Kmag" datatype="float" name="Kmag" precision="2" ucd="PHOT_JHN_K" unit="mag" width="5">
+    <DESCRIPTION>
+     ? 2MASS K-band psf magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Ac" arraysize="1" datatype="char" name="Ac" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [mnwy] Activity indicator (y=active, n=no, m=marginally,
+     w=weakly)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SDSS" arraysize="4" datatype="char" name="SDSS" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the SDSS data for this star
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>3</TD>
+      <TD>  22</TD>
+      <TD>  -1</TD>
+      <TD>     6.4</TD>
+      <TD> 634</TD>
+      <TD>23.58</TD>
+      <TD>20.80</TD>
+      <TD>19.10</TD>
+      <TD>18.02</TD>
+      <TD>17.44</TD>
+      <TD>16.18</TD>
+      <TD>15.56</TD>
+      <TD>14.90</TD>
+      <TD>n</TD>
+      <TD>SDSS</TD>
+      <TD>214.44123</TD>
+      <TD>  0.44544</TD>
+     </TR>
+     <TR>
+      <TD>5</TD>
+      <TD>   0</TD>
+      <TD>   0</TD>
+      <TD>     4.5</TD>
+      <TD> 134</TD>
+      <TD>24.34</TD>
+      <TD>21.40</TD>
+      <TD>19.88</TD>
+      <TD>17.94</TD>
+      <TD>16.86</TD>
+      <TD>15.12</TD>
+      <TD>14.48</TD>
+      <TD>14.10</TD>
+      <TD>n</TD>
+      <TD>SDSS</TD>
+      <TD>214.62680</TD>
+      <TD> -1.20147</TD>
+     </TR>
+     <TR>
+      <TD>1</TD>
+      <TD> -15</TD>
+      <TD>-105</TD>
+      <TD>   -77.5</TD>
+      <TD>2475</TD>
+      <TD>24.06</TD>
+      <TD>21.69</TD>
+      <TD>20.42</TD>
+      <TD>19.63</TD>
+      <TD>19.28</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>n</TD>
+      <TD>SDSS</TD>
+      <TD>214.94507</TD>
+      <TD>  0.54535</TD>
+     </TR>
+     <TR>
+      <TD>5</TD>
+      <TD>   0</TD>
+      <TD>   0</TD>
+      <TD>   -13.1</TD>
+      <TD> 253</TD>
+      <TD>23.40</TD>
+      <TD>22.27</TD>
+      <TD>20.79</TD>
+      <TD>18.93</TD>
+      <TD>17.94</TD>
+      <TD>16.22</TD>
+      <TD>15.64</TD>
+      <TD>15.40</TD>
+      <TD>y</TD>
+      <TD>SDSS</TD>
+      <TD>215.08325</TD>
+      <TD> -1.18725</TD>
+     </TR>
+     <TR>
+      <TD>3</TD>
+      <TD>   0</TD>
+      <TD>   0</TD>
+      <TD>    -2.9</TD>
+      <TD>1165</TD>
+      <TD>24.61</TD>
+      <TD>21.92</TD>
+      <TD>20.77</TD>
+      <TD>19.67</TD>
+      <TD>19.00</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>n</TD>
+      <TD>SDSS</TD>
+      <TD>215.13879</TD>
+      <TD> -0.90283</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>  12</TD>
+      <TD>  -7</TD>
+      <TD>     8.0</TD>
+      <TD> 383</TD>
+      <TD>21.32</TD>
+      <TD>18.91</TD>
+      <TD>17.48</TD>
+      <TD>16.51</TD>
+      <TD>15.99</TD>
+      <TD>14.66</TD>
+      <TD>14.08</TD>
+      <TD>13.82</TD>
+      <TD>n</TD>
+      <TD>SDSS</TD>
+      <TD>215.59833</TD>
+      <TD> -1.07746</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>   7</TD>
+      <TD>   4</TD>
+      <TD>    32.9</TD>
+      <TD> 309</TD>
+      <TD>21.44</TD>
+      <TD>19.01</TD>
+      <TD>17.65</TD>
+      <TD>16.49</TD>
+      <TD>15.95</TD>
+      <TD>14.65</TD>
+      <TD>14.08</TD>
+      <TD>13.85</TD>
+      <TD>n</TD>
+      <TD>SDSS</TD>
+      <TD>215.61271</TD>
+      <TD>  0.45634</TD>
+     </TR>
+     <TR>
+      <TD>0</TD>
+      <TD>  -3</TD>
+      <TD>   2</TD>
+      <TD>     1.3</TD>
+      <TD> 778</TD>
+      <TD>21.81</TD>
+      <TD>19.00</TD>
+      <TD>17.70</TD>
+      <TD>16.98</TD>
+      <TD>16.62</TD>
+      <TD>15.39</TD>
+      <TD>14.80</TD>
+      <TD>14.59</TD>
+      <TD>n</TD>
+      <TD>SDSS</TD>
+      <TD>215.68945</TD>
+      <TD> -0.36599</TD>
+     </TR>
+     <TR>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD>   -10.5</TD>
+      <TD> 377</TD>
+      <TD>21.84</TD>
+      <TD>19.28</TD>
+      <TD>18.17</TD>
+      <TD>16.87</TD>
+      <TD>16.45</TD>
+      <TD>15.25</TD>
+      <TD>14.57</TD>
+      <TD>14.31</TD>
+      <TD>n</TD>
+      <TD>SDSS</TD>
+      <TD>215.73224</TD>
+      <TD>  0.08827</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

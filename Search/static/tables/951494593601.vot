@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_AJ_127_899_table3" name="J/AJ/127/899/table3">
+   <DESCRIPTION>
+    List of 1170 BHB Stars Selected from SDSS
+   </DESCRIPTION>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right ascension in decimal degrees (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination in decimal degrees (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="umag" datatype="float" name="umag" precision="2" ucd="PHOT_SDSS_U" unit="mag" width="5">
+    <DESCRIPTION>
+     Uncorrected SDSS u-band magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="gmag" datatype="float" name="gmag" precision="2" ucd="PHOT_SDSS_G" unit="mag" width="5">
+    <DESCRIPTION>
+     Uncorrected SDSS g-band magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="rmag" datatype="float" name="rmag" precision="2" ucd="PHOT_SDSS_R" unit="mag" width="5">
+    <DESCRIPTION>
+     Uncorrected SDSS r-band magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="imag" datatype="float" name="imag" precision="2" ucd="PHOT_SDSS_I" unit="mag" width="5">
+    <DESCRIPTION>
+     Uncorrected SDSS i-band magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="zmag" datatype="float" name="zmag" precision="2" ucd="PHOT_SDSS_Z" unit="mag" width="5">
+    <DESCRIPTION>
+     Uncorrected SDSS z-band magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="z" datatype="double" name="z" precision="7" ucd="REDSHIFT_HC" width="10">
+    <DESCRIPTION>
+     Heliocentric redshift
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vgal" datatype="float" name="Vgal" precision="2" ucd="VELOC_GC" unit="km.s-1" width="7">
+    <DESCRIPTION>
+     Galactocentric velocity (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dist" datatype="float" name="Dist" precision="2" ucd="POS_GAL_HC" unit="kpc" width="6">
+    <DESCRIPTION>
+     Distance (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SDSS" arraysize="4" datatype="char" name="SDSS" ucd="DATA_LINK">
+    <DESCRIPTION>
+     original SDSS data
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>214.34950</TD>
+      <TD> -0.37243</TD>
+      <TD>17.88</TD>
+      <TD>16.82</TD>
+      <TD>17.07</TD>
+      <TD>17.21</TD>
+      <TD>17.32</TD>
+      <TD>-0.0000295</TD>
+      <TD> -34.07</TD>
+      <TD> 15.64</TD>
+      <TD>SDSS</TD>
+     </TR>
+     <TR>
+      <TD>215.36346</TD>
+      <TD> -1.10659</TD>
+      <TD>21.29</TD>
+      <TD>20.05</TD>
+      <TD>20.24</TD>
+      <TD>20.44</TD>
+      <TD>20.62</TD>
+      <TD> 0.0001553</TD>
+      <TD>  21.90</TD>
+      <TD> 72.84</TD>
+      <TD>SDSS</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJ_743_138_table5" name="J/ApJ/743/138/table5">
+   <DESCRIPTION>
+    Atmospheric parameters of DA white dwarfs from McCook &amp; Sion
+    (1999ApJS..121....1M, Cat. III/235)
+   </DESCRIPTION>
+   <FIELD ID="WD" arraysize="10" datatype="char" name="WD" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Coordinate based identifier (HHMM+DDM.N)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="OName" arraysize="15" datatype="char" name="OName" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Other name
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpT" arraysize="6" datatype="char" name="SpT" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     Spectral type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Teff" datatype="int" name="Teff" ucd="PHYS_TEMP_EFFEC" unit="K" width="6">
+    <DESCRIPTION>
+     Effective temperature
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_Teff" datatype="short" name="e_Teff" ucd="ERROR" unit="K" width="4">
+    <DESCRIPTION>
+     Uncertainty in Teff
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="logg" datatype="float" name="logg" precision="2" ucd="PHYS_GRAVITY_SURFACE" unit="[cm/s2]" width="5">
+    <DESCRIPTION>
+     Log of the surface gravity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_logg" datatype="float" name="e_logg" precision="2" ucd="ERROR" unit="[cm/s2]" width="5">
+    <DESCRIPTION>
+     Uncertainty in logg
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Mass" datatype="float" name="Mass" precision="2" ucd="PHYS_MASS_MISC" unit="Msun" width="5">
+    <DESCRIPTION>
+     Mass of the white dwarf
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_Mass" datatype="float" name="e_Mass" precision="2" ucd="ERROR" unit="Msun" width="5">
+    <DESCRIPTION>
+     Uncertainty in Mass
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="VMag" datatype="float" name="VMag" precision="2" ucd="PHOT_ABS-MAG_BAND" unit="mag" width="5">
+    <DESCRIPTION>
+     Absolute V band magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dist" datatype="short" name="Dist" ucd="POS_GAL_HC" unit="pc" width="4">
+    <DESCRIPTION>
+     Distance
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Notes" arraysize="3" datatype="char" name="Notes" ucd="NOTE">
+    <DESCRIPTION>
+     Notes (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SimbadName" arraysize="15" datatype="char" name="SimbadName" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Designation understandable by the {\bf\fg{FireBrick}Simbad} data-
+     base
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="4" ucd="POS_EQ_RA_MAIN" unit="deg" width="8">
+    <DESCRIPTION>
+     Positions from SIMBAD database {\em(some positions can be
+     inaccurate)} (right ascension part)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="4" ucd="POS_EQ_DEC_MAIN" unit="deg" width="8">
+    <DESCRIPTION>
+     Positions from SIMBAD database {\em(some positions can be
+     inaccurate)} (declination part)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>1418-005</TD>
+      <TD>PG 1418-005</TD>
+      <TD>DA3.4</TD>
+      <TD>14980</TD>
+      <TD>301</TD>
+      <TD> 7.95</TD>
+      <TD> 0.06</TD>
+      <TD> 0.58</TD>
+      <TD> 0.03</TD>
+      <TD>11.21</TD>
+      <TD>113</TD>
+      <TD>1</TD>
+      <TD>WD 1418-005</TD>
+      <TD>215.3800</TD>
+      <TD> -0.7397</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

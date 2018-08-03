@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_MNRAS_413_1581_table4" name="J/MNRAS/413/1581/table4">
+   <DESCRIPTION>
+    Catalogue of candidate subdwarfs and white dwarfs from 2MASS,
+    Tycho-2, XPM and UCAC3
+   </DESCRIPTION>
+   <FIELD ID="_2MASS" arraysize="16" datatype="char" name="_2MASS" ucd="ID_MAIN">
+    <DESCRIPTION>
+     2MASS IAU2000 designation (HHMMSSss+DDMMSSs)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Cl" datatype="unsignedByte" name="Cl" ucd="CLASS_CODE" width="1">
+    <DESCRIPTION>
+     [1/3] Stellar class among WD, ESD, USD (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="KsMAG" datatype="float" name="KsMAG" precision="2" ucd="PHOT_ABS-MAG_BAND" unit="mag" width="5">
+    <DESCRIPTION>
+     Obtained absolute Ks magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmGlon" datatype="float" name="pmGlon" precision="1" ucd="POS_PM_NON-EQ" unit="mas.yr-1" width="7">
+    <DESCRIPTION>
+     Proper motion along galactic longitude (includes the cos(b)
+     factor)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmGlat" datatype="float" name="pmGlat" precision="1" ucd="POS_PM_NON-EQ" unit="mas.yr-1" width="7">
+    <DESCRIPTION>
+     Proper motion along galactic latitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="2" ucd="PHOT_JHN_J" unit="mag" width="5">
+    <DESCRIPTION>
+     2MASS J magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Ksmag" datatype="float" name="Ksmag" precision="2" ucd="PHOT_JHN_K" unit="mag" width="5">
+    <DESCRIPTION>
+     2MASS Ks magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="R3mag" datatype="float" name="R3mag" precision="2" ucd="PHOT_PHG_R" unit="mag" width="5">
+    <DESCRIPTION>
+     ? UCAC/R magnitude from UCAC3
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Bmag" datatype="float" name="Bmag" precision="2" ucd="PHOT_PHG_B" unit="mag" width="5">
+    <DESCRIPTION>
+     ? SuperCosmos B magnitude from SuperCosmos
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="q_Bmag" datatype="unsignedByte" name="q_Bmag" ucd="CODE_QUALITY" width="1">
+    <DESCRIPTION>
+     [0/2]? B magnitude quality flag (unexplained) [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="Rmag" datatype="float" name="Rmag" precision="2" ucd="PHOT_PHG_R" unit="mag" width="5">
+    <DESCRIPTION>
+     ? SuperCosmos R magnitude from SuperCosmos
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="q_Rmag" datatype="unsignedByte" name="q_Rmag" ucd="CODE_QUALITY" width="1">
+    <DESCRIPTION>
+     [0/2]? R magnitude quality flag (unexplained) [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="Imag" datatype="float" name="Imag" precision="2" ucd="PHOT_PHG_I" unit="mag" width="5">
+    <DESCRIPTION>
+     ? SuperCosmos I magnitude from SuperCosmos
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="q_Imag" datatype="unsignedByte" name="q_Imag" ucd="CODE_QUALITY" width="1">
+    <DESCRIPTION>
+     [0/2]? I magnitude quality flag (unexplained) [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="Dist" datatype="short" name="Dist" ucd="PHYS_DISTANCE_TRUE" unit="pc" width="4">
+    <DESCRIPTION>
+     Obtained photometric heliocentric distance
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Xdist" datatype="int" name="Xdist" ucd="POS_GAL_X" unit="pc" width="5">
+    <DESCRIPTION>
+     Obtained X distance (galactic frame)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Ydist" datatype="int" name="Ydist" ucd="POS_GAL_Y" unit="pc" width="5">
+    <DESCRIPTION>
+     Obtained Y distance (galactic frame)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Zdist" datatype="int" name="Zdist" ucd="POS_GAL_Z" unit="pc" width="5">
+    <DESCRIPTION>
+     Obtained Z distance (galactic frame)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right ascension (derived from 2MASS) for Eq=J2000
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (derived from 2MASS) for Eq=J2000
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>14183473-0008434</TD>
+      <TD>3</TD>
+      <TD> 4.29</TD>
+      <TD>  -87.3</TD>
+      <TD>  -77.6</TD>
+      <TD>13.90</TD>
+      <TD>13.47</TD>
+      <TD>15.38</TD>
+      <TD>15.57</TD>
+      <TD>0</TD>
+      <TD>14.73</TD>
+      <TD>1</TD>
+      <TD>14.37</TD>
+      <TD>1</TD>
+      <TD>687</TD>
+      <TD>373</TD>
+      <TD>-107</TD>
+      <TD>567</TD>
+      <TD>214.64471</TD>
+      <TD> -0.14539</TD>
+     </TR>
+     <TR>
+      <TD>14191667-0046504</TD>
+      <TD>3</TD>
+      <TD> 4.57</TD>
+      <TD> -159.4</TD>
+      <TD>  -13.3</TD>
+      <TD>12.33</TD>
+      <TD>11.85</TD>
+      <TD>13.92</TD>
+      <TD>14.40</TD>
+      <TD>0</TD>
+      <TD>13.35</TD>
+      <TD>1</TD>
+      <TD>12.91</TD>
+      <TD>1</TD>
+      <TD>286</TD>
+      <TD>157</TD>
+      <TD>-46</TD>
+      <TD>234</TD>
+      <TD>214.81946</TD>
+      <TD> -0.78067</TD>
+     </TR>
+     <TR>
+      <TD>14194864-0113355</TD>
+      <TD>2</TD>
+      <TD> 2.44</TD>
+      <TD>  -21.1</TD>
+      <TD>    8.3</TD>
+      <TD>12.69</TD>
+      <TD>12.71</TD>
+      <TD>13.18</TD>
+      <TD>12.79</TD>
+      <TD>1</TD>
+      <TD>12.78</TD>
+      <TD>1</TD>
+      <TD>12.65</TD>
+      <TD>1</TD>
+      <TD>1135</TD>
+      <TD>631</TD>
+      <TD>-189</TD>
+      <TD>925</TD>
+      <TD>214.95267</TD>
+      <TD> -1.22653</TD>
+     </TR>
+     <TR>
+      <TD>14204588-0109395</TD>
+      <TD>3</TD>
+      <TD> 2.85</TD>
+      <TD>  -59.1</TD>
+      <TD>  -14.7</TD>
+      <TD>14.18</TD>
+      <TD>13.98</TD>
+      <TD>15.47</TD>
+      <TD>15.79</TD>
+      <TD>0</TD>
+      <TD>15.06</TD>
+      <TD>1</TD>
+      <TD>14.63</TD>
+      <TD>1</TD>
+      <TD>1680</TD>
+      <TD>937</TD>
+      <TD>-273</TD>
+      <TD>1367</TD>
+      <TD>215.19117</TD>
+      <TD> -1.16097</TD>
+     </TR>
+     <TR>
+      <TD>14214858+0010185</TD>
+      <TD>3</TD>
+      <TD> 3.46</TD>
+      <TD>  -45.8</TD>
+      <TD>  -20.9</TD>
+      <TD>13.81</TD>
+      <TD>13.51</TD>
+      <TD>15.33</TD>
+      <TD>15.35</TD>
+      <TD>0</TD>
+      <TD>14.68</TD>
+      <TD>1</TD>
+      <TD>14.42</TD>
+      <TD>1</TD>
+      <TD>1023</TD>
+      <TD>563</TD>
+      <TD>-146</TD>
+      <TD>842</TD>
+      <TD>215.45242</TD>
+      <TD>  0.17181</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

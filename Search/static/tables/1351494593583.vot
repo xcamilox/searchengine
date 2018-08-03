@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_MNRAS_457_2192_njcmfull" name="J/MNRAS/457/2192/njcmfull">
+   <DESCRIPTION>
+    Full M dwarf catalogue selected from WISE/SDSS/2MASS
+    (NJCM_full.fits)
+   </DESCRIPTION>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="7" ucd="POS_EQ_RA_MAIN" unit="deg" width="11">
+    <DESCRIPTION>
+     Wise right ascension (J2000) (ra_WISE)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="7" ucd="POS_EQ_DEC_MAIN" unit="deg" width="11">
+    <DESCRIPTION>
+     Wise declination (J2000) (dec_WISE)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="WISE" arraysize="19" datatype="char" name="WISE" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Unique WISE source designation (WISE_id)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SSpL" arraysize="5" datatype="char" name="SSpL" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     NJC Spectral Type string from spt 0.0=M0.0 for use in CSEF
+     program (StringSpt_Lepine)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="NSpL" datatype="double" name="NSpL" precision="5" ucd="SPECT_TYPE_MK" width="8">
+    <DESCRIPTION>
+     NJC Spectral Type float as a function of V-J from Lepine et al.
+     (2013, Cat. J/AJ/145/102) (NumSpt_Lepine)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_NSpL" datatype="double" name="e_NSpL" precision="6" ucd="ERROR" width="9">
+    <DESCRIPTION>
+     NJC Estimated uncertainty in Spectral Type float as a function of
+     V-J from Lepine et al. (2013, J/AJ/145/102) (eNumSpt_Lepine)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpTypeL3" datatype="float" name="SpTypeL3" precision="1" ucd="SPECT_TYPE_MK" width="4">
+    <DESCRIPTION>
+     ? Spectral type from LAMOST dr2 (spt_LAMOST_dr2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="SpTypeL2" datatype="float" name="SpTypeL2" precision="1" ucd="SPECT_TYPE_MK" width="4">
+    <DESCRIPTION>
+     ? Spectral type from LAMOST dr2 (spt_LAMOST_dr3a1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="OSpTypeL1" datatype="unsignedByte" name="OSpTypeL1" ucd="SPECT_TYPE_MK" width="1">
+    <DESCRIPTION>
+     [0/6]? Optical Spectral type as measured by Jing for LAMOST dr1,
+     excess run (Jing_spt_dr1_3) [NULL integer written as an empty
+     string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="WSind" datatype="double" name="WSind" precision="E5" ucd="SPECT_TYPE_MK" width="12">
+    <DESCRIPTION>
+     ? NJC Weighted optical spectral type based LAMOST spectral
+     indices (wav_sindices)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_WSind" datatype="double" name="e_WSind" precision="E5" ucd="ERROR" width="12">
+    <DESCRIPTION>
+     ? NJC uncertainty in Weighted optical spectral type based LAMOST
+     spectral indices (ewav_sindices)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="SpTypeLw" datatype="double" name="SpTypeLw" precision="6" ucd="SPECT_TYPE_MK" width="9">
+    <DESCRIPTION>
+     ? NJC Weighted optical spectral type based on all LAMOST spectral
+     types (weight_LAMOST_spt)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_SpTypeLw" datatype="double" name="e_SpTypeLw" precision="6" ucd="ERROR" width="9">
+    <DESCRIPTION>
+     ? NJC uncertainty in Weighted optical spectral type based on all
+     LAMOST spectral types (eweight_LAMOST_spt)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="SpTypew" datatype="double" name="SpTypew" precision="E5" ucd="SPECT_TYPE_MK" width="12">
+    <DESCRIPTION>
+     ? NJC Weighted Spectral type (all spectral types) (wav_all_spts)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_SpTypew" datatype="double" name="e_SpTypew" precision="E5" ucd="ERROR" width="12">
+    <DESCRIPTION>
+     ? NJC uncertainty in Weighted Spectral type (all spectral types)
+     (ewav_all_spts)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>214.0395981</TD>
+      <TD> -0.2955234</TD>
+      <TD>J141609.50-001743.8</TD>
+      <TD>M4.0</TD>
+      <TD> 3.97072</TD>
+      <TD> 0.065158</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>214.1380015</TD>
+      <TD>  0.1890157</TD>
+      <TD>J141633.12+001120.4</TD>
+      <TD>M3.5</TD>
+      <TD> 3.40719</TD>
+      <TD> 0.063696</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>214.1396613</TD>
+      <TD> -0.5218433</TD>
+      <TD>J141633.51-003118.6</TD>
+      <TD>M3.5</TD>
+      <TD> 3.44714</TD>
+      <TD> 0.039504</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>214.1559132</TD>
+      <TD> -0.3845998</TD>
+      <TD>J141637.41-002304.5</TD>
+      <TD>M3.5</TD>
+      <TD> 3.69375</TD>
+      <TD> 0.032465</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>214.2168547</TD>
+      <TD> -0.5888857</TD>
+      <TD>J141652.04-003519.9</TD>
+      <TD>M3.0</TD>
+      <TD> 3.23375</TD>
+      <TD> 0.038753</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>214.2741311</TD>
+      <TD> -0.3872025</TD>
+      <TD>J141705.79-002313.9</TD>
+      <TD>M4.0</TD>
+      <TD> 3.83873</TD>
+      <TD> 0.061205</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>214.4107328</TD>
+      <TD> -0.3272869</TD>
+      <TD>J141738.57-001938.2</TD>
+      <TD>M3.5</TD>
+      <TD> 3.37185</TD>
+      <TD> 0.059045</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>214.5310254</TD>
+      <TD>  0.4551182</TD>
+      <TD>J141807.44+002718.4</TD>
+      <TD>M4.5</TD>
+      <TD> 4.29844</TD>
+      <TD> 0.043038</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>214.5331771</TD>
+      <TD>  0.0568410</TD>
+      <TD>J141807.96+000324.6</TD>
+      <TD>M3.5</TD>
+      <TD> 3.49578</TD>
+      <TD> 0.066165</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>214.5496198</TD>
+      <TD> -0.3296443</TD>
+      <TD>J141811.90-001946.7</TD>
+      <TD>M3.5</TD>
+      <TD> 3.56158</TD>
+      <TD> 0.037950</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>214.5500784</TD>
+      <TD>  0.3871570</TD>
+      <TD>J141812.01+002313.7</TD>
+      <TD>M3.5</TD>
+      <TD> 3.71591</TD>
+      <TD> 0.026572</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>214.6082081</TD>
+      <TD> -0.8956698</TD>
+      <TD>J141825.96-005344.4</TD>
+      <TD>M3.5</TD>
+      <TD> 3.26217</TD>
+      <TD> 0.047374</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>214.6208015</TD>
+      <TD> -1.0424222</TD>
+      <TD>J141828.99-010232.7</TD>
+      <TD>M4.0</TD>
+      <TD> 3.98430</TD>
+      <TD> 0.030368</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>214.6242804</TD>
+      <TD> -0.7674534</TD>
+      <TD>J141829.82-004602.8</TD>
+      <TD>M3.5</TD>
+      <TD> 3.59528</TD>
+      <TD> 0.036204</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>214.6444096</TD>
+      <TD>  0.4371341</TD>
+      <TD>J141834.65+002613.6</TD>
+      <TD>M3.5</TD>
+      <TD> 3.66105</TD>
+      <TD> 0.051576</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>214.6578841</TD>
+      <TD> -0.2282315</TD>
+      <TD>J141837.89-001341.6</TD>
+      <TD>M3.5</TD>
+      <TD> 3.37211</TD>
+      <TD> 0.043139</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>214.6609471</TD>
+      <TD> -0.9563938</TD>
+      <TD>J141838.62-005723.0</TD>
+      <TD>M4.0</TD>
+      <TD> 3.89330</TD>
+      <TD> 0.025919</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>214.6619153</TD>
+      <TD>  0.0403047</TD>
+      <TD>J141838.85+000225.0</TD>
+      <TD>M3.5</TD>
+      <TD> 3.36187</TD>
+      <TD> 0.086824</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>214.6665059</TD>
+      <TD> -0.7790235</TD>
+      <TD>J141839.96-004644.4</TD>
+      <TD>M3.5</TD>
+      <TD> 3.40924</TD>
+      <TD> 0.034917</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>214.6919568</TD>
+      <TD>  0.1759894</TD>
+      <TD>J141846.06+001033.5</TD>
+      <TD>M4.0</TD>
+      <TD> 3.83253</TD>
+      <TD> 0.034099</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>214.7154993</TD>
+      <TD>  0.3875153</TD>
+      <TD>J141851.71+002315.0</TD>
+      <TD>M3.5</TD>
+      <TD> 3.40915</TD>
+      <TD> 0.032871</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>         1.5</TD>
+      <TD>         0.5</TD>
+     </TR>
+     <TR>
+      <TD>214.7242144</TD>
+      <TD> -0.3487760</TD>
+      <TD>J141853.81-002055.5</TD>
+      <TD>M3.5</TD>
+      <TD> 3.50640</TD>
+      <TD> 0.035001</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>214.7793925</TD>
+      <TD> -0.3752885</TD>
+      <TD>J141907.05-002231.0</TD>
+      <TD>M3.5</TD>
+      <TD> 3.54860</TD>
+      <TD> 0.079033</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>214.8574879</TD>
+      <TD> -1.2498088</TD>
+      <TD>J141925.79-011459.3</TD>
+      <TD>M4.0</TD>
+      <TD> 3.83308</TD>
+      <TD> 0.034080</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>214.8701546</TD>
+      <TD> -0.8927505</TD>
+      <TD>J141928.83-005333.9</TD>
+      <TD>M5.0</TD>
+      <TD> 5.07842</TD>
+      <TD> 0.084909</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>214.8735030</TD>
+      <TD> -0.6642294</TD>
+      <TD>J141929.64-003951.2</TD>
+      <TD>M5.0</TD>
+      <TD> 4.82415</TD>
+      <TD> 0.064794</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>214.9677558</TD>
+      <TD>  0.2058069</TD>
+      <TD>J141952.26+001220.9</TD>
+      <TD>M4.0</TD>
+      <TD> 3.82177</TD>
+      <TD> 0.033903</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>214.9679955</TD>
+      <TD> -0.3694901</TD>
+      <TD>J141952.31-002210.1</TD>
+      <TD>M3.5</TD>
+      <TD> 3.40696</TD>
+      <TD> 0.034771</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>215.0017237</TD>
+      <TD> -0.3481652</TD>
+      <TD>J142000.41-002053.3</TD>
+      <TD>M4.0</TD>
+      <TD> 3.88710</TD>
+      <TD> 0.064063</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>215.0622005</TD>
+      <TD> -0.9555872</TD>
+      <TD>J142014.92-005720.1</TD>
+      <TD>M3.5</TD>
+      <TD> 3.51655</TD>
+      <TD> 0.045681</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>215.0940975</TD>
+      <TD> -0.8481605</TD>
+      <TD>J142022.58-005053.3</TD>
+      <TD>M4.5</TD>
+      <TD> 4.42339</TD>
+      <TD> 0.033890</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>215.1862541</TD>
+      <TD> -0.3729580</TD>
+      <TD>J142044.70-002222.6</TD>
+      <TD>M4.0</TD>
+      <TD> 4.23082</TD>
+      <TD> 0.038790</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>215.2604245</TD>
+      <TD>  0.4914539</TD>
+      <TD>J142102.50+002929.2</TD>
+      <TD>M3.0</TD>
+      <TD> 3.17553</TD>
+      <TD> 0.091123</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>215.2633663</TD>
+      <TD> -0.7004102</TD>
+      <TD>J142103.20-004201.4</TD>
+      <TD>M3.0</TD>
+      <TD> 3.24363</TD>
+      <TD> 0.078414</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>215.2714104</TD>
+      <TD> -0.0921075</TD>
+      <TD>J142105.13-000531.5</TD>
+      <TD>M3.5</TD>
+      <TD> 3.46308</TD>
+      <TD> 0.051791</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>215.2753254</TD>
+      <TD> -1.2010156</TD>
+      <TD>J142106.07-011203.6</TD>
+      <TD>M3.5</TD>
+      <TD> 3.40031</TD>
+      <TD> 0.049682</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>215.3264817</TD>
+      <TD>  0.2949643</TD>
+      <TD>J142118.35+001741.8</TD>
+      <TD>M3.5</TD>
+      <TD> 3.71608</TD>
+      <TD> 0.038109</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>215.3500661</TD>
+      <TD> -0.0525703</TD>
+      <TD>J142124.01-000309.2</TD>
+      <TD>M3.5</TD>
+      <TD> 3.63692</TD>
+      <TD> 0.056611</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>215.3610221</TD>
+      <TD>  0.2673489</TD>
+      <TD>J142126.64+001602.4</TD>
+      <TD>M3.5</TD>
+      <TD> 3.72166</TD>
+      <TD> 0.030760</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>215.3707630</TD>
+      <TD>  0.0439686</TD>
+      <TD>J142128.98+000238.2</TD>
+      <TD>M3.5</TD>
+      <TD> 3.73185</TD>
+      <TD> 0.034566</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>215.3797428</TD>
+      <TD> -0.9994984</TD>
+      <TD>J142131.13-005958.1</TD>
+      <TD>M3.5</TD>
+      <TD> 3.44476</TD>
+      <TD> 0.065407</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>215.4133650</TD>
+      <TD> -0.8755925</TD>
+      <TD>J142139.20-005232.1</TD>
+      <TD>M3.5</TD>
+      <TD> 3.73565</TD>
+      <TD> 0.048973</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>215.4191053</TD>
+      <TD> -0.9695086</TD>
+      <TD>J142140.58-005810.2</TD>
+      <TD>M3.5</TD>
+      <TD> 3.69412</TD>
+      <TD> 0.062442</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>215.4363724</TD>
+      <TD> -0.5515088</TD>
+      <TD>J142144.72-003305.4</TD>
+      <TD>M3.5</TD>
+      <TD> 3.43217</TD>
+      <TD> 0.039406</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>215.4670039</TD>
+      <TD> -0.2538215</TD>
+      <TD>J142152.08-001513.7</TD>
+      <TD>M3.5</TD>
+      <TD> 3.46292</TD>
+      <TD> 0.046180</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>215.4901024</TD>
+      <TD>  0.3964759</TD>
+      <TD>J142157.62+002347.3</TD>
+      <TD>M3.5</TD>
+      <TD> 3.50872</TD>
+      <TD> 0.044848</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>215.4917147</TD>
+      <TD> -1.0566900</TD>
+      <TD>J142158.01-010324.0</TD>
+      <TD>M3.5</TD>
+      <TD> 3.29915</TD>
+      <TD> 0.061076</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>215.4998729</TD>
+      <TD> -0.8378921</TD>
+      <TD>J142159.96-005016.4</TD>
+      <TD>M4.5</TD>
+      <TD> 4.39774</TD>
+      <TD> 0.029934</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>215.5124083</TD>
+      <TD> -0.2937384</TD>
+      <TD>J142202.97-001737.4</TD>
+      <TD>M3.5</TD>
+      <TD> 3.49115</TD>
+      <TD> 0.049713</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>215.5353700</TD>
+      <TD>  0.2756181</TD>
+      <TD>J142208.48+001632.2</TD>
+      <TD>M4.0</TD>
+      <TD> 3.75490</TD>
+      <TD> 0.031575</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

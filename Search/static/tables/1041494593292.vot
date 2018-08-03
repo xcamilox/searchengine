@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_AJ_143_31_binaries" name="J/AJ/143/31/binaries">
+   <DESCRIPTION>
+    Properties of fragile binary candidates {\em (tables 1 and 2 of
+    paper)}
+   </DESCRIPTION>
+   <FIELD ID="Seq" datatype="short" name="Seq" ucd="ID_NUMBER" width="2">
+    <DESCRIPTION>
+     [1/80] Running sequence number (\dicS{[ZOZ2012] NN} in Simbad)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SDSS1" arraysize="16" datatype="char" name="SDSS1" ucd="ID_MAIN">
+    <DESCRIPTION>
+     SDSS primary ID (JHHMMSSS.s+DDMMSS)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SDSS2" arraysize="16" datatype="char" name="SDSS2" ucd="ID_ASSOCIATED">
+    <DESCRIPTION>
+     SDSS secondary ID (JHHMMSSS.s+DDMMSS)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DR8" arraysize="3" datatype="char" name="DR8" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Details from SDSS-DR8 for the components
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA1" datatype="short" name="pmRA1" ucd="POS_EQ_PMRA" unit="mas.yr-1" width="3">
+    <DESCRIPTION>
+     Proper motion in Right Ascension for primary
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA2" datatype="short" name="pmRA2" ucd="POS_EQ_PMRA" unit="mas.yr-1" width="2">
+    <DESCRIPTION>
+     Proper motion in Right Ascension for secondary
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmDE1" datatype="short" name="pmDE1" ucd="POS_EQ_PMDEC" unit="mas.yr-1" width="3">
+    <DESCRIPTION>
+     Proper motion in Declination for primary
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmDE2" datatype="short" name="pmDE2" ucd="POS_EQ_PMDEC" unit="mas.yr-1" width="3">
+    <DESCRIPTION>
+     Proper motion in Declination for secondary
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RV1" datatype="short" name="RV1" ucd="VELOC_HC" unit="km.s-1" width="4">
+    <DESCRIPTION>
+     [-102/82] Radial velocity of primary (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RV2" datatype="short" name="RV2" ucd="VELOC_HC" unit="km.s-1" width="4">
+    <DESCRIPTION>
+     [-115/87] Radial velocity of secondary (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="rmag1" datatype="float" name="rmag1" precision="2" ucd="PHOT_SDSS_R" unit="mag" width="5">
+    <DESCRIPTION>
+     [12.89/18.47] SDSS r magnitude of primary
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="rmag2" datatype="float" name="rmag2" precision="2" ucd="PHOT_SDSS_R" unit="mag" width="5">
+    <DESCRIPTION>
+     [13.4/18.81] SDSS r magnitude of secondary
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpT1" arraysize="2" datatype="char" name="SpT1" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     MK spectral type of primary
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpT2" arraysize="2" datatype="char" name="SpT2" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     MK spectral type of secondary
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Asep" datatype="float" name="Asep" precision="2" ucd="POS_ANG_DIST_GENERAL" unit="arcs" width="6">
+    <DESCRIPTION>
+     [8.41/188.62] Angular separation
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Psep" datatype="float" name="Psep" precision="3" ucd="PHYS_DISTANCE_PROJ" unit="pc" width="6">
+    <DESCRIPTION>
+     [0.072/0.478] Projected separation
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sloan" arraysize="5" datatype="char" name="Sloan" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the SDSS online data for the primary
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DU" datatype="short" name="DU" ucd="VELOC_DIFF" unit="km.s-1" width="2">
+    <DESCRIPTION>
+     [0/70] U difference between the two components
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DV" datatype="short" name="DV" ucd="VELOC_DIFF" unit="km.s-1" width="2">
+    <DESCRIPTION>
+     [0/56] V difference between the two components
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DW" datatype="short" name="DW" ucd="VELOC_DIFF" unit="km.s-1" width="2">
+    <DESCRIPTION>
+     [0/95] W difference between the two components
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dr" datatype="short" name="Dr" ucd="PHYS_DISTANCE_DIFF" unit="pc" width="4">
+    <DESCRIPTION>
+     [10/1181] Difference in distances
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Age" arraysize="1" datatype="char" name="Age" ucd="CODE_MISC">
+    <DESCRIPTION>
+     Age consistency for the 38 binaries with S/N&gt;40 (Y, N or NULL)
+     {\fg{red4}(NULL replaced by a dash {\bf-})} (5)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="CL" arraysize="1" datatype="char" name="CL" ucd="CODE_QUALITY">
+    <DESCRIPTION>
+     [A-E] Confidence level for being a physical pair (A=candidate is
+     very likely a physical pair to E=lowest probability)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Position of primary (from SDSS-DR8 name) (right ascension part)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Position of primary (from SDSS-DR8 name) (declination part)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>1</TD>
+      <TD>J141918.7+002550</TD>
+      <TD>J141920.5+002535</TD>
+      <TD>DR8</TD>
+      <TD>-10</TD>
+      <TD>-9</TD>
+      <TD>-3</TD>
+      <TD>-8</TD>
+      <TD>-28</TD>
+      <TD>-32</TD>
+      <TD>16.79</TD>
+      <TD>18.11</TD>
+      <TD>F9</TD>
+      <TD>K1</TD>
+      <TD> 31.03</TD>
+      <TD> 0.349</TD>
+      <TD>Sloan</TD>
+      <TD>27</TD>
+      <TD>39</TD>
+      <TD>28</TD>
+      <TD>306</TD>
+      <TD>-</TD>
+      <TD>E</TD>
+      <TD>214.82804</TD>
+      <TD>  0.43064</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

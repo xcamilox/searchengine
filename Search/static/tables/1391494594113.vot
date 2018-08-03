@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_AJ_135_209_stars" name="J/AJ/135/209/stars">
+   <DESCRIPTION>
+    Program stars data {\em(tables 1, 2 and 3 of paper)}
+   </DESCRIPTION>
+   <FIELD ID="VC" arraysize="2" datatype="char" name="VC" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Velocity plot
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     Hipparcos number \linkRole{Observed data for this star }
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="m_HIP" arraysize="1" datatype="char" name="m_HIP" ucd="CODE_MULT_INDEX">
+    <DESCRIPTION>
+     [ABNS] Multiplicity index on HIP
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HD" datatype="int" name="HD" ucd="ID_ALTERNATIVE" width="6">
+    <DESCRIPTION>
+     ? HD number (Cat. III/135) [NULL integer written as an empty
+     string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="B-V" datatype="float" name="B-V" precision="3" ucd="PHOT_JHN_B-V" unit="mag" width="6">
+    <DESCRIPTION>
+     ? The (B-V) color index (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="BT-VT" datatype="float" name="BT-VT" precision="3" ucd="PHOT_CI_B-V" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Hipparcos (B_T_-V_T_) color index (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="V-J" datatype="float" name="V-J" precision="3" ucd="PHOT_JHN_V-J" unit="mag" width="6">
+    <DESCRIPTION>
+     ? (V-J) color index (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="V-H" datatype="float" name="V-H" precision="3" ucd="PHOT_JHN_V-H" unit="mag" width="6">
+    <DESCRIPTION>
+     ? (V-H) color index (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="V-K" datatype="float" name="V-K" precision="3" ucd="PHOT_JHN_V-K" unit="mag" width="6">
+    <DESCRIPTION>
+     ? (V-K) color index (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="C_45-48_" datatype="float" name="C_45-48_" precision="3" ucd="PHOT_DDO_45-48" unit="mag" width="6">
+    <DESCRIPTION>
+     ? DDO narrow band C(45-48) index (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="C_42-45_" datatype="float" name="C_42-45_" precision="3" ucd="PHOT_DDO_42-45" unit="mag" width="6">
+    <DESCRIPTION>
+     ? DDO narrow band C(42-45) index (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Dist" datatype="short" name="Dist" ucd="POS_GAL_HC" unit="pc" width="3">
+    <DESCRIPTION>
+     Distance
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Teff" datatype="short" name="Teff" ucd="PHYS_TEMP_EFFEC" unit="K" width="4">
+    <DESCRIPTION>
+     ? Effective temperature (2) [NULL integer written as an empty
+     string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="logL" datatype="float" name="logL" precision="2" ucd="PHYS_LUMINOSITY_GENERAL" unit="[Lsun]" width="5">
+    <DESCRIPTION>
+     ? Log of the luminosity (2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Rad" datatype="short" name="Rad" ucd="PHYS_SIZE_RADIUS_GENERAL" unit="[Rsun]" width="3">
+    <DESCRIPTION>
+     ? Radius (2) [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="logg" datatype="float" name="logg" precision="1" ucd="PHYS_GRAVITY_SURFACE" unit="[cm/s2]" width="4">
+    <DESCRIPTION>
+     ? Log of the surface gravity
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="__Fe_H_" datatype="float" name="__Fe_H_" precision="2" ucd="PHYS_ABUND_FE/H" width="5">
+    <DESCRIPTION>
+     ? Metallicity
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="11" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     2MASS Hour of Right Ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="11" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     2MASS Degree of Declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>VC</TD>
+      <TD>98110</TD>
+      <TD/>
+      <TD>188947</TD>
+      <TD> 1.017</TD>
+      <TD> 1.191</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD> 1.185</TD>
+      <TD> 0.871</TD>
+      <TD>43</TD>
+      <TD>4775</TD>
+      <TD> 1.72</TD>
+      <TD>11</TD>
+      <TD> 2.7</TD>
+      <TD>-0.09</TD>
+      <TD>Simbad</TD>
+      <TD>19 56 18.39</TD>
+      <TD>+35 05 00.3</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

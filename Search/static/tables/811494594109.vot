@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="V_137D_XHIP" name="V/137D/XHIP">
+   <DESCRIPTION>
+    XHIP catalog: astrometry, spectrography, space motions,
+    exoplanets, photometry, and references
+   </DESCRIPTION>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     Hipparcos identifier \linkRole{details from HIP catalogs}
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Comp" arraysize="6" datatype="char" name="Comp" ucd="CODE_MULT_INDEX">
+    <DESCRIPTION>
+     Component(s) (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Gr" datatype="unsignedByte" name="Gr" ucd="CODE_MEMB" width="1">
+    <DESCRIPTION>
+     ? Cluster or Association membership(s) (3) [NULL integer written
+     as an empty string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="8" ucd="POS_EQ_RA_MAIN" unit="deg" width="12">
+    <DESCRIPTION>
+     Right ascension (ICRS, Epoch=J1991.25)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="8" ucd="POS_EQ_DEC_MAIN" unit="deg" width="12">
+    <DESCRIPTION>
+     Declination (ICRS, Epoch=J1991.25)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dist" datatype="float" name="Dist" precision="2" ucd="POS_GAL_HC" unit="pc" width="7">
+    <DESCRIPTION>
+     ? Heliocentric distance (7)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="X" datatype="float" name="X" precision="1" ucd="POS_GAL_X" unit="pc" width="6">
+    <DESCRIPTION>
+     ? Heliocentric distance towards Gal. center
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Y" datatype="float" name="Y" precision="1" ucd="POS_GAL_Y" unit="pc" width="7">
+    <DESCRIPTION>
+     ? Heliocentric distance towards Gal. rotation
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Z" datatype="float" name="Z" precision="1" ucd="POS_GAL_Z" unit="pc" width="6">
+    <DESCRIPTION>
+     ? Heliocentric distance towards N. Gal. Pole
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="26" datatype="char" name="SpType" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     Spectral type (MK, HD, or other)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="__Fe_H_" datatype="float" name="__Fe_H_" precision="2" ucd="PHYS_ABUND_FE/H" unit="[Sun]" width="5">
+    <DESCRIPTION>
+     ? Iron abundance
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Hpmag" datatype="float" name="Hpmag" precision="3" ucd="PHOT_HIPPAR" unit="mag" width="6">
+    <DESCRIPTION>
+     Median magnitude in Hipparcos system
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Lum" datatype="double" name="Lum" precision="2" ucd="PHYS_LUMINOSITY_GENERAL" unit="Lsun" width="9">
+    <DESCRIPTION>
+     ? Stellar luminosity (23)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Cst" arraysize="3" datatype="char" name="Cst" ucd="ID_CONSTEL">
+    <DESCRIPTION>
+     Constellation membership
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>97987</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>298.70435521</TD>
+      <TD> 35.00556880</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>F8</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD> 8.687</TD>
+      <TD/>
+      <TD>Cyg</TD>
+     </TR>
+     <TR>
+      <TD>98004</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>298.75056544</TD>
+      <TD> 34.90055681</TD>
+      <TD> 279.41</TD>
+      <TD>  92.1</TD>
+      <TD>  263.2</TD>
+      <TD>  17.1</TD>
+      <TD>K0</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD> 7.389</TD>
+      <TD>   142.06</TD>
+      <TD>Cyg</TD>
+     </TR>
+     <TR>
+      <TD>98110</TD>
+      <TD>AB</TD>
+      <TD>255</TD>
+      <TD>299.07665075</TD>
+      <TD> 35.08349073</TD>
+      <TD>  41.37</TD>
+      <TD>  13.4</TD>
+      <TD>   39.1</TD>
+      <TD>   2.4</TD>
+      <TD>K0III</TD>
+      <TD> 0.02</TD>
+      <TD>Simbad</TD>
+      <TD> 4.062</TD>
+      <TD>    58.37</TD>
+      <TD>Cyg</TD>
+     </TR>
+     <TR>
+      <TD>98116</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>299.10262911</TD>
+      <TD> 35.79007878</TD>
+      <TD> 316.08</TD>
+      <TD>  99.4</TD>
+      <TD>  299.3</TD>
+      <TD>  20.5</TD>
+      <TD>G5</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD> 7.733</TD>
+      <TD>    97.63</TD>
+      <TD>Cyg</TD>
+     </TR>
+     <TR>
+      <TD>98157</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>299.22225291</TD>
+      <TD> 35.53683691</TD>
+      <TD> 140.43</TD>
+      <TD>  44.6</TD>
+      <TD>  132.9</TD>
+      <TD>   8.6</TD>
+      <TD>kA2hA7mF5</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD> 8.292</TD>
+      <TD>     8.51</TD>
+      <TD>Cyg</TD>
+     </TR>
+     <TR>
+      <TD>98193</TD>
+      <TD>AB</TD>
+      <TD>255</TD>
+      <TD>299.30552728</TD>
+      <TD> 35.03143920</TD>
+      <TD> 102.97</TD>
+      <TD>  33.4</TD>
+      <TD>   97.2</TD>
+      <TD>   5.7</TD>
+      <TD>F6V</TD>
+      <TD>-0.07</TD>
+      <TD>Simbad</TD>
+      <TD> 7.367</TD>
+      <TD>    11.32</TD>
+      <TD>Cyg</TD>
+     </TR>
+     <TR>
+      <TD>98239</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>299.45582066</TD>
+      <TD> 34.24665751</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>A0</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD> 7.930</TD>
+      <TD/>
+      <TD>Cyg</TD>
+     </TR>
+     <TR>
+      <TD>98289</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>299.55694111</TD>
+      <TD> 34.42275637</TD>
+      <TD> 249.41</TD>
+      <TD>  82.5</TD>
+      <TD>  235.1</TD>
+      <TD>  11.7</TD>
+      <TD>B6V</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD> 7.690</TD>
+      <TD>    65.26</TD>
+      <TD>Cyg</TD>
+     </TR>
+     <TR>
+      <TD>98298</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>299.59032647</TD>
+      <TD> 35.20162247</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>O9e</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD> 8.988</TD>
+      <TD/>
+      <TD>Cyg</TD>
+     </TR>
+     <TR>
+      <TD>98343</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>299.71509532</TD>
+      <TD> 35.49773641</TD>
+      <TD> 211.82</TD>
+      <TD>  66.6</TD>
+      <TD>  200.7</TD>
+      <TD>  11.6</TD>
+      <TD>A1V</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD> 7.012</TD>
+      <TD>    66.30</TD>
+      <TD>Cyg</TD>
+     </TR>
+     <TR>
+      <TD>98369</TD>
+      <TD>AB</TD>
+      <TD>255</TD>
+      <TD>299.78110721</TD>
+      <TD> 35.53615255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>B7V</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD> 8.121</TD>
+      <TD/>
+      <TD>Cyg</TD>
+     </TR>
+     <TR>
+      <TD>98418</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>299.95461221</TD>
+      <TD> 35.30933984</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>O6V</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD> 9.097</TD>
+      <TD/>
+      <TD>Cyg</TD>
+     </TR>
+     <TR>
+      <TD>98465</TD>
+      <TD>AB</TD>
+      <TD>255</TD>
+      <TD>300.07929770</TD>
+      <TD> 35.35837774</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>K2III</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD> 7.771</TD>
+      <TD/>
+      <TD>Cyg</TD>
+     </TR>
+     <TR>
+      <TD>98593</TD>
+      <TD>AB</TD>
+      <TD>255</TD>
+      <TD>300.39109111</TD>
+      <TD> 34.58309563</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>B8V</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD> 8.545</TD>
+      <TD/>
+      <TD>Cyg</TD>
+     </TR>
+     <TR>
+      <TD>98637</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>300.50756734</TD>
+      <TD> 35.33247825</TD>
+      <TD> 341.12</TD>
+      <TD> 106.2</TD>
+      <TD>  323.8</TD>
+      <TD>  14.9</TD>
+      <TD>B8V</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD> 7.400</TD>
+      <TD>   167.89</TD>
+      <TD>Cyg</TD>
+     </TR>
+     <TR>
+      <TD>98638</TD>
+      <TD/>
+      <TD>255</TD>
+      <TD>300.51190014</TD>
+      <TD> 35.64113274</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>G5Ib</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD> 7.997</TD>
+      <TD/>
+      <TD>Cyg</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_AN_331_349_mult1" name="J/AN/331/349/mult1">
+   <DESCRIPTION>
+    Input data and derived mass and luminosity for primaries of
+    Pourbaix multiple stars
+   </DESCRIPTION>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     Hipparcos identification number (Cat. I/311)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Bmag" datatype="float" name="Bmag" precision="3" ucd="PHOT_MAG_B" unit="mag" width="6">
+    <DESCRIPTION>
+     ? B magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="3" ucd="PHOT_MAG_V" unit="mag" width="6">
+    <DESCRIPTION>
+     ? V magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="3" ucd="PHOT_JHN_J" unit="mag" width="6">
+    <DESCRIPTION>
+     ? 2MASS J magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Hmag" datatype="float" name="Hmag" precision="3" ucd="PHOT_JHN_H" unit="mag" width="6">
+    <DESCRIPTION>
+     ? 2MASS H magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Kmag" datatype="float" name="Kmag" precision="3" ucd="PHOT_JHN_K" unit="mag" width="6">
+    <DESCRIPTION>
+     ? 2MASS K magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="plx" datatype="float" name="plx" precision="2" ucd="POS_PARLX_PHOT" unit="mas" width="5">
+    <DESCRIPTION>
+     New reduced Hipparcos parallax
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pcor" datatype="float" name="pcor" precision="3" ucd="MODEL_CORRECTION" unit="mas" width="6">
+    <DESCRIPTION>
+     Parallax correction (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="8" datatype="char" name="SpType" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     MK spectral type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Teff" datatype="double" name="Teff" ucd="PHYS_TEMP_EFFEC" unit="K" width="6">
+    <DESCRIPTION>
+     ? Input effective temperature
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="M" arraysize="1" datatype="char" name="M" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Details on components of this multiple star
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Mmed" datatype="float" name="Mmed" precision="2" ucd="PHYS_MASS_MISC" unit="Msun" width="6">
+    <DESCRIPTION>
+     ? Median mass
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_Mmed" datatype="float" name="e_Mmed" precision="2" ucd="ERROR" unit="Msun" width="5">
+    <DESCRIPTION>
+     ? Standard deviation for Median mass
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Lbol" datatype="double" name="Lbol" ucd="PHOT_BOL_LUMINOSITY" unit="Lsun" width="8">
+    <DESCRIPTION>
+     ? Calculated bolometric luminosity (2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Teffc" datatype="double" name="Teffc" ucd="PHYS_TEMP_EFFEC" unit="K" width="6">
+    <DESCRIPTION>
+     ? Calculated Effective temperature
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right Ascension (J2000) from SIMBAD (not part of the original
+     data)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (J2000) from SIMBAD (not part of the original data)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>98298</TD>
+      <TD> 9.599</TD>
+      <TD> 8.890</TD>
+      <TD> 6.722</TD>
+      <TD> 6.492</TD>
+      <TD> 6.321</TD>
+      <TD> 1.68</TD>
+      <TD> 1.850</TD>
+      <TD>O9.7 I</TD>
+      <TD>25550</TD>
+      <TD>M</TD>
+      <TD>Simbad</TD>
+      <TD> 11.95</TD>
+      <TD> 0.34</TD>
+      <TD> 17650</TD>
+      <TD>25550</TD>
+      <TD>299.59031</TD>
+      <TD> 35.20160</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

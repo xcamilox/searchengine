@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="IV_25_tyc2_hd" name="IV/25/tyc2_hd">
+   <DESCRIPTION>
+    Catalog
+   </DESCRIPTION>
+   <FIELD ID="TYC1" datatype="short" name="TYC1" ucd="ID_ALTERNATIVE" width="4">
+    <DESCRIPTION>
+     [1,9537]+= TYC1 from Tycho-2
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="TYC2" datatype="int" name="TYC2" ucd="ID_ALTERNATIVE" width="5">
+    <DESCRIPTION>
+     [1,12121] TYC2 from Tycho-2
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="TYC3" datatype="unsignedByte" name="TYC3" ucd="ID_ALTERNATIVE" width="1">
+    <DESCRIPTION>
+     [1,4] TYC3 from Tycho-2
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="f_TYC" arraysize="1" datatype="char" name="f_TYC" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [S] Set for stars in Tycho-2 Supplement#1
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HD" datatype="int" name="HD" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     HD (Cat. &lt;III/135&gt;) identifier
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="3" datatype="char" name="SpType" ucd="SPECT_TYPE_GENERAL">
+    <DESCRIPTION>
+     Spectral type from HD catalogue
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_HD" datatype="unsignedByte" name="n_HD" ucd="NOTE" width="1">
+    <DESCRIPTION>
+     [1,2] number of HD stars for this Tyc2 star
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_TYC" datatype="unsignedByte" name="n_TYC" ucd="NOTE" width="1">
+    <DESCRIPTION>
+     [1,2] number of Tyc2 stars for this HD star
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="TDSC" arraysize="1" datatype="char" name="TDSC" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [D] star in Tycho Double Star Catalogue
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Rem" arraysize="1" datatype="char" name="Rem" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [DEGMR*] Remarks flag from HD file
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Note" arraysize="1" datatype="char" name="Note" ucd="NOTE">
+    <DESCRIPTION>
+     {\bf N} indicates a note in the
+     "\begin{tex}\vFile{IV/25/./notes.dat}{notes.dat}\end{tex}" file,
+     and {\bf E} an erratum (in \vFile{IV/25/errata.htx})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Position from the Tycho-2 Catalog (I/259) or from TDSC (I/276)
+     (right ascension part)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Position from the Tycho-2 Catalog (I/259) or from TDSC (I/276)
+     (declination part)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>317</TD>
+      <TD>825</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>125489</TD>
+      <TD>A3</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>214.92071</TD>
+      <TD>  0.38436</TD>
+     </TR>
+     <TR>
+      <TD>318</TD>
+      <TD>1370</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>126130</TD>
+      <TD>G5</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>215.89119</TD>
+      <TD>  0.04709</TD>
+     </TR>
+     <TR>
+      <TD>318</TD>
+      <TD>1472</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>125609</TD>
+      <TD>K0</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>215.12058</TD>
+      <TD>  0.18203</TD>
+     </TR>
+     <TR>
+      <TD>4976</TD>
+      <TD>1179</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>125453</TD>
+      <TD>K2</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>214.86231</TD>
+      <TD> -0.01334</TD>
+     </TR>
+     <TR>
+      <TD>4976</TD>
+      <TD>1198</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>125041</TD>
+      <TD>F8</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>214.25621</TD>
+      <TD> -0.07900</TD>
+     </TR>
+     <TR>
+      <TD>4977</TD>
+      <TD>176</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD>125981</TD>
+      <TD>A0</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>215.69343</TD>
+      <TD> -0.63710</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

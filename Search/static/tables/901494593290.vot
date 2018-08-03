@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_A_A_597_A54_table1" name="J/A+A/597/A54/table1">
+   <DESCRIPTION>
+    Spectral parameters for 1100 RGB stars in Sgr streams
+   </DESCRIPTION>
+   <FIELD ID="Plate" datatype="short" name="Plate" ucd="ID_PLATE" width="4">
+    <DESCRIPTION>
+     SDSS Plate ID number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="MJD" datatype="int" name="MJD" ucd="TIME_DATE" width="5">
+    <DESCRIPTION>
+     SDSS MJD ID number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Fiber" datatype="short" name="Fiber" ucd="ID_FIBER" width="3">
+    <DESCRIPTION>
+     SDSS Fiber ID number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="__Fe_H_" datatype="float" name="__Fe_H_" precision="2" ucd="PHYS_ABUND_FE/H" unit="[-]" width="5">
+    <DESCRIPTION>
+     Abundance, [Fe/H]
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dist" datatype="float" name="Dist" precision="2" ucd="POS_GAL_HC" unit="kpc" width="7">
+    <DESCRIPTION>
+     Distance to the Sun (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="VGSR" datatype="double" name="VGSR" precision="2" ucd="VELOC_GC" unit="km.s-1" width="8">
+    <DESCRIPTION>
+     Velocity in the Galactic standard of rest
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Lambda" datatype="double" name="Lambda" precision="5" ucd="POS_FRAME_LON" unit="deg" width="9">
+    <DESCRIPTION>
+     Sgr longitude scale along the orbital plane
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="X" datatype="float" name="X" precision="2" ucd="POS_GAL_X" unit="kpc" width="7">
+    <DESCRIPTION>
+     X-coordinate in Galactic cartesian coordinate
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Y" datatype="float" name="Y" precision="2" ucd="POS_GAL_Y" unit="kpc" width="7">
+    <DESCRIPTION>
+     Y-coordinate in Galactic cartesian coordinate
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Z" datatype="float" name="Z" precision="2" ucd="POS_GAL_Z" unit="kpc" width="7">
+    <DESCRIPTION>
+     Z-coordinate in Galactic cartesian coordinate
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Stream" arraysize="2" datatype="char" name="Stream" ucd="ID_PARENT">
+    <DESCRIPTION>
+     Sign to show the stream that star locate (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sp" arraysize="2" datatype="char" name="Sp" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Interactive spectrum from SDSS
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>303</TD>
+      <TD>51615</TD>
+      <TD>635</TD>
+      <TD>214.83501</TD>
+      <TD>  0.12930</TD>
+      <TD>-1.74</TD>
+      <TD>  51.86</TD>
+      <TD>  -19.44</TD>
+      <TD>288.69299</TD>
+      <TD> -20.65</TD>
+      <TD>  -7.55</TD>
+      <TD>  42.56</TD>
+      <TD>L1</TD>
+      <TD>Sp</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

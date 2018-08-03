@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="I_202_fk5emean" name="I/202/fk5emean">
+   <DESCRIPTION>
+    FK5 Extension on the FK4 B1950.0 (Mean epoch of place)
+   </DESCRIPTION>
+   <FIELD ID="FK5" datatype="short" name="FK5" ucd="ID_MAIN" width="4">
+    <DESCRIPTION>
+     FK5 Extension ID number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_MAG_V" unit="mag" width="6">
+    <DESCRIPTION>
+     V magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAh" datatype="double" name="RAh" precision="9" ucd="POS_EQ_RA_MAIN" unit="deg" width="13">
+    <DESCRIPTION>
+     Right Ascension (B1950.0) in decimal hrs
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEB1950" datatype="double" name="DEB1950" precision="10" ucd="POS_EQ_DEC_MAIN" unit="deg" width="14">
+    <DESCRIPTION>
+     Declination (B1950.0) in decimal degrees
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Epoch_RA" datatype="double" name="Epoch_RA" precision="2" ucd="TIME_EPOCH" unit="yr" width="8">
+    <DESCRIPTION>
+     Mean Epoch of RA in decimal years
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Epoch_DEC" datatype="double" name="Epoch_DEC" precision="2" ucd="TIME_EPOCH" unit="yr" width="8">
+    <DESCRIPTION>
+     Mean Epoch of DEC in decimal years
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="double" name="pmRA" precision="3" ucd="POS_EQ_PMRA" unit="cs.yr-1" width="9">
+    <DESCRIPTION>
+     Proper Motion in RA (B1950.0) sec/cy
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="double" name="pmDE" precision="3" ucd="POS_EQ_PMDEC" unit="carcs.yr-1" width="9">
+    <DESCRIPTION>
+     Proper Motion in DEC (B1950.0) arcsec/cy
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA.icrs" datatype="float" name="_RA.icrs" precision="9" ucd="POS_EQ_RA_OTHER" unit="deg" width="13">
+    <DESCRIPTION>
+     Right ascension (ICRS) at Epoch=J2000, proper motions taken into
+     account  (computed by VizieR, not part of the original data)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" datatype="float" name="_DE.icrs" precision="10" ucd="POS_EQ_DEC_OTHER" unit="deg" width="14">
+    <DESCRIPTION>
+     Declination (ICRS) at Epoch=J2000, proper motions taken into
+     account  (computed by VizieR, not part of the original data)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>5270</TD>
+      <TD>  6.73</TD>
+      <TD>215.051970907</TD>
+      <TD> -0.4099662498</TD>
+      <TD> 1944.09</TD>
+      <TD> 1942.07</TD>
+      <TD>   -0.455</TD>
+      <TD>   -1.539</TD>
+      <TD>215.693115234</TD>
+      <TD> -0.6371632218</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_MNRAS_444_527_table6" name="J/MNRAS/444/527/table6">
+   <DESCRIPTION>
+    *Distance measurements for 1935 galaxies observed with Spitzer
+   </DESCRIPTION>
+   <FIELD ID="n_PGC" arraysize="1" datatype="char" name="n_PGC" ucd="NOTE">
+    <DESCRIPTION>
+     {\bf C} indicates a calibrator galaxy (in table1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="PGC" datatype="int" name="PGC" ucd="ID_NUMBER" width="7">
+    <DESCRIPTION>
+     Principal Galaxy Catalog number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Name" arraysize="9" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Common name
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="10" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="9" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HV" datatype="short" name="HV" ucd="VELOC_HC" unit="km.s-1" width="5">
+    <DESCRIPTION>
+     [-168/14401] Heliocentric velocity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmod" datatype="short" name="Vmod" ucd="VELOC_CMB" unit="km.s-1" width="5">
+    <DESCRIPTION>
+     [0/15161] Velocity with respect to the cosmic microwave
+     background modified for the cosmology
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="TT" datatype="float" name="TT" precision="1" ucd="MORPH_CODE" width="4">
+    <DESCRIPTION>
+     [1/9.9]? Numerical morphological type
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="b_a" datatype="float" name="b_a" precision="2" ucd="PHYS_AXIS-RATIO" width="5">
+    <DESCRIPTION>
+     [0/1] Axis ratio
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Wmx" datatype="short" name="Wmx" ucd="SPECT_LINE_WIDTH" unit="km.s-1" width="3">
+    <DESCRIPTION>
+     [83/733] HI line width
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Imag" datatype="float" name="Imag" precision="2" ucd="PHOT_MAG_I" unit="mag" width="5">
+    <DESCRIPTION>
+     ? I-band magnitude (Vega system)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Imagc" datatype="float" name="Imagc" precision="2" ucd="PHOT_MAG_I" unit="mag" width="5">
+    <DESCRIPTION>
+     ? I-band magnitude corrected for extinctions and k-corrected (AB
+     system)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="__3.6_" datatype="float" name="__3.6_" precision="2" ucd="PHOT_IR_3.4" unit="mag" width="5">
+    <DESCRIPTION>
+     Spitzer/IRAC 3.6um-band magnitude (AB system)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="__3.6_c" datatype="float" name="__3.6_c" precision="2" ucd="PHOT_IR_3.4" unit="mag" width="5">
+    <DESCRIPTION>
+     Extinction, aperture and k-corrected IRAC 3.6{mu}m-band magnitude
+     (AB system)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="C_3.6_" datatype="float" name="C_3.6_" precision="2" ucd="PHOT_IR_3.4" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Pseudo apparent magnitude at [3.6]
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="MC" datatype="float" name="MC" precision="2" ucd="PHOT_ABS-MAG_BAND" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Pseudo absolute magnitude at [3.6]
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="M_3.6_" datatype="float" name="M_3.6_" precision="2" ucd="PHOT_ABS-MAG_BAND" unit="mag" width="6">
+    <DESCRIPTION>
+     [-25/-16] Absolute magnitude at [3.6]
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="dC" datatype="float" name="dC" precision="1" ucd="PHYS_DISTANCE_TRUE" unit="Mpc" width="5">
+    <DESCRIPTION>
+     [3/277]? Selection-bias-corrected distance estimate obtained with
+     the colour-adjusted TFR
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="d_3.6_" datatype="float" name="d_3.6_" precision="1" ucd="PHYS_DISTANCE_TRUE" unit="Mpc" width="5">
+    <DESCRIPTION>
+     [3/522] Selection-bias-corrected distance estimate obtained with
+     the TFR
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="NED" arraysize="3" datatype="char" name="NED" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}NED} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD/>
+      <TD>51344</TD>
+      <TD>NGC005584</TD>
+      <TD>14 22 23.8</TD>
+      <TD>-00 23 15</TD>
+      <TD>1637</TD>
+      <TD>1895</TD>
+      <TD> 6.0</TD>
+      <TD> 0.71</TD>
+      <TD>186</TD>
+      <TD>10.81</TD>
+      <TD>10.98</TD>
+      <TD>11.75</TD>
+      <TD>11.79</TD>
+      <TD>11.74</TD>
+      <TD>-19.55</TD>
+      <TD>-19.49</TD>
+      <TD> 18.1</TD>
+      <TD> 18.0</TD>
+      <TD>Simbad</TD>
+      <TD>NED</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

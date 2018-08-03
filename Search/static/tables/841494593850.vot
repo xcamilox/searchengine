@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_A_A_546_A61_tablea1" name="J/A+A/546/A61/tablea1">
+   <DESCRIPTION>
+    Final-results
+   </DESCRIPTION>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     [1/120404] Hipparcos identifier
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RV" datatype="double" name="RV" precision="2" ucd="VELOC_HC" unit="km.s-1" width="8">
+    <DESCRIPTION>
+     ? Radial velocity from XHIP (V/137) (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="q_RV" datatype="short" name="q_RV" ucd="CODE_QUALITY" width="3">
+    <DESCRIPTION>
+     [1/4]? Quality flag for RV, 1=best (1) (2) [NULL integer written
+     as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="plx" datatype="float" name="plx" precision="2" ucd="POS_PARLX_TRIG" unit="mas" width="6">
+    <DESCRIPTION>
+     Trigonometric parallax from XHIP
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Hpmag" datatype="double" name="Hpmag" precision="4" ucd="PHOT_HIPPAR" unit="mag" width="8">
+    <DESCRIPTION>
+     Hipparcos broad-band Hp magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sigma" datatype="double" name="Sigma" precision="2" ucd="FIT_STDEV" unit="km.s-1" width="10">
+    <DESCRIPTION>
+     ? {Sigma} for the "error-free" XHIP astrometry (3)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="f_Sigma" datatype="short" name="f_Sigma" ucd="CODE_MISC" width="3">
+    <DESCRIPTION>
+     [1/2]? Coordinate flag for Sigma and C: 1=Right Ascension,
+     2=Declination (4) [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="Sig.med" datatype="double" name="Sig.med" precision="2" ucd="STAT_MEDIAN" unit="km.s-1" width="10">
+    <DESCRIPTION>
+     ? Median {Sgima} value of the 10,000 Monte-Carlo simulations (3)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Sig.min" datatype="double" name="Sig.min" precision="2" ucd="ERROR" unit="km.s-1" width="10">
+    <DESCRIPTION>
+     ? Smallest {Sigma} value maong the 10,000 Monte-Carlo simulations
+     (3)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="mu.Sig" datatype="double" name="mu.Sig" precision="2" ucd="STAT_MEAN" unit="km.s-1" width="10">
+    <DESCRIPTION>
+     ? Mean of the Gauss fit to the 10,000 Monte-Carlo simulations (3)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="sig.Sig" datatype="double" name="sig.Sig" precision="2" ucd="FIT_STDEV" unit="km.s-1" width="10">
+    <DESCRIPTION>
+     ? Standard deviation of the Gauss fit (3)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="c_G_" datatype="float" name="c_G_" precision="2" ucd="FIT_GOODNESS" unit="%" width="6">
+    <DESCRIPTION>
+     [0/100]? Gaussian confidence level (3)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="sig99G" datatype="float" name="sig99G" precision="2" ucd="STAT_STDEV" unit="km.s-1" width="7">
+    <DESCRIPTION>
+     ? Radial-velocity precision needed for c(G)=99.73% (3) (6) (5)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="c_rob_" datatype="float" name="c_rob_" precision="2" ucd="FIT_GOODNESS" unit="%" width="6">
+    <DESCRIPTION>
+     [0/100]? Robust confidence level (3)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="sig99rob" datatype="float" name="sig99rob" precision="2" ucd="STAT_STDEV" unit="km.s-1" width="7">
+    <DESCRIPTION>
+     ? Radial-velocity precision needed for c(rob)=99.73% (3) (6)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="7" ucd="POS_EQ_RA_MAIN" unit="deg" width="11">
+    <DESCRIPTION>
+     Position in ICRS at epoch=J2000 (right ascension part)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="7" ucd="POS_EQ_DEC_MAIN" unit="deg" width="11">
+    <DESCRIPTION>
+     Position in ICRS at epoch=J2000 (declination part)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>69785</TD>
+      <TD/>
+      <TD>-32768</TD>
+      <TD> 11.03</TD>
+      <TD>  9.1538</TD>
+      <TD>    239.48</TD>
+      <TD>2</TD>
+      <TD>    239.49</TD>
+      <TD>    171.45</TD>
+      <TD>    238.25</TD>
+      <TD>     24.86</TD>
+      <TD>100.00</TD>
+      <TD>  37.71</TD>
+      <TD> 98.87</TD>
+      <TD>  38.43</TD>
+      <TD>Simbad</TD>
+      <TD>214.2563324</TD>
+      <TD> -0.0793224</TD>
+     </TR>
+     <TR>
+      <TD>69866</TD>
+      <TD/>
+      <TD>-32768</TD>
+      <TD>  6.59</TD>
+      <TD> 10.5725</TD>
+      <TD>   2778.98</TD>
+      <TD>2</TD>
+      <TD>   2802.60</TD>
+      <TD>   1174.27</TD>
+      <TD>   2642.44</TD>
+      <TD>    739.60</TD>
+      <TD> 99.96</TD>
+      <TD> 239.18</TD>
+      <TD>100.00</TD>
+      <TD> 371.10</TD>
+      <TD>Simbad</TD>
+      <TD>214.4595194</TD>
+      <TD> -1.0791343</TD>
+     </TR>
+     <TR>
+      <TD>69911</TD>
+      <TD/>
+      <TD>-32768</TD>
+      <TD>  5.55</TD>
+      <TD> 10.7077</TD>
+      <TD>    640.09</TD>
+      <TD>2</TD>
+      <TD>    641.18</TD>
+      <TD>    272.94</TD>
+      <TD>    590.58</TD>
+      <TD>    181.53</TD>
+      <TD> 99.84</TD>
+      <TD>  38.08</TD>
+      <TD> 99.83</TD>
+      <TD>  81.36</TD>
+      <TD>Simbad</TD>
+      <TD>214.6121189</TD>
+      <TD> -0.1154434</TD>
+     </TR>
+     <TR>
+      <TD>70002</TD>
+      <TD/>
+      <TD>-32768</TD>
+      <TD>  1.77</TD>
+      <TD>  7.9430</TD>
+      <TD>   9609.55</TD>
+      <TD>1</TD>
+      <TD>   9562.97</TD>
+      <TD>   3268.89</TD>
+      <TD>   8482.56</TD>
+      <TD>   2940.38</TD>
+      <TD> 99.61</TD>
+      <TD/>
+      <TD>100.00</TD>
+      <TD>1122.62</TD>
+      <TD>Simbad</TD>
+      <TD>214.8622725</TD>
+      <TD> -0.0133585</TD>
+     </TR>
+     <TR>
+      <TD>70022</TD>
+      <TD>  -23.80</TD>
+      <TD>1</TD>
+      <TD> 15.81</TD>
+      <TD>  6.2481</TD>
+      <TD>    515.58</TD>
+      <TD>1</TD>
+      <TD>    515.69</TD>
+      <TD>    460.92</TD>
+      <TD>    515.53</TD>
+      <TD>     13.78</TD>
+      <TD>100.00</TD>
+      <TD>  85.65</TD>
+      <TD>100.00</TD>
+      <TD>  85.71</TD>
+      <TD>Simbad</TD>
+      <TD>214.9206261</TD>
+      <TD>  0.3843346</TD>
+     </TR>
+     <TR>
+      <TD>70081</TD>
+      <TD/>
+      <TD>-32768</TD>
+      <TD>  4.53</TD>
+      <TD>  6.9552</TD>
+      <TD>    691.49</TD>
+      <TD>2</TD>
+      <TD>    691.02</TD>
+      <TD>    458.82</TD>
+      <TD>    684.84</TD>
+      <TD>     92.08</TD>
+      <TD>100.00</TD>
+      <TD> 104.44</TD>
+      <TD> 99.92</TD>
+      <TD> 108.60</TD>
+      <TD>Simbad</TD>
+      <TD>215.1203443</TD>
+      <TD>  0.1818530</TD>
+     </TR>
+     <TR>
+      <TD>70136</TD>
+      <TD/>
+      <TD>-32768</TD>
+      <TD> 17.86</TD>
+      <TD> 11.1318</TD>
+      <TD>    567.98</TD>
+      <TD>1</TD>
+      <TD>    568.37</TD>
+      <TD>    355.02</TD>
+      <TD>    561.32</TD>
+      <TD>     84.57</TD>
+      <TD>100.00</TD>
+      <TD>  83.45</TD>
+      <TD> 99.80</TD>
+      <TD>  88.18</TD>
+      <TD>Simbad</TD>
+      <TD>215.2703572</TD>
+      <TD>  0.5186228</TD>
+     </TR>
+     <TR>
+      <TD>70282</TD>
+      <TD/>
+      <TD>-32768</TD>
+      <TD>  8.13</TD>
+      <TD>  6.7575</TD>
+      <TD>    669.92</TD>
+      <TD>1</TD>
+      <TD>    670.93</TD>
+      <TD>    520.40</TD>
+      <TD>    669.41</TD>
+      <TD>     46.38</TD>
+      <TD>100.00</TD>
+      <TD> 109.13</TD>
+      <TD> 99.92</TD>
+      <TD> 109.88</TD>
+      <TD>Simbad</TD>
+      <TD>215.6932901</TD>
+      <TD> -0.6371313</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJ_747_50_table1" name="J/ApJ/747/50/table1">
+   <DESCRIPTION>
+    Distance to Galactic Cepheids using the Wesenheit function
+   </DESCRIPTION>
+   <FIELD ID="Name" arraysize="9" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Name of Cepheid
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Type" arraysize="5" datatype="char" name="Type" ucd="VAR_CLASS">
+    <DESCRIPTION>
+     Type of Cepheid from GCVS (CEP, DCEP or DCEPS)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="log_P_" datatype="float" name="log_P_" precision="3" ucd="TIME_PERIOD" unit="[d]" width="6">
+    <DESCRIPTION>
+     [0.16/1.84] log10 of the pulsating period
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Bmag" datatype="float" name="Bmag" precision="3" ucd="PHOT_MAG_B" unit="mag" width="7">
+    <DESCRIPTION>
+     [2.3/16.2]? The B band mean magnitude (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="3" ucd="PHOT_MAG_V" unit="mag" width="6">
+    <DESCRIPTION>
+     [1.97/14.64] The V band mean magnitude (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Rmag" datatype="float" name="Rmag" precision="3" ucd="PHOT_MAG_R" unit="mag" width="7">
+    <DESCRIPTION>
+     ? The R band mean magnitude (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Imag" datatype="float" name="Imag" precision="3" ucd="PHOT_COUS_I" unit="mag" width="6">
+    <DESCRIPTION>
+     The I band mean magnitude (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="3" ucd="PHOT_JHN_J" unit="mag" width="7">
+    <DESCRIPTION>
+     [0.8/9.8]? The J band mean magnitude (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Hmag" datatype="float" name="Hmag" precision="3" ucd="PHOT_JHN_H" unit="mag" width="7">
+    <DESCRIPTION>
+     ? The H band mean magnitude (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Kmag" datatype="float" name="Kmag" precision="3" ucd="PHOT_JHN_K" unit="mag" width="7">
+    <DESCRIPTION>
+     ? The K band mean magnitude (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="E_B-V_" datatype="float" name="E_B-V_" precision="3" ucd="PHOT_COLOR_EXCESS" unit="mag" width="7">
+    <DESCRIPTION>
+     [0/1.678]? Extinction value (2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="__Fe_H_" datatype="float" name="__Fe_H_" precision="2" ucd="PHYS_ABUND_FE/H" unit="[Sun]" width="6">
+    <DESCRIPTION>
+     [-0.7/0.5]? Metallicity (3)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="muW" datatype="float" name="muW" precision="3" ucd="PHOT_DIST-MOD" unit="mag" width="6">
+    <DESCRIPTION>
+     [5.56/16.18] Distance modulus calculated from Wesenheit Function
+     (4)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="OCat" datatype="short" name="OCat" ucd="DATA_LINK" width="3">
+    <DESCRIPTION>
+     Cross-match with the Cat. J/A+AS/143/211, J/A+A/476/73 and
+     J/AJ/142/136, within 3" [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="SimbadName" arraysize="13" datatype="char" name="SimbadName" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Designation understandable by the {\bf\fg{FireBrick}Simbad} data-
+     base
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Positions from SIMBAD database (right ascension part)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Positions from SIMBAD database (declination part)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>V0547 CYG</TD>
+      <TD>DCEP</TD>
+      <TD> 0.794</TD>
+      <TD> 14.921</TD>
+      <TD>13.416</TD>
+      <TD> 12.456</TD>
+      <TD>11.566</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>  0.947</TD>
+      <TD>  0.15</TD>
+      <TD>13.968</TD>
+      <TD>2</TD>
+      <TD>V0547 CYG</TD>
+      <TD>299.44208</TD>
+      <TD> 35.63608</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

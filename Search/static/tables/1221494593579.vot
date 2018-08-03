@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_MNRAS_404_1817_catalog" name="J/MNRAS/404/1817/catalog">
+   <DESCRIPTION>
+    806 ultracool dwarfs from SDSS, 2MASS and UKIDSS
+   </DESCRIPTION>
+   <FIELD ID="SDSS" arraysize="19" datatype="char" name="SDSS" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     SDSS Name, JHHMMSS.ss+DDMMSS.s
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="imag" datatype="float" name="imag" precision="2" ucd="PHOT_SDSS_I" unit="mag" width="5">
+    <DESCRIPTION>
+     SDSS i magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="zmag" datatype="float" name="zmag" precision="2" ucd="PHOT_SDSS_Z" unit="mag" width="5">
+    <DESCRIPTION>
+     SDSS z magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Jmag2" datatype="float" name="Jmag2" precision="2" ucd="PHOT_JHN_J" unit="mag" width="5">
+    <DESCRIPTION>
+     2MASS J magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Hmag2" datatype="float" name="Hmag2" precision="2" ucd="PHOT_JHN_H" unit="mag" width="5">
+    <DESCRIPTION>
+     2MASS H magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Kmag2" datatype="float" name="Kmag2" precision="2" ucd="PHOT_JHN_K" unit="mag" width="5">
+    <DESCRIPTION>
+     2MASS Ks magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Ymag" datatype="float" name="Ymag" precision="2" ucd="PHOT_MAG_Y" unit="mag" width="5">
+    <DESCRIPTION>
+     ? UKIDSS Y magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="2" ucd="PHOT_JHN_J" unit="mag" width="5">
+    <DESCRIPTION>
+     ? UKIDSS J magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Hmag" datatype="float" name="Hmag" precision="2" ucd="PHOT_JHN_H" unit="mag" width="5">
+    <DESCRIPTION>
+     ? UKIDSS H magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Kmag" datatype="float" name="Kmag" precision="2" ucd="PHOT_JHN_K" unit="mag" width="5">
+    <DESCRIPTION>
+     ? UKIDSS K magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="SpT" arraysize="4" datatype="char" name="SpT" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     MK spectral type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="short" name="pmRA" ucd="POS_EQ_PMRA" unit="mas.yr-1" width="4">
+    <DESCRIPTION>
+     Proper motion along RA
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="short" name="pmDE" ucd="POS_EQ_PMDEC" unit="mas.yr-1" width="4">
+    <DESCRIPTION>
+     Proper motion along DE
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dist" datatype="short" name="Dist" ucd="POS_GAL_HC" unit="pc" width="3">
+    <DESCRIPTION>
+     Estimated heliocentric distance
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Note" arraysize="6" datatype="char" name="Note" ucd="NOTE">
+    <DESCRIPTION>
+     Note ("binary" or blank)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sloan" arraysize="5" datatype="char" name="Sloan" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the SDSS spectrum for this quasar
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SR7" arraysize="3" datatype="char" name="SR7" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Detailed photometry from SDSS-DR7
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_2M" arraysize="2" datatype="char" name="_2M" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the 2MASS data (Cutri et al. 2003, Cat. II/246)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right ascension in decimal degrees (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination in decimal degrees (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>J142235.86+001103.7</TD>
+      <TD>20.52</TD>
+      <TD>18.62</TD>
+      <TD>16.66</TD>
+      <TD>16.01</TD>
+      <TD>15.23</TD>
+      <TD>17.37</TD>
+      <TD>16.46</TD>
+      <TD>16.00</TD>
+      <TD>15.56</TD>
+      <TD>M9</TD>
+      <TD>-139</TD>
+      <TD>45</TD>
+      <TD>104</TD>
+      <TD/>
+      <TD>Sloan</TD>
+      <TD>SR7</TD>
+      <TD>2M</TD>
+      <TD>215.64945</TD>
+      <TD>  0.18437</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

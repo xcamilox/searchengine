@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_AN_321_277_table5" name="J/AN/321/277/table5">
+   <DESCRIPTION>
+    Program stars
+   </DESCRIPTION>
+   <FIELD ID="Teff" arraysize="1" datatype="char" name="Teff" ucd="DATA_LINK">
+    <DESCRIPTION>
+     indicates Teff in table6
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Name" arraysize="10" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Star name
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="4" datatype="char" name="SpType" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     MK spectral type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="r_SpType" arraysize="4" datatype="char" name="r_SpType" ucd="REFER_CODE">
+    <DESCRIPTION>
+     Reference for spectral type (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="vsini" datatype="float" name="vsini" precision="1" ucd="VELOC_ROTAT" unit="km.s-1" width="4">
+    <DESCRIPTION>
+     ? Rotational velocity
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="B-V" datatype="float" name="B-V" precision="3" ucd="PHOT_JHN_B-V" unit="mag" width="6">
+    <DESCRIPTION>
+     Hipparcos B-V colour index
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="V-Ic" datatype="float" name="V-Ic" precision="2" ucd="PHOT_COUS_V-I" unit="mag" width="5">
+    <DESCRIPTION>
+     Hipparcos V-Ic colour index
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="__Fe_H_" datatype="float" name="__Fe_H_" precision="2" ucd="PHYS_ABUND_FE/H" unit="Sun" width="5">
+    <DESCRIPTION>
+     ? Metallicity
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="RV" datatype="float" name="RV" precision="1" ucd="VELOC_HC" unit="km.s-1" width="5">
+    <DESCRIPTION>
+     ? Radial velocity
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Notes" arraysize="37" datatype="char" name="Notes" ucd="NOTE">
+    <DESCRIPTION>
+     Notes
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SimbadName" arraysize="9" datatype="char" name="SimbadName" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Designation understandable by the {\bf\fg{FireBrick}Simbad} data-
+     base
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Computed Right Ascension for Equinox: J2000
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Computed Declination for Equinox: J2000
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>*</TD>
+      <TD>eta Cyg</TD>
+      <TD>K0</TD>
+      <TD>G.P</TD>
+      <TD> 1.0</TD>
+      <TD> 1.019</TD>
+      <TD> 0.98</TD>
+      <TD>-0.09</TD>
+      <TD>-25.5</TD>
+      <TD>Star in double system</TD>
+      <TD>eta Cyg</TD>
+      <TD>299.07655</TD>
+      <TD> 35.08342</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="III_149_catalog" name="III/149/catalog">
+   <DESCRIPTION>
+    The catalogue
+   </DESCRIPTION>
+   <FIELD ID="Seq" datatype="short" name="Seq" ucd="ID_MAIN" width="3">
+    <DESCRIPTION>
+     [1/963]+= Running number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpTemp" arraysize="9" datatype="char" name="SpTemp" ucd="SPECT_TYPE_GENERAL">
+    <DESCRIPTION>
+     Spectral Temperature class
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpLum" arraysize="8" datatype="char" name="SpLum" ucd="SPECT_LUM-CLASS">
+    <DESCRIPTION>
+     Spectral Luminosity class
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpPec" arraysize="17" datatype="char" name="SpPec" ucd="SPECT_PECUL">
+    <DESCRIPTION>
+     Spectral peculiarities
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HD_BD" arraysize="10" datatype="char" name="HD_BD" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     HD or BD number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RA1950" arraysize="12" datatype="char" name="RA1950" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension 1950
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DE1950" arraysize="12" datatype="char" name="DE1950" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination 1950
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA.icrs" arraysize="12" datatype="char" name="_RA.icrs" ucd="POS_EQ_RA_OTHER" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (ICRS) (computed by VizieR, not part of the
+     original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" arraysize="12" datatype="char" name="_DE.icrs" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (ICRS) (computed by VizieR, not part of the original
+     data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>561</TD>
+      <TD>K0</TD>
+      <TD>III</TD>
+      <TD/>
+      <TD>188947</TD>
+      <TD>19 54 25.726</TD>
+      <TD>+34 56 58.24</TD>
+      <TD>19 56 18.505</TD>
+      <TD>+35 05 01.69</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

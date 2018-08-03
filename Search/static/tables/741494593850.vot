@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJS_167_40_catalog" name="J/ApJS/167/40/catalog">
+   <DESCRIPTION>
+    SDSS DR4 white dwarfs and hot subdwarfs {\em(tables 1 and 1c of
+    catalog)}
+   </DESCRIPTION>
+   <FIELD ID="SpClass" arraysize="12" datatype="char" name="SpClass" ucd="SPECT_TYPE_GENERAL">
+    <DESCRIPTION>
+     Spectral Classification
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="WD" arraysize="10" datatype="char" name="WD" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     McCook &amp; Sion (1999, see Cat. III/235) WD catalog ID (as of 2005
+     August)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SDSS" arraysize="19" datatype="char" name="SDSS" ucd="ID_MAIN">
+    <DESCRIPTION>
+     The IAU name, JHHMMSS.ss+DDMMSS.s \linkRole{SDSS-DR4 photometric
+     data} (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pm" datatype="float" name="pm" precision="1" ucd="POS_EQ_PM" unit="mas.yr-1" width="7">
+    <DESCRIPTION>
+     ? Proper motion
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="pmPA" datatype="float" name="pmPA" precision="1" ucd="POS_POS-ANG" unit="deg" width="5">
+    <DESCRIPTION>
+     ? Proper-motion position angle, where 0 = north, 90 = east, etc
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="umag" datatype="float" name="umag" precision="3" ucd="PHOT_SDSS_U" unit="mag" width="6">
+    <DESCRIPTION>
+     ? SDSS u-band PSF as observed magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="gmag" datatype="float" name="gmag" precision="3" ucd="PHOT_SDSS_G" unit="mag" width="6">
+    <DESCRIPTION>
+     ? SDSS g-band PSF as observed magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="rmag" datatype="float" name="rmag" precision="3" ucd="PHOT_SDSS_R" unit="mag" width="6">
+    <DESCRIPTION>
+     ? SDSS r-band PSF as observed magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="imag" datatype="float" name="imag" precision="3" ucd="PHOT_SDSS_I" unit="mag" width="6">
+    <DESCRIPTION>
+     ? SDSS i-band PSF as observed magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="zmag" datatype="float" name="zmag" precision="3" ucd="PHOT_SDSS_Z" unit="mag" width="6">
+    <DESCRIPTION>
+     ? SDSS z-band PSF as observed magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="6" ucd="POS_EQ_RA_MAIN" unit="deg" width="10">
+    <DESCRIPTION>
+     Decimal degree right ascension (J2000) (4)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="6" ucd="POS_EQ_DEC_MAIN" unit="deg" width="10">
+    <DESCRIPTION>
+     Decimal degree declination (J2000) (4)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>DA</TD>
+      <TD/>
+      <TD>J141747.96-000549.5</TD>
+      <TD>   19.1</TD>
+      <TD>148.9</TD>
+      <TD>18.678</TD>
+      <TD>18.406</TD>
+      <TD>18.660</TD>
+      <TD>18.928</TD>
+      <TD>19.237</TD>
+      <TD>214.449835</TD>
+      <TD> -0.097091</TD>
+     </TR>
+     <TR>
+      <TD>DA</TD>
+      <TD/>
+      <TD>J141747.96-000549.5</TD>
+      <TD>   19.1</TD>
+      <TD>148.9</TD>
+      <TD>18.678</TD>
+      <TD>18.406</TD>
+      <TD>18.660</TD>
+      <TD>18.928</TD>
+      <TD>19.237</TD>
+      <TD>214.449835</TD>
+      <TD> -0.097091</TD>
+     </TR>
+     <TR>
+      <TD>DA</TD>
+      <TD>1416+007</TD>
+      <TD>J141839.65+003154.2</TD>
+      <TD>  120.0</TD>
+      <TD>202.6</TD>
+      <TD>18.912</TD>
+      <TD>18.492</TD>
+      <TD>18.443</TD>
+      <TD>18.508</TD>
+      <TD>18.559</TD>
+      <TD>214.665229</TD>
+      <TD>  0.531749</TD>
+     </TR>
+     <TR>
+      <TD>DA</TD>
+      <TD/>
+      <TD>J141840.39-002516.5</TD>
+      <TD>   19.0</TD>
+      <TD> 95.5</TD>
+      <TD>19.198</TD>
+      <TD>18.891</TD>
+      <TD>19.140</TD>
+      <TD>19.367</TD>
+      <TD>19.577</TD>
+      <TD>214.668324</TD>
+      <TD> -0.421272</TD>
+     </TR>
+     <TR>
+      <TD>DA</TD>
+      <TD/>
+      <TD>J141840.39-002516.5</TD>
+      <TD>   19.0</TD>
+      <TD> 95.5</TD>
+      <TD>19.198</TD>
+      <TD>18.891</TD>
+      <TD>19.140</TD>
+      <TD>19.367</TD>
+      <TD>19.577</TD>
+      <TD>214.668324</TD>
+      <TD> -0.421272</TD>
+     </TR>
+     <TR>
+      <TD>DA</TD>
+      <TD/>
+      <TD>J142120.19-004626.0</TD>
+      <TD>   48.8</TD>
+      <TD>292.8</TD>
+      <TD>17.992</TD>
+      <TD>17.592</TD>
+      <TD>17.601</TD>
+      <TD>17.875</TD>
+      <TD>17.818</TD>
+      <TD>215.334143</TD>
+      <TD> -0.773915</TD>
+     </TR>
+     <TR>
+      <TD>DA</TD>
+      <TD/>
+      <TD>J142120.19-004626.0</TD>
+      <TD>   48.8</TD>
+      <TD>292.8</TD>
+      <TD>17.992</TD>
+      <TD>17.592</TD>
+      <TD>17.601</TD>
+      <TD>17.875</TD>
+      <TD>17.818</TD>
+      <TD>215.334143</TD>
+      <TD> -0.773915</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

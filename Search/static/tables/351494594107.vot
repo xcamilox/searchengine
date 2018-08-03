@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="II_80_catalog" name="II/80/catalog">
+   <DESCRIPTION>
+    Catalog data
+   </DESCRIPTION>
+   <FIELD ID="DM" arraysize="11" datatype="char" name="DM" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Durchmusterung catalog (DM) identification
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="m48" datatype="float" name="m48" precision="3" ucd="PHOT_DDO_MAG" unit="mag" width="6">
+    <DESCRIPTION>
+     ? 48 filter magnitude m48
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="f_m48" arraysize="1" datatype="char" name="f_m48" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [*] Asterisk if error in m48 &gt; 0.099 magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="C_45-48_" datatype="float" name="C_45-48_" precision="3" ucd="PHOT_DDO_45-48" unit="mag" width="6">
+    <DESCRIPTION>
+     Color-index C(45-48)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="C_42-45_" datatype="float" name="C_42-45_" precision="3" ucd="PHOT_DDO_42-45" unit="mag" width="6">
+    <DESCRIPTION>
+     Color index C(42-45)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="C_41-42_" datatype="float" name="C_41-42_" precision="3" ucd="PHOT_DDO_41-42" unit="mag" width="6">
+    <DESCRIPTION>
+     Color index C(41-42)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="C_38-41_" datatype="float" name="C_38-41_" precision="3" ucd="PHOT_DDO_38-41" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Color index C(38-41)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="C_35-38_" datatype="float" name="C_35-38_" precision="3" ucd="PHOT_DDO_35-38" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Color index C(35-38)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="4" ucd="POS_EQ_RA_MAIN" unit="deg" width="8">
+    <DESCRIPTION>
+     Position, taken in Simbad from DM designation (right ascension
+     part)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="4" ucd="POS_EQ_DEC_MAIN" unit="deg" width="8">
+    <DESCRIPTION>
+     Position, taken in Simbad from DM designation (declination part)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>BD+34  3798</TD>
+      <TD> 4.244</TD>
+      <TD/>
+      <TD> 1.185</TD>
+      <TD> 0.871</TD>
+      <TD> 0.211</TD>
+      <TD>-0.498</TD>
+      <TD> 1.072</TD>
+      <TD>299.0765</TD>
+      <TD> 35.0834</TD>
+      <TD>Simbad</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

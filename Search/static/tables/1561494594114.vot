@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_MNRAS_436_1465_tablea1" name="J/MNRAS/436/1465/tablea1">
+   <DESCRIPTION>
+    Summary table of the FSR cluster properties determined with our
+    method
+   </DESCRIPTION>
+   <FIELD ID="p" datatype="unsignedByte" name="p" ucd="DATA_LINK" width="1">
+    <DESCRIPTION>
+     Details from previous papers about this cluster [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="FSR" datatype="short" name="FSR" ucd="ID_MAIN" width="4">
+    <DESCRIPTION>
+     [1/1785] FSR ID number (Froebrich, Scholz and Raftery 2007,
+     J/MNRAS/374/399; \dicS{[FSR2007] NNNN} in Simbad)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Type" arraysize="5" datatype="char" name="Type" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [new/known ] known open cluster or new open cluster candidate
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GLON" datatype="float" name="GLON" precision="2" ucd="POS_GAL_LON" unit="deg" width="6">
+    <DESCRIPTION>
+     Galactic longitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GLAT" datatype="float" name="GLAT" precision="2" ucd="POS_GAL_LAT" unit="deg" width="6">
+    <DESCRIPTION>
+     Galactic latitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="10" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="9" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dist" datatype="float" name="Dist" precision="1" ucd="POS_GAL_HC" unit="kpc" width="4">
+    <DESCRIPTION>
+     ? Distance
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="AH4.5" datatype="float" name="AH4.5" precision="2" ucd="PHOT_EXTINCTION_ISM" unit="mag" width="5">
+    <DESCRIPTION>
+     H-band extinction values calculated from H-[4.5] excess
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="AH.K" datatype="float" name="AH.K" precision="2" ucd="PHOT_EXTINCTION_ISM" unit="mag" width="5">
+    <DESCRIPTION>
+     H-band extinction values calculated from H-K excess
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="YSO" datatype="float" name="YSO" precision="2" ucd="STAT_PARAM" width="5">
+    <DESCRIPTION>
+     [0/0.15] YSO fraction
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Ntot" datatype="short" name="Ntot" ucd="NUMBER" width="4">
+    <DESCRIPTION>
+     Number of stars within two core radii of the cluster centre
+     (N^tot^_2rcore_)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Nmem" datatype="short" name="Nmem" ucd="NUMBER" width="3">
+    <DESCRIPTION>
+     Total number of members (calculated as the sum of the membership
+     probabilities of all stars) in the same area (N^mem^_2rcore_)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>0</TD>
+      <TD>191</TD>
+      <TD>new</TD>
+      <TD> 70.99</TD>
+      <TD>  2.58</TD>
+      <TD>19 59 29.6</TD>
+      <TD>+34 39 23</TD>
+      <TD> 3.8</TD>
+      <TD> 0.40</TD>
+      <TD> 0.56</TD>
+      <TD> 0.04</TD>
+      <TD>198</TD>
+      <TD>98</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>0</TD>
+      <TD>194</TD>
+      <TD>known</TD>
+      <TD> 71.87</TD>
+      <TD>  2.42</TD>
+      <TD>20 02 25.4</TD>
+      <TD>+35 19 15</TD>
+      <TD> 9.5</TD>
+      <TD> 1.46</TD>
+      <TD> 0.92</TD>
+      <TD> 0.00</TD>
+      <TD>191</TD>
+      <TD>72</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>0</TD>
+      <TD>198</TD>
+      <TD>new</TD>
+      <TD> 72.18</TD>
+      <TD>  2.62</TD>
+      <TD>20 02 24.9</TD>
+      <TD>+35 41 21</TD>
+      <TD>12.8</TD>
+      <TD> 1.72</TD>
+      <TD> 1.02</TD>
+      <TD> 0.03</TD>
+      <TD>275</TD>
+      <TD>117</TD>
+      <TD>Simbad</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

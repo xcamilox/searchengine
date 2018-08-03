@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_other_KFNT_23_102_redclump" name="J/other/KFNT/23.102/redclump">
+   <DESCRIPTION>
+    Catalogue of Red Clump giants
+   </DESCRIPTION>
+   <FIELD ID="TYC1" datatype="short" name="TYC1" ucd="ID_MAIN:1" width="4">
+    <DESCRIPTION>
+     TYC1 number from the Tycho-2
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="TYC2" datatype="int" name="TYC2" ucd="ID_MAIN:2" width="5">
+    <DESCRIPTION>
+     TYC2 number from the Tycho-2
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="TYC3" datatype="unsignedByte" name="TYC3" ucd="ID_MAIN:3" width="1">
+    <DESCRIPTION>
+     TYC3 number from the Tycho-2
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="float" name="pmRA" precision="1" ucd="POS_EQ_PMRA" unit="mas.yr-1" width="7">
+    <DESCRIPTION>
+     Proper motion in RA*cos(DE)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="float" name="pmDE" precision="1" ucd="POS_EQ_PMDEC" unit="mas.yr-1" width="7">
+    <DESCRIPTION>
+     Proper motion in DE
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="BTmag" datatype="float" name="BTmag" precision="3" ucd="PHOT_TYCHO_B" unit="mag" width="6">
+    <DESCRIPTION>
+     Tycho-2 BT magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="VTmag" datatype="float" name="VTmag" precision="3" ucd="PHOT_TYCHO_V" unit="mag" width="6">
+    <DESCRIPTION>
+     Tycho-2 VT magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="3" ucd="PHOT_JHN_J" unit="mag" width="6">
+    <DESCRIPTION>
+     2MASS J magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Hmag" datatype="float" name="Hmag" precision="3" ucd="PHOT_JHN_H" unit="mag" width="6">
+    <DESCRIPTION>
+     2MASS H magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Ksmag" datatype="float" name="Ksmag" precision="3" ucd="PHOT_JHN_K" unit="mag" width="6">
+    <DESCRIPTION>
+     2MASS Ks magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Prob" datatype="float" name="Prob" precision="2" ucd="STAT_PROBABILITY" width="5">
+    <DESCRIPTION>
+     Red clump probability
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="8" ucd="POS_EQ_RA_MAIN" unit="deg" width="12">
+    <DESCRIPTION>
+     Right ascension, J2000.0, epoch 2000.0
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="8" ucd="POS_EQ_DEC_MAIN" unit="deg" width="12">
+    <DESCRIPTION>
+     Declination, J2000.0, epoch 2000.0
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>4976</TD>
+      <TD>630</TD>
+      <TD>1</TD>
+      <TD>  -18.0</TD>
+      <TD>   -4.3</TD>
+      <TD>11.313</TD>
+      <TD>10.319</TD>
+      <TD> 8.392</TD>
+      <TD> 7.887</TD>
+      <TD> 7.767</TD>
+      <TD> 0.64</TD>
+      <TD>Simbad</TD>
+      <TD>214.01738080</TD>
+      <TD> -0.31545836</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

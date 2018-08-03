@@ -1,0 +1,95 @@
+{%  block navigation-block %}
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">IACrossValidation</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <form class="navbar-form navbar-left" action="/search/" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Coordinates" name="coordinates" value="7.364117916666667 25.7338295">
+            <select class="form-control" name="units">
+              <option value="deg" selected="selected">Deg</option>
+              <option value="hourangle">hourangle</option>
+
+            </select>
+        </div>
+        {% csrf_token %}
+        <button type="submit" class="btn btn-default">Search</button>
+        <label class="btn btn-default btn-file">
+             Coordinates list<input type="file" name="position_list" style="display: none;">
+        </label>
+
+        <a class="btn btn-default" role="button" data-toggle="collapse" href="#advanceSettings" aria-controls="advanceSettings" aria-expanded="false">More Settings</a>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+<div class="collapse" id="advanceSettings">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div class="panel panel-default">
+                <h3 class="panel-heading panel-title">Available Services</h3>
+                <div class="panel-body">
+                    <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox1" value="sdss">SDSS</label>
+                    <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox1" value="simbad">SIMBAD</label>
+                    <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox2" value="vizier">VizieR</label>
+                    <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox3" value="esasky">ESASky</label>
+                    <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox3" value="ned">NED</label>
+                    <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox3" value="splatalogue">Splatalogue</label>
+                    <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox3" value="vamdc">Vamdc</label>
+                    <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox3" value="irsa">IRSA</label>
+                    <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox3" value="ukidss">UKIDSS</label>
+                    <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox3" value="magpis">MAGPIS</label>
+                    <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox3" value="nrao">NRAO</label>
+                    <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox3" value="besancon">Besancon</label>
+                    <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox3" value="nist">NIST</label>
+                    <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox3" value="nvas">NVAS</label>
+                    <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox3" value="gama">GAMA</label>
+                    <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox3" value="eso">ESO</label>
+                    <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox3" value="xmatch">xMatch</label>
+                    <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox3" value="atomicline">Atomic Line</label>
+                    <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox3" value="alma">ALMA</label>
+                    <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox3" value="skyview">Skyview</label>
+                    <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox3" value="nasa">NASA</label>
+                    <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox3" value="heasarc">HEASARC</label>
+                    <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox3" value="gaia">GAIA</label>
+                    <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox3" value="vo">VO Simple cone</label>
+                    <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox3" value="fermi">Fermi</label>
+                    <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox3" value="alfalfa">ALFALFA</label>
+                    <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox3" value="spitzer">Spitzer Hertage</label>
+                    <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox3" value="lamda">LAMDA</label>
+                    <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox3" value="Ogle">OGLE</label>
+                    <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox3" value="openexoplanet">Open Exoplanet</label>
+                    <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox3" value="cosmosim">CosmoSim</label>
+                    <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox3" value="hitran">HITRAN</label>
+                    <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox3" value="irsaimage">IRSA Image server program</label>
+                    <label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox3" value="irsadust">IRSA Dust Extinction</label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</nav>
+{% endblock %}

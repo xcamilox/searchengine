@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="II_346_jsdc_dis" name="II/346/jsdc_dis">
+   <DESCRIPTION>
+    Data for stars having more than 2 sigma difference between JSDC 1
+    and 2
+   </DESCRIPTION>
+   <FIELD ID="Name" arraysize="15" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     HIP or Tycho name
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="12" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="12" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="LDD1" datatype="float" name="LDD1" precision="3" ucd="EXTENSION_DIAM" width="6">
+    <DESCRIPTION>
+     Limb-Darkened Disk diameter of JSDC1
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_LDD1" datatype="float" name="e_LDD1" precision="3" ucd="ERROR" width="6">
+    <DESCRIPTION>
+     rms uncertainty on LDD1
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="LDD2" datatype="double" name="LDD2" precision="8" ucd="EXTENSION_DIAM" width="11">
+    <DESCRIPTION>
+     Limb-Darkened Disk diameter of JSDC v2
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_LDD2" datatype="double" name="e_LDD2" precision="10" ucd="ERROR" width="13">
+    <DESCRIPTION>
+     rms uncertainty on LDD2
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="LDDchi2" datatype="float" name="LDDchi2" precision="4" ucd="FIT_CHI2" width="7">
+    <DESCRIPTION>
+     Reduced chi-square of the LDD diameter estimation
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="dLDD" datatype="double" name="dLDD" precision="16" ucd="OBS_DIFF" width="19">
+    <DESCRIPTION>
+     Difference in sigma (LDD1-LDD2)/e_LDD1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Simbad column added by the CDS
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>HIP 98289</TD>
+      <TD>19 58 13.669</TD>
+      <TD>+34 25 21.92</TD>
+      <TD> 0.060</TD>
+      <TD> 0.004</TD>
+      <TD> 0.07107243</TD>
+      <TD> 0.0020054600</TD>
+      <TD> 1.1421</TD>
+      <TD>-2.7681077037980701</TD>
+      <TD>Simbad</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

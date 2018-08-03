@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_AJ_135_10_table5" name="J/AJ/135/10/table5">
+   <DESCRIPTION>
+    Catalog of SDSS-DR4/RASS matching sources
+   </DESCRIPTION>
+   <FIELD ID="SDSS" arraysize="19" datatype="char" name="SDSS" ucd="ID_MAIN">
+    <DESCRIPTION>
+     The SDSS object identification, JHHMMSS.ss+DDMMSS.s
+     \linkRole{details from SDSS-DR4 photometric catalog (II/267)}
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_1RXS" arraysize="16" datatype="char" name="_1RXS" ucd="ID_MAIN">
+    <DESCRIPTION>
+     The RASS object identification, HHMMSS.s+DDMMSS \linkRole{details
+     from ROSAT surveys}
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sep" datatype="float" name="Sep" precision="3" ucd="POS_ANG_DIST_GENERAL" unit="arcs" width="6">
+    <DESCRIPTION>
+     Separation between RASS and SDSS source positions
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="ePos" datatype="float" name="ePos" precision="1" ucd="ERROR" unit="arcs" width="4">
+    <DESCRIPTION>
+     Positional error of RASS measurement (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Match" datatype="float" name="Match" precision="3" ucd="STAT_PROBABILITY" width="5">
+    <DESCRIPTION>
+     Probability RASS/SDSS match is real
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Class" arraysize="21" datatype="char" name="Class" ucd="CLASS_OBJECT">
+    <DESCRIPTION>
+     Object spectroscopic classification (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sloan" arraysize="5" datatype="char" name="Sloan" ucd="DATA_LINK">
+    <DESCRIPTION>
+     SDSS-DR7 page for this source
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Position from SDSS name (right ascension part)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Position from SDSS name (declination part)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>J141715.20+001314.6</TD>
+      <TD>J141717.7+001247</TD>
+      <TD>46.247</TD>
+      <TD>24.0</TD>
+      <TD>0.077</TD>
+      <TD>unclassifiable</TD>
+      <TD>Sloan</TD>
+      <TD>214.31333</TD>
+      <TD>  0.22072</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

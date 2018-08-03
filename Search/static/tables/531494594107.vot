@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="III_254_crvad2" name="III/254/crvad2">
+   <DESCRIPTION>
+    The catalogue of radial velocities of galactic stars with high
+    precision astrometric data, the 2nd version (CRVAD-2)
+   </DESCRIPTION>
+   <FIELD ID="RAdeg" datatype="double" name="RAdeg" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right Ascension J2000.0, epoch 1991.25
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination J2000.0, epoch 1991.25
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Plx" datatype="double" name="Plx" precision="2" ucd="POS_PARLX_TRIG" unit="mas" width="8">
+    <DESCRIPTION>
+     ? Trigonometric parallax
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="3" ucd="PHOT_JHN_V" unit="mag" width="7">
+    <DESCRIPTION>
+     ? V magnitude in Johnson system
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Scat" datatype="float" name="Scat" precision="3" ucd="ERROR" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Scatter on magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="12" datatype="char" name="SpType" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     MK Spectral type compiled from ASCC-2.5 and GCRV
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_IDENTIFIER" width="7">
+    <DESCRIPTION>
+     ? Hipparcos number (Cat. I/239) [NULL integer written as an empty
+     string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="ASCC" datatype="int" name="ASCC" ucd="ID_ALTERNATIVE" width="8">
+    <DESCRIPTION>
+     ASCC-2.5 (Cat. I/280) number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RV" datatype="double" name="RV" precision="2" ucd="VELOC_HC" unit="km.s-1" width="8">
+    <DESCRIPTION>
+     Radial Velocity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_RV" datatype="float" name="e_RV" precision="2" ucd="ERROR" unit="km.s-1" width="7">
+    <DESCRIPTION>
+     ? Mean standard error in RV
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="q_RV" arraysize="1" datatype="char" name="q_RV" ucd="CODE_QUALITY">
+    <DESCRIPTION>
+     [A-E I] Quality index of the RV from CGRV (Cat. III/213)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="o_RV" datatype="short" name="o_RV" ucd="NUMBER" width="4">
+    <DESCRIPTION>
+     ? Number of observations [NULL integer written as an empty
+     string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>298.70436</TD>
+      <TD> 35.00557</TD>
+      <TD>    2.37</TD>
+      <TD>  8.559</TD>
+      <TD> 0.020</TD>
+      <TD>F8</TD>
+      <TD>97987</TD>
+      <TD>518835</TD>
+      <TD>   12.10</TD>
+      <TD>   3.80</TD>
+      <TD/>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>298.75057</TD>
+      <TD> 34.90056</TD>
+      <TD>    2.72</TD>
+      <TD>  7.205</TD>
+      <TD> 0.008</TD>
+      <TD>K0</TD>
+      <TD>98004</TD>
+      <TD>618454</TD>
+      <TD>  -26.83</TD>
+      <TD>   0.13</TD>
+      <TD/>
+      <TD>5</TD>
+     </TR>
+     <TR>
+      <TD>299.07665</TD>
+      <TD> 35.08349</TD>
+      <TD>   23.29</TD>
+      <TD>  3.898</TD>
+      <TD> 0.004</TD>
+      <TD>K0 III</TD>
+      <TD>98110</TD>
+      <TD>519149</TD>
+      <TD>  -26.26</TD>
+      <TD>   0.37</TD>
+      <TD/>
+      <TD>21</TD>
+     </TR>
+     <TR>
+      <TD>299.10263</TD>
+      <TD> 35.79008</TD>
+      <TD>    3.21</TD>
+      <TD>  7.576</TD>
+      <TD> 0.010</TD>
+      <TD>G5</TD>
+      <TD>98116</TD>
+      <TD>519173</TD>
+      <TD>  -28.90</TD>
+      <TD>   2.00</TD>
+      <TD/>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>299.22225</TD>
+      <TD> 35.53684</TD>
+      <TD>    6.72</TD>
+      <TD>  8.197</TD>
+      <TD> 0.013</TD>
+      <TD>Am</TD>
+      <TD>98157</TD>
+      <TD>519262</TD>
+      <TD>  -27.00</TD>
+      <TD>   2.80</TD>
+      <TD/>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>299.30553</TD>
+      <TD> 35.03144</TD>
+      <TD>    8.76</TD>
+      <TD>  7.257</TD>
+      <TD> 0.009</TD>
+      <TD>F6        d</TD>
+      <TD>98193</TD>
+      <TD>519318</TD>
+      <TD>   -0.63</TD>
+      <TD>   1.44</TD>
+      <TD/>
+      <TD>2</TD>
+     </TR>
+     <TR>
+      <TD>299.30566</TD>
+      <TD> 35.03140</TD>
+      <TD>    8.94</TD>
+      <TD> 11.180</TD>
+      <TD/>
+      <TD>F6        d</TD>
+      <TD>98193</TD>
+      <TD>2602752</TD>
+      <TD>   -0.63</TD>
+      <TD>   1.44</TD>
+      <TD/>
+      <TD>2</TD>
+     </TR>
+     <TR>
+      <TD>299.45582</TD>
+      <TD> 34.24666</TD>
+      <TD>    1.78</TD>
+      <TD>  7.885</TD>
+      <TD> 0.012</TD>
+      <TD>A0</TD>
+      <TD>98239</TD>
+      <TD>619102</TD>
+      <TD>   -0.90</TD>
+      <TD>   1.90</TD>
+      <TD/>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>299.55694</TD>
+      <TD> 34.42276</TD>
+      <TD>    3.64</TD>
+      <TD>  7.680</TD>
+      <TD> 0.019</TD>
+      <TD>B9</TD>
+      <TD>98289</TD>
+      <TD>619187</TD>
+      <TD>   -5.90</TD>
+      <TD>   1.80</TD>
+      <TD/>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>299.59033</TD>
+      <TD> 35.20162</TD>
+      <TD>    0.63</TD>
+      <TD>  8.913</TD>
+      <TD> 0.029</TD>
+      <TD>O9.7I ab</TD>
+      <TD>98298</TD>
+      <TD>519528</TD>
+      <TD>   -2.70</TD>
+      <TD/>
+      <TD>B</TD>
+      <TD>-32768</TD>
+     </TR>
+     <TR>
+      <TD>299.61462</TD>
+      <TD> 35.56813</TD>
+      <TD/>
+      <TD> 12.082</TD>
+      <TD/>
+      <TD>C</TD>
+      <TD>-2147483648</TD>
+      <TD>519543</TD>
+      <TD>  -32.20</TD>
+      <TD/>
+      <TD/>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>299.71510</TD>
+      <TD> 35.49774</TD>
+      <TD>    3.66</TD>
+      <TD>  6.992</TD>
+      <TD> 0.008</TD>
+      <TD>A1</TD>
+      <TD>98343</TD>
+      <TD>519619</TD>
+      <TD>    4.60</TD>
+      <TD/>
+      <TD>B</TD>
+      <TD>7</TD>
+     </TR>
+     <TR>
+      <TD>299.77978</TD>
+      <TD> 35.53668</TD>
+      <TD>    2.77</TD>
+      <TD>  9.190</TD>
+      <TD> 0.335</TD>
+      <TD/>
+      <TD>98369</TD>
+      <TD>519670</TD>
+      <TD>   -2.00</TD>
+      <TD/>
+      <TD>D</TD>
+      <TD>3</TD>
+     </TR>
+     <TR>
+      <TD>299.78111</TD>
+      <TD> 35.53615</TD>
+      <TD>    0.89</TD>
+      <TD>  8.622</TD>
+      <TD> 0.019</TD>
+      <TD>B9</TD>
+      <TD>98369</TD>
+      <TD>519672</TD>
+      <TD>   -9.00</TD>
+      <TD/>
+      <TD>E</TD>
+      <TD>3</TD>
+     </TR>
+     <TR>
+      <TD>299.79820</TD>
+      <TD> 36.11535</TD>
+      <TD>    5.50</TD>
+      <TD>  9.149</TD>
+      <TD> 0.221</TD>
+      <TD>B0.5III</TD>
+      <TD>-2147483648</TD>
+      <TD>519687</TD>
+      <TD>   -9.00</TD>
+      <TD>   2.90</TD>
+      <TD/>
+      <TD>6</TD>
+     </TR>
+     <TR>
+      <TD>299.95461</TD>
+      <TD> 35.30934</TD>
+      <TD>    1.58</TD>
+      <TD>  9.000</TD>
+      <TD> 0.018</TD>
+      <TD>O6.5 V</TD>
+      <TD>98418</TD>
+      <TD>519824</TD>
+      <TD>   20.00</TD>
+      <TD>   4.40</TD>
+      <TD/>
+      <TD>10</TD>
+     </TR>
+     <TR>
+      <TD>300.07651</TD>
+      <TD> 34.40872</TD>
+      <TD>   88.59</TD>
+      <TD> 10.344</TD>
+      <TD> 0.569</TD>
+      <TD>C</TD>
+      <TD>-2147483648</TD>
+      <TD>619654</TD>
+      <TD>  -45.50</TD>
+      <TD/>
+      <TD/>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>300.39109</TD>
+      <TD> 34.58309</TD>
+      <TD>    1.88</TD>
+      <TD>  8.532</TD>
+      <TD> 0.014</TD>
+      <TD>B8 V</TD>
+      <TD>98593</TD>
+      <TD>619950</TD>
+      <TD>  -20.00</TD>
+      <TD/>
+      <TD>D</TD>
+      <TD>4</TD>
+     </TR>
+     <TR>
+      <TD>300.39116</TD>
+      <TD> 34.58309</TD>
+      <TD>    1.87</TD>
+      <TD>  8.662</TD>
+      <TD/>
+      <TD>B8 V</TD>
+      <TD>98593</TD>
+      <TD>619951</TD>
+      <TD>  -20.00</TD>
+      <TD/>
+      <TD>D</TD>
+      <TD>4</TD>
+     </TR>
+     <TR>
+      <TD>300.43696</TD>
+      <TD> 35.55177</TD>
+      <TD>   -6.30</TD>
+      <TD> 11.041</TD>
+      <TD> 0.913</TD>
+      <TD>B4n</TD>
+      <TD>-2147483648</TD>
+      <TD>520166</TD>
+      <TD>  -28.00</TD>
+      <TD/>
+      <TD>E</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>300.50757</TD>
+      <TD> 35.33248</TD>
+      <TD>    2.30</TD>
+      <TD>  7.411</TD>
+      <TD> 0.010</TD>
+      <TD>B8 V</TD>
+      <TD>98637</TD>
+      <TD>520214</TD>
+      <TD>  -30.00</TD>
+      <TD/>
+      <TD>D</TD>
+      <TD>7</TD>
+     </TR>
+     <TR>
+      <TD>300.51190</TD>
+      <TD> 35.64113</TD>
+      <TD>    1.33</TD>
+      <TD>  7.848</TD>
+      <TD> 0.014</TD>
+      <TD>G5 Ib</TD>
+      <TD>98638</TD>
+      <TD>520218</TD>
+      <TD>   11.00</TD>
+      <TD/>
+      <TD>C</TD>
+      <TD>4</TD>
+     </TR>
+     <TR>
+      <TD>300.56902</TD>
+      <TD> 34.70727</TD>
+      <TD>   18.60</TD>
+      <TD>  9.233</TD>
+      <TD> 0.231</TD>
+      <TD>B7 IV</TD>
+      <TD>-2147483648</TD>
+      <TD>620104</TD>
+      <TD>  -35.00</TD>
+      <TD/>
+      <TD>E</TD>
+      <TD>4</TD>
+     </TR>
+     <TR>
+      <TD>300.59049</TD>
+      <TD> 35.67497</TD>
+      <TD>  -13.69</TD>
+      <TD>  9.694</TD>
+      <TD> 0.360</TD>
+      <TD>O8</TD>
+      <TD>-2147483648</TD>
+      <TD>520286</TD>
+      <TD>  -13.00</TD>
+      <TD/>
+      <TD>C</TD>
+      <TD>3</TD>
+     </TR>
+     <TR>
+      <TD>300.62059</TD>
+      <TD> 34.83867</TD>
+      <TD/>
+      <TD> 11.756</TD>
+      <TD/>
+      <TD>C</TD>
+      <TD>-2147483648</TD>
+      <TD>620148</TD>
+      <TD>  -75.70</TD>
+      <TD/>
+      <TD/>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>300.67387</TD>
+      <TD> 34.83553</TD>
+      <TD>    9.80</TD>
+      <TD>  9.145</TD>
+      <TD> 0.273</TD>
+      <TD>G0 V</TD>
+      <TD>-2147483648</TD>
+      <TD>620199</TD>
+      <TD>  -45.00</TD>
+      <TD/>
+      <TD>D</TD>
+      <TD>4</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

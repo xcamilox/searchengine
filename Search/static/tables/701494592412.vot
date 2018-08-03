@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJ_823_114_table1" name="J/ApJ/823/114/table1">
+   <DESCRIPTION>
+    Stellar parameters, masses and ages as determined by The Cannon
+    for APOGEE giants
+   </DESCRIPTION>
+   <FIELD ID="Type" arraysize="2" datatype="char" name="Type" ucd="CLASS_CODE">
+    <DESCRIPTION>
+     Red giant type (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_2MASS" arraysize="16" datatype="char" name="_2MASS" ucd="ID_MAIN">
+    <DESCRIPTION>
+     2MASS identifier (HHMMSSss+DDMMSSs; J2000) (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Teff" datatype="float" name="Teff" precision="2" ucd="PHYS_TEMP_EFFEC" unit="K" width="7">
+    <DESCRIPTION>
+     [4054/5120] Effective temperature
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="log_g_" datatype="float" name="log_g_" precision="3" ucd="PHYS_GRAVITY_SURFACE" unit="[cm/s2]" width="6">
+    <DESCRIPTION>
+     [1.3/3.4] log surface gravity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="__Fe_H_" datatype="float" name="__Fe_H_" precision="3" ucd="PHYS_ABUND_FE/H" unit="[Sun]" width="6">
+    <DESCRIPTION>
+     [-0.9/0.4] log Fe/H number abundance (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="__a_Fe_" datatype="float" name="__a_Fe_" precision="3" ucd="PHYS_MASS_MISC" unit="[Sun]" width="6">
+    <DESCRIPTION>
+     [-0.03/0.3] log {alpha}/Fe number abundance (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="lnM" datatype="float" name="lnM" precision="E3" ucd="PHYS_MASS_MISC" unit="[Msun]" width="10">
+    <DESCRIPTION>
+     [-1.1/1.9] ln stellar mass (4)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="lnAge" datatype="float" name="lnAge" precision="E3" ucd="TIME_AGE" unit="[Gyr]" width="10">
+    <DESCRIPTION>
+     [-2.8/5.3] ln stellar age (5)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="chi2" datatype="float" name="chi2" precision="2" ucd="FIT_CHI2" width="5">
+    <DESCRIPTION>
+     [0.1/24.3] The {chi}^2^ statistic (6)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Rgal" datatype="float" name="Rgal" precision="3" ucd="POS_GAL_GC" unit="kpc" width="7">
+    <DESCRIPTION>
+     [-13.25/21.77] Galactocentric radius
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Positions from 2MASS names (right ascension part)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="4" ucd="POS_EQ_DEC_MAIN" unit="deg" width="8">
+    <DESCRIPTION>
+     Positions from 2MASS names (declination part)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>I</TD>
+      <TD>14165762+0404050</TD>
+      <TD>4426.00</TD>
+      <TD> 2.030</TD>
+      <TD>-0.579</TD>
+      <TD> 0.233</TD>
+      <TD>    0.0675</TD>
+      <TD>      2.04</TD>
+      <TD> 0.70</TD>
+      <TD>  6.330</TD>
+      <TD>214.24008</TD>
+      <TD>  0.0681</TD>
+     </TR>
+     <TR>
+      <TD>I</TD>
+      <TD>14165896+0520480</TD>
+      <TD>4741.35</TD>
+      <TD> 2.840</TD>
+      <TD>-0.452</TD>
+      <TD> 0.270</TD>
+      <TD>     0.034</TD>
+      <TD>       2.1</TD>
+      <TD> 2.05</TD>
+      <TD>  6.060</TD>
+      <TD>214.24567</TD>
+      <TD>  0.3467</TD>
+     </TR>
+     <TR>
+      <TD>I</TD>
+      <TD>14174153+5318030</TD>
+      <TD>4775.73</TD>
+      <TD> 2.400</TD>
+      <TD>-0.289</TD>
+      <TD> 0.233</TD>
+      <TD>    -0.108</TD>
+      <TD>      2.26</TD>
+      <TD> 0.73</TD>
+      <TD>  8.130</TD>
+      <TD>214.42304</TD>
+      <TD>  0.3008</TD>
+     </TR>
+     <TR>
+      <TD>I</TD>
+      <TD>14191886+0516130</TD>
+      <TD>4842.05</TD>
+      <TD> 2.350</TD>
+      <TD>-0.512</TD>
+      <TD> 0.263</TD>
+      <TD>    -0.216</TD>
+      <TD>      2.42</TD>
+      <TD> 0.44</TD>
+      <TD>  7.330</TD>
+      <TD>214.82858</TD>
+      <TD>  0.2703</TD>
+     </TR>
+     <TR>
+      <TD>I</TD>
+      <TD>14213726-0438030</TD>
+      <TD>4947.78</TD>
+      <TD> 3.260</TD>
+      <TD>-0.518</TD>
+      <TD> 0.200</TD>
+      <TD>    0.0512</TD>
+      <TD>      2.23</TD>
+      <TD> 1.77</TD>
+      <TD>  6.910</TD>
+      <TD>215.40525</TD>
+      <TD> -0.6342</TD>
+     </TR>
+     <TR>
+      <TD>I</TD>
+      <TD>14220540-0510220</TD>
+      <TD>4939.87</TD>
+      <TD> 3.250</TD>
+      <TD>-0.424</TD>
+      <TD> 0.211</TD>
+      <TD>     0.129</TD>
+      <TD>      2.12</TD>
+      <TD> 1.18</TD>
+      <TD>  6.370</TD>
+      <TD>215.52250</TD>
+      <TD> -0.1728</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

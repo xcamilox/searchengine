@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="II_68_catalog" name="II/68/catalog">
+   <DESCRIPTION>
+    The Dearborn Observatory catalog
+   </DESCRIPTION>
+   <FIELD ID="DO" datatype="int" name="DO" ucd="ID_MAIN" width="5">
+    <DESCRIPTION>
+     [1/44076]+ Dearborn number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_DO" arraysize="1" datatype="char" name="n_DO" ucd="NOTE">
+    <DESCRIPTION>
+     [#*] a note exists in the file
+     "\begin{tex}\vFile{II/68/./notes.dat}{notes.dat}\end{tex}"
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RA1900" arraysize="7" datatype="char" name="RA1900" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension 1900
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DE1900" arraysize="6" datatype="char" name="DE1900" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination 1900
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Rmag" datatype="float" name="Rmag" precision="1" ucd="PHOT_PHG_R" unit="mag" width="4">
+    <DESCRIPTION>
+     ? Magnitude on red-sensitive emulsion
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="n_Rmag" arraysize="1" datatype="char" name="n_Rmag" ucd="NOTE">
+    <DESCRIPTION>
+     [?*V] Uncertainty and variability flag
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="4" datatype="char" name="SpType" ucd="SPECT_TYPE_GENERAL">
+    <DESCRIPTION>
+     Dearborn spectral type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HDtype" arraysize="3" datatype="char" name="HDtype" ucd="SPECT_TYPE_GENERAL">
+    <DESCRIPTION>
+     Spectral type from HD (catalog &lt;III/135&gt;)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA.icrs" arraysize="10" datatype="char" name="_RA.icrs" ucd="POS_EQ_RA_OTHER" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (ICRS) (computed by VizieR, not part of the
+     original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" arraysize="9" datatype="char" name="_DE.icrs" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (ICRS) (computed by VizieR, not part of the original
+     data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>18325</TD>
+      <TD/>
+      <TD>19 51.1</TD>
+      <TD>+35 02</TD>
+      <TD> 7.4</TD>
+      <TD>*</TD>
+      <TD>M2</TD>
+      <TD/>
+      <TD>19 54 50.5</TD>
+      <TD>+35 17 49</TD>
+     </TR>
+     <TR>
+      <TD>18368</TD>
+      <TD/>
+      <TD>19 52.9</TD>
+      <TD>+35 25</TD>
+      <TD> 8.8</TD>
+      <TD/>
+      <TD>K5</TD>
+      <TD/>
+      <TD>19 56 37.6</TD>
+      <TD>+35 41 02</TD>
+     </TR>
+     <TR>
+      <TD>18397</TD>
+      <TD/>
+      <TD>19 54.7</TD>
+      <TD>+34 25</TD>
+      <TD> 8.2</TD>
+      <TD/>
+      <TD>K5</TD>
+      <TD/>
+      <TD>19 58 29.0</TD>
+      <TD>+34 41 16</TD>
+     </TR>
+     <TR>
+      <TD>18434</TD>
+      <TD/>
+      <TD>19 56.3</TD>
+      <TD>+35 02</TD>
+      <TD> 7.0</TD>
+      <TD/>
+      <TD>M1</TD>
+      <TD>K5</TD>
+      <TD>20 00 03.5</TD>
+      <TD>+35 18 28</TD>
+     </TR>
+     <TR>
+      <TD>18443</TD>
+      <TD/>
+      <TD>19 56.7</TD>
+      <TD>+35 04</TD>
+      <TD> 7.3</TD>
+      <TD/>
+      <TD>K5</TD>
+      <TD>K2</TD>
+      <TD>20 00 27.5</TD>
+      <TD>+35 20 32</TD>
+     </TR>
+     <TR>
+      <TD>18476</TD>
+      <TD/>
+      <TD>19 58.2</TD>
+      <TD>+35 22</TD>
+      <TD> 7.7</TD>
+      <TD/>
+      <TD>K5</TD>
+      <TD>K5P</TD>
+      <TD>20 01 56.9</TD>
+      <TD>+35 38 43</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

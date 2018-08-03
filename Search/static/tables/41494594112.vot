@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="I_82_catalog" name="I/82/catalog">
+   <DESCRIPTION>
+    The SPF1 Catalogue
+   </DESCRIPTION>
+   <FIELD ID="FK4" datatype="short" name="FK4" ucd="ID_NUMBER" width="4">
+    <DESCRIPTION>
+     [1/1987] Number in the FK4 catalogue (Fricke and Kopff 1963).
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RA1950" arraysize="5" datatype="char" name="RA1950" ucd="POS_EQ_RA_OTHER" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Approximate Right Ascension 1950
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DE1950" arraysize="6" datatype="char" name="DE1950" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Approximate Declination 1950
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="dRAms_i_" datatype="int" name="dRAms_i_" ucd="POS_EQ_RA_CORR" unit="ms" width="5">
+    <DESCRIPTION>
+     Correction to the FK4 right ascension in the instrumental system
+     (RA-RA(i)) for the mean epoch of the observations.
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="o_dRAms_i_" datatype="short" name="o_dRAms_i_" ucd="NUMBER" width="2">
+    <DESCRIPTION>
+     Number of observations for dRAms(i)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_dRAms_i_" datatype="short" name="e_dRAms_i_" ucd="ERROR" unit="ms" width="3">
+    <DESCRIPTION>
+     ? Mean square error of the catalogue position multiplied by
+     cos(delta), computed with the deviations of the observations from
+     the mean. [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="dRAms_FK4_" datatype="int" name="dRAms_FK4_" ucd="POS_EQ_RA_CORR" unit="ms" width="5">
+    <DESCRIPTION>
+     Correction to the FK4 right ascension in the FR4 system for the
+     mean epoch of the observations.
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Epoch" datatype="float" name="Epoch" precision="2" ucd="TIME_EPOCH" unit="yr" width="7">
+    <DESCRIPTION>
+     Mean epoch of the observations
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right Ascension (J2000) from SIMBAD (not part of the original
+     data)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (J2000) from SIMBAD (not part of the original data)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>1521</TD>
+      <TD>19 54</TD>
+      <TD>+34 56</TD>
+      <TD>0</TD>
+      <TD>1</TD>
+      <TD>-32768</TD>
+      <TD>15</TD>
+      <TD>1963.54</TD>
+      <TD>Simbad</TD>
+      <TD>299.07655</TD>
+      <TD> 35.08342</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="V_106_hmxbcat" name="V/106/hmxbcat">
+   <DESCRIPTION>
+    High-mass X-ray binaries catalog (obsoleted by {\bf
+    J/A+A/455/1165})
+   </DESCRIPTION>
+   <FIELD ID="Name" arraysize="16" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Source Name (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Type" arraysize="6" datatype="char" name="Type" ucd="CLASS_OBJECT">
+    <DESCRIPTION>
+     [ABTUDGPVZ (?)] X-ray type (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="12" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (J2000.0) (9)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="12" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (J2000.0) (9)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Pos" arraysize="4" datatype="char" name="Pos" ucd="CODE_MISC">
+    <DESCRIPTION>
+     Type of observation from which the source position has been
+     derived (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="3" ucd="PHOT_MAG_V" unit="mag" width="6">
+    <DESCRIPTION>
+     ? V magnitude (6)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="l_Fx" arraysize="1" datatype="char" name="l_Fx" ucd="CODE_LIMIT">
+    <DESCRIPTION>
+     Limit flag on Fx
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Fx" datatype="double" name="Fx" precision="3" ucd="PHOT_FLUX_X" unit="uJy" width="11">
+    <DESCRIPTION>
+     ? Average X-ray flux (2-10keV)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Porb" datatype="double" name="Porb" precision="6" ucd="TIME_PERIOD" unit="d" width="10">
+    <DESCRIPTION>
+     ? Orbital period
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>1956+350</TD>
+      <TD>U</TD>
+      <TD>19 58 21.700</TD>
+      <TD>+35 12 06.00</TD>
+      <TD>o,r</TD>
+      <TD> 8.900</TD>
+      <TD/>
+      <TD>    235.000</TD>
+      <TD>  5.000000</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

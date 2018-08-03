@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="I_334_w2j00sta" name="I/334/w2j00sta">
+   <DESCRIPTION>
+    W2J00 star positions (means) (W2J00_stars.dat)
+   </DESCRIPTION>
+   <FIELD ID="W2J00" datatype="int" name="W2J00" ucd="ID_MAIN" width="5">
+    <DESCRIPTION>
+     W2J00 identifier
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="12" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension at epoch EpRA (ICRS) (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_RAJ2000" datatype="short" name="e_RAJ2000" ucd="ERROR" unit="mas" width="3">
+    <DESCRIPTION>
+     Weighted standard error of the mean, RA
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="NumRA" datatype="short" name="NumRA" ucd="NUMBER" width="3">
+    <DESCRIPTION>
+     Number of observations used for RA
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="EpRA" datatype="double" name="EpRA" precision="3" ucd="TIME_EPOCH" unit="yr" width="8">
+    <DESCRIPTION>
+     Mean epoch of RA
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="12" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination at epoch EpDE (ICRS) (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_DEJ2000" datatype="short" name="e_DEJ2000" ucd="ERROR" unit="mas" width="3">
+    <DESCRIPTION>
+     Weighted standard error of the mean, DE
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="NumDE" datatype="short" name="NumDE" ucd="NUMBER" width="3">
+    <DESCRIPTION>
+     Number of observations used for DE
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="EpDE" datatype="double" name="EpDE" precision="3" ucd="TIME_EPOCH" unit="yr" width="8">
+    <DESCRIPTION>
+     Mean epoch of DE
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="1" ucd="PHOT_MAG_V" unit="mag" width="4">
+    <DESCRIPTION>
+     Visual magnitude (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_ALTERNATIVE" width="6">
+    <DESCRIPTION>
+     ? Hipparcos Catalogue (Cat. I/239) number (3) [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="RA6" arraysize="12" datatype="char" name="RA6" ucd="POS_EQ_RA_OTHER" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     ? Right ascension from 6-inch, at epoch EpRA6 (ICRS) (4)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="e_RA6" datatype="short" name="e_RA6" ucd="ERROR" unit="mas" width="3">
+    <DESCRIPTION>
+     ? Weighted standard error of the mean, RA6 [NULL integer written
+     as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="NumRA6" datatype="short" name="NumRA6" ucd="NUMBER" width="3">
+    <DESCRIPTION>
+     ? Number of observations used for RA6 [NULL integer written as an
+     empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="EpRA6" datatype="double" name="EpRA6" precision="3" ucd="TIME_EPOCH" unit="yr" width="8">
+    <DESCRIPTION>
+     ? Mean epoch of RA6
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="DE6" arraysize="12" datatype="char" name="DE6" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     ? Declination from 6-inch, at epoch EpDE6 (ICRS) (4)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="e_DE6" datatype="short" name="e_DE6" ucd="ERROR" unit="mas" width="3">
+    <DESCRIPTION>
+     ? Weighted standard error of the mean, DE6 [NULL integer written
+     as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="NumDE6" datatype="short" name="NumDE6" ucd="NUMBER" width="3">
+    <DESCRIPTION>
+     ? Number of observations used for DE6 [NULL integer written as an
+     empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="EpDE6" datatype="double" name="EpDE6" precision="3" ucd="TIME_EPOCH" unit="yr" width="8">
+    <DESCRIPTION>
+     ? Mean epoch of DE6
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="RA7" arraysize="12" datatype="char" name="RA7" ucd="POS_EQ_RA_OTHER" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     ? Right ascension from 7-inch, at epoch EpRA7 (ICRS) (5)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="e_RA7" datatype="short" name="e_RA7" ucd="ERROR" unit="mas" width="3">
+    <DESCRIPTION>
+     ? Weighted standard error of the mean, RA7 [NULL integer written
+     as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="NumRA7" datatype="short" name="NumRA7" ucd="NUMBER" width="3">
+    <DESCRIPTION>
+     ? Number of observations used for RA7 [NULL integer written as an
+     empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="EpRA7" datatype="double" name="EpRA7" precision="3" ucd="TIME_EPOCH" unit="yr" width="8">
+    <DESCRIPTION>
+     ? Mean epoch of RA7
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="DE7" arraysize="12" datatype="char" name="DE7" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     ? Declination from 7-inch, at epoch EpDE7 (ICRS) (5)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="e_DE7" datatype="short" name="e_DE7" ucd="ERROR" unit="mas" width="3">
+    <DESCRIPTION>
+     ? Weighted standard error of the mean, DE7 [NULL integer written
+     as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="NumDE7" datatype="short" name="NumDE7" ucd="NUMBER" width="3">
+    <DESCRIPTION>
+     ? Number of observations used for DE7 [NULL integer written as an
+     empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="EpDE7" datatype="double" name="EpDE7" precision="3" ucd="TIME_EPOCH" unit="yr" width="8">
+    <DESCRIPTION>
+     ? Mean epoch of DE7
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>24753</TD>
+      <TD>14 17 01.488</TD>
+      <TD>67</TD>
+      <TD>15</TD>
+      <TD>1991.613</TD>
+      <TD>-00 04 44.40</TD>
+      <TD>54</TD>
+      <TD>15</TD>
+      <TD>1991.616</TD>
+      <TD> 9.1</TD>
+      <TD>69785</TD>
+      <TD>14 17 01.485</TD>
+      <TD>103</TD>
+      <TD>7</TD>
+      <TD>1991.729</TD>
+      <TD>-00 04 44.43</TD>
+      <TD>96</TD>
+      <TD>7</TD>
+      <TD>1991.729</TD>
+      <TD>14 17 01.491</TD>
+      <TD>91</TD>
+      <TD>8</TD>
+      <TD>1991.509</TD>
+      <TD>-00 04 44.38</TD>
+      <TD>64</TD>
+      <TD>8</TD>
+      <TD>1991.509</TD>
+     </TR>
+     <TR>
+      <TD>24774</TD>
+      <TD>14 19 26.953</TD>
+      <TD>52</TD>
+      <TD>13</TD>
+      <TD>1992.001</TD>
+      <TD>-00 00 48.04</TD>
+      <TD>52</TD>
+      <TD>13</TD>
+      <TD>1991.998</TD>
+      <TD> 8.3</TD>
+      <TD>70002</TD>
+      <TD>14 19 26.951</TD>
+      <TD>88</TD>
+      <TD>7</TD>
+      <TD>1991.873</TD>
+      <TD>-00 00 48.12</TD>
+      <TD>48</TD>
+      <TD>7</TD>
+      <TD>1991.873</TD>
+      <TD>14 19 26.957</TD>
+      <TD>52</TD>
+      <TD>6</TD>
+      <TD>1992.156</TD>
+      <TD>-00 00 47.93</TD>
+      <TD>87</TD>
+      <TD>6</TD>
+      <TD>1992.156</TD>
+     </TR>
+     <TR>
+      <TD>24519</TD>
+      <TD>14 22 46.419</TD>
+      <TD>24</TD>
+      <TD>53</TD>
+      <TD>1991.603</TD>
+      <TD>-00 38 13.55</TD>
+      <TD>35</TD>
+      <TD>53</TD>
+      <TD>1991.597</TD>
+      <TD> 6.7</TD>
+      <TD>70282</TD>
+      <TD>14 22 46.418</TD>
+      <TD>33</TD>
+      <TD>31</TD>
+      <TD>1991.216</TD>
+      <TD>-00 38 13.53</TD>
+      <TD>44</TD>
+      <TD>31</TD>
+      <TD>1991.216</TD>
+      <TD>14 22 46.420</TD>
+      <TD>31</TD>
+      <TD>22</TD>
+      <TD>1992.159</TD>
+      <TD>-00 38 13.58</TD>
+      <TD>57</TD>
+      <TD>22</TD>
+      <TD>1992.159</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

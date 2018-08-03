@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJS_213_3_table1" name="J/ApJS/213/3/table1">
+   <DESCRIPTION>
+    Low-frequency radio catalog of flat-spectrum sources (LORCAT)
+    catalog
+   </DESCRIPTION>
+   <FIELD ID="WSRT" arraysize="11" datatype="char" name="WSRT" ucd="ID_CROSSID">
+    <DESCRIPTION>
+     WSRT identifier (HHMM.m+DDMM; B1950)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="NVSS" arraysize="14" datatype="char" name="NVSS" ucd="ID_MAIN">
+    <DESCRIPTION>
+     NVSS identifier (JHHMMSS+DDMMSS)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="11" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     NVSS Hour of Right Ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="11" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     NVSS Degree of Declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sep" datatype="float" name="Sep" precision="2" ucd="POS_ANG_DIST_GENERAL" unit="arcs" width="5">
+    <DESCRIPTION>
+     [0/92.3] Angular separation between WSRT &amp; NVSS position
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="alpha" datatype="float" name="alpha" precision="2" ucd="SPECT_SP-INDEX" width="5">
+    <DESCRIPTION>
+     [-1/0.4] Low frequency radio spectral index ({alpha}_low_)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_alpha" datatype="float" name="e_alpha" precision="2" ucd="ERROR" width="5">
+    <DESCRIPTION>
+     Uncertainty in alpha
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Cat" arraysize="5" datatype="char" name="Cat" ucd="ID_CATALOG">
+    <DESCRIPTION>
+     WSRT original survey identifier (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>1955.6+3419</TD>
+      <TD>J195734+342754</TD>
+      <TD>19 57 34.38</TD>
+      <TD>+34 27 54.9</TD>
+      <TD> 7.07</TD>
+      <TD>-0.45</TD>
+      <TD> 0.10</TD>
+      <TD>wenss</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>1956.0+3526</TD>
+      <TD>J195754+353513</TD>
+      <TD>19 57 54.12</TD>
+      <TD>+35 35 13.7</TD>
+      <TD> 5.11</TD>
+      <TD> 0.19</TD>
+      <TD> 0.07</TD>
+      <TD>wenss</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>1956.1+3416</TD>
+      <TD>J195800+342457</TD>
+      <TD>19 58 00.88</TD>
+      <TD>+34 24 57.1</TD>
+      <TD>14.38</TD>
+      <TD>-0.12</TD>
+      <TD> 0.12</TD>
+      <TD>wenss</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>1956.9+3550</TD>
+      <TD>J195848+355916</TD>
+      <TD>19 58 48.62</TD>
+      <TD>+35 59 16.8</TD>
+      <TD> 4.41</TD>
+      <TD>-0.35</TD>
+      <TD> 0.09</TD>
+      <TD>wenss</TD>
+      <TD>Simbad</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

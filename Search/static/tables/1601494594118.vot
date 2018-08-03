@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_MNRAS_457_2192_njcmfull" name="J/MNRAS/457/2192/njcmfull">
+   <DESCRIPTION>
+    Full M dwarf catalogue selected from WISE/SDSS/2MASS
+    (NJCM_full.fits)
+   </DESCRIPTION>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="7" ucd="POS_EQ_RA_MAIN" unit="deg" width="11">
+    <DESCRIPTION>
+     Wise right ascension (J2000) (ra_WISE)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="7" ucd="POS_EQ_DEC_MAIN" unit="deg" width="11">
+    <DESCRIPTION>
+     Wise declination (J2000) (dec_WISE)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="WISE" arraysize="19" datatype="char" name="WISE" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Unique WISE source designation (WISE_id)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SSpL" arraysize="5" datatype="char" name="SSpL" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     NJC Spectral Type string from spt 0.0=M0.0 for use in CSEF
+     program (StringSpt_Lepine)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="NSpL" datatype="double" name="NSpL" precision="5" ucd="SPECT_TYPE_MK" width="8">
+    <DESCRIPTION>
+     NJC Spectral Type float as a function of V-J from Lepine et al.
+     (2013, Cat. J/AJ/145/102) (NumSpt_Lepine)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_NSpL" datatype="double" name="e_NSpL" precision="6" ucd="ERROR" width="9">
+    <DESCRIPTION>
+     NJC Estimated uncertainty in Spectral Type float as a function of
+     V-J from Lepine et al. (2013, J/AJ/145/102) (eNumSpt_Lepine)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpTypeL3" datatype="float" name="SpTypeL3" precision="1" ucd="SPECT_TYPE_MK" width="4">
+    <DESCRIPTION>
+     ? Spectral type from LAMOST dr2 (spt_LAMOST_dr2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="SpTypeL2" datatype="float" name="SpTypeL2" precision="1" ucd="SPECT_TYPE_MK" width="4">
+    <DESCRIPTION>
+     ? Spectral type from LAMOST dr2 (spt_LAMOST_dr3a1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="OSpTypeL1" datatype="unsignedByte" name="OSpTypeL1" ucd="SPECT_TYPE_MK" width="1">
+    <DESCRIPTION>
+     [0/6]? Optical Spectral type as measured by Jing for LAMOST dr1,
+     excess run (Jing_spt_dr1_3) [NULL integer written as an empty
+     string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="WSind" datatype="double" name="WSind" precision="E5" ucd="SPECT_TYPE_MK" width="12">
+    <DESCRIPTION>
+     ? NJC Weighted optical spectral type based LAMOST spectral
+     indices (wav_sindices)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_WSind" datatype="double" name="e_WSind" precision="E5" ucd="ERROR" width="12">
+    <DESCRIPTION>
+     ? NJC uncertainty in Weighted optical spectral type based LAMOST
+     spectral indices (ewav_sindices)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="SpTypeLw" datatype="double" name="SpTypeLw" precision="6" ucd="SPECT_TYPE_MK" width="9">
+    <DESCRIPTION>
+     ? NJC Weighted optical spectral type based on all LAMOST spectral
+     types (weight_LAMOST_spt)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_SpTypeLw" datatype="double" name="e_SpTypeLw" precision="6" ucd="ERROR" width="9">
+    <DESCRIPTION>
+     ? NJC uncertainty in Weighted optical spectral type based on all
+     LAMOST spectral types (eweight_LAMOST_spt)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="SpTypew" datatype="double" name="SpTypew" precision="E5" ucd="SPECT_TYPE_MK" width="12">
+    <DESCRIPTION>
+     ? NJC Weighted Spectral type (all spectral types) (wav_all_spts)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_SpTypew" datatype="double" name="e_SpTypew" precision="E5" ucd="ERROR" width="12">
+    <DESCRIPTION>
+     ? NJC uncertainty in Weighted Spectral type (all spectral types)
+     (ewav_all_spts)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>298.9989638</TD>
+      <TD> 35.3922204</TD>
+      <TD>J195559.75+352331.9</TD>
+      <TD>M3.5</TD>
+      <TD> 3.51640</TD>
+      <TD> 0.044630</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>299.3575680</TD>
+      <TD> 35.1625564</TD>
+      <TD>J195725.81+350945.2</TD>
+      <TD>M3.5</TD>
+      <TD> 3.42386</TD>
+      <TD> 0.059862</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>299.4312111</TD>
+      <TD> 35.1140209</TD>
+      <TD>J195743.49+350650.4</TD>
+      <TD>M3.5</TD>
+      <TD> 3.57835</TD>
+      <TD> 0.047197</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>299.7926287</TD>
+      <TD> 35.0026494</TD>
+      <TD>J195910.23+350009.5</TD>
+      <TD>M3.5</TD>
+      <TD> 3.47392</TD>
+      <TD> 0.062909</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>300.0050627</TD>
+      <TD> 34.8947139</TD>
+      <TD>J200001.21+345340.9</TD>
+      <TD>M4.0</TD>
+      <TD> 3.79356</TD>
+      <TD> 0.066195</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>300.3928099</TD>
+      <TD> 34.4963944</TD>
+      <TD>J200134.27+342947.0</TD>
+      <TD>M4.0</TD>
+      <TD> 3.83224</TD>
+      <TD> 0.026128</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

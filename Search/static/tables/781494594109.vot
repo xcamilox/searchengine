@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="V_133_kic" name="V/133/kic">
+   <DESCRIPTION>
+    Kepler Input Catalog
+   </DESCRIPTION>
+   <FIELD ID="KIC" datatype="int" name="KIC" ucd="ID_MAIN" width="8">
+    <DESCRIPTION>
+     [1,13161029] KIC identifier (running number)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="6" ucd="POS_EQ_RA_MAIN" unit="deg" width="10">
+    <DESCRIPTION>
+     Right Ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="6" ucd="POS_EQ_DEC_MAIN" unit="deg" width="10">
+    <DESCRIPTION>
+     Declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="umag" datatype="float" name="umag" precision="3" ucd="PHOT_SDSS_U" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Estimated magnitude in SDSS-u band (uncalibrated or
+     photographic values are {\fg{gray40}in gray}) (2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="gmag" datatype="float" name="gmag" precision="3" ucd="PHOT_SDSS_G" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Estimated magnitude in SDSS-g band (uncalibrated or
+     photographic values are {\fg{gray40}in gray}) (2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="rmag" datatype="float" name="rmag" precision="3" ucd="PHOT_SDSS_R" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Estimated magnitude in SDSS-r band (uncalibrated or
+     photographic values are {\fg{gray40}in gray}) (2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="imag" datatype="float" name="imag" precision="3" ucd="PHOT_SDSS_I" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Estimated magnitude in SDSS-i band (uncalibrated or
+     photographic values are {\fg{gray40}in gray}) (2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="3" ucd="PHOT_JHN_J" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Magnitude in 2MASS J band
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Kmag" datatype="float" name="Kmag" precision="3" ucd="PHOT_JHN_K" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Magnitude in 2MASS K band
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="kepmag" datatype="float" name="kepmag" precision="3" ucd="PHOT_MAG_EYE" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Estimated magnitude in Kepler band (uncalibrated or values
+     derived from photographic magnitudes are {\fg{gray40}in gray})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="sg" datatype="unsignedByte" name="sg" ucd="CLASS_STAR/GALAXY" width="1">
+    <DESCRIPTION>
+     [0,1] flags galaxy(1)/star(0) class
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="v" datatype="unsignedByte" name="v" ucd="CODE_VARIAB" width="1">
+    <DESCRIPTION>
+     [0,1] flag variable (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="aq" datatype="unsignedByte" name="aq" ucd="NUMBER" width="1">
+    <DESCRIPTION>
+     [0,6] Number of astrophysical parameters
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="fv" datatype="unsignedByte" name="fv" ucd="NOTE" width="1">
+    <DESCRIPTION>
+     [0,2] outside (0) or inside (1,2) Kepler field of view (2 =
+     Kepler Target)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>148074</TD>
+      <TD>298.617860</TD>
+      <TD> 35.810478</TD>
+      <TD/>
+      <TD/>
+      <TD>15.883</TD>
+      <TD>15.585</TD>
+      <TD>14.353</TD>
+      <TD>13.797</TD>
+      <TD>15.931</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148080</TD>
+      <TD>298.625270</TD>
+      <TD> 35.816410</TD>
+      <TD>17.847</TD>
+      <TD>15.081</TD>
+      <TD>14.494</TD>
+      <TD>14.259</TD>
+      <TD>13.153</TD>
+      <TD>12.781</TD>
+      <TD>14.506</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148082</TD>
+      <TD>298.626800</TD>
+      <TD> 35.821308</TD>
+      <TD/>
+      <TD>14.685</TD>
+      <TD>12.860</TD>
+      <TD>11.122</TD>
+      <TD> 8.282</TD>
+      <TD> 6.950</TD>
+      <TD>12.191</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148083</TD>
+      <TD>298.627810</TD>
+      <TD> 35.813580</TD>
+      <TD/>
+      <TD/>
+      <TD>16.916</TD>
+      <TD>16.572</TD>
+      <TD>15.125</TD>
+      <TD>14.189</TD>
+      <TD>16.964</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148085</TD>
+      <TD>298.629610</TD>
+      <TD> 35.823349</TD>
+      <TD/>
+      <TD>17.676</TD>
+      <TD>16.727</TD>
+      <TD>16.256</TD>
+      <TD>14.794</TD>
+      <TD>13.977</TD>
+      <TD>16.682</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148092</TD>
+      <TD>298.635130</TD>
+      <TD> 35.826191</TD>
+      <TD>19.176</TD>
+      <TD>16.210</TD>
+      <TD>15.349</TD>
+      <TD>15.222</TD>
+      <TD>14.045</TD>
+      <TD>13.544</TD>
+      <TD>16.210</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148095</TD>
+      <TD>298.637150</TD>
+      <TD> 35.831760</TD>
+      <TD/>
+      <TD>16.418</TD>
+      <TD>15.877</TD>
+      <TD>15.777</TD>
+      <TD>14.775</TD>
+      <TD>14.428</TD>
+      <TD>15.970</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148101</TD>
+      <TD>298.641300</TD>
+      <TD> 35.832432</TD>
+      <TD>19.051</TD>
+      <TD>16.011</TD>
+      <TD>15.168</TD>
+      <TD>14.865</TD>
+      <TD>13.614</TD>
+      <TD>13.137</TD>
+      <TD>15.209</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148105</TD>
+      <TD>298.643620</TD>
+      <TD> 35.831211</TD>
+      <TD/>
+      <TD>17.186</TD>
+      <TD>16.307</TD>
+      <TD>16.019</TD>
+      <TD>14.730</TD>
+      <TD>14.285</TD>
+      <TD>16.369</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148107</TD>
+      <TD>298.644620</TD>
+      <TD> 35.834011</TD>
+      <TD/>
+      <TD>17.782</TD>
+      <TD>16.371</TD>
+      <TD>15.868</TD>
+      <TD>13.983</TD>
+      <TD>12.939</TD>
+      <TD>16.442</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148112</TD>
+      <TD>298.649290</TD>
+      <TD> 35.832829</TD>
+      <TD/>
+      <TD>17.696</TD>
+      <TD>17.203</TD>
+      <TD>16.911</TD>
+      <TD>15.576</TD>
+      <TD>15.003</TD>
+      <TD>17.147</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148115</TD>
+      <TD>298.651030</TD>
+      <TD> 35.842899</TD>
+      <TD/>
+      <TD>17.700</TD>
+      <TD>16.669</TD>
+      <TD>16.333</TD>
+      <TD>14.955</TD>
+      <TD>14.701</TD>
+      <TD>16.743</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148116</TD>
+      <TD>298.653260</TD>
+      <TD> 35.823071</TD>
+      <TD>14.575</TD>
+      <TD>11.955</TD>
+      <TD>11.469</TD>
+      <TD>11.415</TD>
+      <TD>10.480</TD>
+      <TD>10.134</TD>
+      <TD>11.577</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148117</TD>
+      <TD>298.653810</TD>
+      <TD> 35.840721</TD>
+      <TD/>
+      <TD>18.145</TD>
+      <TD>17.405</TD>
+      <TD>17.044</TD>
+      <TD>15.936</TD>
+      <TD>15.714</TD>
+      <TD>17.374</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148119</TD>
+      <TD>298.656560</TD>
+      <TD> 35.825989</TD>
+      <TD/>
+      <TD>16.406</TD>
+      <TD>15.127</TD>
+      <TD>14.702</TD>
+      <TD>13.069</TD>
+      <TD>12.319</TD>
+      <TD>15.214</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148121</TD>
+      <TD>298.657530</TD>
+      <TD> 35.837311</TD>
+      <TD/>
+      <TD>16.464</TD>
+      <TD>15.281</TD>
+      <TD>14.769</TD>
+      <TD>12.823</TD>
+      <TD>11.980</TD>
+      <TD>15.277</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148122</TD>
+      <TD>298.657810</TD>
+      <TD> 35.828732</TD>
+      <TD/>
+      <TD>16.420</TD>
+      <TD>15.875</TD>
+      <TD>15.743</TD>
+      <TD>14.701</TD>
+      <TD>14.316</TD>
+      <TD>15.946</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148124</TD>
+      <TD>298.657930</TD>
+      <TD> 35.823761</TD>
+      <TD/>
+      <TD/>
+      <TD>15.971</TD>
+      <TD>15.382</TD>
+      <TD>13.228</TD>
+      <TD>12.199</TD>
+      <TD>15.950</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148125</TD>
+      <TD>298.659030</TD>
+      <TD> 35.845470</TD>
+      <TD/>
+      <TD>16.420</TD>
+      <TD>15.823</TD>
+      <TD>15.713</TD>
+      <TD>14.618</TD>
+      <TD>14.400</TD>
+      <TD>15.925</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148127</TD>
+      <TD>298.659940</TD>
+      <TD> 35.852821</TD>
+      <TD/>
+      <TD>16.400</TD>
+      <TD>15.132</TD>
+      <TD>14.590</TD>
+      <TD>12.891</TD>
+      <TD>12.073</TD>
+      <TD>15.133</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148130</TD>
+      <TD>298.661010</TD>
+      <TD> 35.831650</TD>
+      <TD/>
+      <TD>17.265</TD>
+      <TD>16.391</TD>
+      <TD>16.053</TD>
+      <TD>14.804</TD>
+      <TD>14.358</TD>
+      <TD>16.417</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148131</TD>
+      <TD>298.661440</TD>
+      <TD> 35.833969</TD>
+      <TD/>
+      <TD>18.061</TD>
+      <TD>17.119</TD>
+      <TD>16.740</TD>
+      <TD>15.378</TD>
+      <TD>14.922</TD>
+      <TD>17.137</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148132</TD>
+      <TD>298.662170</TD>
+      <TD> 35.817429</TD>
+      <TD/>
+      <TD>17.020</TD>
+      <TD>15.960</TD>
+      <TD>15.568</TD>
+      <TD>14.151</TD>
+      <TD>13.558</TD>
+      <TD>16.004</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148133</TD>
+      <TD>298.663640</TD>
+      <TD> 35.842892</TD>
+      <TD/>
+      <TD>17.944</TD>
+      <TD>16.755</TD>
+      <TD>16.245</TD>
+      <TD>14.647</TD>
+      <TD>13.816</TD>
+      <TD>16.755</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148135</TD>
+      <TD>298.664640</TD>
+      <TD> 35.820511</TD>
+      <TD/>
+      <TD/>
+      <TD>16.766</TD>
+      <TD>16.385</TD>
+      <TD>15.089</TD>
+      <TD>14.502</TD>
+      <TD>16.810</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148136</TD>
+      <TD>298.664950</TD>
+      <TD> 35.814171</TD>
+      <TD/>
+      <TD>16.462</TD>
+      <TD>15.554</TD>
+      <TD>15.238</TD>
+      <TD>13.973</TD>
+      <TD>13.462</TD>
+      <TD>15.605</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148137</TD>
+      <TD>298.667210</TD>
+      <TD> 35.835899</TD>
+      <TD/>
+      <TD>16.867</TD>
+      <TD>15.990</TD>
+      <TD>15.752</TD>
+      <TD>14.615</TD>
+      <TD>14.086</TD>
+      <TD>16.086</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148138</TD>
+      <TD>298.667240</TD>
+      <TD> 35.827751</TD>
+      <TD>19.011</TD>
+      <TD>16.211</TD>
+      <TD>15.411</TD>
+      <TD>15.117</TD>
+      <TD>13.864</TD>
+      <TD>13.323</TD>
+      <TD>15.446</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148139</TD>
+      <TD>298.668910</TD>
+      <TD> 35.827599</TD>
+      <TD/>
+      <TD>16.965</TD>
+      <TD>15.646</TD>
+      <TD>15.190</TD>
+      <TD>13.557</TD>
+      <TD>12.704</TD>
+      <TD>15.722</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148141</TD>
+      <TD>298.669160</TD>
+      <TD> 35.819061</TD>
+      <TD/>
+      <TD/>
+      <TD>16.843</TD>
+      <TD>16.474</TD>
+      <TD>15.224</TD>
+      <TD>14.460</TD>
+      <TD>16.888</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148142</TD>
+      <TD>298.669280</TD>
+      <TD> 35.845009</TD>
+      <TD/>
+      <TD>17.821</TD>
+      <TD>16.911</TD>
+      <TD>16.618</TD>
+      <TD>15.268</TD>
+      <TD>14.820</TD>
+      <TD>16.979</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148143</TD>
+      <TD>298.669860</TD>
+      <TD> 35.861061</TD>
+      <TD/>
+      <TD>16.453</TD>
+      <TD>15.577</TD>
+      <TD>15.372</TD>
+      <TD>14.247</TD>
+      <TD>13.692</TD>
+      <TD>15.696</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148145</TD>
+      <TD>298.670070</TD>
+      <TD> 35.824039</TD>
+      <TD/>
+      <TD>17.658</TD>
+      <TD>16.750</TD>
+      <TD>16.408</TD>
+      <TD>15.247</TD>
+      <TD>14.941</TD>
+      <TD>16.783</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148146</TD>
+      <TD>298.670560</TD>
+      <TD> 35.812241</TD>
+      <TD/>
+      <TD/>
+      <TD>16.378</TD>
+      <TD>15.701</TD>
+      <TD>13.810</TD>
+      <TD>12.784</TD>
+      <TD>16.309</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148147</TD>
+      <TD>298.671880</TD>
+      <TD> 35.829281</TD>
+      <TD>19.291</TD>
+      <TD>16.405</TD>
+      <TD>15.623</TD>
+      <TD>15.392</TD>
+      <TD>14.256</TD>
+      <TD>13.839</TD>
+      <TD>15.696</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148148</TD>
+      <TD>298.672060</TD>
+      <TD> 35.857491</TD>
+      <TD/>
+      <TD>17.781</TD>
+      <TD>17.140</TD>
+      <TD>16.845</TD>
+      <TD>15.782</TD>
+      <TD>15.907</TD>
+      <TD>17.126</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148149</TD>
+      <TD>298.672120</TD>
+      <TD> 35.845379</TD>
+      <TD/>
+      <TD>16.975</TD>
+      <TD>15.474</TD>
+      <TD>14.998</TD>
+      <TD>13.150</TD>
+      <TD>12.211</TD>
+      <TD>15.591</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148150</TD>
+      <TD>298.672580</TD>
+      <TD> 35.821529</TD>
+      <TD/>
+      <TD>15.149</TD>
+      <TD>13.806</TD>
+      <TD>13.345</TD>
+      <TD>11.648</TD>
+      <TD>10.814</TD>
+      <TD>13.886</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148153</TD>
+      <TD>298.673770</TD>
+      <TD> 35.853241</TD>
+      <TD/>
+      <TD>15.602</TD>
+      <TD>14.680</TD>
+      <TD>14.447</TD>
+      <TD>13.237</TD>
+      <TD>12.589</TD>
+      <TD>14.793</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148155</TD>
+      <TD>298.675140</TD>
+      <TD> 35.853981</TD>
+      <TD>17.133</TD>
+      <TD>14.318</TD>
+      <TD>13.632</TD>
+      <TD>13.492</TD>
+      <TD>12.442</TD>
+      <TD>11.923</TD>
+      <TD>13.740</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148158</TD>
+      <TD>298.676420</TD>
+      <TD> 35.845322</TD>
+      <TD/>
+      <TD>16.432</TD>
+      <TD>15.006</TD>
+      <TD>14.490</TD>
+      <TD>12.723</TD>
+      <TD>11.817</TD>
+      <TD>15.072</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148160</TD>
+      <TD>298.676640</TD>
+      <TD> 35.820782</TD>
+      <TD/>
+      <TD>16.352</TD>
+      <TD>15.843</TD>
+      <TD>15.780</TD>
+      <TD>14.829</TD>
+      <TD>14.570</TD>
+      <TD>15.951</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148163</TD>
+      <TD>298.678680</TD>
+      <TD> 35.846191</TD>
+      <TD>18.382</TD>
+      <TD>15.389</TD>
+      <TD>14.863</TD>
+      <TD>14.748</TD>
+      <TD>13.752</TD>
+      <TD>13.419</TD>
+      <TD>14.940</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148164</TD>
+      <TD>298.678990</TD>
+      <TD> 35.852821</TD>
+      <TD/>
+      <TD>16.784</TD>
+      <TD>16.089</TD>
+      <TD>15.866</TD>
+      <TD>14.685</TD>
+      <TD>14.329</TD>
+      <TD>16.141</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148167</TD>
+      <TD>298.680970</TD>
+      <TD> 35.852539</TD>
+      <TD/>
+      <TD>17.856</TD>
+      <TD>16.470</TD>
+      <TD>15.894</TD>
+      <TD>14.221</TD>
+      <TD>13.410</TD>
+      <TD>16.482</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148168</TD>
+      <TD>298.681240</TD>
+      <TD> 35.819889</TD>
+      <TD>19.449</TD>
+      <TD>16.435</TD>
+      <TD>15.767</TD>
+      <TD>15.661</TD>
+      <TD>14.660</TD>
+      <TD>14.348</TD>
+      <TD>15.893</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148170</TD>
+      <TD>298.681640</TD>
+      <TD> 35.839500</TD>
+      <TD/>
+      <TD/>
+      <TD>17.277</TD>
+      <TD>16.953</TD>
+      <TD>15.894</TD>
+      <TD>15.275</TD>
+      <TD>17.326</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148171</TD>
+      <TD>298.682340</TD>
+      <TD> 35.846851</TD>
+      <TD/>
+      <TD>17.355</TD>
+      <TD>16.478</TD>
+      <TD>16.074</TD>
+      <TD>14.772</TD>
+      <TD>14.246</TD>
+      <TD>16.458</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148173</TD>
+      <TD>298.682950</TD>
+      <TD> 35.872101</TD>
+      <TD/>
+      <TD>16.954</TD>
+      <TD>15.549</TD>
+      <TD>15.008</TD>
+      <TD>13.263</TD>
+      <TD>12.365</TD>
+      <TD>15.592</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+     <TR>
+      <TD>148174</TD>
+      <TD>298.683070</TD>
+      <TD> 35.824741</TD>
+      <TD>14.775</TD>
+      <TD>12.076</TD>
+      <TD>11.703</TD>
+      <TD>11.910</TD>
+      <TD>11.064</TD>
+      <TD>10.920</TD>
+      <TD>11.960</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

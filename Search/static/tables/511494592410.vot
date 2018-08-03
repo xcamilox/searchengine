@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="VII_239A_icdata" name="VII/239A/icdata">
+   <DESCRIPTION>
+    NGC/IC referenced positions and notes
+   </DESCRIPTION>
+   <FIELD ID="Cat" arraysize="1" datatype="char" name="Cat" ucd="ID_CATALOG">
+    <DESCRIPTION>
+     [IN] Catalog: N=NGC, I=IC
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="NGC_IC" datatype="short" name="NGC_IC" ucd="ID_MAIN" width="4">
+    <DESCRIPTION>
+     Number in the NGC or IC catalog
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_NGC_IC" arraysize="14" datatype="char" name="n_NGC_IC" ucd="NOTE">
+    <DESCRIPTION>
+     Component or remarks (G1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAB1950" arraysize="13" datatype="char" name="RAB1950" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension B1950
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEB1950" arraysize="13" datatype="char" name="DEB1950" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination B1950
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="qPos" arraysize="1" datatype="char" name="qPos" ucd="CODE_QUALITY">
+    <DESCRIPTION>
+     [a-g] Precision on position (G2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="f_Pos" arraysize="1" datatype="char" name="f_Pos" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [*o] rejected or original position (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="r_Pos" arraysize="5" datatype="char" name="r_Pos" ucd="REFER_CODE">
+    <DESCRIPTION>
+     Reference of position in
+     "\begin{tex}\vFile{VII/239A/./refs.dat}{refs.dat}\end{tex}"
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="N" datatype="short" name="N" ucd="NUMBER" width="2">
+    <DESCRIPTION>
+     ? Number of observations from original source [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="Comm" arraysize="121" datatype="char" name="Comm" ucd="REMARKS">
+    <DESCRIPTION>
+     Comments, Notes and Remarks (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="NED" arraysize="3" datatype="char" name="NED" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}NED} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA.icrs" arraysize="13" datatype="char" name="_RA.icrs" ucd="POS_EQ_RA_OTHER" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (ICRS) (computed by VizieR, not part of the
+     original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" arraysize="13" datatype="char" name="_DE.icrs" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (ICRS) (computed by VizieR, not part of the original
+     data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>N</TD>
+      <TD>5584</TD>
+      <TD/>
+      <TD>14 19 49.0000</TD>
+      <TD>-00 09 42.000</TD>
+      <TD>e</TD>
+      <TD>*</TD>
+      <TD>MJC</TD>
+      <TD>-32768</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>NED</TD>
+      <TD>14 22 22.9545</TD>
+      <TD>-00 23 20.205</TD>
+     </TR>
+     <TR>
+      <TD>N</TD>
+      <TD>5584</TD>
+      <TD/>
+      <TD>14 19 49.5000</TD>
+      <TD>-00 09 37.000</TD>
+      <TD>d</TD>
+      <TD/>
+      <TD>GH</TD>
+      <TD>-32768</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>NED</TD>
+      <TD>14 22 23.4536</TD>
+      <TD>-00 23 15.183</TD>
+     </TR>
+     <TR>
+      <TD>N</TD>
+      <TD>5584</TD>
+      <TD/>
+      <TD>14 19 49.7000</TD>
+      <TD>-00 09 31.000</TD>
+      <TD>d</TD>
+      <TD/>
+      <TD>UZC</TD>
+      <TD>-32768</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>NED</TD>
+      <TD>14 22 23.6525</TD>
+      <TD>-00 23 09.175</TD>
+     </TR>
+     <TR>
+      <TD>N</TD>
+      <TD>5584</TD>
+      <TD/>
+      <TD>14 19 49.8000</TD>
+      <TD>-00 09 40.000</TD>
+      <TD>d</TD>
+      <TD/>
+      <TD>SPC</TD>
+      <TD>-32768</TD>
+      <TD>vsm nuc</TD>
+      <TD>Simbad</TD>
+      <TD>NED</TD>
+      <TD>14 22 23.7541</TD>
+      <TD>-00 23 18.171</TD>
+     </TR>
+     <TR>
+      <TD>N</TD>
+      <TD>5584</TD>
+      <TD/>
+      <TD>14 19 49.8000</TD>
+      <TD>-00 09 40.000</TD>
+      <TD>d</TD>
+      <TD/>
+      <TD>WS</TD>
+      <TD>-32768</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>NED</TD>
+      <TD>14 22 23.7541</TD>
+      <TD>-00 23 18.171</TD>
+     </TR>
+     <TR>
+      <TD>N</TD>
+      <TD>5584</TD>
+      <TD/>
+      <TD>14 19 49.8600</TD>
+      <TD>-00 09 39.600</TD>
+      <TD>c</TD>
+      <TD/>
+      <TD>CCA</TD>
+      <TD>-32768</TD>
+      <TD>= UGC 09201.  Nominal error =   2.4</TD>
+      <TD>Simbad</TD>
+      <TD>NED</TD>
+      <TD>14 22 23.8141</TD>
+      <TD>-00 23 17.768</TD>
+     </TR>
+     <TR>
+      <TD>N</TD>
+      <TD>5584</TD>
+      <TD/>
+      <TD>14 19 49.9000</TD>
+      <TD>-00 09 34.000</TD>
+      <TD>d</TD>
+      <TD/>
+      <TD>DC</TD>
+      <TD>-32768</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>NED</TD>
+      <TD>14 22 23.8530</TD>
+      <TD>-00 23 12.167</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_AJ_146_21_table1" name="J/AJ/146/21/table1">
+   <DESCRIPTION>
+    Positions and light curve parameters of LINEAR RR Lyrae stars
+   </DESCRIPTION>
+   <FIELD ID="LINEAR" datatype="int" name="LINEAR" ucd="ID_MAIN" width="8">
+    <DESCRIPTION>
+     [29848/24264172] LINEAR object identifier (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="f_LINEAR" arraysize="1" datatype="char" name="f_LINEAR" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [*] RR Lyrae star from the LINEAR Catalog of Variable Stars
+     (Palaversa et al., 2013AJ....146..101P; Paper III)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="6" ucd="POS_EQ_RA_MAIN" unit="deg" width="10">
+    <DESCRIPTION>
+     Right Ascension in decimal degrees (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="6" ucd="POS_EQ_DEC_MAIN" unit="deg" width="10">
+    <DESCRIPTION>
+     Declination in decimal degrees (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Type" arraysize="2" datatype="char" name="Type" ucd="VAR_CLASS">
+    <DESCRIPTION>
+     [abc ] RR Lyrae type (ab or c=first overtone)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Per" datatype="double" name="Per" precision="6" ucd="TIME_PERIOD" unit="d" width="9">
+    <DESCRIPTION>
+     [0.1130/1.1915]? Period
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Amp" datatype="float" name="Amp" precision="3" ucd="VAR_AMPLITUDE_VALUE" unit="mag" width="6">
+    <DESCRIPTION>
+     [0.067/1.54] Amplitude (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="mag" datatype="float" name="mag" precision="3" ucd="MODEL_MAG_VALUE" unit="mag" width="6">
+    <DESCRIPTION>
+     Best-fit LINEAR template maximum brightness (4)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Templ" datatype="int" name="Templ" ucd="MODEL_ID" width="8">
+    <DESCRIPTION>
+     [32086/24262387] Best-fit LINEAR template number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Ar" datatype="float" name="Ar" precision="3" ucd="PHOT_EXTINCTION_INT" unit="mag" width="6">
+    <DESCRIPTION>
+     Extinction in the SDSS r band (5)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="__mag_" datatype="float" name="__mag_" precision="3" ucd="PHOT_MAG_UNDEF" unit="mag" width="6">
+    <DESCRIPTION>
+     [13.235/18.497] Flux-average magnitude (6)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dist" datatype="float" name="Dist" precision="2" ucd="POS_GAL_HC" unit="kpc" width="5">
+    <DESCRIPTION>
+     Heliocentric distance; see Section 3.2 (7)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Cl" datatype="unsignedByte" name="Cl" ucd="CLASS_MISC" width="1">
+    <DESCRIPTION>
+     [0/2] Oosterhoff class (1 or 2 for RRab stars and 0 for RRc
+     stars)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Gr" datatype="unsignedByte" name="Gr" ucd="ID_GROUP" width="1">
+    <DESCRIPTION>
+     [0/7] Substructure halo group identifier (0 for stars not
+     associated with a substructure)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SDSS" arraysize="3" datatype="char" name="SDSS" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the data from the photometric SDSS-DR9 catalog within
+     1.5"
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sloan" arraysize="5" datatype="char" name="Sloan" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the SDSS online data for this RR Lyrae star
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>11296138</TD>
+      <TD/>
+      <TD>214.530733</TD>
+      <TD>  0.384060</TD>
+      <TD>ab</TD>
+      <TD> 0.618449</TD>
+      <TD> 0.466</TD>
+      <TD>14.702</TD>
+      <TD>20051838</TD>
+      <TD> 0.105</TD>
+      <TD>14.841</TD>
+      <TD> 7.05</TD>
+      <TD>1</TD>
+      <TD>0</TD>
+      <TD>DR9</TD>
+      <TD>Sloan</TD>
+      <TD>Simbad</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

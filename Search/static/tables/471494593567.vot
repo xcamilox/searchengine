@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="V_145_sky2kv5" name="V/145/sky2kv5">
+   <DESCRIPTION>
+    The Sky2000 Version 5 Catalogue
+   </DESCRIPTION>
+   <FIELD ID="SKY2000" arraysize="19" datatype="char" name="SKY2000" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Identifier based on J2000 position
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HD" datatype="int" name="HD" ucd="ID_ALTERNATIVE" width="6">
+    <DESCRIPTION>
+     ? Henry Draper &lt;III/135&gt; number [NULL integer written as an empty
+     string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="13" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (J2000) hours
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="13" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination degrees (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="double" name="pmRA" precision="5" ucd="POS_EQ_PMRA" unit="s.a-1" width="8">
+    <DESCRIPTION>
+     ? Proper motion in RA (J2000)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="double" name="pmDE" precision="4" ucd="POS_EQ_PMDEC" unit="arcs.a-1" width="8">
+    <DESCRIPTION>
+     ? Proper motion in Dec (J2000)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="RV" datatype="float" name="RV" precision="1" ucd="VELOC_HC" unit="km.s-1" width="6">
+    <DESCRIPTION>
+     [-409/380]? Radial velocity
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Plx" datatype="double" name="Plx" precision="5" ucd="POS_PARLX_TRIG" unit="arcs" width="8">
+    <DESCRIPTION>
+     ? Trigonometric parallax
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="3" ucd="PHOT_MAG_V" unit="mag" width="6">
+    <DESCRIPTION>
+     [-1.5/13]? Observed visual magnitude (V or v)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="B-V" datatype="float" name="B-V" precision="3" ucd="PHOT_JHN_B-V" unit="mag" width="6">
+    <DESCRIPTION>
+     ? B-V color (observed)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="U-B" datatype="float" name="U-B" precision="3" ucd="PHOT_JHN_U-B" unit="mag" width="6">
+    <DESCRIPTION>
+     ? U-B color (observed)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="SpMK" arraysize="30" datatype="char" name="SpMK" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     Morgan-Keenan (MK) spectral type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Get details from the SIMBAD data-base
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>J141604.17-001855.6</TD>
+      <TD>-2147483648</TD>
+      <TD>14 16 04.1733</TD>
+      <TD>-00 18 55.635</TD>
+      <TD>-0.00117</TD>
+      <TD> -0.0067</TD>
+      <TD/>
+      <TD>-0.00250</TD>
+      <TD>10.110</TD>
+      <TD> 0.819</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J141701.52-000445.5</TD>
+      <TD>125041</TD>
+      <TD>14 17 01.5201</TD>
+      <TD>-00 04 45.563</TD>
+      <TD> 0.00345</TD>
+      <TD> -0.1404</TD>
+      <TD/>
+      <TD> 0.01018</TD>
+      <TD> 9.060</TD>
+      <TD> 0.484</TD>
+      <TD/>
+      <TD>F7V</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J141750.28-010444.8</TD>
+      <TD>-2147483648</TD>
+      <TD>14 17 50.2842</TD>
+      <TD>-01 04 44.871</TD>
+      <TD>-0.00167</TD>
+      <TD> -0.0295</TD>
+      <TD/>
+      <TD> 0.00621</TD>
+      <TD>10.220</TD>
+      <TD> 0.694</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J141826.90-000655.6</TD>
+      <TD>-2147483648</TD>
+      <TD>14 18 26.9093</TD>
+      <TD>-00 06 55.603</TD>
+      <TD>-0.00659</TD>
+      <TD> -0.1600</TD>
+      <TD/>
+      <TD> 0.00529</TD>
+      <TD>10.500</TD>
+      <TD> 0.685</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J141926.94-000048.0</TD>
+      <TD>125453</TD>
+      <TD>14 19 26.9462</TD>
+      <TD>-00 00 48.094</TD>
+      <TD>-0.00126</TD>
+      <TD> -0.0070</TD>
+      <TD/>
+      <TD> 0.00047</TD>
+      <TD> 7.790</TD>
+      <TD> 1.313</TD>
+      <TD/>
+      <TD>K2/3III</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J141940.95+002303.6</TD>
+      <TD>125489</TD>
+      <TD>14 19 40.9509</TD>
+      <TD>+00 23 03.601</TD>
+      <TD>-0.00249</TD>
+      <TD> -0.0124</TD>
+      <TD> -22.0</TD>
+      <TD> 0.01429</TD>
+      <TD> 6.190</TD>
+      <TD> 0.203</TD>
+      <TD/>
+      <TD>A7V</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J142028.88+001054.6</TD>
+      <TD>125609</TD>
+      <TD>14 20 28.8836</TD>
+      <TD>+00 10 54.662</TD>
+      <TD>-0.00668</TD>
+      <TD> -0.0789</TD>
+      <TD/>
+      <TD> 0.00396</TD>
+      <TD> 6.795</TD>
+      <TD> 1.245</TD>
+      <TD/>
+      <TD>K1IV</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J142036.14-004245.7</TD>
+      <TD>-2147483648</TD>
+      <TD>14 20 36.1480</TD>
+      <TD>-00 42 45.732</TD>
+      <TD>-0.00550</TD>
+      <TD> -0.0190</TD>
+      <TD/>
+      <TD>-0.07570</TD>
+      <TD>10.650</TD>
+      <TD> 0.572</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J142038.29+001338.2</TD>
+      <TD>-2147483648</TD>
+      <TD>14 20 38.2977</TD>
+      <TD>+00 13 38.227</TD>
+      <TD>-0.00220</TD>
+      <TD>  0.0060</TD>
+      <TD/>
+      <TD> 0.01860</TD>
+      <TD> 9.690</TD>
+      <TD> 1.269</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J142108.64-000612.4</TD>
+      <TD>-2147483648</TD>
+      <TD>14 21 08.6413</TD>
+      <TD>-00 06 12.495</TD>
+      <TD>-0.00140</TD>
+      <TD> -0.0175</TD>
+      <TD/>
+      <TD>-0.07310</TD>
+      <TD>10.370</TD>
+      <TD> 0.785</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J142232.77-002030.6</TD>
+      <TD>-2147483648</TD>
+      <TD>14 22 32.7793</TD>
+      <TD>-00 20 30.675</TD>
+      <TD> 0.00054</TD>
+      <TD>  0.0003</TD>
+      <TD/>
+      <TD> 0.01420</TD>
+      <TD> 9.690</TD>
+      <TD> 1.146</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J142246.39-003813.6</TD>
+      <TD>125981</TD>
+      <TD>14 22 46.3903</TD>
+      <TD>-00 38 13.675</TD>
+      <TD>-0.00388</TD>
+      <TD> -0.0133</TD>
+      <TD/>
+      <TD> 0.00758</TD>
+      <TD> 6.737</TD>
+      <TD> 0.065</TD>
+      <TD/>
+      <TD>A0IV</TD>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J142306.47-002142.1</TD>
+      <TD>-2147483648</TD>
+      <TD>14 23 06.4707</TD>
+      <TD>-00 21 42.108</TD>
+      <TD> 0.00057</TD>
+      <TD> -0.0034</TD>
+      <TD/>
+      <TD> 0.07210</TD>
+      <TD>10.650</TD>
+      <TD> 0.485</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>J142333.90+000249.4</TD>
+      <TD>126130</TD>
+      <TD>14 23 33.9040</TD>
+      <TD>+00 02 49.486</TD>
+      <TD> 0.00178</TD>
+      <TD> -0.0056</TD>
+      <TD/>
+      <TD>-0.00800</TD>
+      <TD> 9.210</TD>
+      <TD> 0.728</TD>
+      <TD/>
+      <TD>G6V</TD>
+      <TD>Simbad</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

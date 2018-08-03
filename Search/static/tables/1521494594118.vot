@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_MNRAS_427_343_table2" name="J/MNRAS/427/343/table2">
+   <DESCRIPTION>
+    Fundamental parameters and IR excess for Hipparcos stars
+   </DESCRIPTION>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     Hipparcos identifier for the object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAdeg" datatype="double" name="RAdeg" precision="8" ucd="POS_EQ_RA_OTHER" unit="deg" width="12">
+    <DESCRIPTION>
+     Right ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEdeg" datatype="double" name="DEdeg" precision="8" ucd="POS_EQ_DEC_OTHER" unit="deg" width="12">
+    <DESCRIPTION>
+     Declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dist" datatype="double" name="Dist" precision="3" ucd="PHYS_DISTANCE_TRUE" unit="pc" width="11">
+    <DESCRIPTION>
+     ? Parallax distance to the object
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Teff" datatype="int" name="Teff" ucd="PHYS_TEMP_EFFEC" unit="K" width="5">
+    <DESCRIPTION>
+     Modelled effective temperature of the object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Lum" datatype="double" name="Lum" precision="2" ucd="PHYS_LUMINOSITY_GENERAL" unit="Lsun" width="15">
+    <DESCRIPTION>
+     Modelled luminosity of the object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="lambdaS" datatype="float" name="lambdaS" precision="2" ucd="SPECT_WAVELENGTH_MISC" unit="nm" width="6">
+    <DESCRIPTION>
+     Shortest wavelength for which we have data
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="lambdaL" datatype="int" name="lambdaL" ucd="SPECT_WAVELENGTH_MISC" unit="nm" width="5">
+    <DESCRIPTION>
+     ? Longest wavelength for which we have data [NULL integer written
+     as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="EIR" datatype="float" name="EIR" precision="3" ucd="PHOT_FLUX_EXCESS" width="7">
+    <DESCRIPTION>
+     Average excess at those wavelengths
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="LIR" datatype="float" name="LIR" precision="E3" ucd="PHYS_LUMINOSITY_IR_MISC" unit="Lsun" width="10">
+    <DESCRIPTION>
+     Fraction of the object's luminosity reprocessed into the IR
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="lambdaP" datatype="float" name="lambdaP" precision="1" ucd="SPECT_WAVELENGTH_MISC" unit="nm" width="4">
+    <DESCRIPTION>
+     ? Wavelength at which the IR excess reaches a peak
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right Ascension (J2000) from SIMBAD (not part of the original
+     data)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (J2000) from SIMBAD (not part of the original data)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>97987</TD>
+      <TD>298.70435521</TD>
+      <TD> 35.00556880</TD>
+      <TD>    373.130</TD>
+      <TD>5471</TD>
+      <TD>          50.81</TD>
+      <TD>420.00</TD>
+      <TD>8280</TD>
+      <TD>  1.362</TD>
+      <TD>   0.00241</TD>
+      <TD> 8.2</TD>
+      <TD>298.70437</TD>
+      <TD> 35.00553</TD>
+     </TR>
+     <TR>
+      <TD>98004</TD>
+      <TD>298.75056544</TD>
+      <TD> 34.90055681</TD>
+      <TD>    285.710</TD>
+      <TD>4773</TD>
+      <TD>         127.19</TD>
+      <TD>420.00</TD>
+      <TD>25000</TD>
+      <TD>  1.334</TD>
+      <TD>  0.000777</TD>
+      <TD>12.0</TD>
+      <TD>298.75058</TD>
+      <TD> 34.90060</TD>
+     </TR>
+     <TR>
+      <TD>98110</TD>
+      <TD>299.07665075</TD>
+      <TD> 35.08349073</TD>
+      <TD>     41.370</TD>
+      <TD>4842</TD>
+      <TD>          58.82</TD>
+      <TD>420.00</TD>
+      <TD>25000</TD>
+      <TD>  0.946</TD>
+      <TD>   0.00125</TD>
+      <TD>12.0</TD>
+      <TD>299.07655</TD>
+      <TD> 35.08342</TD>
+     </TR>
+     <TR>
+      <TD>98116</TD>
+      <TD>299.10262911</TD>
+      <TD> 35.79007878</TD>
+      <TD>    328.950</TD>
+      <TD>5395</TD>
+      <TD>          95.99</TD>
+      <TD>420.00</TD>
+      <TD>8610</TD>
+      <TD>  1.134</TD>
+      <TD>   0.00095</TD>
+      <TD> 8.6</TD>
+      <TD>299.10265</TD>
+      <TD> 35.79009</TD>
+     </TR>
+     <TR>
+      <TD>98157</TD>
+      <TD>299.22225291</TD>
+      <TD> 35.53683691</TD>
+      <TD>    142.040</TD>
+      <TD>7373</TD>
+      <TD>           8.16</TD>
+      <TD>420.00</TD>
+      <TD>2200</TD>
+      <TD>  0.000</TD>
+      <TD>  5.25e-15</TD>
+      <TD> 2.1</TD>
+      <TD>299.22230</TD>
+      <TD> 35.53693</TD>
+     </TR>
+     <TR>
+      <TD>98193</TD>
+      <TD>299.30552728</TD>
+      <TD> 35.03143920</TD>
+      <TD>    103.410</TD>
+      <TD>6301</TD>
+      <TD>          10.84</TD>
+      <TD>354.00</TD>
+      <TD>8610</TD>
+      <TD>  0.979</TD>
+      <TD>   2.1e-15</TD>
+      <TD> 2.1</TD>
+      <TD>299.30549</TD>
+      <TD> 35.03140</TD>
+     </TR>
+     <TR>
+      <TD>98239</TD>
+      <TD>299.45582066</TD>
+      <TD> 34.24665751</TD>
+      <TD>    438.600</TD>
+      <TD>8156</TD>
+      <TD>         103.07</TD>
+      <TD>420.00</TD>
+      <TD>2200</TD>
+      <TD>  0.000</TD>
+      <TD>  3.97e-15</TD>
+      <TD> 2.1</TD>
+      <TD>299.45585</TD>
+      <TD> 34.24667</TD>
+     </TR>
+     <TR>
+      <TD>98289</TD>
+      <TD>299.55694111</TD>
+      <TD> 34.42275637</TD>
+      <TD>    254.450</TD>
+      <TD>11348</TD>
+      <TD>          68.01</TD>
+      <TD>420.00</TD>
+      <TD>2200</TD>
+      <TD>  0.000</TD>
+      <TD>  2.02e-15</TD>
+      <TD> 2.1</TD>
+      <TD>299.55696</TD>
+      <TD> 34.42276</TD>
+     </TR>
+     <TR>
+      <TD>98298</TD>
+      <TD>299.59032647</TD>
+      <TD> 35.20162247</TD>
+      <TD>    595.240</TD>
+      <TD>5049</TD>
+      <TD>         125.31</TD>
+      <TD>420.00</TD>
+      <TD>8610</TD>
+      <TD>  1.387</TD>
+      <TD>   0.00336</TD>
+      <TD> 8.6</TD>
+      <TD>299.59032</TD>
+      <TD> 35.20160</TD>
+     </TR>
+     <TR>
+      <TD>98343</TD>
+      <TD>299.71509532</TD>
+      <TD> 35.49773641</TD>
+      <TD>    213.680</TD>
+      <TD>8639</TD>
+      <TD>          59.69</TD>
+      <TD>420.00</TD>
+      <TD>8610</TD>
+      <TD>  1.331</TD>
+      <TD>  0.000556</TD>
+      <TD> 8.6</TD>
+      <TD>299.71518</TD>
+      <TD> 35.49776</TD>
+     </TR>
+     <TR>
+      <TD>98369</TD>
+      <TD>299.78110721</TD>
+      <TD> 35.53615255</TD>
+      <TD>    358.420</TD>
+      <TD>10028</TD>
+      <TD>          72.91</TD>
+      <TD>420.00</TD>
+      <TD>2200</TD>
+      <TD>  0.000</TD>
+      <TD>  3.74e-15</TD>
+      <TD> 2.1</TD>
+      <TD>299.78111</TD>
+      <TD> 35.53615</TD>
+     </TR>
+     <TR>
+      <TD>98418</TD>
+      <TD>299.95461221</TD>
+      <TD> 35.30933984</TD>
+      <TD>    529.100</TD>
+      <TD>6529</TD>
+      <TD>          57.93</TD>
+      <TD>420.00</TD>
+      <TD>2200</TD>
+      <TD>  0.000</TD>
+      <TD>  1.03e-14</TD>
+      <TD> 2.1</TD>
+      <TD>299.95460</TD>
+      <TD> 35.30932</TD>
+     </TR>
+     <TR>
+      <TD>98465</TD>
+      <TD>300.07929770</TD>
+      <TD> 35.35837774</TD>
+      <TD>    537.630</TD>
+      <TD>3855</TD>
+      <TD>         694.93</TD>
+      <TD>420.00</TD>
+      <TD>18390</TD>
+      <TD>  1.109</TD>
+      <TD>    0.0508</TD>
+      <TD> 4.2</TD>
+      <TD>300.07929</TD>
+      <TD> 35.35836</TD>
+     </TR>
+     <TR>
+      <TD>98593</TD>
+      <TD>300.39109111</TD>
+      <TD> 34.58309563</TD>
+      <TD>    289.860</TD>
+      <TD>8613</TD>
+      <TD>          27.08</TD>
+      <TD>420.00</TD>
+      <TD>2200</TD>
+      <TD>  0.000</TD>
+      <TD>  6.59e-15</TD>
+      <TD> 2.1</TD>
+      <TD>300.39111</TD>
+      <TD> 34.58309</TD>
+     </TR>
+     <TR>
+      <TD>98637</TD>
+      <TD>300.50756734</TD>
+      <TD> 35.33247825</TD>
+      <TD>    350.880</TD>
+      <TD>10690</TD>
+      <TD>         151.97</TD>
+      <TD>420.00</TD>
+      <TD>8280</TD>
+      <TD>  3.251</TD>
+      <TD>   0.00193</TD>
+      <TD> 8.2</TD>
+      <TD>300.50757</TD>
+      <TD> 35.33247</TD>
+     </TR>
+     <TR>
+      <TD>98638</TD>
+      <TD>300.51190014</TD>
+      <TD> 35.64113274</TD>
+      <TD>    473.930</TD>
+      <TD>4246</TD>
+      <TD>         292.71</TD>
+      <TD>420.00</TD>
+      <TD>18390</TD>
+      <TD>  1.005</TD>
+      <TD>  0.000755</TD>
+      <TD> 8.6</TD>
+      <TD>300.51189</TD>
+      <TD> 35.64111</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

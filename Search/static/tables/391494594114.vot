@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="II_327_ysoc" name="II/327/ysoc">
+   <DESCRIPTION>
+    Parameters of sources classified as YSO candidate
+   </DESCRIPTION>
+   <FIELD ID="AKARI" arraysize="14" datatype="char" name="AKARI" ucd="ID_MAIN">
+    <DESCRIPTION>
+     ID number from the AKARI FIS BSC (Cat. II/298) (objName,
+     HHMMSSs+DDMMSS)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right ascension (J2000.0)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (J2000.0)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="W1" datatype="float" name="W1" precision="3" ucd="PHOT_IR_3.4" unit="mag" width="6">
+    <DESCRIPTION>
+     WISE W1 magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="W2" datatype="float" name="W2" precision="3" ucd="PHOT_IR_4.2" unit="mag" width="6">
+    <DESCRIPTION>
+     WISE W2 magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="W3" datatype="float" name="W3" precision="3" ucd="PHOT_FLUX_IR_12" unit="mag" width="6">
+    <DESCRIPTION>
+     WISE W3 magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="W4" datatype="float" name="W4" precision="3" ucd="PHOT_FLUX_IR_25" unit="mag" width="6">
+    <DESCRIPTION>
+     WISE W4 magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="F65" datatype="double" name="F65" precision="4" ucd="PHOT_FLUX_IR_60" unit="Jy" width="9">
+    <DESCRIPTION>
+     AKARI N60 flux density (65um)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="F90" datatype="double" name="F90" precision="4" ucd="PHOT_FLUX_IR_100" unit="Jy" width="9">
+    <DESCRIPTION>
+     AKARI WIDE-S flux density (90um)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="F140" datatype="double" name="F140" precision="4" ucd="PHOT_FLUX_IR_170" unit="Jy" width="9">
+    <DESCRIPTION>
+     AKARI WIDE-L flux density (140um)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="F160" datatype="double" name="F160" precision="4" ucd="PHOT_FLUX_IR_170" unit="Jy" width="10">
+    <DESCRIPTION>
+     AKARI N160 flux density (160um)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Prob" datatype="float" name="Prob" precision="3" ucd="STAT_PROBABILITY" width="6">
+    <DESCRIPTION>
+     [0.5/1] Probability of being a YSO candidate
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Type" arraysize="3" datatype="char" name="Type" ucd="CLASS_OBJECT">
+    <DESCRIPTION>
+     Main Type of the source as listed in SIMBAD (1) \iflay\else(see
+     the \glutag{OTypeList|list of Simbad object types})\fi
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dist" datatype="float" name="Dist" precision="2" ucd="POS_ANG_DIST_GENERAL" unit="arcs" width="5">
+    <DESCRIPTION>
+     [0.1/30]? Angular distance between the FIS source and the
+     matching SIMBAD object
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="SIMBAD" arraysize="35" datatype="char" name="SIMBAD" ucd="ID_ASSOCIATED">
+    <DESCRIPTION>
+     SIMBAD ID of the matching SIMBAD object
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>2001236+353617</TD>
+      <TD>300.34819</TD>
+      <TD> 35.60466</TD>
+      <TD>12.777</TD>
+      <TD>12.762</TD>
+      <TD> 7.764</TD>
+      <TD> 5.437</TD>
+      <TD>   6.7584</TD>
+      <TD>  10.8997</TD>
+      <TD>  32.2699</TD>
+      <TD>   38.6386</TD>
+      <TD> 0.997</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>2001527+353710</TD>
+      <TD>300.46946</TD>
+      <TD> 35.61942</TD>
+      <TD>12.613</TD>
+      <TD>12.626</TD>
+      <TD>11.213</TD>
+      <TD> 8.352</TD>
+      <TD>   1.5930</TD>
+      <TD>   2.5453</TD>
+      <TD>  10.4394</TD>
+      <TD>    4.7678</TD>
+      <TD> 0.735</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>1957585+345654</TD>
+      <TD>299.49372</TD>
+      <TD> 34.94837</TD>
+      <TD>13.406</TD>
+      <TD>13.346</TD>
+      <TD>10.179</TD>
+      <TD> 7.143</TD>
+      <TD>   0.6030</TD>
+      <TD>   1.5973</TD>
+      <TD>   7.9870</TD>
+      <TD>    5.4861</TD>
+      <TD> 0.916</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>2001190+350618</TD>
+      <TD>300.32925</TD>
+      <TD> 35.10513</TD>
+      <TD>13.415</TD>
+      <TD>13.428</TD>
+      <TD> 8.910</TD>
+      <TD> 6.381</TD>
+      <TD>   0.8268</TD>
+      <TD>   2.5438</TD>
+      <TD>   6.3678</TD>
+      <TD>    6.1449</TD>
+      <TD> 0.895</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>1957064+350127</TD>
+      <TD>299.27655</TD>
+      <TD> 35.02405</TD>
+      <TD>15.730</TD>
+      <TD>15.362</TD>
+      <TD> 9.826</TD>
+      <TD> 7.571</TD>
+      <TD>   0.9052</TD>
+      <TD>   1.2166</TD>
+      <TD>   4.4001</TD>
+      <TD>    1.5771</TD>
+      <TD> 0.998</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>1958367+344422</TD>
+      <TD>299.65286</TD>
+      <TD> 34.73945</TD>
+      <TD>13.425</TD>
+      <TD>13.448</TD>
+      <TD>10.059</TD>
+      <TD> 7.348</TD>
+      <TD>   0.6110</TD>
+      <TD>   2.0339</TD>
+      <TD>   8.0279</TD>
+      <TD>    7.6142</TD>
+      <TD> 0.934</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>1954229+351418</TD>
+      <TD>298.59536</TD>
+      <TD> 35.23832</TD>
+      <TD>13.959</TD>
+      <TD>14.146</TD>
+      <TD> 9.718</TD>
+      <TD> 6.916</TD>
+      <TD>   0.1075</TD>
+      <TD>   1.1370</TD>
+      <TD>   5.4436</TD>
+      <TD>    5.2175</TD>
+      <TD> 0.797</TD>
+      <TD>IR</TD>
+      <TD>13.08</TD>
+      <TD>IRAS 19525+3506</TD>
+     </TR>
+     <TR>
+      <TD>1957517+344006</TD>
+      <TD>299.46560</TD>
+      <TD> 34.66838</TD>
+      <TD>12.920</TD>
+      <TD>12.935</TD>
+      <TD>10.530</TD>
+      <TD> 7.996</TD>
+      <TD>   0.1340</TD>
+      <TD>   0.5592</TD>
+      <TD>   5.6981</TD>
+      <TD>    3.5442</TD>
+      <TD> 0.812</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>2001011+360108</TD>
+      <TD>300.25474</TD>
+      <TD> 36.01880</TD>
+      <TD>13.933</TD>
+      <TD>13.821</TD>
+      <TD> 7.181</TD>
+      <TD> 4.759</TD>
+      <TD>   2.6258</TD>
+      <TD>   6.8761</TD>
+      <TD>  17.6515</TD>
+      <TD>   14.5690</TD>
+      <TD> 0.979</TD>
+      <TD>IR</TD>
+      <TD>16.69</TD>
+      <TD>IRAS 19591+3552</TD>
+     </TR>
+     <TR>
+      <TD>2001183+352934</TD>
+      <TD>300.32636</TD>
+      <TD> 35.49276</TD>
+      <TD>13.103</TD>
+      <TD>13.068</TD>
+      <TD> 7.795</TD>
+      <TD> 5.170</TD>
+      <TD>   3.9549</TD>
+      <TD>   8.0193</TD>
+      <TD>  19.6702</TD>
+      <TD>   19.9815</TD>
+      <TD> 0.992</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>2000435+351705</TD>
+      <TD>300.18113</TD>
+      <TD> 35.28482</TD>
+      <TD>12.725</TD>
+      <TD>12.653</TD>
+      <TD> 7.782</TD>
+      <TD> 6.329</TD>
+      <TD>   0.9375</TD>
+      <TD>   5.0018</TD>
+      <TD>  14.8058</TD>
+      <TD>    7.5795</TD>
+      <TD> 0.820</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>1959167+342059</TD>
+      <TD>299.81964</TD>
+      <TD> 34.34977</TD>
+      <TD>14.089</TD>
+      <TD>14.091</TD>
+      <TD>10.624</TD>
+      <TD> 7.691</TD>
+      <TD>   0.8148</TD>
+      <TD>   1.8886</TD>
+      <TD>  10.9413</TD>
+      <TD>    4.0575</TD>
+      <TD> 0.994</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>2000593+351846</TD>
+      <TD>300.24699</TD>
+      <TD> 35.31288</TD>
+      <TD>11.450</TD>
+      <TD>11.473</TD>
+      <TD> 8.501</TD>
+      <TD> 6.731</TD>
+      <TD>   2.0817</TD>
+      <TD>   7.0189</TD>
+      <TD>  20.1580</TD>
+      <TD>   23.2965</TD>
+      <TD> 0.829</TD>
+      <TD>X</TD>
+      <TD>29.43</TD>
+      <TD>EXMS B1959+351A</TD>
+     </TR>
+     <TR>
+      <TD>1959158+351322</TD>
+      <TD>299.81574</TD>
+      <TD> 35.22287</TD>
+      <TD>12.063</TD>
+      <TD>11.950</TD>
+      <TD> 6.838</TD>
+      <TD> 4.966</TD>
+      <TD>   1.5590</TD>
+      <TD>   4.6840</TD>
+      <TD>  13.0544</TD>
+      <TD>   15.1723</TD>
+      <TD> 0.521</TD>
+      <TD>*iA</TD>
+      <TD>19.34</TD>
+      <TD>2MASS J19591611+3513198</TD>
+     </TR>
+     <TR>
+      <TD>2000112+351456</TD>
+      <TD>300.04662</TD>
+      <TD> 35.24893</TD>
+      <TD>12.620</TD>
+      <TD>12.729</TD>
+      <TD> 7.726</TD>
+      <TD> 5.630</TD>
+      <TD>  11.1105</TD>
+      <TD>  13.9671</TD>
+      <TD>  24.4386</TD>
+      <TD>    5.1210</TD>
+      <TD> 1.000</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>2001107+352440</TD>
+      <TD>300.29471</TD>
+      <TD> 35.41099</TD>
+      <TD>13.863</TD>
+      <TD>13.677</TD>
+      <TD> 7.792</TD>
+      <TD> 5.558</TD>
+      <TD>   2.5363</TD>
+      <TD>   6.9327</TD>
+      <TD>  22.0003</TD>
+      <TD>   15.4596</TD>
+      <TD> 0.986</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>2000146+360021</TD>
+      <TD>300.06064</TD>
+      <TD> 36.00577</TD>
+      <TD>13.766</TD>
+      <TD>13.513</TD>
+      <TD> 7.982</TD>
+      <TD> 5.672</TD>
+      <TD>   1.6871</TD>
+      <TD>   4.8950</TD>
+      <TD>  17.7816</TD>
+      <TD>   18.0564</TD>
+      <TD> 0.985</TD>
+      <TD>IR</TD>
+      <TD>10.10</TD>
+      <TD>IRAS 19583+3552</TD>
+     </TR>
+     <TR>
+      <TD>1957505+345645</TD>
+      <TD>299.46036</TD>
+      <TD> 34.94571</TD>
+      <TD>13.722</TD>
+      <TD>13.642</TD>
+      <TD> 9.411</TD>
+      <TD> 6.966</TD>
+      <TD>   0.1533</TD>
+      <TD>   1.5588</TD>
+      <TD>   6.1201</TD>
+      <TD>    3.8345</TD>
+      <TD> 0.585</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>1958091+345224</TD>
+      <TD>299.53775</TD>
+      <TD> 34.87326</TD>
+      <TD>13.138</TD>
+      <TD>13.196</TD>
+      <TD> 9.336</TD>
+      <TD> 7.253</TD>
+      <TD>   1.1011</TD>
+      <TD>   3.1856</TD>
+      <TD>  11.5934</TD>
+      <TD>   16.3021</TD>
+      <TD> 0.984</TD>
+      <TD>IR</TD>
+      <TD>22.21</TD>
+      <TD>IRAS 19562+3444</TD>
+     </TR>
+     <TR>
+      <TD>1956004+344640</TD>
+      <TD>299.00164</TD>
+      <TD> 34.77786</TD>
+      <TD>13.406</TD>
+      <TD>13.369</TD>
+      <TD> 9.829</TD>
+      <TD> 7.640</TD>
+      <TD>   0.7836</TD>
+      <TD>   1.7319</TD>
+      <TD>   6.8129</TD>
+      <TD>    4.2947</TD>
+      <TD> 0.803</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>1959583+351245</TD>
+      <TD>299.99308</TD>
+      <TD> 35.21248</TD>
+      <TD>11.557</TD>
+      <TD>11.567</TD>
+      <TD> 7.442</TD>
+      <TD> 6.031</TD>
+      <TD>  10.2245</TD>
+      <TD>  11.3377</TD>
+      <TD>  13.8196</TD>
+      <TD>   17.7811</TD>
+      <TD> 0.833</TD>
+      <TD>*iA</TD>
+      <TD>21.95</TD>
+      <TD>TYC 2678-2123-1</TD>
+     </TR>
+     <TR>
+      <TD>1958467+350033</TD>
+      <TD>299.69472</TD>
+      <TD> 35.00904</TD>
+      <TD>14.526</TD>
+      <TD>14.726</TD>
+      <TD> 9.861</TD>
+      <TD> 7.636</TD>
+      <TD>   1.0520</TD>
+      <TD>   2.1722</TD>
+      <TD>   9.5676</TD>
+      <TD>    6.9270</TD>
+      <TD> 0.977</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>2000182+353106</TD>
+      <TD>300.07573</TD>
+      <TD> 35.51832</TD>
+      <TD>13.395</TD>
+      <TD>13.421</TD>
+      <TD> 9.762</TD>
+      <TD> 7.377</TD>
+      <TD>   1.3421</TD>
+      <TD>   2.1707</TD>
+      <TD>   9.4442</TD>
+      <TD>   10.4248</TD>
+      <TD> 0.972</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>1957390+350034</TD>
+      <TD>299.41250</TD>
+      <TD> 35.00955</TD>
+      <TD>13.426</TD>
+      <TD>13.414</TD>
+      <TD> 8.956</TD>
+      <TD> 6.808</TD>
+      <TD>   0.2072</TD>
+      <TD>   1.4641</TD>
+      <TD>   6.6893</TD>
+      <TD>    2.5715</TD>
+      <TD> 0.593</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>2001194+351731</TD>
+      <TD>300.33077</TD>
+      <TD> 35.29191</TD>
+      <TD>14.350</TD>
+      <TD>14.236</TD>
+      <TD> 8.586</TD>
+      <TD> 6.884</TD>
+      <TD>   1.8271</TD>
+      <TD>   5.4183</TD>
+      <TD>  13.5079</TD>
+      <TD>    8.9708</TD>
+      <TD> 0.964</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>1957565+350713</TD>
+      <TD>299.48534</TD>
+      <TD> 35.12034</TD>
+      <TD>12.704</TD>
+      <TD>12.864</TD>
+      <TD>10.450</TD>
+      <TD> 6.972</TD>
+      <TD>   0.3269</TD>
+      <TD>   2.3489</TD>
+      <TD>   4.4394</TD>
+      <TD>    4.3437</TD>
+      <TD> 0.529</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>1959593+351612</TD>
+      <TD>299.99723</TD>
+      <TD> 35.27013</TD>
+      <TD>11.856</TD>
+      <TD>11.880</TD>
+      <TD> 7.908</TD>
+      <TD> 4.571</TD>
+      <TD>  13.0377</TD>
+      <TD>  16.0873</TD>
+      <TD>  24.6192</TD>
+      <TD>   16.6013</TD>
+      <TD> 0.998</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>1958529+353213</TD>
+      <TD>299.72054</TD>
+      <TD> 35.53702</TD>
+      <TD> 8.217</TD>
+      <TD> 8.348</TD>
+      <TD> 7.923</TD>
+      <TD> 6.834</TD>
+      <TD>   0.7281</TD>
+      <TD>   2.1171</TD>
+      <TD>   6.3594</TD>
+      <TD>    3.7003</TD>
+      <TD> 0.661</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>2000503+352718</TD>
+      <TD>300.20959</TD>
+      <TD> 35.45511</TD>
+      <TD>13.147</TD>
+      <TD>13.361</TD>
+      <TD> 8.773</TD>
+      <TD> 6.544</TD>
+      <TD>   0.1906</TD>
+      <TD>   1.7161</TD>
+      <TD>   5.9610</TD>
+      <TD>    7.5731</TD>
+      <TD> 0.708</TD>
+      <TD>IR</TD>
+      <TD>25.45</TD>
+      <TD>IRAS 19589+3519</TD>
+     </TR>
+     <TR>
+      <TD>2001091+351259</TD>
+      <TD>300.28793</TD>
+      <TD> 35.21635</TD>
+      <TD>13.763</TD>
+      <TD>13.751</TD>
+      <TD> 8.981</TD>
+      <TD> 6.292</TD>
+      <TD>   0.3628</TD>
+      <TD>   2.3507</TD>
+      <TD>   8.0618</TD>
+      <TD>    1.5030</TD>
+      <TD> 0.870</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>1958328+351613</TD>
+      <TD>299.63665</TD>
+      <TD> 35.27022</TD>
+      <TD>14.404</TD>
+      <TD>14.240</TD>
+      <TD> 8.442</TD>
+      <TD> 6.113</TD>
+      <TD>   1.1129</TD>
+      <TD>   3.0728</TD>
+      <TD>  10.8561</TD>
+      <TD>    8.6306</TD>
+      <TD> 0.966</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>2000127+352322</TD>
+      <TD>300.05287</TD>
+      <TD> 35.38950</TD>
+      <TD>12.555</TD>
+      <TD>12.376</TD>
+      <TD> 6.181</TD>
+      <TD> 3.892</TD>
+      <TD>   7.9347</TD>
+      <TD>  12.4962</TD>
+      <TD>  16.0777</TD>
+      <TD>   17.9824</TD>
+      <TD> 0.991</TD>
+      <TD>EB*</TD>
+      <TD> 4.61</TD>
+      <TD>HAT 199-13584</TD>
+     </TR>
+     <TR>
+      <TD>2000062+354612</TD>
+      <TD>300.02565</TD>
+      <TD> 35.76999</TD>
+      <TD>14.031</TD>
+      <TD>14.434</TD>
+      <TD>10.730</TD>
+      <TD> 7.881</TD>
+      <TD>   0.3961</TD>
+      <TD>   1.2567</TD>
+      <TD>   2.1689</TD>
+      <TD>    4.3664</TD>
+      <TD> 1.000</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>1958318+341800</TD>
+      <TD>299.63263</TD>
+      <TD> 34.30002</TD>
+      <TD>13.456</TD>
+      <TD>13.458</TD>
+      <TD>11.084</TD>
+      <TD> 8.103</TD>
+      <TD>   0.3894</TD>
+      <TD>   1.3889</TD>
+      <TD>   7.2974</TD>
+      <TD>    5.9450</TD>
+      <TD> 0.900</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>2001005+355101</TD>
+      <TD>300.25223</TD>
+      <TD> 35.85037</TD>
+      <TD>15.260</TD>
+      <TD>15.074</TD>
+      <TD> 9.034</TD>
+      <TD> 6.665</TD>
+      <TD>   2.0577</TD>
+      <TD>   6.5551</TD>
+      <TD>  20.7299</TD>
+      <TD>   20.1943</TD>
+      <TD> 0.975</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>1958120+352411</TD>
+      <TD>299.55008</TD>
+      <TD> 35.40310</TD>
+      <TD>13.929</TD>
+      <TD>14.001</TD>
+      <TD>10.472</TD>
+      <TD> 8.146</TD>
+      <TD>   0.1123</TD>
+      <TD>   1.5402</TD>
+      <TD>   5.3945</TD>
+      <TD>    6.5823</TD>
+      <TD> 0.899</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>1957121+350913</TD>
+      <TD>299.30061</TD>
+      <TD> 35.15375</TD>
+      <TD>14.384</TD>
+      <TD>14.393</TD>
+      <TD> 9.087</TD>
+      <TD> 6.979</TD>
+      <TD>   0.3080</TD>
+      <TD>   1.7523</TD>
+      <TD>   5.9085</TD>
+      <TD>    3.5128</TD>
+      <TD> 0.879</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>2001357+344257</TD>
+      <TD>300.39875</TD>
+      <TD> 34.71595</TD>
+      <TD>14.442</TD>
+      <TD>14.891</TD>
+      <TD>11.458</TD>
+      <TD> 9.186</TD>
+      <TD>   2.7399</TD>
+      <TD>   2.7441</TD>
+      <TD>   7.0488</TD>
+      <TD>    4.5918</TD>
+      <TD> 1.000</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>1959137+353351</TD>
+      <TD>299.80722</TD>
+      <TD> 35.56421</TD>
+      <TD>13.986</TD>
+      <TD>13.958</TD>
+      <TD> 7.994</TD>
+      <TD> 5.741</TD>
+      <TD>   1.1309</TD>
+      <TD>   3.2735</TD>
+      <TD>  12.0042</TD>
+      <TD>    9.4408</TD>
+      <TD> 0.958</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>2001363+353744</TD>
+      <TD>300.40146</TD>
+      <TD> 35.62900</TD>
+      <TD>12.668</TD>
+      <TD>12.089</TD>
+      <TD> 6.333</TD>
+      <TD> 4.740</TD>
+      <TD>  27.7569</TD>
+      <TD>  48.7799</TD>
+      <TD>  92.4907</TD>
+      <TD>  125.0955</TD>
+      <TD> 1.000</TD>
+      <TD>IR</TD>
+      <TD>15.50</TD>
+      <TD>IRAS 19597+3529</TD>
+     </TR>
+     <TR>
+      <TD>1959256+345912</TD>
+      <TD>299.85668</TD>
+      <TD> 34.98675</TD>
+      <TD>12.031</TD>
+      <TD>11.970</TD>
+      <TD> 7.482</TD>
+      <TD> 5.228</TD>
+      <TD>   1.5605</TD>
+      <TD>   3.8163</TD>
+      <TD>  19.1763</TD>
+      <TD>    8.9826</TD>
+      <TD> 0.980</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>1957071+342746</TD>
+      <TD>299.27961</TD>
+      <TD> 34.46284</TD>
+      <TD>14.484</TD>
+      <TD>14.583</TD>
+      <TD>10.540</TD>
+      <TD> 7.827</TD>
+      <TD>   0.3679</TD>
+      <TD>   1.4231</TD>
+      <TD>   6.1143</TD>
+      <TD>    3.5358</TD>
+      <TD> 0.947</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>1956227+342429</TD>
+      <TD>299.09451</TD>
+      <TD> 34.40809</TD>
+      <TD>14.033</TD>
+      <TD>13.989</TD>
+      <TD> 9.963</TD>
+      <TD> 7.524</TD>
+      <TD>   0.3988</TD>
+      <TD>   1.3207</TD>
+      <TD>   3.8662</TD>
+      <TD>    1.7913</TD>
+      <TD> 0.815</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>2001249+353911</TD>
+      <TD>300.35360</TD>
+      <TD> 35.65318</TD>
+      <TD>12.511</TD>
+      <TD>12.262</TD>
+      <TD> 9.078</TD>
+      <TD> 7.447</TD>
+      <TD>   9.0348</TD>
+      <TD>  19.3120</TD>
+      <TD>  20.1423</TD>
+      <TD>   30.9189</TD>
+      <TD> 0.998</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>2000359+350947</TD>
+      <TD>300.14947</TD>
+      <TD> 35.16297</TD>
+      <TD>12.466</TD>
+      <TD>12.525</TD>
+      <TD> 9.559</TD>
+      <TD> 6.807</TD>
+      <TD>   1.4185</TD>
+      <TD>   3.5811</TD>
+      <TD>  19.4013</TD>
+      <TD>   27.6426</TD>
+      <TD> 0.984</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>2000589+354235</TD>
+      <TD>300.24558</TD>
+      <TD> 35.70978</TD>
+      <TD>14.265</TD>
+      <TD>14.136</TD>
+      <TD> 8.012</TD>
+      <TD> 5.893</TD>
+      <TD>   2.3451</TD>
+      <TD>   6.3335</TD>
+      <TD>  14.2435</TD>
+      <TD>   12.7935</TD>
+      <TD> 0.979</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>2002052+352852</TD>
+      <TD>300.52158</TD>
+      <TD> 35.48097</TD>
+      <TD>13.112</TD>
+      <TD>11.882</TD>
+      <TD> 8.499</TD>
+      <TD> 5.747</TD>
+      <TD>  19.5098</TD>
+      <TD>  36.1861</TD>
+      <TD>  52.7364</TD>
+      <TD>   64.8610</TD>
+      <TD> 1.000</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>2002109+353311</TD>
+      <TD>300.54551</TD>
+      <TD> 35.55301</TD>
+      <TD>10.660</TD>
+      <TD>10.274</TD>
+      <TD> 8.303</TD>
+      <TD> 6.256</TD>
+      <TD>   6.9117</TD>
+      <TD>  19.3247</TD>
+      <TD>  41.8891</TD>
+      <TD>   35.4696</TD>
+      <TD> 0.990</TD>
+      <TD>IR</TD>
+      <TD> 2.91</TD>
+      <TD>IRAS 20003+3524</TD>
+     </TR>
+     <TR>
+      <TD>1958144+342348</TD>
+      <TD>299.55982</TD>
+      <TD> 34.39658</TD>
+      <TD>11.374</TD>
+      <TD>11.435</TD>
+      <TD>10.143</TD>
+      <TD> 7.768</TD>
+      <TD>   0.3357</TD>
+      <TD>   0.8045</TD>
+      <TD>   8.2601</TD>
+      <TD>    5.0464</TD>
+      <TD> 0.743</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+     <TR>
+      <TD>2001562+351950</TD>
+      <TD>300.48435</TD>
+      <TD> 35.33044</TD>
+      <TD>12.480</TD>
+      <TD>12.132</TD>
+      <TD> 6.315</TD>
+      <TD> 4.148</TD>
+      <TD>  13.5998</TD>
+      <TD>  18.0526</TD>
+      <TD>  58.0403</TD>
+      <TD>   76.0868</TD>
+      <TD> 1.000</TD>
+      <TD>?</TD>
+      <TD/>
+      <TD>?</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

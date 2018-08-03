@@ -1,0 +1,1390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="IX_48_xgustwra" name="IX/48/xgustwra">
+   <DESCRIPTION>
+    Allsky cross-matched 3XMMe catalogue (\originalcolumnnames)
+   </DESCRIPTION>
+   <FIELD ID="uid" datatype="int" name="uid" ucd="ID_NUMBER" width="6">
+    <DESCRIPTION>
+     Unique identifier of the row (\original{uid})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="dMEC" datatype="double" name="dMEC" precision="6" ucd="EXTENSION_DIAM" unit="arcs" width="10">
+    <DESCRIPTION>
+     Minimum Enclosing Cone diameter (\original{dMEC}) (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="posRA" datatype="double" name="posRA" precision="6" ucd="POS_EQ_RA_OTHER" unit="deg" width="10">
+    <DESCRIPTION>
+     Merged position right ascension (\original{posRA}) (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="posDE" datatype="double" name="posDE" precision="6" ucd="POS_EQ_DEC_OTHER" unit="deg" width="10">
+    <DESCRIPTION>
+     Merged position Dec (\original{posDec}) (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="ePosA" datatype="float" name="ePosA" precision="3" ucd="ERROR" unit="arcs" width="6">
+    <DESCRIPTION>
+     Merged positional error ellipse semi-major axis
+     (\original{ePosA}) (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="ePosB" datatype="float" name="ePosB" precision="3" ucd="ERROR" unit="arcs" width="6">
+    <DESCRIPTION>
+     Merged positional error ellipse semi-minor axis
+     (\original{ePosB}) (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="ePosPA" datatype="float" name="ePosPA" precision="2" ucd="ERROR" unit="deg" width="6">
+    <DESCRIPTION>
+     Merged positional error ellipse position angle
+     (\original{ePosPA}) (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="maxPVal1" datatype="float" name="maxPVal1" precision="2" ucd="STAT_PROBABILITY" width="5">
+    <DESCRIPTION>
+     ? Value of the 1th largest probability (\original{maxProbaVal1})
+     (5)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="maxPLab1" arraysize="13" datatype="char" name="maxPLab1" ucd="ID_PARAM">
+    <DESCRIPTION>
+     Label of the 1th largest probability (\original{maxProbaLabel1})
+     (5)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SRCID" arraysize="15" datatype="char" name="SRCID" ucd="ID_NUMBER">
+    <DESCRIPTION>
+     3XMMe unique source index (\original{xmm_SRCID})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAX" datatype="double" name="RAX" precision="5" ucd="POS_EQ_RA_OTHER" unit="deg" width="9">
+    <DESCRIPTION>
+     3XMMe mean source right ascension (ICRS) (\original{xmm_SC_RA})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEX" datatype="double" name="DEX" precision="5" ucd="POS_EQ_DEC_OTHER" unit="deg" width="9">
+    <DESCRIPTION>
+     3XMMe mean source declination (ICRS) (\original{xmm_SC_DEC})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Flux8" datatype="double" name="Flux8" precision="E5" ucd="PHOT_FLUX_X" unit="mW.m-2" width="12">
+    <DESCRIPTION>
+     3XMMe Mean flux in 0.2-12keV band (\original{xmm_SC_EP_8_FLUX})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GALEX67" arraysize="19" datatype="char" name="GALEX67" ucd="ID_CROSSID">
+    <DESCRIPTION>
+     Galex Global Object ID (\original{galex67_objid})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="FUVmag" datatype="float" name="FUVmag" precision="3" ucd="PHOT_MAG_UV" unit="mag" width="6">
+    <DESCRIPTION>
+     ? GALEX/FUV calibrated AB magnitude (\original{galex67_fuv_mag})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="NUVmag" datatype="float" name="NUVmag" precision="4" ucd="PHOT_MAG_UV" unit="mag" width="7">
+    <DESCRIPTION>
+     ? GALEX/NUV calibrated AB magnitude (\original{galex67_nuv_mag})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="UCAC4" arraysize="10" datatype="char" name="UCAC4" ucd="ID_CROSSID">
+    <DESCRIPTION>
+     UCAC4 recommended identifier (ZZZ-NNNNNN)
+     (\original{ucac4_UCAC4})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="f.mag" datatype="float" name="f.mag" precision="3" ucd="PHOT_MAG_OPTICAL" unit="mag" width="6">
+    <DESCRIPTION>
+     ? UCAC fit model magnitude (579-642nm) (ucac4_f.mag)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="a.mag" datatype="float" name="a.mag" precision="3" ucd="PHOT_MAG_OPTICAL" unit="mag" width="6">
+    <DESCRIPTION>
+     ? UCAC aperture magnitude (579-642nm) (ucac4_a.mag)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="SDSS9" arraysize="19" datatype="char" name="SDSS9" ucd="ID_CROSSID">
+    <DESCRIPTION>
+     SDSS-DR9 name, based on J2000 position (\original{sdss9_SDSS9})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="upmag" datatype="float" name="upmag" precision="3" ucd="PHOT_SDSS_U" unit="mag" width="6">
+    <DESCRIPTION>
+     ? PSF magnitude in u band (psfMag_u) (\original{sdss9_upmag})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="gpmag" datatype="float" name="gpmag" precision="3" ucd="PHOT_SDSS_G" unit="mag" width="6">
+    <DESCRIPTION>
+     ? PSF magnitude in g band (psfMag_g) (\original{sdss9_gpmag})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="rpmag" datatype="float" name="rpmag" precision="3" ucd="PHOT_SDSS_R" unit="mag" width="6">
+    <DESCRIPTION>
+     ? PSF magnitude in r band (psfMag_r) (\original{sdss9_rpmag})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="ipmag" datatype="float" name="ipmag" precision="3" ucd="PHOT_SDSS_I" unit="mag" width="6">
+    <DESCRIPTION>
+     ? PSF magnitude in i band (psfMag_i) (\original{sdss9_ipmag})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="zpmag" datatype="float" name="zpmag" precision="3" ucd="PHOT_SDSS_Z" unit="mag" width="6">
+    <DESCRIPTION>
+     ? PSF magnitude in z band (psfMag_z) (\original{sdss9_zpmag})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="zsp" datatype="double" name="zsp" precision="5" ucd="REDSHIFT_HC" width="8">
+    <DESCRIPTION>
+     ? Spectroscopic redshift (when SpObjID&gt;0) (7)
+     (\original{sdss9_zsp})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="_2MASS" arraysize="16" datatype="char" name="_2MASS" ucd="ID_MAIN:1">
+    <DESCRIPTION>
+     2MASS Source designation (\original{tmass_2MASS})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="J2mag" datatype="float" name="J2mag" precision="3" ucd="PHOT_JHN_J" unit="mag" width="7">
+    <DESCRIPTION>
+     ? (j_m) J selected default magnitude (\original{tmass_Jmag})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="H2mag" datatype="float" name="H2mag" precision="3" ucd="PHOT_JHN_H" unit="mag" width="7">
+    <DESCRIPTION>
+     ? (h_m) H selected default magnitude (\original{tmass_Hmag})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="K2mag" datatype="float" name="K2mag" precision="3" ucd="PHOT_JHN_K" unit="mag" width="7">
+    <DESCRIPTION>
+     ? (k_m) K selected default magnitude (\original{tmass_Kmag})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="AllWISE" arraysize="19" datatype="char" name="AllWISE" ucd="ID_CATALOG">
+    <DESCRIPTION>
+     WISE All-Sky Release Catalog name, based on J2000 position
+     (\original{allwise_AllWISE})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="int" name="pmRA" ucd="POS_EQ_PMRA" unit="mas.yr-1" width="7">
+    <DESCRIPTION>
+     ? Proper motion in RA (\original{allwise_pmRA}) [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="int" name="pmDE" ucd="POS_EQ_PMDEC" unit="mas.yr-1" width="7">
+    <DESCRIPTION>
+     ? Proper motion in DE (\original{allwise_pmDE}) [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="W1mag" datatype="float" name="W1mag" precision="3" ucd="PHOT_IR_3.4" unit="mag" width="7">
+    <DESCRIPTION>
+     ? W1 magnitude (3.35um) (\original{allwise_W1mag})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="W2mag" datatype="float" name="W2mag" precision="3" ucd="PHOT_IR_4.2" unit="mag" width="7">
+    <DESCRIPTION>
+     ? W2 magnitude (4.6um) (\original{allwise_W2mag})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="W3mag" datatype="float" name="W3mag" precision="3" ucd="PHOT_FLUX_IR_12" unit="mag" width="7">
+    <DESCRIPTION>
+     ? W3 magnitude (11.6um) (\original{allwise_W3mag})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="W4mag" datatype="float" name="W4mag" precision="3" ucd="PHOT_FLUX_IR_25" unit="mag" width="7">
+    <DESCRIPTION>
+     ? W4 magnitude (22.1um) (\original{allwise_W4mag})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="COMB" datatype="int" name="COMB" ucd="ID_CROSSID" width="7">
+    <DESCRIPTION>
+     ? Identification of the combined source
+     (\original{mingov2_COMB_ID}) [NULL integer written as an empty
+     string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="FluxC" datatype="double" name="FluxC" precision="6" ucd="PHOT_FLUX_RADIO_1.4G" unit="mJy" width="12">
+    <DESCRIPTION>
+     ? NVSS/FIRST combined flux (\original{mingov2_COMB_FLUX})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="NVSS" datatype="int" name="NVSS" ucd="ID_CROSSID" width="7">
+    <DESCRIPTION>
+     ? ID of the NVSS source (\original{mingov2_NVSS_ID}) [NULL
+     integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="FIRST" arraysize="77" datatype="char" name="FIRST" ucd="ID_CROSSID">
+    <DESCRIPTION>
+     ID(s) of the FIRST source(s) (\original{mingov2_FIRST_ID})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="AKARIFIS" arraysize="14" datatype="char" name="AKARIFIS" ucd="ID_CROSSID">
+    <DESCRIPTION>
+     AKARI source name (HHMMSSs+DDMMSS) (\original{akarifis_objName})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="S65" datatype="double" name="S65" precision="E5" ucd="PHOT_FLUX_IR_60" unit="Jy" width="12">
+    <DESCRIPTION>
+     ? Flux density in N60 (\original{akarifis_S65})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="S90" datatype="double" name="S90" precision="E5" ucd="PHOT_FLUX_IR_100" unit="Jy" width="12">
+    <DESCRIPTION>
+     ? Flux density in WIDE-S (\original{akarifis_S90})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="S140" datatype="double" name="S140" precision="E5" ucd="PHOT_FLUX_IR_170" unit="Jy" width="12">
+    <DESCRIPTION>
+     ? Flux density in WIDE-L (\original{akarifis_S140})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="S160" datatype="double" name="S160" precision="E5" ucd="PHOT_FLUX_IR_170" unit="Jy" width="12">
+    <DESCRIPTION>
+     ? Flux density in N160 (\original{akarifis_S160})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>149669</TD>
+      <TD>  0.616323</TD>
+      <TD>215.628201</TD>
+      <TD>  0.050710</TD>
+      <TD> 0.074</TD>
+      <TD> 0.074</TD>
+      <TD>118.40</TD>
+      <TD> 0.98</TD>
+      <TD>proba_xgsw</TD>
+      <TD>206517408010001</TD>
+      <TD>215.62833</TD>
+      <TD>  0.05077</TD>
+      <TD>  4.3634e-13</TD>
+      <TD>6383547040633193199</TD>
+      <TD>20.187</TD>
+      <TD>19.8572</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>J142230.76+000302.5</TD>
+      <TD>19.635</TD>
+      <TD>19.459</TD>
+      <TD>19.734</TD>
+      <TD>19.146</TD>
+      <TD>18.943</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>J142230.77+000302.5</TD>
+      <TD>24</TD>
+      <TD>-14</TD>
+      <TD> 14.020</TD>
+      <TD> 13.096</TD>
+      <TD> 10.709</TD>
+      <TD>  8.703</TD>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>149670</TD>
+      <TD>  1.074794</TD>
+      <TD>215.722154</TD>
+      <TD> -0.030298</TD>
+      <TD> 0.081</TD>
+      <TD> 0.080</TD>
+      <TD> 83.46</TD>
+      <TD> 0.98</TD>
+      <TD>proba_xgsw</TD>
+      <TD>206517408010002</TD>
+      <TD>215.72243</TD>
+      <TD> -0.03029</TD>
+      <TD>  5.4943e-13</TD>
+      <TD>6383547040631095687</TD>
+      <TD/>
+      <TD>19.9969</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>J142253.31-000149.0</TD>
+      <TD>19.648</TD>
+      <TD>19.454</TD>
+      <TD>18.939</TD>
+      <TD>18.904</TD>
+      <TD>18.984</TD>
+      <TD> 1.08132</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>J142253.32-000149.1</TD>
+      <TD>32</TD>
+      <TD>-191</TD>
+      <TD> 15.674</TD>
+      <TD> 14.447</TD>
+      <TD> 11.345</TD>
+      <TD>  8.663</TD>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>149671</TD>
+      <TD>  0.398086</TD>
+      <TD>215.525678</TD>
+      <TD> -0.062148</TD>
+      <TD> 0.078</TD>
+      <TD> 0.077</TD>
+      <TD> 89.10</TD>
+      <TD> 0.99</TD>
+      <TD>proba_xgsw</TD>
+      <TD>206517408010003</TD>
+      <TD>215.52571</TD>
+      <TD> -0.06218</TD>
+      <TD>  1.1739e-13</TD>
+      <TD>6383547040633192820</TD>
+      <TD>20.101</TD>
+      <TD>19.9343</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>J142206.16-000343.6</TD>
+      <TD>19.705</TD>
+      <TD>19.347</TD>
+      <TD>19.483</TD>
+      <TD>19.391</TD>
+      <TD>19.440</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>J142206.16-000343.7</TD>
+      <TD>17</TD>
+      <TD>22</TD>
+      <TD> 15.083</TD>
+      <TD> 14.193</TD>
+      <TD> 11.506</TD>
+      <TD>  8.613</TD>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>149672</TD>
+      <TD>  1.668029</TD>
+      <TD>215.521222</TD>
+      <TD> -0.022430</TD>
+      <TD> 0.085</TD>
+      <TD> 0.084</TD>
+      <TD> 86.70</TD>
+      <TD> 0.93</TD>
+      <TD>proba_xgsw</TD>
+      <TD>206517408010004</TD>
+      <TD>215.52089</TD>
+      <TD> -0.02240</TD>
+      <TD>  6.3047e-14</TD>
+      <TD>6383547040633192923</TD>
+      <TD>21.623</TD>
+      <TD>20.3077</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>J142205.09-000120.7</TD>
+      <TD>18.980</TD>
+      <TD>18.999</TD>
+      <TD>18.979</TD>
+      <TD>18.735</TD>
+      <TD>18.565</TD>
+      <TD> 1.86102</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>J142205.09-000120.8</TD>
+      <TD>135</TD>
+      <TD>241</TD>
+      <TD> 16.006</TD>
+      <TD> 14.915</TD>
+      <TD> 11.551</TD>
+      <TD>  9.047</TD>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>149673</TD>
+      <TD>  1.762316</TD>
+      <TD>215.637169</TD>
+      <TD>  0.043377</TD>
+      <TD> 0.269</TD>
+      <TD> 0.247</TD>
+      <TD> 80.60</TD>
+      <TD> 0.92</TD>
+      <TD>proba_xw</TD>
+      <TD>206517408010009</TD>
+      <TD>215.63761</TD>
+      <TD>  0.04329</TD>
+      <TD>  3.3399e-14</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>J142232.91+000236.1</TD>
+      <TD>-511</TD>
+      <TD>-1097</TD>
+      <TD> 16.795</TD>
+      <TD> 16.000</TD>
+      <TD> 12.551</TD>
+      <TD>  8.829</TD>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>149674</TD>
+      <TD>  3.713722</TD>
+      <TD>215.727232</TD>
+      <TD> -0.023437</TD>
+      <TD> 0.168</TD>
+      <TD> 0.159</TD>
+      <TD> 84.00</TD>
+      <TD> 0.87</TD>
+      <TD>proba_x_w</TD>
+      <TD>206517408010010</TD>
+      <TD>215.72808</TD>
+      <TD> -0.02290</TD>
+      <TD>  3.8932e-14</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>J142254.53-000124.4</TD>
+      <TD>-228</TD>
+      <TD>99</TD>
+      <TD> 15.849</TD>
+      <TD> 15.338</TD>
+      <TD> 12.339</TD>
+      <TD>  8.757</TD>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>149675</TD>
+      <TD>  1.949254</TD>
+      <TD>215.608559</TD>
+      <TD>  0.064136</TD>
+      <TD> 0.193</TD>
+      <TD> 0.187</TD>
+      <TD>  0.00</TD>
+      <TD> 0.82</TD>
+      <TD>proba_xs</TD>
+      <TD>206517408010011</TD>
+      <TD>215.60905</TD>
+      <TD>  0.06431</TD>
+      <TD>  2.0953e-14</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>J142226.05+000350.8</TD>
+      <TD>22.845</TD>
+      <TD>22.079</TD>
+      <TD>23.117</TD>
+      <TD>23.136</TD>
+      <TD>22.830</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>-2147483648</TD>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>149676</TD>
+      <TD>  0.972428</TD>
+      <TD>215.640880</TD>
+      <TD> -0.012457</TD>
+      <TD> 0.098</TD>
+      <TD> 0.097</TD>
+      <TD> 83.29</TD>
+      <TD> 0.95</TD>
+      <TD>proba_xsw</TD>
+      <TD>206517408010013</TD>
+      <TD>215.64102</TD>
+      <TD> -0.01224</TD>
+      <TD>  3.2387e-14</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>J142233.80-000044.8</TD>
+      <TD>22.088</TD>
+      <TD>21.644</TD>
+      <TD>21.309</TD>
+      <TD>20.941</TD>
+      <TD>20.619</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>J142233.83-000044.9</TD>
+      <TD>356</TD>
+      <TD>422</TD>
+      <TD> 16.732</TD>
+      <TD> 15.572</TD>
+      <TD> 12.849</TD>
+      <TD>  8.636</TD>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>149677</TD>
+      <TD>  0.478617</TD>
+      <TD>215.512633</TD>
+      <TD>  0.155507</TD>
+      <TD> 0.332</TD>
+      <TD> 0.311</TD>
+      <TD> 88.20</TD>
+      <TD> 0.98</TD>
+      <TD>proba_xw</TD>
+      <TD>206517408010014</TD>
+      <TD>215.51275</TD>
+      <TD>  0.15555</TD>
+      <TD>   3.069e-14</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>J142203.02+000919.8</TD>
+      <TD>41</TD>
+      <TD>-189</TD>
+      <TD> 17.175</TD>
+      <TD> 16.216</TD>
+      <TD> 12.134</TD>
+      <TD>  8.999</TD>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>149678</TD>
+      <TD>  0.637217</TD>
+      <TD>215.499086</TD>
+      <TD> -0.036518</TD>
+      <TD> 0.100</TD>
+      <TD> 0.098</TD>
+      <TD> 87.62</TD>
+      <TD> 0.97</TD>
+      <TD>proba_xsw</TD>
+      <TD>206517408010019</TD>
+      <TD>215.49919</TD>
+      <TD> -0.03655</TD>
+      <TD>  1.1193e-14</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>J142159.78-000211.4</TD>
+      <TD>21.622</TD>
+      <TD>21.504</TD>
+      <TD>21.241</TD>
+      <TD>20.836</TD>
+      <TD>20.479</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>J142159.76-000211.3</TD>
+      <TD>214</TD>
+      <TD>-55</TD>
+      <TD> 16.614</TD>
+      <TD> 16.365</TD>
+      <TD> 12.272</TD>
+      <TD>  9.053</TD>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>149679</TD>
+      <TD>  4.469393</TD>
+      <TD>215.560578</TD>
+      <TD>  0.211002</TD>
+      <TD> 0.137</TD>
+      <TD> 0.136</TD>
+      <TD> 37.74</TD>
+      <TD> 0.45</TD>
+      <TD>proba_x_sw</TD>
+      <TD>206517408010024</TD>
+      <TD>215.56146</TD>
+      <TD>  0.21179</TD>
+      <TD>  2.4998e-14</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>J142214.53+001239.3</TD>
+      <TD>24.181</TD>
+      <TD>23.625</TD>
+      <TD>22.893</TD>
+      <TD>21.691</TD>
+      <TD>21.215</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>J142214.53+001239.6</TD>
+      <TD>130</TD>
+      <TD>274</TD>
+      <TD> 15.862</TD>
+      <TD> 14.947</TD>
+      <TD> 12.292</TD>
+      <TD>  9.054</TD>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>149680</TD>
+      <TD>  1.337190</TD>
+      <TD>215.609316</TD>
+      <TD>  0.080488</TD>
+      <TD> 0.121</TD>
+      <TD> 0.117</TD>
+      <TD> 90.00</TD>
+      <TD> 0.94</TD>
+      <TD>proba_xs</TD>
+      <TD>206517408010025</TD>
+      <TD>215.60907</TD>
+      <TD>  0.08076</TD>
+      <TD>    6.63e-15</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>J142226.23+000449.7</TD>
+      <TD>21.512</TD>
+      <TD>21.072</TD>
+      <TD>21.429</TD>
+      <TD>20.998</TD>
+      <TD>20.585</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>-2147483648</TD>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>149681</TD>
+      <TD>  3.593963</TD>
+      <TD>215.609297</TD>
+      <TD>  0.079896</TD>
+      <TD> 0.434</TD>
+      <TD> 0.395</TD>
+      <TD> 81.60</TD>
+      <TD> 0.54</TD>
+      <TD>proba_xw</TD>
+      <TD>206517408010025</TD>
+      <TD>215.60907</TD>
+      <TD>  0.08076</TD>
+      <TD>    6.63e-15</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>J142226.23+000447.2</TD>
+      <TD>-298</TD>
+      <TD>712</TD>
+      <TD> 17.557</TD>
+      <TD> 16.307</TD>
+      <TD> 12.287</TD>
+      <TD>  9.262</TD>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>149682</TD>
+      <TD>  4.932547</TD>
+      <TD>215.552073</TD>
+      <TD> -0.037766</TD>
+      <TD> 0.094</TD>
+      <TD> 0.092</TD>
+      <TD> 87.43</TD>
+      <TD> 0.73</TD>
+      <TD>proba_xgsw</TD>
+      <TD>206517408010027</TD>
+      <TD>215.55136</TD>
+      <TD> -0.03856</TD>
+      <TD>  4.6044e-14</TD>
+      <TD>6383547040631095752</TD>
+      <TD/>
+      <TD>21.9479</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>J142212.49-000216.0</TD>
+      <TD>21.601</TD>
+      <TD>21.508</TD>
+      <TD>21.297</TD>
+      <TD>21.294</TD>
+      <TD>20.885</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>J142212.49-000215.8</TD>
+      <TD>-321</TD>
+      <TD>-161</TD>
+      <TD> 16.400</TD>
+      <TD> 15.463</TD>
+      <TD> 12.482</TD>
+      <TD>  9.408</TD>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>149683</TD>
+      <TD>  4.214991</TD>
+      <TD>215.530923</TD>
+      <TD>  0.114649</TD>
+      <TD> 0.473</TD>
+      <TD> 0.437</TD>
+      <TD> 79.30</TD>
+      <TD> 0.66</TD>
+      <TD>proba_x_w</TD>
+      <TD>206517408010028</TD>
+      <TD>215.53173</TD>
+      <TD>  0.11527</TD>
+      <TD>  1.6108e-14</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>J142207.39+000652.4</TD>
+      <TD>-603</TD>
+      <TD>-274</TD>
+      <TD> 17.572</TD>
+      <TD> 16.722</TD>
+      <TD> 12.262</TD>
+      <TD>  8.893</TD>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>149684</TD>
+      <TD>  2.806952</TD>
+      <TD>215.587621</TD>
+      <TD>  0.113447</TD>
+      <TD> 0.361</TD>
+      <TD> 0.303</TD>
+      <TD> 57.20</TD>
+      <TD> 0.80</TD>
+      <TD>proba_xw</TD>
+      <TD>206517408010029</TD>
+      <TD>215.58819</TD>
+      <TD>  0.11300</TD>
+      <TD>  1.2571e-14</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>J142221.01+000648.5</TD>
+      <TD>-132</TD>
+      <TD>141</TD>
+      <TD> 16.752</TD>
+      <TD> 16.148</TD>
+      <TD> 12.158</TD>
+      <TD>  8.621</TD>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>149685</TD>
+      <TD>  0.457713</TD>
+      <TD>215.476932</TD>
+      <TD>  0.056688</TD>
+      <TD> 0.202</TD>
+      <TD> 0.191</TD>
+      <TD>180.00</TD>
+      <TD> 0.97</TD>
+      <TD>proba_xs</TD>
+      <TD>206517408010031</TD>
+      <TD>215.47705</TD>
+      <TD>  0.05667</TD>
+      <TD>  2.9908e-14</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>J142154.46+000324.0</TD>
+      <TD>25.838</TD>
+      <TD>23.137</TD>
+      <TD>23.107</TD>
+      <TD>22.058</TD>
+      <TD>20.945</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>-2147483648</TD>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>149686</TD>
+      <TD>  2.351460</TD>
+      <TD>215.687888</TD>
+      <TD>  0.129738</TD>
+      <TD> 0.161</TD>
+      <TD> 0.151</TD>
+      <TD> 88.62</TD>
+      <TD> 0.97</TD>
+      <TD>proba_xsw</TD>
+      <TD>206517408010034</TD>
+      <TD>215.68795</TD>
+      <TD>  0.13038</TD>
+      <TD>  8.9954e-15</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>J142245.09+000747.0</TD>
+      <TD>22.089</TD>
+      <TD>22.717</TD>
+      <TD>22.924</TD>
+      <TD>21.985</TD>
+      <TD>21.541</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>J142245.10+000747.1</TD>
+      <TD>-574</TD>
+      <TD>516</TD>
+      <TD> 17.511</TD>
+      <TD> 16.734</TD>
+      <TD> 12.730</TD>
+      <TD>  8.790</TD>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>149687</TD>
+      <TD>  1.531229</TD>
+      <TD>215.790843</TD>
+      <TD>  0.068079</TD>
+      <TD> 0.110</TD>
+      <TD> 0.109</TD>
+      <TD>  6.68</TD>
+      <TD> 0.63</TD>
+      <TD>proba_x_sw</TD>
+      <TD>206517408010035</TD>
+      <TD>215.79094</TD>
+      <TD>  0.06806</TD>
+      <TD>  1.0942e-14</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>J142309.81+000405.0</TD>
+      <TD>20.218</TD>
+      <TD>20.338</TD>
+      <TD>20.838</TD>
+      <TD>20.016</TD>
+      <TD>20.030</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>J142309.72+000405.1</TD>
+      <TD>554</TD>
+      <TD>-539</TD>
+      <TD> 16.904</TD>
+      <TD> 16.075</TD>
+      <TD> 12.191</TD>
+      <TD>  8.592</TD>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>149688</TD>
+      <TD>  3.445469</TD>
+      <TD>215.790935</TD>
+      <TD>  0.067233</TD>
+      <TD> 0.557</TD>
+      <TD> 0.557</TD>
+      <TD>135.00</TD>
+      <TD> 0.90</TD>
+      <TD>proba_xg</TD>
+      <TD>206517408010035</TD>
+      <TD>215.79094</TD>
+      <TD>  0.06806</TD>
+      <TD>  1.0942e-14</TD>
+      <TD>6383547040631096127</TD>
+      <TD/>
+      <TD>22.4128</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>-2147483648</TD>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>149689</TD>
+      <TD>  2.270173</TD>
+      <TD>215.690400</TD>
+      <TD> -0.082118</TD>
+      <TD> 0.078</TD>
+      <TD> 0.078</TD>
+      <TD> 83.90</TD>
+      <TD> 0.98</TD>
+      <TD>proba_xgsw</TD>
+      <TD>206517408010036</TD>
+      <TD>215.69042</TD>
+      <TD> -0.08246</TD>
+      <TD>   2.116e-14</TD>
+      <TD>6383547040631095613</TD>
+      <TD/>
+      <TD>20.8286</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>J142245.69-000455.6</TD>
+      <TD>20.477</TD>
+      <TD>20.134</TD>
+      <TD>19.961</TD>
+      <TD>19.664</TD>
+      <TD>19.500</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>J142245.69-000455.6</TD>
+      <TD>164</TD>
+      <TD>23</TD>
+      <TD> 15.034</TD>
+      <TD> 14.328</TD>
+      <TD> 10.954</TD>
+      <TD>  8.908</TD>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>149690</TD>
+      <TD>  0.556833</TD>
+      <TD>215.679162</TD>
+      <TD>  0.145629</TD>
+      <TD> 0.133</TD>
+      <TD> 0.131</TD>
+      <TD>  0.00</TD>
+      <TD> 0.97</TD>
+      <TD>proba_xs</TD>
+      <TD>206517408010037</TD>
+      <TD>215.67916</TD>
+      <TD>  0.14578</TD>
+      <TD>  3.2834e-14</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>J142242.99+000844.2</TD>
+      <TD>22.429</TD>
+      <TD>22.013</TD>
+      <TD>22.595</TD>
+      <TD>22.153</TD>
+      <TD>21.774</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>-2147483648</TD>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>149691</TD>
+      <TD>  5.571368</TD>
+      <TD>215.700782</TD>
+      <TD> -0.048142</TD>
+      <TD> 0.134</TD>
+      <TD> 0.133</TD>
+      <TD> 75.99</TD>
+      <TD> 0.72</TD>
+      <TD>proba_xsw</TD>
+      <TD>206517408010039</TD>
+      <TD>215.70202</TD>
+      <TD> -0.04731</TD>
+      <TD>  1.6382e-14</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>J142248.18-000253.3</TD>
+      <TD>22.628</TD>
+      <TD>23.078</TD>
+      <TD>22.373</TD>
+      <TD>21.613</TD>
+      <TD>21.040</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>J142248.16-000253.2</TD>
+      <TD>-594</TD>
+      <TD>226</TD>
+      <TD> 16.904</TD>
+      <TD> 16.519</TD>
+      <TD> 12.056</TD>
+      <TD>  9.283</TD>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD>-2147483648</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

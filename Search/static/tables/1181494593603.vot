@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_AJ_151_59_table2" name="J/AJ/151/59/table2">
+   <DESCRIPTION>
+    The Catalog of Earth-Like Exoplanet Survey Targets (CELESTA)
+   </DESCRIPTION>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     [1/113542] Hipparcos number \linkRole{stellar parameters in Table
+     1 }
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="In" arraysize="2" datatype="char" name="In" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the input data (Revised Hipparcos Catalog, van Leeuwen
+     2007, Cat. I/311; McDonald et al. 2012, Cat. J/MNRAS/427/343)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="13" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Hour of Right Ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="14" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Degree of Declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dist" datatype="float" name="Dist" precision="1" ucd="POS_GAL_HC" unit="pc" width="6">
+    <DESCRIPTION>
+     [6.7/3000] Distance (d) (determined from parallax; Dist=1/plx)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Teff" datatype="short" name="Teff" ucd="PHYS_TEMP_EFFEC" unit="K" width="4">
+    <DESCRIPTION>
+     [3042/7199] Stellar effective temperature (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="mag" datatype="float" name="mag" precision="4" ucd="PHOT_HIPPAR" unit="mag" width="7">
+    <DESCRIPTION>
+     [2.3/13.7] Observed magnitude (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Lum" datatype="double" name="Lum" precision="4" ucd="PHYS_LUMINOSITY_GENERAL" unit="Lsun" width="8">
+    <DESCRIPTION>
+     [0.01/240] Luminosity (L)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Mass" datatype="float" name="Mass" precision="3" ucd="PHYS_MASS_MISC" unit="Msun" width="6">
+    <DESCRIPTION>
+     [0.1/1.6] Stellar mass (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Rad" datatype="float" name="Rad" precision="3" ucd="PHYS_SIZE_RADIUS_GENERAL" unit="Rsun" width="6">
+    <DESCRIPTION>
+     [0.107/10] Stellar radius (R) (4)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="CHZ" datatype="float" name="CHZ" precision="3" ucd="PHYS_DISTANCE_TRUE" unit="AU" width="6">
+    <DESCRIPTION>
+     [0.08/10] Conservative Habitable Zone width (5)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="OHZ" datatype="float" name="OHZ" precision="2" ucd="PHYS_DISTANCE_TRUE" unit="AU" width="5">
+    <DESCRIPTION>
+     [0.1/10] Optimistic Habitable Zone width (5)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="plx" datatype="float" name="plx" precision="2" ucd="POS_PARLX_TRIG" unit="arcs" width="6">
+    <DESCRIPTION>
+     [0.3/149] Parallax (7)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>69785</TD>
+      <TD>In</TD>
+      <TD>14 17 01.4898</TD>
+      <TD>-00 04 44.3341</TD>
+      <TD>  90.7</TD>
+      <TD>6083</TD>
+      <TD> 9.1538</TD>
+      <TD>  1.7000</TD>
+      <TD> 1.200</TD>
+      <TD> 1.170</TD>
+      <TD> 0.900</TD>
+      <TD> 1.30</TD>
+      <TD> 11.03</TD>
+     </TR>
+     <TR>
+      <TD>69866</TD>
+      <TD>In</TD>
+      <TD>14 17 50.2988</TD>
+      <TD>-01 04 44.6127</TD>
+      <TD> 150.0</TD>
+      <TD>6072</TD>
+      <TD>10.5725</TD>
+      <TD>  1.1700</TD>
+      <TD> 1.200</TD>
+      <TD> 0.980</TD>
+      <TD> 0.800</TD>
+      <TD> 1.10</TD>
+      <TD>  6.59</TD>
+     </TR>
+     <TR>
+      <TD>69911</TD>
+      <TD>In</TD>
+      <TD>14 18 26.9670</TD>
+      <TD>-00 06 54.2025</TD>
+      <TD> 180.0</TD>
+      <TD>5265</TD>
+      <TD>10.7077</TD>
+      <TD>  1.8000</TD>
+      <TD> 0.870</TD>
+      <TD> 1.600</TD>
+      <TD> 1.000</TD>
+      <TD> 1.40</TD>
+      <TD>  5.55</TD>
+     </TR>
+     <TR>
+      <TD>70136</TD>
+      <TD>In</TD>
+      <TD>14 21 04.9360</TD>
+      <TD>+00 31 07.0578</TD>
+      <TD>  56.0</TD>
+      <TD>4844</TD>
+      <TD>11.1318</TD>
+      <TD>  0.2300</TD>
+      <TD> 0.750</TD>
+      <TD> 0.680</TD>
+      <TD> 0.400</TD>
+      <TD> 0.50</TD>
+      <TD> 17.86</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

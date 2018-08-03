@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJS_183_197_table1" name="J/ApJS/183/197/table1">
+   <DESCRIPTION>
+    Clusters identified from the SDSS-DR6 (table from erratum
+    2010ApJS..187..272W)
+   </DESCRIPTION>
+   <FIELD ID="X" arraysize="1" datatype="char" name="X" ucd="DATA_LINK">
+    <DESCRIPTION>
+     {\bf X} indicates a new candidate of an X-ray cluster
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="WHL" arraysize="16" datatype="char" name="WHL" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Cluster name (JHHMMSS.s+DDMMSS) (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="zph" datatype="float" name="zph" precision="4" ucd="REDSHIFT_PHOT" width="7">
+    <DESCRIPTION>
+     Photometric redshift of cluster
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="zsp" datatype="float" name="zsp" precision="4" ucd="REDSHIFT_HC" width="7">
+    <DESCRIPTION>
+     BCG spectroscopic redshift of cluster
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="rmag" datatype="float" name="rmag" precision="2" ucd="PHOT_SDSS_R" unit="mag" width="5">
+    <DESCRIPTION>
+     BCG r band magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Ngal" datatype="short" name="Ngal" ucd="NUMBER" width="3">
+    <DESCRIPTION>
+     Number of member galaxy candidates within 1Mpc
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="R" datatype="float" name="R" precision="2" ucd="CLASS_RICHNESS" width="6">
+    <DESCRIPTION>
+     Cluster richness
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GCN" datatype="float" name="GCN" precision="2" ucd="NUMBER" width="6">
+    <DESCRIPTION>
+     Gross galaxy number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Rad" datatype="float" name="Rad" precision="2" ucd="PHYS_SIZE_RADIUS_GENERAL" unit="Mpc" width="6">
+    <DESCRIPTION>
+     Radius of member galaxy detection
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Lr" datatype="float" name="Lr" precision="2" ucd="PHYS_LUMINOSITY_GENERAL" unit="10+10Lsun" width="6">
+    <DESCRIPTION>
+     Summed r band cluster luminosity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="D" datatype="float" name="D" precision="2" ucd="CLASS_DISTANCE" width="6">
+    <DESCRIPTION>
+     Overdensity level of cluster
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Cats" arraysize="30" datatype="char" name="Cats" ucd="ID_CATALOG">
+    <DESCRIPTION>
+     Other catalogs containing the cluster (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     BCG Right Ascension in decimal degrees (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     BCG Declination in decimal degrees (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD/>
+      <TD>J141733.4-002906</TD>
+      <TD> 0.1161</TD>
+      <TD>-1.0000</TD>
+      <TD>16.38</TD>
+      <TD>16</TD>
+      <TD> 12.52</TD>
+      <TD> 10.13</TD>
+      <TD>  0.50</TD>
+      <TD> 42.67</TD>
+      <TD>  7.85</TD>
+      <TD>maxBCG</TD>
+      <TD>214.38907</TD>
+      <TD> -0.48507</TD>
+     </TR>
+     <TR>
+      <TD/>
+      <TD>J141736.3-002759</TD>
+      <TD> 0.4893</TD>
+      <TD>-1.0000</TD>
+      <TD>19.38</TD>
+      <TD>13</TD>
+      <TD> 11.67</TD>
+      <TD> 11.33</TD>
+      <TD>  0.71</TD>
+      <TD> 89.87</TD>
+      <TD>  5.70</TD>
+      <TD/>
+      <TD>214.40128</TD>
+      <TD> -0.46642</TD>
+     </TR>
+     <TR>
+      <TD/>
+      <TD>J141804.3-002221</TD>
+      <TD> 0.2441</TD>
+      <TD> 0.1816</TD>
+      <TD>17.63</TD>
+      <TD>9</TD>
+      <TD>  7.67</TD>
+      <TD>  7.67</TD>
+      <TD>  0.50</TD>
+      <TD> 49.05</TD>
+      <TD>  5.19</TD>
+      <TD/>
+      <TD>214.53465</TD>
+      <TD> -0.38736</TD>
+     </TR>
+     <TR>
+      <TD/>
+      <TD>J141814.2+002200</TD>
+      <TD> 0.3279</TD>
+      <TD>-1.0000</TD>
+      <TD>18.64</TD>
+      <TD>16</TD>
+      <TD> 11.47</TD>
+      <TD>  9.87</TD>
+      <TD>  0.50</TD>
+      <TD> 49.23</TD>
+      <TD>  7.00</TD>
+      <TD>CE</TD>
+      <TD>214.55904</TD>
+      <TD>  0.36673</TD>
+     </TR>
+     <TR>
+      <TD/>
+      <TD>J141836.6-003121</TD>
+      <TD> 0.6071</TD>
+      <TD>-1.0000</TD>
+      <TD>20.49</TD>
+      <TD>9</TD>
+      <TD>  7.40</TD>
+      <TD>  7.60</TD>
+      <TD>  0.50</TD>
+      <TD> 94.55</TD>
+      <TD> 10.99</TD>
+      <TD/>
+      <TD>214.65254</TD>
+      <TD> -0.52255</TD>
+     </TR>
+     <TR>
+      <TD/>
+      <TD>J142020.1-003502</TD>
+      <TD> 0.3767</TD>
+      <TD> 0.3204</TD>
+      <TD>18.24</TD>
+      <TD>15</TD>
+      <TD> 11.30</TD>
+      <TD>  9.07</TD>
+      <TD>  0.50</TD>
+      <TD> 81.92</TD>
+      <TD>  6.34</TD>
+      <TD>CE</TD>
+      <TD>215.08357</TD>
+      <TD> -0.58392</TD>
+     </TR>
+     <TR>
+      <TD/>
+      <TD>J142028.0-000634</TD>
+      <TD> 0.2777</TD>
+      <TD>-1.0000</TD>
+      <TD>17.94</TD>
+      <TD>18</TD>
+      <TD> 16.48</TD>
+      <TD> 16.86</TD>
+      <TD>  0.87</TD>
+      <TD> 78.55</TD>
+      <TD>  8.83</TD>
+      <TD>CE</TD>
+      <TD>215.11685</TD>
+      <TD> -0.10951</TD>
+     </TR>
+     <TR>
+      <TD/>
+      <TD>J142041.6-002413</TD>
+      <TD> 0.3655</TD>
+      <TD> 0.3574</TD>
+      <TD>17.97</TD>
+      <TD>16</TD>
+      <TD> 11.52</TD>
+      <TD> 10.64</TD>
+      <TD>  0.87</TD>
+      <TD>109.89</TD>
+      <TD>  4.90</TD>
+      <TD>CE</TD>
+      <TD>215.17345</TD>
+      <TD> -0.40366</TD>
+     </TR>
+     <TR>
+      <TD/>
+      <TD>J142058.7+001343</TD>
+      <TD> 0.2752</TD>
+      <TD> 0.2772</TD>
+      <TD>17.82</TD>
+      <TD>18</TD>
+      <TD> 14.00</TD>
+      <TD> 14.00</TD>
+      <TD>  1.00</TD>
+      <TD> 99.20</TD>
+      <TD>  5.11</TD>
+      <TD>CE,maxBCG</TD>
+      <TD>215.24446</TD>
+      <TD>  0.22879</TD>
+     </TR>
+     <TR>
+      <TD/>
+      <TD>J142126.4+001740</TD>
+      <TD> 0.3581</TD>
+      <TD>-1.0000</TD>
+      <TD>18.60</TD>
+      <TD>14</TD>
+      <TD> 12.67</TD>
+      <TD> 16.00</TD>
+      <TD>  1.22</TD>
+      <TD> 81.30</TD>
+      <TD>  4.94</TD>
+      <TD/>
+      <TD>215.34277</TD>
+      <TD>  0.27935</TD>
+     </TR>
+     <TR>
+      <TD/>
+      <TD>J142154.4-002309</TD>
+      <TD> 0.3769</TD>
+      <TD>-1.0000</TD>
+      <TD>19.35</TD>
+      <TD>15</TD>
+      <TD>  8.50</TD>
+      <TD>  9.75</TD>
+      <TD>  0.71</TD>
+      <TD> 37.50</TD>
+      <TD>  5.62</TD>
+      <TD/>
+      <TD>215.47673</TD>
+      <TD> -0.38585</TD>
+     </TR>
+     <TR>
+      <TD/>
+      <TD>J142208.4+003149</TD>
+      <TD> 0.3558</TD>
+      <TD>-1.0000</TD>
+      <TD>18.65</TD>
+      <TD>15</TD>
+      <TD>  9.27</TD>
+      <TD>  6.57</TD>
+      <TD>  0.50</TD>
+      <TD> 42.00</TD>
+      <TD>  5.65</TD>
+      <TD/>
+      <TD>215.53508</TD>
+      <TD>  0.53042</TD>
+     </TR>
+     <TR>
+      <TD/>
+      <TD>J142229.1+000237</TD>
+      <TD> 0.5484</TD>
+      <TD>-1.0000</TD>
+      <TD>18.65</TD>
+      <TD>14</TD>
+      <TD> 10.36</TD>
+      <TD>  9.18</TD>
+      <TD>  0.71</TD>
+      <TD>245.83</TD>
+      <TD>  7.50</TD>
+      <TD/>
+      <TD>215.60037</TD>
+      <TD>  0.04862</TD>
+     </TR>
+     <TR>
+      <TD/>
+      <TD>J142332.9+000426</TD>
+      <TD> 0.3299</TD>
+      <TD>-1.0000</TD>
+      <TD>18.92</TD>
+      <TD>13</TD>
+      <TD> 11.10</TD>
+      <TD>  7.53</TD>
+      <TD>  0.50</TD>
+      <TD> 54.97</TD>
+      <TD>  4.85</TD>
+      <TD/>
+      <TD>215.88721</TD>
+      <TD>  0.07412</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

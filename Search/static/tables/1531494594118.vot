@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_MNRAS_434_2238_cepheids" name="J/MNRAS/434/2238/cepheids">
+   <DESCRIPTION>
+    Cross-matched Cepheids
+   </DESCRIPTION>
+   <FIELD ID="Cepheid" arraysize="26" datatype="char" name="Cepheid" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Cepheid name
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Nc" datatype="short" name="Nc" ucd="NUMBER" width="3">
+    <DESCRIPTION>
+     Number of studied possible parent clusters for this Cepheid [NULL
+     integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="8" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (J2000.0)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="9" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (J2000.0)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Per" datatype="double" name="Per" precision="4" ucd="TIME_PERIOD" unit="d" width="8">
+    <DESCRIPTION>
+     ? Pulsation period
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_MAG_V" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Average V-band magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="SimbadName" arraysize="26" datatype="char" name="SimbadName" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Designation understandable by the {\bf\fg{FireBrick}Simbad} data-
+     base
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>V0547 Cyg</TD>
+      <TD>3</TD>
+      <TD>19 57 46</TD>
+      <TD>+35 38 10</TD>
+      <TD>  6.2254</TD>
+      <TD>13.43</TD>
+      <TD>V0547 Cyg</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

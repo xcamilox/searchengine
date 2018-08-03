@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="II_226_catalog" name="II/226/catalog">
+   <DESCRIPTION>
+    Agglomeration of stellar polarization catalogs
+   </DESCRIPTION>
+   <FIELD ID="DE2000" arraysize="11" datatype="char" name="DE2000" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     [-900000,900000] Declination (2000) (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RA2000" arraysize="12" datatype="char" name="RA2000" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     [0,24000000[ Right ascension (2000) (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HD" datatype="double" name="HD" precision="1" width="9">
+    <DESCRIPTION>
+     ? HD number
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Pol" datatype="float" name="Pol" precision="3" unit="%" width="6">
+    <DESCRIPTION>
+     Percentage polarization
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_Pol" datatype="double" name="e_Pol" precision="3" unit="%" width="8">
+    <DESCRIPTION>
+     ? rms uncertainty on Pol
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="PA" datatype="float" name="PA" precision="1" unit="deg" width="6">
+    <DESCRIPTION>
+     Position angle, equatorial
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_PA" datatype="float" name="e_PA" precision="1" unit="deg" width="6">
+    <DESCRIPTION>
+     ? rms uncertainty on PA
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="GLON" datatype="double" name="GLON" precision="4" unit="deg" width="8">
+    <DESCRIPTION>
+     Galactic longitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GLAT" datatype="double" name="GLAT" precision="4" unit="deg" width="8">
+    <DESCRIPTION>
+     Galactic latitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="PolRefs" arraysize="22" datatype="char" name="PolRefs">
+    <DESCRIPTION>
+     Polarization catalog numbers (5)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>+35 01 53.0</TD>
+      <TD>19 57 13.327</TD>
+      <TD> 189148.0</TD>
+      <TD> 0.170</TD>
+      <TD>   0.032</TD>
+      <TD>  81.0</TD>
+      <TD>   5.4</TD>
+      <TD> 71.0682</TD>
+      <TD>  3.1773</TD>
+      <TD>0000000000000000000010</TD>
+     </TR>
+     <TR>
+      <TD>+35 05 00.2</TD>
+      <TD>19 56 18.395</TD>
+      <TD> 188947.0</TD>
+      <TD> 0.010</TD>
+      <TD>   0.032</TD>
+      <TD>  92.0</TD>
+      <TD>  58.0</TD>
+      <TD> 71.0156</TD>
+      <TD>  3.3645</TD>
+      <TD>0000000000000000000010</TD>
+     </TR>
+     <TR>
+      <TD>+35 12 05.8</TD>
+      <TD>19 58 21.677</TD>
+      <TD> 226868.0</TD>
+      <TD> 4.980</TD>
+      <TD>   0.180</TD>
+      <TD> 135.0</TD>
+      <TD>   1.0</TD>
+      <TD> 71.3351</TD>
+      <TD>  3.0667</TD>
+      <TD>0000000000000010000000</TD>
+     </TR>
+     <TR>
+      <TD>+35 18 33.5</TD>
+      <TD>19 59 49.106</TD>
+      <TD> 227018.0</TD>
+      <TD> 2.210</TD>
+      <TD>   0.180</TD>
+      <TD> 120.0</TD>
+      <TD>   2.3</TD>
+      <TD> 71.5827</TD>
+      <TD>  2.8694</TD>
+      <TD>0000000000000010000000</TD>
+     </TR>
+     <TR>
+      <TD>+35 40 29.6</TD>
+      <TD>20 02 21.721</TD>
+      <TD> 227245.0</TD>
+      <TD> 2.260</TD>
+      <TD>   0.180</TD>
+      <TD> 135.0</TD>
+      <TD>   2.3</TD>
+      <TD> 72.1668</TD>
+      <TD>  2.6217</TD>
+      <TD>0000000000000010000000</TD>
+     </TR>
+     <TR>
+      <TD>+36 06 55.1</TD>
+      <TD>19 59 11.569</TD>
+      <TD> 226951.0</TD>
+      <TD> 2.170</TD>
+      <TD>   0.180</TD>
+      <TD> 147.0</TD>
+      <TD>   2.4</TD>
+      <TD> 72.2041</TD>
+      <TD>  3.3992</TD>
+      <TD>0000000000000010000000</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

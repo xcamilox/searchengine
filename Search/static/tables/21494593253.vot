@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="I_100A_w50" name="I/100A/w50">
+   <DESCRIPTION>
+    W150, W250, W350, W450, and W550
+   </DESCRIPTION>
+   <FIELD ID="ID" datatype="int" name="ID" width="5">
+    <DESCRIPTION>
+     Running number identification (in cat)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DM" arraysize="8" datatype="char" name="DM">
+    <DESCRIPTION>
+     Durchmusterung name
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="mag" datatype="float" name="mag" precision="2" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Visual Magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="RA1950" arraysize="12" datatype="char" name="RA1950" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension hours (1950.0)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="float" name="pmRA" precision="3" unit="s.a-1" width="6">
+    <DESCRIPTION>
+     Annual proper motion in right ascension
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DE1950" arraysize="12" datatype="char" name="DE1950" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination degrees (1950.0)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="float" name="pmDE" precision="2" unit="arcs.a-1" width="6">
+    <DESCRIPTION>
+     Annual proper motion in declination
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA.icrs" arraysize="12" datatype="char" name="_RA.icrs" ucd="POS_EQ_RA_OTHER" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (ICRS) at Epoch=J2000, proper motions taken into
+     account  (computed by VizieR, not part of the original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" arraysize="12" datatype="char" name="_DE.icrs" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (ICRS) at Epoch=J2000, proper motions taken into
+     account  (computed by VizieR, not part of the original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>8927</TD>
+      <TD>+00 3158</TD>
+      <TD> 9.00</TD>
+      <TD>14 14 27.657</TD>
+      <TD> 0.003</TD>
+      <TD>+00 09 10.02</TD>
+      <TD> -0.16</TD>
+      <TD>14 17 01.503</TD>
+      <TD>-00 04 46.26</TD>
+     </TR>
+     <TR>
+      <TD>8958</TD>
+      <TD>+00 3162</TD>
+      <TD> 8.50</TD>
+      <TD>14 16 53.294</TD>
+      <TD>-0.002</TD>
+      <TD>+00 12 57.22</TD>
+      <TD> -0.03</TD>
+      <TD>14 19 26.945</TD>
+      <TD>-00 00 49.03</TD>
+     </TR>
+     <TR>
+      <TD>8983</TD>
+      <TD>+00 3171</TD>
+      <TD> 6.64</TD>
+      <TD>14 20 12.395</TD>
+      <TD>-0.004</TD>
+      <TD>-00 24 36.38</TD>
+      <TD> -0.03</TD>
+      <TD>14 22 46.403</TD>
+      <TD>-00 38 14.35</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_other_KFNT_23_102_redclump" name="J/other/KFNT/23.102/redclump">
+   <DESCRIPTION>
+    Catalogue of Red Clump giants
+   </DESCRIPTION>
+   <FIELD ID="TYC1" datatype="short" name="TYC1" ucd="ID_MAIN:1" width="4">
+    <DESCRIPTION>
+     TYC1 number from the Tycho-2
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="TYC2" datatype="int" name="TYC2" ucd="ID_MAIN:2" width="5">
+    <DESCRIPTION>
+     TYC2 number from the Tycho-2
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="TYC3" datatype="unsignedByte" name="TYC3" ucd="ID_MAIN:3" width="1">
+    <DESCRIPTION>
+     TYC3 number from the Tycho-2
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="float" name="pmRA" precision="1" ucd="POS_EQ_PMRA" unit="mas.yr-1" width="7">
+    <DESCRIPTION>
+     Proper motion in RA*cos(DE)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="float" name="pmDE" precision="1" ucd="POS_EQ_PMDEC" unit="mas.yr-1" width="7">
+    <DESCRIPTION>
+     Proper motion in DE
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="BTmag" datatype="float" name="BTmag" precision="3" ucd="PHOT_TYCHO_B" unit="mag" width="6">
+    <DESCRIPTION>
+     Tycho-2 BT magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="VTmag" datatype="float" name="VTmag" precision="3" ucd="PHOT_TYCHO_V" unit="mag" width="6">
+    <DESCRIPTION>
+     Tycho-2 VT magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="3" ucd="PHOT_JHN_J" unit="mag" width="6">
+    <DESCRIPTION>
+     2MASS J magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Hmag" datatype="float" name="Hmag" precision="3" ucd="PHOT_JHN_H" unit="mag" width="6">
+    <DESCRIPTION>
+     2MASS H magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Ksmag" datatype="float" name="Ksmag" precision="3" ucd="PHOT_JHN_K" unit="mag" width="6">
+    <DESCRIPTION>
+     2MASS Ks magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Prob" datatype="float" name="Prob" precision="2" ucd="STAT_PROBABILITY" width="5">
+    <DESCRIPTION>
+     Red clump probability
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="8" ucd="POS_EQ_RA_MAIN" unit="deg" width="12">
+    <DESCRIPTION>
+     Right ascension, J2000.0, epoch 2000.0
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="8" ucd="POS_EQ_DEC_MAIN" unit="deg" width="12">
+    <DESCRIPTION>
+     Declination, J2000.0, epoch 2000.0
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>2677</TD>
+      <TD>898</TD>
+      <TD>1</TD>
+      <TD>   -5.8</TD>
+      <TD>  -15.6</TD>
+      <TD>11.764</TD>
+      <TD>10.389</TD>
+      <TD> 8.337</TD>
+      <TD> 7.810</TD>
+      <TD> 7.697</TD>
+      <TD> 0.63</TD>
+      <TD>Simbad</TD>
+      <TD>298.48614164</TD>
+      <TD> 34.95822958</TD>
+     </TR>
+     <TR>
+      <TD>2681</TD>
+      <TD>276</TD>
+      <TD>1</TD>
+      <TD>   -7.1</TD>
+      <TD>  -26.1</TD>
+      <TD>10.051</TD>
+      <TD> 8.922</TD>
+      <TD> 7.046</TD>
+      <TD> 6.550</TD>
+      <TD> 6.409</TD>
+      <TD> 0.67</TD>
+      <TD>Simbad</TD>
+      <TD>298.71238031</TD>
+      <TD> 35.81734182</TD>
+     </TR>
+     <TR>
+      <TD>2681</TD>
+      <TD>50</TD>
+      <TD>1</TD>
+      <TD>   11.8</TD>
+      <TD>    7.5</TD>
+      <TD>10.948</TD>
+      <TD> 9.543</TD>
+      <TD> 7.362</TD>
+      <TD> 6.842</TD>
+      <TD> 6.681</TD>
+      <TD> 0.84</TD>
+      <TD>Simbad</TD>
+      <TD>298.76175833</TD>
+      <TD> 35.84436901</TD>
+     </TR>
+     <TR>
+      <TD>2681</TD>
+      <TD>16</TD>
+      <TD>1</TD>
+      <TD>   -1.1</TD>
+      <TD>  -11.9</TD>
+      <TD>10.646</TD>
+      <TD> 9.566</TD>
+      <TD> 7.840</TD>
+      <TD> 7.412</TD>
+      <TD> 7.288</TD>
+      <TD> 0.81</TD>
+      <TD>Simbad</TD>
+      <TD>298.82203192</TD>
+      <TD> 35.88529626</TD>
+     </TR>
+     <TR>
+      <TD>2681</TD>
+      <TD>226</TD>
+      <TD>1</TD>
+      <TD>   -7.4</TD>
+      <TD>  -17.9</TD>
+      <TD>10.919</TD>
+      <TD> 9.931</TD>
+      <TD> 8.219</TD>
+      <TD> 7.785</TD>
+      <TD> 7.714</TD>
+      <TD> 0.56</TD>
+      <TD>Simbad</TD>
+      <TD>299.14674982</TD>
+      <TD> 36.07917739</TD>
+     </TR>
+     <TR>
+      <TD>2681</TD>
+      <TD>22</TD>
+      <TD>1</TD>
+      <TD>    0.0</TD>
+      <TD>   15.9</TD>
+      <TD> 9.848</TD>
+      <TD> 8.619</TD>
+      <TD> 6.709</TD>
+      <TD> 6.230</TD>
+      <TD> 6.115</TD>
+      <TD> 0.87</TD>
+      <TD>Simbad</TD>
+      <TD>299.24094292</TD>
+      <TD> 35.91091513</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>908</TD>
+      <TD>1</TD>
+      <TD>    0.7</TD>
+      <TD>  -25.7</TD>
+      <TD> 9.780</TD>
+      <TD> 8.577</TD>
+      <TD> 6.610</TD>
+      <TD> 6.149</TD>
+      <TD> 6.054</TD>
+      <TD> 0.75</TD>
+      <TD>Simbad</TD>
+      <TD>299.32731191</TD>
+      <TD> 34.58124720</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>2410</TD>
+      <TD>1</TD>
+      <TD>   15.8</TD>
+      <TD>   -4.3</TD>
+      <TD>11.867</TD>
+      <TD>10.469</TD>
+      <TD> 8.288</TD>
+      <TD> 7.698</TD>
+      <TD> 7.549</TD>
+      <TD> 0.66</TD>
+      <TD>Simbad</TD>
+      <TD>299.51019579</TD>
+      <TD> 34.54846589</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>1287</TD>
+      <TD>1</TD>
+      <TD>    0.6</TD>
+      <TD>  -11.8</TD>
+      <TD>11.579</TD>
+      <TD>10.290</TD>
+      <TD> 8.259</TD>
+      <TD> 7.815</TD>
+      <TD> 7.653</TD>
+      <TD> 0.76</TD>
+      <TD>Simbad</TD>
+      <TD>299.73119456</TD>
+      <TD> 34.77529666</TD>
+     </TR>
+     <TR>
+      <TD>2682</TD>
+      <TD>361</TD>
+      <TD>1</TD>
+      <TD>    7.4</TD>
+      <TD>   14.2</TD>
+      <TD> 9.401</TD>
+      <TD> 8.179</TD>
+      <TD> 6.223</TD>
+      <TD> 5.740</TD>
+      <TD> 5.652</TD>
+      <TD> 0.91</TD>
+      <TD>Simbad</TD>
+      <TD>299.86111482</TD>
+      <TD> 35.89725168</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>2183</TD>
+      <TD>1</TD>
+      <TD>   -3.8</TD>
+      <TD>  -16.6</TD>
+      <TD>11.902</TD>
+      <TD>10.502</TD>
+      <TD> 8.210</TD>
+      <TD> 7.672</TD>
+      <TD> 7.502</TD>
+      <TD> 0.65</TD>
+      <TD>Simbad</TD>
+      <TD>300.07650795</TD>
+      <TD> 34.40868248</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>665</TD>
+      <TD>1</TD>
+      <TD>    1.1</TD>
+      <TD>  -35.0</TD>
+      <TD>10.223</TD>
+      <TD> 8.914</TD>
+      <TD> 6.801</TD>
+      <TD> 6.283</TD>
+      <TD> 6.152</TD>
+      <TD> 0.61</TD>
+      <TD>Simbad</TD>
+      <TD>300.30263634</TD>
+      <TD> 34.78639072</TD>
+     </TR>
+     <TR>
+      <TD>2678</TD>
+      <TD>1755</TD>
+      <TD>1</TD>
+      <TD>  -15.7</TD>
+      <TD>  -21.6</TD>
+      <TD> 9.904</TD>
+      <TD> 8.772</TD>
+      <TD> 6.905</TD>
+      <TD> 6.436</TD>
+      <TD> 6.336</TD>
+      <TD> 0.69</TD>
+      <TD>Simbad</TD>
+      <TD>300.37448230</TD>
+      <TD> 35.13903276</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJS_186_378_table5" name="J/ApJS/186/378/table5">
+   <DESCRIPTION>
+    Catalog of sources in the 22-month Swift-BAT survey (2004-December
+    to 2006-October)
+   </DESCRIPTION>
+   <FIELD ID="Seq" datatype="short" name="Seq" ucd="ID_NUMBER" width="3">
+    <DESCRIPTION>
+     Running identification number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SWIFT" arraysize="12" datatype="char" name="SWIFT" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Swift-BAT source name (JHHMM.m+DDMM) (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="float" name="RAJ2000" precision="3" ucd="POS_EQ_RA_MAIN" unit="deg" width="7">
+    <DESCRIPTION>
+     Right Ascension in decimal degrees (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="float" name="DEJ2000" precision="3" ucd="POS_EQ_DEC_MAIN" unit="deg" width="7">
+    <DESCRIPTION>
+     Declination in decimal degrees (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="S_N" datatype="float" name="S_N" precision="2" ucd="INST_S/N" width="7">
+    <DESCRIPTION>
+     Signal-to-Noise ratio
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="CName" arraysize="25" datatype="char" name="CName" ucd="ID_ASSOCIATED">
+    <DESCRIPTION>
+     Counterpart name
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="OType" arraysize="17" datatype="char" name="OType" ucd="CLASS_OBJECT">
+    <DESCRIPTION>
+     Source type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Flux" datatype="float" name="Flux" precision="2" ucd="PHOT_FLUX_X" unit="10-14W.m-2" width="7">
+    <DESCRIPTION>
+     ? Flux Swift-BAT 14-195keV band flux
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="C" arraysize="2" datatype="char" name="C" ucd="CODE_MISC">
+    <DESCRIPTION>
+     Confusion flag (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HR" datatype="float" name="HR" precision="2" ucd="PHOT_FLUX_RATIO" width="5">
+    <DESCRIPTION>
+     [0,1] ? Hardness ratio (4)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="z" datatype="float" name="z" precision="4" ucd="REDSHIFT_HC" width="7">
+    <DESCRIPTION>
+     ? Redshift (5)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Lx" datatype="float" name="Lx" precision="2" ucd="PHYS_LUMINOSITY_X" unit="[10-7W]" width="5">
+    <DESCRIPTION>
+     ? Log luminosity in 14-195keV band (6)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>414</TD>
+      <TD>J1958.4+3510</TD>
+      <TD>299.602</TD>
+      <TD> 35.171</TD>
+      <TD>4304.23</TD>
+      <TD>Cyg X-1</TD>
+      <TD>HMXB/BH</TD>
+      <TD>2245.76</TD>
+      <TD/>
+      <TD> 0.41</TD>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

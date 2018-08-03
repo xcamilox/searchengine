@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="III_254_crvad2" name="III/254/crvad2">
+   <DESCRIPTION>
+    The catalogue of radial velocities of galactic stars with high
+    precision astrometric data, the 2nd version (CRVAD-2)
+   </DESCRIPTION>
+   <FIELD ID="RAdeg" datatype="double" name="RAdeg" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right Ascension J2000.0, epoch 1991.25
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination J2000.0, epoch 1991.25
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Plx" datatype="double" name="Plx" precision="2" ucd="POS_PARLX_TRIG" unit="mas" width="8">
+    <DESCRIPTION>
+     ? Trigonometric parallax
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="3" ucd="PHOT_JHN_V" unit="mag" width="7">
+    <DESCRIPTION>
+     ? V magnitude in Johnson system
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Scat" datatype="float" name="Scat" precision="3" ucd="ERROR" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Scatter on magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="12" datatype="char" name="SpType" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     MK Spectral type compiled from ASCC-2.5 and GCRV
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_IDENTIFIER" width="7">
+    <DESCRIPTION>
+     ? Hipparcos number (Cat. I/239) [NULL integer written as an empty
+     string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="ASCC" datatype="int" name="ASCC" ucd="ID_ALTERNATIVE" width="8">
+    <DESCRIPTION>
+     ASCC-2.5 (Cat. I/280) number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RV" datatype="double" name="RV" precision="2" ucd="VELOC_HC" unit="km.s-1" width="8">
+    <DESCRIPTION>
+     Radial Velocity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_RV" datatype="float" name="e_RV" precision="2" ucd="ERROR" unit="km.s-1" width="7">
+    <DESCRIPTION>
+     ? Mean standard error in RV
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="q_RV" arraysize="1" datatype="char" name="q_RV" ucd="CODE_QUALITY">
+    <DESCRIPTION>
+     [A-E I] Quality index of the RV from CGRV (Cat. III/213)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="o_RV" datatype="short" name="o_RV" ucd="NUMBER" width="4">
+    <DESCRIPTION>
+     ? Number of observations [NULL integer written as an empty
+     string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>214.92072</TD>
+      <TD>  0.38436</TD>
+      <TD>   14.39</TD>
+      <TD>  6.179</TD>
+      <TD> 0.006</TD>
+      <TD>A7 V</TD>
+      <TD>70022</TD>
+      <TD>1142890</TD>
+      <TD>  -22.00</TD>
+      <TD/>
+      <TD>C</TD>
+      <TD>9</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

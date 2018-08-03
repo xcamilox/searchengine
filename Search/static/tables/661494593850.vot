@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJ_804_146_table5" name="J/ApJ/804/146/table5">
+   <DESCRIPTION>
+    Ages, masses, and atmospheric parameters of nearby B0-F5 field
+    stars (\originalcolumnnames)
+   </DESCRIPTION>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_ALTERNATIVE" width="6">
+    <DESCRIPTION>
+     [23/120082] Hipparcos Input Catalogue running number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Teff" datatype="short" name="Teff" ucd="PHYS_TEMP_EFFEC" unit="K" width="5">
+    <DESCRIPTION>
+     [5476/24718] Photometric effective temperature (G1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_Teff" datatype="short" name="e_Teff" ucd="ERROR" unit="K" width="3">
+    <DESCRIPTION>
+     [186/840] Uncertainty in Teff
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="log_g_" datatype="float" name="log_g_" precision="2" ucd="PHYS_GRAVITY_SURFACE" unit="[cm/s2]" width="5">
+    <DESCRIPTION>
+     [1.5/5.2] Log photometric surface gravity (G1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="vsini" datatype="short" name="vsini" ucd="VELOC_ROTAT" unit="km.s-1" width="3">
+    <DESCRIPTION>
+     [4/360]? Projected rotational velocity (2) [NULL integer written
+     as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="Ageavg" datatype="short" name="Ageavg" ucd="TIME_AGE" unit="Myr" width="4">
+    <DESCRIPTION>
+     [6/5392]? Mean age from 1D posterior PDF (\original{agePDFavg})
+     (4) [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="Agemed" datatype="short" name="Agemed" ucd="TIME_AGE" unit="Myr" width="4">
+    <DESCRIPTION>
+     [7/5722]? Median age from 1D posterior PDF (\original{agePDFmed})
+     (4) [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="Agemod" datatype="short" name="Agemod" ucd="TIME_AGE" unit="Myr" width="4">
+    <DESCRIPTION>
+     [9/8785]? Mode age from 1D posterior PDF (\original{agePDFmod})
+     (4) [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="Age2D" datatype="short" name="Age2D" ucd="TIME_AGE" unit="Myr" width="4">
+    <DESCRIPTION>
+     [0/7671]? Age from 2D linear interpolation (4) [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="Mavg" datatype="float" name="Mavg" precision="2" ucd="PHYS_MASS_MISC" unit="Msun" width="5">
+    <DESCRIPTION>
+     [1/9.6]? Mean mass from 1D posterior PDF (\original{massPDFavg})
+     (4)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Mmed" datatype="float" name="Mmed" precision="2" ucd="PHYS_MASS_MISC" unit="Msun" width="5">
+    <DESCRIPTION>
+     [1/10]? Median mass from 1D posterior PDF (\original{massPDFmed})
+     (4)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Mmod" datatype="float" name="Mmod" precision="2" ucd="PHYS_MASS_MISC" unit="Msun" width="5">
+    <DESCRIPTION>
+     [1/10]? Mode mass from 1D posterior PDF (\original{massPDFmod})
+     (4)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="M2D" datatype="float" name="M2D" precision="2" ucd="PHYS_MASS_MISC" unit="Msun" width="5">
+    <DESCRIPTION>
+     [1/11]? Mass from 2D linear interpolation (\original{mass2D}) (4)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right Ascension (J2000) from SIMBAD (not part of the original
+     data)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (J2000) from SIMBAD (not part of the original data)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>70022</TD>
+      <TD>8120</TD>
+      <TD>276</TD>
+      <TD> 4.29</TD>
+      <TD>-32768</TD>
+      <TD>356</TD>
+      <TD>449</TD>
+      <TD>678</TD>
+      <TD>299</TD>
+      <TD> 1.71</TD>
+      <TD> 1.73</TD>
+      <TD> 1.69</TD>
+      <TD> 1.69</TD>
+      <TD>Simbad</TD>
+      <TD>214.92063</TD>
+      <TD>  0.38433</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

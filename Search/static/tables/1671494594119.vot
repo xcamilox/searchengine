@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_BaltA_9_646_catalog" name="J/BaltA/9/646/catalog">
+   <DESCRIPTION>
+    Compiled catalog of Mira-type stars
+   </DESCRIPTION>
+   <FIELD ID="GCVS" arraysize="9" datatype="char" name="GCVS" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Variable star designation
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="magMax" datatype="float" name="magMax" precision="2" ucd="PHOT_MAG_OPTICAL" unit="mag" width="5">
+    <DESCRIPTION>
+     Magnitude at maximum brightness (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="l_magMin" arraysize="1" datatype="char" name="l_magMin" ucd="CODE_LIMIT">
+    <DESCRIPTION>
+     [&lt; ] "&lt;" if magMin is a bright limit
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="magMin" datatype="float" name="magMin" precision="1" ucd="PHOT_MAG_OPTICAL" unit="mag" width="4">
+    <DESCRIPTION>
+     Minimum magnitude (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_magMin" arraysize="1" datatype="char" name="n_magMin" ucd="NOTE">
+    <DESCRIPTION>
+     [PBVI] Photometric system for magnitudes (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Per" datatype="float" name="Per" precision="2" ucd="TIME_PERIOD" unit="d" width="6">
+    <DESCRIPTION>
+     Period of the variable star (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="17" datatype="char" name="SpType" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     MK spectral type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAdeg" datatype="double" name="RAdeg" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right Ascension J2000.0, Ep=1991.25 (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination J2000.0, Ep=1991.25 (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RV" datatype="short" name="RV" ucd="VELOC_HC" unit="km.s-1" width="4">
+    <DESCRIPTION>
+     ? Radial velocity [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_ALTERNATIVE" width="6">
+    <DESCRIPTION>
+     ? Hipparcos number (Cat. I/239) [NULL integer written as an empty
+     string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>KM    Cyg</TD>
+      <TD>11.40</TD>
+      <TD/>
+      <TD>19.0</TD>
+      <TD>P</TD>
+      <TD>334.70</TD>
+      <TD>M4</TD>
+      <TD>300.05822</TD>
+      <TD> 36.08934</TD>
+      <TD>-20</TD>
+      <TD>-2147483648</TD>
+      <TD>Simbad</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

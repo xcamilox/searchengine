@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_other_JAVSO_42_443_ugriz" name="J/other/JAVSO/42.443/ugriz">
+   <DESCRIPTION>
+    Sloan magnitudes for the brightest stars
+   </DESCRIPTION>
+   <FIELD ID="HD" datatype="int" name="HD" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     [1/225300] HD catalog number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_JHN_V" unit="mag" width="5">
+    <DESCRIPTION>
+     [-1.46/7.31] Johnson V magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="U-B" datatype="float" name="U-B" precision="2" ucd="PHOT_JHN_U-B" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Johnson U-B color index (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="B-V" datatype="float" name="B-V" precision="2" ucd="PHOT_JHN_B-V" unit="mag" width="5">
+    <DESCRIPTION>
+     Johnson B-V color index
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="V-R" datatype="float" name="V-R" precision="2" ucd="PHOT_JHN_V-R" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Johnson V-R color index (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="R-I" datatype="float" name="R-I" precision="2" ucd="PHOT_JHN_R-I" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Johnson R-I color index (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="V-Rc" datatype="float" name="V-Rc" precision="2" ucd="PHOT_COUS_V-R" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Cousins V-Rc color index (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Rc-Ic" datatype="float" name="Rc-Ic" precision="2" ucd="PHOT_COUS_R-I" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Cousins Rc-Ic color index (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="u_mag" datatype="float" name="u_mag" precision="2" ucd="PHOT_SDSS_U" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Sloan u' magnitude (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_u_mag" datatype="short" name="e_u_mag" ucd="ERROR" unit="cmag" width="2">
+    <DESCRIPTION>
+     ? Sloan u' magnitude uncertainty [NULL integer written as an
+     empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="g_mag" datatype="float" name="g_mag" precision="2" ucd="PHOT_SDSS_G" unit="mag" width="5">
+    <DESCRIPTION>
+     Sloan g' magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_g_mag" datatype="short" name="e_g_mag" ucd="ERROR" unit="cmag" width="2">
+    <DESCRIPTION>
+     Sloan g' magnitude uncertainty
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="r_mag" datatype="float" name="r_mag" precision="2" ucd="PHOT_SDSS_R" unit="mag" width="5">
+    <DESCRIPTION>
+     Sloan r' magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_r_mag" datatype="short" name="e_r_mag" ucd="ERROR" unit="cmag" width="2">
+    <DESCRIPTION>
+     Sloan r' magnitude uncertainty
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="i_mag" datatype="float" name="i_mag" precision="2" ucd="PHOT_SDSS_I" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Sloan i' magnitude (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_i_mag" datatype="short" name="e_i_mag" ucd="ERROR" unit="cmag" width="2">
+    <DESCRIPTION>
+     ? Sloan i' magnitude uncertainty [NULL integer written as an
+     empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="z_mag" datatype="float" name="z_mag" precision="2" ucd="PHOT_SDSS_Z" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Sloan z' magnitude (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_z_mag" datatype="short" name="e_z_mag" ucd="ERROR" unit="cmag" width="2">
+    <DESCRIPTION>
+     ? Sloan z' magnitude uncertainty [NULL integer written as an
+     empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right Ascension (J2000) from SIMBAD (not part of the original
+     data)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (J2000) from SIMBAD (not part of the original data)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>188947</TD>
+      <TD> 3.93</TD>
+      <TD> 0.88</TD>
+      <TD> 1.03</TD>
+      <TD> 0.74</TD>
+      <TD> 0.52</TD>
+      <TD> 0.52</TD>
+      <TD> 0.47</TD>
+      <TD> 6.72</TD>
+      <TD>6</TD>
+      <TD> 4.40</TD>
+      <TD>4</TD>
+      <TD> 3.60</TD>
+      <TD>4</TD>
+      <TD> 3.35</TD>
+      <TD>3</TD>
+      <TD> 3.23</TD>
+      <TD>3</TD>
+      <TD>Simbad</TD>
+      <TD>299.07655</TD>
+      <TD> 35.08342</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

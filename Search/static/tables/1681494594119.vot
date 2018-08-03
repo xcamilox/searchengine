@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_BaltA_24_395_table1" name="J/BaltA/24/395/table1">
+   <DESCRIPTION>
+    X-ray sources in binaries
+   </DESCRIPTION>
+   <FIELD ID="NS" arraysize="29" datatype="char" name="NS" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Simbad principal name
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="NA" arraysize="22" datatype="char" name="NA" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Alternative name (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="NK10" datatype="short" name="NK10" ucd="ID_NUMBER" width="3">
+    <DESCRIPTION>
+     ? Sequential number of entry in K10 catalog (1) [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="NK12" datatype="short" name="NK12" ucd="ID_NUMBER" width="3">
+    <DESCRIPTION>
+     ? Sequential number of entry in K10 catalog (1) [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="NL06" datatype="short" name="NL06" ucd="ID_NUMBER" width="3">
+    <DESCRIPTION>
+     ? Sequential number of entry in L06 catalog (1) [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="NL07" datatype="short" name="NL07" ucd="ID_NUMBER" width="3">
+    <DESCRIPTION>
+     ? Sequential number of entry in L07 catalog (1) [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="NR14" datatype="short" name="NR14" ucd="ID_NUMBER" width="3">
+    <DESCRIPTION>
+     ? Sequential number of entry in R14 catalog (1) [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="Class" arraysize="1" datatype="char" name="Class" ucd="CLASS_CODE">
+    <DESCRIPTION>
+     HMXB/LMXB classifier
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="fec" arraysize="1" datatype="char" name="fec" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [E] Eclipsing binary flag
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="fsp" arraysize="1" datatype="char" name="fsp" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [12] Spectroscopic binary flag (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="14" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Hours Right Ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="14" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Degrees Declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="IGR" arraysize="11" datatype="char" name="IGR" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     IGR designation (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HD" datatype="int" name="HD" ucd="ID_ALTERNATIVE" width="6">
+    <DESCRIPTION>
+     ? HD number [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_ALTERNATIVE" width="6">
+    <DESCRIPTION>
+     ? Hipparcos number [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="GCVS" arraysize="9" datatype="char" name="GCVS" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     GCVS designation
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SBC9" datatype="short" name="SBC9" ucd="ID_ALTERNATIVE" width="4">
+    <DESCRIPTION>
+     ? SBC9 number [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="DM" arraysize="10" datatype="char" name="DM" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     DM designation
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>V* V1357 Cyg</TD>
+      <TD>4U 1956+35</TD>
+      <TD>476</TD>
+      <TD>370</TD>
+      <TD>104</TD>
+      <TD>-32768</TD>
+      <TD>-32768</TD>
+      <TD>H</TD>
+      <TD/>
+      <TD/>
+      <TD>19 58 21.67595</TD>
+      <TD>+35 12 05.7783</TD>
+      <TD/>
+      <TD>226868</TD>
+      <TD>98298</TD>
+      <TD>V1357 Cyg</TD>
+      <TD>1193</TD>
+      <TD>+34  3815</TD>
+      <TD>Simbad</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

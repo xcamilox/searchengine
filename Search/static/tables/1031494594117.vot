@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJS_212_1_wisecat" name="J/ApJS/212/1/wisecat">
+   <DESCRIPTION>
+    WISE catalog of Galactic HII regions with molecular line
+    velocities and distances {\em(tables 2, 5 and 6)}
+   </DESCRIPTION>
+   <FIELD ID="WISE" arraysize="15" datatype="char" name="WISE" ucd="ID_MAIN">
+    <DESCRIPTION>
+     WISE identifier (GLLL.lll+BB.bbb) (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Cl" arraysize="1" datatype="char" name="Cl" ucd="CLASS_CODE">
+    <DESCRIPTION>
+     [KGCQ?] Classification of HII region (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GLON" datatype="float" name="GLON" precision="3" ucd="POS_GAL_LON" unit="deg" width="7">
+    <DESCRIPTION>
+     WISE Galactic longitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GLAT" datatype="float" name="GLAT" precision="3" ucd="POS_GAL_LAT" unit="deg" width="7">
+    <DESCRIPTION>
+     WISE Galactic latitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Rad" datatype="short" name="Rad" ucd="EXTENSION_RAD" unit="arcs" width="4">
+    <DESCRIPTION>
+     [5/5689] Radius
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vi1" datatype="float" name="Vi1" precision="1" ucd="VELOC_LSR" unit="km.s-1" width="6">
+    <DESCRIPTION>
+     ? First ionized gas LSR Velocity
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="DV1" datatype="float" name="DV1" precision="1" ucd="SPECT_VELOC_WIDTH" unit="km.s-1" width="5">
+    <DESCRIPTION>
+     ? First ionized gas FWHM line width
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Ref" arraysize="2" datatype="char" name="Ref" ucd="REFER_CODE">
+    <DESCRIPTION>
+     ? Reference code (see refs.dat file)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Name" arraysize="21" datatype="char" name="Name" ucd="ID_ASSOCIATED">
+    <DESCRIPTION>
+     Source name (5)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GLONs" datatype="float" name="GLONs" precision="3" ucd="POS_GAL_LON" unit="deg" width="7">
+    <DESCRIPTION>
+     ? Galactic longitude of the source (5)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="GLATs" datatype="float" name="GLATs" precision="3" ucd="POS_GAL_LAT" unit="deg" width="6">
+    <DESCRIPTION>
+     ? Galactic latitude of the source (5)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Vm1" datatype="float" name="Vm1" precision="1" ucd="VELOC_LSR" unit="km.s-1" width="6">
+    <DESCRIPTION>
+     ? Molecular Local Standard of Rest Velocity
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Mol" arraysize="5" datatype="char" name="Mol" ucd="AT_MOL_ID">
+    <DESCRIPTION>
+     Molecule identifier (12CO, 13CO, NH3, HCO+, CS, or 90GHz)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dist" datatype="float" name="Dist" precision="1" ucd="POS_GAL_HC" unit="kpc" width="4">
+    <DESCRIPTION>
+     [0.1/24.3]? Distance from the Sun
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="_RA.icrs" datatype="double" name="_RA.icrs" precision="4" ucd="POS_EQ_RA_OTHER" unit="deg" width="8">
+    <DESCRIPTION>
+     Right ascension (ICRS) (computed by VizieR, not part of the
+     original data)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" datatype="double" name="_DE.icrs" precision="4" ucd="POS_EQ_DEC_OTHER" unit="deg" width="8">
+    <DESCRIPTION>
+     Declination (ICRS) (computed by VizieR, not part of the original
+     data)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>G071.764+03.076</TD>
+      <TD>K</TD>
+      <TD> 71.764</TD>
+      <TD>  3.077</TD>
+      <TD>1625</TD>
+      <TD>  16.0</TD>
+      <TD> 19.8</TD>
+      <TD>88</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD> 2.7</TD>
+      <TD>299.8540</TD>
+      <TD> 35.5723</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJ_763_32_table2" name="J/ApJ/763/32/table2">
+   <DESCRIPTION>
+    SDSS data for CSS RRab stars
+   </DESCRIPTION>
+   <FIELD ID="ID" arraysize="16" datatype="char" name="ID" ucd="ID_MAIN">
+    <DESCRIPTION>
+     CSS identifier; \dicS{[DCD2013] CSS JHHMMSS.s+DDMMSS} in Simbad
+     \linkRole{CSS RRab star properties (table 1)}
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="u0mag" datatype="float" name="u0mag" precision="2" ucd="PHOT_SDSS_U" unit="mag" width="5">
+    <DESCRIPTION>
+     [10.1/25] Extinction corrected SDSS u band magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="g0mag" datatype="float" name="g0mag" precision="2" ucd="PHOT_SDSS_G" unit="mag" width="5">
+    <DESCRIPTION>
+     [10.3/25.1] Extinction corrected SDSS g band magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="r0mag" datatype="float" name="r0mag" precision="2" ucd="PHOT_SDSS_R" unit="mag" width="5">
+    <DESCRIPTION>
+     [11/24.7] Extinction corrected SDSS r band magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="i0mag" datatype="float" name="i0mag" precision="2" ucd="PHOT_SDSS_I" unit="mag" width="5">
+    <DESCRIPTION>
+     [11/24.4] Extinction corrected SDSS i band magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="z0mag" datatype="float" name="z0mag" precision="2" ucd="PHOT_SDSS_Z" unit="mag" width="5">
+    <DESCRIPTION>
+     [11.5/22.8] Extinction corrected SDSS z band magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vgsr" datatype="float" name="Vgsr" precision="1" ucd="VELOC_GC" unit="km.s-1" width="6">
+    <DESCRIPTION>
+     [-359/308]? Galactic standard of rest velocity (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="__Fe_H_" datatype="float" name="__Fe_H_" precision="2" ucd="PHYS_ABUND_FE/H" unit="[Sun]" width="5">
+    <DESCRIPTION>
+     [-3/-0.7]? Metallicity (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="DR7_DR9" arraysize="7" datatype="char" name="DR7_DR9" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Cross-match within 2" with the SDSS-DR7 (Cat. II/294) and -DR9
+     (Cat. V/139)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sloan" arraysize="5" datatype="char" name="Sloan" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the online SDSS data for the nearest object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="4" ucd="POS_EQ_RA_MAIN" unit="deg" width="8">
+    <DESCRIPTION>
+     Positions from CSS names (right ascension part)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="4" ucd="POS_EQ_DEC_MAIN" unit="deg" width="8">
+    <DESCRIPTION>
+     Positions from CSS names (declination part)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>J142159.9-010107</TD>
+      <TD>16.88</TD>
+      <TD>15.79</TD>
+      <TD>15.63</TD>
+      <TD>15.53</TD>
+      <TD>15.58</TD>
+      <TD/>
+      <TD/>
+      <TD>DR7+DR9</TD>
+      <TD>Sloan</TD>
+      <TD>215.4996</TD>
+      <TD> -1.0186</TD>
+     </TR>
+     <TR>
+      <TD>J141934.1-005508</TD>
+      <TD>20.48</TD>
+      <TD>19.38</TD>
+      <TD>19.12</TD>
+      <TD>19.06</TD>
+      <TD>19.05</TD>
+      <TD/>
+      <TD/>
+      <TD>DR7+DR9</TD>
+      <TD>Sloan</TD>
+      <TD>214.8921</TD>
+      <TD> -0.9189</TD>
+     </TR>
+     <TR>
+      <TD>J141858.0-002643</TD>
+      <TD>19.66</TD>
+      <TD>18.56</TD>
+      <TD>18.36</TD>
+      <TD>18.28</TD>
+      <TD>18.29</TD>
+      <TD/>
+      <TD/>
+      <TD>DR7+DR9</TD>
+      <TD>Sloan</TD>
+      <TD>214.7417</TD>
+      <TD> -0.4453</TD>
+     </TR>
+     <TR>
+      <TD>J141822.3-001506</TD>
+      <TD>19.94</TD>
+      <TD>19.39</TD>
+      <TD>18.93</TD>
+      <TD>18.95</TD>
+      <TD>18.98</TD>
+      <TD/>
+      <TD/>
+      <TD>DR7+DR9</TD>
+      <TD>Sloan</TD>
+      <TD>214.5929</TD>
+      <TD> -0.2517</TD>
+     </TR>
+     <TR>
+      <TD>J141948.5-001418</TD>
+      <TD>20.88</TD>
+      <TD>19.67</TD>
+      <TD>19.50</TD>
+      <TD>19.48</TD>
+      <TD>19.73</TD>
+      <TD/>
+      <TD/>
+      <TD>DR7+DR9</TD>
+      <TD>Sloan</TD>
+      <TD>214.9521</TD>
+      <TD> -0.2383</TD>
+     </TR>
+     <TR>
+      <TD>J141724.6-000057</TD>
+      <TD>19.78</TD>
+      <TD>18.57</TD>
+      <TD>18.65</TD>
+      <TD>18.74</TD>
+      <TD>18.74</TD>
+      <TD/>
+      <TD/>
+      <TD>DR7+DR9</TD>
+      <TD>Sloan</TD>
+      <TD>214.3525</TD>
+      <TD> -0.0158</TD>
+     </TR>
+     <TR>
+      <TD>J141807.3+002302</TD>
+      <TD>15.93</TD>
+      <TD>14.82</TD>
+      <TD>14.72</TD>
+      <TD>14.69</TD>
+      <TD>14.71</TD>
+      <TD/>
+      <TD/>
+      <TD>DR7+DR9</TD>
+      <TD>Sloan</TD>
+      <TD>214.5304</TD>
+      <TD>  0.3839</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

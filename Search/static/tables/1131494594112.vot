@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_A_A_455_1165_table1" name="J/A+A/455/1165/table1">
+   <DESCRIPTION>
+    Catalog of 114 HMXB candidates in the Galaxy
+   </DESCRIPTION>
+   <FIELD ID="Name" arraysize="21" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Source Name
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Type" arraysize="7" datatype="char" name="Type" ucd="CLASS_OBJECT">
+    <DESCRIPTION>
+     [CEPRTU ?,] X-ray type (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="11" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="11" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_MAG_V" unit="mag" width="5">
+    <DESCRIPTION>
+     ? V magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Porb" datatype="float" name="Porb" precision="3" ucd="TIME_PERIOD" unit="d" width="7">
+    <DESCRIPTION>
+     ? Orbital period
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="13" datatype="char" name="SpType" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     Spectral type
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>4U 1956+35</TD>
+      <TD>U, R</TD>
+      <TD>19 58 21.70</TD>
+      <TD>+35 12 06.0</TD>
+      <TD> 8.90</TD>
+      <TD>  5.000</TD>
+      <TD>O9.7 Iab</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

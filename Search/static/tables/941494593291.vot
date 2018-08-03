@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_AJ_124_1651_table1" name="J/AJ/124/1651/table1">
+   <DESCRIPTION>
+    Faint high-latitude carbon stars discovered in SDSS commissioning
+    data
+   </DESCRIPTION>
+   <FIELD ID="SDSS" arraysize="16" datatype="char" name="SDSS" ucd="ID_MAIN">
+    <DESCRIPTION>
+     SDSS designation
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="r_mag" datatype="float" name="r_mag" precision="2" ucd="PHOT_SDSS_R" unit="mag" width="5">
+    <DESCRIPTION>
+     SDSS r* magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="u_-g_" datatype="float" name="u_-g_" precision="2" ucd="PHOT_SDSS_U-G" unit="mag" width="5">
+    <DESCRIPTION>
+     SDSS u*-g* colour index
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="g_-r_" datatype="float" name="g_-r_" precision="2" ucd="PHOT_SDSS_G-R" unit="mag" width="5">
+    <DESCRIPTION>
+     SDSS g*-r* colour index
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="r_-i_" datatype="float" name="r_-i_" precision="2" ucd="PHOT_SDSS_R-I" unit="mag" width="5">
+    <DESCRIPTION>
+     SDSS r*-i* colour index
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="i_-z_" datatype="float" name="i_-z_" precision="2" ucd="PHOT_SDSS_I-Z" unit="mag" width="5">
+    <DESCRIPTION>
+     SDSS i*-z* colour index
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pm" datatype="short" name="pm" ucd="POS_EQ_PM" unit="mas.yr-1" width="3">
+    <DESCRIPTION>
+     ? Proper motion [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="e_pm" datatype="short" name="e_pm" ucd="ERROR" unit="mas.yr-1" width="2">
+    <DESCRIPTION>
+     ? rms uncertainty on pm [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="PA" datatype="short" name="PA" ucd="POS_POS-ANG" unit="deg" width="3">
+    <DESCRIPTION>
+     ? Position angle [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="HRV" datatype="float" name="HRV" precision="1" ucd="VELOC_HC" unit="km.s-1" width="6">
+    <DESCRIPTION>
+     ? Heliocentric radial velocity
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_HRV" datatype="float" name="e_HRV" precision="1" ucd="ERROR" unit="km.s-1" width="4">
+    <DESCRIPTION>
+     ? rms uncertainty on HRV
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="n_SDSS" arraysize="1" datatype="char" name="n_SDSS" ucd="NOTE">
+    <DESCRIPTION>
+     [b-d] Individual notes (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="4" ucd="POS_EQ_RA_MAIN" unit="deg" width="8">
+    <DESCRIPTION>
+     Position (derived from SDSS name) (right ascension part)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="4" ucd="POS_EQ_DEC_MAIN" unit="deg" width="8">
+    <DESCRIPTION>
+     Position (derived from SDSS name) (declination part)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>J142112.4-004823</TD>
+      <TD>19.05</TD>
+      <TD> 2.13</TD>
+      <TD> 1.51</TD>
+      <TD> 0.36</TD>
+      <TD> 0.42</TD>
+      <TD>23</TD>
+      <TD>7</TD>
+      <TD>105</TD>
+      <TD> -85.0</TD>
+      <TD> 9.0</TD>
+      <TD/>
+      <TD>215.3017</TD>
+      <TD> -0.8064</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

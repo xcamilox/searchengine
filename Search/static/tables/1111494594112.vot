@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_A_A_397_133_table3" name="J/A+A/397/133/table3">
+   <DESCRIPTION>
+    The star-forming complexes catalogue
+   </DESCRIPTION>
+   <FIELD ID="Seq" datatype="short" name="Seq" ucd="ID_NUMBER" width="3">
+    <DESCRIPTION>
+     Identification number of the complex
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GLON" datatype="float" name="GLON" precision="1" ucd="POS_GAL_LON" unit="deg" width="5">
+    <DESCRIPTION>
+     Galactic longitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GLAT" datatype="float" name="GLAT" precision="1" ucd="POS_GAL_LAT" unit="deg" width="5">
+    <DESCRIPTION>
+     Galactic latitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="VLSR" datatype="float" name="VLSR" precision="1" ucd="VELOC_LSR" unit="km.s-1" width="6">
+    <DESCRIPTION>
+     ? Systemic Radial Velocity (VLSR)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Dist" datatype="float" name="Dist" precision="1" ucd="POS_GAL_HC" unit="kpc" width="4">
+    <DESCRIPTION>
+     ? Kinematic distance
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="err_D" datatype="float" name="err_D" precision="1" ucd="ERROR" unit="kpc" width="6">
+    <DESCRIPTION>
+     ? Uncertainty on the Kinematic distance (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="err-D" datatype="float" name="err-D" precision="1" ucd="ERROR" unit="kpc" width="5">
+    <DESCRIPTION>
+     ? Uncertainty on the Kinematic distance (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="DistSt" datatype="float" name="DistSt" precision="1" ucd="POS_GAL_HC" unit="kpc" width="4">
+    <DESCRIPTION>
+     ? Stellar distance
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="n_DistSt" arraysize="1" datatype="char" name="n_DistSt" ucd="NOTE">
+    <DESCRIPTION>
+     [)] ")": distance based on photometric data only
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_DistSt" datatype="float" name="e_DistSt" precision="2" ucd="ERROR" unit="kpc" width="5">
+    <DESCRIPTION>
+     ? Uncertainty on the Stellar distance
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Exc" datatype="short" name="Exc" ucd="PHYS_EXCITATION_PARAM" unit="pc.cm-2" width="3">
+    <DESCRIPTION>
+     ? Excitation parameter (2) [NULL integer written as an empty
+     string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="_RA.icrs" datatype="double" name="_RA.icrs" precision="4" ucd="POS_EQ_RA_OTHER" unit="deg" width="8">
+    <DESCRIPTION>
+     Right ascension (ICRS) (computed by VizieR, not part of the
+     original data)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" datatype="double" name="_DE.icrs" precision="4" ucd="POS_EQ_DEC_OTHER" unit="deg" width="8">
+    <DESCRIPTION>
+     Declination (ICRS) (computed by VizieR, not part of the original
+     data)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>114</TD>
+      <TD> 71.6</TD>
+      <TD>  2.8</TD>
+      <TD>  14.0</TD>
+      <TD> 2.9</TD>
+      <TD>  -3.0</TD>
+      <TD>  1.5</TD>
+      <TD> 2.8</TD>
+      <TD/>
+      <TD> 0.80</TD>
+      <TD>46</TD>
+      <TD>300.0383</TD>
+      <TD> 35.2877</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

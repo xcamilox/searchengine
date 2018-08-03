@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_A_A_363_239_table2" name="J/A+A/363/239/table2">
+   <DESCRIPTION>
+    Physical parameters for the programme stars
+   </DESCRIPTION>
+   <FIELD ID="HD" datatype="int" name="HD" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     HD (Cat. &lt;III/135&gt;) number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="14" datatype="char" name="SpType" ucd="SPECT_TYPE_GENERAL">
+    <DESCRIPTION>
+     Spectral type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="B-V" datatype="float" name="B-V" precision="2" ucd="PHOT_JHN_B-V" unit="mag" width="5">
+    <DESCRIPTION>
+     B-V colour index
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="vsini" datatype="float" name="vsini" precision="1" ucd="VELOC_ROTAT" unit="km.s-1" width="4">
+    <DESCRIPTION>
+     Rotational velocity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="l_Li" arraysize="1" datatype="char" name="l_Li" ucd="CODE_LIMIT">
+    <DESCRIPTION>
+     Limit flag on Li
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Li" datatype="float" name="Li" precision="2" ucd="PHYS_ABUND_MISC" width="5">
+    <DESCRIPTION>
+     Li abundance
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="r_Li" arraysize="1" datatype="char" name="r_Li" ucd="REFER_CODE">
+    <DESCRIPTION>
+     Reference (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="4" ucd="POS_EQ_RA_MAIN" unit="deg" width="8">
+    <DESCRIPTION>
+     Right Ascension (J2000) from SIMBAD (not part of the original
+     data)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="4" ucd="POS_EQ_DEC_MAIN" unit="deg" width="8">
+    <DESCRIPTION>
+     Declination (J2000) from SIMBAD (not part of the original data)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>188947</TD>
+      <TD>Simbad</TD>
+      <TD>K0III</TD>
+      <TD> 1.02</TD>
+      <TD> 1.0</TD>
+      <TD>&lt;</TD>
+      <TD> 0.20</TD>
+      <TD>c</TD>
+      <TD>299.0765</TD>
+      <TD> 35.0834</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

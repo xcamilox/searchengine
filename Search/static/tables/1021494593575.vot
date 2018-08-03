@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_AJ_142_138_Mdwarfs" name="J/AJ/142/138/Mdwarfs">
+   <DESCRIPTION>
+    Bright M dwarfs: designations, astrometry, photometry, photometric
+    distances, and estimated subtypes {\em(tables 1 and 2 of paper)}
+   </DESCRIPTION>
+   <FIELD ID="PM" arraysize="13" datatype="char" name="PM" ucd="ID_MAIN:1">
+    <DESCRIPTION>
+     Source name (IHHMMm+DDMMWW)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="CNS3" arraysize="17" datatype="char" name="CNS3" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Name in 3rd Catalog of Nearby Stars (V/70)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="6" ucd="POS_EQ_RA_MAIN" unit="deg" width="10">
+    <DESCRIPTION>
+     Right Ascension (ICRS)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="6" ucd="POS_EQ_DEC_MAIN" unit="deg" width="10">
+    <DESCRIPTION>
+     Declination (ICRS)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmt" datatype="float" name="pmt" precision="3" ucd="POS_EQ_PM" unit="arcs.yr-1" width="6">
+    <DESCRIPTION>
+     Total proper motion
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="plx" datatype="float" name="plx" precision="4" ucd="POS_PARLX_TRIG" unit="arcs" width="7">
+    <DESCRIPTION>
+     ? Trigonometric parallax
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Bmag" datatype="float" name="Bmag" precision="1" ucd="PHOT_PHG_B" unit="mag" width="4">
+    <DESCRIPTION>
+     ? USNO-B1.0 photographic blue (IIIaJ) magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Rmag" datatype="float" name="Rmag" precision="1" ucd="PHOT_PHG_R" unit="mag" width="4">
+    <DESCRIPTION>
+     ? USNO-B1.0 photographic red (IIIaF) magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="2" ucd="PHOT_JHN_J" unit="mag" width="5">
+    <DESCRIPTION>
+     2MASS infrared J magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Kmag" datatype="float" name="Kmag" precision="2" ucd="PHOT_JHN_K" unit="mag" width="5">
+    <DESCRIPTION>
+     2MASS infrared Ks magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_MAG_V" unit="mag" width="5">
+    <DESCRIPTION>
+     Estimated visual magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="V-J" datatype="float" name="V-J" precision="2" ucd="PHOT_JHN_V-J" unit="mag" width="5">
+    <DESCRIPTION>
+     Optical-to-infrared V-J color
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pplx" datatype="float" name="pplx" precision="4" ucd="POS_PARLX_PHOT" unit="arcs" width="7">
+    <DESCRIPTION>
+     Photometric parallax
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="psp" arraysize="2" datatype="char" name="psp" ucd="SPECT_TYPE_GENERAL">
+    <DESCRIPTION>
+     [km0-9] Photometric spectral subtype
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SimbadName" arraysize="16" datatype="char" name="SimbadName" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Designation understandable by the {\bf\fg{FireBrick}Simbad} data-
+     base
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>I14178+0009</TD>
+      <TD/>
+      <TD>214.463882</TD>
+      <TD>  0.158748</TD>
+      <TD> 0.209</TD>
+      <TD/>
+      <TD>12.9</TD>
+      <TD>10.6</TD>
+      <TD> 8.99</TD>
+      <TD> 8.13</TD>
+      <TD>11.84</TD>
+      <TD> 2.85</TD>
+      <TD> 0.0239</TD>
+      <TD>k7</TD>
+      <TD>PM J14178+0009</TD>
+     </TR>
+     <TR>
+      <TD>I14179-0031</TD>
+      <TD>GJ 3840</TD>
+      <TD>214.496063</TD>
+      <TD> -0.524840</TD>
+      <TD> 0.380</TD>
+      <TD/>
+      <TD>14.0</TD>
+      <TD>11.8</TD>
+      <TD> 9.04</TD>
+      <TD> 8.28</TD>
+      <TD>12.99</TD>
+      <TD> 3.95</TD>
+      <TD> 0.0491</TD>
+      <TD>m3</TD>
+      <TD>PM J14179-0031</TD>
+     </TR>
+     <TR>
+      <TD>I14212-0107</TD>
+      <TD>GJ 3843</TD>
+      <TD>215.313034</TD>
+      <TD> -1.122204</TD>
+      <TD> 0.653</TD>
+      <TD> 0.0747</TD>
+      <TD>14.6</TD>
+      <TD>11.7</TD>
+      <TD> 8.95</TD>
+      <TD> 8.09</TD>
+      <TD>13.27</TD>
+      <TD> 4.32</TD>
+      <TD> 0.0646</TD>
+      <TD>m4</TD>
+      <TD>PM J14212-0107</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

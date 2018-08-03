@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_MNRAS_389_1336_table1" name="J/MNRAS/389/1336/table1">
+   <DESCRIPTION>
+    Computed colour excesses for FGK supergiants
+   </DESCRIPTION>
+   <FIELD ID="Name" arraysize="10" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Star name (HD or BD)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Teff" datatype="short" name="Teff" ucd="PHYS_TEMP_EFFEC" unit="K" width="4">
+    <DESCRIPTION>
+     Effective temperature
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="logg" datatype="float" name="logg" precision="2" ucd="PHYS_GRAVITY_SURFACE" unit="[cm/s2]" width="5">
+    <DESCRIPTION>
+     Surface gravity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="u_logg" arraysize="1" datatype="char" name="u_logg" ucd="CODE_ERROR">
+    <DESCRIPTION>
+     Uncertainty flag on logg
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vt" datatype="float" name="Vt" precision="2" ucd="VELOC_MICRO-TURB" unit="km.s-1" width="5">
+    <DESCRIPTION>
+     Microturbulent velocity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="__Fe_H_" datatype="float" name="__Fe_H_" precision="2" ucd="PHYS_ABUND_FE/H" width="5">
+    <DESCRIPTION>
+     Metallicity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="E_B-V_" datatype="float" name="E_B-V_" precision="3" ucd="PHOT_COLOR_EXCESS" unit="mag" width="6">
+    <DESCRIPTION>
+     B-V colour excess (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right Ascension (J2000) from SIMBAD (not part of the original
+     data)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (J2000) from SIMBAD (not part of the original data)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>HD 190113</TD>
+      <TD>4784</TD>
+      <TD> 1.90</TD>
+      <TD/>
+      <TD> 3.50</TD>
+      <TD> 0.05</TD>
+      <TD> 0.360</TD>
+      <TD>Simbad</TD>
+      <TD>300.51189</TD>
+      <TD> 35.64111</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="V_125_obubvbet" name="V/125/obubvbet">
+   <DESCRIPTION>
+    Collation of UBV-beta data
+   </DESCRIPTION>
+   <FIELD ID="ALS" datatype="int" name="ALS" ucd="ID_MAIN" width="5">
+    <DESCRIPTION>
+     Alma LS number (G1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_ALS" arraysize="1" datatype="char" name="n_ALS" ucd="NOTE">
+    <DESCRIPTION>
+     [*] indicates a note detailed in notes.dat
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_JHN_V" width="5">
+    <DESCRIPTION>
+     ? V magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="B-V" datatype="float" name="B-V" precision="2" ucd="PHOT_JHN_B-V" unit="mag" width="5">
+    <DESCRIPTION>
+     ? B-V color index
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="U-B" datatype="float" name="U-B" precision="2" ucd="PHOT_JHN_U-B" unit="mag" width="5">
+    <DESCRIPTION>
+     ? U-B color index
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Hbeta" datatype="float" name="Hbeta" precision="3" ucd="PHOT_STR_HBETA" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Hbeta index
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Notes" arraysize="20" datatype="char" name="Notes" ucd="NOTE">
+    <DESCRIPTION>
+     Short notes about the photometry
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="8" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (J2000.0)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="9" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (J2000.0)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="BibCode" arraysize="19" datatype="char" name="BibCode" ucd="REFER_BIBCODE">
+    <DESCRIPTION>
+     BibCode
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Rem" arraysize="10" datatype="char" name="Rem" ucd="NOTE">
+    <DESCRIPTION>
+     Remarks/other identifications
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>10678</TD>
+      <TD/>
+      <TD> 8.89</TD>
+      <TD> 0.85</TD>
+      <TD>-0.24</TD>
+      <TD/>
+      <TD/>
+      <TD>19 58 22</TD>
+      <TD>+35 12 06</TD>
+      <TD>1956ApJS....2..389H</TD>
+      <TD>CYG X-1</TD>
+     </TR>
+     <TR>
+      <TD>10678</TD>
+      <TD/>
+      <TD> 8.91</TD>
+      <TD> 0.81</TD>
+      <TD>-0.28</TD>
+      <TD/>
+      <TD/>
+      <TD>19 58 22</TD>
+      <TD>+35 12 06</TD>
+      <TD>1972AJ.....77..376L</TD>
+      <TD>CYG X-1</TD>
+     </TR>
+     <TR>
+      <TD>10678</TD>
+      <TD/>
+      <TD> 8.81</TD>
+      <TD> 0.83</TD>
+      <TD>-0.29</TD>
+      <TD/>
+      <TD/>
+      <TD>19 58 22</TD>
+      <TD>+35 12 06</TD>
+      <TD>1995ApJ...454..151M</TD>
+      <TD>CYG X-1</TD>
+     </TR>
+     <TR>
+      <TD>10678</TD>
+      <TD/>
+      <TD> 8.87</TD>
+      <TD> 0.81</TD>
+      <TD/>
+      <TD/>
+      <TD>Transformed Tycho BV</TD>
+      <TD>19 58 22</TD>
+      <TD>+35 12 06</TD>
+      <TD>2000A&amp;A...355L..27H</TD>
+      <TD>CYG X-1</TD>
+     </TR>
+     <TR>
+      <TD>10694</TD>
+      <TD/>
+      <TD>11.79</TD>
+      <TD> 0.38</TD>
+      <TD> 0.14</TD>
+      <TD/>
+      <TD/>
+      <TD>19 59 42</TD>
+      <TD>+34 59 25</TD>
+      <TD>1972AJ.....77..376L</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>10695</TD>
+      <TD/>
+      <TD> 8.99</TD>
+      <TD> 0.38</TD>
+      <TD>-0.62</TD>
+      <TD/>
+      <TD/>
+      <TD>19 59 49</TD>
+      <TD>+35 18 34</TD>
+      <TD>1956ApJ...124..367H</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>10695</TD>
+      <TD/>
+      <TD> 8.99</TD>
+      <TD> 0.38</TD>
+      <TD>-0.62</TD>
+      <TD/>
+      <TD/>
+      <TD>19 59 49</TD>
+      <TD>+35 18 34</TD>
+      <TD>1956ApJS....2..389H</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>10695</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD> 2.593</TD>
+      <TD/>
+      <TD>19 59 49</TD>
+      <TD>+35 18 34</TD>
+      <TD>1975PASP...87..481C</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>10695</TD>
+      <TD/>
+      <TD> 9.25</TD>
+      <TD> 0.36</TD>
+      <TD>-0.65</TD>
+      <TD/>
+      <TD/>
+      <TD>19 59 49</TD>
+      <TD>+35 18 34</TD>
+      <TD>1972AJ.....77..376L</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>10695</TD>
+      <TD/>
+      <TD> 8.96</TD>
+      <TD> 0.37</TD>
+      <TD>-0.62</TD>
+      <TD/>
+      <TD/>
+      <TD>19 59 49</TD>
+      <TD>+35 18 34</TD>
+      <TD>1995ApJ...454..151M</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>10695</TD>
+      <TD/>
+      <TD> 8.98</TD>
+      <TD> 0.39</TD>
+      <TD/>
+      <TD/>
+      <TD>Transformed Tycho BV</TD>
+      <TD>19 59 49</TD>
+      <TD>+35 18 34</TD>
+      <TD>2000A&amp;A...355L..27H</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>10721</TD>
+      <TD/>
+      <TD>11.21</TD>
+      <TD> 0.26</TD>
+      <TD>-0.45</TD>
+      <TD/>
+      <TD/>
+      <TD>20 01 10</TD>
+      <TD>+35 59 25</TD>
+      <TD>1972AJ.....77..376L</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>10723</TD>
+      <TD/>
+      <TD>10.34</TD>
+      <TD> 0.33</TD>
+      <TD>-0.49</TD>
+      <TD/>
+      <TD/>
+      <TD>20 01 15</TD>
+      <TD>+35 57 28</TD>
+      <TD>1972AJ.....77..376L</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>10723</TD>
+      <TD/>
+      <TD>10.15</TD>
+      <TD> 0.30</TD>
+      <TD/>
+      <TD/>
+      <TD>Transformed Tycho BV</TD>
+      <TD>20 01 15</TD>
+      <TD>+35 57 28</TD>
+      <TD>2000A&amp;A...355L..27H</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>10735</TD>
+      <TD/>
+      <TD>10.95</TD>
+      <TD> 0.48</TD>
+      <TD>-0.41</TD>
+      <TD/>
+      <TD/>
+      <TD>20 01 45</TD>
+      <TD>+35 33 09</TD>
+      <TD>1972AJ.....77..376L</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>10744</TD>
+      <TD/>
+      <TD> 9.74</TD>
+      <TD> 0.62</TD>
+      <TD>-0.44</TD>
+      <TD/>
+      <TD/>
+      <TD>20 02 22</TD>
+      <TD>+35 40 31</TD>
+      <TD>1956ApJ...124..367H</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>10744</TD>
+      <TD/>
+      <TD> 9.74</TD>
+      <TD> 0.62</TD>
+      <TD>-0.44</TD>
+      <TD/>
+      <TD/>
+      <TD>20 02 22</TD>
+      <TD>+35 40 31</TD>
+      <TD>1956ApJS....2..389H</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>10744</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD> 2.600</TD>
+      <TD/>
+      <TD>20 02 22</TD>
+      <TD>+35 40 31</TD>
+      <TD>1975PASP...87..481C</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>10744</TD>
+      <TD/>
+      <TD> 9.77</TD>
+      <TD> 0.59</TD>
+      <TD>-0.48</TD>
+      <TD/>
+      <TD/>
+      <TD>20 02 22</TD>
+      <TD>+35 40 31</TD>
+      <TD>1972AJ.....77..376L</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>10744</TD>
+      <TD/>
+      <TD> 9.66</TD>
+      <TD> 0.60</TD>
+      <TD/>
+      <TD/>
+      <TD>Transformed Tycho BV</TD>
+      <TD>20 02 22</TD>
+      <TD>+35 40 31</TD>
+      <TD>2000A&amp;A...355L..27H</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>10745</TD>
+      <TD/>
+      <TD> 9.17</TD>
+      <TD> 0.36</TD>
+      <TD>-0.59</TD>
+      <TD> 2.632</TD>
+      <TD/>
+      <TD>20 02 23</TD>
+      <TD>+35 18 42</TD>
+      <TD>1976ApJS...30...97D</TD>
+      <TD>ADS 13292A</TD>
+     </TR>
+     <TR>
+      <TD>10745</TD>
+      <TD/>
+      <TD> 9.38</TD>
+      <TD> 0.32</TD>
+      <TD>-0.60</TD>
+      <TD/>
+      <TD/>
+      <TD>20 02 23</TD>
+      <TD>+35 18 42</TD>
+      <TD>1972AJ.....77..376L</TD>
+      <TD>ADS 13292A</TD>
+     </TR>
+     <TR>
+      <TD>10745</TD>
+      <TD/>
+      <TD> 9.16</TD>
+      <TD> 0.34</TD>
+      <TD/>
+      <TD/>
+      <TD>Transformed Tycho BV</TD>
+      <TD>20 02 23</TD>
+      <TD>+35 18 42</TD>
+      <TD>2000A&amp;A...355L..27H</TD>
+      <TD>ADS 13292A</TD>
+     </TR>
+     <TR>
+      <TD>10748</TD>
+      <TD/>
+      <TD>10.61</TD>
+      <TD> 0.56</TD>
+      <TD>-0.39</TD>
+      <TD/>
+      <TD/>
+      <TD>20 02 26</TD>
+      <TD>+35 40 17</TD>
+      <TD>1972AJ.....77..376L</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>14628</TD>
+      <TD/>
+      <TD> 9.12</TD>
+      <TD> 0.16</TD>
+      <TD>-0.74</TD>
+      <TD/>
+      <TD/>
+      <TD>19 59 12</TD>
+      <TD>+36 06 55</TD>
+      <TD>1956ApJS....2..389H</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>14628</TD>
+      <TD/>
+      <TD> 9.14</TD>
+      <TD> 0.15</TD>
+      <TD/>
+      <TD/>
+      <TD>Transformed Tycho BV</TD>
+      <TD>19 59 12</TD>
+      <TD>+36 06 55</TD>
+      <TD>2000A&amp;A...355L..27H</TD>
+      <TD/>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

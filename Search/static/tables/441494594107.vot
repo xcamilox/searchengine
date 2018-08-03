@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="III_76A_ls" name="III/76A/ls">
+   <DESCRIPTION>
+    The Catalogue
+   </DESCRIPTION>
+   <FIELD ID="LS" arraysize="7" datatype="char" name="LS" ucd="ID_MAIN:2">
+    <DESCRIPTION>
+     LS number in the form sign, zone, number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vol" datatype="unsignedByte" name="Vol" ucd="ID_MAIN:1" width="1">
+    <DESCRIPTION>
+     [1/6] Volume number of published catalogue in which the star is
+     listed.
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="BD" arraysize="10" datatype="char" name="BD" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Durchmusterung (BD present in bytes 9-10). Bytes 11-13 contain
+     the zone, and bytes 14-18 the number in the zone.
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="m_BD" arraysize="1" datatype="char" name="m_BD" ucd="CODE_MULT_INDEX">
+    <DESCRIPTION>
+     Code for duplicity in BD designation
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sp" arraysize="17" datatype="char" name="Sp" ucd="SPECT_TYPE_GENERAL">
+    <DESCRIPTION>
+     Estimated spectral type.
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Pmag" datatype="short" name="Pmag" ucd="PHOT_PHG_B" unit="dmag" width="3">
+    <DESCRIPTION>
+     ? Photographic magnitude (see also u_Pmag) [NULL integer written
+     as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="u_Pmag" arraysize="1" datatype="char" name="u_Pmag" ucd="CODE_ERROR">
+    <DESCRIPTION>
+     [:Vm] Remarks about accuracy, variability, band
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAB1950" arraysize="10" datatype="char" name="RAB1950" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension B1950
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEB1950" arraysize="9" datatype="char" name="DEB1950" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination B1950
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="u_DEB1950" arraysize="1" datatype="char" name="u_DEB1950" ucd="CODE_ERROR">
+    <DESCRIPTION>
+     Colon (:) for uncertain coordinates.
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Remarks" arraysize="20" datatype="char" name="Remarks" ucd="REMARKS">
+    <DESCRIPTION>
+     Remarks; an "*" indicates a note detailed in the
+     "\begin{tex}\vFile{III/76A/./notes.dat}{notes.dat}\end{tex}"
+     file.
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="AGK2" arraysize="1" datatype="char" name="AGK2" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [*] indicates an AGK2 star (volumes III and V)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA.icrs" arraysize="10" datatype="char" name="_RA.icrs" ucd="POS_EQ_RA_OTHER" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (ICRS) (computed by VizieR, not part of the
+     original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" arraysize="9" datatype="char" name="_DE.icrs" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (ICRS) (computed by VizieR, not part of the original
+     data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>+34   5</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD/>
+      <TD>B9II</TD>
+      <TD>120</TD>
+      <TD/>
+      <TD>19 57 49.2</TD>
+      <TD>+34 51 09</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>19 59 42.5</TD>
+      <TD>+34 59 25</TD>
+     </TR>
+     <TR>
+      <TD>+35   8</TD>
+      <TD>2</TD>
+      <TD>BD+34 3815</TD>
+      <TD/>
+      <TD>OB+R</TD>
+      <TD>97</TD>
+      <TD/>
+      <TD>19 56 28.9</TD>
+      <TD>+35 03 55</TD>
+      <TD/>
+      <TD>B0IB</TD>
+      <TD/>
+      <TD>19 58 21.7</TD>
+      <TD>+35 12 06</TD>
+     </TR>
+     <TR>
+      <TD>+35   9</TD>
+      <TD>2</TD>
+      <TD>BD+34 3828</TD>
+      <TD/>
+      <TD>OBCE</TD>
+      <TD>94</TD>
+      <TD/>
+      <TD>19 57 56.3</TD>
+      <TD>+35 10 17</TD>
+      <TD/>
+      <TD>O7</TD>
+      <TD/>
+      <TD>19 59 49.1</TD>
+      <TD>+35 18 34</TD>
+     </TR>
+     <TR>
+      <TD>+35  10</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD/>
+      <TD>OB-</TD>
+      <TD>115</TD>
+      <TD/>
+      <TD>19 59 18.5</TD>
+      <TD>+35 51 03</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>20 01 10.4</TD>
+      <TD>+35 59 25</TD>
+     </TR>
+     <TR>
+      <TD>+35  11</TD>
+      <TD>2</TD>
+      <TD>BD+35 3915</TD>
+      <TD/>
+      <TD>OB-</TD>
+      <TD>104</TD>
+      <TD/>
+      <TD>19 59 22.9</TD>
+      <TD>+35 49 06</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>20 01 14.9</TD>
+      <TD>+35 57 28</TD>
+     </TR>
+     <TR>
+      <TD>+35  12</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD/>
+      <TD>(OB-)</TD>
+      <TD>117</TD>
+      <TD/>
+      <TD>19 59 24.5</TD>
+      <TD>+35 12 27</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>20 01 17.4</TD>
+      <TD>+35 20 49</TD>
+     </TR>
+     <TR>
+      <TD>+35  13</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD/>
+      <TD>OB-R</TD>
+      <TD>112</TD>
+      <TD/>
+      <TD>19 59 52.2</TD>
+      <TD>+35 24 45</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>20 01 44.8</TD>
+      <TD>+35 33 09</TD>
+     </TR>
+     <TR>
+      <TD>+35  14</TD>
+      <TD>2</TD>
+      <TD>BD+35 3924</TD>
+      <TD/>
+      <TD>OBCE</TD>
+      <TD>103</TD>
+      <TD/>
+      <TD>20 00 29.3</TD>
+      <TD>+35 32 04</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>20 02 21.8</TD>
+      <TD>+35 40 30</TD>
+     </TR>
+     <TR>
+      <TD>+35  15</TD>
+      <TD>2</TD>
+      <TD>BD+34 3850</TD>
+      <TD/>
+      <TD>OBCE(LE)</TD>
+      <TD>94</TD>
+      <TD/>
+      <TD>20 00 30.2</TD>
+      <TD>+35 10 15</TD>
+      <TD/>
+      <TD>ADS13292A</TD>
+      <TD/>
+      <TD>20 02 23.3</TD>
+      <TD>+35 18 42</TD>
+     </TR>
+     <TR>
+      <TD>+35  16</TD>
+      <TD>2</TD>
+      <TD>BD+34 3850</TD>
+      <TD/>
+      <TD>OB-</TD>
+      <TD>109</TD>
+      <TD/>
+      <TD>20 00 31.6</TD>
+      <TD>+35 10 13</TD>
+      <TD/>
+      <TD>ADS13292B</TD>
+      <TD/>
+      <TD>20 02 24.7</TD>
+      <TD>+35 18 40</TD>
+     </TR>
+     <TR>
+      <TD>+35  17</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD/>
+      <TD>OBR</TD>
+      <TD>109</TD>
+      <TD/>
+      <TD>20 00 33.0</TD>
+      <TD>+35 31 50</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>20 02 25.5</TD>
+      <TD>+35 40 17</TD>
+     </TR>
+     <TR>
+      <TD>+35  18</TD>
+      <TD>2</TD>
+      <TD/>
+      <TD/>
+      <TD>OB-</TD>
+      <TD>115</TD>
+      <TD/>
+      <TD>20 00 43.2</TD>
+      <TD>+35 08 30</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>20 02 36.3</TD>
+      <TD>+35 16 57</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

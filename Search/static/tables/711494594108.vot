@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="V_98_msx" name="V/98/msx">
+   <DESCRIPTION>
+    MSX Infrared Astrometric Catalog
+   </DESCRIPTION>
+   <FIELD ID="AsID" arraysize="1" datatype="char" name="AsID" ucd="ID_MAIN:1">
+    <DESCRIPTION>
+     [FfANS] Original astrometric catalog ID
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="AsName" datatype="int" name="AsName" ucd="ID_MAIN:2" width="6">
+    <DESCRIPTION>
+     Astrometric catalog number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="IrID" arraysize="1" datatype="char" name="IrID" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     [PFSBZC] IR catalog ID
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="IrName" arraysize="13" datatype="char" name="IrName" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Name of star in IR catalog
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="12" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension, J2000
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="12" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination, J2000
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="double" name="pmRA" precision="3" ucd="POS_EQ_PMRA" unit="%" width="9">
+    <DESCRIPTION>
+     Proper motion in right ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="double" name="pmDE" precision="2" ucd="POS_EQ_PMDEC" unit="0.01arcs.yr-1" width="9">
+    <DESCRIPTION>
+     Proper motion in declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sp" arraysize="3" datatype="char" name="Sp" ucd="SPECT_TYPE_GENERAL">
+    <DESCRIPTION>
+     Spectral type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_MAG_V" unit="mag" width="5">
+    <DESCRIPTION>
+     V visual magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="F12umEst" datatype="float" name="F12umEst" precision="E2" ucd="PHOT_FLUX_IR_12" unit="Jy" width="9">
+    <DESCRIPTION>
+     Estimated IRAS 12 micron flux
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>A</TD>
+      <TD>205762</TD>
+      <TD/>
+      <TD/>
+      <TD>19 54 49.051</TD>
+      <TD>+35 00 19.89</TD>
+      <TD>    0.036</TD>
+      <TD>    -1.55</TD>
+      <TD>F8</TD>
+      <TD> 8.58</TD>
+      <TD>     0.06</TD>
+     </TR>
+     <TR>
+      <TD>A</TD>
+      <TD>205767</TD>
+      <TD/>
+      <TD/>
+      <TD>19 54 50.940</TD>
+      <TD>+35 49 01.76</TD>
+      <TD>   -0.100</TD>
+      <TD>    -3.66</TD>
+      <TD>K0</TD>
+      <TD> 8.70</TD>
+      <TD>     0.14</TD>
+     </TR>
+     <TR>
+      <TD>A</TD>
+      <TD>554273</TD>
+      <TD/>
+      <TD/>
+      <TD>19 54 56.535</TD>
+      <TD>+34 56 00.33</TD>
+      <TD>    0.008</TD>
+      <TD>    -2.05</TD>
+      <TD>K5</TD>
+      <TD> 8.50</TD>
+      <TD>     0.43</TD>
+     </TR>
+     <TR>
+      <TD>A</TD>
+      <TD>205801</TD>
+      <TD>P</TD>
+      <TD>19531+3446</TD>
+      <TD>19 55 00.163</TD>
+      <TD>+34 54 02.21</TD>
+      <TD>    0.061</TD>
+      <TD>     2.01</TD>
+      <TD>K0</TD>
+      <TD> 7.10</TD>
+      <TD>     0.49</TD>
+     </TR>
+     <TR>
+      <TD>A</TD>
+      <TD>205815</TD>
+      <TD/>
+      <TD/>
+      <TD>19 55 02.833</TD>
+      <TD>+35 50 39.19</TD>
+      <TD>    0.145</TD>
+      <TD>     0.02</TD>
+      <TD>K0</TD>
+      <TD> 9.50</TD>
+      <TD>    0.069</TD>
+     </TR>
+     <TR>
+      <TD>A</TD>
+      <TD>554279</TD>
+      <TD/>
+      <TD/>
+      <TD>19 55 03.521</TD>
+      <TD>+35 52 18.50</TD>
+      <TD>    0.418</TD>
+      <TD>     1.79</TD>
+      <TD>G5</TD>
+      <TD> 9.73</TD>
+      <TD>    0.045</TD>
+     </TR>
+     <TR>
+      <TD>A</TD>
+      <TD>554298</TD>
+      <TD/>
+      <TD/>
+      <TD>19 55 17.234</TD>
+      <TD>+35 53 06.95</TD>
+      <TD>   -0.098</TD>
+      <TD>    -1.30</TD>
+      <TD>G5</TD>
+      <TD> 9.73</TD>
+      <TD>    0.045</TD>
+     </TR>
+     <TR>
+      <TD>F</TD>
+      <TD>1521</TD>
+      <TD>P</TD>
+      <TD>19544+3456</TD>
+      <TD>19 56 18.376</TD>
+      <TD>+35 05 00.34</TD>
+      <TD>   -0.257</TD>
+      <TD>    -2.74</TD>
+      <TD>K0</TD>
+      <TD> 3.89</TD>
+      <TD>       10</TD>
+     </TR>
+     <TR>
+      <TD>A</TD>
+      <TD>206104</TD>
+      <TD/>
+      <TD/>
+      <TD>19 56 24.637</TD>
+      <TD>+35 47 24.41</TD>
+      <TD>    0.087</TD>
+      <TD>     0.76</TD>
+      <TD>G5</TD>
+      <TD> 7.53</TD>
+      <TD>     0.34</TD>
+     </TR>
+     <TR>
+      <TD>A</TD>
+      <TD>206151</TD>
+      <TD/>
+      <TD/>
+      <TD>19 56 39.370</TD>
+      <TD>+35 41 52.92</TD>
+      <TD>   -0.013</TD>
+      <TD>    -2.68</TD>
+      <TD>K2</TD>
+      <TD> 9.35</TD>
+      <TD>     0.11</TD>
+     </TR>
+     <TR>
+      <TD>A</TD>
+      <TD>206186</TD>
+      <TD/>
+      <TD/>
+      <TD>19 56 47.031</TD>
+      <TD>+35 42 10.38</TD>
+      <TD>    0.121</TD>
+      <TD>    -0.82</TD>
+      <TD>K0</TD>
+      <TD> 9.70</TD>
+      <TD>    0.058</TD>
+     </TR>
+     <TR>
+      <TD>A</TD>
+      <TD>206226</TD>
+      <TD/>
+      <TD/>
+      <TD>19 56 57.868</TD>
+      <TD>+35 54 38.46</TD>
+      <TD>    0.061</TD>
+      <TD>     0.19</TD>
+      <TD>K0</TD>
+      <TD> 8.70</TD>
+      <TD>     0.14</TD>
+     </TR>
+     <TR>
+      <TD>A</TD>
+      <TD>206290</TD>
+      <TD/>
+      <TD/>
+      <TD>19 57 13.358</TD>
+      <TD>+35 01 53.64</TD>
+      <TD>   -0.021</TD>
+      <TD>    -0.73</TD>
+      <TD>F65</TD>
+      <TD> 8.20</TD>
+      <TD>    0.077</TD>
+     </TR>
+     <TR>
+      <TD>A</TD>
+      <TD>206310</TD>
+      <TD/>
+      <TD/>
+      <TD>19 57 18.552</TD>
+      <TD>+34 34 53.35</TD>
+      <TD>    0.001</TD>
+      <TD>    -0.95</TD>
+      <TD>K0</TD>
+      <TD> 8.30</TD>
+      <TD>     0.21</TD>
+     </TR>
+     <TR>
+      <TD>A</TD>
+      <TD>206502</TD>
+      <TD/>
+      <TD/>
+      <TD>19 58 10.128</TD>
+      <TD>+34 43 16.87</TD>
+      <TD>   -0.030</TD>
+      <TD>    -0.31</TD>
+      <TD>K7</TD>
+      <TD> 8.98</TD>
+      <TD>      0.4</TD>
+     </TR>
+     <TR>
+      <TD>A</TD>
+      <TD>206572</TD>
+      <TD/>
+      <TD/>
+      <TD>19 58 26.224</TD>
+      <TD>+34 30 46.51</TD>
+      <TD>    0.139</TD>
+      <TD>    -0.51</TD>
+      <TD>K2</TD>
+      <TD> 7.05</TD>
+      <TD>     0.92</TD>
+     </TR>
+     <TR>
+      <TD>A</TD>
+      <TD>554579</TD>
+      <TD/>
+      <TD/>
+      <TD>19 58 32.450</TD>
+      <TD>+34 41 25.90</TD>
+      <TD>    0.015</TD>
+      <TD>     1.62</TD>
+      <TD>K2</TD>
+      <TD> 9.95</TD>
+      <TD>    0.064</TD>
+     </TR>
+     <TR>
+      <TD>A</TD>
+      <TD>206663</TD>
+      <TD/>
+      <TD/>
+      <TD>19 58 51.656</TD>
+      <TD>+35 29 52.00</TD>
+      <TD>    0.234</TD>
+      <TD>     1.04</TD>
+      <TD>A0</TD>
+      <TD> 7.32</TD>
+      <TD>    0.054</TD>
+     </TR>
+     <TR>
+      <TD>A</TD>
+      <TD>554614</TD>
+      <TD>P</TD>
+      <TD>19570+3431</TD>
+      <TD>19 58 54.672</TD>
+      <TD>+34 39 43.17</TD>
+      <TD>   -0.013</TD>
+      <TD>    -0.01</TD>
+      <TD>K0</TD>
+      <TD> 8.90</TD>
+      <TD>     0.31</TD>
+     </TR>
+     <TR>
+      <TD>A</TD>
+      <TD>206799</TD>
+      <TD/>
+      <TD/>
+      <TD>19 59 26.791</TD>
+      <TD>+35 53 49.03</TD>
+      <TD>    0.249</TD>
+      <TD>    -0.28</TD>
+      <TD>K03</TD>
+      <TD> 9.00</TD>
+      <TD>     0.11</TD>
+     </TR>
+     <TR>
+      <TD>A</TD>
+      <TD>206803</TD>
+      <TD/>
+      <TD/>
+      <TD>19 59 28.869</TD>
+      <TD>+34 29 31.51</TD>
+      <TD>    0.163</TD>
+      <TD>    -1.13</TD>
+      <TD>K0</TD>
+      <TD> 8.10</TD>
+      <TD>     0.25</TD>
+     </TR>
+     <TR>
+      <TD>A</TD>
+      <TD>206902</TD>
+      <TD/>
+      <TD/>
+      <TD>19 59 55.849</TD>
+      <TD>+35 17 47.45</TD>
+      <TD>    0.099</TD>
+      <TD>     0.00</TD>
+      <TD>K5</TD>
+      <TD> 7.50</TD>
+      <TD>      1.1</TD>
+     </TR>
+     <TR>
+      <TD>A</TD>
+      <TD>206982</TD>
+      <TD>P</TD>
+      <TD>19584+3513</TD>
+      <TD>20 00 19.037</TD>
+      <TD>+35 21 30.21</TD>
+      <TD>    0.007</TD>
+      <TD>    -0.60</TD>
+      <TD>K2</TD>
+      <TD> 7.85</TD>
+      <TD>      1.4</TD>
+     </TR>
+     <TR>
+      <TD>A</TD>
+      <TD>207194</TD>
+      <TD/>
+      <TD/>
+      <TD>20 01 12.614</TD>
+      <TD>+34 47 10.61</TD>
+      <TD>    0.007</TD>
+      <TD>    -4.07</TD>
+      <TD>K0</TD>
+      <TD> 8.80</TD>
+      <TD>     0.13</TD>
+     </TR>
+     <TR>
+      <TD>A</TD>
+      <TD>554849</TD>
+      <TD/>
+      <TD/>
+      <TD>20 01 29.910</TD>
+      <TD>+35 08 20.92</TD>
+      <TD>   -0.041</TD>
+      <TD>    -1.64</TD>
+      <TD>G83</TD>
+      <TD> 9.90</TD>
+      <TD>    0.042</TD>
+     </TR>
+     <TR>
+      <TD>A</TD>
+      <TD>207397</TD>
+      <TD/>
+      <TD/>
+      <TD>20 02 01.800</TD>
+      <TD>+35 19 56.38</TD>
+      <TD>   -0.006</TD>
+      <TD>    -1.24</TD>
+      <TD>B85</TD>
+      <TD> 7.20</TD>
+      <TD>    0.044</TD>
+     </TR>
+     <TR>
+      <TD>A</TD>
+      <TD>207399</TD>
+      <TD/>
+      <TD/>
+      <TD>20 02 02.864</TD>
+      <TD>+35 38 28.08</TD>
+      <TD>   -0.002</TD>
+      <TD>    -0.75</TD>
+      <TD>G51</TD>
+      <TD> 8.00</TD>
+      <TD>     0.25</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

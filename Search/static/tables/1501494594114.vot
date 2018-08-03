@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_MNRAS_414_418_table1" name="J/MNRAS/414/418/table1">
+   <DESCRIPTION>
+    Physical and empirical surface fluxes of the chromospheric MgII
+    h+k line emission of 177 cool giants and supergiants from the IUE
+    final data archive, together with B-V, V, BC and logTeff (see
+    Section 2)
+   </DESCRIPTION>
+   <FIELD ID="HD" datatype="int" name="HD" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     HD number of the star
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_HD" arraysize="2" datatype="char" name="n_HD" ucd="NOTE">
+    <DESCRIPTION>
+     [*+d ] Note (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="B-V" datatype="float" name="B-V" precision="2" ucd="PHOT_JHN_B-V" unit="mag" width="5">
+    <DESCRIPTION>
+     B-V colour index
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="V-K" datatype="float" name="V-K" precision="2" ucd="PHOT_JHN_V-K" unit="mag" width="5">
+    <DESCRIPTION>
+     V-K colour index
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="FMg" datatype="float" name="FMg" precision="E2" ucd="SPECT_FLUX_VALUE" unit="10mW.nm.m-2" width="9">
+    <DESCRIPTION>
+     MgII h+k chromospheric emission-line flux (in erg/cm2/s/{AA})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="BC.V" datatype="float" name="BC.V" precision="2" ucd="PHOT_BOL_CORR" unit="mag" width="5">
+    <DESCRIPTION>
+     Bololetric correction in V band
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="BC.K" datatype="float" name="BC.K" precision="2" ucd="PHOT_BOL_CORR" unit="mag" width="5">
+    <DESCRIPTION>
+     Bolometric correction in K band
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="logTe.B" datatype="float" name="logTe.B" precision="3" ucd="PHYS_TEMP_EFFEC" unit="[K]" width="6">
+    <DESCRIPTION>
+     Effective temperature from B-V
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="logTe.V" datatype="float" name="logTe.V" precision="3" ucd="PHYS_TEMP_EFFEC" unit="[K]" width="6">
+    <DESCRIPTION>
+     Effective temperature from V-K
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="logF.B" datatype="float" name="logF.B" precision="2" ucd="SPECT_FLUX_VALUE" unit="[mW/m2]" width="5">
+    <DESCRIPTION>
+     MgII h+k chromospheric emission-line surface flux from B-V
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="logF.V" datatype="float" name="logF.V" precision="2" ucd="SPECT_FLUX_VALUE" unit="[mW/m2]" width="5">
+    <DESCRIPTION>
+     MgII h+k chromospheric emission-line surface flux from V-K
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right Ascension (J2000) from SIMBAD (not part of the original
+     data)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (J2000) from SIMBAD (not part of the original data)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>188947</TD>
+      <TD/>
+      <TD> 1.01</TD>
+      <TD> 2.48</TD>
+      <TD>  6.5e-12</TD>
+      <TD>-0.39</TD>
+      <TD> 2.11</TD>
+      <TD> 3.684</TD>
+      <TD> 3.665</TD>
+      <TD> 5.30</TD>
+      <TD> 5.22</TD>
+      <TD>Simbad</TD>
+      <TD>299.07655</TD>
+      <TD> 35.08342</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

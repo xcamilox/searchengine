@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_A_A_524_A10_table2" name="J/A+A/524/A10/table2">
+   <DESCRIPTION>
+    Preliminary list of new RV standards
+   </DESCRIPTION>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     Hipparcos number (Cat. I/239)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Name" arraysize="10" datatype="char" name="Name" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     HD or DM identifier
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_JHN_V" unit="mag" width="5">
+    <DESCRIPTION>
+     V magnitude from HIP
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="B-V" datatype="float" name="B-V" precision="3" ucd="PHOT_JHN_B-V" unit="mag" width="6">
+    <DESCRIPTION>
+     B-V colour index from HIP
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="V-I" datatype="float" name="V-I" precision="2" ucd="PHOT_COUS_V-I" unit="mag" width="5">
+    <DESCRIPTION>
+     V-I colour index from HIP
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="12" datatype="char" name="SpType" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     Spectral Type from Simbad
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Std" arraysize="1" datatype="char" name="Std" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [EC-] Elodie (E) or Coravel (C) IAU std (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="iauRV" datatype="float" name="iauRV" precision="2" ucd="VELOC_HC" unit="km.s-1" width="7">
+    <DESCRIPTION>
+     ? Radial Velocity from IAU Comm.30 lists (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="nidRV" datatype="double" name="nidRV" precision="3" ucd="VELOC_HC" unit="km.s-1" width="8">
+    <DESCRIPTION>
+     ? Radial Velocity from Nidever et al. (2002, Cat. J/ApJS/141/503)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="norRV" datatype="float" name="norRV" precision="1" ucd="VELOC_HC" unit="km.s-1" width="6">
+    <DESCRIPTION>
+     ? Radial Velocity from Nordstrom et al. (2004, Cat. V/117)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="famRV" datatype="float" name="famRV" precision="2" ucd="VELOC_HC" unit="km.s-1" width="7">
+    <DESCRIPTION>
+     ? Radial Velocity from Famaey et al. (2005, Cat. J/A+A/430/165)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Set" arraysize="1" datatype="char" name="Set" ucd="ID_SET">
+    <DESCRIPTION>
+     [MS] Main or Supplementary list (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="13" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension, J2000, hours
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="13" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination, J2000, degrees
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>98004</TD>
+      <TD>HD 188668</TD>
+      <TD> 7.22</TD>
+      <TD> 1.140</TD>
+      <TD> 1.10</TD>
+      <TD>K0</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD> -26.81</TD>
+      <TD>M</TD>
+      <TD>Simbad</TD>
+      <TD>19 55 00.1381</TD>
+      <TD>+34 54 02.173</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

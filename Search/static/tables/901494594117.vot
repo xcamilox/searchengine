@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJ_721_1843_table1" name="J/ApJ/721/1843/table1">
+   <DESCRIPTION>
+    The 228 detected hard X-ray sources
+   </DESCRIPTION>
+   <FIELD ID="Swift" arraysize="12" datatype="char" name="Swift" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Swift name (JHHMM.m+DDMM)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="float" name="RAJ2000" precision="3" ucd="POS_EQ_RA_MAIN" unit="deg" width="7">
+    <DESCRIPTION>
+     Right Ascension in decimal degrees (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="float" name="DEJ2000" precision="3" ucd="POS_EQ_DEC_MAIN" unit="deg" width="7">
+    <DESCRIPTION>
+     Declination in decimal degrees (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_Pos" datatype="float" name="e_Pos" precision="3" ucd="ERROR" unit="arcm" width="6">
+    <DESCRIPTION>
+     Positional uncertainty
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Flux" datatype="float" name="Flux" precision="2" ucd="PHOT_FLUX_GAMMA" unit="10-14W.m-2" width="7">
+    <DESCRIPTION>
+     Time-averaged 15-55 keV flux in units of 10^-11^erg/s/cm^2^
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="S_N" datatype="float" name="S_N" precision="1" ucd="INST_S/N" width="6">
+    <DESCRIPTION>
+     Signal-to-Noise
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="ID" arraysize="23" datatype="char" name="ID" ucd="ID_CROSSID">
+    <DESCRIPTION>
+     Optical identification (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Type" arraysize="11" datatype="char" name="Type" ucd="CLASS_OBJECT">
+    <DESCRIPTION>
+     Source type (7 blazars, 2 BL Lac, 3 Be star, 18 CV, 4 galaxy, 3
+     galaxy cluster, 38 HMXB, 60 LMXB, 9 pulsar, 5 supernova remnant,
+     4 symbiotic star, 56 Seyfert and 1 dwarf nova)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Off" datatype="float" name="Off" precision="1" ucd="POS_ANG_DIST_GENERAL" unit="arcm" width="4">
+    <DESCRIPTION>
+     ? source position offset Swift / optical
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>J1958.3+3512</TD>
+      <TD>299.592</TD>
+      <TD> 35.200</TD>
+      <TD> 0.333</TD>
+      <TD> 930.01</TD>
+      <TD>4123.6</TD>
+      <TD>Cyg X-1</TD>
+      <TD>HMXB</TD>
+      <TD> 0.3</TD>
+      <TD>Simbad</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

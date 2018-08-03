@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="I_289_out" name="I/289/out">
+   <DESCRIPTION>
+    The Second U.S. Naval Observatory CCD Astrograph Catalog
+   </DESCRIPTION>
+   <FIELD ID="_2UCAC" datatype="int" name="_2UCAC" ucd="ID_MAIN" width="8">
+    <DESCRIPTION>
+     [00000001,48330571] UCAC designation (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="7" ucd="POS_EQ_RA_MAIN" unit="deg" width="11">
+    <DESCRIPTION>
+     Right ascension (degrees), ICRS, Ep=J2000 (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_RAJ2000" datatype="short" name="e_RAJ2000" ucd="ERROR" unit="mas" width="3">
+    <DESCRIPTION>
+     Minimal mean error on RAdeg (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="7" ucd="POS_EQ_DEC_MAIN" unit="deg" width="11">
+    <DESCRIPTION>
+     Declination (degrees), ICRS, Ep=J2000 (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_DEJ2000" datatype="short" name="e_DEJ2000" ucd="ERROR" unit="mas" width="3">
+    <DESCRIPTION>
+     Minimal mean error on DEdeg (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="UCmag" datatype="float" name="UCmag" precision="2" ucd="PHOT_MAG_OPTICAL" unit="mag" width="5">
+    <DESCRIPTION>
+     Magnitude in UCAC system (579-642nm) (5)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="No" datatype="short" name="No" ucd="NUMBER" width="2">
+    <DESCRIPTION>
+     Number of UCAC observations for the star
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Nc" datatype="short" name="Nc" ucd="NUMBER" width="2">
+    <DESCRIPTION>
+     Number of catalog positions used for pmRA, pmDE
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="double" name="pmRA" precision="1" ucd="POS_EQ_PMRA" unit="mas.yr-1" width="8">
+    <DESCRIPTION>
+     Proper motion in RA(*cos(Dec)) (7)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="double" name="pmDE" precision="1" ucd="POS_EQ_PMDEC" unit="mas.yr-1" width="8">
+    <DESCRIPTION>
+     Proper motion in Dec
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_2Mkey" datatype="int" name="_2Mkey" ucd="ID_CROSSID" width="10">
+    <DESCRIPTION>
+     2MASS (II/246) Unique source identifier
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="3" ucd="PHOT_JHN_J" unit="mag" width="6">
+    <DESCRIPTION>
+     ? J magnitude (1.2um) from 2MASS
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Kmag" datatype="float" name="Kmag" precision="3" ucd="PHOT_JHN_K" unit="mag" width="6">
+    <DESCRIPTION>
+     ? K magnitude (2.2um) from 2MASS
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>44017857</TD>
+      <TD>299.2947486</TD>
+      <TD>31</TD>
+      <TD> 34.9737912</TD>
+      <TD>22</TD>
+      <TD>15.41</TD>
+      <TD>2</TD>
+      <TD>2</TD>
+      <TD>    -0.7</TD>
+      <TD>    -3.9</TD>
+      <TD>253257066</TD>
+      <TD>12.773</TD>
+      <TD>12.111</TD>
+     </TR>
+     <TR>
+      <TD>44017868</TD>
+      <TD>299.3025450</TD>
+      <TD>15</TD>
+      <TD> 34.9979373</TD>
+      <TD>15</TD>
+      <TD>12.46</TD>
+      <TD>7</TD>
+      <TD>4</TD>
+      <TD>     6.4</TD>
+      <TD>     5.7</TD>
+      <TD>253256899</TD>
+      <TD>11.700</TD>
+      <TD>11.428</TD>
+     </TR>
+     <TR>
+      <TD>44017878</TD>
+      <TD>299.3124398</TD>
+      <TD>21</TD>
+      <TD> 34.9690784</TD>
+      <TD>15</TD>
+      <TD>12.75</TD>
+      <TD>5</TD>
+      <TD>3</TD>
+      <TD>    -5.6</TD>
+      <TD>    -8.2</TD>
+      <TD>253257100</TD>
+      <TD>11.595</TD>
+      <TD>11.113</TD>
+     </TR>
+     <TR>
+      <TD>44017880</TD>
+      <TD>299.3151768</TD>
+      <TD>37</TD>
+      <TD> 34.9897575</TD>
+      <TD>32</TD>
+      <TD>14.96</TD>
+      <TD>3</TD>
+      <TD>2</TD>
+      <TD>     6.6</TD>
+      <TD>    11.9</TD>
+      <TD>253256954</TD>
+      <TD>12.930</TD>
+      <TD>12.134</TD>
+     </TR>
+     <TR>
+      <TD>44017898</TD>
+      <TD>299.3300030</TD>
+      <TD>61</TD>
+      <TD> 34.9689656</TD>
+      <TD>15</TD>
+      <TD>14.94</TD>
+      <TD>2</TD>
+      <TD>2</TD>
+      <TD>   -14.3</TD>
+      <TD>    16.4</TD>
+      <TD>253257102</TD>
+      <TD>13.422</TD>
+      <TD>13.039</TD>
+     </TR>
+     <TR>
+      <TD>44017936</TD>
+      <TD>299.3596800</TD>
+      <TD>15</TD>
+      <TD> 34.9773248</TD>
+      <TD>57</TD>
+      <TD>15.10</TD>
+      <TD>2</TD>
+      <TD>2</TD>
+      <TD>     1.7</TD>
+      <TD>    -2.4</TD>
+      <TD>253369049</TD>
+      <TD>13.079</TD>
+      <TD>12.611</TD>
+     </TR>
+     <TR>
+      <TD>44017940</TD>
+      <TD>299.3625483</TD>
+      <TD>26</TD>
+      <TD> 34.9600825</TD>
+      <TD>30</TD>
+      <TD>15.00</TD>
+      <TD>2</TD>
+      <TD>2</TD>
+      <TD>     2.7</TD>
+      <TD>    -5.7</TD>
+      <TD>253368896</TD>
+      <TD>13.314</TD>
+      <TD>12.809</TD>
+     </TR>
+     <TR>
+      <TD>44017947</TD>
+      <TD>299.3670868</TD>
+      <TD>26</TD>
+      <TD> 34.9622606</TD>
+      <TD>28</TD>
+      <TD>14.57</TD>
+      <TD>4</TD>
+      <TD>2</TD>
+      <TD>     5.7</TD>
+      <TD>    -9.1</TD>
+      <TD>253368916</TD>
+      <TD>13.348</TD>
+      <TD>12.940</TD>
+     </TR>
+     <TR>
+      <TD>44017950</TD>
+      <TD>299.3696574</TD>
+      <TD>15</TD>
+      <TD> 34.9960189</TD>
+      <TD>31</TD>
+      <TD>14.91</TD>
+      <TD>3</TD>
+      <TD>2</TD>
+      <TD>    -3.1</TD>
+      <TD>    -5.9</TD>
+      <TD>253369208</TD>
+      <TD>13.278</TD>
+      <TD>12.723</TD>
+     </TR>
+     <TR>
+      <TD>44017962</TD>
+      <TD>299.3804662</TD>
+      <TD>25</TD>
+      <TD> 34.9817420</TD>
+      <TD>89</TD>
+      <TD>14.85</TD>
+      <TD>2</TD>
+      <TD>2</TD>
+      <TD>     2.1</TD>
+      <TD>    -2.3</TD>
+      <TD>253369084</TD>
+      <TD>13.436</TD>
+      <TD>13.093</TD>
+     </TR>
+     <TR>
+      <TD>44017966</TD>
+      <TD>299.3832492</TD>
+      <TD>92</TD>
+      <TD> 34.9701050</TD>
+      <TD>15</TD>
+      <TD>16.00</TD>
+      <TD>2</TD>
+      <TD>2</TD>
+      <TD>     9.8</TD>
+      <TD>    -1.6</TD>
+      <TD>253368982</TD>
+      <TD>14.419</TD>
+      <TD>13.839</TD>
+     </TR>
+     <TR>
+      <TD>44017977</TD>
+      <TD>299.3927106</TD>
+      <TD>60</TD>
+      <TD> 34.9861567</TD>
+      <TD>36</TD>
+      <TD>15.70</TD>
+      <TD>3</TD>
+      <TD>2</TD>
+      <TD>     4.6</TD>
+      <TD>     1.4</TD>
+      <TD>253369117</TD>
+      <TD>11.699</TD>
+      <TD>10.484</TD>
+     </TR>
+     <TR>
+      <TD>44017990</TD>
+      <TD>299.4062412</TD>
+      <TD>20</TD>
+      <TD> 34.9937931</TD>
+      <TD>23</TD>
+      <TD>14.67</TD>
+      <TD>4</TD>
+      <TD>2</TD>
+      <TD>     4.9</TD>
+      <TD>    -3.7</TD>
+      <TD>253369182</TD>
+      <TD>13.448</TD>
+      <TD>13.070</TD>
+     </TR>
+     <TR>
+      <TD>44017997</TD>
+      <TD>299.4108715</TD>
+      <TD>26</TD>
+      <TD> 34.9924334</TD>
+      <TD>23</TD>
+      <TD>14.73</TD>
+      <TD>4</TD>
+      <TD>2</TD>
+      <TD>     2.7</TD>
+      <TD>     1.3</TD>
+      <TD>253369172</TD>
+      <TD>13.338</TD>
+      <TD>12.910</TD>
+     </TR>
+     <TR>
+      <TD>44018004</TD>
+      <TD>299.4188489</TD>
+      <TD>15</TD>
+      <TD> 34.9984234</TD>
+      <TD>24</TD>
+      <TD>15.24</TD>
+      <TD>3</TD>
+      <TD>2</TD>
+      <TD>    -1.1</TD>
+      <TD>    -4.4</TD>
+      <TD>253369235</TD>
+      <TD>13.947</TD>
+      <TD>13.468</TD>
+     </TR>
+     <TR>
+      <TD>44018011</TD>
+      <TD>299.4228639</TD>
+      <TD>28</TD>
+      <TD> 34.9509156</TD>
+      <TD>76</TD>
+      <TD>15.99</TD>
+      <TD>2</TD>
+      <TD>2</TD>
+      <TD>     2.1</TD>
+      <TD>   -11.7</TD>
+      <TD>253368820</TD>
+      <TD>13.934</TD>
+      <TD>13.337</TD>
+     </TR>
+     <TR>
+      <TD>44018015</TD>
+      <TD>299.4268086</TD>
+      <TD>15</TD>
+      <TD> 34.9651659</TD>
+      <TD>15</TD>
+      <TD>12.03</TD>
+      <TD>5</TD>
+      <TD>3</TD>
+      <TD>    -1.1</TD>
+      <TD>    -7.9</TD>
+      <TD>253368952</TD>
+      <TD>11.118</TD>
+      <TD>10.778</TD>
+     </TR>
+     <TR>
+      <TD>44018077</TD>
+      <TD>299.4762703</TD>
+      <TD>14</TD>
+      <TD> 34.9705187</TD>
+      <TD>14</TD>
+      <TD>11.15</TD>
+      <TD>5</TD>
+      <TD>5</TD>
+      <TD>     6.6</TD>
+      <TD>     3.7</TD>
+      <TD>253368985</TD>
+      <TD>10.453</TD>
+      <TD>10.257</TD>
+     </TR>
+     <TR>
+      <TD>44018079</TD>
+      <TD>299.4774489</TD>
+      <TD>30</TD>
+      <TD> 34.9531967</TD>
+      <TD>47</TD>
+      <TD>15.56</TD>
+      <TD>3</TD>
+      <TD>2</TD>
+      <TD>   -28.8</TD>
+      <TD>    40.3</TD>
+      <TD>253368834</TD>
+      <TD> 9.192</TD>
+      <TD> 7.367</TD>
+     </TR>
+     <TR>
+      <TD>44018081</TD>
+      <TD>299.4800227</TD>
+      <TD>15</TD>
+      <TD> 34.9654881</TD>
+      <TD>25</TD>
+      <TD>14.38</TD>
+      <TD>5</TD>
+      <TD>2</TD>
+      <TD>    -5.0</TD>
+      <TD>    13.7</TD>
+      <TD>253368956</TD>
+      <TD>13.120</TD>
+      <TD>12.696</TD>
+     </TR>
+     <TR>
+      <TD>44018085</TD>
+      <TD>299.4817800</TD>
+      <TD>66</TD>
+      <TD> 34.9986425</TD>
+      <TD>18</TD>
+      <TD>15.98</TD>
+      <TD>2</TD>
+      <TD>2</TD>
+      <TD>    11.1</TD>
+      <TD>   -12.2</TD>
+      <TD>253369238</TD>
+      <TD>12.425</TD>
+      <TD>11.355</TD>
+     </TR>
+     <TR>
+      <TD>44018109</TD>
+      <TD>299.5073474</TD>
+      <TD>18</TD>
+      <TD> 34.9984573</TD>
+      <TD>28</TD>
+      <TD>14.21</TD>
+      <TD>7</TD>
+      <TD>2</TD>
+      <TD>    -0.7</TD>
+      <TD>    -0.1</TD>
+      <TD>253388116</TD>
+      <TD>12.998</TD>
+      <TD>12.688</TD>
+     </TR>
+     <TR>
+      <TD>44018110</TD>
+      <TD>299.5075656</TD>
+      <TD>15</TD>
+      <TD> 34.9661984</TD>
+      <TD>20</TD>
+      <TD>13.62</TD>
+      <TD>5</TD>
+      <TD>2</TD>
+      <TD>    -3.4</TD>
+      <TD>    -7.7</TD>
+      <TD>253388369</TD>
+      <TD>12.697</TD>
+      <TD>12.408</TD>
+     </TR>
+     <TR>
+      <TD>44018115</TD>
+      <TD>299.5101259</TD>
+      <TD>27</TD>
+      <TD> 34.9603245</TD>
+      <TD>15</TD>
+      <TD>14.15</TD>
+      <TD>5</TD>
+      <TD>2</TD>
+      <TD>     7.8</TD>
+      <TD>     8.9</TD>
+      <TD>253388416</TD>
+      <TD>12.999</TD>
+      <TD>12.598</TD>
+     </TR>
+     <TR>
+      <TD>44018143</TD>
+      <TD>299.5257753</TD>
+      <TD>21</TD>
+      <TD> 34.9785948</TD>
+      <TD>29</TD>
+      <TD>15.74</TD>
+      <TD>2</TD>
+      <TD>2</TD>
+      <TD>     0.2</TD>
+      <TD>    -5.0</TD>
+      <TD>253388285</TD>
+      <TD>14.035</TD>
+      <TD>13.419</TD>
+     </TR>
+     <TR>
+      <TD>44018159</TD>
+      <TD>299.5426974</TD>
+      <TD>76</TD>
+      <TD> 34.9906437</TD>
+      <TD>36</TD>
+      <TD>16.42</TD>
+      <TD>3</TD>
+      <TD>2</TD>
+      <TD>    14.7</TD>
+      <TD>   -11.0</TD>
+      <TD>253388181</TD>
+      <TD>14.319</TD>
+      <TD>13.713</TD>
+     </TR>
+     <TR>
+      <TD>44018162</TD>
+      <TD>299.5448130</TD>
+      <TD>47</TD>
+      <TD> 34.9857170</TD>
+      <TD>19</TD>
+      <TD>16.14</TD>
+      <TD>2</TD>
+      <TD>2</TD>
+      <TD>     8.4</TD>
+      <TD>    -8.2</TD>
+      <TD>253388220</TD>
+      <TD>14.186</TD>
+      <TD>13.673</TD>
+     </TR>
+     <TR>
+      <TD>44018202</TD>
+      <TD>299.5715427</TD>
+      <TD>15</TD>
+      <TD> 34.9829587</TD>
+      <TD>47</TD>
+      <TD>14.88</TD>
+      <TD>3</TD>
+      <TD>2</TD>
+      <TD>     1.7</TD>
+      <TD>    -0.3</TD>
+      <TD>253388250</TD>
+      <TD>12.115</TD>
+      <TD>11.398</TD>
+     </TR>
+     <TR>
+      <TD>44018209</TD>
+      <TD>299.5749042</TD>
+      <TD>15</TD>
+      <TD> 34.9893912</TD>
+      <TD>20</TD>
+      <TD>14.43</TD>
+      <TD>6</TD>
+      <TD>2</TD>
+      <TD>    -1.5</TD>
+      <TD>   -11.0</TD>
+      <TD>253388186</TD>
+      <TD>13.186</TD>
+      <TD>12.845</TD>
+     </TR>
+     <TR>
+      <TD>44018226</TD>
+      <TD>299.5910483</TD>
+      <TD>19</TD>
+      <TD> 34.9724509</TD>
+      <TD>50</TD>
+      <TD>14.88</TD>
+      <TD>2</TD>
+      <TD>2</TD>
+      <TD>     0.7</TD>
+      <TD>   -12.4</TD>
+      <TD>253388335</TD>
+      <TD>13.356</TD>
+      <TD>12.819</TD>
+     </TR>
+     <TR>
+      <TD>44018234</TD>
+      <TD>299.5997662</TD>
+      <TD>36</TD>
+      <TD> 34.9618009</TD>
+      <TD>15</TD>
+      <TD>15.71</TD>
+      <TD>2</TD>
+      <TD>2</TD>
+      <TD>     0.7</TD>
+      <TD>    -6.1</TD>
+      <TD>253388403</TD>
+      <TD>10.436</TD>
+      <TD> 8.753</TD>
+     </TR>
+     <TR>
+      <TD>44018240</TD>
+      <TD>299.6063345</TD>
+      <TD>18</TD>
+      <TD> 34.9987253</TD>
+      <TD>26</TD>
+      <TD>15.99</TD>
+      <TD>3</TD>
+      <TD>2</TD>
+      <TD>     1.2</TD>
+      <TD>    -5.0</TD>
+      <TD>253388111</TD>
+      <TD>11.915</TD>
+      <TD>10.746</TD>
+     </TR>
+     <TR>
+      <TD>44018250</TD>
+      <TD>299.6161630</TD>
+      <TD>33</TD>
+      <TD> 34.9871842</TD>
+      <TD>28</TD>
+      <TD>15.98</TD>
+      <TD>2</TD>
+      <TD>2</TD>
+      <TD>     1.6</TD>
+      <TD>    -6.9</TD>
+      <TD>253388208</TD>
+      <TD>13.584</TD>
+      <TD>13.098</TD>
+     </TR>
+     <TR>
+      <TD>44018253</TD>
+      <TD>299.6194203</TD>
+      <TD>35</TD>
+      <TD> 34.9748142</TD>
+      <TD>15</TD>
+      <TD>15.86</TD>
+      <TD>2</TD>
+      <TD>2</TD>
+      <TD>    -0.7</TD>
+      <TD>    -9.4</TD>
+      <TD>253388316</TD>
+      <TD>13.669</TD>
+      <TD>13.103</TD>
+     </TR>
+     <TR>
+      <TD>44018258</TD>
+      <TD>299.6232333</TD>
+      <TD>18</TD>
+      <TD> 34.9849587</TD>
+      <TD>28</TD>
+      <TD>15.38</TD>
+      <TD>4</TD>
+      <TD>2</TD>
+      <TD>    -7.3</TD>
+      <TD>   -13.4</TD>
+      <TD>253388228</TD>
+      <TD>13.692</TD>
+      <TD>13.150</TD>
+     </TR>
+     <TR>
+      <TD>44018294</TD>
+      <TD>299.6537062</TD>
+      <TD>13</TD>
+      <TD> 34.9553348</TD>
+      <TD>13</TD>
+      <TD>10.89</TD>
+      <TD>7</TD>
+      <TD>6</TD>
+      <TD>    -0.5</TD>
+      <TD>    -0.2</TD>
+      <TD>253501440</TD>
+      <TD>10.197</TD>
+      <TD>10.007</TD>
+     </TR>
+     <TR>
+      <TD>44018297</TD>
+      <TD>299.6570203</TD>
+      <TD>21</TD>
+      <TD> 34.9652303</TD>
+      <TD>15</TD>
+      <TD>14.02</TD>
+      <TD>7</TD>
+      <TD>2</TD>
+      <TD>    -1.5</TD>
+      <TD>    -4.1</TD>
+      <TD>253501522</TD>
+      <TD>12.389</TD>
+      <TD>11.921</TD>
+     </TR>
+     <TR>
+      <TD>44018309</TD>
+      <TD>299.6658165</TD>
+      <TD>14</TD>
+      <TD> 34.9933120</TD>
+      <TD>14</TD>
+      <TD>11.38</TD>
+      <TD>11</TD>
+      <TD>5</TD>
+      <TD>     2.6</TD>
+      <TD>    14.0</TD>
+      <TD>253501753</TD>
+      <TD>10.929</TD>
+      <TD>10.845</TD>
+     </TR>
+     <TR>
+      <TD>44018380</TD>
+      <TD>299.7437598</TD>
+      <TD>42</TD>
+      <TD> 34.9797198</TD>
+      <TD>21</TD>
+      <TD>14.70</TD>
+      <TD>4</TD>
+      <TD>2</TD>
+      <TD>     1.5</TD>
+      <TD>    -0.8</TD>
+      <TD>253501639</TD>
+      <TD>13.210</TD>
+      <TD>12.803</TD>
+     </TR>
+     <TR>
+      <TD>44018388</TD>
+      <TD>299.7503465</TD>
+      <TD>29</TD>
+      <TD> 34.9821825</TD>
+      <TD>15</TD>
+      <TD>15.29</TD>
+      <TD>2</TD>
+      <TD>2</TD>
+      <TD>   -21.1</TD>
+      <TD>   -28.4</TD>
+      <TD>253501659</TD>
+      <TD>13.839</TD>
+      <TD>13.386</TD>
+     </TR>
+     <TR>
+      <TD>44018408</TD>
+      <TD>299.7692215</TD>
+      <TD>15</TD>
+      <TD> 34.9768089</TD>
+      <TD>15</TD>
+      <TD>16.11</TD>
+      <TD>2</TD>
+      <TD>2</TD>
+      <TD>    -2.2</TD>
+      <TD>    -4.8</TD>
+      <TD>1131259583</TD>
+      <TD>14.002</TD>
+      <TD>13.465</TD>
+     </TR>
+     <TR>
+      <TD>44018432</TD>
+      <TD>299.7889736</TD>
+      <TD>15</TD>
+      <TD> 34.9833295</TD>
+      <TD>15</TD>
+      <TD>13.85</TD>
+      <TD>4</TD>
+      <TD>2</TD>
+      <TD>    14.5</TD>
+      <TD>   -16.6</TD>
+      <TD>1131259636</TD>
+      <TD>12.593</TD>
+      <TD>12.145</TD>
+     </TR>
+     <TR>
+      <TD>44018456</TD>
+      <TD>299.8157780</TD>
+      <TD>15</TD>
+      <TD> 34.9945287</TD>
+      <TD>17</TD>
+      <TD>13.36</TD>
+      <TD>6</TD>
+      <TD>2</TD>
+      <TD>     8.8</TD>
+      <TD>    -5.9</TD>
+      <TD>1131259734</TD>
+      <TD>12.182</TD>
+      <TD>11.658</TD>
+     </TR>
+     <TR>
+      <TD>44018471</TD>
+      <TD>299.8288383</TD>
+      <TD>17</TD>
+      <TD> 34.9984134</TD>
+      <TD>19</TD>
+      <TD>14.31</TD>
+      <TD>5</TD>
+      <TD>2</TD>
+      <TD>     0.0</TD>
+      <TD>   -12.1</TD>
+      <TD>1131259770</TD>
+      <TD>12.911</TD>
+      <TD>12.523</TD>
+     </TR>
+     <TR>
+      <TD>44018484</TD>
+      <TD>299.8378227</TD>
+      <TD>68</TD>
+      <TD> 34.9660870</TD>
+      <TD>24</TD>
+      <TD>15.72</TD>
+      <TD>2</TD>
+      <TD>2</TD>
+      <TD>    -0.2</TD>
+      <TD>   -11.4</TD>
+      <TD>1131259500</TD>
+      <TD>13.885</TD>
+      <TD>13.343</TD>
+     </TR>
+     <TR>
+      <TD>44018491</TD>
+      <TD>299.8464309</TD>
+      <TD>52</TD>
+      <TD> 34.9640406</TD>
+      <TD>32</TD>
+      <TD>14.72</TD>
+      <TD>2</TD>
+      <TD>2</TD>
+      <TD>     4.2</TD>
+      <TD>   -10.0</TD>
+      <TD>1131259487</TD>
+      <TD>13.096</TD>
+      <TD>12.594</TD>
+     </TR>
+     <TR>
+      <TD>44018504</TD>
+      <TD>299.8560418</TD>
+      <TD>66</TD>
+      <TD> 34.9896253</TD>
+      <TD>41</TD>
+      <TD>15.77</TD>
+      <TD>3</TD>
+      <TD>2</TD>
+      <TD>     8.6</TD>
+      <TD>     4.2</TD>
+      <TD>1131259693</TD>
+      <TD>13.450</TD>
+      <TD>12.595</TD>
+     </TR>
+     <TR>
+      <TD>44018539</TD>
+      <TD>299.8806848</TD>
+      <TD>26</TD>
+      <TD> 34.9525023</TD>
+      <TD>15</TD>
+      <TD>15.42</TD>
+      <TD>2</TD>
+      <TD>2</TD>
+      <TD>    -4.9</TD>
+      <TD>   -21.2</TD>
+      <TD>1131259387</TD>
+      <TD>13.420</TD>
+      <TD>12.839</TD>
+     </TR>
+     <TR>
+      <TD>44018546</TD>
+      <TD>299.8844577</TD>
+      <TD>73</TD>
+      <TD> 34.9784620</TD>
+      <TD>37</TD>
+      <TD>15.42</TD>
+      <TD>2</TD>
+      <TD>2</TD>
+      <TD>    -2.2</TD>
+      <TD>    -5.2</TD>
+      <TD>1131259596</TD>
+      <TD>11.010</TD>
+      <TD> 9.623</TD>
+     </TR>
+     <TR>
+      <TD>44018561</TD>
+      <TD>299.8917495</TD>
+      <TD>28</TD>
+      <TD> 34.9727753</TD>
+      <TD>60</TD>
+      <TD>15.74</TD>
+      <TD>2</TD>
+      <TD>2</TD>
+      <TD>    -0.7</TD>
+      <TD>    -8.0</TD>
+      <TD>1131259558</TD>
+      <TD>11.295</TD>
+      <TD> 9.916</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

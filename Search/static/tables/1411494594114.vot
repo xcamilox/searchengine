@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_AJ_147_137_table1" name="J/AJ/147/137/table1">
+   <DESCRIPTION>
+    Program stars
+   </DESCRIPTION>
+   <FIELD ID="Name" arraysize="18" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Name of primary (1) \linkRole{all results for the system }
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Nc" datatype="unsignedByte" name="Nc" ucd="NUMBER" width="1">
+    <DESCRIPTION>
+     Number of components for this system (in table2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HR" datatype="short" name="HR" ucd="ID_NUMBER" width="4">
+    <DESCRIPTION>
+     ? HR number of primary (1) [NULL integer written as an empty
+     string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="HD" datatype="int" name="HD" ucd="ID_NUMBER" width="6">
+    <DESCRIPTION>
+     ? HD number of primary (1) [NULL integer written as an empty
+     string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_NUMBER" width="6">
+    <DESCRIPTION>
+     ? Hipparcos number of primary (1) [NULL integer written as an
+     empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="plx" datatype="float" name="plx" precision="2" ucd="POS_PARLX_TRIG" unit="mas" width="5">
+    <DESCRIPTION>
+     ? Parallax of primary (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_MAG_V" unit="mag" width="5">
+    <DESCRIPTION>
+     ? The V band magnitude of primary (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="B-V" datatype="float" name="B-V" precision="2" ucd="PHOT_CI_B-V" unit="mag" width="5">
+    <DESCRIPTION>
+     ? The (B-V) color index of primary (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Dist" datatype="short" name="Dist" ucd="POS_GAL_HC" unit="pc" width="4">
+    <DESCRIPTION>
+     [19/2174]? Distance of primary (1) [NULL integer written as an
+     empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="SimbadName" arraysize="18" datatype="char" name="SimbadName" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Designation understandable by the {\bf\fg{FireBrick}Simbad} data-
+     base
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right Ascension (J2000) from SIMBAD (not part of the original
+     data)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (J2000) from SIMBAD (not part of the original data)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>HD 190113</TD>
+      <TD>1</TD>
+      <TD>-32768</TD>
+      <TD>190113</TD>
+      <TD>98638</TD>
+      <TD> 2.11</TD>
+      <TD> 7.86</TD>
+      <TD> 1.42</TD>
+      <TD>474</TD>
+      <TD>HD 190113</TD>
+      <TD>300.51189</TD>
+      <TD> 35.64111</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="III_198_main" name="III/198/main">
+   <DESCRIPTION>
+    Basic data, velocities and space motions (tables 1a of both
+    papers, table 5 of paper I, table 3 of paper II, and table 1d from
+    paper I for stars 3804-3810); see also
+    \vFile{III/198/errata.htx}{errata}
+   </DESCRIPTION>
+   <FIELD ID="Sam" arraysize="1" datatype="char" name="Sam" ucd="ID_SET">
+    <DESCRIPTION>
+     [ns] n=North (paper I), s=South (paper II)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="CNS3" datatype="short" name="CNS3" ucd="ID_MAIN" width="4">
+    <DESCRIPTION>
+     [1/3810]+= Star number (row number in CNS3) \linkRole{details
+     about this star from all tables}
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="m_CNS3" arraysize="1" datatype="char" name="m_CNS3" ucd="CODE_MULT_INDEX">
+    <DESCRIPTION>
+     Multiplicity index on star
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="float" name="pmRA" precision="3" ucd="POS_EQ_PMRA" unit="arcs.yr-1" width="6">
+    <DESCRIPTION>
+     ? Proper motion in right ascension, from CNS3
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="float" name="pmDE" precision="3" ucd="POS_EQ_PMDEC" unit="arcs.yr-1" width="6">
+    <DESCRIPTION>
+     ? Proper motion in declination, from CNS3
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="RV" datatype="float" name="RV" precision="1" ucd="VELOC_HC" unit="km.s-1" width="7">
+    <DESCRIPTION>
+     ? Radial velocity
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="P3" arraysize="1" datatype="char" name="P3" ucd="DATA_LINK">
+    <DESCRIPTION>
+     {\bf3} indicates that the star is also studied in Paper III
+     (J/AJ/123/3356, 2002)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Name" arraysize="13" datatype="char" name="Name" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Star name (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_Name" arraysize="2" datatype="char" name="n_Name" ucd="NOTE">
+    <DESCRIPTION>
+     [abc eghijk*] Individual Note (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Bin" arraysize="1" datatype="char" name="Bin" ucd="REMARKS">
+    <DESCRIPTION>
+     [ps] Primary or secondary binary comp. (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="10" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension, J2000
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="9" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination, J2000
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Src" datatype="unsignedByte" name="Src" ucd="REFER_CODE" width="1">
+    <DESCRIPTION>
+     [0/4] Source of positional data (G1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="VMag" datatype="float" name="VMag" precision="2" ucd="PHOT_ABS-MAG_BAND" unit="mag" width="5">
+    <DESCRIPTION>
+     Absolute V magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_VMag" arraysize="1" datatype="char" name="n_VMag" ucd="NOTE">
+    <DESCRIPTION>
+     [ab] Note about ptg/ptm origin of VMag (5)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="r" datatype="float" name="r" precision="1" ucd="POS_GAL_HC" unit="pc" width="5">
+    <DESCRIPTION>
+     Distance (6)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_r" datatype="short" name="e_r" ucd="ERROR" unit="%" width="2">
+    <DESCRIPTION>
+     Distance uncertainty (6)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dist" arraysize="1" datatype="char" name="Dist" ucd="REDUCT_METHOD">
+    <DESCRIPTION>
+     [CSp ] Origin of r &amp; M_V_ (9)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="wPi" datatype="short" name="wPi" ucd="WEIGHT" unit="%" width="3">
+    <DESCRIPTION>
+     ? Weight for trigonometric parallax [NULL integer written as an
+     empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="wSp" datatype="short" name="wSp" ucd="WEIGHT" unit="%" width="3">
+    <DESCRIPTION>
+     ? Weight for spectroscopic parallax [NULL integer written as an
+     empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="f_Sp" arraysize="1" datatype="char" name="f_Sp" ucd="CODE_MISC">
+    <DESCRIPTION>
+     Limit sign (&lt;&gt;) on Sp, or sd luminosity class
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sp" arraysize="5" datatype="char" name="Sp" ucd="SPECT_TYPE_GENERAL">
+    <DESCRIPTION>
+     Spectral type (may include sd luminosity class)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_Sp" arraysize="1" datatype="char" name="n_Sp" ucd="NOTE">
+    <DESCRIPTION>
+     [cdfk] Note about the spectrum (7)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Gl" arraysize="2" datatype="char" name="Gl" ucd="DATA_LINK">
+    <DESCRIPTION>
+     show the details from the Catalog of Nearby Stars (V/70)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>n</TD>
+      <TD>2258</TD>
+      <TD/>
+      <TD>-0.275</TD>
+      <TD>-0.265</TD>
+      <TD>   23.5</TD>
+      <TD/>
+      <TD>G 064-063</TD>
+      <TD/>
+      <TD/>
+      <TD>14 17 59.2</TD>
+      <TD>-00 31 26</TD>
+      <TD>3</TD>
+      <TD>10.69</TD>
+      <TD/>
+      <TD> 26.0</TD>
+      <TD>30</TD>
+      <TD/>
+      <TD>0</TD>
+      <TD>100</TD>
+      <TD/>
+      <TD>M2.5</TD>
+      <TD/>
+      <TD>Gl</TD>
+     </TR>
+     <TR>
+      <TD>n</TD>
+      <TD>2271</TD>
+      <TD/>
+      <TD> 0.176</TD>
+      <TD>-0.600</TD>
+      <TD>  -11.3</TD>
+      <TD/>
+      <TD>LHS 2899</TD>
+      <TD/>
+      <TD/>
+      <TD>14 21 14.9</TD>
+      <TD>-01 07 12</TD>
+      <TD>3</TD>
+      <TD>11.83</TD>
+      <TD/>
+      <TD> 18.4</TD>
+      <TD>30</TD>
+      <TD/>
+      <TD>0</TD>
+      <TD>100</TD>
+      <TD/>
+      <TD>M3.5</TD>
+      <TD/>
+      <TD>Gl</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

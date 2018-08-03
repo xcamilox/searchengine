@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="III_182_catalog" name="III/182/catalog">
+   <DESCRIPTION>
+    The catalogue
+   </DESCRIPTION>
+   <FIELD ID="HD" datatype="int" name="HD" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     [272151/359083]+= HD number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="m_HD" arraysize="1" datatype="char" name="m_HD" ucd="CODE_MULT_INDEX">
+    <DESCRIPTION>
+     Component identification: A, B...
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_HD" arraysize="1" datatype="char" name="n_HD" ucd="NOTE">
+    <DESCRIPTION>
+     [R] 'R' if individual remark for this star is given in the
+     'remarks' file ({\bf E} indicates an erratum found essentially at
+     CDS and Lowell Obs., summarized \aW{errata}{http://cdsarc.u-stras
+     bg.fr/ftp/cats/III/182/errors.htx}{here})
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sp" arraysize="2" datatype="char" name="Sp" ucd="SPECT_TYPE_GENERAL">
+    <DESCRIPTION>
+     Spectral class
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="mag" datatype="float" name="mag" precision="1" ucd="PHOT_PHG_MAG" unit="mag" width="4">
+    <DESCRIPTION>
+     Magnitude - photographic or J/V (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="P" arraysize="1" datatype="char" name="P" ucd="REFER_CODE">
+    <DESCRIPTION>
+     [PCAGMV] Position source flag (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="11" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension J2000.0
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="11" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination J2000.0
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="float" name="pmRA" precision="3" ucd="POS_EQ_PMRA" unit="arcs.yr-1" width="7">
+    <DESCRIPTION>
+     ?Annual proper motion in RA (if pmFlag=T)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="float" name="pmDE" precision="3" ucd="POS_EQ_PMDEC" unit="arcs.yr-1" width="7">
+    <DESCRIPTION>
+     ?Annual proper motion in DE (if pmFlag=T)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Epoch" datatype="double" name="Epoch" precision="3" ucd="TIME_EPOCH" unit="yr" width="8">
+    <DESCRIPTION>
+     Observation epoch in Julian years (only when proper motion is not
+     known)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Tycho" arraysize="5" datatype="char" name="Tycho" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Cross-identification with Tycho-2 (Cat. IV/25)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>331551</TD>
+      <TD/>
+      <TD/>
+      <TD>F2</TD>
+      <TD>10.5</TD>
+      <TD>C</TD>
+      <TD>19 58 04.68</TD>
+      <TD>+34 23 43.3</TD>
+      <TD>  0.018</TD>
+      <TD> -0.008</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>Tycho</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

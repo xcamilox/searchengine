@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_A_A_530_A138_catalog" name="J/A+A/530/A138/catalog">
+   <DESCRIPTION>
+    *Stellar parameters
+   </DESCRIPTION>
+   <FIELD ID="Name" arraysize="12" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Other name (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="m_Name" arraysize="4" datatype="char" name="m_Name" ucd="CODE_MULT_INDEX">
+    <DESCRIPTION>
+     Components included in photometry
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="H09" arraysize="3" datatype="char" name="H09" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Details of this star in the 2009 paper (Holmberg et al., Cat.
+     V/130)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="logg" datatype="float" name="logg" precision="2" ucd="PHYS_GRAVITY_SURFACE" unit="[cm/s2]" width="5">
+    <DESCRIPTION>
+     ? Surface gravity (5)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Teff" datatype="float" name="Teff" ucd="PHYS_TEMP_EFFEC" unit="K" width="5">
+    <DESCRIPTION>
+     ? Effective temperature (6)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Fbol" datatype="float" name="Fbol" precision="E4" ucd="PHOT_BOL_FLUX" unit="mW.m-2" width="11">
+    <DESCRIPTION>
+     ? Bolometric flux (8)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="__Fe_H_" datatype="float" name="__Fe_H_" precision="2" ucd="PHYS_ABUND_FE/H" unit="[Sun]" width="5">
+    <DESCRIPTION>
+     ? Metallicity
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="__a_Fe_" datatype="float" name="__a_Fe_" precision="2" ucd="PHYS_ABUND_MISC" unit="[Sun]" width="5">
+    <DESCRIPTION>
+     ? [{alpha}/Fe] proxy
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="10" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="9" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RV" datatype="float" name="RV" precision="1" ucd="VELOC_HC" unit="km.s-1" width="6">
+    <DESCRIPTION>
+     ? GCSI Mean radial velocity
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="ageMLP" datatype="float" name="ageMLP" precision="2" ucd="TIME_AGE" unit="Gyr" width="5">
+    <DESCRIPTION>
+     ? Padova Max likelihood age
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="M.MLP" datatype="float" name="M.MLP" precision="2" ucd="PHYS_MASS_MISC" unit="Msun" width="5">
+    <DESCRIPTION>
+     ? Padova Max likelihood mass
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="SimbadName" arraysize="22" datatype="char" name="SimbadName" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Designation understandable by the {\bf\fg{FireBrick}Simbad} data-
+     base
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>HD 189148</TD>
+      <TD/>
+      <TD>H09</TD>
+      <TD> 3.77</TD>
+      <TD>6444</TD>
+      <TD>  3.402e-08</TD>
+      <TD>-0.05</TD>
+      <TD>-0.03</TD>
+      <TD>19 57 13.3</TD>
+      <TD>+35 01 53</TD>
+      <TD>   2.1</TD>
+      <TD> 1.90</TD>
+      <TD> 1.61</TD>
+      <TD>HD 189148</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

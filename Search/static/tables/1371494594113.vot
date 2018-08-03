@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_AJ_127_3587_icrf" name="J/AJ/127/3587/icrf">
+   <DESCRIPTION>
+    All ICRF positions (tables 1, 2 and 3 of the paper)
+   </DESCRIPTION>
+   <FIELD ID="ICRF" arraysize="16" datatype="char" name="ICRF" ucd="ID_MAIN">
+    <DESCRIPTION>
+     ICRF designation (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_ICRF" arraysize="1" datatype="char" name="n_ICRF" ucd="NOTE">
+    <DESCRIPTION>
+     {\bf n} for new sources (table1), {\bf c} for candidate sources
+     (table2), and {\bf r} for revised positions (table3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="15" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Hour of Right Ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="15" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Degree of Declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_RAs" datatype="double" name="e_RAs" precision="6" ucd="ERROR" unit="s" width="9">
+    <DESCRIPTION>
+     Error in RAs
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_DEs" datatype="double" name="e_DEs" precision="5" ucd="ERROR" unit="arcs" width="8">
+    <DESCRIPTION>
+     Error in DEs
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="MEpoch" datatype="float" name="MEpoch" precision="1" ucd="TIME_EPOCH" unit="d" width="7">
+    <DESCRIPTION>
+     JD of mean epoch of observation (3)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>J195734.4+342754</TD>
+      <TD>n</TD>
+      <TD>19 57 34.446464</TD>
+      <TD>+34 27 54.55785</TD>
+      <TD> 0.009708</TD>
+      <TD> 0.09571</TD>
+      <TD>49690.0</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

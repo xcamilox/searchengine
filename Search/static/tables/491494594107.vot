@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="III_205_catalog" name="III/205/catalog">
+   <DESCRIPTION>
+    The Catalogue
+   </DESCRIPTION>
+   <FIELD ID="ID" arraysize="5" datatype="char" name="ID" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Designation of the star (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="11" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension J2000
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="11" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination J2000
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_Vmag" arraysize="1" datatype="char" name="n_Vmag" ucd="NOTE">
+    <DESCRIPTION>
+     [Bvprme] Magnitude system (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_MAG_V" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Magnitude in V, or see n_Vmag (2) (3)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="u_Vmag" arraysize="1" datatype="char" name="u_Vmag" ucd="CODE_ERROR">
+    <DESCRIPTION>
+     [V:] Magnitude variability or uncertainty (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="9" datatype="char" name="SpType" ucd="SPECT_TYPE_GENERAL">
+    <DESCRIPTION>
+     Spectral type given in the literature
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HBH" arraysize="9" datatype="char" name="HBH" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Hamburg-Bergedorg star having H-alpha in em. (5)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SC" arraysize="2" datatype="char" name="SC" ucd="SPECT_TYPE_GENERAL">
+    <DESCRIPTION>
+     Classification of Spectrum (6)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="FC" datatype="unsignedByte" name="FC" ucd="ID_CHART" width="1">
+    <DESCRIPTION>
+     [1,2]? Existence of finding charts (7) [NULL integer written as
+     an empty string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="BD" arraysize="8" datatype="char" name="BD" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Bonner Durchmusterung designation
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="MWC" arraysize="6" datatype="char" name="MWC" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Designation in Mount Wilson Catalog or Additional Stars (AS)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="u_MWC" arraysize="1" datatype="char" name="u_MWC" ucd="CODE_ERROR">
+    <DESCRIPTION>
+     Uncertainty flag on MWC identification
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="LS" arraysize="11" datatype="char" name="LS" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Designation in "Luminous Stars in Northern Milky Way" (cat.
+     &lt;III/76&gt;)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Rem" arraysize="1" datatype="char" name="Rem" ucd="REMARKS">
+    <DESCRIPTION>
+     [*] when a note exists in file notes.dat
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>41-22</TD>
+      <TD>19 58 11.65</TD>
+      <TD>+36 09 50.6</TD>
+      <TD>p</TD>
+      <TD> 9.90</TD>
+      <TD/>
+      <TD>B3e</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD>35 3891</TD>
+      <TD>997</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>41-29</TD>
+      <TD>19 59 11.50</TD>
+      <TD>+36 06 55.3</TD>
+      <TD>p</TD>
+      <TD> 9.30</TD>
+      <TD/>
+      <TD>B0.5III</TD>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD>35 3899</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>41-45</TD>
+      <TD>20 00 53.00</TD>
+      <TD>+34 28 24.0</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>3203-21</TD>
+      <TD>2-</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

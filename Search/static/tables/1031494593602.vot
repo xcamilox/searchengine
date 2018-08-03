@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_AJ_142_188_table5" name="J/AJ/142/188/table5">
+   <DESCRIPTION>
+    Candidate metal-poor stars
+   </DESCRIPTION>
+   <FIELD ID="HE" arraysize="9" datatype="char" name="HE" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Star name in Hamburg/ESO survey (HHMM+DDMM)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="A" arraysize="1" datatype="char" name="A" ucd="DATA_LINK">
+    <DESCRIPTION>
+     link to atmospheric parameters and carbonicity if available
+     (table 4)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HESID" arraysize="20" datatype="char" name="HESID" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Unique HES identifier (HEHHMMSSmDDMMSSaNNNN)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="10" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Hour of Right Ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="9" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Degree of Declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="obj" arraysize="6" datatype="char" name="obj" ucd="CLASS_MISC">
+    <DESCRIPTION>
+     Object type (stars or bright) (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Bmag" datatype="float" name="Bmag" precision="1" ucd="PHOT_PHG_B" unit="mag" width="4">
+    <DESCRIPTION>
+     [10/18.3] HES photographic B magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="__B-V_0" datatype="float" name="__B-V_0" precision="2" ucd="PHOT_CI_B-V" unit="mag" width="5">
+    <DESCRIPTION>
+     [0.32/1.48] Intrinsic (B-V)_0_ color index
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="__J-K_0" datatype="float" name="__J-K_0" precision="2" ucd="PHOT_JHN_J-K" unit="mag" width="5">
+    <DESCRIPTION>
+     [0.2/0.7] Intrinsic (J-K)_0_ color index (G1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="KP" datatype="float" name="KP" precision="1" ucd="SPECT_INDEX_MISC" unit="0.1nm" width="4">
+    <DESCRIPTION>
+     [0/9] KP index, measured in HES spectrum (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GPE" datatype="float" name="GPE" precision="1" ucd="SPECT_INDEX_MISC" unit="0.1nm" width="4">
+    <DESCRIPTION>
+     [31/72] GPE index, measured in HES spectrum (G2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="EGP" datatype="float" name="EGP" precision="2" ucd="SPECT_INDEX_MISC" unit="mag" width="5">
+    <DESCRIPTION>
+     EGP index, measured in HES spectrum (G3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Cand" arraysize="4" datatype="char" name="Cand" ucd="CLASS_MISC">
+    <DESCRIPTION>
+     Candidate class (G4)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_2M" arraysize="2" datatype="char" name="_2M" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the 2MASS data within 3" (Cutri et al. 2003, Cat. II/246)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>1417-0019</TD>
+      <TD/>
+      <TD>HE142026m003307d1689</TD>
+      <TD>14 20 25.7</TD>
+      <TD>+00 33 07</TD>
+      <TD>stars</TD>
+      <TD>16.6</TD>
+      <TD> 0.68</TD>
+      <TD> 0.49</TD>
+      <TD> 6.8</TD>
+      <TD>40.4</TD>
+      <TD>-0.52</TD>
+      <TD>mpcc</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>1417+0021</TD>
+      <TD/>
+      <TD>HE142016p000725d1689</TD>
+      <TD>14 20 15.2</TD>
+      <TD>+00 07 25</TD>
+      <TD>stars</TD>
+      <TD>16.6</TD>
+      <TD> 0.86</TD>
+      <TD> 0.64</TD>
+      <TD> 7.5</TD>
+      <TD>50.0</TD>
+      <TD>-0.46</TD>
+      <TD>mpcc</TD>
+      <TD>2M</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

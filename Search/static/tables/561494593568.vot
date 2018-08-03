@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJ_631_1100_tables" name="J/ApJ/631/1100/tables">
+   <DESCRIPTION>
+    Atmospheric parameters of DA white dwarfs, photometrically
+    constant and ZZ Ceti stars {\em(tables 1 and 2 of paper)}
+   </DESCRIPTION>
+   <FIELD ID="Class" arraysize="3" datatype="char" name="Class" ucd="CLASS_MISC">
+    <DESCRIPTION>
+     {\bf Cst} for photometrically constant DA white dwarfs (table1),
+     or {\bf ZZ} for ZZ Ceti stars (table2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_WD" arraysize="1" datatype="char" name="n_WD" ucd="NOTE">
+    <DESCRIPTION>
+     [abcd] Note on WD (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Name" arraysize="14" datatype="char" name="Name" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Other Name
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Teff" datatype="int" name="Teff" ucd="PHYS_TEMP_EFFEC" unit="K" width="5">
+    <DESCRIPTION>
+     Effective temperature
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="u_Teff" arraysize="1" datatype="char" name="u_Teff" ucd="CODE_ERROR">
+    <DESCRIPTION>
+     Uncertainty flag on Teff
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="logg" datatype="float" name="logg" precision="2" ucd="PHYS_GRAVITY_SURFACE" unit="[cm/s2]" width="5">
+    <DESCRIPTION>
+     Surface gravity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="u_logg" arraysize="1" datatype="char" name="u_logg" ucd="CODE_ERROR">
+    <DESCRIPTION>
+     Uncertainty flag on logg
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Mass" datatype="float" name="Mass" precision="2" ucd="PHYS_MASS_MISC" unit="Msun" width="5">
+    <DESCRIPTION>
+     Stellar Mass
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="VMAG" datatype="float" name="VMAG" precision="2" ucd="PHOT_ABS-MAG_BAND" unit="mag" width="5">
+    <DESCRIPTION>
+     Absolute visual magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Ref" arraysize="17" datatype="char" name="Ref" ucd="REFER_CODE">
+    <DESCRIPTION>
+     References
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right Ascension (J2000) from SIMBAD (not part of the original
+     data)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (J2000) from SIMBAD (not part of the original data)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="WD" arraysize="8" datatype="char" name="WD" ucd="ID_MAIN">
+    <DESCRIPTION>
+     WD designation (HHMM+DDd, B1950)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>Cst</TD>
+      <TD/>
+      <TD>PG 1418-005</TD>
+      <TD>14290</TD>
+      <TD/>
+      <TD> 7.82</TD>
+      <TD/>
+      <TD> 0.51</TD>
+      <TD>11.06</TD>
+      <TD>6, 8</TD>
+      <TD>Simbad</TD>
+      <TD>215.38167</TD>
+      <TD> -0.73917</TD>
+      <TD>1418-005</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

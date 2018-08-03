@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_A_AS_118_239_table1" name="J/A+AS/118/239/table1">
+   <DESCRIPTION>
+    J2000 positions of YPAC
+   </DESCRIPTION>
+   <FIELD ID="YPAC" datatype="short" name="YPAC" ucd="ID_MAIN" width="3">
+    <DESCRIPTION>
+     Number in YPAC
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Catal" arraysize="8" datatype="char" name="Catal" ucd="ID_CATALOG">
+    <DESCRIPTION>
+     Catalogue's designation (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_MAG_V" unit="mag" width="5">
+    <DESCRIPTION>
+     Visual magnitude from above catalogue.
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="12" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension J2000.0
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="12" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination J2000.0
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_RAs" datatype="short" name="e_RAs" ucd="ERROR" unit="ms" width="2">
+    <DESCRIPTION>
+     Internal precision of right ascension.
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_DEs" datatype="short" name="e_DEs" ucd="ERROR" unit="10mas" width="2">
+    <DESCRIPTION>
+     ? Internal precision of declination. [NULL integer written as an
+     empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="Mean" datatype="float" name="Mean" precision="2" ucd="TIME_EPOCH" unit="yr" width="5">
+    <DESCRIPTION>
+     epoch of observations minus 1900.00.
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>536</TD>
+      <TD>GC 19329</TD>
+      <TD> 6.19</TD>
+      <TD>14 19 40.962</TD>
+      <TD>+00 23 03.41</TD>
+      <TD>3</TD>
+      <TD>3</TD>
+      <TD>92.21</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

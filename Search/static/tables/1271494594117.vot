@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_A_A_544_A31_ulughbeg" name="J/A+A/544/A31/ulughbeg">
+   <DESCRIPTION>
+    Star Catalogue of Ulugh Beg (1437)
+   </DESCRIPTION>
+   <FIELD ID="U" datatype="short" name="U" ucd="ID_MAIN" width="4">
+    <DESCRIPTION>
+     [1/1018] Sequence number in Ulugh Beg Catalogue
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_U" arraysize="1" datatype="char" name="n_U" ucd="NOTE">
+    <DESCRIPTION>
+     [c] 'c' when the position is derived from Ptolemaios via al-Sufi
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="P" datatype="short" name="P" ucd="ID_ALTERNATIVE" width="4">
+    <DESCRIPTION>
+     Corresponding sequence number of in Ptolemaios
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="C" datatype="short" name="C" ucd="ID_NUMBER" width="2">
+    <DESCRIPTION>
+     Sequence number of constellation
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="cst" arraysize="4" datatype="char" name="cst" ucd="ID_CONSTEL">
+    <DESCRIPTION>
+     Abbreviation of constellation name
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="N" datatype="short" name="N" ucd="ID_NUMBER" width="2">
+    <DESCRIPTION>
+     Sequence number of star in constellation
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_N" arraysize="1" datatype="char" name="n_N" ucd="NOTE">
+    <DESCRIPTION>
+     [a] 'a' for star outside the constellation figure
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Elon" arraysize="8" datatype="char" name="Elon" ucd="POS_EC_LON" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Ecliptic longitude (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Elat" arraysize="6" datatype="char" name="Elat" ucd="POS_EC_LAT" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Degrees of ecliptic latitude (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="VU" datatype="unsignedByte" name="VU" ucd="PHOT_MAG_EYE" width="1">
+    <DESCRIPTION>
+     Magnitude as given by Ulugh Beg (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="q_VU" arraysize="1" datatype="char" name="q_VU" ucd="CODE_QUALITY">
+    <DESCRIPTION>
+     [bf] brighter/fainter qualifier by Ulugh Beg (G1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_NUMBER" width="6">
+    <DESCRIPTION>
+     ? Hipparcos number of identification [NULL integer written as an
+     empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="I" datatype="unsignedByte" name="I" ucd="CODE_MISC" width="1">
+    <DESCRIPTION>
+     Flag indicating quality of identification (G2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="K" datatype="unsignedByte" name="K" ucd="CODE_MISC" width="1">
+    <DESCRIPTION>
+     [0/3] Comparison flag with Knobel (4)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="I-P" datatype="unsignedByte" name="I-P" ucd="CODE_MISC" width="1">
+    <DESCRIPTION>
+     [0/3] Comparison flag with Ptolemaios (5)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="1" ucd="PHOT_JHN_V" unit="mag" width="4">
+    <DESCRIPTION>
+     Johnson V magnitude (from Hipparcos)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dl" datatype="float" name="Dl" precision="1" ucd="POS_OFFSET" unit="arcm" width="6">
+    <DESCRIPTION>
+     Difference in longitude (Hipparcos-UlughBeg)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Db" datatype="float" name="Db" precision="1" ucd="POS_OFFSET" unit="arcm" width="6">
+    <DESCRIPTION>
+     Difference in latitude (Hipparcos-UlughBeg)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="dist" datatype="float" name="dist" precision="1" ucd="POS_OFFSET" unit="arcm" width="6">
+    <DESCRIPTION>
+     Distance {Dleta} between UlughBeg and Hipparcos positions
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Flag" arraysize="1" datatype="char" name="Flag" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [*] Flag for annotation in article
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA.icrs" arraysize="10" datatype="char" name="_RA.icrs" ucd="POS_EQ_RA_OTHER">
+    <DESCRIPTION>
+     Right ascension (ICRS) at Epoch=J1437. (computed by VizieR, not
+     part of the original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" arraysize="9" datatype="char" name="_DE.icrs" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (ICRS) at Epoch=J1437. (computed by VizieR, not part
+     of the original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>160</TD>
+      <TD/>
+      <TD>161</TD>
+      <TD>9</TD>
+      <TD>=Cyg</TD>
+      <TD>3</TD>
+      <TD/>
+      <TD>305:16.0</TD>
+      <TD>+54:30</TD>
+      <TD>5</TD>
+      <TD/>
+      <TD>98110</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD> 3.9</TD>
+      <TD>  -6.0</TD>
+      <TD> -10.4</TD>
+      <TD>  10.9</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>19 56 20.4</TD>
+      <TD>+35 16 17</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

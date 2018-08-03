@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_AJ_127_2838_table1" name="J/AJ/127/2838/table1">
+   <DESCRIPTION>
+    Faint High-Latitude Carbon Stars Discovered in SDSS
+   </DESCRIPTION>
+   <FIELD ID="SDSS" arraysize="19" datatype="char" name="SDSS" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     SDSS name (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="rmag" datatype="float" name="rmag" precision="2" ucd="PHOT_SDSS_R" unit="mag" width="5">
+    <DESCRIPTION>
+     SDSS r-band magnitude (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="f_rmag" arraysize="1" datatype="char" name="f_rmag" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [gh] Flag on rmag (4)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="u-g" datatype="float" name="u-g" precision="2" ucd="PHOT_SDSS_U-G" unit="mag" width="5">
+    <DESCRIPTION>
+     ? SDSS (u-g) color
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="g-r" datatype="float" name="g-r" precision="2" ucd="PHOT_SDSS_G-R" unit="mag" width="5">
+    <DESCRIPTION>
+     ? SDSS (g-r) color
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="r-i" datatype="float" name="r-i" precision="2" ucd="PHOT_SDSS_R-I" unit="mag" width="5">
+    <DESCRIPTION>
+     ? SDSS (r-i) color
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="i-z" datatype="float" name="i-z" precision="2" ucd="PHOT_SDSS_I-Z" unit="mag" width="5">
+    <DESCRIPTION>
+     ? SDSS (i-z) color
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="J-H" datatype="float" name="J-H" precision="2" ucd="PHOT_JHN_J-H" unit="mag" width="5">
+    <DESCRIPTION>
+     ? The (J-H) color
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="H-K" datatype="float" name="H-K" precision="2" ucd="PHOT_JHN_H-K" unit="mag" width="5">
+    <DESCRIPTION>
+     ? The (H-K) color
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="r-J" datatype="float" name="r-J" precision="2" ucd="PHOT_CI_UNDEF" unit="mag" width="5">
+    <DESCRIPTION>
+     ? The (r-J) color
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Class" arraysize="1" datatype="char" name="Class" ucd="CLASS_OBJECT">
+    <DESCRIPTION>
+     Object class (5)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="f_Class" datatype="short" name="f_Class" ucd="CODE_MISC" width="2">
+    <DESCRIPTION>
+     ? Flag on Class (6) [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right ascension (derived from SDSS) for Eq=J2000.0
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (derived from SDSS) for Eq=J2000.0
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>J142112.42-004822.6</TD>
+      <TD>19.05</TD>
+      <TD/>
+      <TD> 2.20</TD>
+      <TD> 1.51</TD>
+      <TD> 0.36</TD>
+      <TD> 0.42</TD>
+      <TD> 1.01</TD>
+      <TD> 0.22</TD>
+      <TD> 2.08</TD>
+      <TD>U</TD>
+      <TD>-32768</TD>
+      <TD>215.30175</TD>
+      <TD> -0.80628</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

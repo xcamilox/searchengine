@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_PASP_122_885_table1" name="J/PASP/122/885/table1">
+   <DESCRIPTION>
+    Gliese Star Catalog
+   </DESCRIPTION>
+   <FIELD ID="n_Name" arraysize="1" datatype="char" name="n_Name" ucd="DATA_LINK">
+    <DESCRIPTION>
+     {\bf N} indicates a note in the
+     "\begin{tex}\vFile{J/PASP/122/885/./appen}{appen}\end{tex}" file
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Name" arraysize="21" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Name (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="l_pmRA" arraysize="1" datatype="char" name="l_pmRA" ucd="CODE_LIMIT">
+    <DESCRIPTION>
+     Limit flag on pmRA
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="float" name="pmRA" precision="3" ucd="POS_EQ_PMRA" unit="arcs.yr-1" width="6">
+    <DESCRIPTION>
+     Proper motion along RA
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="l_pmDE" arraysize="1" datatype="char" name="l_pmDE" ucd="CODE_LIMIT">
+    <DESCRIPTION>
+     Limit flag on pmDE
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="float" name="pmDE" precision="3" ucd="POS_EQ_PMDEC" unit="arcs.yr-1" width="6">
+    <DESCRIPTION>
+     Proper motion along DE
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_2MASS" arraysize="17" datatype="char" name="_2MASS" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     2MASS name, JHHMMSSss+DDMMSSs
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="3" ucd="PHOT_JHN_J" unit="mag" width="6">
+    <DESCRIPTION>
+     ? 2MASS J magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Hmag" datatype="float" name="Hmag" precision="3" ucd="PHOT_JHN_H" unit="mag" width="6">
+    <DESCRIPTION>
+     ? 2MASS H magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Ksmag" datatype="float" name="Ksmag" precision="3" ucd="PHOT_JHN_K" unit="mag" width="6">
+    <DESCRIPTION>
+     ? 2MASS Ks magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Com" arraysize="7" datatype="char" name="Com" ucd="REMARKS">
+    <DESCRIPTION>
+     Comments (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GJ" arraysize="2" datatype="char" name="GJ" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Details from GJ catalog (Gliese \&amp; Jahreiss 1991, Cat. V/70)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SimbadName" arraysize="23" datatype="char" name="SimbadName" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Designation understandable by the {\bf\fg{FireBrick}Simbad} data-
+     base
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="11" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="11" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD/>
+      <TD>GJ 3840</TD>
+      <TD/>
+      <TD>-0.275</TD>
+      <TD/>
+      <TD>-0.265</TD>
+      <TD>J14175905-0031295</TD>
+      <TD> 9.040</TD>
+      <TD> 8.498</TD>
+      <TD> 8.281</TD>
+      <TD/>
+      <TD>GJ</TD>
+      <TD>GJ 3840</TD>
+      <TD>14 17 59.06</TD>
+      <TD>-00 31 29.4</TD>
+     </TR>
+     <TR>
+      <TD/>
+      <TD>GJ 3843</TD>
+      <TD/>
+      <TD> 0.176</TD>
+      <TD/>
+      <TD>-0.600</TD>
+      <TD>J14211512-0107199</TD>
+      <TD> 8.948</TD>
+      <TD> 8.391</TD>
+      <TD> 8.093</TD>
+      <TD/>
+      <TD>GJ</TD>
+      <TD>GJ 3843</TD>
+      <TD>14 21 15.13</TD>
+      <TD>-01 07 19.7</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

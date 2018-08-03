@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="V_53A_catalog" name="V/53A/catalog">
+   <DESCRIPTION>
+    The Catalogue
+   </DESCRIPTION>
+   <FIELD ID="HR" datatype="short" name="HR" ucd="ID_MAIN" width="4">
+    <DESCRIPTION>
+     [1/9110]+ "Bright Star" catalog &lt;V/50&gt;
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_HR" arraysize="1" datatype="char" name="n_HR" ucd="DATA_LINK">
+    <DESCRIPTION>
+     indicates that name(s) exist for this star in the file
+     "\begin{tex}\vFile{V/53A/./names.dat}{names.dat}\end{tex}"
+     {\em(indique l'existence de nom(s) usuels)}
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Flamsteed" datatype="short" name="Flamsteed" ucd="ID_ALTERNATIVE" width="3">
+    <DESCRIPTION>
+     ? Flamsteed number [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="Bayer" arraysize="4" datatype="char" name="Bayer" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Greek letter (lettre grecque)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Const" arraysize="3" datatype="char" name="Const" ucd="ID_CONSTEL">
+    <DESCRIPTION>
+     \W{const}{/vizier/VizieR/constellations.htx}{Constellation Name}
+     (3 characters)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RA2000" arraysize="10" datatype="char" name="RA2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension 2000 (hours)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DE2000" arraysize="9" datatype="char" name="DE2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination 2000 (degrees)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="ELON" datatype="float" name="ELON" precision="2" ucd="POS_EC_LON" unit="deg" width="6">
+    <DESCRIPTION>
+     Ecliptic longitude, J2000
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="ELAT" datatype="float" name="ELAT" precision="2" ucd="POS_EC_LAT" unit="deg" width="6">
+    <DESCRIPTION>
+     Ecliptic latitude, J2000
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dist" datatype="int" name="Dist" ucd="PHYS_DISTANCE_TRUE" unit="al" width="5">
+    <DESCRIPTION>
+     Distance of star in light-years (5)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_JHN_V" unit="mag" width="5">
+    <DESCRIPTION>
+     [-1.46/5.03] Visual magnitude (magnitude visuelle)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="19" datatype="char" name="SpType" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     MK Spectral Type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="nComp" datatype="short" name="nComp" ucd="NUMBER" width="2">
+    <DESCRIPTION>
+     [1/13]? Number of visual components (nombre de composantes
+     visuelles) [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>7615</TD>
+      <TD/>
+      <TD>21</TD>
+      <TD>eta</TD>
+      <TD>Cyg</TD>
+      <TD>19 56 18.3</TD>
+      <TD>+35 05 00</TD>
+      <TD>312.93</TD>
+      <TD> 54.27</TD>
+      <TD>141</TD>
+      <TD> 3.93</TD>
+      <TD>K0III</TD>
+      <TD>5</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

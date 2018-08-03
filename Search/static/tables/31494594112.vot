@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="I_80_n30" name="I/80/n30">
+   <DESCRIPTION>
+    The N30 catalog of 5268 standard stars
+   </DESCRIPTION>
+   <FIELD ID="N30" datatype="short" name="N30" ucd="ID_NUMBER" width="4">
+    <DESCRIPTION>
+     N30 running number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DM" arraysize="8" datatype="char" name="DM" ucd="ID_MAIN">
+    <DESCRIPTION>
+     !DM number (Present for all stars)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GC" datatype="int" name="GC" ucd="ID_ALTERNATIVE" width="5">
+    <DESCRIPTION>
+     [1/33342]? GC number (blank if not present) [NULL integer written
+     as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="HPmag" datatype="float" name="HPmag" precision="2" ucd="PHOT_PHG_B" unit="mag" width="5">
+    <DESCRIPTION>
+     Harvard photometric magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HDSp" arraysize="4" datatype="char" name="HDSp" ucd="SPECT_TYPE_GENERAL">
+    <DESCRIPTION>
+     Henry Draper (HD) spectral type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAB1950" arraysize="12" datatype="char" name="RAB1950" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (equinox B1950.0) in hours
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="float" name="pmRA" precision="2" ucd="POS_EQ_PMRA" unit="s.ha-1" width="6">
+    <DESCRIPTION>
+     Centennial proper motion in RA
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="w_RAB1950" datatype="short" name="w_RAB1950" ucd="WEIGHT" width="3">
+    <DESCRIPTION>
+     weight of RA
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEB1950" arraysize="12" datatype="char" name="DEB1950" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (equinox B1950.0) in degrees
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="int" name="pmDE" ucd="POS_EQ_PMDEC" unit="marcs.a-1" width="5">
+    <DESCRIPTION>
+     Centennial proper motion in declination
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="rem" arraysize="1" datatype="char" name="rem" ucd="REMARKS">
+    <DESCRIPTION>
+     [* ] "*" if there is a remark in remarks.dat
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA.icrs" arraysize="12" datatype="char" name="_RA.icrs" ucd="POS_EQ_RA_OTHER" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (ICRS) at Epoch=J2000, proper motions taken into
+     account  (computed by VizieR, not part of the original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" arraysize="12" datatype="char" name="_DE.icrs" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (ICRS) at Epoch=J2000, proper motions taken into
+     account  (computed by VizieR, not part of the original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>4409</TD>
+      <TD>+34 3798</TD>
+      <TD>27622</TD>
+      <TD> 4.03</TD>
+      <TD>K0</TD>
+      <TD>19 54 25.728</TD>
+      <TD> -0.33</TD>
+      <TD>45</TD>
+      <TD>+34 56 58.26</TD>
+      <TD>-26</TD>
+      <TD/>
+      <TD>19 56 18.310</TD>
+      <TD>+35 05 01.59</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

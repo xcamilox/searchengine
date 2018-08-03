@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="III_150A_mkcat" name="III/150A/mkcat">
+   <DESCRIPTION>
+    Catalog of Revised MK types, version 2003
+   </DESCRIPTION>
+   <FIELD ID="Name" arraysize="11" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Main identification of the star
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="11" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension J2000 (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="11" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination J2000 (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_SpType" arraysize="1" datatype="char" name="n_SpType" ucd="NOTE">
+    <DESCRIPTION>
+     [+] indicates best determined spectral standards
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="27" datatype="char" name="SpType" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     MK Spectral Type (5)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_MAG_V" unit="mag" width="6">
+    <DESCRIPTION>
+     ? V magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="u_Vmag" arraysize="1" datatype="char" name="u_Vmag" ucd="CODE_ERROR">
+    <DESCRIPTION>
+     [:v] uncertainty of variability flag
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag2" datatype="float" name="Vmag2" precision="2" ucd="PHOT_MAG_V" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Second V magnitude for other star type (2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Note" arraysize="1" datatype="char" name="Note" ucd="NOTE">
+    <DESCRIPTION>
+     [*+] indicates a note detailed in
+     "\begin{tex}\vFile{III/150A/./notes.dat}{notes.dat}\end{tex}" (4)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>HD 188947</TD>
+      <TD>19 56 18.37</TD>
+      <TD>+35 05 00.3</TD>
+      <TD>+</TD>
+      <TD>K0III</TD>
+      <TD>  3.89</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+     <TR>
+      <TD>HD 190113</TD>
+      <TD>20 02 02.85</TD>
+      <TD>+35 38 28.0</TD>
+      <TD/>
+      <TD>G5Ib</TD>
+      <TD>  7.95</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Simbad</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

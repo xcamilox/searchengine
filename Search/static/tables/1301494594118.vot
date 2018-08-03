@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_A_A_552_A64_table4" name="J/A+A/552/A64/table4">
+   <DESCRIPTION>
+    Mean radial velocities in SOPHIE scale
+   </DESCRIPTION>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     HIP number (Cat. I/311) \linkRole{velocities measurements }
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="11" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_OTHER" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (ICRS, Epoch=J1991.25)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="11" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (ICRS, Epoch=J1991.25)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_JHN_V" unit="mag" width="5">
+    <DESCRIPTION>
+     Magnitude in Johnson V
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="B-V" datatype="float" name="B-V" precision="3" ucd="PHOT_JHN_B-V" unit="mag" width="6">
+    <DESCRIPTION>
+     Johnson B-V colour index
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="10" datatype="char" name="SpType" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     MK spectral type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Cat" arraysize="9" datatype="char" name="Cat" ucd="ID_CATALOG">
+    <DESCRIPTION>
+     Catalogue of origin (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RV" datatype="double" name="RV" precision="3" ucd="VELOC_HC" unit="km.s-1" width="8">
+    <DESCRIPTION>
+     ? Mean Radial Velocity in SOPHIE scale
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="eRV" datatype="float" name="eRV" precision="4" ucd="ERROR" unit="km.s-1" width="7">
+    <DESCRIPTION>
+     ? Internal error of RV
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="sRV" datatype="float" name="sRV" precision="4" ucd="ERROR" unit="km.s-1" width="7">
+    <DESCRIPTION>
+     ? Standard deviation of RV
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="VC" arraysize="2" datatype="char" name="VC" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Plot of velocity points (if 10 points or more)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="N" datatype="short" name="N" ucd="NUMBER" width="3">
+    <DESCRIPTION>
+     ? Number of RV measurements [NULL integer written as an empty
+     string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="e_RV" datatype="float" name="e_RV" precision="4" ucd="ERROR" unit="km.s-1" width="7">
+    <DESCRIPTION>
+     ? Uncertainty of RV
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Tbase" datatype="int" name="Tbase" ucd="TIME_INTERVAL" unit="d" width="5">
+    <DESCRIPTION>
+     ? Time baseline of the N observations [NULL integer written as an
+     empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="JDm" datatype="int" name="JDm" ucd="TIME_DATE" unit="d" width="5">
+    <DESCRIPTION>
+     ? Mean Julian Day of observations (JD-2400000) [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="6" ucd="POS_EQ_RA_MAIN" unit="deg" width="10">
+    <DESCRIPTION>
+     Right Ascension (J2000) from I/239/hip_main
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="6" ucd="POS_EQ_DEC_MAIN" unit="deg" width="10">
+    <DESCRIPTION>
+     Declination (J2000) from I/239/hip_main
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>98004</TD>
+      <TD>19 55 00.14</TD>
+      <TD>+34 54 02.0</TD>
+      <TD> 7.22</TD>
+      <TD> 1.140</TD>
+      <TD>K0</TD>
+      <TD>fa</TD>
+      <TD> -26.657</TD>
+      <TD> 0.0089</TD>
+      <TD> 0.0035</TD>
+      <TD>VC</TD>
+      <TD>2</TD>
+      <TD> 0.0063</TD>
+      <TD>1098</TD>
+      <TD>54904</TD>
+      <TD>Simbad</TD>
+      <TD>298.750576</TD>
+      <TD> 34.900604</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

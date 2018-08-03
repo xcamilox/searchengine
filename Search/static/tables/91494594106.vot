@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="I_113A_catalog" name="I/113A/catalog">
+   <DESCRIPTION>
+    The General Catalogue
+   </DESCRIPTION>
+   <FIELD ID="GC" datatype="int" name="GC" ucd="ID_MAIN" width="5">
+    <DESCRIPTION>
+     [1/33342]+ Boss General Catalog (GC) number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RA1950" arraysize="12" datatype="char" name="RA1950" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Hours RA, equinox 1950.0, epoch 1950.0
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="float" name="pmRA" precision="4" ucd="POS_EQ_PMRA" unit="s.a-1" width="7">
+    <DESCRIPTION>
+     Proper motion in RA
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DE1950" arraysize="12" datatype="char" name="DE1950" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Degrees Dec, equinox 1950.0, epoch 1950.0
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="float" name="pmDE" precision="3" ucd="POS_EQ_PMDEC" unit="arcs.a-1" width="6">
+    <DESCRIPTION>
+     Proper motion in Dec
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Remark" arraysize="1" datatype="char" name="Remark" ucd="REMARKS">
+    <DESCRIPTION>
+     [0-9+-] Coded remarks (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DM" arraysize="13" datatype="char" name="DM" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Durchmusterung designation: catalog in bytes 101-102: 'BD', 'CD',
+     'CP' catalog number in bytes 103-110: SZZNNNNN component
+     identification in bytes 111-112 BD supplement letter in byte 113
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HD" datatype="int" name="HD" ucd="ID_ALTERNATIVE" width="6">
+    <DESCRIPTION>
+     [1/359083]? Henry Draper Catalog (HD) number [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="_RA.icrs" arraysize="12" datatype="char" name="_RA.icrs" ucd="POS_EQ_RA_OTHER" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (ICRS) at Epoch=J2000, proper motions taken into
+     account  (computed by VizieR, not part of the original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" arraysize="12" datatype="char" name="_DE.icrs" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (ICRS) at Epoch=J2000, proper motions taken into
+     account  (computed by VizieR, not part of the original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>27622</TD>
+      <TD>19 54 25.737</TD>
+      <TD>-0.0029</TD>
+      <TD>+34 56 58.06</TD>
+      <TD>-0.029</TD>
+      <TD>-</TD>
+      <TD>BD+34 3798</TD>
+      <TD>188947</TD>
+      <TD>19 56 18.388</TD>
+      <TD>+35 04 59.95</TD>
+     </TR>
+     <TR>
+      <TD>27686</TD>
+      <TD>19 56 59.071</TD>
+      <TD> 0.0010</TD>
+      <TD>+35 21 37.63</TD>
+      <TD> 0.000</TD>
+      <TD>0</TD>
+      <TD>BD+35 3895</TD>
+      <TD>189474</TD>
+      <TD>19 58 51.544</TD>
+      <TD>+35 29 50.72</TD>
+     </TR>
+     <TR>
+      <TD>27696</TD>
+      <TD>19 57 15.085</TD>
+      <TD>-0.0004</TD>
+      <TD>+35 23 56.83</TD>
+      <TD> 0.014</TD>
+      <TD>8</TD>
+      <TD>BD+35 3898</TD>
+      <TD>189528</TD>
+      <TD>19 59 07.455</TD>
+      <TD>+35 32 11.63</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

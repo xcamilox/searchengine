@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="VII_4A_zwicky" name="VII/4A/zwicky">
+   <DESCRIPTION>
+    Zwicky Clusters (Zwicky et al., 1961-68)
+   </DESCRIPTION>
+   <FIELD ID="Zwicky" datatype="short" name="Zwicky" ucd="ID_MAIN" width="4">
+    <DESCRIPTION>
+     Zwicky cluster number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RA1950" arraysize="7" datatype="char" name="RA1950" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Hours RA, 1950.0
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DE1950" arraysize="6" datatype="char" name="DE1950" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Degrees Dec, 1950.0
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Type" datatype="unsignedByte" name="Type" ucd="PHYS_TYPE" width="1">
+    <DESCRIPTION>
+     [1/3] Cluster type (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GalCnt" datatype="short" name="GalCnt" ucd="NUMBER" width="4">
+    <DESCRIPTION>
+     Population of cluster (number of galaxies)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Diam" datatype="float" name="Diam" precision="1" ucd="OBS_PLATE_EXTENSION" unit="cm" width="4">
+    <DESCRIPTION>
+     Diameter of cluster
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DistGroup" datatype="unsignedByte" name="DistGroup" ucd="CLASS_DISTANCE" width="1">
+    <DESCRIPTION>
+     Distance group (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GLON" datatype="float" name="GLON" precision="2" ucd="POS_GAL_LON" unit="deg" width="6">
+    <DESCRIPTION>
+     Galactic longitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GLAT" datatype="float" name="GLAT" precision="2" ucd="POS_GAL_LAT" unit="deg" width="6">
+    <DESCRIPTION>
+     Galactic latitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RLamb" datatype="float" name="RLamb" precision="4" ucd="POS_LAMBERT_R" width="7">
+    <DESCRIPTION>
+     Lambert distance from pole (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="XLamb" datatype="float" name="XLamb" precision="4" ucd="POS_LAMBERT_X" width="7">
+    <DESCRIPTION>
+     Lambert X coordinate (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA.icrs" arraysize="10" datatype="char" name="_RA.icrs" ucd="POS_EQ_RA_OTHER" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (ICRS) (computed by VizieR, not part of the
+     original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" arraysize="9" datatype="char" name="_DE.icrs" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (ICRS) (computed by VizieR, not part of the original
+     data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>6648</TD>
+      <TD>14 15.3</TD>
+      <TD>+00 38</TD>
+      <TD>1</TD>
+      <TD>121</TD>
+      <TD> 5.5</TD>
+      <TD>1</TD>
+      <TD>344.33</TD>
+      <TD> 56.17</TD>
+      <TD> 0.5820</TD>
+      <TD>-0.1572</TD>
+      <TD>14 17 51.4</TD>
+      <TD>+00 24 11</TD>
+     </TR>
+     <TR>
+      <TD>6725</TD>
+      <TD>14 21.0</TD>
+      <TD>+00 22</TD>
+      <TD>2</TD>
+      <TD>238</TD>
+      <TD> 2.9</TD>
+      <TD>4</TD>
+      <TD>346.07</TD>
+      <TD> 55.10</TD>
+      <TD> 0.5997</TD>
+      <TD>-0.1443</TD>
+      <TD>14 23 33.6</TD>
+      <TD>+00 08 25</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

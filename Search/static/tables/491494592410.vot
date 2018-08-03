@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="VII_4A_zwindex" name="VII/4A/zwindex">
+   <DESCRIPTION>
+    Zwicky Clusters index
+   </DESCRIPTION>
+   <FIELD ID="Zwicky" datatype="short" name="Zwicky" ucd="ID_MAIN" width="4">
+    <DESCRIPTION>
+     Zwicky cluster number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RA1950" arraysize="7" datatype="char" name="RA1950" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Hours RA, 1950.0
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DE1950" arraysize="6" datatype="char" name="DE1950" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Degrees Dec, 1950.0
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Area1" datatype="short" name="Area1" ucd="ID_AREA" width="3">
+    <DESCRIPTION>
+     [1/559]? Plate area containing cluster (1) [NULL integer written
+     as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="Number1" datatype="short" name="Number1" ucd="ID_NUMBER" width="3">
+    <DESCRIPTION>
+     [1/120]? Cluster number within plate area (1) [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="Area2" datatype="short" name="Area2" ucd="ID_AREA" width="3">
+    <DESCRIPTION>
+     [1/559]? Plate area containing cluster (1) [NULL integer written
+     as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="Number2" datatype="short" name="Number2" ucd="ID_NUMBER" width="3">
+    <DESCRIPTION>
+     [1/120]? Cluster number within plate area (1) [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="Area3" datatype="short" name="Area3" ucd="ID_AREA" width="3">
+    <DESCRIPTION>
+     [1/559]? Plate area containing cluster (1) [NULL integer written
+     as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="Number3" datatype="short" name="Number3" ucd="ID_NUMBER" width="3">
+    <DESCRIPTION>
+     [1/120]? Cluster number within plate area (1) [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="Area4" datatype="short" name="Area4" ucd="ID_AREA" width="3">
+    <DESCRIPTION>
+     [1/559]? Plate area containing cluster (1) [NULL integer written
+     as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="Number4" datatype="short" name="Number4" ucd="ID_NUMBER" width="3">
+    <DESCRIPTION>
+     [1/120]? Cluster number within plate area (1) [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="Area5" datatype="short" name="Area5" ucd="ID_AREA" width="3">
+    <DESCRIPTION>
+     [1/559]? Plate area containing cluster (1) [NULL integer written
+     as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="_RA.icrs" arraysize="10" datatype="char" name="_RA.icrs" ucd="POS_EQ_RA_OTHER" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (ICRS) (computed by VizieR, not part of the
+     original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" arraysize="9" datatype="char" name="_DE.icrs" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (ICRS) (computed by VizieR, not part of the original
+     data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>6648</TD>
+      <TD>14 15.3</TD>
+      <TD>+00 38</TD>
+      <TD>18</TD>
+      <TD>5</TD>
+      <TD>19</TD>
+      <TD>20</TD>
+      <TD>-32768</TD>
+      <TD>-32768</TD>
+      <TD>-32768</TD>
+      <TD>-32768</TD>
+      <TD>-32768</TD>
+      <TD>14 17 51.4</TD>
+      <TD>+00 24 11</TD>
+     </TR>
+     <TR>
+      <TD>6725</TD>
+      <TD>14 21.0</TD>
+      <TD>+00 22</TD>
+      <TD>19</TD>
+      <TD>15</TD>
+      <TD>-32768</TD>
+      <TD>-32768</TD>
+      <TD>-32768</TD>
+      <TD>-32768</TD>
+      <TD>-32768</TD>
+      <TD>-32768</TD>
+      <TD>-32768</TD>
+      <TD>14 23 33.6</TD>
+      <TD>+00 08 25</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

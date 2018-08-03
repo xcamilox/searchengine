@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_A_A_450_735_table2" name="J/A+A/450/735/table2">
+   <DESCRIPTION>
+    Effective temperatures, angular sd, radii and BC
+   </DESCRIPTION>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_ALTERNATIVE" width="6">
+    <DESCRIPTION>
+     Hipparcos (&lt;I/239&gt;) number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Teff" datatype="int" name="Teff" ucd="PHYS_TEMP_EFFEC" unit="K" width="5">
+    <DESCRIPTION>
+     Effective temperature
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_Teff" datatype="short" name="e_Teff" ucd="ERROR" unit="K" width="3">
+    <DESCRIPTION>
+     Uncertainty in effective temperature
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SD" datatype="float" name="SD" precision="3" ucd="EXTENSION_DIAM" unit="mas" width="6">
+    <DESCRIPTION>
+     Angular semi-diameter
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_SD" datatype="float" name="e_SD" precision="3" ucd="ERROR" unit="mas" width="6">
+    <DESCRIPTION>
+     Uncertainty in angular semi-diameter
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Rad" datatype="float" name="Rad" precision="3" ucd="PHYS_SIZE_RADIUS_GENERAL" unit="Rsun" width="6">
+    <DESCRIPTION>
+     Radius
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_Rad" datatype="float" name="e_Rad" precision="3" ucd="ERROR" unit="Rsun" width="7">
+    <DESCRIPTION>
+     Uncertainty in radius
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="BCV" datatype="float" name="BCV" precision="3" ucd="PHOT_BOL_CORR" unit="mag" width="6">
+    <DESCRIPTION>
+     Bolometric correction in V band
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_BCV" datatype="float" name="e_BCV" precision="3" ucd="ERROR" unit="mag" width="6">
+    <DESCRIPTION>
+     Uncertainty in bolometric correction (V band)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="BCK" datatype="float" name="BCK" precision="3" ucd="PHOT_BOL_CORR" unit="mag" width="6">
+    <DESCRIPTION>
+     Bolometric correction in K band
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_BCK" datatype="float" name="e_BCK" precision="3" ucd="ERROR" unit="mag" width="6">
+    <DESCRIPTION>
+     Uncertainty in bolometric correction (K band)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right Ascension (J2000) from SIMBAD (not part of the original
+     data)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (J2000) from SIMBAD (not part of the original data)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>70022</TD>
+      <TD>7772</TD>
+      <TD>87</TD>
+      <TD> 0.131</TD>
+      <TD> 0.002</TD>
+      <TD> 1.970</TD>
+      <TD>  0.111</TD>
+      <TD> 0.008</TD>
+      <TD> 0.062</TD>
+      <TD> 0.493</TD>
+      <TD> 0.064</TD>
+      <TD>Simbad</TD>
+      <TD>214.92063</TD>
+      <TD>  0.38433</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

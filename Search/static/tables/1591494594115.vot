@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_MNRAS_444_2251_sample" name="J/MNRAS/444/2251/sample">
+   <DESCRIPTION>
+    Sample of observed stars (table1) and stellar atmospheric
+    parameters (table 5)
+   </DESCRIPTION>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_MAG_V" unit="mag" width="5">
+    <DESCRIPTION>
+     [4/15]? Simbad V band magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="8" datatype="char" name="SpType" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     Simbad MK spectral type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Name" arraysize="21" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Star name
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_Name" arraysize="1" datatype="char" name="n_Name" ucd="NOTE">
+    <DESCRIPTION>
+     [*] Outlier (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Teff" datatype="short" name="Teff" ucd="PHYS_TEMP_EFFEC" unit="K" width="4">
+    <DESCRIPTION>
+     [5000/7000] Effective Temperature
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_Teff" datatype="short" name="e_Teff" ucd="ERROR" unit="K" width="3">
+    <DESCRIPTION>
+     [0/150] Lower 1-{sigma} error on Teff
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="E_Teff" datatype="short" name="E_Teff" ucd="ERROR" unit="K" width="3">
+    <DESCRIPTION>
+     [0/175] Upper 1-{sigma} error on Teff
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="logg" datatype="float" name="logg" precision="2" ucd="PHYS_GRAVITY_SURFACE" unit="[cm/s2]" width="5">
+    <DESCRIPTION>
+     [3/5] Surface gravity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_logg" datatype="float" name="e_logg" precision="2" ucd="ERROR" unit="[cm/s2]" width="5">
+    <DESCRIPTION>
+     [0/0.7] Lower 1-{sigma} error on logg
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="E_logg" datatype="float" name="E_logg" precision="2" ucd="ERROR" unit="[cm/s2]" width="5">
+    <DESCRIPTION>
+     [0/0.9] Upper 1-{sigma} error on logg
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="__M_H_" datatype="float" name="__M_H_" precision="2" ucd="PHYS_ABUND_Z" unit="[-]" width="5">
+    <DESCRIPTION>
+     Global metallicity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e__M_H_" datatype="float" name="e__M_H_" precision="2" ucd="ERROR" unit="[-]" width="5">
+    <DESCRIPTION>
+     Lower 1-{sigma} error on [M/H]
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="E__M_H_" datatype="float" name="E__M_H_" precision="2" ucd="ERROR" unit="[-]" width="5">
+    <DESCRIPTION>
+     Upper 1-{sigma} error on [M/H]
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SMR" arraysize="1" datatype="char" name="SMR" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [*] * indicates super-metal-rich (SMR) stars
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right Ascension (J2000) from SIMBAD (not part of the original
+     data)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (J2000) from SIMBAD (not part of the original data)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD> 9.17</TD>
+      <TD>G0V</TD>
+      <TD>Simbad</TD>
+      <TD>HD 227290</TD>
+      <TD/>
+      <TD>5840</TD>
+      <TD>65</TD>
+      <TD>40</TD>
+      <TD> 4.35</TD>
+      <TD> 0.30</TD>
+      <TD> 0.20</TD>
+      <TD> 0.00</TD>
+      <TD> 0.04</TD>
+      <TD> 0.02</TD>
+      <TD/>
+      <TD>300.67397</TD>
+      <TD> 34.83563</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

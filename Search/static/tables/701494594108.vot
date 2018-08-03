@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="V_89_catalog" name="V/89/catalog">
+   <DESCRIPTION>
+    The catalogue
+   </DESCRIPTION>
+   <FIELD ID="HD" datatype="int" name="HD" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     [1/359083]+= HD number of the star
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="__Fe_H_" datatype="float" name="__Fe_H_" precision="2" ucd="PHYS_ABUND_FE/H" unit="Sun" width="5">
+    <DESCRIPTION>
+     Metallicity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Teff" datatype="short" name="Teff" ucd="PHYS_TEMP_EFFEC" unit="K" width="4">
+    <DESCRIPTION>
+     Effective temperature
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="log.g" datatype="float" name="log.g" precision="2" ucd="PHYS_GRAVITY_SURFACE" unit="[cm/s2]" width="5">
+    <DESCRIPTION>
+     Gravity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="MV" datatype="float" name="MV" precision="2" ucd="PHOT_ABS-MAG_BAND" unit="mag" width="5">
+    <DESCRIPTION>
+     Absolute magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Age" datatype="float" name="Age" precision="2" ucd="TIME_AGE" unit="Gyr" width="5">
+    <DESCRIPTION>
+     ? Age in billion years
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="GLON" datatype="float" name="GLON" precision="2" ucd="POS_GAL_LON" unit="deg" width="6">
+    <DESCRIPTION>
+     Galactic longitude (l)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GLAT" datatype="float" name="GLAT" precision="2" ucd="POS_GAL_LAT" unit="deg" width="6">
+    <DESCRIPTION>
+     Galactic latitude (b)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sp" arraysize="10" datatype="char" name="Sp" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     MK spectral classification
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dist" datatype="short" name="Dist" ucd="POS_GAL_HC" unit="pc" width="3">
+    <DESCRIPTION>
+     Heliocentric distance
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Rp" datatype="float" name="Rp" precision="2" ucd="ORBIT_PARAM" unit="kpc" width="5">
+    <DESCRIPTION>
+     ? Perigalacticon in kpc
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Ra" datatype="float" name="Ra" precision="2" ucd="ORBIT_PARAM" unit="kpc" width="5">
+    <DESCRIPTION>
+     ? Apogalacticon in kpc
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Zmax" datatype="float" name="Zmax" precision="3" ucd="ORBIT_PARAM" unit="kpc" width="6">
+    <DESCRIPTION>
+     ? Maximal distance from Galactic plane
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e" datatype="float" name="e" precision="3" ucd="ORBIT_ECCENTRICITY" width="6">
+    <DESCRIPTION>
+     ? eccentricity
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right Ascension (J2000) from SIMBAD (not part of the original
+     data)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (J2000) from SIMBAD (not part of the original data)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>189148</TD>
+      <TD>-0.24</TD>
+      <TD>6284</TD>
+      <TD> 3.87</TD>
+      <TD> 2.84</TD>
+      <TD> 3.88</TD>
+      <TD> 71.07</TD>
+      <TD>  3.18</TD>
+      <TD>F6 V</TD>
+      <TD>74</TD>
+      <TD> 8.22</TD>
+      <TD> 8.75</TD>
+      <TD> 0.127</TD>
+      <TD> 0.032</TD>
+      <TD>Simbad</TD>
+      <TD>299.30553</TD>
+      <TD> 35.03144</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

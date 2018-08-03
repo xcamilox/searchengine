@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="I_239_hip_main" name="I/239/hip_main">
+   <DESCRIPTION>
+    The Hipparcos Main Catalogue\vizContent{timeSerie}
+   </DESCRIPTION>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     Identifier (HIP number) (H1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAhms" arraysize="11" datatype="char" name="RAhms" ucd="POS_EQ_RA_MAIN">
+    <DESCRIPTION>
+     Right ascension in h m s, ICRS (J1991.25) (H3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEdms" arraysize="11" datatype="char" name="DEdms" ucd="POS_EQ_DEC_MAIN">
+    <DESCRIPTION>
+     Declination in deg ' ", ICRS (J1991.25) (H4)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_JHN_V" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Magnitude in Johnson V (H5)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="RA_ICRS_" datatype="double" name="RA_ICRS_" precision="8" ucd="POS_EQ_RA" unit="deg" width="12">
+    <DESCRIPTION>
+     *? alpha, degrees (ICRS, Epoch=J1991.25) (H8)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="DE_ICRS_" datatype="double" name="DE_ICRS_" precision="8" ucd="POS_EQ_DEC" unit="deg" width="12">
+    <DESCRIPTION>
+     *? delta, degrees (ICRS, Epoch=J1991.25) (H9)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Plx" datatype="float" name="Plx" precision="2" ucd="POS_PARLX_TRIG" unit="mas" width="7">
+    <DESCRIPTION>
+     ? Trigonometric parallax (H11)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="double" name="pmRA" precision="2" ucd="POS_EQ_PMRA" unit="mas.yr-1" width="8">
+    <DESCRIPTION>
+     Proper motion mu_alpha.cos(delta), ICRS(H12) {\em(for J1991.25
+     epoch)}
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="double" name="pmDE" precision="2" ucd="POS_EQ_PMDEC" unit="mas.yr-1" width="8">
+    <DESCRIPTION>
+     ? Proper motion mu_delta, ICRS (H13) {\em(for J1991.25 epoch)}
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_Plx" datatype="float" name="e_Plx" precision="2" ucd="ERROR" unit="mas" width="6">
+    <DESCRIPTION>
+     ? Standard error in Plx (H16)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="B-V" datatype="float" name="B-V" precision="3" ucd="PHOT_JHN_B-V" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Johnson B-V colour (H37)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Notes" arraysize="1" datatype="char" name="Notes" ucd="NOTE">
+    <DESCRIPTION>
+     *[DGPWXYZ] Existence of notes (H70)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>97987</TD>
+      <TD>19 54 49.05</TD>
+      <TD>+35 00 20.0</TD>
+      <TD> 8.57</TD>
+      <TD>298.70435522</TD>
+      <TD> 35.00556887</TD>
+      <TD>   2.45</TD>
+      <TD>    3.10</TD>
+      <TD>  -16.75</TD>
+      <TD>  0.92</TD>
+      <TD> 0.700</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>98004</TD>
+      <TD>19 55 00.14</TD>
+      <TD>+34 54 02.0</TD>
+      <TD> 7.22</TD>
+      <TD>298.75056563</TD>
+      <TD> 34.90055680</TD>
+      <TD>   2.73</TD>
+      <TD>    3.35</TD>
+      <TD>   19.30</TD>
+      <TD>  0.69</TD>
+      <TD> 1.140</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>98110</TD>
+      <TD>19 56 18.40</TD>
+      <TD>+35 05 00.6</TD>
+      <TD> 3.89</TD>
+      <TD>299.07665069</TD>
+      <TD> 35.08349079</TD>
+      <TD>  23.40</TD>
+      <TD>  -34.00</TD>
+      <TD>  -27.60</TD>
+      <TD>  0.54</TD>
+      <TD> 1.019</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>98116</TD>
+      <TD>19 56 24.63</TD>
+      <TD>+35 47 24.3</TD>
+      <TD> 7.58</TD>
+      <TD>299.10262882</TD>
+      <TD> 35.79007877</TD>
+      <TD>   2.90</TD>
+      <TD>    7.31</TD>
+      <TD>    3.95</TD>
+      <TD>  0.72</TD>
+      <TD> 0.830</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>98157</TD>
+      <TD>19 56 53.34</TD>
+      <TD>+35 32 12.6</TD>
+      <TD> 8.21</TD>
+      <TD>299.22225281</TD>
+      <TD> 35.53683695</TD>
+      <TD>   6.76</TD>
+      <TD>   15.14</TD>
+      <TD>   37.23</TD>
+      <TD>  0.78</TD>
+      <TD> 0.326</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>98193</TD>
+      <TD>19 57 13.33</TD>
+      <TD>+35 01 53.2</TD>
+      <TD> 7.26</TD>
+      <TD>299.30552785</TD>
+      <TD> 35.03143981</TD>
+      <TD>   8.95</TD>
+      <TD>  -12.08</TD>
+      <TD>  -15.21</TD>
+      <TD>  0.98</TD>
+      <TD> 0.470</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>98239</TD>
+      <TD>19 57 49.40</TD>
+      <TD>+34 14 48.0</TD>
+      <TD> 7.90</TD>
+      <TD>299.45582083</TD>
+      <TD> 34.24665767</TD>
+      <TD>   1.68</TD>
+      <TD>   10.39</TD>
+      <TD>    4.08</TD>
+      <TD>  0.74</TD>
+      <TD> 0.078</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>98289</TD>
+      <TD>19 58 13.67</TD>
+      <TD>+34 25 21.9</TD>
+      <TD> 7.71</TD>
+      <TD>299.55694129</TD>
+      <TD> 34.42275647</TD>
+      <TD>   3.64</TD>
+      <TD>    5.16</TD>
+      <TD>   -0.05</TD>
+      <TD>  0.74</TD>
+      <TD>-0.070</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>98298</TD>
+      <TD>19 58 21.68</TD>
+      <TD>+35 12 05.8</TD>
+      <TD> 8.84</TD>
+      <TD>299.59032641</TD>
+      <TD> 35.20162271</TD>
+      <TD>   0.58</TD>
+      <TD>   -3.82</TD>
+      <TD>   -7.62</TD>
+      <TD>  1.01</TD>
+      <TD> 0.730</TD>
+      <TD>P</TD>
+     </TR>
+     <TR>
+      <TD>98343</TD>
+      <TD>19 58 51.62</TD>
+      <TD>+35 29 51.9</TD>
+      <TD> 6.99</TD>
+      <TD>299.71509524</TD>
+      <TD> 35.49773654</TD>
+      <TD>   3.80</TD>
+      <TD>   26.51</TD>
+      <TD>    8.19</TD>
+      <TD>  0.60</TD>
+      <TD> 0.031</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>98369</TD>
+      <TD>19 59 07.47</TD>
+      <TD>+35 32 10.1</TD>
+      <TD> 8.11</TD>
+      <TD>299.78110669</TD>
+      <TD> 35.53615247</TD>
+      <TD>   2.53</TD>
+      <TD>    0.07</TD>
+      <TD>   -5.10</TD>
+      <TD>  3.05</TD>
+      <TD/>
+      <TD>G</TD>
+     </TR>
+     <TR>
+      <TD>98418</TD>
+      <TD>19 59 49.11</TD>
+      <TD>+35 18 33.6</TD>
+      <TD> 9.02</TD>
+      <TD>299.95461239</TD>
+      <TD> 35.30934017</TD>
+      <TD>   1.40</TD>
+      <TD>   -6.00</TD>
+      <TD>  -10.75</TD>
+      <TD>  1.04</TD>
+      <TD> 0.338</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>98465</TD>
+      <TD>20 00 19.03</TD>
+      <TD>+35 21 30.2</TD>
+      <TD> 7.66</TD>
+      <TD>300.07929823</TD>
+      <TD> 35.35837861</TD>
+      <TD>   0.41</TD>
+      <TD>   -1.12</TD>
+      <TD>   -7.85</TD>
+      <TD>  0.77</TD>
+      <TD> 1.700</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>98593</TD>
+      <TD>20 01 33.86</TD>
+      <TD>+34 34 59.1</TD>
+      <TD> 8.54</TD>
+      <TD>300.39109111</TD>
+      <TD> 34.58309509</TD>
+      <TD>   1.87</TD>
+      <TD>    7.66</TD>
+      <TD>   -2.63</TD>
+      <TD>  1.04</TD>
+      <TD> 0.010</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>98637</TD>
+      <TD>20 02 01.82</TD>
+      <TD>+35 19 56.9</TD>
+      <TD> 7.42</TD>
+      <TD>300.50756735</TD>
+      <TD> 35.33247826</TD>
+      <TD>   2.24</TD>
+      <TD>    1.95</TD>
+      <TD>   -1.79</TD>
+      <TD>  0.65</TD>
+      <TD>-0.075</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>98638</TD>
+      <TD>20 02 02.86</TD>
+      <TD>+35 38 28.1</TD>
+      <TD> 7.88</TD>
+      <TD>300.51190019</TD>
+      <TD> 35.64113279</TD>
+      <TD>   1.28</TD>
+      <TD>   -4.13</TD>
+      <TD>   -8.00</TD>
+      <TD>  0.80</TD>
+      <TD> 1.401</TD>
+      <TD/>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

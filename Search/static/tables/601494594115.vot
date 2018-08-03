@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="IV_27A_catalog" name="IV/27A/catalog">
+   <DESCRIPTION>
+    HD-DM-GC-HR-HIP-Bayer-Flamsteed Cross Index, completed with names
+    from table1 (different Bayer-Flamsteed names assigned to a star)
+    and from addendum (Wagman 1987JHA....18..209W)
+   </DESCRIPTION>
+   <FIELD ID="n_HD" arraysize="1" datatype="char" name="n_HD" ucd="DATA_LINK">
+    <DESCRIPTION>
+     {\bf X} or {\bf x} indicates several entries, {\bf M} indicates
+     more alternative names; additions from addendum (in Jan. 2011
+     from 1987JHA....18..209W) are marked by {\bf *} (non-official
+     constellation name), {\bf a} (other additions)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HD" datatype="int" name="HD" ucd="ID_MAIN" width="6">
+    <DESCRIPTION>
+     [1/257937] Henry Draper Catalog Number &lt;III/135&gt; [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="DM" arraysize="12" datatype="char" name="DM" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Durchmusterung Identification from HD Catalog &lt;III/135&gt; (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GC" datatype="int" name="GC" ucd="ID_ALTERNATIVE" width="5">
+    <DESCRIPTION>
+     [1/33342]? Boss General Catalog (GC, &lt;I/113&gt;) number if one
+     exists, otherwise blank [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="HR" datatype="short" name="HR" ucd="ID_ALTERNATIVE" width="4">
+    <DESCRIPTION>
+     [1/9110]? Harvard Revised Number=Bright Star Number &lt;V/50&gt; if one
+     exists, otherwise blank [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_ALTERNATIVE" width="6">
+    <DESCRIPTION>
+     [1/120416]? Hipparcos Catalog &lt;I/196&gt; number if one exists,
+     otherwise blank [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="11" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension J2000 (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="11" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination J2000 (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_MAG_V" unit="mag" width="5">
+    <DESCRIPTION>
+     [-1.44/13.4]? Visual magnitude (2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Fl" datatype="short" name="Fl" ucd="ID_NUMBER" width="3">
+    <DESCRIPTION>
+     ? Flamsteed number (G1) [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="Bayer" arraysize="5" datatype="char" name="Bayer" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Bayer designation (G1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Cst" arraysize="3" datatype="char" name="Cst" ucd="ID_CONSTEL">
+    <DESCRIPTION>
+     Constellation abbreviation (G1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     VizieR added column, not part of original data
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD/>
+      <TD>188947</TD>
+      <TD>BD+34  3798</TD>
+      <TD>27622</TD>
+      <TD>7615</TD>
+      <TD>98110</TD>
+      <TD>19 56 18.40</TD>
+      <TD>+35 05 00.6</TD>
+      <TD> 3.89</TD>
+      <TD>21</TD>
+      <TD>eta</TD>
+      <TD>Cyg</TD>
+      <TD>Simbad</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

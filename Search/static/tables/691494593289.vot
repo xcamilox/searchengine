@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJ_823_59_table4" name="J/ApJ/823/59/table4">
+   <DESCRIPTION>
+    *Positions, magnitudes and reddening for a sample of halo M-giants
+   </DESCRIPTION>
+   <FIELD ID="WISEA" arraysize="19" datatype="char" name="WISEA" ucd="ID_MAIN">
+    <DESCRIPTION>
+     AllWISE designation (Cutri+, 2013, II/328)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="7" ucd="POS_EQ_RA_MAIN" unit="deg" width="11">
+    <DESCRIPTION>
+     Right Ascension, decimal degrees (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="7" ucd="POS_EQ_DEC_MAIN" unit="deg" width="11">
+    <DESCRIPTION>
+     Declination, decimal degrees (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="3" ucd="PHOT_JHN_J" unit="mag" width="6">
+    <DESCRIPTION>
+     [12/16] 2MASS J magnitude (1.25um)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_Jmag" datatype="float" name="e_Jmag" precision="3" ucd="ERROR" unit="mag" width="6">
+    <DESCRIPTION>
+     [0.01/0.1] Uncertainty in Jmag
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Ksmag" datatype="float" name="Ksmag" precision="3" ucd="PHOT_JHN_K" unit="mag" width="6">
+    <DESCRIPTION>
+     [10.7/14.6] 2MASS Ks magnitude (2.17um)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_Ksmag" datatype="float" name="e_Ksmag" precision="3" ucd="ERROR" unit="mag" width="6">
+    <DESCRIPTION>
+     [0.01/0.1] Uncertainty in Ksmag
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="W1mag" datatype="float" name="W1mag" precision="3" ucd="PHOT_IR_3.4" unit="mag" width="6">
+    <DESCRIPTION>
+     [10.5/13.8] W1 magnitude (3.35um)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_W1mag" datatype="float" name="e_W1mag" precision="3" ucd="ERROR" unit="mag" width="6">
+    <DESCRIPTION>
+     [0.02/0.06] Uncertainty in W1mag
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="W2mag" datatype="float" name="W2mag" precision="3" ucd="PHOT_IR_4.2" unit="mag" width="6">
+    <DESCRIPTION>
+     [10.5/13.9] W2 magnitude (4.6um)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_W2mag" datatype="float" name="e_W2mag" precision="3" ucd="ERROR" unit="mag" width="6">
+    <DESCRIPTION>
+     [0.01/0.06] Uncertainty in W2mag
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="E_B-V_" datatype="float" name="E_B-V_" precision="4" ucd="PHOT_COLOR_EXCESS" unit="mag" width="7">
+    <DESCRIPTION>
+     [0.005/2.1] Reddening (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_2M" arraysize="2" datatype="char" name="_2M" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the 2MASS data (Cutri+ 2003, Cat. II/246) within 3"
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>J141621.56-000114.1</TD>
+      <TD>214.0898416</TD>
+      <TD> -0.0205994</TD>
+      <TD>14.174</TD>
+      <TD> 0.032</TD>
+      <TD>13.217</TD>
+      <TD> 0.034</TD>
+      <TD>13.087</TD>
+      <TD> 0.024</TD>
+      <TD>13.159</TD>
+      <TD> 0.029</TD>
+      <TD> 0.0375</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J141837.08-005325.3</TD>
+      <TD>214.6545074</TD>
+      <TD> -0.8903859</TD>
+      <TD>14.968</TD>
+      <TD> 0.066</TD>
+      <TD>13.808</TD>
+      <TD> 0.074</TD>
+      <TD>13.330</TD>
+      <TD> 0.024</TD>
+      <TD>13.350</TD>
+      <TD> 0.031</TD>
+      <TD> 0.0523</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J141914.06-003819.4</TD>
+      <TD>214.8085911</TD>
+      <TD> -0.6387261</TD>
+      <TD>14.451</TD>
+      <TD> 0.033</TD>
+      <TD>13.491</TD>
+      <TD> 0.039</TD>
+      <TD>13.466</TD>
+      <TD> 0.024</TD>
+      <TD>13.572</TD>
+      <TD> 0.036</TD>
+      <TD> 0.0486</TD>
+      <TD>2M</TD>
+     </TR>
+     <TR>
+      <TD>J142049.64-002701.2</TD>
+      <TD>215.2068738</TD>
+      <TD> -0.4503402</TD>
+      <TD>14.154</TD>
+      <TD> 0.032</TD>
+      <TD>13.151</TD>
+      <TD> 0.034</TD>
+      <TD>13.058</TD>
+      <TD> 0.025</TD>
+      <TD>13.163</TD>
+      <TD> 0.029</TD>
+      <TD> 0.0440</TD>
+      <TD>2M</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

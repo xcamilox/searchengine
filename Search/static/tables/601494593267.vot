@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJ_738_79_table1" name="J/ApJ/738/79/table1">
+   <DESCRIPTION>
+    *List of 4985 blue horizontal-branch (BHB) stars selected from
+    SDSS DR8
+   </DESCRIPTION>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right Ascension in decimal degrees (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination in decimal degrees (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="gmag" datatype="float" name="gmag" precision="2" ucd="PHOT_SDSS_G" unit="mag" width="5">
+    <DESCRIPTION>
+     [12.6/20.1] Extinction-corrected g band magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="u-g" datatype="float" name="u-g" precision="2" ucd="PHOT_SDSS_U-G" unit="mag" width="5">
+    <DESCRIPTION>
+     (u-g) color index after extinction correction
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="D0.2" datatype="float" name="D0.2" precision="2" ucd="SPECT_LINE_WIDTH" unit="0.1nm" width="5">
+    <DESCRIPTION>
+     H{delta} line width at 20% below local continuum
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="fm" datatype="float" name="fm" precision="2" ucd="SPECT_FLUX_NORM" width="5">
+    <DESCRIPTION>
+     H{delta} line flux relative to continuum at line core
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="cHg" datatype="float" name="cHg" precision="2" ucd="FIT_PARAM_VALUE" width="5">
+    <DESCRIPTION>
+     The c of H{gamma} line
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="bHg" datatype="float" name="bHg" precision="2" ucd="FIT_PARAM_VALUE" unit="0.1nm" width="5">
+    <DESCRIPTION>
+     The b of H{gamma} line
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="d" datatype="float" name="d" precision="1" ucd="POS_GAL_HC" unit="kpc" width="4">
+    <DESCRIPTION>
+     [2.3/77.1] Distance to the Sun (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="r" datatype="float" name="r" precision="1" ucd="POS_GAL_GC" unit="kpc" width="4">
+    <DESCRIPTION>
+     Distance to the Galactic center (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="x" datatype="float" name="x" precision="1" ucd="POS_GAL_X" unit="kpc" width="5">
+    <DESCRIPTION>
+     Galactocentric x-position (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="y" datatype="float" name="y" precision="1" ucd="POS_GAL_Y" unit="kpc" width="5">
+    <DESCRIPTION>
+     Galactocentric y-position (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="z" datatype="float" name="z" precision="1" ucd="POS_GAL_Z" unit="kpc" width="5">
+    <DESCRIPTION>
+     Galactocentric z-postiion (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HRV" datatype="float" name="HRV" precision="1" ucd="VELOC_HC" unit="km.s-1" width="6">
+    <DESCRIPTION>
+     [-476.2/456.4] Heliocentic radial velocity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_HRV" datatype="float" name="e_HRV" precision="1" ucd="ERROR" unit="km.s-1" width="6">
+    <DESCRIPTION>
+     [0.9/22.5] Error in HRV
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vgal" datatype="float" name="Vgal" precision="1" ucd="VELOC_GC" unit="km.s-1" width="6">
+    <DESCRIPTION>
+     Galactocentric radial velocity (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DR8" arraysize="3" datatype="char" name="DR8" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the SDSS-DR8 photometric catalog (II/306) within 1.5"
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sloan" arraysize="5" datatype="char" name="Sloan" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the SDSS online data for this star
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SimbadName" arraysize="24" datatype="char" name="SimbadName" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Designation understandable by the {\bf\fg{FireBrick}Simbad} data-
+     base
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>214.34950</TD>
+      <TD> -0.37243</TD>
+      <TD>16.63</TD>
+      <TD> 1.04</TD>
+      <TD>22.91</TD>
+      <TD> 0.23</TD>
+      <TD> 1.12</TD>
+      <TD> 9.71</TD>
+      <TD>15.3</TD>
+      <TD>12.9</TD>
+      <TD> -0.3</TD>
+      <TD>  2.5</TD>
+      <TD> 12.7</TD>
+      <TD> -14.0</TD>
+      <TD>   3.8</TD>
+      <TD> -39.1</TD>
+      <TD>DR8</TD>
+      <TD>Sloan</TD>
+      <TD>SDSS J141723.87-002220.8</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJ_541_841_table3a" name="J/ApJ/541/841/table3a">
+   <DESCRIPTION>
+    Conclusions about the Possible Trapezium Systems
+   </DESCRIPTION>
+   <FIELD ID="n_Trap" arraysize="1" datatype="char" name="n_Trap" ucd="NOTE">
+    <DESCRIPTION>
+     [*] indicates corrections made at CDS (see the
+     "\Acat{J/ApJ/541/841\#sRM88.1}{History}" section below)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Trap" datatype="short" name="Trap" ucd="ID_MAIN" width="3">
+    <DESCRIPTION>
+     Trapezium system number ([AC2000b] Trap NNN)
+     \linkRole{measurements for this system }
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RA1900" arraysize="7" datatype="char" name="RA1900" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension (1900)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DE1900" arraysize="6" datatype="char" name="DE1900" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (1900)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="OName" arraysize="12" datatype="char" name="OName" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Other name (ADS ... = no ADS name)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="u_OName" arraysize="1" datatype="char" name="u_OName" ucd="CODE_ERROR">
+    <DESCRIPTION>
+     [?] For Trap 237, the HD identification doesn't match the
+     position
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Concl" arraysize="28" datatype="char" name="Concl" ucd="REMARKS">
+    <DESCRIPTION>
+     Conclusions about the group
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="E_B-V_" datatype="float" name="E_B-V_" precision="2" ucd="PHOT_COLOR_EXCESS" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Reddening
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="f_E_B-V_" arraysize="1" datatype="char" name="f_E_B-V_" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [:?A] Flag on E(B-V) (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DMod" datatype="float" name="DMod" precision="1" ucd="PHOT_DIST-MOD" unit="mag" width="4">
+    <DESCRIPTION>
+     ? Distance modulus
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="f_DMod" arraysize="1" datatype="char" name="f_DMod" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [?A] Flag on DMod (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA.icrs" arraysize="10" datatype="char" name="_RA.icrs" ucd="POS_EQ_RA_OTHER" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (ICRS) (computed by VizieR, not part of the
+     original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" arraysize="9" datatype="char" name="_DE.icrs" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (ICRS) (computed by VizieR, not part of the original
+     data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD/>
+      <TD>748</TD>
+      <TD>19 58.6</TD>
+      <TD>+35 02</TD>
+      <TD>ADS 13292</TD>
+      <TD/>
+      <TD>trap.(6)</TD>
+      <TD> 0.61</TD>
+      <TD/>
+      <TD>10.9</TD>
+      <TD/>
+      <TD>20 02 22.0</TD>
+      <TD>+35 18 46</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

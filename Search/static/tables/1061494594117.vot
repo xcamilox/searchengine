@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJS_221_12_table1" name="J/ApJS/221/12/table1">
+   <DESCRIPTION>
+    Mid-IR AGNs data
+   </DESCRIPTION>
+   <FIELD ID="WISEA" arraysize="19" datatype="char" name="WISEA" ucd="ID_MAIN">
+    <DESCRIPTION>
+     AllWISE IAU identifier (JHHMMSS.ss+DDMMSS.s)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="7" ucd="POS_EQ_RA_MAIN" unit="deg" width="11">
+    <DESCRIPTION>
+     AllWISE Right Ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="7" ucd="POS_EQ_DEC_MAIN" unit="deg" width="11">
+    <DESCRIPTION>
+     AllWISE Declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="W1-W2" datatype="float" name="W1-W2" precision="2" ucd="PHOT_CI_IR" unit="mag" width="5">
+    <DESCRIPTION>
+     [0.4/2.6] AllWISE W1-W2 (3.4-4.6um) color index
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="W2-W3" datatype="float" name="W2-W3" precision="2" ucd="PHOT_CI_IR" unit="mag" width="5">
+    <DESCRIPTION>
+     [1.9/7.8] AllWISE W2-W3 (4.6-12um) color index
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="W1mag" datatype="float" name="W1mag" precision="2" ucd="PHOT_IR_3.4" unit="mag" width="5">
+    <DESCRIPTION>
+     [4.5/19] AllWISE W1 (3.4um) magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="gmag" datatype="float" name="gmag" precision="2" ucd="PHOT_SDSS_G" unit="mag" width="5">
+    <DESCRIPTION>
+     [0/25.8]? Compiled g band magnitude; SDSS bandpass (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="z" datatype="double" name="z" precision="5" ucd="REDSHIFT_HC" width="8">
+    <DESCRIPTION>
+     [-0.002/7.02]? Compiled Redshift (2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="f_z" arraysize="1" datatype="char" name="f_z" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [ps] Flag on Redshift, s=spec; p=photo
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="LQAC2" arraysize="11" datatype="char" name="LQAC2" ucd="ID_CROSSID">
+    <DESCRIPTION>
+     LQAC2 identifier (Souchay+ 2012, J/A+A/537/A99)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DR12Q" arraysize="18" datatype="char" name="DR12Q" ucd="ID_CROSSID">
+    <DESCRIPTION>
+     DR12Q identifier
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HMQ" arraysize="25" datatype="char" name="HMQ" ucd="ID_CROSSID">
+    <DESCRIPTION>
+     MILLIQUAS identifier (Flesch+, 2015, VII/273)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sloan" arraysize="5" datatype="char" name="Sloan" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the SDSS data for the nearest object
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>J195425.31+344528.7</TD>
+      <TD>298.6054789</TD>
+      <TD> 34.7579730</TD>
+      <TD> 1.03</TD>
+      <TD> 2.73</TD>
+      <TD>12.90</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J195331.94+351812.5</TD>
+      <TD>298.3830878</TD>
+      <TD> 35.3034934</TD>
+      <TD> 0.97</TD>
+      <TD> 2.73</TD>
+      <TD>14.39</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J195402.16+353005.8</TD>
+      <TD>298.5090080</TD>
+      <TD> 35.5016162</TD>
+      <TD> 0.96</TD>
+      <TD> 3.10</TD>
+      <TD>15.70</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J200110.51+351811.3</TD>
+      <TD>300.2938001</TD>
+      <TD> 35.3031569</TD>
+      <TD> 1.30</TD>
+      <TD> 3.26</TD>
+      <TD>12.48</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J195958.07+350424.4</TD>
+      <TD>299.9919987</TD>
+      <TD> 35.0734468</TD>
+      <TD> 1.40</TD>
+      <TD> 3.69</TD>
+      <TD>14.52</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J195947.21+353053.0</TD>
+      <TD>299.9467161</TD>
+      <TD> 35.5147419</TD>
+      <TD> 1.32</TD>
+      <TD> 2.76</TD>
+      <TD>11.08</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J200206.40+352906.3</TD>
+      <TD>300.5266815</TD>
+      <TD> 35.4851020</TD>
+      <TD> 0.59</TD>
+      <TD> 2.46</TD>
+      <TD>10.14</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J195614.14+344148.0</TD>
+      <TD>299.0589414</TD>
+      <TD> 34.6966911</TD>
+      <TD> 1.39</TD>
+      <TD> 3.70</TD>
+      <TD>14.44</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J195940.23+345059.8</TD>
+      <TD>299.9176448</TD>
+      <TD> 34.8499583</TD>
+      <TD> 1.19</TD>
+      <TD> 4.07</TD>
+      <TD>15.56</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J195842.98+360435.3</TD>
+      <TD>299.6790964</TD>
+      <TD> 36.0764747</TD>
+      <TD> 0.67</TD>
+      <TD> 2.31</TD>
+      <TD>13.76</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+     <TR>
+      <TD>J200220.36+353758.4</TD>
+      <TD>300.5848422</TD>
+      <TD> 35.6329041</TD>
+      <TD> 0.95</TD>
+      <TD> 2.57</TD>
+      <TD>13.49</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>Sloan</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

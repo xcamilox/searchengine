@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="II_346_jsdc_v2" name="II/346/jsdc_v2">
+   <DESCRIPTION>
+    Stellar diameters catalogue, version 2
+   </DESCRIPTION>
+   <FIELD ID="Dis" datatype="short" name="Dis" ucd="POS_ANG_DIST_GENERAL" width="3">
+    <DESCRIPTION>
+     indicates differences between JSDC V1 ans V2 [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="Name" arraysize="33" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Normalised star name (preferably HD)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="20" datatype="char" name="SpType" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     Spectral Type from Simbad
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Bmag" datatype="float" name="Bmag" precision="3" ucd="PHOT_TYCHO_B" unit="mag" width="7">
+    <DESCRIPTION>
+     ? B magnitude (Cat. I/259)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="3" ucd="PHOT_TYCHO_V" unit="mag" width="7">
+    <DESCRIPTION>
+     ? V magnitude (Cat. I/259)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Rmag" datatype="double" name="Rmag" precision="6" ucd="PHOT_MAG_R" unit="mag" width="10">
+    <DESCRIPTION>
+     ? R magnitude (estimated)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Imag" datatype="double" name="Imag" precision="6" ucd="PHOT_MAG_I" unit="mag" width="10">
+    <DESCRIPTION>
+     ? I magnitude (estimated)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="3" ucd="PHOT_JHN_J" unit="mag" width="7">
+    <DESCRIPTION>
+     ? J magnitude (Cat. II/246)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Hmag" datatype="float" name="Hmag" precision="3" ucd="PHOT_JHN_H" unit="mag" width="7">
+    <DESCRIPTION>
+     ? H magnitude (Cat. II/246)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Kmag" datatype="float" name="Kmag" precision="3" ucd="PHOT_JHN_K" unit="mag" width="7">
+    <DESCRIPTION>
+     ? K magnitude (Cat. II/246)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Lmag" datatype="float" name="Lmag" precision="3" ucd="PHOT_JHN_L" unit="mag" width="7">
+    <DESCRIPTION>
+     ? L magnitude (Cat. II/311/wise W1mag)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Mmag" datatype="float" name="Mmag" precision="3" ucd="PHOT_JHN_M" unit="mag" width="6">
+    <DESCRIPTION>
+     ? M magnitude (Cat. II/311/wise W2mag)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Nmag" datatype="double" name="Nmag" precision="6" ucd="PHOT_IR_N:10.4" unit="mag" width="10">
+    <DESCRIPTION>
+     ? N magnitude (Cat. II/311/wise W3mag)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="LDD" datatype="double" name="LDD" precision="6" ucd="EXTENSION_DIAM" unit="mas" width="9">
+    <DESCRIPTION>
+     ? Limb-Darkened Disk diameter
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="LDDCHI" datatype="double" name="LDDCHI" precision="E5" ucd="FIT_CHI2" width="12">
+    <DESCRIPTION>
+     Chi2 of LDD fitting (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="CalFlag" datatype="unsignedByte" name="CalFlag" ucd="CODE_MISC" width="1">
+    <DESCRIPTION>
+     [0/7] Confidence flags for using this star as a calibrator in
+     Optical Interferometry experiments (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="UDDB" datatype="double" name="UDDB" precision="6" ucd="EXTENSION_DIAM" unit="mas" width="10">
+    <DESCRIPTION>
+     ? Uniform Disk Diameter in band B (4)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="UDDV" datatype="double" name="UDDV" precision="6" ucd="EXTENSION_DIAM" unit="mas" width="10">
+    <DESCRIPTION>
+     ? Uniform Disk Diameter in band V (4)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="UDDR" datatype="double" name="UDDR" precision="6" ucd="EXTENSION_DIAM" unit="mas" width="10">
+    <DESCRIPTION>
+     ? Uniform Disk Diameter in band R (4)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="UDDI" datatype="double" name="UDDI" precision="6" ucd="EXTENSION_DIAM" unit="mas" width="10">
+    <DESCRIPTION>
+     ? Uniform Disk Diameter in band I (4)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="UDDJ" datatype="double" name="UDDJ" precision="6" ucd="EXTENSION_DIAM" unit="mas" width="10">
+    <DESCRIPTION>
+     ? Uniform Disk Diameter in band J (4)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="UDDH" datatype="double" name="UDDH" precision="6" ucd="EXTENSION_DIAM" unit="mas" width="10">
+    <DESCRIPTION>
+     ? Uniform Disk Diameter in band H (4)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="UDDK" datatype="double" name="UDDK" precision="6" ucd="EXTENSION_DIAM" unit="mas" width="10">
+    <DESCRIPTION>
+     ? Uniform Disk Diameter in band K (4)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="UDDL" datatype="double" name="UDDL" precision="6" ucd="EXTENSION_DIAM" unit="mas" width="10">
+    <DESCRIPTION>
+     ? Uniform Disk Diameter in band L (4)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="UDDM" datatype="double" name="UDDM" precision="6" ucd="EXTENSION_DIAM" unit="mas" width="10">
+    <DESCRIPTION>
+     ? Uniform Disk Diameter in band M (4)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="UDDN" datatype="double" name="UDDN" precision="6" ucd="EXTENSION_DIAM" unit="mas" width="10">
+    <DESCRIPTION>
+     ? Uniform Disk Diameter in band N (4
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Simbad column added by the CDS
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="14" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="14" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>0</TD>
+      <TD>BD+00  3155</TD>
+      <TD>G5</TD>
+      <TD> 10.998</TD>
+      <TD> 10.163</TD>
+      <TD>  9.356493</TD>
+      <TD>  8.900055</TD>
+      <TD>  8.392</TD>
+      <TD>  7.887</TD>
+      <TD>  7.767</TD>
+      <TD>  7.682</TD>
+      <TD> 7.787</TD>
+      <TD>  7.692000</TD>
+      <TD> 0.130631</TD>
+      <TD>        0.56</TD>
+      <TD>0</TD>
+      <TD>  0.120164</TD>
+      <TD>  0.122440</TD>
+      <TD>  0.123837</TD>
+      <TD>  0.125217</TD>
+      <TD>  0.127438</TD>
+      <TD>  0.127438</TD>
+      <TD>  0.127953</TD>
+      <TD>  0.129025</TD>
+      <TD>  0.129384</TD>
+      <TD>  0.129913</TD>
+      <TD>Simbad</TD>
+      <TD>14 16 04.17100</TD>
+      <TD>-00 18 55.6300</TD>
+     </TR>
+     <TR>
+      <TD>0</TD>
+      <TD>HD 125041</TD>
+      <TD>F7V</TD>
+      <TD>  9.536</TD>
+      <TD>  9.050</TD>
+      <TD>  8.553020</TD>
+      <TD>  8.342555</TD>
+      <TD>  8.019</TD>
+      <TD>  7.729</TD>
+      <TD>  7.645</TD>
+      <TD>  7.603</TD>
+      <TD> 7.648</TD>
+      <TD>  7.650000</TD>
+      <TD> 0.123069</TD>
+      <TD>     0.32444</TD>
+      <TD>0</TD>
+      <TD>  0.114048</TD>
+      <TD>  0.116053</TD>
+      <TD>  0.117273</TD>
+      <TD>  0.118481</TD>
+      <TD>  0.120349</TD>
+      <TD>  0.120349</TD>
+      <TD>  0.120782</TD>
+      <TD>  0.121753</TD>
+      <TD>  0.121989</TD>
+      <TD>  0.122463</TD>
+      <TD>Simbad</TD>
+      <TD>14 17 01.52000</TD>
+      <TD>-00 04 45.5300</TD>
+     </TR>
+     <TR>
+      <TD>0</TD>
+      <TD>TYC 4976-1213-1</TD>
+      <TD>K0</TD>
+      <TD> 11.305</TD>
+      <TD> 10.399</TD>
+      <TD>  9.698626</TD>
+      <TD>  9.356417</TD>
+      <TD>  8.950</TD>
+      <TD>  8.528</TD>
+      <TD>  8.458</TD>
+      <TD>  8.386</TD>
+      <TD> 8.453</TD>
+      <TD>  8.371000</TD>
+      <TD> 0.098443</TD>
+      <TD>     0.51627</TD>
+      <TD>0</TD>
+      <TD>  0.089998</TD>
+      <TD>  0.091763</TD>
+      <TD>  0.092905</TD>
+      <TD>  0.094049</TD>
+      <TD>  0.095852</TD>
+      <TD>  0.095852</TD>
+      <TD>  0.096281</TD>
+      <TD>  0.097129</TD>
+      <TD>  0.097446</TD>
+      <TD>  0.097856</TD>
+      <TD>Simbad</TD>
+      <TD>14 17 08.92000</TD>
+      <TD>-00 07 33.0400</TD>
+     </TR>
+     <TR>
+      <TD>0</TD>
+      <TD>BD-00  2803</TD>
+      <TD>F8</TD>
+      <TD> 11.160</TD>
+      <TD> 10.450</TD>
+      <TD>  9.957402</TD>
+      <TD>  9.650365</TD>
+      <TD>  9.465</TD>
+      <TD>  9.236</TD>
+      <TD>  9.180</TD>
+      <TD>  9.101</TD>
+      <TD> 9.147</TD>
+      <TD>  9.130000</TD>
+      <TD> 0.061391</TD>
+      <TD>    0.076045</TD>
+      <TD>0</TD>
+      <TD>  0.056918</TD>
+      <TD>  0.057911</TD>
+      <TD>  0.058518</TD>
+      <TD>  0.059119</TD>
+      <TD>  0.060043</TD>
+      <TD>  0.060043</TD>
+      <TD>  0.060261</TD>
+      <TD>  0.060742</TD>
+      <TD>  0.060856</TD>
+      <TD>  0.061091</TD>
+      <TD>Simbad</TD>
+      <TD>14 17 50.28466</TD>
+      <TD>-01 04 44.8836</TD>
+     </TR>
+     <TR>
+      <TD>0</TD>
+      <TD>BD+00  3161</TD>
+      <TD>G0</TD>
+      <TD> 11.262</TD>
+      <TD> 10.560</TD>
+      <TD>  9.316192</TD>
+      <TD>  9.591798</TD>
+      <TD>  9.199</TD>
+      <TD>  8.702</TD>
+      <TD>  8.612</TD>
+      <TD>  8.562</TD>
+      <TD> 8.598</TD>
+      <TD>  8.529000</TD>
+      <TD> 0.082379</TD>
+      <TD>      3.8188</TD>
+      <TD>0</TD>
+      <TD>  0.076114</TD>
+      <TD>  0.077506</TD>
+      <TD>  0.078345</TD>
+      <TD>  0.079173</TD>
+      <TD>  0.080473</TD>
+      <TD>  0.080473</TD>
+      <TD>  0.080781</TD>
+      <TD>  0.081449</TD>
+      <TD>  0.081629</TD>
+      <TD>  0.081952</TD>
+      <TD>Simbad</TD>
+      <TD>14 18 26.90500</TD>
+      <TD>-00 06 55.6100</TD>
+     </TR>
+     <TR>
+      <TD>0</TD>
+      <TD>HD 125453</TD>
+      <TD>K2/3III</TD>
+      <TD>  9.104</TD>
+      <TD>  7.790</TD>
+      <TD>  6.590124</TD>
+      <TD>  6.092733</TD>
+      <TD>  5.442</TD>
+      <TD>  4.749</TD>
+      <TD>  4.493</TD>
+      <TD>  4.455</TD>
+      <TD> 4.357</TD>
+      <TD>  4.482000</TD>
+      <TD> 0.649378</TD>
+      <TD>     0.58177</TD>
+      <TD>0</TD>
+      <TD>  0.589759</TD>
+      <TD>  0.601951</TD>
+      <TD>  0.610050</TD>
+      <TD>  0.618458</TD>
+      <TD>  0.631097</TD>
+      <TD>  0.631097</TD>
+      <TD>  0.634221</TD>
+      <TD>  0.640035</TD>
+      <TD>  0.642435</TD>
+      <TD>  0.645230</TD>
+      <TD>Simbad</TD>
+      <TD>14 19 26.94300</TD>
+      <TD>-00 00 48.0600</TD>
+     </TR>
+     <TR>
+      <TD>0</TD>
+      <TD>HD 125489</TD>
+      <TD>A7Vn</TD>
+      <TD>  6.381</TD>
+      <TD>  6.180</TD>
+      <TD>  5.899699</TD>
+      <TD>  5.960521</TD>
+      <TD>  5.819</TD>
+      <TD>  5.754</TD>
+      <TD>  5.711</TD>
+      <TD>  5.723</TD>
+      <TD> 5.597</TD>
+      <TD>  5.737000</TD>
+      <TD> 0.267289</TD>
+      <TD>     0.12353</TD>
+      <TD>0</TD>
+      <TD>  0.251484</TD>
+      <TD>  0.253771</TD>
+      <TD>  0.256761</TD>
+      <TD>  0.258956</TD>
+      <TD>  0.261449</TD>
+      <TD>  0.262829</TD>
+      <TD>  0.263403</TD>
+      <TD>  0.265040</TD>
+      <TD>  0.265513</TD>
+      <TD>  0.266218</TD>
+      <TD>Simbad</TD>
+      <TD>14 19 40.95027</TD>
+      <TD>+00 23 03.6046</TD>
+     </TR>
+     <TR>
+      <TD>0</TD>
+      <TD>HD 125609</TD>
+      <TD>K1IV</TD>
+      <TD>  8.009</TD>
+      <TD>  6.790</TD>
+      <TD>  5.861065</TD>
+      <TD>  5.299325</TD>
+      <TD>  4.777</TD>
+      <TD>  4.374</TD>
+      <TD>  4.071</TD>
+      <TD>  3.948</TD>
+      <TD> 3.828</TD>
+      <TD>  4.025000</TD>
+      <TD> 0.752728</TD>
+      <TD>     0.11019</TD>
+      <TD>0</TD>
+      <TD>  0.683910</TD>
+      <TD>  0.697993</TD>
+      <TD>  0.707334</TD>
+      <TD>  0.717031</TD>
+      <TD>  0.731640</TD>
+      <TD>  0.731640</TD>
+      <TD>  0.735237</TD>
+      <TD>  0.741943</TD>
+      <TD>  0.744704</TD>
+      <TD>  0.747938</TD>
+      <TD>Simbad</TD>
+      <TD>14 20 28.88262</TD>
+      <TD>+00 10 54.6707</TD>
+     </TR>
+     <TR>
+      <TD>0</TD>
+      <TD>BD-00  2812</TD>
+      <TD>K0</TD>
+      <TD> 11.213</TD>
+      <TD> 10.564</TD>
+      <TD>  9.826504</TD>
+      <TD>  9.633052</TD>
+      <TD>  9.187</TD>
+      <TD>  8.882</TD>
+      <TD>  8.820</TD>
+      <TD>  8.771</TD>
+      <TD> 8.831</TD>
+      <TD>  8.777000</TD>
+      <TD> 0.083222</TD>
+      <TD>      1.7824</TD>
+      <TD>0</TD>
+      <TD>  0.076083</TD>
+      <TD>  0.077575</TD>
+      <TD>  0.078540</TD>
+      <TD>  0.079507</TD>
+      <TD>  0.081031</TD>
+      <TD>  0.081031</TD>
+      <TD>  0.081395</TD>
+      <TD>  0.082111</TD>
+      <TD>  0.082379</TD>
+      <TD>  0.082726</TD>
+      <TD>Simbad</TD>
+      <TD>14 20 36.14700</TD>
+      <TD>-00 42 45.8100</TD>
+     </TR>
+     <TR>
+      <TD>0</TD>
+      <TD>BD+00  3166</TD>
+      <TD>K2</TD>
+      <TD> 10.923</TD>
+      <TD>  9.645</TD>
+      <TD>  8.730842</TD>
+      <TD>  8.124359</TD>
+      <TD>  7.565</TD>
+      <TD>  7.011</TD>
+      <TD>  6.826</TD>
+      <TD>  6.779</TD>
+      <TD> 6.851</TD>
+      <TD>  6.792000</TD>
+      <TD> 0.220221</TD>
+      <TD>     0.11277</TD>
+      <TD>0</TD>
+      <TD>  0.200196</TD>
+      <TD>  0.204297</TD>
+      <TD>  0.207018</TD>
+      <TD>  0.209828</TD>
+      <TD>  0.214082</TD>
+      <TD>  0.214082</TD>
+      <TD>  0.215126</TD>
+      <TD>  0.217084</TD>
+      <TD>  0.217884</TD>
+      <TD>  0.218828</TD>
+      <TD>Simbad</TD>
+      <TD>14 20 38.29520</TD>
+      <TD>+00 13 38.2940</TD>
+     </TR>
+     <TR>
+      <TD>0</TD>
+      <TD>BD+00  3167</TD>
+      <TD>G5</TD>
+      <TD> 11.111</TD>
+      <TD> 10.321</TD>
+      <TD>  9.571487</TD>
+      <TD>  9.156813</TD>
+      <TD>  8.677</TD>
+      <TD>  8.132</TD>
+      <TD>  8.090</TD>
+      <TD>  8.041</TD>
+      <TD> 8.085</TD>
+      <TD>  8.037000</TD>
+      <TD> 0.113043</TD>
+      <TD>      1.2239</TD>
+      <TD>0</TD>
+      <TD>  0.103985</TD>
+      <TD>  0.105955</TD>
+      <TD>  0.107164</TD>
+      <TD>  0.108358</TD>
+      <TD>  0.110280</TD>
+      <TD>  0.110280</TD>
+      <TD>  0.110725</TD>
+      <TD>  0.111654</TD>
+      <TD>  0.111964</TD>
+      <TD>  0.112422</TD>
+      <TD>Simbad</TD>
+      <TD>14 21 08.64100</TD>
+      <TD>-00 06 12.4300</TD>
+     </TR>
+     <TR>
+      <TD>0</TD>
+      <TD>BD+00  3170</TD>
+      <TD>K2</TD>
+      <TD> 10.850</TD>
+      <TD>  9.762</TD>
+      <TD>  8.844073</TD>
+      <TD>  8.275107</TD>
+      <TD>  7.687</TD>
+      <TD>  7.117</TD>
+      <TD>  6.938</TD>
+      <TD>  6.821</TD>
+      <TD> 6.947</TD>
+      <TD>  6.881000</TD>
+      <TD> 0.209174</TD>
+      <TD>     0.11848</TD>
+      <TD>0</TD>
+      <TD>  0.190153</TD>
+      <TD>  0.194049</TD>
+      <TD>  0.196634</TD>
+      <TD>  0.199302</TD>
+      <TD>  0.203343</TD>
+      <TD>  0.203343</TD>
+      <TD>  0.204335</TD>
+      <TD>  0.206195</TD>
+      <TD>  0.206954</TD>
+      <TD>  0.207850</TD>
+      <TD>Simbad</TD>
+      <TD>14 22 32.77900</TD>
+      <TD>-00 20 30.6900</TD>
+     </TR>
+     <TR>
+      <TD>0</TD>
+      <TD>HD 125981</TD>
+      <TD>A0IV</TD>
+      <TD>  6.798</TD>
+      <TD>  6.740</TD>
+      <TD>  6.660120</TD>
+      <TD>  6.688122</TD>
+      <TD>  6.565</TD>
+      <TD>  6.614</TD>
+      <TD>  6.550</TD>
+      <TD>  6.517</TD>
+      <TD> 6.495</TD>
+      <TD>  6.598000</TD>
+      <TD> 0.156802</TD>
+      <TD>     0.55217</TD>
+      <TD>0</TD>
+      <TD>  0.149198</TD>
+      <TD>  0.150300</TD>
+      <TD>  0.151821</TD>
+      <TD>  0.152986</TD>
+      <TD>  0.154131</TD>
+      <TD>  0.154778</TD>
+      <TD>  0.155081</TD>
+      <TD>  0.155869</TD>
+      <TD>  0.156099</TD>
+      <TD>  0.156343</TD>
+      <TD>Simbad</TD>
+      <TD>14 22 46.39000</TD>
+      <TD>-00 38 13.6800</TD>
+     </TR>
+     <TR>
+      <TD>0</TD>
+      <TD>BD+00  3172</TD>
+      <TD>F8</TD>
+      <TD> 11.154</TD>
+      <TD> 10.668</TD>
+      <TD> 10.133150</TD>
+      <TD>  9.764864</TD>
+      <TD>  9.403</TD>
+      <TD>  9.032</TD>
+      <TD>  8.984</TD>
+      <TD>  8.944</TD>
+      <TD> 8.974</TD>
+      <TD>  8.922000</TD>
+      <TD> 0.068981</TD>
+      <TD>     0.90331</TD>
+      <TD>0</TD>
+      <TD>  0.063956</TD>
+      <TD>  0.065071</TD>
+      <TD>  0.065753</TD>
+      <TD>  0.066429</TD>
+      <TD>  0.067467</TD>
+      <TD>  0.067467</TD>
+      <TD>  0.067712</TD>
+      <TD>  0.068252</TD>
+      <TD>  0.068380</TD>
+      <TD>  0.068645</TD>
+      <TD>Simbad</TD>
+      <TD>14 23 06.47200</TD>
+      <TD>-00 21 42.0800</TD>
+     </TR>
+     <TR>
+      <TD>0</TD>
+      <TD>HD 126130</TD>
+      <TD>G6V</TD>
+      <TD>  9.961</TD>
+      <TD>  9.190</TD>
+      <TD>  8.521761</TD>
+      <TD>  8.136021</TD>
+      <TD>  7.748</TD>
+      <TD>  7.343</TD>
+      <TD>  7.278</TD>
+      <TD>  7.161</TD>
+      <TD> 7.266</TD>
+      <TD>  7.242000</TD>
+      <TD> 0.162714</TD>
+      <TD>      0.1387</TD>
+      <TD>0</TD>
+      <TD>  0.149548</TD>
+      <TD>  0.152397</TD>
+      <TD>  0.154157</TD>
+      <TD>  0.155893</TD>
+      <TD>  0.158694</TD>
+      <TD>  0.158694</TD>
+      <TD>  0.159340</TD>
+      <TD>  0.160687</TD>
+      <TD>  0.161149</TD>
+      <TD>  0.161808</TD>
+      <TD>Simbad</TD>
+      <TD>14 23 33.90510</TD>
+      <TD>+00 02 49.5000</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="V_17A_catalog" name="V/17A/catalog">
+   <DESCRIPTION>
+    The list of Supergiants
+   </DESCRIPTION>
+   <FIELD ID="HD" datatype="int" name="HD" ucd="ID_ALTERNATIVE" width="6">
+    <DESCRIPTION>
+     [1/359083]? Henry Draper Catalogue Designation [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="RA1950" arraysize="10" datatype="char" name="RA1950" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension 1950
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DE1950" arraysize="9" datatype="char" name="DE1950" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination 1950
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_JHN_V" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Visual magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="B-V" datatype="float" name="B-V" precision="3" ucd="PHOT_JHN_B-V" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Colour
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="U-B" datatype="float" name="U-B" precision="3" ucd="PHOT_JHN_U-B" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Colour
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Sp" arraysize="16" datatype="char" name="Sp">
+    <DESCRIPTION>
+     Spectral classification (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA.icrs" arraysize="10" datatype="char" name="_RA.icrs" ucd="POS_EQ_RA_OTHER" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (ICRS) (computed by VizieR, not part of the
+     original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" arraysize="9" datatype="char" name="_DE.icrs" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (ICRS) (computed by VizieR, not part of the original
+     data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>226868</TD>
+      <TD>19 56 28.7</TD>
+      <TD>+35 03 54</TD>
+      <TD> 8.89</TD>
+      <TD> 0.840</TD>
+      <TD>-0.260</TD>
+      <TD>B0 IB</TD>
+      <TD>19 58 21.5</TD>
+      <TD>+35 12 05</TD>
+     </TR>
+     <TR>
+      <TD>227005</TD>
+      <TD>19 57 53.4</TD>
+      <TD>+34 53 48</TD>
+      <TD>11.30</TD>
+      <TD> 0.200</TD>
+      <TD> 0.140</TD>
+      <TD>B9 II</TD>
+      <TD>19 59 46.6</TD>
+      <TD>+35 02 05</TD>
+     </TR>
+     <TR>
+      <TD>190113</TD>
+      <TD>20 00 10.3</TD>
+      <TD>+35 30 02</TD>
+      <TD> 7.91</TD>
+      <TD> 1.460</TD>
+      <TD/>
+      <TD>G8 V</TD>
+      <TD>20 02 02.8</TD>
+      <TD>+35 38 27</TD>
+     </TR>
+     <TR>
+      <TD>227247</TD>
+      <TD>20 00 30.1</TD>
+      <TD>+35 10 13</TD>
+      <TD> 9.22</TD>
+      <TD> 0.350</TD>
+      <TD>-0.580</TD>
+      <TD>B2 II:</TD>
+      <TD>20 02 23.2</TD>
+      <TD>+35 18 40</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

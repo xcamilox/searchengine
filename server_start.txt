@@ -1,0 +1,7 @@
+#start mongodb
+cd /Users/cjimenez/Documents/PHD/databases
+mongod --dbpath /Users/cjimenez/Documents/PHD/databases
+
+#star client server (Angular)
+cd /Users/cjimenez/Documents/PHD/code/search_ui/searchUI
+ng serve --open

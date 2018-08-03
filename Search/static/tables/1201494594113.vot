@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_A_A_516_A28_Tycho-Brahe" name="J/A+A/516/A28/Tycho-Brahe">
+   <DESCRIPTION>
+    Emended version of Kepler (1627) edition of Tycho Brahe Star
+    Catalogue, with descriptions of the stars, from the Manuscript
+    version of the catalogue
+   </DESCRIPTION>
+   <FIELD ID="M" datatype="short" name="M" ucd="ID_MAIN" width="4">
+    <DESCRIPTION>
+     ? Sequence number in Manuscript Catalogue [NULL integer written
+     as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="v" arraysize="1" datatype="char" name="v" ucd="DATA_LINK">
+    <DESCRIPTION>
+     {\bf v} indicates that a variant exists for this star in the {\tt
+     variant} file
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="B" datatype="short" name="B" ucd="ID_NUMBER" width="3">
+    <DESCRIPTION>
+     ? Sequence number in Brahe 1602 edition [NULL integer written as
+     an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="K" datatype="short" name="K" ucd="ID_NUMBER" width="4">
+    <DESCRIPTION>
+     ? Sequence number in Kepler 1627 edition [NULL integer written as
+     an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="cst" arraysize="3" datatype="char" name="cst" ucd="ID_CONSTEL">
+    <DESCRIPTION>
+     Abbreviation of constellation name
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="N" datatype="short" name="N" ucd="ID_NUMBER" width="2">
+    <DESCRIPTION>
+     Sequence number of star in constellation
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Elon" arraysize="8" datatype="char" name="Elon" ucd="POS_EC_LON" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     [1,12] Zodiacal sign of ecliptic longitude (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Elat" arraysize="6" datatype="char" name="Elat" ucd="POS_EC_LAT" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Degrees of ecliptic latitude (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="VB" datatype="unsignedByte" name="VB" ucd="PHOT_MAG_EYE" width="1">
+    <DESCRIPTION>
+     Magnitude as given by Brahe; 9 for `nebulous'
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_VB" arraysize="1" datatype="char" name="n_VB" ucd="NOTE">
+    <DESCRIPTION>
+     fainter ({\bf.}) or brighter ({\bf:}) magnitude qualifier
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HIP" datatype="int" name="HIP" ucd="ID_ALTERNATIVE" width="6">
+    <DESCRIPTION>
+     ? Hipparcos number of identification [NULL integer written as an
+     empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="I" datatype="unsignedByte" name="I" ucd="CODE_MISC" width="1">
+    <DESCRIPTION>
+     [1,6] Quality of identification (4)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="D" datatype="unsignedByte" name="D" ucd="CODE_MISC" width="1">
+    <DESCRIPTION>
+     [0,5] Comparison flag with Dreyer (5)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="R" datatype="unsignedByte" name="R" ucd="CODE_MISC" width="1">
+    <DESCRIPTION>
+     [0,5] comparison flag with Rawlins (5)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="1" ucd="PHOT_JHN_V" unit="mag" width="4">
+    <DESCRIPTION>
+     ? Magnitude of Hipparcos identification
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Delta" datatype="float" name="Delta" precision="1" ucd="POS_ANG_DIST_GENERAL" unit="arcm" width="6">
+    <DESCRIPTION>
+     ? Offset between Brahe star and identification
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Name" arraysize="80" datatype="char" name="Name" ucd="NOTE">
+    <DESCRIPTION>
+     Latin description of star in Manuscript 1598 (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA.icrs" arraysize="10" datatype="char" name="_RA.icrs" ucd="POS_EQ_RA_OTHER" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (ICRS) (computed by VizieR, not part of the
+     original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" arraysize="9" datatype="char" name="_DE.icrs" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (ICRS) (computed by VizieR, not part of the original
+     data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>546</TD>
+      <TD/>
+      <TD>446</TD>
+      <TD>197</TD>
+      <TD>Cyg</TD>
+      <TD>3</TD>
+      <TD>307:33.0</TD>
+      <TD>+54:19</TD>
+      <TD>4</TD>
+      <TD>.</TD>
+      <TD>98110</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD>1</TD>
+      <TD> 3.9</TD>
+      <TD>   4.6</TD>
+      <TD>Simbad</TD>
+      <TD>In medio colli</TD>
+      <TD>21 17 25.1</TD>
+      <TD>042 38 41</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

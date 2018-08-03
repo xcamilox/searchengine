@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJS_211_25_catalog" name="J/ApJS/211/25/catalog">
+   <DESCRIPTION>
+    Stellar properties {\em (table 1)}, infra-red photometry {\em
+    (table 2)} and black-body fitting parameters {\em (table 3)}
+   </DESCRIPTION>
+   <FIELD ID="Name" arraysize="22" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Source identifier
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="15" datatype="char" name="SpType" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     MK spectral type if any
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="M_" datatype="float" name="M_" precision="1" ucd="PHYS_MASS_MISC" unit="Msun" width="4">
+    <DESCRIPTION>
+     [0.6/5.4]? Star mass
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="f_M_" arraysize="1" datatype="char" name="f_M_" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [a] Mass estimated from M-L relation (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="F13_F_" datatype="float" name="F13_F_" precision="2" ucd="PHOT_FLUX_RATIO" width="5">
+    <DESCRIPTION>
+     ? Disk 13um flux density relative to stellar
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="F24_F_" datatype="double" name="F24_F_" precision="2" ucd="PHOT_FLUX_RATIO" width="11">
+    <DESCRIPTION>
+     ? Disk 24um flux density relative to stellar
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="F31_F_" datatype="float" name="F31_F_" precision="2" ucd="PHOT_FLUX_RATIO" width="6">
+    <DESCRIPTION>
+     ? Disk 31um flux density relative to stellar
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="F70_F_" datatype="float" name="F70_F_" precision="2" ucd="PHOT_FLUX_RATIO" width="7">
+    <DESCRIPTION>
+     ? Disk 70um flux density relative to stellar
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="__13-31_" datatype="float" name="__13-31_" precision="2" ucd="PHOT_CI_IR" width="6">
+    <DESCRIPTION>
+     [-11/14] N(13-31{mu}m) continuum index (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="__31-70_" datatype="float" name="__31-70_" precision="2" ucd="PHOT_CI_IR" width="5">
+    <DESCRIPTION>
+     [-6/18]? N(31-70{mu}m) continuum index (3)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="amin" datatype="float" name="amin" precision="1" ucd="EXTENSION_DIAM" unit="um" width="4">
+    <DESCRIPTION>
+     [0/85.5]? Grain size
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Tgr" datatype="short" name="Tgr" ucd="PHYS_TEMP_MISC" unit="K" width="3">
+    <DESCRIPTION>
+     [30/500]? Grain temperature in single-T model [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="_1chi2" datatype="float" name="_1chi2" precision="1" ucd="FIT_CHI2" width="6">
+    <DESCRIPTION>
+     ? {chi}^2^ of the single-T model
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Tgr1" datatype="short" name="Tgr1" ucd="PHYS_TEMP_MISC" unit="K" width="3">
+    <DESCRIPTION>
+     ? First grain temperature in the two-T model [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="Tgr2" datatype="short" name="Tgr2" ucd="PHYS_TEMP_MISC" unit="K" width="3">
+    <DESCRIPTION>
+     ? Second grain temperature in the two-T model [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="_2chi2" datatype="float" name="_2chi2" precision="1" ucd="FIT_CHI2" width="7">
+    <DESCRIPTION>
+     ? {chi}^2^ of the two-T model
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Positions from SIMBAD database (right ascension part)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Positions from SIMBAD database (declination part)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>BD+003170</TD>
+      <TD>K2</TD>
+      <TD> 1.8</TD>
+      <TD>a</TD>
+      <TD> 0.96</TD>
+      <TD>       1.00</TD>
+      <TD>  1.00</TD>
+      <TD>   6.07</TD>
+      <TD>  0.78</TD>
+      <TD/>
+      <TD> 8.0</TD>
+      <TD>500</TD>
+      <TD>   2.9</TD>
+      <TD>-32768</TD>
+      <TD>-32768</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>215.63658</TD>
+      <TD> -0.34186</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

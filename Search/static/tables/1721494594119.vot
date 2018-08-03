@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_other_NewA_47_81_table" name="J/other/NewA/47.81/table">
+   <DESCRIPTION>
+    Distances to X ray binaries
+   </DESCRIPTION>
+   <FIELD ID="Name" arraysize="18" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     X-ray source name
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dist" datatype="float" name="Dist" precision="2" ucd="POS_GAL_HC" unit="kpc" width="5">
+    <DESCRIPTION>
+     Distance
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Type" arraysize="4" datatype="char" name="Type" ucd="CLASS_OBJECT">
+    <DESCRIPTION>
+     X-ray binary type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Ref" arraysize="44" datatype="char" name="Ref" ucd="REFER_CODE">
+    <DESCRIPTION>
+     Distance reference
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SimbadName" arraysize="18" datatype="char" name="SimbadName" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Designation understandable by the {\bf\fg{FireBrick}Simbad} data-
+     base
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right Ascension (J2000) from SIMBAD (not part of the original
+     data)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (J2000) from SIMBAD (not part of the original data)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>Cyg X-1</TD>
+      <TD> 2.10</TD>
+      <TD>HMXB</TD>
+      <TD>Grimm et al. (2002A&amp;A...391..923G)</TD>
+      <TD>Cyg X-1</TD>
+      <TD>299.59032</TD>
+      <TD> 35.20160</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

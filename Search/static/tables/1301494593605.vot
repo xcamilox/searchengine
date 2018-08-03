@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_MNRAS_443_2561_stars" name="J/MNRAS/443/2561/stars">
+   <DESCRIPTION>
+    CONCH-SHELL Full Catalog
+   </DESCRIPTION>
+   <FIELD ID="q_PM" arraysize="1" datatype="char" name="q_PM" ucd="CODE_QUALITY">
+    <DESCRIPTION>
+     [A-D] Selection class (G1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="PM" arraysize="13" datatype="char" name="PM" ucd="ID_MAIN">
+    <DESCRIPTION>
+     SUPERBLINK name (IHHMMm+DDMMW)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="m_PM" arraysize="1" datatype="char" name="m_PM" ucd="CODE_MULT_INDEX">
+    <DESCRIPTION>
+     [EMS] Multiplicity flag: S=single, M=multiple, E=elongated
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="10" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension J2000
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="9" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination J2000
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmRA" datatype="short" name="pmRA" ucd="POS_EQ_PMRA" unit="mas.yr-1" width="6">
+    <DESCRIPTION>
+     [-4.5/6.6] Proper motion in RA
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="pmDE" datatype="short" name="pmDE" ucd="POS_EQ_PMDEC" unit="mas.yr-1" width="6">
+    <DESCRIPTION>
+     [-5.8/11] Proper motion in DE
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Bmag" datatype="float" name="Bmag" precision="2" ucd="PHOT_JHN_B" unit="mag" width="5">
+    <DESCRIPTION>
+     ? APASS B magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_JHN_V" unit="mag" width="5">
+    <DESCRIPTION>
+     ? APASS V magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="3" ucd="PHOT_JHN_J" unit="mag" width="6">
+    <DESCRIPTION>
+     2MASS J magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Ksmag" datatype="float" name="Ksmag" precision="3" ucd="PHOT_JHN_K" unit="mag" width="6">
+    <DESCRIPTION>
+     ? 2MASS Ks magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="SpT" arraysize="2" datatype="char" name="SpT" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     Spectral type (?? = uncertain)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="TiO5" datatype="float" name="TiO5" precision="3" ucd="SPECT_INDEX_MISC" width="6">
+    <DESCRIPTION>
+     [0.18/1.05]? TiO5 index
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="EWHa" datatype="float" name="EWHa" precision="2" ucd="SPECT_EQ-WIDTH" unit="0.1nm" width="6">
+    <DESCRIPTION>
+     [-4.1/96]? H{alpha} equivalent width ({AA})
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="__Fe_H_" datatype="float" name="__Fe_H_" precision="2" ucd="PHYS_ABUND_FE/H" unit="[Sun]" width="5">
+    <DESCRIPTION>
+     [-1/0.6]? Metallicity [Fe/H]
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Teff" datatype="short" name="Teff" ucd="PHYS_TEMP_EFFEC" unit="K" width="4">
+    <DESCRIPTION>
+     [863/4803] Effective temperature
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="l_R" arraysize="1" datatype="char" name="l_R" ucd="CODE_LIMIT">
+    <DESCRIPTION>
+     [-] Upper limit flag on R
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="R" datatype="float" name="R" precision="2" ucd="PHYS_SIZE_RADIUS_GENERAL" unit="Rsun" width="5">
+    <DESCRIPTION>
+     Star radius
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="l_L" arraysize="1" datatype="char" name="l_L" ucd="CODE_LIMIT">
+    <DESCRIPTION>
+     [-] Upper limit flag on L
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="L" datatype="float" name="L" precision="3" ucd="PHYS_LUMINOSITY_GENERAL" unit="Lsun" width="6">
+    <DESCRIPTION>
+     Star luminosity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="l_M" arraysize="1" datatype="char" name="l_M" ucd="CODE_LIMIT">
+    <DESCRIPTION>
+     [-] Upper limit flag on M
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="M" datatype="float" name="M" precision="2" ucd="PHYS_MASS_MISC" unit="Msun" width="5">
+    <DESCRIPTION>
+     Star mass
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="d" datatype="float" name="d" precision="1" ucd="POS_GAL_HC" unit="pc" width="5">
+    <DESCRIPTION>
+     [1/92]? Distance (pc)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>A</TD>
+      <TD>I14178+0009</TD>
+      <TD/>
+      <TD>14 17 51.3</TD>
+      <TD>+00 09 31</TD>
+      <TD>-183</TD>
+      <TD>101</TD>
+      <TD>13.05</TD>
+      <TD>11.73</TD>
+      <TD> 8.986</TD>
+      <TD> 8.131</TD>
+      <TD>M0</TD>
+      <TD> 0.839</TD>
+      <TD> -0.64</TD>
+      <TD>-0.05</TD>
+      <TD>3941</TD>
+      <TD/>
+      <TD> 0.57</TD>
+      <TD/>
+      <TD> 0.070</TD>
+      <TD/>
+      <TD> 0.62</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>A</TD>
+      <TD>I14212-0107</TD>
+      <TD>S</TD>
+      <TD>14 21 15.1</TD>
+      <TD>-01 07 19</TD>
+      <TD>181</TD>
+      <TD>-627</TD>
+      <TD>14.83</TD>
+      <TD>13.19</TD>
+      <TD> 8.948</TD>
+      <TD> 8.093</TD>
+      <TD>M4</TD>
+      <TD> 0.473</TD>
+      <TD> -0.23</TD>
+      <TD>-0.02</TD>
+      <TD>3283</TD>
+      <TD/>
+      <TD> 0.23</TD>
+      <TD/>
+      <TD> 0.006</TD>
+      <TD/>
+      <TD> 0.19</TD>
+      <TD> 13.4</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

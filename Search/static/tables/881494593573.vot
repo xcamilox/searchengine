@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_A_A_589_A49_table3" name="J/A+A/589/A49/table3">
+   <DESCRIPTION>
+    List of L dwarfs
+   </DESCRIPTION>
+   <FIELD ID="ULAS" arraysize="19" datatype="char" name="ULAS" ucd="ID_MAIN">
+    <DESCRIPTION>
+     ULAS designation (JHHMMSS.ss+DDMMSS.s)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="imag" datatype="float" name="imag" precision="2" ucd="PHOT_SDSS_I" unit="mag" width="5">
+    <DESCRIPTION>
+     ? SDSS i magnitude (in Vega)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="zmag" datatype="float" name="zmag" precision="2" ucd="PHOT_SDSS_Z" unit="mag" width="5">
+    <DESCRIPTION>
+     ? SDSS z magnitude (in Vega)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Ymag" datatype="float" name="Ymag" precision="2" ucd="PHOT_MAG_Y" unit="mag" width="5">
+    <DESCRIPTION>
+     UKIDSS Y magnitude (in Vega)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="2" ucd="PHOT_JHN_J" unit="mag" width="5">
+    <DESCRIPTION>
+     UKIDSS J magnitude (in Vega)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Hmag" datatype="float" name="Hmag" precision="2" ucd="PHOT_MAG_H" unit="mag" width="5">
+    <DESCRIPTION>
+     UKIDSS H magnitude (in Vega)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Kmag" datatype="float" name="Kmag" precision="2" ucd="PHOT_MAG_K" unit="mag" width="5">
+    <DESCRIPTION>
+     UKIDSS K magnitude (in Vega)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="W1mag" datatype="float" name="W1mag" precision="2" ucd="PHOT_IR_3.4" unit="mag" width="5">
+    <DESCRIPTION>
+     ? WISE W1 magnitude (in Vega)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="W2mag" datatype="float" name="W2mag" precision="2" ucd="PHOT_IR_4.2" unit="mag" width="5">
+    <DESCRIPTION>
+     ? WISE W2 magnitude (in Vega)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="PhType" arraysize="7" datatype="char" name="PhType" ucd="CLASS_CODE">
+    <DESCRIPTION>
+     Photo-type classification
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="chi2" datatype="float" name="chi2" precision="2" ucd="FIT_CHI2" width="7">
+    <DESCRIPTION>
+     chi2 value from photo-type classification
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="7" datatype="char" name="SpType" ucd="CLASS_CODE">
+    <DESCRIPTION>
+     Spectral type given in literature (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Ref" datatype="short" name="Ref" ucd="REFER_CODE" width="2">
+    <DESCRIPTION>
+     ? Paper it was spectroscopically classified in, in refs.dat file
+     [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right ascension (derived from ULAS) for Eq=J2000
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (derived from ULAS) for Eq=J2000
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>J141903.47+000108.5</TD>
+      <TD>21.18</TD>
+      <TD>19.04</TD>
+      <TD>18.17</TD>
+      <TD>17.18</TD>
+      <TD>16.54</TD>
+      <TD>16.01</TD>
+      <TD>15.83</TD>
+      <TD>15.46</TD>
+      <TD>L0</TD>
+      <TD>   4.14</TD>
+      <TD/>
+      <TD>-32768</TD>
+      <TD>214.76446</TD>
+      <TD>  0.01903</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

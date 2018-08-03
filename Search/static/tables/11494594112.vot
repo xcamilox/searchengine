@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="I_71_catalog" name="I/71/catalog">
+   <DESCRIPTION>
+    The catalog
+   </DESCRIPTION>
+   <FIELD ID="BD" arraysize="8" datatype="char" name="BD" ucd="ID_NUMBER">
+    <DESCRIPTION>
+     BD number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="m_BD" arraysize="1" datatype="char" name="m_BD" ucd="CODE_MULT_INDEX">
+    <DESCRIPTION>
+     [ab] Letter designation
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RA1855" arraysize="10" datatype="char" name="RA1855" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascens. (Eq=1855) hours
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DE1855" arraysize="8" datatype="char" name="DE1855" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (Eq=1855) degrees
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="mag" arraysize="4" datatype="char" name="mag" unit="mag">
+    <DESCRIPTION>
+     Magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA.icrs" arraysize="10" datatype="char" name="_RA.icrs" ucd="POS_EQ_RA_OTHER" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (ICRS) (computed by VizieR, not part of the
+     original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" arraysize="9" datatype="char" name="_DE.icrs" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (ICRS) (computed by VizieR, not part of the original
+     data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>+34 3817</TD>
+      <TD>a</TD>
+      <TD>19 53 03.1</TD>
+      <TD>+34 19.5</TD>
+      <TD>9.5</TD>
+      <TD>19 58 32.1</TD>
+      <TD>+34 42 57</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

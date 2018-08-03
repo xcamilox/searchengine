@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="I_334_w1j00sta" name="I/334/w1j00sta">
+   <DESCRIPTION>
+    W1J00 star positions (means) (W1J00_stars.dat)
+   </DESCRIPTION>
+   <FIELD ID="W1J00" datatype="short" name="W1J00" ucd="ID_MAIN" width="4">
+    <DESCRIPTION>
+     W1J00 identifier
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="12" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension at epoch EpRA (ICRS) (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_RAJ2000" datatype="short" name="e_RAJ2000" ucd="ERROR" unit="mas" width="3">
+    <DESCRIPTION>
+     Standard error of the mean, RA
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="NumRA" datatype="short" name="NumRA" ucd="NUMBER" width="3">
+    <DESCRIPTION>
+     Number of observations used for RA
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="EpRA" datatype="double" name="EpRA" precision="3" ucd="TIME_EPOCH" unit="yr" width="8">
+    <DESCRIPTION>
+     Mean epoch of RA
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="dRA" datatype="float" name="dRA" precision="3" ucd="POS_EQ_RA_OFF" unit="s" width="6">
+    <DESCRIPTION>
+     RA difference, Absolute - ICRS (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="12" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination at epoch EpDE (ICRS) (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_DEJ2000" datatype="short" name="e_DEJ2000" ucd="ERROR" unit="mas" width="3">
+    <DESCRIPTION>
+     Standard error of the mean, DE
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="NumDE" datatype="short" name="NumDE" ucd="NUMBER" width="3">
+    <DESCRIPTION>
+     Number of observations used for DE
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="EpDE" datatype="double" name="EpDE" precision="3" ucd="TIME_EPOCH" unit="yr" width="8">
+    <DESCRIPTION>
+     Mean epoch of DE
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="dDE" datatype="float" name="dDE" precision="2" ucd="POS_EQ_DEC_OTHER" unit="arcs" width="5">
+    <DESCRIPTION>
+     DE difference, Absolute - ICRS (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="3" ucd="PHOT_MAG_V" unit="mag" width="6">
+    <DESCRIPTION>
+     Visual magnitude (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HIC" datatype="int" name="HIC" ucd="ID_ALTERNATIVE" width="6">
+    <DESCRIPTION>
+     ? Hipparcos Input Catalog (Cat. I/196) number (4) [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="Comp" arraysize="2" datatype="char" name="Comp" ucd="CODE_MISC">
+    <DESCRIPTION>
+     Hipparcos Input Catalog component (4)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DM" datatype="int" name="DM" ucd="ID_ALTERNATIVE" width="8">
+    <DESCRIPTION>
+     ? Durchmusterung (Cat. I/122) number (4) [NULL integer written as
+     an empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="FK5" datatype="short" name="FK5" ucd="ID_ALTERNATIVE" width="4">
+    <DESCRIPTION>
+     ? FK5 (Cats. I/149 and I/175) number (4) [NULL integer written as
+     an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="WDS" arraysize="9" datatype="char" name="WDS" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Washington Double Star Catalog (Cat. B/wds) identifier (4)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>5953</TD>
+      <TD>19 54 49.031</TD>
+      <TD>150</TD>
+      <TD>4</TD>
+      <TD>1980.889</TD>
+      <TD> 0.011</TD>
+      <TD>+35 00 20.19</TD>
+      <TD>145</TD>
+      <TD>4</TD>
+      <TD>1980.889</TD>
+      <TD> 0.09</TD>
+      <TD> 8.570</TD>
+      <TD>97987</TD>
+      <TD/>
+      <TD>3403787</TD>
+      <TD>-32768</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD>5961</TD>
+      <TD>19 56 18.430</TD>
+      <TD>81</TD>
+      <TD>11</TD>
+      <TD>1979.530</TD>
+      <TD> 0.012</TD>
+      <TD>+35 05 00.77</TD>
+      <TD>46</TD>
+      <TD>8</TD>
+      <TD>1979.872</TD>
+      <TD> 0.09</TD>
+      <TD> 4.000</TD>
+      <TD>98110</TD>
+      <TD>A</TD>
+      <TD>-2147483648</TD>
+      <TD>1521</TD>
+      <TD>19563+350</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

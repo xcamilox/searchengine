@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJS_112_557_table1" name="J/ApJS/112/557/table1">
+   <DESCRIPTION>
+    IDs, classes, 12 micron fluxes, 12-25um colors
+   </DESCRIPTION>
+   <FIELD ID="IRAS" arraysize="11" datatype="char" name="IRAS" ucd="ID_MAIN">
+    <DESCRIPTION>
+     IRAS Source name (Cat. II/125) \linkRole{IRAS-PSC and LRS
+     catalogs}
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GCVS" arraysize="12" datatype="char" name="GCVS" ucd="ID_CROSSID">
+    <DESCRIPTION>
+     GCVS designation (Cat. B/gcvs)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Other" arraysize="34" datatype="char" name="Other" ucd="ID_CROSSID">
+    <DESCRIPTION>
+     Other designation
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sp" arraysize="30" datatype="char" name="Sp" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     Optical MK spectral type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="LRS" arraysize="1" datatype="char" name="LRS" ucd="SPECT_TYPE_GENERAL">
+    <DESCRIPTION>
+     LRS classification (see Cat. III/197, Note 1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="S12" datatype="int" name="S12" ucd="PHOT_FLUX_IR_12" unit="Jy" width="6">
+    <DESCRIPTION>
+     12um IRAS flux
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="C12-25" datatype="float" name="C12-25" precision="2" ucd="PHOT_IR_12-25" width="5">
+    <DESCRIPTION>
+     12um-25um color
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="p12" arraysize="1" datatype="char" name="p12" ucd="CLASS_CODE">
+    <DESCRIPTION>
+     [x] 12um Peaker
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="4" ucd="POS_EQ_RA_MAIN" unit="deg" width="8">
+    <DESCRIPTION>
+     Position, from IRAS-PSC catalog (II/125) {\em(4 sources are NOT
+     in IRAS-PSC, and have no position)} (right ascension part)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="4" ucd="POS_EQ_DEC_MAIN" unit="deg" width="8">
+    <DESCRIPTION>
+     Position, from IRAS-PSC catalog (II/125) {\em(4 sources are NOT
+     in IRAS-PSC, and have no position)} (declination part)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>19544+3456</TD>
+      <TD>12586</TD>
+      <TD>eta Cyg</TD>
+      <TD>K0 III</TD>
+      <TD>S</TD>
+      <TD>10</TD>
+      <TD>-0.04</TD>
+      <TD/>
+      <TD>Simbad</TD>
+      <TD>299.0762</TD>
+      <TD> 35.0829</TD>
+     </TR>
+     <TR>
+      <TD>19566+3423</TD>
+      <TD/>
+      <TD/>
+      <TD>(OH)</TD>
+      <TD>U</TD>
+      <TD>45</TD>
+      <TD> 2.53</TD>
+      <TD>x</TD>
+      <TD>Simbad</TD>
+      <TD>299.6331</TD>
+      <TD> 34.5255</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

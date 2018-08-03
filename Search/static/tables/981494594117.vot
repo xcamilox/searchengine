@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJS_184_138_table3" name="J/ApJS/184/138/table3">
+   <DESCRIPTION>
+    Association catalog
+   </DESCRIPTION>
+   <FIELD ID="_1RXS" arraysize="16" datatype="char" name="_1RXS" ucd="ID_MAIN">
+    <DESCRIPTION>
+     RASS/BSC source name (JHHMMSS.s+DDMMSS) \linkRole{1RXS data}
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="obj" arraysize="3" datatype="char" name="obj" ucd="CLASS_OBJECT">
+    <DESCRIPTION>
+     SIMBAD object type of RASS/BSC source
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="xrt" datatype="float" name="xrt" precision="2" ucd="PHOT_COUNT-RATE_X" unit="ct.s-1" width="6">
+    <DESCRIPTION>
+     RASS/BSC source count rate
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_xrt" datatype="float" name="e_xrt" precision="2" ucd="ERROR" unit="ct.s-1" width="5">
+    <DESCRIPTION>
+     RASS/BSC source count rate uncertainty
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="P_noid_" datatype="float" name="P_noid_" precision="3" ucd="STAT_PROBABILITY" width="6">
+    <DESCRIPTION>
+     Probability of no association (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_2MASS" arraysize="17" datatype="char" name="_2MASS" ucd="ID_CROSSID">
+    <DESCRIPTION>
+     ? 2MASS/PSC source name (JHHMMSSss+DDMMSSs) \linkRole{2MASS data}
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="obj2" arraysize="3" datatype="char" name="obj2" ucd="CLASS_OBJECT">
+    <DESCRIPTION>
+     ? SIMBAD object type of 2MASS/PSC source
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="1" ucd="PHOT_JHN_J" unit="mag" width="4">
+    <DESCRIPTION>
+     ? 2MASS/PSC source J-band magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="P_id_" datatype="float" name="P_id_" precision="3" ucd="STAT_PROBABILITY" width="6">
+    <DESCRIPTION>
+     ? Probability of unique association (1)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="4" ucd="POS_EQ_RA_MAIN" unit="deg" width="8">
+    <DESCRIPTION>
+     Positions from 1RXS name (right ascension part)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="4" ucd="POS_EQ_DEC_MAIN" unit="deg" width="8">
+    <DESCRIPTION>
+     Positions from 1RXS name (declination part)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>J195821.9+351156</TD>
+      <TD>HXB</TD>
+      <TD> 61.25</TD>
+      <TD> 0.32</TD>
+      <TD> 0.007</TD>
+      <TD>J19582166+3512057</TD>
+      <TD>HXB</TD>
+      <TD> 6.9</TD>
+      <TD> 0.974</TD>
+      <TD>Simbad</TD>
+      <TD>299.5912</TD>
+      <TD> 35.1989</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

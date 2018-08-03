@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJS_152_251_library" name="J/ApJS/152/251/library">
+   <DESCRIPTION>
+    Observational parameters, physical parameters, and cross-
+    references of stars in the mobrary (tables 2, 3 and 4 of paper)
+   </DESCRIPTION>
+   <FIELD ID="Name" arraysize="10" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Stellar identification
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="11" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Hour of Right Ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="11" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Degree of Declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="B-V" datatype="float" name="B-V" precision="2" ucd="PHOT_JHN_B-V" unit="mag" width="5">
+    <DESCRIPTION>
+     ? The (B-V) color
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="10" datatype="char" name="SpType" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     MK Spectral type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpCont" arraysize="5" datatype="char" name="SpCont" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     Continuum spectral type from Pickles library (1998, Cat.
+     &lt;J/PASP/110/863&gt;) (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HRV" datatype="float" name="HRV" precision="1" ucd="VELOC_HC" unit="km.s-1" width="6">
+    <DESCRIPTION>
+     ? Heliocentric radial velocity
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Teff" datatype="int" name="Teff" ucd="PHYS_TEMP_EFFEC" unit="K" width="6">
+    <DESCRIPTION>
+     ? Effective temperature [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="log_g_" datatype="float" name="log_g_" precision="2" ucd="PHYS_GRAVITY_SURFACE" unit="[cm/s2]" width="5">
+    <DESCRIPTION>
+     ? Log of the surface gravity
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="__Fe_H_" datatype="float" name="__Fe_H_" precision="2" ucd="PHYS_ABUND_FE/H" unit="[Sun]" width="6">
+    <DESCRIPTION>
+     ? Metallicity
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Spectrum" arraysize="8" datatype="char" name="Spectrum" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Plot of the spectrum {\em(from http://www.noao.edu/cflib)}
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>HD 188947</TD>
+      <TD>19 56 18.37</TD>
+      <TD>+35 05 00.3</TD>
+      <TD> 1.01</TD>
+      <TD>K0III</TD>
+      <TD>K0III</TD>
+      <TD> -26.5</TD>
+      <TD>4800</TD>
+      <TD> 2.76</TD>
+      <TD> -0.09</TD>
+      <TD>Spectrum</TD>
+      <TD>Simbad</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

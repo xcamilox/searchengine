@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_A_A_480_91_table1" name="J/A+A/480/91/table1">
+   <DESCRIPTION>
+    The TGMET library
+   </DESCRIPTION>
+   <FIELD ID="n_Name" arraysize="1" datatype="char" name="n_Name" ucd="DATA_LINK">
+    <DESCRIPTION>
+     {\bf N} for stars in both tables
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Name" arraysize="10" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     HD/BD number (or Sun)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="S_N" datatype="short" name="S_N" ucd="INST_S/N" width="3">
+    <DESCRIPTION>
+     Signal-to-noise at 550nm
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HRV" datatype="float" name="HRV" precision="2" ucd="VELOC_HC" unit="km.s-1" width="7">
+    <DESCRIPTION>
+     Heliocentric radial velocity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Teff" datatype="short" name="Teff" ucd="PHYS_TEMP_EFFEC" unit="K" width="4">
+    <DESCRIPTION>
+     ? Effective temperature [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="q_Teff" datatype="unsignedByte" name="q_Teff" ucd="CODE_QUALITY" width="1">
+    <DESCRIPTION>
+     [0/4] Quality flag for Teff (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="logg" datatype="float" name="logg" precision="2" ucd="PHYS_GRAVITY_SURFACE" unit="[cm/s2]" width="5">
+    <DESCRIPTION>
+     ? Decimal logarithm of gravity
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="__Fe_H_" datatype="float" name="__Fe_H_" precision="2" ucd="PHYS_ABUND_FE/H" unit="[Sun]" width="5">
+    <DESCRIPTION>
+     ? Metallicity
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="q__Fe_H_" datatype="unsignedByte" name="q__Fe_H_" ucd="CODE_QUALITY" width="1">
+    <DESCRIPTION>
+     [0/4] Quality flag for [Fe/H] (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="VMAG" datatype="float" name="VMAG" precision="3" ucd="PHOT_ABS-MAG_BAND" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Absolute V magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="q_VMAG" datatype="unsignedByte" name="q_VMAG" ucd="CODE_QUALITY" width="1">
+    <DESCRIPTION>
+     [0/4] Quality flag for VMAG (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="B-V" datatype="float" name="B-V" precision="3" ucd="PHOT_JHN_B-V" unit="mag" width="6">
+    <DESCRIPTION>
+     Johnson B-V colour
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="11" datatype="char" name="SpType" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     MK spectral type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="FITS" arraysize="4" datatype="char" name="FITS" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Download the FITS spectrum from the ELODIE Archive
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Plot" arraysize="4" datatype="char" name="Plot" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Plot the spectrum from the ELODIE Archive
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right Ascension (J2000) from SIMBAD (not part of the original
+     data)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (J2000) from SIMBAD (not part of the original data)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>N</TD>
+      <TD>HD188947</TD>
+      <TD>127</TD>
+      <TD> -26.50</TD>
+      <TD>4826</TD>
+      <TD>4</TD>
+      <TD> 2.57</TD>
+      <TD>-0.01</TD>
+      <TD>2</TD>
+      <TD> 0.749</TD>
+      <TD>3</TD>
+      <TD> 1.012</TD>
+      <TD>K0IIIvar</TD>
+      <TD>FITS</TD>
+      <TD>Plot</TD>
+      <TD>Simbad</TD>
+      <TD>299.07655</TD>
+      <TD> 35.08342</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

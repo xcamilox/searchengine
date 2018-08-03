@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_MNRAS_449_1401_table4m" name="J/MNRAS/449/1401/table4m">
+   <DESCRIPTION>
+    *Major list
+   </DESCRIPTION>
+   <FIELD ID="Seq" datatype="short" name="Seq" ucd="ID_NUMBER" width="4">
+    <DESCRIPTION>
+     [1/3316] Sequential number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_Seq" arraysize="1" datatype="char" name="n_Seq" ucd="NOTE">
+    <DESCRIPTION>
+     [*] Note on Seq (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Name" arraysize="19" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Designation of target in LAMOST (JHHMMSS.ss+DDMMSS.s)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="7" ucd="POS_EQ_RA_MAIN" unit="deg" width="11">
+    <DESCRIPTION>
+     Right ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="7" ucd="POS_EQ_DEC_MAIN" unit="deg" width="11">
+    <DESCRIPTION>
+     Declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Conf" datatype="double" name="Conf" precision="8" ucd="FIT_GOODNESS" width="11">
+    <DESCRIPTION>
+     [0/1] Confidence for Am type (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="3" ucd="PHOT_MAG_V" unit="mag" width="6">
+    <DESCRIPTION>
+     ? V magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="KType" arraysize="2" datatype="char" name="KType" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     K line type (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="MType" arraysize="2" datatype="char" name="MType" ucd="MORPH_TYPE">
+    <DESCRIPTION>
+     Metallic-line type from CaII K line (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="logg" datatype="float" name="logg" precision="3" ucd="PHYS_GRAVITY_SURFACE" unit="[cm/s2]" width="6">
+    <DESCRIPTION>
+     ? Surface gravity
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_logg" datatype="float" name="e_logg" precision="3" ucd="ERROR" unit="[cm/s2]" width="6">
+    <DESCRIPTION>
+     ? rms uncertainty on logg
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>2976</TD>
+      <TD/>
+      <TD>J141907.45+001029.7</TD>
+      <TD>214.7810500</TD>
+      <TD>  0.1749280</TD>
+      <TD> 0.57612706</TD>
+      <TD>12.233</TD>
+      <TD>A6</TD>
+      <TD>F2</TD>
+      <TD> 3.946</TD>
+      <TD> 0.355</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

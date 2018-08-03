@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJ_702_955_table1" name="J/ApJ/702/955/table1">
+   <DESCRIPTION>
+    *K10/3000 galaxy sample
+   </DESCRIPTION>
+   <FIELD ID="PGC" datatype="int" name="PGC" ucd="ID_NUMBER" width="7">
+    <DESCRIPTION>
+     Principal Galaxy Catalog number (\dicS{LEDA NNNNNNN} in Simbad)
+     (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Name" arraysize="11" datatype="char" name="Name" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Galaxy name
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_2MASX" arraysize="16" datatype="char" name="_2MASX" ucd="ID_MAIN">
+    <DESCRIPTION>
+     2MASS XSC identification (Cat. VII/233; \dicS{2MASX
+     JHHMMSSss+DDMMSSs} in Simbad)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Ksmag" datatype="float" name="Ksmag" precision="2" ucd="PHOT_JHN_K" unit="mag" width="5">
+    <DESCRIPTION>
+     2MASS XSC Ks band magnitude (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="KsMag" datatype="float" name="KsMag" precision="2" ucd="PHOT_ABS-MAG_BAND" unit="mag" width="6">
+    <DESCRIPTION>
+     Absolute Ks band magnitude (4)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Bmag" datatype="float" name="Bmag" precision="2" ucd="PHOT_MAG_B" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Total PGC apparent corrected B band magnitude (5)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="LGA" arraysize="1" datatype="char" name="LGA" ucd="CODE_MISC">
+    <DESCRIPTION>
+     [Z]? Large Galaxy Atlas flag (6)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Morph" datatype="float" name="Morph" precision="1" ucd="MORPH_TYPE" width="4">
+    <DESCRIPTION>
+     ? PGC morphological T type (5)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Dist" datatype="float" name="Dist" precision="2" ucd="POS_GAL_HC" unit="Mpc" width="5">
+    <DESCRIPTION>
+     Distance (7)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="q_Dist" arraysize="1" datatype="char" name="q_Dist" ucd="CODE_QUALITY">
+    <DESCRIPTION>
+     [q]? Quality flag on Dist (8)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_2M" arraysize="2" datatype="char" name="_2M" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the 2MASS Extended sources data (IPAC/UMass, 2003-2006,
+     Cat. VII/233)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="NED" arraysize="3" datatype="char" name="NED" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}NED} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="LEDA" arraysize="4" datatype="char" name="LEDA" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}LEDA} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="4" ucd="POS_EQ_RA_MAIN" unit="deg" width="8">
+    <DESCRIPTION>
+     2MASX Right Ascension in decimal degrees (J2000) (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="4" ucd="POS_EQ_DEC_MAIN" unit="deg" width="8">
+    <DESCRIPTION>
+     2MASX Declination in decimal degrees (J2000) (2)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>51344</TD>
+      <TD>NGC 5584</TD>
+      <TD>14222381-0023148</TD>
+      <TD> 9.97</TD>
+      <TD>-21.62</TD>
+      <TD>12.50</TD>
+      <TD/>
+      <TD> 5.9</TD>
+      <TD>20.80</TD>
+      <TD/>
+      <TD>2M</TD>
+      <TD>Simbad</TD>
+      <TD>NED</TD>
+      <TD>LEDA</TD>
+      <TD>215.5992</TD>
+      <TD> -0.3874</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

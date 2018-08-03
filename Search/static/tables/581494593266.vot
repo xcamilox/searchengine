@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJ_730_128_table1" name="J/ApJ/730/128/table1">
+   <DESCRIPTION>
+    SDSS DR4 sample of DA white dwarfs with S/N&gt;12
+   </DESCRIPTION>
+   <FIELD ID="SDSS" arraysize="19" datatype="char" name="SDSS" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     SDSS name (JHHMMSS.ss+DDMMSS.s) (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="MJD" datatype="int" name="MJD" ucd="TIME_DATE" unit="d" width="5">
+    <DESCRIPTION>
+     SDSS MJD
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Teff" datatype="int" name="Teff" ucd="PHYS_TEMP_EFFEC" unit="K" width="6">
+    <DESCRIPTION>
+     Effective temperature
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_Teff" datatype="int" name="e_Teff" ucd="ERROR" unit="K" width="5">
+    <DESCRIPTION>
+     ? Uncertainty in Teff [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="log_g_" datatype="float" name="log_g_" precision="2" ucd="PHYS_GRAVITY_SURFACE" unit="[cm/s2]" width="5">
+    <DESCRIPTION>
+     Log of the surface gravity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_log_g_" datatype="float" name="e_log_g_" precision="2" ucd="ERROR" unit="[cm/s2]" width="5">
+    <DESCRIPTION>
+     ? Uncertainty in log(g)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Mass" datatype="float" name="Mass" precision="2" ucd="PHYS_MASS_MISC" unit="Msun" width="5">
+    <DESCRIPTION>
+     ? Mass
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_Mass" datatype="float" name="e_Mass" precision="2" ucd="ERROR" unit="Msun" width="5">
+    <DESCRIPTION>
+     ? Uncertainty in Mass
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="VMag" datatype="float" name="VMag" precision="2" ucd="PHOT_ABS-MAG_BAND" unit="mag" width="5">
+    <DESCRIPTION>
+     ? Absolute V band magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="logtau" datatype="float" name="logtau" precision="2" ucd="TIME_EVOLUTION" unit="[yr]" width="5">
+    <DESCRIPTION>
+     ? Log of white dwarf cooling time
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Notes" arraysize="5" datatype="char" name="Notes" ucd="NOTE">
+    <DESCRIPTION>
+     Additional note(s) (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DR4_" arraysize="4" datatype="char" name="DR4_" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the data from SDSS-DR4, -DR7 and -DR8 within 3"
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sloan" arraysize="5" datatype="char" name="Sloan" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the SDSS online spectrum for this white dwarf
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SimbadName" arraysize="24" datatype="char" name="SimbadName" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Designation understandable by the {\bf\fg{FireBrick}Simbad} data-
+     base
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Positions from SDSS name (right ascension part)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Positions from SDSS name (declination part)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>J141747.96-000549.5</TD>
+      <TD>51957</TD>
+      <TD>17200</TD>
+      <TD>330</TD>
+      <TD> 8.10</TD>
+      <TD> 0.06</TD>
+      <TD> 0.68</TD>
+      <TD> 0.04</TD>
+      <TD>11.18</TD>
+      <TD> 8.21</TD>
+      <TD>2</TD>
+      <TD>DR4+</TD>
+      <TD>Sloan</TD>
+      <TD>SDSS J141747.96-000549.5</TD>
+      <TD>214.44983</TD>
+      <TD> -0.09708</TD>
+     </TR>
+     <TR>
+      <TD>J141839.65+003154.2</TD>
+      <TD>51615</TD>
+      <TD>8790</TD>
+      <TD>90</TD>
+      <TD> 8.21</TD>
+      <TD> 0.13</TD>
+      <TD> 0.72</TD>
+      <TD> 0.08</TD>
+      <TD>12.99</TD>
+      <TD> 9.07</TD>
+      <TD/>
+      <TD>DR4+</TD>
+      <TD>Sloan</TD>
+      <TD>SDSS J141839.65+003154.3</TD>
+      <TD>214.66521</TD>
+      <TD>  0.53172</TD>
+     </TR>
+     <TR>
+      <TD>J141840.39-002516.5</TD>
+      <TD>51609</TD>
+      <TD>16090</TD>
+      <TD>550</TD>
+      <TD> 8.17</TD>
+      <TD> 0.10</TD>
+      <TD> 0.72</TD>
+      <TD> 0.06</TD>
+      <TD>11.40</TD>
+      <TD> 8.37</TD>
+      <TD/>
+      <TD>DR4+</TD>
+      <TD>Sloan</TD>
+      <TD>SDSS J141840.39-002516.5</TD>
+      <TD>214.66829</TD>
+      <TD> -0.42125</TD>
+     </TR>
+     <TR>
+      <TD>J142120.19-004626.0</TD>
+      <TD>51609</TD>
+      <TD>9150</TD>
+      <TD>40</TD>
+      <TD> 8.39</TD>
+      <TD> 0.06</TD>
+      <TD> 0.84</TD>
+      <TD> 0.04</TD>
+      <TD>13.14</TD>
+      <TD> 9.17</TD>
+      <TD>2</TD>
+      <TD>DR4+</TD>
+      <TD>Sloan</TD>
+      <TD>SDSS J142120.19-004626.0</TD>
+      <TD>215.33412</TD>
+      <TD> -0.77389</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

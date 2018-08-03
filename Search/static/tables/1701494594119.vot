@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_other_PBeiO_17_105_table1" name="J/other/PBeiO/17.105/table1">
+   <DESCRIPTION>
+    The third preliminary catalogue of stars' right ascensions
+   </DESCRIPTION>
+   <FIELD ID="PPCP3" datatype="short" name="PPCP3" ucd="ID_MAIN" width="3">
+    <DESCRIPTION>
+     Serial number of the PPCP3
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="FK4" datatype="int" name="FK4" ucd="ID_ALTERNATIVE" width="5">
+    <DESCRIPTION>
+     FK4 (Cat. &lt;I/15&gt;) or GC (Cat. &lt;I/113&gt;) number (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="2" ucd="PHOT_MAG_V" unit="mag" width="5">
+    <DESCRIPTION>
+     Visual magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="2" datatype="char" name="SpType" ucd="SPECT_TYPE_GENERAL">
+    <DESCRIPTION>
+     Spectral type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="13" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (J2000.0)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="13" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (J2000.0)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="corRA" datatype="float" name="corRA" precision="1" ucd="POS_EQ_RA_CORR" unit="ms" width="6">
+    <DESCRIPTION>
+     Position correction RA, mean epoch of obs.
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>297</TD>
+      <TD>1521</TD>
+      <TD> 3.89</TD>
+      <TD>K0</TD>
+      <TD>19 56 18.3849</TD>
+      <TD>+35 05 00.265</TD>
+      <TD>  -6.0</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

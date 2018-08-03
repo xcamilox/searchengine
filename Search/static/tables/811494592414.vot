@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_A_A_466_627_table2" name="J/A+A/466/627/table2">
+   <DESCRIPTION>
+    Catalogue of DA white dwarfs
+   </DESCRIPTION>
+   <FIELD ID="Teff" datatype="int" name="Teff" ucd="PHYS_TEMP_EFFEC" unit="K" width="5">
+    <DESCRIPTION>
+     Effective temperature
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="logg" datatype="float" name="logg" precision="2" ucd="PHYS_GRAVITY_SURFACE" unit="[cm/s2]" width="5">
+    <DESCRIPTION>
+     Log of surface gravity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Mass" datatype="float" name="Mass" precision="2" ucd="PHYS_MASS_MISC" unit="Msun" width="5">
+    <DESCRIPTION>
+     Mass of the star
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Rad" datatype="float" name="Rad" precision="2" ucd="PHYS_SIZE_RADIUS_GENERAL" unit="0.01Rsun" width="5">
+    <DESCRIPTION>
+     Radius of the star
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Age" datatype="float" name="Age" precision="E2" ucd="TIME_AGE" unit="yr" width="9">
+    <DESCRIPTION>
+     Age of the star
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="gMAG" datatype="float" name="gMAG" precision="2" ucd="PHOT_ABS-MAG_BAND" unit="mag" width="5">
+    <DESCRIPTION>
+     g-band absolute magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dist" datatype="float" name="Dist" precision="1" ucd="POS_GAL_HC" unit="pc" width="6">
+    <DESCRIPTION>
+     Heliocentric distance
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SDSS5" arraysize="19" datatype="char" name="SDSS5" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Actual name in SDSS-DR5 {\em(column added at CDS)}
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Sloan" arraysize="5" datatype="char" name="Sloan" ucd="DATA_LINK">
+    <DESCRIPTION>
+     Display the SDSS image for this object (from SDSS site)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Position from SDSS5 catalog II/276, {\bf\fg{red2}except for}
+     \vFile{J/A+A/466/627/missing.txt}{41 objects} which could not be
+     found (right ascension part)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Position from SDSS5 catalog II/276, {\bf\fg{red2}except for}
+     \vFile{J/A+A/466/627/missing.txt}{41 objects} which could not be
+     found (declination part)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>15929</TD>
+      <TD> 7.97</TD>
+      <TD> 0.60</TD>
+      <TD> 1.32</TD>
+      <TD>  1.6e+08</TD>
+      <TD>11.02</TD>
+      <TD> 280.2</TD>
+      <TD>J141747.96-000549.5</TD>
+      <TD>Sloan</TD>
+      <TD>214.44983</TD>
+      <TD> -0.09708</TD>
+     </TR>
+     <TR>
+      <TD>14754</TD>
+      <TD> 8.09</TD>
+      <TD> 0.66</TD>
+      <TD> 1.22</TD>
+      <TD>  2.5e+08</TD>
+      <TD>11.36</TD>
+      <TD> 296.5</TD>
+      <TD>J141840.39-002516.5</TD>
+      <TD>Sloan</TD>
+      <TD>214.66829</TD>
+      <TD> -0.42125</TD>
+     </TR>
+     <TR>
+      <TD>8931</TD>
+      <TD> 8.30</TD>
+      <TD> 0.79</TD>
+      <TD> 1.04</TD>
+      <TD>  1.4e+09</TD>
+      <TD>13.12</TD>
+      <TD> 110.3</TD>
+      <TD>J141839.65+003154.2</TD>
+      <TD>Sloan</TD>
+      <TD>214.66521</TD>
+      <TD>  0.53172</TD>
+     </TR>
+     <TR>
+      <TD>9068</TD>
+      <TD> 8.20</TD>
+      <TD> 0.72</TD>
+      <TD> 1.12</TD>
+      <TD>  1.1e+09</TD>
+      <TD>12.90</TD>
+      <TD>  79.3</TD>
+      <TD>J142120.19-004626.1</TD>
+      <TD>Sloan</TD>
+      <TD>215.33412</TD>
+      <TD> -0.77392</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

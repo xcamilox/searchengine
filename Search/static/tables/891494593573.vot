@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_A_A_597_A47_tablea1" name="J/A+A/597/A47/tablea1">
+   <DESCRIPTION>
+    Log of observed stars: list of 490 observed M-dwarf targets
+   </DESCRIPTION>
+   <FIELD ID="more" arraysize="1" datatype="char" name="more" ucd="DATA_LINK">
+    <DESCRIPTION>
+     indicates more data in tables A3, A4 and/or A5
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Seq" datatype="short" name="Seq" ucd="ID_NUMBER" width="3">
+    <DESCRIPTION>
+     Identification number
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Karmn" arraysize="11" datatype="char" name="Karmn" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Our Carmencita identifier, JHHMMm+DDdA (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Name" arraysize="21" datatype="char" name="Name" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Common name
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="11" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right ascension (J2000) (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="11" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (J2000) (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="3" ucd="PHOT_JHN_J" unit="mag" width="6">
+    <DESCRIPTION>
+     2MASS J-band magnitude (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="6" datatype="char" name="SpType" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     MK spectral type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="r_SpType" arraysize="5" datatype="char" name="r_SpType" ucd="REFER_CODE">
+    <DESCRIPTION>
+     Reference of the spectral type (3)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dist" datatype="float" name="Dist" precision="3" ucd="POS_GAL_HC" unit="pc" width="6">
+    <DESCRIPTION>
+     ? Distance
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="r_Dist" arraysize="9" datatype="char" name="r_Dist" ucd="REFER_CODE">
+    <DESCRIPTION>
+     Reference of the distance (4)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SimbadName" arraysize="23" datatype="char" name="SimbadName" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     Designation understandable by the {\bf\fg{FireBrick}Simbad} data-
+     base
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD/>
+      <TD>330</TD>
+      <TD>J14212-011</TD>
+      <TD>LP 620-003</TD>
+      <TD>14 21 15.13</TD>
+      <TD>-01 07 19.9</TD>
+      <TD> 8.948</TD>
+      <TD>M3.5 V</TD>
+      <TD>PMSU</TD>
+      <TD>13.400</TD>
+      <TD>Ried10</TD>
+      <TD>LP 620-003</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

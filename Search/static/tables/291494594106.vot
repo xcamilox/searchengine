@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="I_328_table1" name="I/328/table1">
+   <DESCRIPTION>
+    Identifications
+   </DESCRIPTION>
+   <FIELD ID="Nb" datatype="short" name="Nb" ucd="NUMBER" width="3">
+    <DESCRIPTION>
+     Number of binaries in this system [NULL integer written as an
+     empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="IDS" arraysize="14" datatype="char" name="IDS" ucd="ID_MAIN">
+    <DESCRIPTION>
+     IDS name (HH MM.m +DD MM) (G1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAB1950" arraysize="8" datatype="char" name="RAB1950" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     ? Right ascension (B1950)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="DEB1950" arraysize="9" datatype="char" name="DEB1950" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     ? Declination (B1950)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="DMz" arraysize="3" datatype="char" name="DMz" ucd="ID_REGION">
+    <DESCRIPTION>
+     Durchmusterung (BD/CP/CPD) zone
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DM" datatype="short" name="DM" ucd="ID_ALTERNATIVE" width="5">
+    <DESCRIPTION>
+     ? Durchmusterung (BD/CP/CPD) number in zone [NULL integer written
+     as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="m_DM" arraysize="1" datatype="char" name="m_DM" ucd="CODE_MULT_INDEX">
+    <DESCRIPTION>
+     [ab] Multiplicity index on DM
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HD" datatype="int" name="HD" ucd="ID_ALTERNATIVE" width="6">
+    <DESCRIPTION>
+     ? HD number [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="C" arraysize="1" datatype="char" name="C" ucd="ID_CATALOG">
+    <DESCRIPTION>
+     [SGA] SAO/GC/AGK catalogue (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SGAn" arraysize="11" datatype="char" name="SGAn" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     SAO/GC/AGK catalogue name (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="PPM" datatype="int" name="PPM" ucd="ID_ALTERNATIVE" width="6">
+    <DESCRIPTION>
+     ? PPM number (I/146; I/193, I/208) [NULL integer written as an
+     empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="ADS" datatype="int" name="ADS" ucd="ID_ALTERNATIVE" width="5">
+    <DESCRIPTION>
+     ? ADS name [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-2147483648"/>
+   </FIELD>
+   <FIELD ID="m_ADS" arraysize="1" datatype="char" name="m_ADS" ucd="CODE_MULT_INDEX">
+    <DESCRIPTION>
+     [a] Multiplicity index on ADS
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Comp1" arraysize="3" datatype="char" name="Comp1" ucd="CODE_MULT_INDEX">
+    <DESCRIPTION>
+     Reference component(s) for cross-ID information given above
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="No" datatype="short" name="No" ucd="NUMBER" width="3">
+    <DESCRIPTION>
+     Number of observations of this system in table2 [NULL integer
+     written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="_RA.icrs" arraysize="10" datatype="char" name="_RA.icrs" ucd="POS_EQ_RA_OTHER">
+    <DESCRIPTION>
+     Right ascension (ICRS) (computed by VizieR, not part of the
+     original data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="_DE.icrs" arraysize="9" datatype="char" name="_DE.icrs" ucd="POS_EQ_DEC_OTHER" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (ICRS) (computed by VizieR, not part of the original
+     data)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>1</TD>
+      <TD>19514+3536</TD>
+      <TD>19 53 12</TD>
+      <TD>+35 44 19</TD>
+      <TD>+35</TD>
+      <TD>3860</TD>
+      <TD/>
+      <TD>226534</TD>
+      <TD>A</TD>
+      <TD>+35  1895</TD>
+      <TD>83817</TD>
+      <TD>13121</TD>
+      <TD/>
+      <TD/>
+      <TD>1</TD>
+      <TD>19 55 03.4</TD>
+      <TD>+35 52 18</TD>
+     </TR>
+     <TR>
+      <TD>1</TD>
+      <TD>19526+3449</TD>
+      <TD>19 54 26</TD>
+      <TD>+34 56 58</TD>
+      <TD>+34</TD>
+      <TD>3798</TD>
+      <TD/>
+      <TD>188947</TD>
+      <TD>A</TD>
+      <TD>+34  1947</TD>
+      <TD>83853</TD>
+      <TD>13149</TD>
+      <TD/>
+      <TD/>
+      <TD>4</TD>
+      <TD>19 56 18.8</TD>
+      <TD>+35 05 01</TD>
+     </TR>
+     <TR>
+      <TD>1</TD>
+      <TD>19554+3516</TD>
+      <TD>19 57 15</TD>
+      <TD>+35 23 57</TD>
+      <TD>+35</TD>
+      <TD>3898</TD>
+      <TD/>
+      <TD>189528</TD>
+      <TD>G</TD>
+      <TD>27696</TD>
+      <TD>-2147483648</TD>
+      <TD>13204</TD>
+      <TD/>
+      <TD>A</TD>
+      <TD>3</TD>
+      <TD>19 59 07.4</TD>
+      <TD>+35 32 11</TD>
+     </TR>
+     <TR>
+      <TD>1</TD>
+      <TD>19557+3537</TD>
+      <TD>19 57 35</TD>
+      <TD>+35 45 34</TD>
+      <TD>+35</TD>
+      <TD>3902</TD>
+      <TD/>
+      <TD>189594</TD>
+      <TD>A</TD>
+      <TD>+35  1915</TD>
+      <TD>83974</TD>
+      <TD>13218</TD>
+      <TD/>
+      <TD>A</TD>
+      <TD>1</TD>
+      <TD>19 59 26.9</TD>
+      <TD>+35 53 49</TD>
+     </TR>
+     <TR>
+      <TD>1</TD>
+      <TD>19563+3406</TD>
+      <TD>19 58 14</TD>
+      <TD>+34 14 43</TD>
+      <TD>+33</TD>
+      <TD>3683</TD>
+      <TD/>
+      <TD>189705</TD>
+      <TD>A</TD>
+      <TD>+34  1960</TD>
+      <TD>83998</TD>
+      <TD>13235</TD>
+      <TD/>
+      <TD/>
+      <TD>1</TD>
+      <TD>20 00 08.2</TD>
+      <TD>+34 23 01</TD>
+     </TR>
+     <TR>
+      <TD>1</TD>
+      <TD>19586+3502</TD>
+      <TD>20 00 30</TD>
+      <TD>+35 10 15</TD>
+      <TD>+34</TD>
+      <TD>3850</TD>
+      <TD/>
+      <TD>227247</TD>
+      <TD>A</TD>
+      <TD>+35  1928</TD>
+      <TD>84070</TD>
+      <TD>13292</TD>
+      <TD/>
+      <TD>A</TD>
+      <TD>9</TD>
+      <TD>20 02 23.1</TD>
+      <TD>+35 18 42</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

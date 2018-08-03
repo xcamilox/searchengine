@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_A_A_588_A14_table4" name="J/A+A/588/A14/table4">
+   <DESCRIPTION>
+    Catalog of combined dataset groups
+   </DESCRIPTION>
+   <FIELD ID="Group" datatype="int" name="Group" ucd="ID_PARENT" width="5">
+    <DESCRIPTION>
+     Group id
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Ngal" datatype="short" name="Ngal" ucd="NUMBER" width="3">
+    <DESCRIPTION>
+     Richness of the group
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right ascension of the group centre (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination of the group centre (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GLON" datatype="double" name="GLON" precision="5" ucd="POS_GAL_LON" unit="deg" width="9">
+    <DESCRIPTION>
+     Galactic longitude of the group centre
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="GLAT" datatype="double" name="GLAT" precision="5" ucd="POS_GAL_LAT" unit="deg" width="9">
+    <DESCRIPTION>
+     Galactic latitude of the group centre
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SGLON" datatype="double" name="SGLON" precision="5" ucd="POS_SG_LON" unit="deg" width="9">
+    <DESCRIPTION>
+     Supergalactic longitude of the group centre
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SGLAT" datatype="double" name="SGLAT" precision="5" ucd="POS_SG_LAT" unit="deg" width="9">
+    <DESCRIPTION>
+     Supergalactic latitude of the group centre
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="zcmb" datatype="double" name="zcmb" precision="5" ucd="VELOC_CMB" width="9">
+    <DESCRIPTION>
+     CMB-corrected redshift of the group
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DistG" datatype="double" name="DistG" precision="4" ucd="PHYS_DISTANCE_TRUE" unit="Mpc" width="8">
+    <DESCRIPTION>
+     Comoving distance to the group centre
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="sigmav" datatype="double" name="sigmav" precision="3" ucd="FIT_STDEV" unit="km.s-1" width="9">
+    <DESCRIPTION>
+     rms deviation of the radial velocities
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="sigmasky" datatype="double" name="sigmasky" precision="4" ucd="FIT_STDEV" unit="Mpc" width="9">
+    <DESCRIPTION>
+     rms deviation of the sky-projected distances
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="rmax" datatype="double" name="rmax" precision="4" ucd="PHYS_DISTANCE_TRUE" unit="Mpc" width="8">
+    <DESCRIPTION>
+     Distance from group center to farthest member
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Mass200" datatype="double" name="Mass200" precision="5" ucd="PHYS_MASS_MISC" unit="10+12Msun" width="11">
+    <DESCRIPTION>
+     Estimated mass of the NFW profile group
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="R200" datatype="double" name="R200" precision="4" ucd="PHYS_SIZE_RADIUS_GENERAL" unit="kpc" width="8">
+    <DESCRIPTION>
+     Radius, where mean density is 200 the Universe average density
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="magG" datatype="float" name="magG" precision="4" ucd="PHOT_MAG_UNDEF" unit="mag" width="7">
+    <DESCRIPTION>
+     Observed magnitude of the group
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>1714</TD>
+      <TD>3</TD>
+      <TD>215.40815</TD>
+      <TD>  0.32262</TD>
+      <TD>344.65636</TD>
+      <TD> 54.82039</TD>
+      <TD>123.17182</TD>
+      <TD> 20.63998</TD>
+      <TD>  0.05427</TD>
+      <TD>236.9438</TD>
+      <TD>  385.096</TD>
+      <TD>   0.5129</TD>
+      <TD>  0.9023</TD>
+      <TD>  143.89615</TD>
+      <TD>  1.0854</TD>
+      <TD>11.1920</TD>
+     </TR>
+     <TR>
+      <TD>8263</TD>
+      <TD>4</TD>
+      <TD>214.42578</TD>
+      <TD>  0.40114</TD>
+      <TD>344.27072</TD>
+      <TD> 56.18667</TD>
+      <TD>121.87440</TD>
+      <TD> 19.98129</TD>
+      <TD>  0.05301</TD>
+      <TD>231.4872</TD>
+      <TD>  452.007</TD>
+      <TD>   0.3070</TD>
+      <TD>  0.5837</TD>
+      <TD>  118.85721</TD>
+      <TD>  1.0188</TD>
+      <TD>10.4575</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

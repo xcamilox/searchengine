@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="I_323_icrf2" name="I/323/icrf2">
+   <DESCRIPTION>
+    ICRF2 catalog ({\aFile{I/323/tn35.pdf}{IERS Technical Note \#35}})
+   </DESCRIPTION>
+   <FIELD ID="ICRF" arraysize="16" datatype="char" name="ICRF" ucd="ID_MAIN">
+    <DESCRIPTION>
+     International Celestial Reference Frame name, (JHHMMSS.s+DDMMSS)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="IVS" arraysize="8" datatype="char" name="IVS" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     International VLBI Service name, (HHMM+DDd, B1950 equinox)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="IERS" arraysize="8" datatype="char" name="IERS" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     International Earth Rotation and Reference Systems Service name
+     (HHMM+DDd, B1950 equinox)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="fl" arraysize="1" datatype="char" name="fl" ucd="NOTE">
+    <DESCRIPTION>
+     [DVN] Flag on source role (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="17" datatype="char" name="RAJ2000" ucd="POS_EQ_RA_MAIN" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Right Ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_RAJ2000" datatype="double" name="e_RAJ2000" precision="8" ucd="ERROR" unit="s" width="11">
+    <DESCRIPTION>
+     Inflated formal error in Right Ascension
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="17" datatype="char" name="DEJ2000" ucd="POS_EQ_DEC_MAIN" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="e_DEJ2000" datatype="double" name="e_DEJ2000" precision="7" ucd="ERROR" unit="arcs" width="10">
+    <DESCRIPTION>
+     Inflated formal error in Declination
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Corr" datatype="float" name="Corr" precision="3" ucd="STAT_CORRELATION" width="6">
+    <DESCRIPTION>
+     [-1/1] Correlation between RA and Dec
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Ep" datatype="float" name="Ep" precision="1" ucd="TIME_EPOCH" unit="d" width="7">
+    <DESCRIPTION>
+     Mean observation epoch (MJD)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Of" datatype="float" name="Of" precision="1" ucd="TIME_EPOCH" unit="d" width="7">
+    <DESCRIPTION>
+     First observation epoch (MJD)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Ol" datatype="float" name="Ol" precision="1" ucd="TIME_EPOCH" unit="d" width="7">
+    <DESCRIPTION>
+     Last observation epoch (MJD)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Nexp" datatype="short" name="Nexp" ucd="NUMBER" width="4">
+    <DESCRIPTION>
+     Number of VLBI sessions
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Nobs" datatype="int" name="Nobs" ucd="NUMBER" width="6">
+    <DESCRIPTION>
+     Number of VLBI observations
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>J195734.4+342754</TD>
+      <TD>1955+343</TD>
+      <TD>1955+343</TD>
+      <TD>N</TD>
+      <TD>19 57 34.45493015</TD>
+      <TD> 0.00020896</TD>
+      <TD>+34 27 54.6288211</TD>
+      <TD> 0.0040719</TD>
+      <TD>-0.157</TD>
+      <TD>53832.5</TD>
+      <TD>49690.0</TD>
+      <TD>54292.7</TD>
+      <TD>2</TD>
+      <TD>10</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

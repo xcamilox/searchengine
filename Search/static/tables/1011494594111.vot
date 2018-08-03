@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJS_207_19_table3" name="J/ApJS/207/19/table3">
+   <DESCRIPTION>
+    Catalog of sources in the 70 month Swift-BAT survey
+   </DESCRIPTION>
+   <FIELD ID="SWIFT" arraysize="13" datatype="char" name="SWIFT" ucd="ID_MAIN">
+    <DESCRIPTION>
+     Swift/BAT identifier (JHHMM.m+DDMM) (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="float" name="RAJ2000" precision="3" ucd="POS_EQ_RA_MAIN" unit="deg" width="7">
+    <DESCRIPTION>
+     Right Ascension in decimal degrees (J2000) (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="float" name="DEJ2000" precision="3" ucd="POS_EQ_DEC_MAIN" unit="deg" width="7">
+    <DESCRIPTION>
+     Declination in decimal degrees (J2000) (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="S_N" datatype="float" name="S_N" precision="2" ucd="INST_S/N" width="7">
+    <DESCRIPTION>
+     [4/8581]? Signal to noise
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="CName" arraysize="26" datatype="char" name="CName" ucd="ID_ASSOCIATED">
+    <DESCRIPTION>
+     Counterpart name
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Flux" datatype="double" name="Flux" precision="2" ucd="PHOT_FLUX_X" unit="fW.m-2" width="8">
+    <DESCRIPTION>
+     [3/23862]? Swift/BAT hard X(14-195keV) flux (4)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Cont" datatype="float" name="Cont" precision="2" ucd="REDUCT_PARAM" width="5">
+    <DESCRIPTION>
+     [0.02/31.4]? Contaminated portion (5)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Gamma" datatype="float" name="Gamma" precision="2" ucd="SPECT_SP-INDEX" width="5">
+    <DESCRIPTION>
+     [0.59/8.55]? Spectral index {Gamma} (6)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="chi2" datatype="double" name="chi2" precision="2" ucd="FIT_CHI2" width="8">
+    <DESCRIPTION>
+     [0/99292] Reduced {chi}^2^ of spectral fit
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="z" datatype="float" name="z" precision="4" ucd="REDSHIFT_HC" width="7">
+    <DESCRIPTION>
+     [/3.7]? Redshift from the literature (7)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="u_z" arraysize="1" datatype="char" name="u_z" ucd="CODE_ERROR">
+    <DESCRIPTION>
+     [?] Indicates an unknown z
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="logL" datatype="float" name="logL" precision="2" ucd="PHYS_LUMINOSITY_X" unit="[10-7W]" width="5">
+    <DESCRIPTION>
+     [39.81/48.63]? Log of 14-195keV luminosity (8)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="AS" datatype="unsignedByte" name="AS" ucd="CODE_MISC" width="1">
+    <DESCRIPTION>
+     [1/7]? Association strength (9) [NULL integer written as an empty
+     string]
+    </DESCRIPTION>
+    <VALUES null="255"/>
+   </FIELD>
+   <FIELD ID="Cl" datatype="short" name="Cl" ucd="CLASS_CODE" width="2">
+    <DESCRIPTION>
+     [0/15] Source class (10)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="P" datatype="short" name="P" ucd="NUMBER" width="3">
+    <DESCRIPTION>
+     Link to previous surveys: AGN survey (Tueller et al. 2008,
+     J/ApJ/681/113) and/or the 22-month survey (Tueller et al. 2010,
+     J/ApJS/186/378) [NULL integer written as an empty string]
+    </DESCRIPTION>
+    <VALUES null="-32768"/>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="NED" arraysize="3" datatype="char" name="NED" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}NED} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>J1958.4+3510</TD>
+      <TD>299.563</TD>
+      <TD> 35.202</TD>
+      <TD>8580.06</TD>
+      <TD>Cyg X-1</TD>
+      <TD>21861.30</TD>
+      <TD/>
+      <TD> 1.82</TD>
+      <TD>35867.00</TD>
+      <TD/>
+      <TD/>
+      <TD/>
+      <TD>255</TD>
+      <TD>13</TD>
+      <TD>1</TD>
+      <TD>Simbad</TD>
+      <TD>NED</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

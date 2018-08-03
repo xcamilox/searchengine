@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="J_ApJS_156_47_table1" name="J/ApJS/156/47/table1">
+   <DESCRIPTION>
+    Atmospheric parameters of DA stars from the complete PG sample
+   </DESCRIPTION>
+   <FIELD ID="PG" arraysize="8" datatype="char" name="PG" ucd="ID_MAIN">
+    <DESCRIPTION>
+     The Palomar Green Survey identification
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Teff" datatype="int" name="Teff" ucd="PHYS_TEMP_EFFEC" unit="K" width="6">
+    <DESCRIPTION>
+     Effective temperature
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="log_g_" datatype="float" name="log_g_" precision="2" ucd="PHYS_GRAVITY_SURFACE" unit="[cm/s2]" width="5">
+    <DESCRIPTION>
+     Log of the surface gravity
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Mass" datatype="float" name="Mass" precision="2" ucd="PHYS_MASS_MISC" unit="Msun" width="5">
+    <DESCRIPTION>
+     Stellar mass in solar units
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="VMAG" datatype="float" name="VMAG" precision="2" ucd="PHOT_ABS-MAG_BAND" unit="mag" width="5">
+    <DESCRIPTION>
+     Absolute visual magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="logL" datatype="float" name="logL" precision="2" ucd="PHYS_LUMINOSITY_GENERAL" unit="[solLum]" width="5">
+    <DESCRIPTION>
+     Log of the luminosity in solar units
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Vmag" datatype="float" name="Vmag" precision="3" ucd="PHOT_JHN_V" unit="mag" width="6">
+    <DESCRIPTION>
+     Apparent V band magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dist" datatype="short" name="Dist" ucd="POS_GAL_HC" unit="pc" width="4">
+    <DESCRIPTION>
+     Heliocentric Distance
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_1_Vmax" datatype="float" name="_1_Vmax" precision="E2" ucd="PHYS_DENSITY_NUMBER" unit="pc-3" width="9">
+    <DESCRIPTION>
+     Stellar contribution to the local space density
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="logtau" datatype="float" name="logtau" precision="2" ucd="TIME_EVOLUTION" unit="[yr]" width="5">
+    <DESCRIPTION>
+     Log of the cooling time
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="4" ucd="POS_EQ_RA_MAIN" unit="deg" width="8">
+    <DESCRIPTION>
+     Position (from Palomar-Green catalog, see II/207) (right
+     ascension part)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="4" ucd="POS_EQ_DEC_MAIN" unit="deg" width="8">
+    <DESCRIPTION>
+     Position (from Palomar-Green catalog, see II/207) (declination
+     part)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>1418-005</TD>
+      <TD>14290</TD>
+      <TD> 7.82</TD>
+      <TD> 0.51</TD>
+      <TD>11.06</TD>
+      <TD>-2.09</TD>
+      <TD>16.520</TD>
+      <TD>123</TD>
+      <TD>  1.1e-06</TD>
+      <TD> 8.32</TD>
+      <TD>215.3816</TD>
+      <TD> -0.7393</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

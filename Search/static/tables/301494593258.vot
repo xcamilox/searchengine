@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="III_231_catalog" name="III/231/catalog">
+   <DESCRIPTION>
+    Main Catalog
+   </DESCRIPTION>
+   <FIELD ID="TYC1" datatype="short" name="TYC1" ucd="ID_MAIN:1" width="4">
+    <DESCRIPTION>
+     First part of Tycho-2 identifier
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="TYC2" datatype="int" name="TYC2" ucd="ID_MAIN:2" width="5">
+    <DESCRIPTION>
+     Second part of Tycho-2 identifier
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="TYC3" datatype="unsignedByte" name="TYC3" ucd="ID_MAIN:3" width="1">
+    <DESCRIPTION>
+     Third part of Tycho-2 identifier
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="8" ucd="POS_EQ_RA_MAIN" unit="deg" width="12">
+    <DESCRIPTION>
+     Right Ascension, J2000, decimal deg.
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="8" ucd="POS_EQ_DEC_MAIN" unit="deg" width="12">
+    <DESCRIPTION>
+     Declination, J2000, decimal deg.
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="VTmag" datatype="float" name="VTmag" precision="3" ucd="PHOT_TYCHO_V" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Tycho-2 V_T_ magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="BTmag" datatype="float" name="BTmag" precision="3" ucd="PHOT_TYCHO_B" unit="mag" width="6">
+    <DESCRIPTION>
+     ? Tycho-2 B_T_ magnitude
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="r_SpType" arraysize="3" datatype="char" name="r_SpType" ucd="REFER_CODE">
+    <DESCRIPTION>
+     Source of spectral type (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Dist" datatype="float" name="Dist" precision="3" ucd="POS_ANG_DIST_GENERAL" unit="arcs" width="6">
+    <DESCRIPTION>
+     Distance between Tycho object and spectral type match (4)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Teff" datatype="int" name="Teff" ucd="PHYS_TEMP_EFFEC" unit="K" width="5">
+    <DESCRIPTION>
+     Effective temperature of the star, based on spectral type (G1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpType" arraysize="20" datatype="char" name="SpType" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     Spectral Type (1)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>317</TD>
+      <TD>825</TD>
+      <TD>1</TD>
+      <TD>214.92062594</TD>
+      <TD>  0.38433576</TD>
+      <TD> 6.205</TD>
+      <TD> 6.425</TD>
+      <TD>mc5</TD>
+      <TD> 0.321</TD>
+      <TD>8200</TD>
+      <TD>A5 V</TD>
+     </TR>
+     <TR>
+      <TD>318</TD>
+      <TD>1370</TD>
+      <TD>1</TD>
+      <TD>215.89125262</TD>
+      <TD>  0.04708222</TD>
+      <TD> 9.268</TD>
+      <TD>10.177</TD>
+      <TD>mc5</TD>
+      <TD> 0.280</TD>
+      <TD>5770</TD>
+      <TD>G6 V</TD>
+     </TR>
+     <TR>
+      <TD>318</TD>
+      <TD>1422</TD>
+      <TD>1</TD>
+      <TD>215.15955973</TD>
+      <TD>  0.22730463</TD>
+      <TD> 9.764</TD>
+      <TD>11.264</TD>
+      <TD>ppN</TD>
+      <TD> 0.185</TD>
+      <TD>4420</TD>
+      <TD>K2</TD>
+     </TR>
+     <TR>
+      <TD>318</TD>
+      <TD>1472</TD>
+      <TD>1</TD>
+      <TD>215.12034486</TD>
+      <TD>  0.18185489</TD>
+      <TD> 6.921</TD>
+      <TD> 8.378</TD>
+      <TD>mc5</TD>
+      <TD> 1.052</TD>
+      <TD>4600</TD>
+      <TD>K1 IV</TD>
+     </TR>
+     <TR>
+      <TD>4976</TD>
+      <TD>630</TD>
+      <TD>1</TD>
+      <TD>214.01738080</TD>
+      <TD> -0.31545836</TD>
+      <TD>10.319</TD>
+      <TD>11.313</TD>
+      <TD>ppN</TD>
+      <TD> 0.136</TD>
+      <TD>5150</TD>
+      <TD>G5</TD>
+     </TR>
+     <TR>
+      <TD>4976</TD>
+      <TD>643</TD>
+      <TD>1</TD>
+      <TD>214.45950203</TD>
+      <TD> -1.07913480</TD>
+      <TD>10.395</TD>
+      <TD>10.967</TD>
+      <TD>ppN</TD>
+      <TD> 0.284</TD>
+      <TD>6200</TD>
+      <TD>F8</TD>
+     </TR>
+     <TR>
+      <TD>4976</TD>
+      <TD>1179</TD>
+      <TD>1</TD>
+      <TD>214.86226311</TD>
+      <TD> -0.01334978</TD>
+      <TD> 7.943</TD>
+      <TD> 9.505</TD>
+      <TD>mc5</TD>
+      <TD> 0.151</TD>
+      <TD>4420</TD>
+      <TD>K2/3 III</TD>
+     </TR>
+     <TR>
+      <TD>4976</TD>
+      <TD>1198</TD>
+      <TD>1</TD>
+      <TD>214.25633242</TD>
+      <TD> -0.07931486</TD>
+      <TD> 9.123</TD>
+      <TD> 9.646</TD>
+      <TD>mc5</TD>
+      <TD> 1.249</TD>
+      <TD>6440</TD>
+      <TD>F7 V</TD>
+     </TR>
+     <TR>
+      <TD>4976</TD>
+      <TD>1213</TD>
+      <TD>1</TD>
+      <TD>214.28718355</TD>
+      <TD> -0.12585066</TD>
+      <TD>10.558</TD>
+      <TD>11.689</TD>
+      <TD>ppN</TD>
+      <TD> 0.308</TD>
+      <TD>4750</TD>
+      <TD>K0</TD>
+     </TR>
+     <TR>
+      <TD>4977</TD>
+      <TD>176</TD>
+      <TD>1</TD>
+      <TD>215.69329245</TD>
+      <TD> -0.63713262</TD>
+      <TD> 6.742</TD>
+      <TD> 6.824</TD>
+      <TD>mc5</TD>
+      <TD> 0.491</TD>
+      <TD>10100</TD>
+      <TD>A0 IV</TD>
+     </TR>
+     <TR>
+      <TD>4977</TD>
+      <TD>409</TD>
+      <TD>1</TD>
+      <TD>215.15061125</TD>
+      <TD> -0.71272500</TD>
+      <TD>10.823</TD>
+      <TD>11.417</TD>
+      <TD>ppN</TD>
+      <TD> 0.712</TD>
+      <TD>4750</TD>
+      <TD>K0</TD>
+     </TR>
+     <TR>
+      <TD>4977</TD>
+      <TD>1284</TD>
+      <TD>1</TD>
+      <TD>215.77696387</TD>
+      <TD> -0.36169298</TD>
+      <TD>10.862</TD>
+      <TD>11.265</TD>
+      <TD>ppN</TD>
+      <TD> 0.080</TD>
+      <TD>6200</TD>
+      <TD>F8</TD>
+     </TR>
+     <TR>
+      <TD>4977</TD>
+      <TD>1331</TD>
+      <TD>1</TD>
+      <TD>215.28600500</TD>
+      <TD> -0.10345194</TD>
+      <TD>10.420</TD>
+      <TD>11.340</TD>
+      <TD>ppN</TD>
+      <TD> 0.292</TD>
+      <TD>5150</TD>
+      <TD>G5</TD>
+     </TR>
+     <TR>
+      <TD>4977</TD>
+      <TD>1390</TD>
+      <TD>1</TD>
+      <TD>215.63657555</TD>
+      <TD> -0.34185948</TD>
+      <TD> 9.939</TD>
+      <TD>11.121</TD>
+      <TD>ppN</TD>
+      <TD> 0.079</TD>
+      <TD>4420</TD>
+      <TD>K2</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

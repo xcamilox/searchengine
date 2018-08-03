@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.2.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+  <TABLE ID="II_84_catalog" name="II/84/catalog">
+   <DESCRIPTION>
+    The 13-color photometry (Table 7)
+   </DESCRIPTION>
+   <FIELD ID="n_HR" arraysize="1" datatype="char" name="n_HR" ucd="NOTE">
+    <DESCRIPTION>
+     [*] '*' if remark (see
+     "\begin{tex}\vFile{II/84/./notes.dat}{notes.dat}\end{tex}" file)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="HR" datatype="short" name="HR" ucd="ID_MAIN" width="4">
+    <DESCRIPTION>
+     [1/9110]+ Harvard Revised (Bright Star, V/50) designation
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="m_HR" arraysize="3" datatype="char" name="m_HR" ucd="CODE_MULT_INDEX">
+    <DESCRIPTION>
+     Multiplicity or miscellaneous info. re designation or physical
+     characteristics (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpT" arraysize="17" datatype="char" name="SpT" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     MK spectral type (2)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="n_52" arraysize="1" datatype="char" name="n_52" ucd="NOTE">
+    <DESCRIPTION>
+     [X] 'X' if 52 magnitude from Cape V magnitude
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_52" datatype="float" name="_52" precision="3" ucd="PHOT_13C_52" unit="mag" width="6">
+    <DESCRIPTION>
+     Magnitude, filter 52
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_33-52" datatype="float" name="_33-52" precision="3" ucd="PHOT_13C_33-52" unit="mag" width="6">
+    <DESCRIPTION>
+     33 - 52 color
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_35-52" datatype="float" name="_35-52" precision="3" ucd="PHOT_13C_35-52" unit="mag" width="6">
+    <DESCRIPTION>
+     35 - 52 color
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_37-52" datatype="float" name="_37-52" precision="3" ucd="PHOT_13C_37-52" unit="mag" width="6">
+    <DESCRIPTION>
+     37 - 52 color
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_40-52" datatype="float" name="_40-52" precision="3" ucd="PHOT_13C_40-52" unit="mag" width="6">
+    <DESCRIPTION>
+     40 - 52 color
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_45-52" datatype="float" name="_45-52" precision="3" ucd="PHOT_13C_45-52" unit="mag" width="6">
+    <DESCRIPTION>
+     45 - 52 color
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_52-58" datatype="float" name="_52-58" precision="3" ucd="PHOT_13C_52-58" unit="mag" width="6">
+    <DESCRIPTION>
+     52 - 58 color
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_52-63" datatype="float" name="_52-63" precision="3" ucd="PHOT_13C_52-63" unit="mag" width="6">
+    <DESCRIPTION>
+     52 - 63 color
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_52-72" datatype="float" name="_52-72" precision="3" ucd="PHOT_13C_52-72" unit="mag" width="6">
+    <DESCRIPTION>
+     ? 52 - 72 color
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="_52-80" datatype="float" name="_52-80" precision="3" ucd="PHOT_13C_52-80" unit="mag" width="6">
+    <DESCRIPTION>
+     ? 52 - 80 color
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="_52-86" datatype="float" name="_52-86" precision="3" ucd="PHOT_13C_52-86" unit="mag" width="6">
+    <DESCRIPTION>
+     ? 52 - 86 color
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="_52-99" datatype="float" name="_52-99" precision="3" ucd="PHOT_13C_52-99" unit="mag" width="6">
+    <DESCRIPTION>
+     ? 52 - 99 color
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="_52-110" datatype="float" name="_52-110" precision="3" ucd="PHOT_13C_52-110" unit="mag" width="6">
+    <DESCRIPTION>
+     ? 52 - 110 color
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Nb" datatype="short" name="Nb" ucd="NUMBER" width="2">
+    <DESCRIPTION>
+     Number of blue observations (filters 33 to 63)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Nr" datatype="short" name="Nr" ucd="ID_NUMBER" width="2">
+    <DESCRIPTION>
+     Number of red observations (filters 72 to 110)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Simbad" arraysize="6" datatype="char" name="Simbad" ucd="DATA_LINK">
+    <DESCRIPTION>
+     ask the {\bf\fg{FireBrick}Simbad} data-base about this object
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_RA" datatype="double" name="_RA" precision="5" ucd="POS_EQ_RA_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Right Ascension (J2000) from SIMBAD (not part of the original
+     data)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_DE" datatype="double" name="_DE" precision="5" ucd="POS_EQ_DEC_MAIN" unit="deg" width="9">
+    <DESCRIPTION>
+     Declination (J2000) from SIMBAD (not part of the original data)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD/>
+      <TD>7615</TD>
+      <TD/>
+      <TD>K0 III</TD>
+      <TD/>
+      <TD> 4.157</TD>
+      <TD> 1.661</TD>
+      <TD> 1.474</TD>
+      <TD> 1.561</TD>
+      <TD> 1.340</TD>
+      <TD> 0.459</TD>
+      <TD> 0.495</TD>
+      <TD> 0.797</TD>
+      <TD> 1.025</TD>
+      <TD> 1.261</TD>
+      <TD> 1.339</TD>
+      <TD> 1.506</TD>
+      <TD> 1.680</TD>
+      <TD>2</TD>
+      <TD>1</TD>
+      <TD>Simbad</TD>
+      <TD>299.07655</TD>
+      <TD> 35.08342</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>
